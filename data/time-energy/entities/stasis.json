@@ -1,0 +1,20 @@
+{
+  "id": "stasis",
+  "type": "time-energy",
+  "name": "Stasis",
+  "aliases": ["Standstill", "Equilibrium", "Freeze"],
+  "era": "Universal",
+  "tags": ["energy", "stillness", "balance", "stagnation"],
+  "one_liner": "A period or state of inactivity or equilibrium.",
+  "angles": ["the frozen moment", "peace vs stagnation", "the eye of the storm"],
+  "bar_seeds": ["stopped in time", "perfect balance", "stuck in the mud", "cold comfort"],
+  "concept_type": "Static State",
+  "perception": "Peace, boredom, or anticipation.",
+  "physics_basis": "A state of static equilibrium.",
+  "cultural_view": "Can be seen as either meditative peace or death-like stagnation.",
+  "idioms": ["Standstill", "In a rut", "The calm before the storm"],
+  "related_ids": ["zen", "entropy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

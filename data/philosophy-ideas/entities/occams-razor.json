@@ -1,0 +1,16 @@
+{
+  "id": "occams-razor",
+  "type": "philosophy-ideas",
+  "name": "Occam's Razor",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The problem-solving principle that 'entities should not be multiplied beyond necessity', or that the simplest explanation is usually the right one.",
+  "tags": ["logic", "technical", "minimalist", "intellectual"],
+  "angles": ["simplicity", "efficiency", "cutting the fat"],
+  "bar_seeds": ["sharpest blade", "simplest truth", "no need for ghosts"],
+  "school_of_thought": "Heuristics",
+  "core_question": "Why search for complex answers when the simple one suffices?",
+  "key_philosophers": ["William of Ockham"],
+  "paradoxes": [],
+  "modern_application": "Coding, crime investigation, engineering design."
+}

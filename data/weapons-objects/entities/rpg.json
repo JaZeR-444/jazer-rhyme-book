@@ -1,0 +1,17 @@
+{
+  "id": "rpg",
+  "type": "weapons-objects",
+  "name": "Rocket-Propelled Grenade (RPG)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A shoulder-fired missile weapon that launches rockets equipped with an explosive warhead.",
+  "tags": ["war", "heavy", "explosive", "rebellion"],
+  "angles": ["anti-armor", "blast", "recoil"],
+  "bar_seeds": ["backblast clear", "tank killer", "whoosh and boom"],
+  "related_ids": ["grenade"],
+  "weapon_type": "Launcher",
+  "range": "Medium-range",
+  "damage_type": "Explosive",
+  "symbolism": "Asymmetric warfare, heavy firepower, and revolutionary imagery.",
+  "famous_users": ["Insurgents", "Rambo"]
+}

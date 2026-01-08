@@ -1,0 +1,20 @@
+{
+  "id": "bugatti-veyron",
+  "type": "vehicles",
+  "name": "Bugatti Veyron",
+  "aliases": ["Bugatti", "Veyron"],
+  "era": "2000s-2010s",
+  "tags": ["luxury-car", "speed", "status", "engineering"],
+  "one_liner": "A masterpiece of engineering that redefined the limits of road-car performance and speed.",
+  "angles": ["breaking the 250mph barrier", "the hypercar benchmark", "unlimited wealth"],
+  "bar_seeds": ["quad-turbo w16", "million dollar car", "shifting at light speed"],
+  "vehicle_type": "Hypercar",
+  "engine_type": "8.0 L Quad-turbo W16",
+  "top_speed": "253 mph",
+  "cultural_status": "A symbol of ultimate automotive achievement and extreme wealth.",
+  "design_features": ["Curvaceous aerodynamics", "Active rear wing", "Horseshoe grille"],
+  "related_ids": ["luxury"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

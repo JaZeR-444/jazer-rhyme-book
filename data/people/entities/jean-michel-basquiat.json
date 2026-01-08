@@ -1,0 +1,17 @@
+{
+  "id": "jean-michel-basquiat",
+  "type": "people",
+  "name": "Jean-Michel Basquiat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A neo-expressionist painter who went from graffiti artist to art star, known for his raw, chaotic style.",
+  "tags": ["art", "raw", "nyc", "legacy"],
+  "angles": ["crown", "street-art", "chaos"],
+  "bar_seeds": ["samo tag", "three point crown", "sold for millions"],
+  "related_ids": ["andy-warhol", "jay-z"],
+  "known_for": ["Neo-expressionism", "Graffiti (SAMO)", "Crown motif"],
+  "vibe": "Raw, poetic, chaotic",
+  "signature_items": ["Dreadlocks", "Paint-splattered suit", "Crown"],
+  "quotables_short": ["I'm not a real person. I'm a legend."],
+  "controversy_flags": ["Drug addiction"]
+}

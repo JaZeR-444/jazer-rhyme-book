@@ -1,0 +1,21 @@
+{
+  "id": "bonnie-raitt",
+  "type": "music",
+  "name": "Bonnie Raitt",
+  "aliases": ["Bonnie", "Slide Guitar Queen"],
+  "era": "1971-Present",
+  "tags": ["blues", "slide-guitar", "soul", "folk", "veteran"],
+  "one_liner": "A blues and folk artist known for masterful slide guitar and soulful vocals.",
+  "angles": ["slide guitar mastery", "blues soul", "veteran artist"],
+  "bar_seeds": ["nick of time", "luck of the draw", "slipstream", "just like that"],
+  "genre": ["Blues", "Folk", "Rock", "Soul"],
+  "era_detail": "Started in 1971, career spans decades with renewed success.",
+  "signature_songs": ["Something to Talk About", "I Can't Make You Love Me", "Just Like That"],
+  "sonic_descriptors": ["soulful", "bluesy", "slide guitar"],
+  "influence_tree": ["Blues legends", "Folk tradition"],
+  "aesthetic": "Blues, soulful, slide guitar",
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

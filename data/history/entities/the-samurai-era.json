@@ -1,0 +1,16 @@
+{
+  "id": "the-samurai-era",
+  "type": "history",
+  "name": "The Samurai Era",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A period of Japanese history dominated by a powerful military caste of hereditary nobility.",
+  "tags": ["war", "classic", "honor", "asian"],
+  "angles": ["bushido", "martial skill", "honor and death"],
+  "bar_seeds": ["katana steel", "seven samurai", "ronin walk"],
+  "key_dates": ["1185", "1868"],
+  "location": "Japan",
+  "impact": "Created a unique cultural legacy of discipline and artistic refinement mixed with warfare.",
+  "major_figures": ["Miyamoto Musashi", "Oda Nobunaga", "Tokugawa Ieyasu"],
+  "cultural_shift": "Codification of Bushido and the rigid social hierarchy of feudal Japan."
+}

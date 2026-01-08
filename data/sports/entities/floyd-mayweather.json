@@ -1,0 +1,19 @@
+{
+  "id": "floyd-mayweather",
+  "type": "sports",
+  "name": "Floyd Mayweather",
+  "aliases": ["Money Mayweather", "Pretty Boy Floyd", "TBE"],
+  "era": "1990s-2010s",
+  "tags": ["boxing", "luxury", "hustle", "technical"],
+  "one_liner": "The master of defensive boxing and business, retiring undefeated with 50-0 record.",
+  "angles": ["undefeated", "defensive master", "the money team"],
+  "bar_seeds": ["shoulder roll", "50 and 0", "checkmate"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Defense", "Counter-punching", "Marketing"],
+  "equipment": ["Boxing gloves", "Mouthguard"],
+  "metaphors": ["The Money Team", "TBE (The Best Ever)"],
+  "legends": ["50-0 Record", "15 Major World Titles"],
+  "related_ids": ["muhammad-ali", "mike-tyson"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

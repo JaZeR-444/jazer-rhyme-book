@@ -1,0 +1,18 @@
+{
+  "id": "inglourious-basterds-2009",
+  "type": "cinema",
+  "name": "Inglourious Basterds",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+  "tags": ["war", "revenge", "cinematic", "pop"],
+  "angles": ["alternate-history", "tension-and-dialogue", "the-power-of-cinema"],
+  "bar_seeds": ["scalping the enemy", "three finger drink", "bear jew"],
+  "related_ids": ["pulp-fiction-1994"],
+  "era": "2009",
+  "plot_hooks": ["The opening farm interrogation", "The tavern shootout", "The theater fire"],
+  "iconic_scenes": ["That's a bingo!", "Three fingers gesture", "The cinema massacre"],
+  "visual_motifs": ["Cinematic film reels", "Bowie knives", "Pipe smoke"],
+  "themes": ["History as a story", "Vengeance", "Language and Identity"],
+  "quotables_short": ["Au revoir, Shosanna!", "I think this might just be my masterpiece."]
+}

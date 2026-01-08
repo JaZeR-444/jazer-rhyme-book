@@ -1,0 +1,256 @@
+/**
+ * JaZeR Musical Journey — Design Tokens
+ * ======================================
+ * 
+ * Core design system for the experiential webpage.
+ * Dark-mode-first, neon as punctuation, high contrast.
+ */
+
+/* ============================================
+   COLOR SYSTEM
+   ============================================ */
+
+:root {
+  /* Surface Colors — True blacks to elevated grays */
+  --surface-0: hsl(240, 20%, 6%); /* True black base */
+  --surface-1: hsl(240, 18%, 10%); /* Card/panel backgrounds */
+  --surface-2: hsl(240, 15%, 16%); /* Elevated elements */
+  --surface-3: hsl(240, 12%, 22%); /* Hover states */
+
+  /* Text Colors */
+  --text-primary: hsl(0, 0%, 95%); /* Main text */
+  --text-secondary: hsl(240, 10%, 60%); /* Subdued text */
+  --text-muted: hsl(240, 10%, 40%); /* Hints, labels */
+
+  /* Accent Colors — Neon restraint, used sparingly */
+  --accent-neon: hsl(180, 100%, 50%); /* Cyan highlights */
+  --accent-neon-glow: hsla(180, 100%, 50%, 0.3);
+  --accent-warm: hsl(35, 100%, 60%); /* Amber secondary */
+  --accent-warm-glow: hsla(35, 100%, 60%, 0.3);
+  --accent-purple: hsl(270, 80%, 60%); /* Creative emphasis */
+
+  /* Era Colors — Each era has a signature hue */
+  --era-genesis: hsl(200, 80%, 50%);
+  --era-evolution: hsl(160, 70%, 45%);
+  --era-current: hsl(280, 70%, 55%);
+
+  /* Borders & Overlays */
+  --border-subtle: hsla(0, 0%, 100%, 0.06);
+  --border-visible: hsla(0, 0%, 100%, 0.12);
+  --overlay-dark: hsla(240, 20%, 6%, 0.8);
+  --overlay-glass: hsla(240, 15%, 16%, 0.6);
+
+  /* ============================================
+     TYPOGRAPHY SYSTEM
+     ============================================ */
+
+  /* Font Families */
+  --font-sans: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+
+  /* Type Scale — Fluid, clamp-based */
+  --text-hero: clamp(3rem, 8vw, 7rem);
+  --text-h1: clamp(2rem, 4vw, 3.5rem);
+  --text-h2: clamp(1.5rem, 3vw, 2rem);
+  --text-h3: clamp(1.25rem, 2vw, 1.5rem);
+  --text-body: 1.125rem;
+  --text-small: 0.875rem;
+  --text-micro: 0.75rem;
+
+  /* Line Heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* Font Weights */
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* ============================================
+     SPACING SYSTEM
+     ============================================ */
+
+  --space-unit: 0.25rem; /* 4px base unit */
+  --space-xs: calc(var(--space-unit) * 2); /* 8px */
+  --space-sm: calc(var(--space-unit) * 4); /* 16px */
+  --space-md: calc(var(--space-unit) * 6); /* 24px */
+  --space-lg: calc(var(--space-unit) * 10); /* 40px */
+  --space-xl: calc(var(--space-unit) * 16); /* 64px */
+  --space-2xl: calc(var(--space-unit) * 24); /* 96px */
+  --space-section: calc(var(--space-unit) * 32); /* 128px */
+
+  /* ============================================
+     MOTION TOKENS
+     ============================================ */
+
+  --duration-micro: 150ms;
+  --duration-short: 300ms;
+  --duration-medium: 500ms;
+  --duration-long: 800ms;
+  --duration-cinematic: 1200ms;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-snap: cubic-bezier(0.19, 1, 0.22, 1);
+
+  /* ============================================
+     LAYOUT TOKENS
+     ============================================ */
+
+  --container-max: 1400px;
+  --container-padding: var(--space-md);
+  --grid-columns: 12;
+  --grid-gap: var(--space-md);
+
+  /* Section Heights */
+  --section-min-height: 100vh;
+
+  /* Z-Index Scale */
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-sticky: 100;
+  --z-modal: 1000;
+  --z-overlay: 2000;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+  background-color: var(--surface-0);
+  overflow-x: hidden;
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================
+   SCROLL CONTAINER
+   ============================================ */
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+}
+
+/* ============================================
+   SECTION BASE
+   ============================================ */
+
+.section {
+  min-height: var(--section-min-height);
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.section--pinned {
+  /* For ScrollTrigger pinned sections */
+  overflow: hidden;
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES
+   ============================================ */
+
+.text-hero {
+  font-size: var(--text-hero);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.02em;
+}
+
+.text-h1 {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+}
+
+.text-h2 {
+  font-size: var(--text-h2);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-snug);
+}
+
+.text-body {
+  font-size: var(--text-body);
+  line-height: var(--leading-relaxed);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-accent {
+  color: var(--accent-neon);
+}
+
+/* ============================================
+   GLASSMORPHISM UTILITIES
+   ============================================ */
+
+.glass {
+  background: var(--overlay-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+}
+
+.glass-dark {
+  background: var(--overlay-dark);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* ============================================
+   NEON GLOW UTILITIES
+   ============================================ */
+
+.glow-neon {
+  box-shadow: 0 0 20px var(--accent-neon-glow), 0 0 40px var(--accent-neon-glow);
+}
+
+.text-glow-neon {
+  text-shadow: 0 0 10px var(--accent-neon-glow),
+    0 0 20px var(--accent-neon-glow);
+}

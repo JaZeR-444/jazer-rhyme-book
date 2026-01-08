@@ -1,0 +1,17 @@
+{
+  "id": "fermi-paradox",
+  "type": "science-future",
+  "name": "Fermi Paradox",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The conflict between the lack of clear, obvious evidence for extraterrestrial life and various high estimates for their existence.",
+  "tags": ["cosmic", "philosophical-ideas", "mystery", "existence"],
+  "angles": ["where-is-everyone", "the-great-silence", "statistical-improbability"],
+  "bar_seeds": ["listening to static", "infinite stars zero signal", "lonely in the dark"],
+  "related_ids": ["the-great-filter", "exoplanets"],
+  "field": "Astrobiology / Cosmology",
+  "hypothesis": "Given the age and scale of the universe, we should see aliens; why don't we?",
+  "implications": ["Life is extremely rare", "Civilizations self-destruct", "We are being avoided"],
+  "technologies": ["SETI", "Breakthrough Listen"],
+  "ethical_concerns": ["The risk of contact", "Meaning of human existence if alone"]
+}

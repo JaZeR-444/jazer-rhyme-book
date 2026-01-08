@@ -1,0 +1,17 @@
+{
+  "id": "laurel-wreath-symbol",
+  "type": "rituals-symbols",
+  "name": "Laurel Wreath",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A circular wreath made of interlocking branches and leaves of the bay laurel, representing victory and honor.",
+  "tags": ["victory", "classic", "status", "history"],
+  "angles": ["triumph", "academic-peak", "olympian-honor"],
+  "bar_seeds": ["crown of leaves", "victor's head", "ancient glory"],
+  "related_ids": ["ancient-rome", "ancient-greece", "victory"],
+  "purpose": "To honor a victor, poet, or scholar.",
+  "steps": ["Presentation of the wreath", "Crowning the recipient"],
+  "objects_used": ["Laurel Leaves", "Gold (in ornamental versions)"],
+  "participants": "Victor, Judge, Community",
+  "outcome": "Recognized prestige and achievement."
+}

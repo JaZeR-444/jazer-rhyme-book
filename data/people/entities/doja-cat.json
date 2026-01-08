@@ -1,0 +1,52 @@
+{
+  "id": "doja-cat",
+  "type": "people",
+  "name": "Doja Cat",
+  "aliases": [],
+  "era": "2010s-2020s",
+  "tags": [
+    "mainstream",
+    "vibrant",
+    "contemporary",
+    "innovative",
+    "viral"
+  ],
+  "one_liner": "Genre-blending pop artist known for playful visuals and viral hooks.",
+  "angles": [
+    "shape-shifting pop",
+    "internet-savvy visuals",
+    "playful edge"
+  ],
+  "bar_seeds": [
+    "viral hook loop",
+    "switch the vibe",
+    "neon spotlight"
+  ],
+  "related_ids": [
+    "taylor-swift",
+    "beyonce"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doja_Cat",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Music",
+    "Visuals"
+  ],
+  "vibe": "Playful, eclectic, and meme-aware",
+  "signature_items": [
+    "Bold visuals",
+    "Costume looks"
+  ],
+  "quotables_short": [
+    "Say so"
+  ],
+  "controversy_flags": []
+}

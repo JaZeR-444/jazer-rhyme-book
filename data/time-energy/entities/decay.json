@@ -1,0 +1,17 @@
+{
+  "id": "decay",
+  "type": "time-energy",
+  "name": "Decay",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The organic or mechanical process of breaking down over time.",
+  "tags": ["grit", "dark", "entropy", "organic"],
+  "angles": ["rotting", "fading", "half-life"],
+  "bar_seeds": ["rust on the iron", "echoes getting softer", "bone to dust"],
+  "related_ids": ["entropy", "the-past"],
+  "concept_type": "Biological/Physics",
+  "perception": "Melancholic, slow, and natural.",
+  "physics_basis": "Radioactive decay or chemical oxidation.",
+  "cultural_view": "Symbolic of mortality, the passage of time, and lost grandeur.",
+  "idioms": ["Rust never sleeps", "Dust to dust", "Fading away"]
+}

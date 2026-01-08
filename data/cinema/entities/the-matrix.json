@@ -1,0 +1,27 @@
+{
+  "id": "the-matrix-1999",
+  "type": "cinema",
+  "name": "The Matrix",
+  "aliases": ["Matrix"],
+  "era": "1999",
+  "tags": ["cyberpunk", "philosophical", "cinematic"],
+  "one_liner": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+  "angles": ["red pill vs blue pill", "simulated reality", "bullet time"],
+  "bar_seeds": ["I took the red pill, now I see the code", "Dodging bullets in slow-mo, bullet time flow"],
+  "related_ids": ["neo", "morpheus"],
+  "created_at": "2025-12-23T10:20:00Z",
+  "updated_at": "2025-12-23T10:20:00Z",
+  "sources": [
+    {
+      "title": "IMDB Page",
+      "url": "https://www.imdb.com/title/tt0133093/",
+      "type": "wiki",
+      "accessed_at": "2025-12-23"
+    }
+  ],
+  "plot_hooks": ["Reality is a simulation", "Humanity is enslaved by machines"],
+  "iconic_scenes": ["The choice of pills", "Lobby shootout"],
+  "visual_motifs": ["Green digital rain", "Black leather coats"],
+  "themes": ["Control", "Freedom", "Identity"],
+  "quotables_short": ["There is no spoon"]
+}

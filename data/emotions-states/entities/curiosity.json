@@ -1,0 +1,17 @@
+{
+  "id": "curiosity",
+  "type": "emotions-states",
+  "name": "Curiosity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A strong desire to know or learn something.",
+  "tags": ["positive", "innovative", "technical", "youth"],
+  "angles": ["the-search-for-truth", "restless-mind", "discovery"],
+  "bar_seeds": ["wondering why", "looking behind the curtain", "the hunger for knowledge"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Leaning forward", "Raised eyebrows", "Active gaze"],
+  "triggers": ["Mystery", "Unfinished patterns", "New environments"],
+  "action_urge": "To investigate, ask questions, or explore.",
+  "opposites": ["Apathy", "Indifference"],
+  "related_ids": ["wonder", "awe"]
+}

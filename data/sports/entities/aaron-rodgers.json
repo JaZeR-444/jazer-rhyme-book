@@ -1,0 +1,60 @@
+{
+  "id": "aaron-rodgers",
+  "type": "sports",
+  "name": "Aaron Rodgers",
+  "aliases": [
+    "A-Rod"
+  ],
+  "era": "2000s-2020s",
+  "tags": [
+    "legacy",
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NFL quarterback known for precision passing and late-game composure.",
+  "angles": [
+    "precision passer",
+    "calm in chaos",
+    "deep ball touch"
+  ],
+  "bar_seeds": [
+    "tight-window laser",
+    "hail mary flight",
+    "pocket surgeon"
+  ],
+  "team_size": "11 (American football)",
+  "key_skills": [
+    "Accuracy",
+    "Decision making",
+    "Arm strength"
+  ],
+  "equipment": [
+    "Helmet",
+    "Football",
+    "Shoulder pads"
+  ],
+  "metaphors": [
+    "surgical arm",
+    "ice-cold closer"
+  ],
+  "legends": [
+    "Super Bowl title",
+    "Multiple MVPs"
+  ],
+  "related_ids": [
+    "tom-brady",
+    "patrick-mahomes"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

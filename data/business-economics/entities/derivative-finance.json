@@ -1,0 +1,17 @@
+{
+  "id": "derivative-finance",
+  "type": "business-economics",
+  "name": "Derivative",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A financial contract that derives its value from an underlying asset, index, or rate.",
+  "tags": ["technical", "finance", "power", "complex"],
+  "angles": ["derived-value", "hedging-the-bet", "abstract-wealth"],
+  "bar_seeds": ["betting on the bet", "paper value", "financial alchemy"],
+  "related_ids": ["leverage", "stock-market"],
+  "industry": "Finance",
+  "core_principle": "Value based on an underlying asset.",
+  "jargon": ["Options", "Futures", "Swaps", "Notional value"],
+  "key_metrics": ["Underlying Price", "Volatility"],
+  "archetypes": ["Quant", "Speculator"]
+}

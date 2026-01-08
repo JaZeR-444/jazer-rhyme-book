@@ -1,0 +1,17 @@
+{
+  "id": "seapunk",
+  "type": "aesthetics-visuals",
+  "name": "Seapunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subculture and aesthetic originating on Tumblr in the early 2010s, combining oceanic themes with 90s net art.",
+  "tags": ["internet-culture", "90s", "vibrant", "surreal"],
+  "angles": ["aquatic", "digital", "nostalgia"],
+  "bar_seeds": ["dolphin dive", "pixelated ocean", "turquoise hair"],
+  "related_ids": ["vaporwave"],
+  "visual_elements": ["Dolphins", "Tropical fish", "Yin-yang symbols", "Checkered patterns"],
+  "mood": "Playful, surreal, digital",
+  "associated_eras": ["2010s"],
+  "color_palette": ["Turquoise", "Aqua", "Purple", "Silver"],
+  "fashion_staples": ["Dyed hair", "Ocean prints", "Shell jewelry", "Holographic clothing"]
+}

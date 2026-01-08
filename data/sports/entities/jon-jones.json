@@ -1,0 +1,19 @@
+{
+  "id": "jon-jones",
+  "type": "sports",
+  "name": "Jon Jones",
+  "aliases": ["Bones"],
+  "era": "2000s-Present",
+  "tags": ["mma", "dominance", "technical", "grit"],
+  "one_liner": "Widely considered the greatest MMA fighter of all time, known for his creative and brutal fighting style.",
+  "angles": ["unbeaten in the cage", "fighting intelligence", "checkered legacy"],
+  "bar_seeds": ["bones jones", "spinning elbows", "heavyweight king"],
+  "team_size": "1 (MMA)",
+  "key_skills": ["Wrestling", "Creativity", "Reach"],
+  "equipment": ["MMA Gloves"],
+  "metaphors": ["Bones"],
+  "legends": ["Youngest UFC champion", "Longest unbeaten streak"],
+  "related_ids": [],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

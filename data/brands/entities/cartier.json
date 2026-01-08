@@ -1,0 +1,20 @@
+{
+  "id": "cartier",
+  "type": "brand",
+  "name": "Cartier",
+  "aliases": ["The Jeweler of Kings"],
+  "era": "1847-Present",
+  "tags": ["luxury", "jewelry", "watch", "french"],
+  "one_liner": "The master of elegant luxury jewelry and iconic watch designs like the Tank and Santos.",
+  "angles": ["elegant wealth", "jewelry for the elite", "timeless design"],
+  "bar_seeds": ["cartier glasses", "love bracelet", "cartier tank"],
+  "category": "Luxury Jewelry & Watches",
+  "price_tier": "High-end",
+  "signature_products": ["Love Bracelet", "Tank Watch", "Santos Watch", "Buffs (Glasses)"],
+  "status_signals": ["Red box", "Panthère motif"],
+  "bar_angles": ["cartier on the face", "love bracelet on the wrist"],
+  "related_ids": ["rolex", "patek-philippe"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

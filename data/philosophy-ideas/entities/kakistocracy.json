@@ -1,0 +1,17 @@
+{
+  "id": "kakistocracy",
+  "type": "philosophy-ideas",
+  "name": "Kakistocracy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A system of government that is run by the worst, least qualified, or most unscrupulous citizens.",
+  "tags": ["negative", "political", "dark", "chaos"],
+  "angles": ["rule-of-the-worst", "institutional-decay", "incompetence-as-power"],
+  "bar_seeds": ["fools in charge", "blind leading the blind", "the lowest floor"],
+  "related_ids": ["corruption"],
+  "school_of_thought": "Political Science / Satire",
+  "core_question": "How does a society descend into rule by the least competent?",
+  "key_philosophers": ["Thomas Love Peacock (coined term)"],
+  "paradoxes": [],
+  "modern_application": "Political satire, critiques of failing states, organizational failure."
+}

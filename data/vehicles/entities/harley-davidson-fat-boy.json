@@ -1,0 +1,17 @@
+{
+  "id": "harley-davidson-fat-boy",
+  "type": "vehicles",
+  "name": "Harley-Davidson Fat Boy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The muscular cruiser made famous by the Terminator.",
+  "tags": ["classic", "grit", "vintage", "iconic"],
+  "angles": ["freedom", "rumble", "chrome"],
+  "bar_seeds": ["v-twin rumble", "solid disc wheels", "hog on the highway"],
+  "related_ids": [],
+  "vehicle_type": "Motorcycle",
+  "engine_type": "V-Twin",
+  "top_speed": "110 mph",
+  "cultural_status": "The symbol of American heavyweight cruising.",
+  "design_features": ["Solid disc wheels", "Massive forks", "Chrome plating"]
+}

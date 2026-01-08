@@ -1,0 +1,17 @@
+{
+  "id": "ra",
+  "type": "mythology-legend",
+  "name": "Ra",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ancient Egyptian sun god, the supreme creator who travels across the sky daily.",
+  "tags": ["classic", "vibrant", "legacy", "mythology"],
+  "angles": ["sun", "creation", "cycle"],
+  "bar_seeds": ["sun disc", "falcon head", "chariot of fire"],
+  "related_ids": ["anubis"],
+  "origin_culture": "Egyptian",
+  "deity_type": "God",
+  "powers": ["Light", "Creation", "Life"],
+  "symbols": ["Sun Disk", "Falcon", "Eye of Ra"],
+  "modern_parallels": ["Solar Energy", "Supreme Leaders", "Enlightenment"]
+}

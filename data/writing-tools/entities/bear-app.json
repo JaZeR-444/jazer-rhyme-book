@@ -1,0 +1,18 @@
+{
+  "id": "bear-app",
+  "type": "writing-tool",
+  "name": "Bear",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A beautifully designed, minimalist writing app for Apple devices that uses hashtags for organization.",
+  "tags": ["tool", "minimalist", "aesthetic", "software"],
+  "angles": ["beauty", "simplicity", "tagging"],
+  "bar_seeds": ["hashtag organization", "clean typography", "markdown style"],
+  "related_ids": ["ia-writer"],
+  "category": "Software",
+  "what_it_does": "Provides a frictionless writing environment with powerful tagging.",
+  "best_for": ["daily journaling", "quick thoughts", "blog posts"],
+  "workflow_hooks": ["Tag notes #ideas/lyrics", "Export to PDF"],
+  "pitfalls": ["Apple ecosystem only", "Subscription model"],
+  "bar_angles": ["Clean slate", "Digital elegance", "Tag and release"]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "microsoft",
+  "type": "brand",
+  "name": "Microsoft",
+  "aliases": [
+    "MSFT",
+    "Windows",
+    "Redmond"
+  ],
+  "era": "1975-Present",
+  "tags": [
+    "software",
+    "enterprise",
+    "productivity",
+    "dominant",
+    "evolving"
+  ],
+  "one_liner": "The software giant that put Windows on every PC and expanded into cloud services.",
+  "angles": [
+    "software dominance",
+    "enterprise",
+    "cloud transition"
+  ],
+  "bar_seeds": [
+    "Where do you want to go today?",
+    "Windows everywhere",
+    "Office suite"
+  ],
+  "related_ids": [
+    "windows",
+    "office",
+    "satya-nadella"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Microsoft official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Software/Cloud",
+  "price_tier": "Varies",
+  "signature_products": [
+    "Windows",
+    "Office",
+    "Azure"
+  ],
+  "status_signals": [
+    "Blue 'M'",
+    "Productivity focus"
+  ],
+  "bar_angles": [
+    "software",
+    "enterprise",
+    "cloud"
+  ]
+}

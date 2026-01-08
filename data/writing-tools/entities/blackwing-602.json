@@ -1,0 +1,18 @@
+{
+  "id": "blackwing-602",
+  "type": "writing-tool",
+  "name": "Blackwing 602",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary pencil known for its unique rectangular eraser and smooth graphite, favored by Steinbeck and Disney animators.",
+  "tags": ["tool", "classic", "vintage", "luxury"],
+  "angles": ["smoothness", "cult-following", "analog"],
+  "bar_seeds": ["half the pressure twice the speed", "rectangular eraser", "graphite glide"],
+  "related_ids": ["physical-notebook"],
+  "category": "Physical",
+  "what_it_does": "Provides a uniquely smooth writing experience with a replaceable eraser.",
+  "best_for": ["drafting", "sketching", "feeling prestigious"],
+  "workflow_hooks": ["Sharpen it for the ritual", "Use for first drafts only"],
+  "pitfalls": ["Expensive for a pencil", "Eraser mechanism can be fiddly"],
+  "bar_angles": ["Sharp point", "Graphite soul", "Drawing the line"]
+}

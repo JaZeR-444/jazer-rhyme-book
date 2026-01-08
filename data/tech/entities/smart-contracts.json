@@ -1,0 +1,20 @@
+{
+  "id": "smart-contracts",
+  "type": "tech",
+  "name": "Smart Contracts",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code.",
+  "tags": ["technical", "blockchain", "logic", "business-economics"],
+  "angles": ["code-is-law", "trustless-agreement", "automated-truth"],
+  "bar_seeds": ["signed in the block", "immutable deal", "if-then logic"],
+  "related_ids": ["blockchain", "cryptocurrency"],
+  "category": "Software / Web3",
+  "what_it_is": "Programs stored on a blockchain that run when predetermined conditions are met.",
+  "why_it_matters": "Automates trust and removes the need for intermediaries in legal and financial transactions.",
+  "risks": ["Coding errors (exploits)", "Legal ambiguity", "Irreversibility"],
+  "metaphors": ["Digital vending machine", "Automatic law", "The logic lock"],
+  "keywords": ["Ethereum", "Solidity", "Decentralized", "Execution", "Immutable"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

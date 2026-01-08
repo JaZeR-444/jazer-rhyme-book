@@ -1,0 +1,21 @@
+{
+  "id": "chatgpt",
+  "type": "writing-tool",
+  "name": "ChatGPT",
+  "aliases": ["GPT", "OpenAI"],
+  "era": "2022-Present",
+  "tags": ["ai", "digital", "assistant", "innovative"],
+  "one_liner": "An advanced AI language model capable of generating creative text, brainstorming rhymes, and structuring ideas.",
+  "angles": ["the digital co-writer", "instant inspiration", "over-reliance on the machine"],
+  "bar_seeds": ["gpt wrote the hook", "prompt engineering the flow", "silicon brain"],
+  "category": "Artificial Intelligence",
+  "what_it_does": "Generates human-like text based on user prompts.",
+  "best_for": ["Brainstorming", "Rhyme suggestions", "Structuring songs"],
+  "workflow_hooks": ["Prompting for specific styles", "Iterating on verses"],
+  "pitfalls": ["Generic outputs", "Hallucinations", "Lack of soul"],
+  "bar_angles": ["chatgpt flow", "my ghostwriter is a bot"],
+  "related_ids": ["artificial-intelligence"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

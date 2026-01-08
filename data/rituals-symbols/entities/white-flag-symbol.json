@@ -1,0 +1,17 @@
+{
+  "id": "white-flag-symbol",
+  "type": "rituals-symbols",
+  "name": "White Flag",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An internationally recognized protective symbol of truce or surrender from further hostile action.",
+  "tags": ["war", "peace", "classic", "symbolic-object"],
+  "angles": ["surrender", "truce", "neutrality"],
+  "bar_seeds": ["waving the white cloth", "no more fighting", "dropping the shield"],
+  "related_ids": ["peace"],
+  "purpose": "To communicate a desire for peace or a cease-fire.",
+  "steps": ["Raising the white cloth", "Entering neutral ground", "Negotiating"],
+  "objects_used": ["White fabric", "Pole"],
+  "participants": "Soldiers, Envoys, Opponents",
+  "outcome": "Cessation of hostilities or temporary safety."
+}

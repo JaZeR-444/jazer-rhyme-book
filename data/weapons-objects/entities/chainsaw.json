@@ -1,0 +1,17 @@
+{
+  "id": "chainsaw",
+  "type": "weapons-objects",
+  "name": "Chainsaw",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A portable gasoline, electric, or battery-powered saw that cuts with a set of teeth attached to a rotating chain.",
+  "tags": ["grit", "horror", "industrial", "tool"],
+  "angles": ["slasher", "noise", "devastation"],
+  "bar_seeds": ["revving the engine", "texas massacre", "cutting through the noise"],
+  "related_ids": [],
+  "weapon_type": "Tool / Melee",
+  "range": "Melee",
+  "damage_type": "Slashing",
+  "symbolism": "Brutal force, horror tropes, and unstoppable destruction.",
+  "famous_users": ["Leatherface", "Lumberjacks"]
+}

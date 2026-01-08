@@ -1,0 +1,58 @@
+{
+  "id": "moonlight-2016",
+  "type": "cinema",
+  "name": "Moonlight",
+  "aliases": [],
+  "era": "2016",
+  "tags": [
+    "cinematic",
+    "melancholy",
+    "storytelling",
+    "classic"
+  ],
+  "one_liner": "A young man grows up across three chapters while searching for identity.",
+  "angles": [
+    "coming of age",
+    "quiet resilience",
+    "identity journey"
+  ],
+  "bar_seeds": [
+    "blue light on the water",
+    "silence says everything",
+    "names change"
+  ],
+  "related_ids": [
+    "melancholy",
+    "hope"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moonlight_(2016_film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "Three stages of a life",
+    "Family, love, and self-discovery"
+  ],
+  "iconic_scenes": [
+    "Ocean teaching scene",
+    "Diner reunion"
+  ],
+  "visual_motifs": [
+    "Blue light and water",
+    "Quiet streets"
+  ],
+  "themes": [
+    "Identity",
+    "Love",
+    "Coming of age"
+  ],
+  "quotables_short": [
+    "You can be gay"
+  ]
+}

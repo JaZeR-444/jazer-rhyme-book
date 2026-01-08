@@ -1,0 +1,20 @@
+{
+  "id": "vaporwave",
+  "type": "aesthetics-visuals",
+  "name": "Vaporwave",
+  "aliases": ["aesthetic", "mallsoft"],
+  "era": "2010s",
+  "tags": ["nostalgic", "surreal", "pastel", "lo-fi", "internet-culture"],
+  "one_liner": "A surreal, nostalgic remix of 80s/90s consumer capitalism and elevator music.",
+  "angles": ["hollow consumerism", "digital decay", "lost futures"],
+  "bar_seeds": ["pastel skies", "windows 95 dreams", "marble statues in the mall"],
+  "visual_elements": ["greek statues", "windows 95 ui", "palm trees", "glitch art"],
+  "mood": "Dreamy, detached, ironic",
+  "associated_eras": ["1980s", "1990s", "2010s"],
+  "color_palette": ["pink", "teal", "lavender", "cyan"],
+  "fashion_staples": ["arizona iced tea apparel", "bucket hats", "retro sportswear"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

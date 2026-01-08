@@ -1,0 +1,20 @@
+{
+  "id": "serena-williams",
+  "type": "sports",
+  "name": "Serena Williams",
+  "aliases": ["Serena"],
+  "era": "1990s-2020s",
+  "tags": ["tennis", "dominance", "legend", "power"],
+  "one_liner": "A tennis powerhouse who dominated the sport for decades, winning 23 Grand Slam singles titles.",
+  "angles": ["unmatched power and grace", "breaking barriers", "the queen of the court"],
+  "bar_seeds": ["23 grand slams", "compton to the court", "power serve", "queen of the open"],
+  "team_size": "1 (Tennis)",
+  "key_skills": ["Serve", "Power", "Mental toughness", "Agility"],
+  "equipment": ["Racket", "Tennis ball"],
+  "metaphors": ["The G.O.A.T. of Tennis"],
+  "legends": ["23 Grand Slam singles titles"],
+  "related_ids": ["compton"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

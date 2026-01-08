@@ -1,0 +1,58 @@
+{
+  "id": "oppenheimer-2023",
+  "type": "cinema",
+  "name": "Oppenheimer",
+  "aliases": [],
+  "era": "2023",
+  "tags": [
+    "cinematic",
+    "dark",
+    "classic",
+    "technical"
+  ],
+  "one_liner": "A physicist leads the Manhattan Project and faces the moral cost of invention.",
+  "angles": [
+    "science and consequence",
+    "power and guilt",
+    "history on a fuse"
+  ],
+  "bar_seeds": [
+    "fire in the desert",
+    "silence after the blast",
+    "genius and weight"
+  ],
+  "related_ids": [
+    "world-war-ii",
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "A secret project races against time",
+    "Politics follow scientific triumph"
+  ],
+  "iconic_scenes": [
+    "Trinity test",
+    "Hearing room"
+  ],
+  "visual_motifs": [
+    "Fire and sparks",
+    "Stark black suits"
+  ],
+  "themes": [
+    "Responsibility",
+    "Power",
+    "Consequence"
+  ],
+  "quotables_short": [
+    "I am become death"
+  ]
+}

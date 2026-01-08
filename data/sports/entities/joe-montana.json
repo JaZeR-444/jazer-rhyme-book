@@ -1,0 +1,19 @@
+{
+  "id": "joe-montana",
+  "type": "sports",
+  "name": "Joe Montana",
+  "aliases": ["Joe Cool", "The Comeback Kid"],
+  "era": "1970s-1990s",
+  "tags": ["football", "clutch", "legacy", "stoicism"],
+  "one_liner": "The prototype for the modern winning quarterback, famous for his composure under pressure.",
+  "angles": ["joe-cool", "the-catch", "undefeated-in-bowls"],
+  "bar_seeds": ["joe cool", "san fran dynasty", "perfect in the clutch"],
+  "related_ids": ["tom-brady", "american-football"],
+  "team_size": "11 (Football)",
+  "key_skills": ["Accuracy", "Composure", "Anticipation"],
+  "equipment": ["Football", "Helmet"],
+  "metaphors": ["Joe Cool"],
+  "legends": ["4x Super Bowl Champion", "3x Super Bowl MVP"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "subway-station",
+  "type": "architecture-spaces",
+  "name": "Subway Station",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An underground transit hub defined by tiles, noise, and the movement of masses.",
+  "tags": ["urban", "grit", "industrial", "public"],
+  "angles": ["transit", "underground", "anonymity"],
+  "bar_seeds": ["mind the gap", "graffiti on the tracks", "turnstile jump"],
+  "related_ids": [],
+  "style": "Utilitarian / Industrial",
+  "materials": ["Tile", "Concrete", "Steel"],
+  "spatial_qualities": ["Echoing", "Linear", "Transitional"],
+  "function": "Transport",
+  "famous_examples": ["Times Square", "London Underground"]
+}

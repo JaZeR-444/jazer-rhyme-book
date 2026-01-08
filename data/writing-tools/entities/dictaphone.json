@@ -1,0 +1,18 @@
+{
+  "id": "dictaphone",
+  "type": "writing-tool",
+  "name": "Dictaphone",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A classic voice recording device used for dictation and capturing verbal notes.",
+  "tags": ["tool", "vintage", "noir", "utility"],
+  "angles": ["audio-note", "noir-detective", "capture"],
+  "bar_seeds": ["note to self", "tape rolling", "rewind and play"],
+  "related_ids": ["voice-memos"],
+  "category": "Hardware",
+  "what_it_does": "Records audio onto magnetic tape or digital memory.",
+  "best_for": ["detective work (vibes)", "driving notes", "interviews"],
+  "workflow_hooks": ["Record melody ideas instantly", "Dictate letters"],
+  "pitfalls": ["Obsolete tech", "Hard to organize"],
+  "bar_angles": ["Detective flow", "Recorded evidence", "Playback"]
+}

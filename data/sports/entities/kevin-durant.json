@@ -1,0 +1,60 @@
+{
+  "id": "kevin-durant",
+  "type": "sports",
+  "name": "Kevin Durant",
+  "aliases": [
+    "KD",
+    "Slim Reaper"
+  ],
+  "era": "2000s-2020s",
+  "tags": [
+    "championship",
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Elite NBA scorer known for length, precision, and unstoppable shot creation.",
+  "angles": [
+    "unstoppable scorer",
+    "length and skill",
+    "big moment buckets"
+  ],
+  "bar_seeds": [
+    "seven-foot sniper",
+    "pull-up from anywhere",
+    "quiet storm scoring"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Shot creation",
+    "Scoring",
+    "Two-way length"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "walking bucket",
+    "smooth blade"
+  ],
+  "legends": [
+    "Multiple scoring titles",
+    "NBA championships"
+  ],
+  "related_ids": [
+    "stephen-curry",
+    "lebron-james"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Durant",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

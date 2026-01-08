@@ -1,0 +1,21 @@
+{
+  "id": "ray-tracing",
+  "type": "tech",
+  "name": "Ray Tracing",
+  "aliases": ["RTX", "Path Tracing"],
+  "era": "2010s-Present (Real-time)",
+  "tags": ["technical", "gaming", "visual", "gpu"],
+  "one_liner": "A rendering technique that can produce incredibly realistic lighting effects.",
+  "tags": ["technical", "gaming", "visual"],
+  "angles": ["simulating light", "photorealism", "visual truth"],
+  "bar_seeds": ["bouncing light", "realistic reflections", "photoreal flow"],
+  "related_ids": ["gpu"],
+  "category": "Software / Graphics",
+  "what_it_is": "A method of graphics rendering that simulates the physical behavior of light.",
+  "why_it_matters": "Bridges the gap between animation and reality in real-time environments.",
+  "risks": ["Extreme computational cost", "Hardware requirements"],
+  "metaphors": ["A digital mirror", "Calculating every sunbeam", "The physics of sight"],
+  "keywords": ["Reflections", "Global Illumination", "Shadows", "Refraction", "Rendering"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

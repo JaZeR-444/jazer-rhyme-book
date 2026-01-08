@@ -1,0 +1,17 @@
+{
+  "id": "las-vegas",
+  "type": "places",
+  "name": "Las Vegas",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Sin City, a glittering oasis of vice and luxury in the Nevada desert.",
+  "tags": ["vice", "luxury", "vibrant", "neon"],
+  "angles": ["all in", "desert mirage", "endless night"],
+  "bar_seeds": ["vegas strip", "double or nothing", "lights of the desert"],
+  "related_ids": ["casino"],
+  "place_type": "city",
+  "vibe": "Overwhelming, artificial, and electric.",
+  "sensory_cues": ["Slot machine chimes", "Neon glare", "Heat", "Champagne popping"],
+  "cultural_refs": ["The Hangover", "Casino", "Fear and Loathing"],
+  "bar_angles": ["High stakes living", "Lost in the lights", "What happens in Vegas"]
+}

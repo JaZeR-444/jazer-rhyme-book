@@ -1,0 +1,17 @@
+{
+  "id": "the-gulf-war",
+  "type": "history",
+  "name": "The Gulf War",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A war waged by coalition forces from 35 nations led by the United States against Iraq in response to Iraq's invasion and annexation of Kuwait.",
+  "tags": ["war", "modern", "technical", "history"],
+  "angles": ["operation-desert-storm", "the-oil-prize", "first-live-televised-war"],
+  "bar_seeds": ["burning wells", "night vision green", "smart bombs"],
+  "related_ids": ["iraq-war", "modern"],
+  "key_dates": ["1990", "1991"],
+  "location": "Persian Gulf / Iraq / Kuwait",
+  "impact": "Solidified US military dominance and the importance of middle-eastern oil; marked the start of modern high-tech warfare.",
+  "major_figures": ["Saddam Hussein", "George H.W. Bush", "Norman Schwarzkopf"],
+  "cultural_shift": "The dawn of 24-hour news cycles and sanitized 'video game' war footage."
+}

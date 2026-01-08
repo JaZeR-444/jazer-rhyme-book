@@ -1,0 +1,17 @@
+{
+  "id": "aztec-empire",
+  "type": "history",
+  "name": "Aztec Empire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A powerful Mesoamerican civilization known for its complex social structure, engineering marvels, and ritual sacrifice.",
+  "tags": ["ancient", "war", "history", "ritual"],
+  "angles": ["tenochtitlan", "sun stone", "eagle warriors"],
+  "bar_seeds": ["jaguar warrior", "gold of montezuma", "floating gardens"],
+  "related_ids": ["quetzalcoatl"],
+  "key_dates": ["1300", "1521"],
+  "location": "Central Mexico (Tenochtitlan)",
+  "impact": "Sophisticated agricultural and urban engineering; influential mythology.",
+  "major_figures": ["Montezuma II", "Hernán Cortés"],
+  "cultural_shift": "The collision of the Old World and New World during the Spanish conquest."
+}

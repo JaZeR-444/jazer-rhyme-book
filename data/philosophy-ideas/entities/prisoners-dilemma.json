@@ -1,0 +1,16 @@
+{
+  "id": "prisoners-dilemma",
+  "type": "philosophy-ideas",
+  "name": "Prisoner's Dilemma",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it appears that it is in their best interests to do so.",
+  "tags": ["logic", "technical", "competitive", "strategy"],
+  "angles": ["cooperation", "betrayal", "self-interest"],
+  "bar_seeds": ["snitch or stay silent", "nash equilibrium", "broken trust"],
+  "school_of_thought": "Game Theory / Economics",
+  "core_question": "When should we trust others vs. acting in our own interest?",
+  "key_philosophers": ["John von Neumann", "John Nash (roots)"],
+  "paradoxes": ["The Nash Equilibrium"],
+  "modern_application": "Geopolitics, corporate competition, street codes (snitching)."
+}

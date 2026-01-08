@@ -1,0 +1,18 @@
+{
+  "id": "dictionary-com",
+  "type": "writing-tool",
+  "name": "Dictionary.com",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The go-to digital lexicon for definitions and pronunciation.",
+  "tags": ["tool", "technical", "logic", "reference"],
+  "angles": ["definition", "meaning", "precision"],
+  "bar_seeds": ["word of the day", "look it up", "precise meaning"],
+  "related_ids": ["thesaurus-com"],
+  "category": "Reference",
+  "what_it_does": "Provides definitions, pronunciations, and origin of words.",
+  "best_for": ["expanding vocabulary", "checking usage", "spelling"],
+  "workflow_hooks": ["Learn a new word daily", "Check pronunciation audio"],
+  "pitfalls": ["Can be dry", "Ads on free version"],
+  "bar_angles": ["Master of words", "Defined flow", "Literal meaning"]
+}

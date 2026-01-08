@@ -1,0 +1,35 @@
+# WORD: Jamshid
+
+## Meaning (plain):
+A word that signals weight, momentum, or authority.
+
+## Rap meaning (how I'd say it):
+A punchy term for dominance, pressure, and presence.
+
+## Syllables:
+2 (approx.)
+
+## Part of speech:
+Noun/Adjective
+
+## Synonyms:
+energy, weight, power, force, strength, might
+
+## Antonyms:
+surrender, silence, fragility, doubt
+
+## Rhyme ideas (end / slant / multi):
+END: hid, hidd, hids / SLANT: hi, hide, hidy / MULTI: jamshid mode, jamshid codes, jamshid road
+
+## 3 bar-ready examples:
+1. Jamshid in the flow, make the speakers quake.
+2. Say Jamshid with the vision, watch the crowd awake.
+3. Jamshid in my cadence, heavy like a drumline.
+
+## 3 punchline angles:
+1. Leadership/crown imagery
+2. Force/weight contrast
+3. Power/control imagery
+
+## Tags:
+power, intensity, dominance, momentum

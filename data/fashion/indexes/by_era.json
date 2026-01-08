@@ -1,0 +1,135 @@
+{
+  "1990s-Present": [
+    "archive-fashion",
+    "fast-fashion",
+    "maximalist-layering",
+    "minimalist-tailoring",
+    "oversized-silhouette"
+  ],
+  "2010s-Present": [
+    "athleisure",
+    "gender-fluid-fashion",
+    "genderless-wardrobe",
+    "gorpcore",
+    "luxury-sneakers",
+    "normcore",
+    "sport-luxe",
+    "techwear",
+    "upcycled-fashion"
+  ],
+  "20th Century-Present": [
+    "avant-garde",
+    "luxury-handbags"
+  ],
+  "1930s-Present": [
+    "aviator-sunglasses",
+    "double-breasted-suit",
+    "hoodie",
+    "loafers",
+    "puffer-jacket"
+  ],
+  "Ancient-Present": [
+    "bandana-item",
+    "beanie",
+    "silk-scarf"
+  ],
+  "1960s-Present": [
+    "bohemian-fashion",
+    "bucket-hat",
+    "denim-jacket",
+    "dr-martens",
+    "graphic-tee",
+    "tracksuit"
+  ],
+  "1950s-Present": [
+    "bomber-jacket",
+    "cuban-collar-shirt",
+    "leather-biker-jacket",
+    "messenger-bag",
+    "preppy-fashion",
+    "varsity-jacket"
+  ],
+  "19th Century-Present": [
+    "brogues",
+    "derby-shoes",
+    "haute-couture",
+    "oxford-button-down",
+    "turtleneck"
+  ],
+  "1940s-Present": [
+    "cargo-pants",
+    "desert-boots"
+  ],
+  "Victorian-Present": [
+    "chelsea-boots"
+  ],
+  "1970s-Present": [
+    "cuban-link-chain",
+    "platform-shoes",
+    "punk-fashion",
+    "windbreaker"
+  ],
+  "1980s-Present": [
+    "cyberpunk-fashion",
+    "deconstructed-fashion",
+    "logomania",
+    "power-dressing",
+    "sneakerhead",
+    "streetwear"
+  ],
+  "19th Century-Present (Popularized in 2000s)": [
+    "denim-selvedge"
+  ],
+  "2000s-Present": [
+    "festival-fashion",
+    "minimal-sneaker",
+    "sustainable-fashion",
+    "utility-fashion"
+  ],
+  "17th Century-Present (Modern 1990s)": [
+    "flannel-shirt"
+  ],
+  "1900s-Present": [
+    "luxury-accessories",
+    "workwear"
+  ],
+  "Timeless": [
+    "monochrome-style"
+  ],
+  "18th Century-Present (Modern 1990s)": [
+    "overalls"
+  ],
+  "Ancient-Present (Modern 1950s)": [
+    "parka"
+  ],
+  "18th Century-Present": [
+    "peacoat"
+  ],
+  "1920s-Present": [
+    "polo-shirt-item",
+    "resortwear",
+    "slip-dress",
+    "sweatpants"
+  ],
+  "2020s-Present": [
+    "quiet-luxury"
+  ],
+  "1950s-Present (Modern peak 90s/2010s)": [
+    "snapback-cap"
+  ],
+  "Ancient-Present (Popularized in 2010s)": [
+    "thrifting"
+  ],
+  "1910s-Present": [
+    "trench-coat"
+  ],
+  "1920s-1990s": [
+    "vintage-clothing"
+  ],
+  "1980s-1990s (Revival 2010s-Present)": [
+    "vintage-sportswear"
+  ],
+  "1999-2005": [
+    "y2k-fashion"
+  ]
+}

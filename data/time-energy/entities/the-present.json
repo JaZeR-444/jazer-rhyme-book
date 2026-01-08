@@ -1,0 +1,20 @@
+{
+  "id": "the-present",
+  "type": "time-energy",
+  "name": "The Present",
+  "aliases": ["Now", "The Moment", "The Gift"],
+  "era": "Eternal",
+  "tags": ["time", "existence", "focus", "fleeting"],
+  "one_liner": "The time that is associated with the events perceived directly and in the first time.",
+  "angles": ["the only thing that exists", "the razor's edge", "living in the now"],
+  "bar_seeds": ["just this second", "now or never", "the present is a gift", "stopped in the moment"],
+  "concept_type": "Temporal State",
+  "perception": "Direct experience, fleeting yet eternal.",
+  "physics_basis": "The current point on the world-line of an observer.",
+  "cultural_view": "Valued in mindfulness and carpe diem philosophies.",
+  "idioms": ["Be here now", "Carpe diem", "The time is now"],
+  "related_ids": ["zen", "stoicism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

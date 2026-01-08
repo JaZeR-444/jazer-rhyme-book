@@ -1,0 +1,20 @@
+{
+  "id": "lowrider",
+  "type": "vehicles",
+  "name": "Lowrider",
+  "aliases": ["Lolo", "Six-Four"],
+  "era": "1940s-Present",
+  "tags": ["culture", "west-coast", "chicano", "custom"],
+  "one_liner": "A customized vehicle, typically a classic American car, with a lowered chassis and hydraulic suspension.",
+  "angles": ["slow and low", "bouncing down the block", "the canvas of the street"],
+  "bar_seeds": ["hydraulics hitting", "dayton rims", "candy paint", "three-wheel motion"],
+  "vehicle_type": "Custom Classic Car",
+  "engine_type": "Varies (usually classic V8)",
+  "top_speed": "Varies",
+  "cultural_status": "An iconic symbol of Chicano and West Coast hip-hop culture.",
+  "design_features": ["Hydraulic or air suspension", "Custom paint jobs", "Small wire wheels"],
+  "related_ids": ["south-central-la", "compton", "tupac-shakur"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

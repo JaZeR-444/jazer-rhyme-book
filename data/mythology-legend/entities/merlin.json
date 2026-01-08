@@ -1,0 +1,17 @@
+{
+  "id": "merlin",
+  "type": "mythology-legend",
+  "name": "Merlin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The mythical wizard and advisor to King Arthur, a figure of immense wisdom and magical power.",
+  "tags": ["esoteric", "classic", "magic", "intellectual"],
+  "angles": ["advisor", "prophecy", "ancient-magic"],
+  "bar_seeds": ["wizard in the tower", "prophetic vision", "merlin's beard"],
+  "related_ids": ["king-arthur"],
+  "origin_culture": "British / Celtic",
+  "deity_type": "Wizard / Prophet",
+  "powers": ["Magic", "Prophecy", "Shapeshifting"],
+  "symbols": ["Staff", "Owl", "Starry cloak"],
+  "modern_parallels": ["Gandalf", "Dumbledore", "Strategic Consultants"]
+}

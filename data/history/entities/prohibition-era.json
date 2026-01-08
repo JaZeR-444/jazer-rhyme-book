@@ -1,0 +1,17 @@
+{
+  "id": "prohibition-era",
+  "type": "history",
+  "name": "Prohibition Era",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The period from 1920 to 1933 when the production, sale, and transport of alcoholic beverages was illegal in the United States.",
+  "tags": ["crime", "vice", "noir", "classic"],
+  "angles": ["outlaws", "speakeasies", "organized crime"],
+  "bar_seeds": ["moonshine runner", "speakeasy door", "bootleg gold"],
+  "related_ids": ["roaring-twenties"],
+  "key_dates": ["1920", "1933"],
+  "location": "United States",
+  "impact": "Led to the rise of powerful organized crime syndicates and the 'speakeasy' culture.",
+  "major_figures": ["Al Capone", "Lucky Luciano"],
+  "cultural_shift": "Normalization of breaking unpopular laws; rise of jazz and underground nightlife."
+}

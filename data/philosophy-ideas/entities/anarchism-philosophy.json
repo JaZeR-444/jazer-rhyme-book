@@ -1,0 +1,17 @@
+{
+  "id": "anarchism-philosophy",
+  "type": "philosophy-ideas",
+  "name": "Anarchism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A political philosophy and movement that is skeptical of authority and rejects all involuntary, coercive forms of hierarchy.",
+  "tags": ["rebellion", "political", "rebellion", "social"],
+  "angles": ["no-masters-no-gods", "mutual-aid", "spontaneous-order"],
+  "bar_seeds": ["smashing the crown", "order without state", "black flag flying"],
+  "related_ids": ["rebellion", "marxism"],
+  "school_of_thought": "Political Philosophy",
+  "core_question": "Is the state necessary for social order?",
+  "key_philosophers": ["Pierre-Joseph Proudhon", "Mikhail Bakunin", "Peter Kropotkin"],
+  "paradoxes": ["The Paradox of Freedom"],
+  "modern_application": "Decentralized networks, mutual aid, anti-authoritarian protest."
+}

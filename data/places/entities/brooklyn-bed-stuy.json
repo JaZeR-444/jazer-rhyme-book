@@ -1,0 +1,52 @@
+{
+  "id": "brooklyn-bed-stuy",
+  "type": "place",
+  "name": "Bedford-Stuyvesant",
+  "aliases": [
+    "Bed-Stuy",
+    "Do or Die"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "brooklyn",
+    "new-york",
+    "legendary",
+    "gentrification"
+  ],
+  "one_liner": "A historic Brooklyn neighborhood synonymous with hip-hop royalty and the 'Do or Die' attitude.",
+  "angles": [
+    "the birthplace of legends",
+    "brownstone living",
+    "do or die mentality"
+  ],
+  "bar_seeds": [
+    "bed-stuy do or die",
+    "brownstone stoops",
+    "bed-stuy fly"
+  ],
+  "vibe": "Historic, proud, tough, and evolving",
+  "sensory_cues": [
+    "brownstone steps",
+    "corner bodegas",
+    "basketball hoops in alleys",
+    "subway grates"
+  ],
+  "cultural_refs": [
+    "The Notorious B.I.G.",
+    "Jay-Z",
+    "Mos Def"
+  ],
+  "bar_angles": [
+    "straight out of bed-stuy",
+    "the do or die state of mind"
+  ],
+  "related_ids": [
+    "notorious-big",
+    "jay-z",
+    "do-the-right-thing-1989"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

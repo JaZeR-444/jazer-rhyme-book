@@ -1,0 +1,17 @@
+{
+  "id": "catacombs",
+  "type": "architecture-spaces",
+  "name": "Catacombs",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Subterranean passageways used as burial places for the dead.",
+  "tags": ["dark", "underground", "history", "fear"],
+  "angles": ["city-of-the-dead", "hidden-history", "claustrophobic-repose"],
+  "bar_seeds": ["bone-lined walls", "under the streets", "silent corridors"],
+  "related_ids": ["underground-spaces", "decay"],
+  "style": "Subterranean / Functional",
+  "materials": ["Earth", "Stone", "Bone"],
+  "spatial_qualities": ["Cramped", "Dark", "Labyrinthine"],
+  "function": "Burial / Sacred",
+  "famous_examples": ["Catacombs of Paris", "Catacombs of Rome"]
+}

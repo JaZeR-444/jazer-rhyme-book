@@ -1,0 +1,20 @@
+{
+  "id": "twitter-x",
+  "type": "media-platforms",
+  "name": "Twitter / X",
+  "aliases": ["X", "The Bird App"],
+  "era": "2000s-Present",
+  "tags": ["social-media", "microblogging", "news", "controversy"],
+  "one_liner": "A real-time microblogging and social networking service central to global news and public discourse.",
+  "angles": ["the town square of the internet", "shouting into the void", "real-time consciousness"],
+  "bar_seeds": ["ratioed", "twitter fingers", "trending topic", "blue check"],
+  "platform_type": "Microblogging",
+  "user_demographic": "Media-heavy, political, tech, and cultural commentators",
+  "content_format": ["Text (tweets)", "Images", "Short-form video", "Spaces"],
+  "algorithm_bias": "Recency, engagement, and controversial discourse",
+  "slang": ["Retweet", "Ratio", "Thread", "Main Character"],
+  "related_ids": ["internet-culture"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

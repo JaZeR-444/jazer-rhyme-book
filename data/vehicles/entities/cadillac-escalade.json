@@ -1,0 +1,17 @@
+{
+  "id": "cadillac-escalade",
+  "type": "vehicles",
+  "name": "Cadillac Escalade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The massive American luxury SUV that defined early 2000s bling culture.",
+  "tags": ["luxury", "streetwear", "00s", "status"],
+  "angles": ["size", "presence", "excess"],
+  "bar_seeds": ["on 24s", "blacked out tint", "truck music"],
+  "related_ids": [],
+  "vehicle_type": "SUV",
+  "engine_type": "V8",
+  "top_speed": "130 mph",
+  "cultural_status": "The VIP transport of choice for rappers and executives alike.",
+  "design_features": ["Vertical taillights", "Massive grille", "Boxy silhouette"]
+}

@@ -1,0 +1,35 @@
+# WORD: Glare
+
+## Meaning (plain):
+A word that signals weight, momentum, or authority.
+
+## Rap meaning (how I'd say it):
+Signals big energy, authority, and heavy impact.
+
+## Syllables:
+1 (approx.)
+
+## Part of speech:
+Noun/Adjective
+
+## Synonyms:
+strength, might, impact, pressure, drive, edge
+
+## Antonyms:
+hesitation, decline, weakness, softness
+
+## Rhyme ideas (end / slant / multi):
+END: are, ared, ares / SLANT: ar, aree, arey / MULTI: glare mode, glare codes, glare road
+
+## 3 bar-ready examples:
+1. Glare in my cadence, heavy like a drumline.
+2. I move with Glare, every step a headline.
+3. Glare on the mic, watch the room align.
+
+## 3 punchline angles:
+1. Power/control imagery
+2. Scale/impact flex
+3. Momentum/pressure metaphor
+
+## Tags:
+power, intensity, dominance, momentum

@@ -1,0 +1,17 @@
+{
+  "id": "leverage",
+  "type": "business-economics",
+  "name": "Leverage",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Using borrowed capital for (an investment), expecting the profits made to be greater than the interest payable.",
+  "tags": ["power", "risk", "technical", "wealth"],
+  "angles": ["multiplier", "debt", "force"],
+  "bar_seeds": ["using other people's money", "10x the return", "margin call risk"],
+  "related_ids": ["real-estate"],
+  "industry": "Finance",
+  "core_principle": "Magnifying returns (and risks) through debt.",
+  "jargon": ["Margin", "LTV", "Gearing"],
+  "key_metrics": ["Debt-to-Equity", "ROI"],
+  "archetypes": ["Real Estate Developer", "Hedge Fund Manager"]
+}

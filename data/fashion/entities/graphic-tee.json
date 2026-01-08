@@ -1,0 +1,18 @@
+{
+  "id": "graphic-tee",
+  "type": "fashion",
+  "name": "Graphic T-Shirt",
+  "aliases": ["Graphic Tee"],
+  "era": "1960s-Present",
+  "tags": ["culture", "pop", "casual", "streetwear"],
+  "one_liner": "A wearable billboard for personal beliefs, fandoms, and artistic expression.",
+  "angles": ["visual identity", "cultural shorthand", "the canvas of the street"],
+  "bar_seeds": ["screen print", "vintage fade", "band tee"],
+  "item_type": "Tops",
+  "material": ["Cotton", "Jersey"],
+  "cultural_significance": "Used for political slogans, band promotion, and high-fashion graphic exploration.",
+  "fit": ["Boxy", "Standard", "Vintage"],
+  "associated_brands": ["Stüssy", "Off-White", "Uniqlo UT"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

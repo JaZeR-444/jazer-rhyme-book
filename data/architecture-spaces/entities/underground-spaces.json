@@ -1,0 +1,20 @@
+{
+  "id": "underground-spaces",
+  "type": "architecture-spaces",
+  "name": "Underground Spaces",
+  "aliases": ["Subterranean Architecture", "Earth Architecture"],
+  "era": "1970s-Present",
+  "tags": ["underground", "protected", "earthy", "intimate", "cozy"],
+  "one_liner": "Architecture that utilizes underground and subterranean spaces for unique living experiences.",
+  "angles": ["underground living", "earth integration", "protected spaces"],
+  "bar_seeds": ["earth integration", "underground living", "protected spaces", "subterranean"],
+  "visual_elements": ["earth walls", "covered spaces", "intimate lighting", "natural insulation"],
+  "mood": "Protected, cozy, and earthy",
+  "associated_eras": ["Modern Day"],
+  "color_palette": ["earth tones", "soft browns", "muted greens", "warm grays"],
+  "fashion_staples": ["earthy tones", "protected silhouettes", "cozy textures", "natural materials"],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

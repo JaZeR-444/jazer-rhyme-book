@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/ritual.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "purpose": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objects_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "participants": {
+      "type": "string"
+    },
+    "outcome": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

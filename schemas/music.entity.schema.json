@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/music.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "genre": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "era_detail": {
+      "type": "string"
+    },
+    "signature_songs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sonic_descriptors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "influence_tree": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aesthetic": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

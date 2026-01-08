@@ -1,0 +1,18 @@
+{
+  "id": "chelsea-boots",
+  "type": "fashion",
+  "name": "Chelsea Boots",
+  "aliases": ["Beatle Boots"],
+  "era": "Victorian-Present",
+  "tags": ["classic", "rock-n-roll", "luxury", "sleek"],
+  "one_liner": "A close-fitting, ankle-high boot with an elastic side panel, bridging the gap between formal and rock aesthetics.",
+  "angles": ["rockstar sleek", "effortless elegance", "mod culture"],
+  "bar_seeds": ["elastic gore", "beatle boot", "sleek suede"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Suede"],
+  "cultural_significance": "Staple of 1960s London Mod culture and rock legends like The Rolling Stones.",
+  "fit": ["Slim", "Snug"],
+  "associated_brands": ["Saint Laurent", "RM Williams", "Blundstone"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nirvana",
+  "type": "music",
+  "name": "Nirvana",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The band that brought grunge to the masses and ended the hair metal era with raw emotion.",
+  "tags": ["grunge", "raw", "angst", "legacy"],
+  "angles": ["authenticity", "fame", "distortion"],
+  "bar_seeds": ["smells like teen spirit", "flannel shirts", "nevermind"],
+  "related_ids": [],
+  "genre": ["Grunge", "Alternative Rock"],
+  "era_detail": "Early 1990s",
+  "signature_songs": ["Smells Like Teen Spirit", "Come As You Are", "Heart-Shaped Box"],
+  "sonic_descriptors": ["Loud-quiet dynamics", "Distorted guitars", "Raspy vocals"],
+  "influence_tree": ["Pixies", "Sonic Youth"],
+  "aesthetic": "Disheveled Rebel"
+}

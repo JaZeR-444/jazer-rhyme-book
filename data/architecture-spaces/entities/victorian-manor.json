@@ -1,0 +1,17 @@
+{
+  "id": "victorian-manor",
+  "type": "architecture-spaces",
+  "name": "Victorian Manor",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Large, ornate residential buildings from the reign of Queen Victoria, often associated with gothic mystery.",
+  "tags": ["vintage", "gothic", "noir", "classic"],
+  "angles": ["haunted-heritage", "rigid-class-structure", "hidden-passages"],
+  "bar_seeds": ["dusty chandeliers", "creaking floorboards", "iron gates"],
+  "related_ids": ["victorian-era", "gothic-castle"],
+  "style": "Victorian / Gothic Revival",
+  "materials": ["Brick", "Slate", "Dark Wood"],
+  "spatial_qualities": ["Cramped-but-grand", "Vertical", "Dark"],
+  "function": "Residential",
+  "famous_examples": ["Winchester Mystery House"]
+}

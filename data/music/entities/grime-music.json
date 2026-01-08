@@ -1,0 +1,18 @@
+{
+  "id": "grime-music",
+  "type": "music",
+  "name": "Grime",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fast-paced, electronic genre of music that emerged from London, known for its 140 BPM speed and aggressive bars.",
+  "tags": ["uk", "electronic", "aggressive", "grit"],
+  "angles": ["london-ends", "radio-clash", "rapid-fire-delivery"],
+  "bar_seeds": ["140 bpm", "bow e3", "radio set energy"],
+  "related_ids": ["london-brixton", "innit", "mandem"],
+  "genre": ["Hip Hop", "Electronic", "UK Garage"],
+  "era_detail": "Early 2000s - Present",
+  "signature_songs": ["Fix Up, Look Sharp", "Pow! (Forward)", "Shutdown"],
+  "sonic_descriptors": ["Square wave bass", "Jittery drums", "Rapid-fire lyricism", "Raw production"],
+  "influence_tree": ["UK Garage", "Jungle", "Dancehall", "Hip Hop"],
+  "aesthetic": "Tracksuits and Pirate Radio"
+}

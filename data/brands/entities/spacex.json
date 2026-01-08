@@ -1,0 +1,53 @@
+{
+  "id": "spacex",
+  "type": "brand",
+  "name": "SpaceX",
+  "aliases": [],
+  "era": "2002-Present",
+  "tags": [
+    "futuristic",
+    "innovative",
+    "contemporary",
+    "space-travel"
+  ],
+  "one_liner": "Aerospace company known for reusable rockets and ambitious space missions.",
+  "angles": [
+    "reusable rockets",
+    "moon and Mars",
+    "launch cadence"
+  ],
+  "bar_seeds": [
+    "boosters land clean",
+    "stars in the windshield",
+    "launch window"
+  ],
+  "related_ids": [
+    "space-colonization",
+    "the-future"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpaceX",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Aerospace",
+  "price_tier": "Enterprise/Government",
+  "signature_products": [
+    "Falcon 9",
+    "Starship",
+    "Starlink"
+  ],
+  "status_signals": [
+    "Reusable launches",
+    "Rapid iteration"
+  ],
+  "bar_angles": [
+    "to the stars",
+    "rocket power"
+  ]
+}

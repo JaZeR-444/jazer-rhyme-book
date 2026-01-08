@@ -1,0 +1,56 @@
+{
+  "id": "subscription-business-model",
+  "type": "business-economics",
+  "name": "Subscription Business Model",
+  "aliases": [
+    "Subscription economy"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "streaming"
+  ],
+  "one_liner": "Revenue model based on recurring payments for ongoing access or service.",
+  "angles": [
+    "recurring revenue",
+    "churn management",
+    "bundle value"
+  ],
+  "bar_seeds": [
+    "monthly on repeat",
+    "auto-renew in the bag",
+    "subscription stack"
+  ],
+  "industry": "Media/Software/Commerce",
+  "core_principle": "Predictable recurring revenue scales with retention.",
+  "jargon": [
+    "MRR",
+    "churn",
+    "LTV"
+  ],
+  "key_metrics": [
+    "monthly recurring revenue",
+    "churn rate",
+    "net retention"
+  ],
+  "archetypes": [
+    "subscriber",
+    "platform",
+    "bundle"
+  ],
+  "related_ids": [
+    "netflix",
+    "spotify"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Subscription_business_model",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

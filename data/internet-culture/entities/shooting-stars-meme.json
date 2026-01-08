@@ -1,0 +1,18 @@
+{
+  "id": "shooting-stars-meme",
+  "type": "internet-culture",
+  "name": "Shooting Stars",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A meme featuring people or objects spinning through surreal, space-themed backgrounds to the song 'Shooting Stars' by Bag Raiders.",
+  "tags": ["surreal", "vibrant", "music", "viral"],
+  "angles": ["infinite spin", "cosmic travel", "rhythmic failure"],
+  "bar_seeds": ["spinning through the galaxy", "falling into the stars", "rhythm of the cosmos"],
+  "related_ids": ["vibing-cat"],
+  "format": "Video Edit",
+  "origin_platform": "YouTube / Instagram",
+  "meaning": "Transforming a moment of falling or spinning into a transcendent cosmic journey.",
+  "remix_rules": ["Bag Raiders soundtrack", "Green screen space background", "Repetitive spinning motion"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Spun the block so hard I'm in the Shooting Stars meme", "Floating through the nebula, Bag Raiders on the loop"]
+}

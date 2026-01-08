@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/cinema.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "plot_hooks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "iconic_scenes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual_motifs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quotables_short": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

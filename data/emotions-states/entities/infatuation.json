@@ -1,0 +1,17 @@
+{
+  "id": "infatuation",
+  "type": "emotions-states",
+  "name": "Infatuation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An intense but short-lived passion or admiration for someone or something.",
+  "tags": ["romance", "vibrant", "fleeting", "youth"],
+  "angles": ["crush", "surface-level-intensity", "blind-devotion"],
+  "bar_seeds": ["caught in the headlights", "sugar high", "loving the idea"],
+  "intensity": "High",
+  "physical_symptoms": ["Blushing", "Fast heart rate", "Stuttering"],
+  "triggers": ["First meetings", "Visual attraction", "Initial success"],
+  "action_urge": "To be near the object of infatuation constantly.",
+  "opposites": ["Indifference", "Realism"],
+  "related_ids": ["limerence", "love"]
+}

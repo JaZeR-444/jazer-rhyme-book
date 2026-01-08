@@ -1,0 +1,60 @@
+/**
+ * Philosophy Styles
+ */
+
+.philosophy {
+  padding-top: var(--space-section);
+  padding-bottom: var(--space-section);
+}
+
+.philosophy-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.philosophy-header h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.philosophy-tagline {
+  font-size: var(--text-h3);
+}
+
+/* Chapters */
+.philosophy-chapters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.philosophy-chapter {
+  position: relative;
+}
+
+.chapter-title {
+  margin-bottom: var(--space-md);
+  color: var(--accent-neon);
+}
+
+.chapter-content {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-lg);
+}
+
+/* Pull Quote */
+.pull-quote {
+  position: relative;
+  padding-left: var(--space-lg);
+  border-left: 3px solid var(--accent-warm);
+}
+
+.pull-quote p {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-medium);
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: var(--leading-snug);
+}

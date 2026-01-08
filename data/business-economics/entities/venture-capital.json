@@ -1,0 +1,20 @@
+{
+  "id": "venture-capital",
+  "type": "business-economics",
+  "name": "Venture Capital",
+  "aliases": ["VC", "Risk Capital"],
+  "era": "20th Century-Present",
+  "tags": ["finance", "startup", "innovation", "investment"],
+  "one_liner": "Private equity capital provided to early-stage, high-potential, high-risk, growth startup companies.",
+  "angles": ["betting on the future", "the fuel for unicorns", "high stakes innovation"],
+  "bar_seeds": ["series a funding", "pitch deck magic", "seed money", "unicorn hunting"],
+  "industry": "Private Equity",
+  "core_principle": "High-risk, high-reward investment in innovation.",
+  "jargon": ["Term sheet", "Burn rate", "Exit strategy", "Valuation", "Cap table"],
+  "key_metrics": ["ROI", "IRR", "Multiple on invested capital"],
+  "archetypes": ["VC Partner", "Founder", "Angel investor"],
+  "related_ids": ["startup"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

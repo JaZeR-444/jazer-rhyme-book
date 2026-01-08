@@ -1,0 +1,59 @@
+{
+  "id": "apple",
+  "type": "brand",
+  "name": "Apple",
+  "aliases": [
+    "AAPL",
+    "Big A",
+    "Fruit Company"
+  ],
+  "era": "1976-Present",
+  "tags": [
+    "premium",
+    "innovative",
+    "tech",
+    "design",
+    "ecosystem"
+  ],
+  "one_liner": "The tech giant that revolutionized personal computing and created a seamless ecosystem.",
+  "angles": [
+    "premium pricing",
+    "design excellence",
+    "closed ecosystem"
+  ],
+  "bar_seeds": [
+    "Think different",
+    "Walled garden approach",
+    "Premium markup"
+  ],
+  "related_ids": [
+    "steve-jobs",
+    "iphone"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Apple official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Technology",
+  "price_tier": "Premium",
+  "signature_products": [
+    "iPhone",
+    "MacBook",
+    "AirPods"
+  ],
+  "status_signals": [
+    "Bitten apple logo",
+    "Premium pricing"
+  ],
+  "bar_angles": [
+    "ecosystem",
+    "design",
+    "premium"
+  ]
+}

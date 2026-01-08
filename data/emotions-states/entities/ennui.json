@@ -1,0 +1,17 @@
+{
+  "id": "ennui",
+  "type": "emotions-states",
+  "name": "Ennui",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement.",
+  "tags": ["boredom", "melancholy", "french", "aesthetic"],
+  "angles": ["world-weariness", "stagnation", "luxury-boredom"],
+  "bar_seeds": ["heavy eyelids", "nothing new under the sun", "tired of the game"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Lethargy", "Sighing", "Slumping posture"],
+  "triggers": ["Repetition", "Lack of challenge", "Satiety"],
+  "action_urge": "To find a new stimulus or drift deeper into apathy.",
+  "opposites": ["Excitement", "Zeal"],
+  "related_ids": ["apathy", "melancholy"]
+}

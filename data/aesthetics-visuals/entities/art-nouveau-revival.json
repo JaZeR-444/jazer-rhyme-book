@@ -1,0 +1,20 @@
+{
+  "id": "art-nouveau-revival",
+  "type": "aesthetics-visuals",
+  "name": "Art Nouveau Revival",
+  "aliases": ["New Art Style", "Modern Nouveau"],
+  "era": "2010s-Present",
+  "tags": ["ornate", "flowing", "natural", "elegant", "curved"],
+  "one_liner": "A modern revival of the Art Nouveau movement with flowing lines and natural forms.",
+  "angles": ["flowing elegance", "natural curves", "ornate beauty"],
+  "bar_seeds": ["flowing lines", "natural motifs", "curved forms", "ornate details"],
+  "visual_elements": ["flowing lines", "floral motifs", "curved forms", "ornate details"],
+  "mood": "Elegant, flowing, and organic",
+  "associated_eras": ["1900s", "Modern Day"],
+  "color_palette": ["gold", "deep green", "burgundy", "ivory"],
+  "fashion_staples": ["flowing fabrics", "curved silhouettes", "ornate jewelry", "natural motifs"],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

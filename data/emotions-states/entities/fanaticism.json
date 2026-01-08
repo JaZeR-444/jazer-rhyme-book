@@ -1,0 +1,18 @@
+{
+  "id": "fanaticism",
+  "type": "emotions-states",
+  "name": "Fanaticism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Filled with excessive and single-minded zeal, especially for an extreme religious or political cause.",
+  "tags": ["aggressive", "zeal", "power", "spiritual"],
+  "angles": ["blind-devotion", "uncompromising-faith", "radical-focus"],
+  "bar_seeds": ["die for the cause", "no room for doubt", "burning the bridges"],
+  "related_ids": ["zeal", "obsession"],
+  "intensity": "Ultra-High",
+  "physical_symptoms": ["Intense eye contact", "Elevated energy", "Neglect of self"],
+  "triggers": ["Charismatic leadership", "Shared ideology", "Perceived threat to beliefs"],
+  "action_urge": "To convert others, attack dissenters, or sacrifice oneself for the cause.",
+  "opposites": ["Skepticism", "Moderation", "Apathy"],
+  "related_ids": ["rage", "obsession"]
+}

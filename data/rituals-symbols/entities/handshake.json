@@ -1,0 +1,17 @@
+{
+  "id": "handshake",
+  "type": "rituals-symbols",
+  "name": "Handshake",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A short ritual in which two people grasp each other's right hands, often with a brief up-and-down movement.",
+  "tags": ["ritual", "bond", "business", "classic"],
+  "angles": ["agreement", "trust", "greeting"],
+  "bar_seeds": ["firm grip", "sealing the deal", "the gentleman's word"],
+  "related_ids": ["social-contract"],
+  "purpose": "To signify a contract, a greeting, or mutual trust.",
+  "steps": ["Extending the hand", "Grasping", "Firm pump"],
+  "objects_used": ["Hands"],
+  "participants": "Two individuals",
+  "outcome": "Formalized agreement or social acknowledgement."
+}

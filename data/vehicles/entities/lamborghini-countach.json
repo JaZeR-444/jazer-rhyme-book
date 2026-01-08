@@ -1,0 +1,17 @@
+{
+  "id": "lamborghini-countach",
+  "type": "vehicles",
+  "name": "Lamborghini Countach",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The wedge-shaped poster car that defined the 80s supercar aesthetic.",
+  "tags": ["vintage", "speed", "80s", "iconic"],
+  "angles": ["excess", "design", "cocaine-era"],
+  "bar_seeds": ["scissor doors up", "white on white", "miami vice vibes"],
+  "related_ids": ["lamborghini-aventador"],
+  "vehicle_type": "Supercar",
+  "engine_type": "V12",
+  "top_speed": "180 mph",
+  "cultural_status": "The archetype of the 'bedroom wall' poster car.",
+  "design_features": ["Wedge shape", "Scissor doors", "Pop-up headlights", "Massive rear wing"]
+}

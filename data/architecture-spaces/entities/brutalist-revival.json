@@ -1,0 +1,20 @@
+{
+  "id": "brutalist-revival",
+  "type": "architecture-spaces",
+  "name": "Brutalist Revival",
+  "aliases": ["Neo-Brutalism", "Modern Brutalism"],
+  "era": "2010s-Present",
+  "tags": ["concrete", "geometric", "monumental", "raw", "bold"],
+  "one_liner": "A modern revival of brutalist architecture emphasizing raw concrete and bold geometric forms.",
+  "angles": ["raw materialism", "geometric boldness", "monumental simplicity"],
+  "bar_seeds": ["raw concrete", "bold geometry", "monumental scale", "honest materials"],
+  "visual_elements": ["exposed concrete", "angular forms", "monumental scale", "geometric patterns"],
+  "mood": "Bold, monumental, and honest",
+  "associated_eras": ["1950s", "Modern Day"],
+  "color_palette": ["concrete gray", "charcoal", "raw concrete", "earth tones"],
+  "fashion_staples": ["structured pieces", "raw textures", "monumental silhouettes", "honest materials"],
+  "related_ids": ["brutalism"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

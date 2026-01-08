@@ -1,0 +1,17 @@
+{
+  "id": "blood-bond",
+  "type": "rituals-symbols",
+  "name": "Blood Bond",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A ritual in which two or more people mingle their blood to signify an unbreakable oath or friendship.",
+  "tags": ["ritual", "grit", "raw", "bond"],
+  "angles": ["unbreakable-oath", "familial-choice", "primal-contract"],
+  "bar_seeds": ["blood brothers", "mingled life", "death before betrayal"],
+  "related_ids": ["social-contract", "initiation"],
+  "purpose": "To create a bond deeper than legal or social contracts.",
+  "steps": ["Small incision on palm or thumb", "Pressing wounds together", "Reciting the oath"],
+  "objects_used": ["Blade", "Blood"],
+  "participants": "Oath-takers",
+  "outcome": "Perceived permanent biological and spiritual connection."
+}

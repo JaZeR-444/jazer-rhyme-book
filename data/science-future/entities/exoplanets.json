@@ -1,0 +1,17 @@
+{
+  "id": "exoplanets",
+  "type": "science-future",
+  "name": "Exoplanets",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Planets that orbit a star outside the solar system.",
+  "tags": ["cosmic", "nature", "exploration", "future"],
+  "angles": ["goldilocks-zone", "new-earths", "galactic-neighborhood"],
+  "bar_seeds": ["distant suns", "ocean worlds", "earth 2.0"],
+  "related_ids": ["space-colonization", "the-space-race"],
+  "field": "Astronomy / Astrophysics",
+  "hypothesis": "Earth-like planets are common in the galaxy and potentially harbor life.",
+  "implications": ["Potential for colonization", "Contact with extra-terrestrial life", "Understanding planetary formation"],
+  "technologies": ["Kepler Telescope", "James Webb Space Telescope", "Spectroscopy"],
+  "ethical_concerns": ["Biological contamination", "Colonial expansion beyond Earth"]
+}

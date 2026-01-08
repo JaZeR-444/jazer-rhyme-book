@@ -1,0 +1,20 @@
+{
+  "id": "adidas",
+  "type": "brand",
+  "name": "Adidas",
+  "aliases": ["Three Stripes"],
+  "era": "1949-Present",
+  "tags": ["sportswear", "german", "classic", "streetwear"],
+  "one_liner": "A global leader in sportswear, iconized in hip-hop by the Three Stripes and shell-toes.",
+  "angles": ["athletic performance", "street credibility", "the shell-toe legacy"],
+  "bar_seeds": ["three stripes", "shell-toes", "my adidas", "tracksuit flow"],
+  "category": "Sportswear",
+  "price_tier": "Mid-tier",
+  "signature_products": ["Superstar", "Stan Smith", "Ultraboost", "Tracksuits"],
+  "status_signals": ["Three stripes branding", "Yeezy collaboration era"],
+  "bar_angles": ["walking in shell-toes", "running in stripes"],
+  "related_ids": ["run-dmc", "kanye-west"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

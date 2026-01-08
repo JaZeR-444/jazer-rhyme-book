@@ -1,0 +1,18 @@
+{
+  "id": "star-wars-1977",
+  "type": "cinema",
+  "name": "Star Wars: A New Hope",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station.",
+  "tags": ["sci-fi", "classic", "franchise", "mythology"],
+  "angles": ["hero's-journey", "the-force", "empire-vs-rebellion"],
+  "bar_seeds": ["lightsaber hum", "death star run", "may the force be with you"],
+  "related_ids": ["hero", "empire"],
+  "era": "1977",
+  "plot_hooks": ["R2-D2's message", "Meeting Han Solo", "Destroying the Death Star"],
+  "iconic_scenes": ["Binary sunset", "Cantina band", "Trench run"],
+  "visual_motifs": ["Used future", "Droids", "X-wings"],
+  "themes": ["Good vs Evil", "Destiny", "Technology vs Nature"],
+  "quotables_short": ["Help me, Obi-Wan Kenobi.", "May the Force be with you."]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "renaissance-core",
+  "type": "aesthetics-visuals",
+  "name": "Renaissance Core",
+  "aliases": ["Renaissance Revival", "Classical Beauty"],
+  "era": "2020s-Present",
+  "tags": ["classical", "artistic", "refined", "cultural", "elegant"],
+  "one_liner": "An aesthetic celebrating Renaissance art, culture, and the rebirth of classical beauty.",
+  "angles": ["classical revival", "artistic beauty", "cultural renaissance"],
+  "bar_seeds": ["classical art", "rebirth", "cultural awakening", "artistic excellence"],
+  "visual_elements": ["classical paintings", "sculptures", "architectural details", "rich fabrics"],
+  "mood": "Refined, classical, and culturally rich",
+  "associated_eras": ["1500s", "Modern Day"],
+  "color_palette": ["rich gold", "deep red", "royal blue", "ivory"],
+  "fashion_staples": ["classical silhouettes", "rich fabrics", "ornate details", "elegant accessories"],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

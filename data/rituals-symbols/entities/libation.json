@@ -1,0 +1,20 @@
+{
+  "id": "libation",
+  "type": "rituals-symbols",
+  "name": "Libation",
+  "aliases": ["Pouring one out"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "offering", "remembrance", "street"],
+  "one_liner": "A drink poured out as an offering to a deity or in memory of a dead person.",
+  "angles": ["for the ones we lost", "honoring the ancestors", "the liquid bridge"],
+  "bar_seeds": ["pouring on the concrete", "henny for the homies", "liquid offering", "gone but not forgotten"],
+  "purpose": "To honor the dead or a higher power.",
+  "steps": ["Selection of liquid", "Reciting name/purpose", "Pouring onto ground/altar"],
+  "objects_used": ["Alcohol", "Water", "Chalice/Bottle"],
+  "participants": "The individual, the collective",
+  "outcome": "Remembrance, spiritual connection",
+  "related_ids": ["hennessy", "history"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

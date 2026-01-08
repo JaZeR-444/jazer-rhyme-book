@@ -1,0 +1,18 @@
+{
+  "id": "scrivener",
+  "type": "writing-tool",
+  "name": "Scrivener",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The heavyweight champion of long-form writing software.",
+  "tags": ["tool", "technical", "innovative"],
+  "angles": ["structure", "organization", "complexity"],
+  "bar_seeds": ["binders full of verses", "compile my thoughts", "structured chaos"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_does": "Allows writers to organize long manuscripts into small chunks, view research alongside text, and compile for export.",
+  "best_for": ["novels", "screenplays", "complex albums"],
+  "workflow_hooks": ["Use the corkboard to rearrange song concepts", "Keep beat notes in the inspector"],
+  "pitfalls": ["Learning curve is steep", "Overkill for a single verse"],
+  "bar_angles": ["Architecture of the rhyme", "Building a project brick by brick"]
+}

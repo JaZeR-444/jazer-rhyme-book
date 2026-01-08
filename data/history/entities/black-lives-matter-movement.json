@@ -1,0 +1,52 @@
+{
+  "id": "black-lives-matter-movement",
+  "type": "history",
+  "name": "Black Lives Matter Movement",
+  "aliases": [
+    "BLM"
+  ],
+  "era": "2013-Present",
+  "tags": [
+    "political",
+    "rebellion",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A global movement against racial injustice and police violence.",
+  "angles": [
+    "protest and reform",
+    "justice demands",
+    "community mobilization"
+  ],
+  "bar_seeds": [
+    "streets for justice",
+    "names remembered",
+    "voices rise"
+  ],
+  "key_dates": [
+    "2013 (movement founded)",
+    "2020 (global protests)"
+  ],
+  "location": "United States / Global",
+  "impact": "Influenced policy debates, corporate responses, and cultural conversations.",
+  "major_figures": [
+    "Alicia Garza",
+    "Patrisse Cullors",
+    "Opal Tometi"
+  ],
+  "cultural_shift": "Racial justice became a central public and corporate issue.",
+  "related_ids": [
+    "civil-rights-movement",
+    "black-panther-party"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

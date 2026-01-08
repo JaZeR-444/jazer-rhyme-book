@@ -1,0 +1,18 @@
+{
+  "id": "grimace-shake",
+  "type": "internet-culture",
+  "name": "Grimace Shake",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A viral TikTok trend where drinking a purple McDonald's milkshake leads to a staged horror scene.",
+  "tags": ["viral", "contemporary", "surreal", "cinematic"],
+  "angles": ["horror", "purple", "corporate-chaos"],
+  "bar_seeds": ["Happy Birthday Grimace", "purple on the floor", "slumped in the corner"],
+  "related_ids": [],
+  "format": "Short-form Video Trend",
+  "origin_platform": "TikTok",
+  "meaning": "A satirical take on corporate promotions, turning a harmless drink into a 'deadly' event.",
+  "remix_rules": ["First sip transition", "Staged crime scene", "Purple fluid everywhere"],
+  "lifespan_risk": "Short (Seasonal)",
+  "example_lines": ["Took one sip and I'm slumped like the Grimace", "Purple heart on the sleeve, purple shake in the vision"]
+}

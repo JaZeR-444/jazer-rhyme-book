@@ -1,0 +1,17 @@
+{
+  "id": "timberland",
+  "type": "brand",
+  "name": "Timberland",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An American manufacturer known for its waterproof leather boots, which became a hip-hop icon.",
+  "tags": ["streetwear", "classic", "grit", "nyc"],
+  "angles": ["toughness", "new-york", "stomp"],
+  "bar_seeds": ["wheat timbs", "laced loose", "deadass b"],
+  "related_ids": [],
+  "category": "Footwear",
+  "price_tier": "Mid",
+  "signature_products": ["6-Inch Premium Boot (Wheat)", "Field Boot"],
+  "status_signals": ["The Wheat color", "Tree logo"],
+  "bar_angles": ["NYC uniform", "Stomping grounds", "Rugged and raw"]
+}

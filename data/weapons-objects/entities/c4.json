@@ -1,0 +1,17 @@
+{
+  "id": "c4",
+  "type": "weapons-objects",
+  "name": "C4 Explosive",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A common variety of plastic explosive known for its malleability and stability.",
+  "tags": ["technical", "explosive", "stealth", "war"],
+  "angles": ["plasticity", "remote-detonation", "breaching"],
+  "bar_seeds": ["plastic mold", "detonator click", "blowing the vault"],
+  "related_ids": ["dynamite"],
+  "weapon_type": "Explosive",
+  "range": "Placed",
+  "damage_type": "Explosive",
+  "symbolism": "Calculated destruction, sabotage, and covert operations.",
+  "famous_users": ["Special Forces", "Demolition Experts"]
+}

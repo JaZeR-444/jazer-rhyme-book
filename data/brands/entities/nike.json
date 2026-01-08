@@ -1,0 +1,52 @@
+{
+  "id": "nike",
+  "type": "brand",
+  "name": "Nike",
+  "aliases": [
+    "Swoosh"
+  ],
+  "era": "1964-Present",
+  "tags": [
+    "streetwear",
+    "mainstream",
+    "classic"
+  ],
+  "one_liner": "Global leader in athletic footwear, apparel, and equipment.",
+  "angles": [
+    "victory",
+    "innovation in sports",
+    "sneaker culture"
+  ],
+  "bar_seeds": [
+    "Just do it, no hesitation",
+    "Swoosh on the feet, running the game"
+  ],
+  "related_ids": [
+    "jordan",
+    "air-max"
+  ],
+  "created_at": "2025-12-23T10:55:00Z",
+  "updated_at": "2025-12-23T10:55:00Z",
+  "sources": [
+    {
+      "title": "Nike official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Apparel/Footwear",
+  "price_tier": "Mass Market to Luxury (Collabs)",
+  "signature_products": [
+    "Air Force 1",
+    "Air Jordan 1"
+  ],
+  "status_signals": [
+    "The Swoosh",
+    "Limited releases"
+  ],
+  "bar_angles": [
+    "performance",
+    "street credit"
+  ]
+}

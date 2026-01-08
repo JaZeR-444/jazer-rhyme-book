@@ -1,0 +1,18 @@
+{
+  "id": "ableton-live",
+  "type": "writing-tool",
+  "name": "Ableton Live",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A DAW designed for live performance and creative loop-based composition.",
+  "tags": ["tool", "technical", "music", "innovative"],
+  "angles": ["workflow", "looping", "electronic"],
+  "bar_seeds": ["session view", "warping samples", "launching clips"],
+  "related_ids": ["fl-studio"],
+  "category": "Software / DAW",
+  "what_it_does": "Allows for non-linear composition and live improvisation with audio and MIDI.",
+  "best_for": ["electronic production", "live sets", "beat making"],
+  "workflow_hooks": ["Jam in Session View", "Resample textures"],
+  "pitfalls": ["Can feel cluttered", "Different logic than linear DAWs"],
+  "bar_angles": ["Live set", "Warp mode", "Grid controller"]
+}

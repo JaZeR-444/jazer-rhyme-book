@@ -1,0 +1,35 @@
+# WORD: Patricio
+
+## Meaning (plain):
+A forceful term evoking power, impact, or presence.
+
+## Rap meaning (how I'd say it):
+A punchy term for dominance, pressure, and presence.
+
+## Syllables:
+3 (approx.)
+
+## Part of speech:
+Noun/Adjective
+
+## Synonyms:
+impact, pressure, drive, edge, authority, control
+
+## Antonyms:
+weakness, softness, surrender, silence
+
+## Rhyme ideas (end / slant / multi):
+END: cio, ciod, cios / SLANT: ci, cioe, cioy / MULTI: patricio mode, patricio codes, patricio road
+
+## 3 bar-ready examples:
+1. I move with Patricio, every step a headline.
+2. Patricio on the mic, watch the room align.
+3. Patricio in the flow, make the speakers quake.
+
+## 3 punchline angles:
+1. Scale/impact flex
+2. Momentum/pressure metaphor
+3. Leadership/crown imagery
+
+## Tags:
+power, intensity, dominance, momentum

@@ -1,0 +1,20 @@
+{
+  "id": "porsche-911",
+  "type": "vehicles",
+  "name": "Porsche 911",
+  "aliases": ["911", "Nine-Eleven"],
+  "era": "1960s-Present",
+  "tags": ["luxury-car", "classic", "german", "performance"],
+  "one_liner": "The definitive rear-engine sports car, known for its timeless design and precision engineering.",
+  "angles": ["precision engineering", "understated luxury", "the driver's car"],
+  "bar_seeds": ["flat-six engine", "whale tail", "porsche silhouettes", "german engineering"],
+  "vehicle_type": "Sports Car",
+  "engine_type": "Flat-six (various sizes)",
+  "top_speed": "180-200+ mph (varies)",
+  "cultural_status": "An icon of taste and engineering excellence.",
+  "design_features": ["Rear-engine layout", "Distinctive round headlights", "Sloping roofline"],
+  "related_ids": ["germany"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

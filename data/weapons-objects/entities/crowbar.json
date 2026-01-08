@@ -1,0 +1,17 @@
+{
+  "id": "crowbar",
+  "type": "weapons-objects",
+  "name": "Crowbar",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A heavy iron lever with a bent end, used for prying things open.",
+  "tags": ["grit", "crime", "tool", "utility"],
+  "angles": ["heist", "leverage", "entry"],
+  "bar_seeds": ["prying it open", "gordon freeman", "breaking and entering"],
+  "related_ids": ["sledgehammer"],
+  "weapon_type": "Tool / Blunt",
+  "range": "Melee",
+  "damage_type": "Bludgeoning",
+  "symbolism": "Forced entry, utility under pressure, and scientific heroism (Half-Life).",
+  "famous_users": ["Gordon Freeman", "Burglars"]
+}

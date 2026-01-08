@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/emotion.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "intensity": {
+      "type": "string"
+    },
+    "physical_symptoms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "triggers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action_urge": {
+      "type": "string"
+    },
+    "opposites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

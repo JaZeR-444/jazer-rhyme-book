@@ -1,0 +1,21 @@
+{
+  "id": "claude",
+  "type": "writing-tool",
+  "name": "Claude",
+  "aliases": ["Anthropic"],
+  "era": "2023-Present",
+  "tags": ["ai", "digital", "nuanced", "innovative"],
+  "one_liner": "An AI assistant known for its more natural, nuanced, and safe conversational style.",
+  "angles": ["nuanced creative partner", "ethical AI", "precise editing"],
+  "bar_seeds": ["claude caught the vibe", "nuance in the machine", "anthropic logic"],
+  "category": "Artificial Intelligence",
+  "what_it_does": "Provides conversational AI assistance with a focus on safety and constitutional principles.",
+  "best_for": ["Nuanced writing", "Detailed editing", "Tone adjustment"],
+  "workflow_hooks": ["Deep analysis of lyrics", "Character building"],
+  "pitfalls": ["Sometimes overly cautious", "Limited knowledge cutoff"],
+  "bar_angles": ["claude in the lab", "logical flow with the claude"],
+  "related_ids": ["artificial-intelligence"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

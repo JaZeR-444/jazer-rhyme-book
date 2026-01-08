@@ -1,0 +1,20 @@
+{
+  "id": "ak-47",
+  "type": "weapons-objects",
+  "name": "AK-47",
+  "aliases": ["Kalashnikov", "Choppa", "K"],
+  "era": "1947-Present",
+  "tags": ["weapon", "military", "revolution", "iconic"],
+  "one_liner": "The most widely used and recognizable assault rifle in the world, a symbol of both revolution and street power.",
+  "angles": ["the instrument of change", "rugged reliability", "global conflict icon"],
+  "bar_seeds": ["choppa singing", "banana clip", "kalashnikov flow", "russian steel"],
+  "weapon_type": "Assault Rifle",
+  "range": "Effective up to 350m",
+  "damage_type": "Ballistic (7.62mm)",
+  "symbolism": "Revolution, resistance, and raw street power.",
+  "famous_users": ["Military forces worldwide", "Revolutionaries", "Pop culture icons"],
+  "related_ids": ["history"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "the-opium-wars",
+  "type": "history",
+  "name": "The Opium Wars",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Two armed conflicts in China in the mid-19th century between the forces of Western countries and the Qing dynasty.",
+  "tags": ["war", "vice", "history", "imperialism"],
+  "angles": ["trade-as-war", "addiction-as-weapon", "the-fall-of-the-qing"],
+  "bar_seeds": ["smoke in the den", "gunboat diplomacy", "opium for tea"],
+  "related_ids": ["hong-kong", "vice"],
+  "key_dates": ["1839 (First)", "1856 (Second)"],
+  "location": "China",
+  "impact": "Led to the 'Century of Humiliation' for China and the cession of Hong Kong to the British.",
+  "major_figures": ["Lin Zexu", "Queen Victoria"],
+  "cultural_shift": "The forced opening of China to Western trade and the brutal intersection of commerce and drugs."
+}

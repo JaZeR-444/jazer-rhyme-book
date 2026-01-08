@@ -1,0 +1,19 @@
+{
+  "id": "fiber-optics",
+  "type": "tech",
+  "name": "Fiber Optics",
+  "aliases": ["Fiber", "Optical Fiber"],
+  "era": "1970s-Present",
+  "tags": ["technical", "hardware", "speed", "global"],
+  "angles": ["speed of light", "undersea cables", "shattering the distance"],
+  "bar_seeds": ["pulsing light", "glass threads", "gigabit flow"],
+  "related_ids": ["the-speed-of-light"],
+  "category": "Hardware / Infrastructure",
+  "what_it_is": "The use of thin glass or plastic fibers to transmit data as pulses of light.",
+  "why_it_matters": "The backbone of the modern high-speed internet.",
+  "risks": ["Physical breakage", "Expensive installation", "Signal attenuation"],
+  "metaphors": ["The nervous system of the world", "Light in a tube", "Glass veins"],
+  "keywords": ["Bandwidth", "Total internal reflection", "Undersea cables", "Gigabit"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

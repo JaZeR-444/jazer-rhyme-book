@@ -1,0 +1,18 @@
+{
+  "id": "there-will-be-blood-2007",
+  "type": "cinema",
+  "name": "There Will Be Blood",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A story of family, religion, hatred, oil, and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+  "tags": ["history", "dark", "business-economics", "classic"],
+  "angles": ["greed", "religion", "capitalism"],
+  "bar_seeds": ["i drink your milkshake", "oil man", "draiiiinage"],
+  "related_ids": [],
+  "era": "2007",
+  "plot_hooks": ["Finding oil", "The accident", "Final confrontation"],
+  "iconic_scenes": ["Oil derrick fire", "Baptism scene", "Bowling alley finale"],
+  "visual_motifs": ["Black oil", "Fire", "Bowling pins"],
+  "themes": ["Capitalism vs Religion", "Obsession", "American Dream"],
+  "quotables_short": ["I drink your milkshake!", "I have abandoned my child!"]
+}

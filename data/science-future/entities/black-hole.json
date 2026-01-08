@@ -1,0 +1,17 @@
+{
+  "id": "black-hole",
+  "type": "science-future",
+  "name": "Black Hole",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it.",
+  "tags": ["dark", "gravity", "cosmic", "finality"],
+  "angles": ["the point of no return", "infinite density", "time dilation"],
+  "bar_seeds": ["event horizon", "crushing the light", "singularity at the center"],
+  "related_ids": ["the-speed-of-light", "singularity"],
+  "field": "Astrophysics",
+  "hypothesis": "Massive stars collapse into a singularity of infinite density.",
+  "implications": ["Time stops at the horizon", "Information paradox", "Ultimate destruction"],
+  "technologies": ["N/A"],
+  "ethical_concerns": ["N/A"]
+}

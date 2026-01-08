@@ -1,0 +1,18 @@
+{
+  "id": "la-haine-1995",
+  "type": "cinema",
+  "name": "La Haine",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
+  "tags": ["noir", "grit", "political", "international"],
+  "angles": ["police-brutality", "friendship", "falling"],
+  "bar_seeds": ["so far so good", "black and white paris", "falling from a building"],
+  "related_ids": [],
+  "era": "1995",
+  "plot_hooks": ["Finding the gun", "The train ride", "The confrontation"],
+  "iconic_scenes": ["Mirror monologue (De Niro impression)", "DJ cut sequence", "The clock ticking"],
+  "visual_motifs": ["Black and white", "Graffiti", "Concrete"],
+  "themes": ["Social inequality", "Hate breeds hate", "Youth"],
+  "quotables_short": ["It's not the fall that kills you...", "La Haine attracts La Haine."]
+}

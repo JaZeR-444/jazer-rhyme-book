@@ -1,0 +1,18 @@
+{
+  "id": "gyatt",
+  "type": "lingo",
+  "name": "Gyatt",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An exclamation of surprise or admiration, usually directed at someone's physical appearance (specifically the posterior).",
+  "tags": ["slang", "contemporary", "youth", "internet-culture"],
+  "angles": ["reaction", "shock", "attraction"],
+  "bar_seeds": ["gyatt damn", "level 10 gyatt", "eyes popping out"],
+  "related_ids": ["rizz"],
+  "meaning": "A distortion of 'God Damn', used to react to a large butt.",
+  "usage": "Exclamatory reaction.",
+  "origin": "Kai Cenat / Twitch / AAVE",
+  "region": "Global / Internet",
+  "example_lines": ["Walked in the room and I said GYATT", "Sticking out your gyatt for the rizzler"],
+  "do_not_use_if": ["In polite company", "Describing a serious situation"]
+}

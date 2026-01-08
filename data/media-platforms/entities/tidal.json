@@ -1,0 +1,17 @@
+{
+  "id": "tidal",
+  "type": "media-platforms",
+  "name": "Tidal",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A high-fidelity music streaming service co-owned by artists, emphasizing audio quality and fair compensation.",
+  "tags": ["luxury", "music", "technical", "status"],
+  "angles": ["lossless-audio", "jay-z-vision", "prestige-streaming"],
+  "bar_seeds": ["hi-fi tier", "mqa quality", "exclusive release"],
+  "related_ids": ["spotify", "apple-music", "jay-z"],
+  "platform_type": "Audio Streaming",
+  "user_demographic": "Audiophiles, R&B/Hip Hop Fans, High Net Worth",
+  "content_format": ["Lossless Audio", "Videos", "Playlists"],
+  "algorithm_bias": "Favors high-quality master recordings and artist exclusives.",
+  "slang": ["Master", "Lossless", "Exclusive"]
+}

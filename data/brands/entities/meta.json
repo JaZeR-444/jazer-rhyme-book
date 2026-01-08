@@ -1,0 +1,57 @@
+{
+  "id": "meta",
+  "type": "brand",
+  "name": "Meta",
+  "aliases": [
+    "Meta Platforms"
+  ],
+  "era": "2004-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "social-media",
+    "viral",
+    "innovative"
+  ],
+  "one_liner": "Social and platform company behind major messaging, social, and VR products.",
+  "angles": [
+    "global social graph",
+    "attention economy",
+    "metaverse push"
+  ],
+  "bar_seeds": [
+    "scroll never ends",
+    "feed runs deep",
+    "metaverse mood"
+  ],
+  "related_ids": [
+    "facebook",
+    "instagram"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Social Media/Tech",
+  "price_tier": "Ad-Supported",
+  "signature_products": [
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "Meta Quest"
+  ],
+  "status_signals": [
+    "Global reach",
+    "Algorithmic feed"
+  ],
+  "bar_angles": [
+    "network effect",
+    "feed culture"
+  ]
+}

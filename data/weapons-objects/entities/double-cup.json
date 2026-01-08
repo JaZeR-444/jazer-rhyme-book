@@ -1,0 +1,17 @@
+{
+  "id": "double-cup",
+  "type": "weapons-objects",
+  "name": "Double Cup",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Two stacked Styrofoam cups used to serve 'lean' or 'dirty sprite'.",
+  "tags": ["trap", "mellow", "contemporary", "symbolic-object"],
+  "angles": ["insulation", "purple-haze", "slow-motion"],
+  "bar_seeds": ["Styrofoam stacked", "purple fluid", "sipping slow"],
+  "related_ids": [],
+  "weapon_type": "Vessel",
+  "range": "N/A",
+  "damage_type": "Chemical",
+  "symbolism": "Southern rap culture, indulgence, and a slowed-down perception of time.",
+  "famous_users": ["Future", "Lil Wayne"]
+}

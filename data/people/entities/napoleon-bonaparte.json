@@ -1,0 +1,18 @@
+{
+  "id": "napoleon-bonaparte",
+  "type": "people",
+  "name": "Napoleon Bonaparte",
+  "aliases": ["The Little Corporal"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A military and political leader who rose to prominence during the French Revolution and built a vast empire.",
+  "tags": ["empire", "war", "leadership", "legacy"],
+  "angles": ["conquest", "meritocracy", "downfall"],
+  "bar_seeds": ["hand in the vest", "conquering the continent", "waterloo end"],
+  "related_ids": ["history"],
+  "known_for": ["Napoleonic Code", "Emperor of the French", "Battle of Austerlitz"],
+  "vibe": "Ambitious, strategic, imposing",
+  "signature_items": ["Bicorn hat", "White horse", "Legion of Honor"],
+  "quotables_short": ["Impossible is a word found only in the dictionary of fools."],
+  "controversy_flags": ["Imperialism", "Mass casualties", "Exile"]
+}

@@ -1,0 +1,15 @@
+{
+  "id_format": "slug",
+  "casing": "lowercase",
+  "separator": "-",
+  "allowed_chars": "a-z0-9-",
+  "uniqueness": "global",
+  "rules": [
+    "IDs must be globally unique across all domains",
+    "IDs must be lowercase alphanumeric with hyphens",
+    "Cinema entities MUST include release year (e.g., the-matrix-1999)",
+    "Place entities SHOULD follow hierarchy: city-district-neighborhood",
+    "Music albums SHOULD include year if title is generic",
+    "No special characters (.,_!?) allowed in IDs"
+  ]
+}

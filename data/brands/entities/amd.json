@@ -1,0 +1,55 @@
+{
+  "id": "amd",
+  "type": "brand",
+  "name": "AMD",
+  "aliases": [
+    "Advanced Micro Devices"
+  ],
+  "era": "1969-Present",
+  "tags": [
+    "technical",
+    "mainstream",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Chip company known for high-performance CPUs and GPUs.",
+  "angles": [
+    "performance value",
+    "red team",
+    "compute surge"
+  ],
+  "bar_seeds": [
+    "red glow rigs",
+    "threads on threads",
+    "silicon sprint"
+  ],
+  "related_ids": [
+    "cloud-computing",
+    "artificial-intelligence"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Micro_Devices",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Semiconductors",
+  "price_tier": "Mid to Premium",
+  "signature_products": [
+    "Ryzen",
+    "Radeon",
+    "EPYC"
+  ],
+  "status_signals": [
+    "Performance per dollar",
+    "Creator rigs"
+  ],
+  "bar_angles": [
+    "clock speed",
+    "red team"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "distracted-boyfriend",
+  "type": "internet-culture",
+  "name": "Distracted Boyfriend",
+  "aliases": [
+    "Man Looking at Other Woman"
+  ],
+  "era": "2017-Present",
+  "tags": [
+    "vibrant",
+    "satirical",
+    "contemporary"
+  ],
+  "one_liner": "A stock photo showing a man looking at a woman while his girlfriend looks on in shock.",
+  "angles": [
+    "temptation vs loyalty",
+    "the 'next big thing'",
+    "relatable betrayal"
+  ],
+  "bar_seeds": [
+    "Looking at the future like the distracted boyfriend",
+    "Loyalty tested, she's looking like the meme"
+  ],
+  "related_ids": [
+    "stock-photo-memes"
+  ],
+  "created_at": "2025-12-23T11:10:00Z",
+  "updated_at": "2025-12-23T11:10:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Twitter/Instagram",
+  "meaning": "Used to represent someone being distracted by a new option.",
+  "remix_rules": [
+    "Label the characters with different concepts"
+  ],
+  "lifespan_risk": "Low (Legendary status)",
+  "example_lines": [
+    "Me looking at a new beat while my half-finished track watches."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "biopunk",
+  "type": "aesthetics-visuals",
+  "name": "Biopunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of science fiction that focuses on biotechnology and genetic engineering.",
+  "tags": ["sci-fi", "organic", "body-horror", "futuristic"],
+  "angles": ["mutation", "flesh", "evolution"],
+  "bar_seeds": ["gene splice", "organic tech", "growing new limbs"],
+  "related_ids": ["genetic-engineering"],
+  "visual_elements": ["Flesh interfaces", "Glowing liquids", "Mutations", "Labs"],
+  "mood": "Visceral, uncanny, advanced",
+  "associated_eras": ["Future"],
+  "color_palette": ["Neon Green", "Flesh Pink", "Blood Red", "Sterile White"],
+  "fashion_staples": ["Transparent raincoats", "Organic textures", "Medical accessories"]
+}

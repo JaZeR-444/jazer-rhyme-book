@@ -1,0 +1,17 @@
+{
+  "id": "jimi-hendrix",
+  "type": "people",
+  "name": "Jimi Hendrix",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Arguably the greatest electric guitarist in history, who expanded the sonic range of the instrument.",
+  "tags": ["vibrant", "virtuoso", "psychedelia", "legacy"],
+  "angles": ["sonic-experimentation", "fire-and-feedback", "left-handed-upside-down"],
+  "bar_seeds": ["purple haze", "voodoo child", "stratocaster on fire"],
+  "related_ids": ["psychedelia", "prince"],
+  "known_for": ["Guitar mastery", "Woodstock performance", "Are You Experienced"],
+  "vibe": "Psychedelic, soulful, electric",
+  "signature_items": ["Fender Stratocaster", "Headband", "Wah-wah pedal"],
+  "quotables_short": ["When the power of love overcomes the love of power..."],
+  "controversy_flags": ["Drug-related death"]
+}

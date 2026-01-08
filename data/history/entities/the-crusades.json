@@ -1,0 +1,16 @@
+{
+  "id": "the-crusades",
+  "type": "history",
+  "name": "The Crusades",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A series of religious wars initiated, supported, and sometimes directed by the Latin Church in the medieval period.",
+  "tags": ["war", "religion", "history", "classic"],
+  "angles": ["clash of civilizations", "religious-zeal", "knighthood"],
+  "bar_seeds": ["templar shield", "holy land", "sword and cross"],
+  "key_dates": ["1095", "1291"],
+  "location": "Eastern Mediterranean / Europe",
+  "impact": "Lasting influence on the relationship between Christianity and Islam; shaped European politics.",
+  "major_figures": ["Richard the Lionheart", "Saladin", "Pope Urban II"],
+  "cultural_shift": "Increased cultural exchange between the East and West, influencing food, science, and fashion."
+}

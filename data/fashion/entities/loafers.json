@@ -1,0 +1,19 @@
+{
+  "id": "loafers",
+  "type": "fashion",
+  "name": "Loafers",
+  "aliases": ["Slip-ons"],
+  "era": "1930s-Present",
+  "tags": ["luxury", "prep", "classic", "sleek"],
+  "one_liner": "A laceless, step-in shoe that conveys effortless sophistication and leisure.",
+  "angles": ["casual-luxury", "the-no-sock-look", "polished-comfort"],
+  "bar_seeds": ["bit loafer shine", "slip on and go", "velvet slippers"],
+  "related_ids": ["gucci"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Suede", "Velvet"],
+  "cultural_significance": "The definitive footwear of Italian luxury and American Ivy League leisure.",
+  "fit": ["Snug", "Low-cut"],
+  "associated_brands": ["Gucci", "G.H. Bass", "Alden"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

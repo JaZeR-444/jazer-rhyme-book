@@ -1,0 +1,21 @@
+{
+  "id": "public-enemy",
+  "type": "music",
+  "name": "Public Enemy",
+  "aliases": ["PE"],
+  "era": "1980s-1990s",
+  "tags": ["political", "protest", "long-island", "revolutionary", "legend"],
+  "one_liner": "The most influential political rap group in history, known for their wall-of-sound production.",
+  "angles": ["black power", "media criticism", "it takes a nation"],
+  "bar_seeds": ["fight the power", "bring the noise", "911 is a joke", "flavor flav clock"],
+  "genre": ["Political Hip Hop", "Hardcore Hip Hop"],
+  "era_detail": "Formed in 1985.",
+  "signature_songs": ["Fight the Power", "Bring the Noise"],
+  "sonic_descriptors": ["chaotic", "loud", "bombastic"],
+  "influence_tree": ["The Bomb Squad"],
+  "aesthetic": "Military-inspired and militant",
+  "related_ids": ["nwa"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

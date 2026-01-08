@@ -1,0 +1,18 @@
+{
+  "id": "this-is-beyond-science",
+  "type": "internet-culture",
+  "name": "This Is Beyond Science",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A reaction image featuring an Indian man saying 'This is beyond science' to describe something inexplicable.",
+  "tags": ["technical", "abstract", "contemporary", "logic"],
+  "angles": ["inexplicable", "miracle", "confusion"],
+  "bar_seeds": ["beyond logic", "how did this happen", "supernatural vibes"],
+  "related_ids": ["woman-distracted-by-math"],
+  "format": "Reaction Image",
+  "origin_platform": "Indian TV / Reddit",
+  "meaning": "When something occurs that defies all known laws of physics, logic, or common sense.",
+  "remix_rules": ["Caption something impossible", "Grainy TV screenshot", "Used for both tech glitches and real life anomalies"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["How the check cleared so fast? This is beyond science", "Logic went out the window, past the limit of the lab"]
+}

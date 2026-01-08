@@ -1,0 +1,714 @@
+{
+  "sportswear": [
+    "adidas"
+  ],
+  "german": [
+    "adidas"
+  ],
+  "classic": [
+    "adidas",
+    "audemars-piguet",
+    "burberry",
+    "carhartt-wip",
+    "casio",
+    "chanel",
+    "cocacola",
+    "converse",
+    "dc-comics",
+    "dior",
+    "ebay",
+    "ferrari",
+    "hermes",
+    "jordan-brand",
+    "lego",
+    "levis",
+    "nike",
+    "nintendo",
+    "ralph-lauren",
+    "rolex",
+    "sony",
+    "stussy",
+    "the-north-face",
+    "tiffany-and-co",
+    "timberland",
+    "vans"
+  ],
+  "streetwear": [
+    "adidas",
+    "arcteryx",
+    "bape",
+    "carhartt-wip",
+    "jordan-brand",
+    "nike",
+    "off-white",
+    "stone-island",
+    "stussy",
+    "supreme",
+    "the-north-face",
+    "timberland",
+    "vans",
+    "yeezy"
+  ],
+  "creative": [
+    "adobe",
+    "lego"
+  ],
+  "software": [
+    "adobe",
+    "microsoft"
+  ],
+  "professional": [
+    "adobe"
+  ],
+  "essential": [
+    "adobe"
+  ],
+  "subscription": [
+    "adobe"
+  ],
+  "mainstream": [
+    "airbnb",
+    "amd",
+    "bytedance",
+    "coinbase",
+    "dior",
+    "doordash",
+    "hm",
+    "intel",
+    "meta",
+    "nike",
+    "nvidia",
+    "openai",
+    "palantir",
+    "pepsi",
+    "samsung",
+    "shein",
+    "shopify",
+    "slack",
+    "sony",
+    "temu",
+    "uber",
+    "zara",
+    "zoom"
+  ],
+  "contemporary": [
+    "airbnb",
+    "amd",
+    "bytedance",
+    "coinbase",
+    "doordash",
+    "intel",
+    "meta",
+    "nvidia",
+    "openai",
+    "palantir",
+    "samsung",
+    "shein",
+    "shopify",
+    "slack",
+    "sony",
+    "spacex",
+    "stripe",
+    "temu",
+    "uber",
+    "zara",
+    "zoom"
+  ],
+  "startup": [
+    "airbnb",
+    "coinbase",
+    "doordash",
+    "shopify",
+    "slack",
+    "stripe",
+    "temu",
+    "uber"
+  ],
+  "trend": [
+    "airbnb",
+    "shein"
+  ],
+  "sustainable": [
+    "allbirds",
+    "patagonia-provisions"
+  ],
+  "footwear": [
+    "allbirds"
+  ],
+  "wool": [
+    "allbirds"
+  ],
+  "eco-friendly": [
+    "allbirds"
+  ],
+  "minimalist": [
+    "allbirds",
+    "glossier",
+    "ikea",
+    "prada",
+    "samsung",
+    "yeezy"
+  ],
+  "retail": [
+    "amazon"
+  ],
+  "convenience": [
+    "amazon",
+    "hello-fresh"
+  ],
+  "shipping": [
+    "amazon"
+  ],
+  "omniscient": [
+    "amazon"
+  ],
+  "monopoly": [
+    "amazon"
+  ],
+  "technical": [
+    "amd",
+    "arcteryx",
+    "audemars-piguet",
+    "casio",
+    "ebay",
+    "intel",
+    "nvidia",
+    "openai",
+    "palantir",
+    "richard-mille",
+    "slack",
+    "stockx",
+    "stone-island",
+    "stripe"
+  ],
+  "innovative": [
+    "amd",
+    "apple",
+    "bytedance",
+    "coinbase",
+    "google",
+    "intel",
+    "meta",
+    "nintendo",
+    "nvidia",
+    "off-white",
+    "openai",
+    "palantir",
+    "samsung",
+    "shopify",
+    "slack",
+    "spacex",
+    "stripe",
+    "tesla",
+    "yeezy",
+    "zoom"
+  ],
+  "premium": [
+    "apple",
+    "starbucks"
+  ],
+  "tech": [
+    "apple",
+    "tesla"
+  ],
+  "design": [
+    "apple",
+    "away",
+    "ikea"
+  ],
+  "ecosystem": [
+    "apple"
+  ],
+  "luxury": [
+    "arcteryx",
+    "audemars-piguet",
+    "balenciaga",
+    "burberry",
+    "cartier",
+    "chanel",
+    "chrome-hearts",
+    "dior",
+    "ferrari",
+    "goat-brand",
+    "gucci",
+    "hennessy",
+    "hermes",
+    "lamborghini",
+    "louis-vuitton",
+    "patek-philippe",
+    "prada",
+    "richard-mille",
+    "rolex",
+    "stone-island",
+    "tesla",
+    "tiffany-and-co",
+    "versace"
+  ],
+  "gorpcore": [
+    "arcteryx",
+    "the-north-face"
+  ],
+  "status": [
+    "audemars-piguet",
+    "ferrari",
+    "gucci",
+    "hermes",
+    "lamborghini",
+    "richard-mille",
+    "tiffany-and-co"
+  ],
+  "travel": [
+    "away",
+    "louis-vuitton"
+  ],
+  "luggage": [
+    "away"
+  ],
+  "carry-on": [
+    "away"
+  ],
+  "direct-to-consumer": [
+    "away",
+    "casper",
+    "warby-parker"
+  ],
+  "avant-garde": [
+    "balenciaga",
+    "rick-owens"
+  ],
+  "chunky": [
+    "balenciaga"
+  ],
+  "high-fashion": [
+    "balenciaga",
+    "gucci",
+    "off-white",
+    "prada"
+  ],
+  "00s": [
+    "bape"
+  ],
+  "vibrant": [
+    "bape",
+    "nintendo",
+    "pepsi",
+    "red-bull",
+    "sega",
+    "shein",
+    "stussy",
+    "versace"
+  ],
+  "hype": [
+    "bape",
+    "supreme",
+    "yeezy"
+  ],
+  "vintage": [
+    "burberry",
+    "casio",
+    "chanel",
+    "converse",
+    "levis",
+    "ralph-lauren"
+  ],
+  "legacy": [
+    "burberry",
+    "chanel",
+    "dc-comics",
+    "hermes",
+    "jordan-brand",
+    "levis",
+    "marvel",
+    "rolex",
+    "sony"
+  ],
+  "social-media": [
+    "bytedance",
+    "glossier",
+    "meta"
+  ],
+  "viral": [
+    "bytedance",
+    "meta",
+    "temu"
+  ],
+  "utilitarian": [
+    "carhartt-wip",
+    "stone-island",
+    "the-north-face"
+  ],
+  "grit": [
+    "carhartt-wip",
+    "monster-energy",
+    "timberland"
+  ],
+  "jewelry": [
+    "cartier"
+  ],
+  "watch": [
+    "cartier",
+    "patek-philippe"
+  ],
+  "french": [
+    "cartier",
+    "louis-vuitton"
+  ],
+  "utility": [
+    "casio"
+  ],
+  "sleep": [
+    "casper"
+  ],
+  "mattress": [
+    "casper"
+  ],
+  "foam": [
+    "casper"
+  ],
+  "comfort": [
+    "casper"
+  ],
+  "goth": [
+    "chrome-hearts"
+  ],
+  "rock-n-roll": [
+    "chrome-hearts"
+  ],
+  "exclusive": [
+    "chrome-hearts"
+  ],
+  "beverage": [
+    "cocacola"
+  ],
+  "iconic": [
+    "cocacola",
+    "mcdonalds",
+    "versace"
+  ],
+  "global": [
+    "cocacola",
+    "mcdonalds"
+  ],
+  "refreshing": [
+    "cocacola"
+  ],
+  "americana": [
+    "converse",
+    "levis",
+    "ralph-lauren"
+  ],
+  "pop": [
+    "converse",
+    "marvel",
+    "pepsi"
+  ],
+  "noir": [
+    "dc-comics"
+  ],
+  "franchise": [
+    "dc-comics",
+    "marvel"
+  ],
+  "elegant": [
+    "dior"
+  ],
+  "hustle": [
+    "doordash",
+    "ebay",
+    "goat-brand",
+    "stockx",
+    "uber"
+  ],
+  "business-economics": [
+    "ebay",
+    "stockx"
+  ],
+  "beauty": [
+    "fenty",
+    "glossier"
+  ],
+  "inclusive": [
+    "fenty",
+    "glossier"
+  ],
+  "fenty": [
+    "fenty"
+  ],
+  "rihanna": [
+    "fenty"
+  ],
+  "diverse": [
+    "fenty"
+  ],
+  "speed": [
+    "ferrari",
+    "lamborghini"
+  ],
+  "millennial": [
+    "glossier"
+  ],
+  "sneakerhead": [
+    "goat-brand",
+    "stockx"
+  ],
+  "aesthetic": [
+    "goat-brand"
+  ],
+  "search": [
+    "google"
+  ],
+  "ai": [
+    "google"
+  ],
+  "advertising": [
+    "google"
+  ],
+  "ubiquitous": [
+    "google",
+    "starbucks"
+  ],
+  "italian": [
+    "gucci",
+    "prada"
+  ],
+  "meal-kits": [
+    "hello-fresh"
+  ],
+  "delivery": [
+    "hello-fresh"
+  ],
+  "cooking": [
+    "hello-fresh"
+  ],
+  "healthy": [
+    "hello-fresh"
+  ],
+  "spirit": [
+    "hennessy"
+  ],
+  "cognac": [
+    "hennessy"
+  ],
+  "celebration": [
+    "hennessy"
+  ],
+  "fast-fashion": [
+    "hm",
+    "zara"
+  ],
+  "casual": [
+    "hm"
+  ],
+  "affordable": [
+    "hm"
+  ],
+  "mass-market": [
+    "ikea"
+  ],
+  "lifestyle": [
+    "ikea",
+    "starbucks"
+  ],
+  "sport": [
+    "jordan-brand"
+  ],
+  "aggressive": [
+    "lamborghini",
+    "monster-energy"
+  ],
+  "play": [
+    "lego"
+  ],
+  "geometric": [
+    "lego"
+  ],
+  "monogram": [
+    "louis-vuitton"
+  ],
+  "cinematic": [
+    "marvel",
+    "sony"
+  ],
+  "fast-food": [
+    "mcdonalds"
+  ],
+  "accessible": [
+    "mcdonalds"
+  ],
+  "consistency": [
+    "mcdonalds"
+  ],
+  "enterprise": [
+    "microsoft"
+  ],
+  "productivity": [
+    "microsoft",
+    "monday-com",
+    "notion"
+  ],
+  "dominant": [
+    "microsoft"
+  ],
+  "evolving": [
+    "microsoft"
+  ],
+  "project-management": [
+    "monday-com"
+  ],
+  "team-work": [
+    "monday-com"
+  ],
+  "visualization": [
+    "monday-com"
+  ],
+  "collaboration": [
+    "monday-com"
+  ],
+  "energetic": [
+    "monster-energy",
+    "red-bull"
+  ],
+  "gaming": [
+    "monster-energy",
+    "nintendo",
+    "sega"
+  ],
+  "streaming": [
+    "netflix",
+    "zoom"
+  ],
+  "entertainment": [
+    "netflix"
+  ],
+  "binge": [
+    "netflix"
+  ],
+  "original": [
+    "netflix"
+  ],
+  "disruptive": [
+    "netflix",
+    "tesla"
+  ],
+  "workspace": [
+    "notion"
+  ],
+  "all-in-one": [
+    "notion"
+  ],
+  "digital": [
+    "notion"
+  ],
+  "organization": [
+    "notion"
+  ],
+  "futuristic": [
+    "nvidia",
+    "openai",
+    "richard-mille",
+    "spacex"
+  ],
+  "industrial": [
+    "off-white"
+  ],
+  "food": [
+    "patagonia-provisions"
+  ],
+  "outdoor": [
+    "patagonia-provisions"
+  ],
+  "ethical": [
+    "patagonia-provisions"
+  ],
+  "environmental": [
+    "patagonia-provisions"
+  ],
+  "swiss": [
+    "patek-philippe"
+  ],
+  "elite-status": [
+    "patek-philippe"
+  ],
+  "corporate": [
+    "pepsi"
+  ],
+  "prep": [
+    "ralph-lauren"
+  ],
+  "sports": [
+    "red-bull"
+  ],
+  "media": [
+    "red-bull"
+  ],
+  "fashion": [
+    "rick-owens",
+    "warby-parker"
+  ],
+  "dark": [
+    "rick-owens"
+  ],
+  "cult-classic": [
+    "rick-owens"
+  ],
+  "retro": [
+    "sega"
+  ],
+  "90s": [
+    "sega"
+  ],
+  "space-travel": [
+    "spacex"
+  ],
+  "coffee": [
+    "starbucks"
+  ],
+  "social": [
+    "starbucks"
+  ],
+  "youth": [
+    "stussy"
+  ],
+  "new-york": [
+    "supreme"
+  ],
+  "skate-culture": [
+    "supreme"
+  ],
+  "electric": [
+    "tesla"
+  ],
+  "romance": [
+    "tiffany-and-co"
+  ],
+  "nyc": [
+    "timberland"
+  ],
+  "transport": [
+    "uber"
+  ],
+  "skate": [
+    "vans"
+  ],
+  "rebellion": [
+    "vans"
+  ],
+  "opulence": [
+    "versace"
+  ],
+  "eyewear": [
+    "warby-parker"
+  ],
+  "home-try-on": [
+    "warby-parker"
+  ],
+  "social-good": [
+    "warby-parker"
+  ],
+  "style": [
+    "zara"
+  ],
+  "broadcast": [
+    "zoom"
+  ]
+}

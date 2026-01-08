@@ -1,0 +1,18 @@
+{
+  "id": "charles-bukowski",
+  "type": "people",
+  "name": "Charles Bukowski",
+  "aliases": ["Hank Chinaski"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A poet and novelist who wrote about the gritty life of the Los Angeles working class, defined by booze, women, and low-wage jobs.",
+  "tags": ["grit", "raw", "poetic", "dark"],
+  "angles": ["blue-collar-soul", "dirty-realism", "lonely-bar-fly"],
+  "bar_seeds": ["post office blues", "wine on the keys", "love is a dog from hell"],
+  "related_ids": ["la-haine-1995"],
+  "known_for": ["Post Office", "Ham on Rye", "Poetry"],
+  "vibe": "Drunk, honest, weathered",
+  "signature_items": ["Bottle of wine", "Typewriter", "Racing forms"],
+  "quotables_short": ["Don't try.", "Find what you love and let it kill you."],
+  "controversy_flags": ["Misogyny accusations", "Alcoholism"]
+}

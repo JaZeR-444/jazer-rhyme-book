@@ -1,0 +1,437 @@
+{
+  "hustle": [
+    "arbitrage",
+    "bootstrapping",
+    "burn-rate",
+    "capital-gains",
+    "direct-to-consumer",
+    "dividends",
+    "drop-shipping",
+    "gig-economy",
+    "insider-trading",
+    "passive-income",
+    "pivot-business",
+    "sweat-equity"
+  ],
+  "technical": [
+    "arbitrage",
+    "asset-allocation",
+    "cac",
+    "capital-gains",
+    "churn-rate",
+    "data-economy",
+    "derivative-finance",
+    "dividends",
+    "etfs",
+    "fiat-currency",
+    "leverage",
+    "liquid-assets",
+    "ltv",
+    "market-cap",
+    "mezzanine-financing",
+    "offshore-account",
+    "passive-income",
+    "product-led-growth",
+    "return-on-investment",
+    "saas",
+    "scale",
+    "supply-chain",
+    "unit-economics"
+  ],
+  "opportunity": [
+    "arbitrage"
+  ],
+  "speed": [
+    "arbitrage"
+  ],
+  "strategy": [
+    "asset-allocation",
+    "blue-ocean-strategy",
+    "etfs",
+    "exit-strategy",
+    "horizontal-integration",
+    "product-led-growth",
+    "short-selling",
+    "synergy",
+    "vertical-integration"
+  ],
+  "wealth": [
+    "asset-allocation",
+    "brand-equity",
+    "capital-gains",
+    "compounding-interest",
+    "dividends",
+    "etfs",
+    "exit-strategy",
+    "gold-standard",
+    "hedge-fund",
+    "leverage",
+    "liquid-assets",
+    "ltv",
+    "market-cap",
+    "mezzanine-financing",
+    "offshore-account",
+    "passive-income",
+    "ponzi-scheme",
+    "real-estate",
+    "return-on-investment",
+    "stock-market"
+  ],
+  "logic": [
+    "asset-allocation",
+    "exit-strategy",
+    "return-on-investment",
+    "zero-sum-game"
+  ],
+  "mainstream": [
+    "attention-economy",
+    "creator-economy",
+    "freemium-model",
+    "gig-economy",
+    "inflation",
+    "initial-public-offering",
+    "mergers-and-acquisitions",
+    "network-effects",
+    "private-equity",
+    "remote-work",
+    "subscription-business-model",
+    "supply-chain"
+  ],
+  "contemporary": [
+    "attention-economy",
+    "burn-rate",
+    "creator-economy",
+    "data-economy",
+    "direct-to-consumer",
+    "drop-shipping",
+    "freemium-model",
+    "gig-economy",
+    "growth-hacking",
+    "inflation",
+    "initial-public-offering",
+    "mergers-and-acquisitions",
+    "network-effects",
+    "private-equity",
+    "product-market-fit",
+    "remote-work",
+    "seed-funding",
+    "subscription-business-model",
+    "supply-chain",
+    "unicorn-company",
+    "unit-economics",
+    "venture-debt"
+  ],
+  "viral": [
+    "attention-economy",
+    "creator-economy",
+    "growth-hacking"
+  ],
+  "social-media": [
+    "attention-economy",
+    "creator-economy"
+  ],
+  "finance": [
+    "bear-market",
+    "bull-market",
+    "compounding-interest",
+    "cryptocurrency",
+    "derivative-finance",
+    "hedge-fund",
+    "mezzanine-financing",
+    "stock-market",
+    "venture-capital"
+  ],
+  "economy": [
+    "bear-market",
+    "bull-market"
+  ],
+  "decline": [
+    "bear-market"
+  ],
+  "fear": [
+    "bear-market",
+    "recession"
+  ],
+  "innovative": [
+    "blue-ocean-strategy",
+    "data-economy",
+    "disruption",
+    "freemium-model",
+    "growth-hacking",
+    "network-effects",
+    "pivot-business",
+    "platform-cooperativism",
+    "post-scarcity-economy",
+    "product-market-fit",
+    "seed-funding",
+    "unicorn-company",
+    "universal-basic-income"
+  ],
+  "business": [
+    "blue-ocean-strategy",
+    "cac",
+    "churn-rate",
+    "direct-to-consumer",
+    "drop-shipping",
+    "horizontal-integration",
+    "monopoly",
+    "platform-cooperativism",
+    "saas",
+    "scale",
+    "startup",
+    "synergy",
+    "vertical-integration"
+  ],
+  "visionary": [
+    "blue-ocean-strategy"
+  ],
+  "grit": [
+    "bootstrapping",
+    "sweat-equity"
+  ],
+  "startup": [
+    "bootstrapping",
+    "burn-rate",
+    "disruption",
+    "growth-hacking",
+    "pivot-business",
+    "product-led-growth",
+    "product-market-fit",
+    "seed-funding",
+    "sweat-equity",
+    "unicorn-company",
+    "unit-economics",
+    "venture-capital",
+    "venture-debt"
+  ],
+  "independence": [
+    "bootstrapping"
+  ],
+  "marketing": [
+    "brand-equity",
+    "cac",
+    "direct-to-consumer",
+    "ltv"
+  ],
+  "value": [
+    "brand-equity"
+  ],
+  "psychology": [
+    "brand-equity"
+  ],
+  "growth": [
+    "bull-market",
+    "compounding-interest",
+    "scale",
+    "startup"
+  ],
+  "optimism": [
+    "bull-market"
+  ],
+  "metric": [
+    "cac",
+    "churn-rate",
+    "ltv",
+    "market-cap",
+    "return-on-investment"
+  ],
+  "money": [
+    "capital-gains",
+    "dividends",
+    "fiat-currency"
+  ],
+  "subscription": [
+    "churn-rate",
+    "saas"
+  ],
+  "time": [
+    "compounding-interest"
+  ],
+  "tech": [
+    "cryptocurrency",
+    "disruption"
+  ],
+  "decentralization": [
+    "cryptocurrency"
+  ],
+  "investment": [
+    "cryptocurrency",
+    "hedge-fund",
+    "real-estate",
+    "stock-market",
+    "venture-capital"
+  ],
+  "power": [
+    "derivative-finance",
+    "leverage",
+    "mezzanine-financing",
+    "monopoly",
+    "vertical-integration"
+  ],
+  "complex": [
+    "derivative-finance"
+  ],
+  "change": [
+    "disruption",
+    "pivot-business"
+  ],
+  "low-risk": [
+    "drop-shipping"
+  ],
+  "stock-market": [
+    "etfs",
+    "initial-public-offering",
+    "market-cap",
+    "short-selling"
+  ],
+  "endgame": [
+    "exit-strategy"
+  ],
+  "government": [
+    "fiat-currency",
+    "universal-basic-income"
+  ],
+  "history": [
+    "fiat-currency",
+    "gold-standard"
+  ],
+  "classic": [
+    "gold-standard"
+  ],
+  "gold": [
+    "gold-standard"
+  ],
+  "aggressive": [
+    "hedge-fund",
+    "short-selling"
+  ],
+  "expansion": [
+    "horizontal-integration"
+  ],
+  "competitive": [
+    "horizontal-integration"
+  ],
+  "bear-market": [
+    "inflation"
+  ],
+  "crime": [
+    "insider-trading",
+    "ponzi-scheme"
+  ],
+  "unfair": [
+    "insider-trading"
+  ],
+  "corporate": [
+    "insider-trading",
+    "synergy"
+  ],
+  "risk": [
+    "leverage",
+    "short-selling"
+  ],
+  "utility": [
+    "liquid-assets"
+  ],
+  "security": [
+    "liquid-assets"
+  ],
+  "monopoly": [
+    "mergers-and-acquisitions"
+  ],
+  "control": [
+    "monopoly"
+  ],
+  "economics": [
+    "monopoly"
+  ],
+  "secrecy": [
+    "offshore-account"
+  ],
+  "global": [
+    "offshore-account"
+  ],
+  "freedom": [
+    "passive-income"
+  ],
+  "social": [
+    "platform-cooperativism",
+    "post-scarcity-economy",
+    "universal-basic-income"
+  ],
+  "rebellion": [
+    "platform-cooperativism"
+  ],
+  "dark": [
+    "ponzi-scheme",
+    "recession",
+    "zero-sum-game"
+  ],
+  "scam": [
+    "ponzi-scheme"
+  ],
+  "futuristic": [
+    "post-scarcity-economy"
+  ],
+  "business-economics": [
+    "post-scarcity-economy"
+  ],
+  "bull-market": [
+    "private-equity",
+    "venture-debt"
+  ],
+  "software": [
+    "product-led-growth"
+  ],
+  "stability": [
+    "real-estate"
+  ],
+  "property": [
+    "real-estate"
+  ],
+  "cycle": [
+    "recession"
+  ],
+  "macro": [
+    "recession"
+  ],
+  "broadcast": [
+    "remote-work"
+  ],
+  "cloud": [
+    "saas"
+  ],
+  "massive": [
+    "scale"
+  ],
+  "innovation": [
+    "startup",
+    "venture-capital"
+  ],
+  "high-risk": [
+    "startup"
+  ],
+  "volatility": [
+    "stock-market"
+  ],
+  "streaming": [
+    "subscription-business-model"
+  ],
+  "work": [
+    "sweat-equity"
+  ],
+  "collaboration": [
+    "synergy"
+  ],
+  "future": [
+    "universal-basic-income"
+  ],
+  "industrial": [
+    "vertical-integration"
+  ],
+  "competition": [
+    "zero-sum-game"
+  ],
+  "war": [
+    "zero-sum-game"
+  ]
+}

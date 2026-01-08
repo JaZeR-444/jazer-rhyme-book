@@ -1,0 +1,18 @@
+{
+  "id": "denim-jacket",
+  "type": "fashion",
+  "name": "Denim Jacket",
+  "aliases": ["Trucker Jacket", "Jean Jacket"],
+  "era": "1960s-Present",
+  "tags": ["classic", "vintage", "grit", "americana"],
+  "one_liner": "A rugged staple of American workwear that became a symbol of youth rebellion and rock culture.",
+  "angles": ["workwear roots", "customizable canvas", "timeless durability"],
+  "bar_seeds": ["worn in denim", "copper buttons", "blue collar cool"],
+  "item_type": "Outerwear",
+  "material": ["Denim", "Cotton"],
+  "cultural_significance": "Icon of the working class and 1960s counterculture.",
+  "fit": ["Boxy", "Standard", "Cropped"],
+  "associated_brands": ["Levi's", "Lee", "Wrangler"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

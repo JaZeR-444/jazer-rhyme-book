@@ -1,0 +1,20 @@
+{
+  "id": "underground-bunker",
+  "type": "architecture-spaces",
+  "name": "Underground Bunker",
+  "aliases": ["Shelter", "Fallout Shelter", "Vault"],
+  "era": "20th Century-Present",
+  "tags": ["survival", "industrial", "defense", "hidden"],
+  "one_liner": "A reinforced underground shelter, typically designed to protect people from bombs, nuclear fallout, or other disasters.",
+  "angles": ["survivalism", "the hidden fortress", "concrete cocoon"],
+  "bar_seeds": ["air filtration", "steel vault doors", "deep underground", "waiting out the end"],
+  "style": "Utilitarian / Brutalist",
+  "materials": ["Thick concrete", "Lead lining", "Steel"],
+  "spatial_qualities": ["Hidden", "Contained", "Functional"],
+  "function": "Survival / Defense / Storage",
+  "famous_examples": ["Svalbard Global Seed Vault", "Cheyenne Mountain Complex"],
+  "related_ids": ["tech", "history"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

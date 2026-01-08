@@ -1,0 +1,18 @@
+{
+  "id": "billie-holiday",
+  "type": "people",
+  "name": "Billie Holiday",
+  "aliases": ["Lady Day"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "One of the most influential jazz singers of all time, known for her unique phrasing and emotional depth.",
+  "tags": ["soulful", "jazz", "tragedy", "legacy"],
+  "angles": ["emotional-honesty", "struggle", "vocal-texture"],
+  "bar_seeds": ["strange fruit", "gardenia in the hair", "lady day flow"],
+  "related_ids": ["erykah-badu"],
+  "known_for": ["Strange Fruit", "God Bless the Child", "Vocal Phrasing"],
+  "vibe": "Sorrowful, elegant, resilient",
+  "signature_items": ["Gardenia flower", "Microphone", "Gloves"],
+  "quotables_short": ["I don't think I'm singing. I feel like I'm playing a horn."],
+  "controversy_flags": ["Drug addiction", "Government surveillance"]
+}

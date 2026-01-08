@@ -1,0 +1,13 @@
+/**
+ * App-level styles
+ */
+
+.app {
+  min-height: 100vh;
+}
+
+.app-footer {
+  padding: var(--space-xl) var(--container-padding);
+  text-align: center;
+  border-top: 1px solid var(--border-subtle);
+}

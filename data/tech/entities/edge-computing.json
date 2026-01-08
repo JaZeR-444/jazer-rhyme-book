@@ -1,0 +1,66 @@
+{
+  "id": "edge-computing",
+  "type": "tech",
+  "name": "Edge Computing",
+  "aliases": [
+    "Fog Computing",
+    "Distributed Computing"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "distributed",
+    "efficient",
+    "local",
+    "reduced-latency",
+    "processing"
+  ],
+  "one_liner": "A distributed computing paradigm that brings computation closer to data sources.",
+  "angles": [
+    "localized processing",
+    "efficiency",
+    "latency reduction"
+  ],
+  "bar_seeds": [
+    "Processing at the edge, not the cloud",
+    "Close to the source, efficient"
+  ],
+  "related_ids": [
+    "5g",
+    "iot",
+    "cloud-computing"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": [
+    {
+      "title": "Cisco",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "IoT requirements",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Computing Architecture",
+  "what_it_is": "Processing data near its source rather than in centralized data centers.",
+  "why_it_matters": "Reduces latency and bandwidth usage for time-sensitive applications.",
+  "risks": [
+    "Security challenges",
+    "Management complexity",
+    "Standardization"
+  ],
+  "metaphors": [
+    "Local processing",
+    "Distributed intelligence"
+  ],
+  "keywords": [
+    "Latency",
+    "Local",
+    "Distributed",
+    "Efficiency"
+  ]
+}

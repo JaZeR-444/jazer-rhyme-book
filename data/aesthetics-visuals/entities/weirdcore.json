@@ -1,0 +1,17 @@
+{
+  "id": "weirdcore",
+  "type": "aesthetics-visuals",
+  "name": "Weirdcore",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An online aesthetic focused on surreal, distorted, and confusing imagery that evokes a sense of dread or nostalgia.",
+  "tags": ["surreal", "internet-culture", "abstract", "lo-fi"],
+  "angles": ["disorientation", "unsettling", "digital-limbo"],
+  "bar_seeds": ["eyes everywhere", "liminal rooms", "error messages"],
+  "related_ids": ["lo-fi"],
+  "visual_elements": ["Floating eyes", "Low-res images", "Surreal text", "Liminal spaces"],
+  "mood": "Uncanny, nostalgic, confusing",
+  "associated_eras": ["2010s", "2020s"],
+  "color_palette": ["Primary Colors", "Static Grey", "Acid Green", "Neon Red"],
+  "fashion_staples": ["Distorted graphics", "Clashing patterns", "DIY masks", "Thrifted oddities"]
+}

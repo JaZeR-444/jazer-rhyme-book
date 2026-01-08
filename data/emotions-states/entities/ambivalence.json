@@ -1,0 +1,17 @@
+{
+  "id": "ambivalence",
+  "type": "emotions-states",
+  "name": "Ambivalence",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The state of having mixed feelings or contradictory ideas about something or someone.",
+  "tags": ["logic", "conflicted", "internal", "technical"],
+  "angles": ["dual nature", "indecision", "gray area"],
+  "bar_seeds": ["love and hate in the same hand", "stuck in the middle", "yes and no at once"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Hesitation", "Avoidance of eye contact", "Restless hands"],
+  "triggers": ["Complex life decisions", "Complicated relationships"],
+  "action_urge": "To delay action or seek more information.",
+  "opposites": ["Conviction", "Certainty"],
+  "related_ids": ["anxiety"]
+}

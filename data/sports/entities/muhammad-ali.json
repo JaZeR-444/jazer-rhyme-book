@@ -1,0 +1,20 @@
+{
+  "id": "muhammad-ali",
+  "type": "sports",
+  "name": "Muhammad Ali",
+  "aliases": ["The Greatest", "Cassius Clay"],
+  "era": "1960s-1980s",
+  "tags": ["boxing", "legend", "activism", "heavyweight"],
+  "one_liner": "The legendary heavyweight boxer and activist, known for his charisma, skill, and principled stands.",
+  "angles": ["the greatest of all time", "political resistance", "the butterfly and the bee"],
+  "bar_seeds": ["float like a butterfly", "sting like a bee", "rumble in the jungle", "thrilla in manila"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Footwork", "Speed", "Psychological warfare", "Durability"],
+  "equipment": ["Boxing gloves", "Ring"],
+  "metaphors": ["The Greatest", "Butterfly and Bee"],
+  "legends": ["3-time World Heavyweight Champion"],
+  "related_ids": ["mike-tyson"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

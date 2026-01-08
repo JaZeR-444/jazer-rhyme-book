@@ -1,0 +1,17 @@
+{
+  "id": "gorpcore",
+  "type": "aesthetics-visuals",
+  "name": "Gorpcore",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fashion aesthetic centered around functional, high-performance outdoor gear worn in urban settings.",
+  "tags": ["streetwear", "technical", "utilitarian", "contemporary"],
+  "angles": ["utility", "hiking", "performance"],
+  "bar_seeds": ["Gore-Tex layers", "trail runners on concrete", "carabiner clips"],
+  "related_ids": ["streetwear"],
+  "visual_elements": ["Technical fabrics", "Puffer jackets", "Hiking boots", "Climbing gear"],
+  "mood": "Practical, prepared, rugged",
+  "associated_eras": ["2010s", "2020s"],
+  "color_palette": ["Safety Orange", "Forest Green", "Beige", "Slate Grey"],
+  "fashion_staples": ["Arc'teryx shells", "Salomon sneakers", "Fleece vests", "Cargo pants"]
+}

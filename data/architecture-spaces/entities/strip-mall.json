@@ -1,0 +1,17 @@
+{
+  "id": "strip-mall",
+  "type": "architecture-spaces",
+  "name": "Strip Mall",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An open-air shopping mall where the stores are arranged in a row, with a sidewalk in front.",
+  "tags": ["suburban", "mundane", "commercial", "american"],
+  "angles": ["convenience", "boredom", "neon"],
+  "bar_seeds": ["parking lot lights", "nail salon next to the pizza place", "suburban purgatory"],
+  "related_ids": [],
+  "style": "Commercial",
+  "materials": ["Stucco", "Glass", "Asphalt"],
+  "spatial_qualities": ["Linear", "Open", "Accessible"],
+  "function": "Retail",
+  "famous_examples": ["7-Eleven", "Anywhere USA"]
+}

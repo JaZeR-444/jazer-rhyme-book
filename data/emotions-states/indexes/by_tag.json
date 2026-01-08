@@ -1,0 +1,433 @@
+{
+  "logic": [
+    "ambivalence",
+    "cognitive-dissonance",
+    "fixation"
+  ],
+  "conflicted": [
+    "ambivalence",
+    "cognitive-dissonance"
+  ],
+  "internal": [
+    "ambivalence",
+    "anxiety",
+    "bitterness",
+    "cognitive-dissonance",
+    "fixation",
+    "fragility",
+    "imposter-syndrome",
+    "inadequacy",
+    "isolation-state",
+    "loneliness",
+    "obsession",
+    "paranoia",
+    "shame",
+    "spite"
+  ],
+  "technical": [
+    "ambivalence",
+    "curiosity",
+    "fixation",
+    "imposter-syndrome"
+  ],
+  "vibrant": [
+    "anticipation",
+    "catharsis",
+    "confidence",
+    "ecstasy",
+    "epiphany",
+    "infatuation",
+    "joy",
+    "love",
+    "luck-state",
+    "pride",
+    "righteous-fury",
+    "wonder"
+  ],
+  "contemporary": [
+    "anticipation",
+    "burnout",
+    "overwhelm"
+  ],
+  "mainstream": [
+    "anticipation",
+    "confidence",
+    "joy",
+    "pride"
+  ],
+  "negative": [
+    "anxiety",
+    "bitterness",
+    "boredom",
+    "disgust",
+    "inadequacy",
+    "indignation",
+    "loneliness",
+    "malice",
+    "melancholy",
+    "nostalgia",
+    "paranoia",
+    "rage",
+    "resentment",
+    "revulsion",
+    "schadenfreude",
+    "shame",
+    "spite",
+    "venom-state"
+  ],
+  "high-energy": [
+    "anxiety",
+    "euphoria",
+    "paranoia",
+    "rage"
+  ],
+  "tense": [
+    "anxiety",
+    "paranoia"
+  ],
+  "mellow": [
+    "apathy",
+    "burnout",
+    "comfort",
+    "contentment",
+    "gratitude",
+    "guilt",
+    "hygge",
+    "relief",
+    "solitude",
+    "trance-state"
+  ],
+  "dark": [
+    "apathy",
+    "bitterness",
+    "burnout",
+    "envy",
+    "existential-dread",
+    "grief",
+    "guilt",
+    "isolation-state",
+    "malice",
+    "obsession",
+    "overwhelm",
+    "resentment",
+    "the-void-state",
+    "venom-state"
+  ],
+  "classic": [
+    "apathy",
+    "awe",
+    "confidence",
+    "contentment",
+    "envy",
+    "gratitude",
+    "grief",
+    "guilt",
+    "joy",
+    "love",
+    "pride",
+    "relief"
+  ],
+  "surreal": [
+    "awe",
+    "serendipity"
+  ],
+  "spirituality": [
+    "awe",
+    "gratitude",
+    "love"
+  ],
+  "stasis": [
+    "bitterness",
+    "boredom"
+  ],
+  "mundane": [
+    "boredom"
+  ],
+  "youth": [
+    "boredom",
+    "curiosity",
+    "infatuation"
+  ],
+  "relief": [
+    "catharsis"
+  ],
+  "emotional": [
+    "catharsis",
+    "vulnerability"
+  ],
+  "art": [
+    "catharsis"
+  ],
+  "anxiety": [
+    "cognitive-dissonance",
+    "existential-dread",
+    "imposter-syndrome",
+    "inadequacy",
+    "limerence",
+    "overwhelm"
+  ],
+  "positive": [
+    "comfort",
+    "curiosity",
+    "euphoria",
+    "hope",
+    "luck-state",
+    "nostalgia",
+    "serendipity",
+    "solitude",
+    "wonder",
+    "zeal",
+    "zen"
+  ],
+  "safety": [
+    "comfort"
+  ],
+  "home": [
+    "comfort"
+  ],
+  "peace": [
+    "contentment",
+    "relief"
+  ],
+  "innovative": [
+    "curiosity",
+    "epiphany"
+  ],
+  "raw": [
+    "disgust",
+    "fragility",
+    "revulsion",
+    "venom-state",
+    "vulnerability"
+  ],
+  "visceral": [
+    "disgust",
+    "revulsion"
+  ],
+  "moral": [
+    "disgust"
+  ],
+  "euphoria": [
+    "ecstasy",
+    "limerence"
+  ],
+  "spiritual": [
+    "ecstasy",
+    "fanaticism",
+    "trance-state",
+    "wonder"
+  ],
+  "transcendence": [
+    "ecstasy"
+  ],
+  "boredom": [
+    "ennui"
+  ],
+  "melancholy": [
+    "ennui",
+    "grief",
+    "mono-no-aware",
+    "saudade"
+  ],
+  "french": [
+    "ennui"
+  ],
+  "aesthetic": [
+    "ennui",
+    "hygge"
+  ],
+  "grit": [
+    "envy"
+  ],
+  "intellectual": [
+    "epiphany"
+  ],
+  "sudden": [
+    "epiphany"
+  ],
+  "peak": [
+    "euphoria"
+  ],
+  "temporary": [
+    "euphoria"
+  ],
+  "philosophical-ideas": [
+    "existential-dread"
+  ],
+  "existence": [
+    "existential-dread",
+    "the-void-state"
+  ],
+  "aggressive": [
+    "fanaticism",
+    "malice",
+    "spite",
+    "venom-state"
+  ],
+  "zeal": [
+    "fanaticism"
+  ],
+  "power": [
+    "fanaticism"
+  ],
+  "obsession": [
+    "fixation",
+    "limerence",
+    "obsession"
+  ],
+  "poetic": [
+    "fragility",
+    "mono-no-aware",
+    "saudade",
+    "vulnerability"
+  ],
+  "delicate": [
+    "fragility"
+  ],
+  "medium-energy": [
+    "hope"
+  ],
+  "stable": [
+    "hope",
+    "zen"
+  ],
+  "future": [
+    "hope"
+  ],
+  "contentment": [
+    "hygge"
+  ],
+  "danish": [
+    "hygge"
+  ],
+  "hustle": [
+    "imposter-syndrome",
+    "inadequacy",
+    "spite",
+    "zeal"
+  ],
+  "rage": [
+    "indignation",
+    "malice",
+    "resentment",
+    "righteous-fury"
+  ],
+  "justice": [
+    "indignation",
+    "righteous-fury"
+  ],
+  "political": [
+    "indignation"
+  ],
+  "romance": [
+    "infatuation",
+    "limerence"
+  ],
+  "fleeting": [
+    "infatuation",
+    "mono-no-aware"
+  ],
+  "loneliness": [
+    "isolation-state"
+  ],
+  "noir": [
+    "isolation-state"
+  ],
+  "low-energy": [
+    "loneliness",
+    "melancholy",
+    "nostalgia",
+    "shame",
+    "zen"
+  ],
+  "deep": [
+    "loneliness",
+    "melancholy"
+  ],
+  "luck": [
+    "luck-state",
+    "serendipity"
+  ],
+  "meaning": [
+    "luck-state",
+    "serendipity"
+  ],
+  "reflective": [
+    "melancholy",
+    "nostalgia"
+  ],
+  "asian": [
+    "mono-no-aware"
+  ],
+  "past": [
+    "nostalgia"
+  ],
+  "passion": [
+    "obsession",
+    "zeal"
+  ],
+  "street": [
+    "paranoia"
+  ],
+  "destructive": [
+    "rage"
+  ],
+  "explosive": [
+    "rage"
+  ],
+  "social": [
+    "resentment",
+    "schadenfreude"
+  ],
+  "fear": [
+    "revulsion"
+  ],
+  "rebellion": [
+    "righteous-fury"
+  ],
+  "nostalgia": [
+    "saudade"
+  ],
+  "international": [
+    "saudade"
+  ],
+  "satirical": [
+    "schadenfreude"
+  ],
+  "envy": [
+    "schadenfreude"
+  ],
+  "heavy": [
+    "shame"
+  ],
+  "isolation": [
+    "solitude"
+  ],
+  "zen": [
+    "solitude"
+  ],
+  "nihilism": [
+    "the-void-state"
+  ],
+  "abstract": [
+    "the-void-state"
+  ],
+  "esoteric": [
+    "trance-state"
+  ],
+  "rhythmic": [
+    "trance-state"
+  ],
+  "strength": [
+    "vulnerability"
+  ],
+  "awe": [
+    "wonder"
+  ],
+  "energetic": [
+    "zeal"
+  ],
+  "centered": [
+    "zen"
+  ]
+}

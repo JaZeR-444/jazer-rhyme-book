@@ -1,0 +1,17 @@
+{
+  "id": "dieselpunk",
+  "type": "aesthetics-visuals",
+  "name": "Dieselpunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A retro-futuristic subgenre similar to steampunk but based on the technology of the interwar period.",
+  "tags": ["industrial", "war", "retro", "grit"],
+  "angles": ["machinery", "war", "oil"],
+  "bar_seeds": ["engine grease", "trench warfare", "steel plated"],
+  "related_ids": ["steampunk"],
+  "visual_elements": ["Art Deco", "Steel", "Grease", "Military uniforms"],
+  "mood": "Gritty, mechanical, oppressive",
+  "associated_eras": ["1920s", "1940s"],
+  "color_palette": ["Steel Grey", "Oil Black", "Rust", "Khaki"],
+  "fashion_staples": ["Leather jackets", "Goggles", "Mechanic jumpsuits"]
+}

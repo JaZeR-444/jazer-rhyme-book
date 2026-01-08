@@ -1,0 +1,17 @@
+{
+  "id": "fiat-currency",
+  "type": "business-economics",
+  "name": "Fiat Currency",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Government-issued currency that is not backed by a physical commodity, such as gold or silver.",
+  "tags": ["government", "money", "history", "technical"],
+  "angles": ["trust", "inflation", "system"],
+  "bar_seeds": ["printing money", "paper chase", "backed by nothing"],
+  "related_ids": ["inflation", "gold-bar"],
+  "industry": "Macroeconomics",
+  "core_principle": "Value based on government decree and trust.",
+  "jargon": ["Legal tender", "Central bank", "Hyperinflation"],
+  "key_metrics": ["Exchange Rate", "Inflation Rate"],
+  "archetypes": ["Central Banker", "Economist"]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/time.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "concept_type": {
+      "type": "string"
+    },
+    "perception": {
+      "type": "string"
+    },
+    "physics_basis": {
+      "type": "string"
+    },
+    "cultural_view": {
+      "type": "string"
+    },
+    "idioms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

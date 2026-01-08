@@ -1,0 +1,17 @@
+{
+  "id": "grunge",
+  "type": "aesthetics-visuals",
+  "name": "Grunge",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dark, gritty aesthetic born from the 90s Pacific Northwest music scene, emphasizing anti-consumerism and raw emotion.",
+  "tags": ["grit", "90s", "underground", "rebellion"],
+  "angles": ["thrift", "distressed", "apathy"],
+  "bar_seeds": ["flannel tied tight", "unwashed hair", "distorted sound"],
+  "related_ids": ["lo-fi"],
+  "visual_elements": ["Flannel shirts", "Ripped denim", "Combat boots", "Grainy textures"],
+  "mood": "Angsty, nihilistic, raw",
+  "associated_eras": ["1990s"],
+  "color_palette": ["Muddy Brown", "Deep Red", "Charcoal", "Mustard"],
+  "fashion_staples": ["Oversized sweaters", "Dr. Martens", "Band tees", "Plaid"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sliding",
+  "type": "lingo",
+  "name": "Sliding",
+  "aliases": ["Slide"],
+  "era": "2010s-Present",
+  "tags": ["street", "action", "drill", "movement"],
+  "one_liner": "To drive through rival territory with intent to commit an act of violence or intimidation.",
+  "angles": ["nighttime movement", "stealth", "retaliation"],
+  "bar_seeds": ["slide for von", "sliding in a rental", "who we sliding on"],
+  "meaning": "The act of going into a rival's area, typically by car.",
+  "usage": "Common in drill and trap music describing street conflict.",
+  "origin": "Chicago/London drill scenes",
+  "region": "Global",
+  "example_lines": ["We was sliding all night", "He told me to slide through"],
+  "do_not_use_if": ["Referring to a literal playground slide"],
+  "related_ids": ["opp"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

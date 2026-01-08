@@ -1,0 +1,17 @@
+{
+  "id": "vimeo",
+  "type": "media-platforms",
+  "name": "Vimeo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A video hosting platform for creative professionals, known for high-quality playback and artistic content.",
+  "tags": ["art", "cinematic", "technical", "niche"],
+  "angles": ["quality", "artistry", "professional"],
+  "bar_seeds": ["staff pick", "4k upload", "film festival submission"],
+  "related_ids": ["youtube"],
+  "platform_type": "Video Hosting",
+  "user_demographic": "Filmmakers, Artists, Professionals",
+  "content_format": ["Short Films", "Music Videos", "Reels"],
+  "algorithm_bias": "Favors artistic merit and staff curation (Staff Picks).",
+  "slang": ["Staff Pick", "VOD", "Showcase"]
+}

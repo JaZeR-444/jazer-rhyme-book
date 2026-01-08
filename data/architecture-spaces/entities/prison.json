@@ -1,0 +1,20 @@
+{
+  "id": "prison",
+  "type": "architecture-spaces",
+  "name": "Prison",
+  "aliases": ["The Pen", "Cell", "Lockdown"],
+  "era": "Ancient-Present",
+  "tags": ["confinement", "institutional", "punishment", "urban"],
+  "one_liner": "A building in which people are legally held as a punishment for a crime they have committed or while awaiting trial.",
+  "angles": ["life in a box", "the institutional gray", "humanity under pressure"],
+  "bar_seeds": ["iron bars", "concrete slab", "counting the days", "echoing boots"],
+  "style": "Industrial / Institutional",
+  "materials": ["Reinforced concrete", "Steel bars", "Cinder blocks"],
+  "spatial_qualities": ["Claustrophobic", "Highly regulated", "Hard surfaces"],
+  "function": "Confinement / Punishment",
+  "famous_examples": ["Alcatraz", "Rikers Island", "The Panopticon"],
+  "related_ids": ["places"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,125 @@
+/**
+ * EraTimeline Styles
+ */
+
+.era-timeline {
+  position: relative;
+}
+
+/* Era Navigation */
+.era-nav {
+  position: fixed;
+  right: var(--space-md);
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  z-index: var(--z-sticky);
+}
+
+.era-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--era-color, var(--border-visible));
+  background: transparent;
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.era-dot:hover {
+  transform: scale(1.3);
+}
+
+.era-dot.active {
+  background: var(--era-color, var(--accent-neon));
+  box-shadow: 0 0 12px var(--era-color, var(--accent-neon));
+}
+
+/* Era Card */
+.era-card {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl);
+}
+
+.era-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.era-gradient {
+  position: absolute;
+  inset: 0;
+}
+
+/* Era Content */
+.era-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  text-align: center;
+}
+
+.era-header {
+  margin-bottom: var(--space-lg);
+}
+
+.era-years {
+  display: block;
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.era-name {
+  margin-bottom: var(--space-xs);
+}
+
+.era-signature {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-medium);
+}
+
+.era-description {
+  margin-bottom: var(--space-lg);
+  color: var(--text-secondary);
+}
+
+/* Projects */
+.era-projects {
+  text-align: left;
+}
+
+.era-projects h3 {
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.project-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm);
+  background: var(--surface-1);
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+}
+
+.project-title {
+  font-weight: var(--weight-medium);
+}

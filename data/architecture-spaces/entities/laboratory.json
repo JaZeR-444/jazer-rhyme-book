@@ -1,0 +1,17 @@
+{
+  "id": "laboratory",
+  "type": "architecture-spaces",
+  "name": "Laboratory",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed.",
+  "tags": ["technical", "science", "innovative", "sterile"],
+  "angles": ["experimentation", "the-future", "sterile-precision"],
+  "bar_seeds": ["white coat vibes", "bubbling beakers", "test results"],
+  "related_ids": ["artificial-general-intelligence", "biotechnology"],
+  "style": "Functional / Sterile",
+  "materials": ["Glass", "Stainless Steel", "Synthetic Surfaces"],
+  "spatial_qualities": ["Clean", "Organized", "Bright"],
+  "function": "Research / Creation",
+  "famous_examples": ["CERN", "Bell Labs"]
+}

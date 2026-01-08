@@ -1,0 +1,18 @@
+{
+  "id": "django-unchained-2012",
+  "type": "cinema",
+  "name": "Django Unchained",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+  "tags": ["western", "revenge", "grit", "pop"],
+  "angles": ["reclaiming-history", "the-southern", "bloody-justice"],
+  "bar_seeds": ["django unchained", "the D is silent", "candyland fire"],
+  "related_ids": ["pulp-fiction-1994"],
+  "era": "2012",
+  "plot_hooks": ["Freeing Django", "The Mandingo fight", "The final shootout"],
+  "iconic_scenes": ["I like the way you die boy", "Dinner table monologue", "Django on the horse"],
+  "visual_motifs": ["Blue velvet suit", "Blood on cotton", "Sunglasses"],
+  "themes": ["Slavery and Freedom", "Heroism", "Myth-making"],
+  "quotables_short": ["The 'D' is silent.", "I like the way you die, boy."]
+}

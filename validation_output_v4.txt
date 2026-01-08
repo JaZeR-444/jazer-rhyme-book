@@ -1,0 +1,1212 @@
+
+> jazer-master-flow-knowledge-hub@1.0.0 validate
+> node scripts/validate.js
+
+Starting validation...
+Γ£ô afrofuturism.json is valid
+Γ£ô art-nouveau-revival.json is valid
+Γ£ô brutalism.json is valid
+Γ£ô cottagecore-2.json is valid
+Γ£ô cottagecore.json is valid
+Γ£ô cottagegurli.json is valid
+Γ£ô cyber-zen.json is valid
+Γ£ô cyberdelia.json is valid
+Γ£ô cyberpunk.json is valid
+Γ£ô dark-academia.json is valid
+Γ£ô dark-boho.json is valid
+Γ£ô dark-romanticism.json is valid
+Γ£ô goth.json is valid
+Γ£ô industrial-zen.json is valid
+Γ£ô lo-fi.json is valid
+Γ£ô maximalist.json is valid
+Γ£ô minimalist.json is valid
+Γ£ô renaissance-core.json is valid
+Γ£ô streetwear.json is valid
+Γ£ô synthwave.json is valid
+Γ£ô vaporwave.json is valid
+Γ£ô y2k.json is valid
+Γ£ô bio-architecture.json is valid
+Γ£ô brutalist-revival.json is valid
+Γ£ô cathedral.json is valid
+Γ£ô crystal-architecture.json is valid
+Γ£ô cyber-architecture.json is valid
+Γ£ô floating-architecture.json is valid
+Γ£ô library.json is valid
+Γ£ô maze.json is valid
+Γ£ô minimalist-zen-spaces.json is valid
+Γ£ô monastery.json is valid
+Γ£ô nomadic-architecture.json is valid
+Γ£ô prison.json is valid
+Γ£ô ruin.json is valid
+Γ£ô sanctuary.json is valid
+Γ£ô skyscraper.json is valid
+Γ£ô stadium.json is valid
+Γ£ô steampunk-architecture.json is valid
+Γ£ô underground-bunker.json is valid
+Γ£ô underground-spaces.json is valid
+Γ£ô vertical-forests.json is valid
+Γ£ô adidas.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\adobe.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô allbirds.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\amazon.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\apple.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô away.json is valid
+Γ£ô balenciaga.json is valid
+Γ£ô cartier.json is valid
+Γ£ô casper.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\cocacola.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô fenty.json is valid
+Γ£ô glossier.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\google.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô gucci.json is valid
+Γ£ô hello-fresh.json is valid
+Γ£ô hennessy.json is valid
+Γ£ô louis-vuitton.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\mcdonalds.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\microsoft.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô monday-com.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\netflix.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\nike.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô notion.json is valid
+Γ£ô off-white.json is valid
+Γ£ô patagonia-provisions.json is valid
+Γ£ô patek-philippe.json is valid
+Γ£ô prada.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\rolex.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\starbucks.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô supreme.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\brands\entities\tesla.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô warby-parker.json is valid
+Γ£ô bear-market.json is valid
+Γ£ô bull-market.json is valid
+Γ£ô compounding-interest.json is valid
+Γ£ô cryptocurrency.json is valid
+Γ£ô hedge-fund.json is valid
+Γ£ô monopoly.json is valid
+Γ£ô real-estate.json is valid
+Γ£ô startup.json is valid
+Γ£ô stock-market.json is valid
+Γ£ô venture-capital.json is valid
+Γ£ô belly-1998.json is valid
+Γ£ô blade-runner-2049.json is valid
+Γ£ô boyz-n-the-hood-1991.json is valid
+Γ£ô do-the-right-thing-1989.json is valid
+Γ£ô juice-1992.json is valid
+Γ£ô menace-ii-society-1993.json is valid
+Γ£ô paid-in-full-2002.json is valid
+Γ£ô pulp-fiction-1994.json is valid
+Γ£ô scarface-1983.json is valid
+Γ£ô the-godfather-1972.json is valid
+Γ£ô the-matrix-1999.json is valid
+Γ£ô the-matrix.json is valid
+Γ£ô training-day-2001.json is valid
+Γ£ô anxiety.json is valid
+Γ£ô euphoria.json is valid
+Γ£ô hope.json is valid
+Γ£ô loneliness.json is valid
+Γ£ô melancholy.json is valid
+Γ£ô nostalgia.json is valid
+Γ£ô paranoia.json is valid
+Γ£ô rage.json is valid
+Γ£ô shame.json is valid
+Γ£ô zen.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\athleisure.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\avant-garde.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\bohemian-fashion.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\denim-selvedge.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\fast-fashion.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\gender-fluid-fashion.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\haute-couture.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\logomania.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\luxury-accessories.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\luxury-handbags.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\luxury-sneakers.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\minimal-sneaker.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\preppy-fashion.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\punk-fashion.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\sneakerhead.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\streetwear.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\sustainable-fashion.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\thrifting.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\vintage-clothing.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\fashion\entities\vintage-sportswear.json:
+[
+  {
+    instancePath: '/fit',
+    schemaPath: '#/properties/fit/type',
+    keyword: 'type',
+    params: { type: 'array' },
+    message: 'must be array'
+  }
+]
+Γ£ô ancient-egypt.json is valid
+Γ£ô black-panther-party.json is valid
+Γ£ô civil-rights-movement.json is valid
+Γ£ô cold-war.json is valid
+Γ£ô disco-era.json is valid
+Γ£ô fall-of-rome.json is valid
+Γ£ô french-revolution.json is valid
+Γ£ô harlem-renaissance.json is valid
+Γ£ô industrial-revolution.json is valid
+Γ£ô moon-landing.json is valid
+Γ£ô roaring-twenties.json is valid
+Γ£ô world-war-ii.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\internet-culture\entities\distracted-boyfriend.json:
+Γ£ô bad-luck-brian.json is valid
+Γ£ô doge.json is valid
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  },
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\internet-culture\entities\gigachad.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  },
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô hide-the-pain-harold.json is valid
+Γ£ô loss-meme.json is valid
+Γ£ô npc-meme.json is valid
+Γ£ô pepe-the-frog.json is valid
+Γ£ô rickrolling.json is valid
+Γ£ô this-is-fine.json is valid
+Γ£ô wojak.json is valid
+Γ£ô woman-yelling-at-a-cat.json is valid
+Γ£ô bet.json is valid
+Γ£ô brick.json is valid
+Γ£ô clout.json is valid
+Γ£ô drip.json is valid
+Γ£ô finesse.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\lingo\entities\finna.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô gas.json is valid
+Γ£ô glizzy.json is valid
+Γ£ô jawn.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\lingo\entities\no-cap.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô opp.json is valid
+Γ£ô sliding.json is valid
+Γ£ô discord.json is valid
+Γ£ô facebook.json is valid
+Γ£ô instagram.json is valid
+Γ£ô netflix.json is valid
+Γ£ô reddit.json is valid
+Γ£ô spotify.json is valid
+Γ£ô tiktok.json is valid
+Γ£ô twitch.json is valid
+Γ£ô twitter-x.json is valid
+Γ£ô youtube.json is valid
+Γ£ô a-tribe-called-quest.json is valid
+Γ£ô adele.json is valid
+Γ£ô arctic-monkeys.json is valid
+Γ£ô bad-bunny.json is valid
+Γ£ô beastie-boys.json is valid
+Γ£ô billie-eilish.json is valid
+Γ£ô bon-iver.json is valid
+Γ£ô bonnie-raitt.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\music\entities\daft-punk.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô de-la-soul.json is valid
+Γ£ô drake.json is valid
+Γ£ô fleet-foxes.json is valid
+Γ£ô frank-ocean.json is valid
+Γ£ô j-cole-2.json is valid
+Γ£ô kendrick-lamar.json is valid
+Γ£ô lady-gaga.json is valid
+Γ£ô lana-del-rey.json is valid
+Γ£ô migos.json is valid
+Γ£ô mobb-deep.json is valid
+Γ£ô nwa.json is valid
+Γ£ô outkast.json is valid
+Γ£ô phoebe-bridgers.json is valid
+Γ£ô post-malone.json is valid
+Γ£ô public-enemy.json is valid
+Γ£ô rihanna.json is valid
+Γ£ô run-dmc.json is valid
+Γ£ô sza-2.json is valid
+Γ£ô sza.json is valid
+Γ£ô tame-impala.json is valid
+Γ£ô the-1975.json is valid
+Γ£ô the-roots.json is valid
+Γ£ô the-weeknd.json is valid
+Γ£ô travis-scott.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\music\entities\wu-tang-clan.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô achilles.json is valid
+Γ£ô anubis.json is valid
+Γ£ô dragon.json is valid
+Γ£ô hercules.json is valid
+Γ£ô icarus.json is valid
+Γ£ô medusa.json is valid
+Γ£ô midas.json is valid
+Γ£ô odin.json is valid
+Γ£ô pandora.json is valid
+Γ£ô phoenix.json is valid
+Γ£ô thor.json is valid
+Γ£ô zeus.json is valid
+Γ£ô andre-3000.json is valid
+Γ£ô barack-obama.json is valid
+Γ£ô beyonce.json is valid
+Γ£ô bill-gates.json is valid
+Γ£ô drake.json is valid
+Γ£ô elon-musk.json is valid
+Γ£ô eminem.json is valid
+Γ£ô greta-thunberg.json is valid
+Γ£ô j-cole.json is valid
+Γ£ô jay-z.json is valid
+Γ£ô kanye-west.json is valid
+Γ£ô kendrick-lamar.json is valid
+Γ£ô kim-kardashian.json is valid
+Γ£ô lebron-james.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\people\entities\lupita-nyong'o.json:
+[
+  {
+    instancePath: '/id',
+    schemaPath: 'base.entity.schema.json/properties/id/pattern',
+    keyword: 'pattern',
+    params: { pattern: '^[a-z0-9-]+$' },
+    message: 'must match pattern "^[a-z0-9-]+$"'
+  }
+]
+Γ£ô michael-jordan.json is valid
+Γ£ô michelle-obama.json is valid
+Γ£ô naomi-osaka.json is valid
+Γ£ô nas.json is valid
+Γ£ô notorious-big.json is valid
+Γ£ô oprah-winfrey.json is valid
+Γ£ô oscar-isaac.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\people\entities\quentin-tarantino.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  },
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô ryan-reynolds.json is valid
+Γ£ô satya-nadella.json is valid
+Γ£ô serena-williams.json is valid
+Γ£ô solange-knowles.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\people\entities\steve-jobs.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  },
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô taylor-swift.json is valid
+Γ£ô timothee-chalamet.json is valid
+Γ£ô tupac-shakur.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\people\entities\zendaya.json:
+[
+  {
+    instancePath: '/related_ids/1',
+    schemaPath: 'base.entity.schema.json/properties/related_ids/items/pattern',
+    keyword: 'pattern',
+    params: { pattern: '^[a-z0-9-]+$' },
+    message: 'must match pattern "^[a-z0-9-]+$"'
+  }
+]
+Γ£ô absurdism.json is valid
+Γ£ô deontology.json is valid
+Γ£ô existentialism.json is valid
+Γ£ô hedonism.json is valid
+Γ£ô nihilism.json is valid
+Γ£ô simulation-hypothesis.json is valid
+Γ£ô social-contract.json is valid
+Γ£ô stoicism.json is valid
+Γ£ô utilitarianism.json is valid
+Γ£ô virtue-ethics.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\atlanta.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\brooklyn-bed-stuy.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\chicago-south-side.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\compton.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\detroit-8-mile.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\harlem.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\london-brixton.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\marcy-houses.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\new-york-bronx.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\new-york-city-bronx.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\queensbridge.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\south-central-la.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\places\entities\tokyo-shibuya.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  },
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô ceremony.json is valid
+Γ£ô coronation.json is valid
+Γ£ô initiation.json is valid
+Γ£ô libation.json is valid
+Γ£ô omen.json is valid
+Γ£ô purification.json is valid
+Γ£ô sacrifice.json is valid
+Γ£ô taboo.json is valid
+Γ£ô totem.json is valid
+Γ£ô vigil.json is valid
+Γ£ô artificial-general-intelligence.json is valid
+Γ£ô cyborgization.json is valid
+Γ£ô dyson-sphere.json is valid
+Γ£ô entropy.json is valid
+Γ£ô genetic-engineering.json is valid
+Γ£ô life-extension.json is valid
+Γ£ô nanotechnology.json is valid
+Γ£ô singularity.json is valid
+Γ£ô space-colonization.json is valid
+Γ£ô terraforming.json is valid
+Γ£ô cristiano-ronaldo.json is valid
+Γ£ô kobe-bryant.json is valid
+Γ£ô lebron-james.json is valid
+Γ£ô lionel-messi.json is valid
+Γ£ô michael-jordan.json is valid
+Γ£ô mike-tyson.json is valid
+Γ£ô muhammad-ali.json is valid
+Γ£ô serena-williams.json is valid
+Γ£ô tiger-woods.json is valid
+Γ£ô tom-brady.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\5g.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\artificial-intelligence.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\augmented-reality.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô big-data.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\biotechnology.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\blockchain.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô cloud-computing.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\cryptocurrency.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô cybersecurity.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\edge-computing.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô internet-of-things.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\iot.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô machine-learning.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\metaverse.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô neuralink.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\nft.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô quantum-computing.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\quantum-internet.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\tech\entities\robotics.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  },
+  {
+    instancePath: '/sources/1/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Γ£ô smartphone.json is valid
+Γ£ô virtual-reality.json is valid
+Γ£ô frequency.json is valid
+Γ£ô infinity.json is valid
+Γ£ô momentum.json is valid
+Γ£ô potential-energy.json is valid
+Γ£ô resonance.json is valid
+Γ£ô stasis.json is valid
+Γ£ô the-future.json is valid
+Γ£ô the-past.json is valid
+Γ£ô the-present.json is valid
+Γ£ô vibration.json is valid
+Γ£ô bugatti-veyron.json is valid
+Γ£ô cadillac-fleetwood.json is valid
+Γ£ô ferrari-f40.json is valid
+Γ£ô lamborghini-aventador.json is valid
+Γ£ô lowrider.json is valid
+Γ£ô mercedes-benz-g-wagon.json is valid
+Γ£ô porsche-911.json is valid
+Γ£ô range-rover.json is valid
+Γ£ô rolls-royce-phantom.json is valid
+Γ£ô tesla-model-s.json is valid
+Γ£ô ak-47.json is valid
+Γ£ô analog-clock.json is valid
+Γ£ô ar-15.json is valid
+Γ£ô brass-knuckles.json is valid
+Γ£ô butterfly-knife.json is valid
+Γ£ô desert-eagle.json is valid
+Γ£ô diamond-chain.json is valid
+Γ£ô gold-bar.json is valid
+Γ£ô katana.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\weapons-objects\entities\quill-and-ink.json:
+[
+  {
+    instancePath: '/type',
+    schemaPath: 'base.entity.schema.json/properties/type/enum',
+    keyword: 'enum',
+    params: { allowedValues: [Array] },
+    message: 'must be equal to one of the allowed values'
+  }
+]
+Γ£ô chatgpt.json is valid
+Γ£ô claude.json is valid
+Γ£ô evernote.json is valid
+Γ£ô gemini.json is valid
+Γ£ô google-docs.json is valid
+Γ£ô masterpiece-generator.json is valid
+Γ£ô notion.json is valid
+Γ£ô obsidian.json is valid
+Γ£ô physical-notebook.json is valid
+Γ£ô rap-pad.json is valid
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\writing-tools\entities\rhymezone.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]
+Validation failed for C:\Users\JaZeR\OneDrive\Desktop\2026 ΓåÆ JaZeR Mainframe\2026 ΓåÆ JaZeR Master Flow Knowledge Hub\data\writing-tools\entities\thesaurus-com.json:
+[
+  {
+    instancePath: '/sources/0/url',
+    schemaPath: 'base.entity.schema.json/properties/sources/items/properties/url/format',
+    keyword: 'format',
+    params: { format: 'uri' },
+    message: 'must match format "uri"'
+  }
+]

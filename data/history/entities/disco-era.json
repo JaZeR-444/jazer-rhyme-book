@@ -1,0 +1,20 @@
+{
+  "id": "disco-era",
+  "type": "history",
+  "name": "Disco Era",
+  "aliases": ["Studio 54 Era"],
+  "era": "1970s",
+  "tags": ["music", "culture", "nightlife", "excess"],
+  "one_liner": "A period dominated by disco music, flamboyant fashion, and the rise of club culture.",
+  "angles": ["nightlife as an escape", "the dance floor sanctuary", "glitter and hedonism"],
+  "bar_seeds": ["mirror ball spinning", "studio 54 nights", "disco inferno", "bell bottoms"],
+  "key_dates": ["1977 (Saturday Night Fever released)", "1979 (Disco Demolition Night)"],
+  "location": "Global (especially NYC)",
+  "impact": "Revolutionized music production and the role of the DJ, setting the stage for hip-hop and house music.",
+  "major_figures": ["Donna Summer", "The Bee Gees", "Giorgio Moroder"],
+  "cultural_shift": "A celebration of diversity and hedonism on the dance floor.",
+  "related_ids": ["music"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

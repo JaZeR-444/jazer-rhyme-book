@@ -1,0 +1,19 @@
+{
+  "id": "hakeem-olajuwon",
+  "type": "sports",
+  "name": "Hakeem Olajuwon",
+  "aliases": ["The Dream"],
+  "era": "1980s-2000s",
+  "tags": ["basketball", "skill", "technical", "legacy"],
+  "one_liner": "A Nigerian-American center known for his 'Dream Shake' and being one of the most versatile big men in history.",
+  "angles": ["the-dream-shake", "defensive-wall", "versatile-footwork"],
+  "bar_seeds": ["dream shake", "houston rockets back to back", "blocks and buckets"],
+  "related_ids": ["basketball-sport", "houston"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Footwork", "Shot blocking", "Post moves"],
+  "equipment": ["Basketball", "Etonic/Spalding shoes"],
+  "metaphors": ["The Dream"],
+  "legends": ["2x NBA Champion", "MVP", "Defensive Player of the Year"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

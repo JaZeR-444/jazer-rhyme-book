@@ -1,0 +1,17 @@
+{
+  "id": "athena",
+  "type": "mythology-legend",
+  "name": "Athena",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Greek goddess of wisdom, war strategy, and handicraft.",
+  "tags": ["logic", "classic", "legacy", "mythology"],
+  "angles": ["strategy", "wisdom", "justice"],
+  "bar_seeds": ["owl wisdom", "shield of aegis", "born from the head"],
+  "related_ids": ["zeus"],
+  "origin_culture": "Greek",
+  "deity_type": "Goddess",
+  "powers": ["Strategic warfare", "Weaving", "Wisdom"],
+  "symbols": ["Owl", "Olive Tree", "Aegis"],
+  "modern_parallels": ["Generals", "Scholars", "AI Strategy"]
+}

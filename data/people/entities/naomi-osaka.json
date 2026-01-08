@@ -1,0 +1,20 @@
+{
+  "id": "serena-williams-2",
+  "type": "people",
+  "name": "Naomi Osaka",
+  "aliases": ["Naomi", "Osaka"],
+  "era": "2016-Present",
+  "tags": ["tennis", "activist", "four-slam", "mental-health", "japanese-american"],
+  "one_liner": "A tennis champion known for her powerful play and advocacy for mental health.",
+  "angles": ["powerful tennis", "mental health advocacy", "activism"],
+  "bar_seeds": ["four slams", "mental health", "activism", "japanese-american"],
+  "known_for": ["Four Grand Slams", "Mental health advocacy", "Activism", "Fashion"],
+  "vibe": "Powerful, conscious, and mentally aware",
+  "signature_items": ["Four Grand Slams", "Mental health advocacy", "Mask messages"],
+  "quotables_short": ["I really think a champion should be measured by their ability to recover", "I feel like I've been kind of a vessel for something"],
+  "controversy_flags": ["Mental health discussions", "Activism"],
+  "related_ids": ["serena-williams"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

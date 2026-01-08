@@ -1,0 +1,17 @@
+{
+  "id": "ford-bronco-gen1",
+  "type": "vehicles",
+  "name": "Ford Bronco (1st Gen)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A rugged, boxy off-roader that became a classic American SUV icon.",
+  "tags": ["vintage", "classic", "grit", "utilitarian"],
+  "angles": ["adventure", "durability", "simplicity"],
+  "bar_seeds": ["top down off-road", "boxy frame", "goat mode"],
+  "related_ids": [],
+  "vehicle_type": "SUV",
+  "engine_type": "V8 / Inline-6",
+  "top_speed": "90 mph",
+  "cultural_status": "A collector's item representing rugged individualism.",
+  "design_features": ["Removable top", "Boxy design", "Round headlights"]
+}

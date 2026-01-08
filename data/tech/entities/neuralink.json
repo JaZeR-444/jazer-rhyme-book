@@ -1,0 +1,21 @@
+{
+  "id": "neuralink",
+  "type": "tech",
+  "name": "Neuralink",
+  "aliases": ["Brain-Computer Interface", "BCI"],
+  "era": "2020s-Future",
+  "tags": ["biotech", "future", "brain", "cybernetic"],
+  "one_liner": "A neurotechnology company developing implantable brain-computer interfaces.",
+  "angles": ["merging with AI", "mind control", "healing neurological disorders"],
+  "bar_seeds": ["chip in the brain", "downloading knowledge", "telepathic chat"],
+  "category": "Biotechnology",
+  "what_it_is": "High-bandwidth brain-machine interfaces to connect humans and computers.",
+  "why_it_matters": "Potentially solves brain injuries and bridges the gap between human and artificial intelligence.",
+  "risks": ["Brain hacking", "Ethical concerns", "Health complications"],
+  "metaphors": ["The Wizard's Hat", "USB port for the mind"],
+  "keywords": ["Neural lace", "Brain implant", "BCI", "Elon Musk"],
+  "related_ids": ["artificial-intelligence", "cyberpunk"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

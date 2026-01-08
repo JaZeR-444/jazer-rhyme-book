@@ -1,0 +1,20 @@
+{
+  "id": "michelle-obama",
+  "type": "people",
+  "name": "Michelle Obama",
+  "aliases": ["FLOTUS", "Michelle"],
+  "era": "2009-Present",
+  "tags": ["first-lady", "lawyer", "activist", "inspiring", "education"],
+  "one_liner": "Former First Lady known for advocacy in education, health, and military families.",
+  "angles": ["education advocacy", "health initiatives", "military support"],
+  "bar_seeds": ["let's move", "reach higher", "joining forces", "becoming"],
+  "known_for": ["Let's Move!", "Reach Higher", "Joining Forces", "Becoming"],
+  "vibe": "Inspiring, educated, and community-focused",
+  "signature_items": ["Educational advocacy", "Health initiatives", "Style moments"],
+  "quotables_short": ["When they go low, we go high", "Success is only meaningful and joyous if it feels like your own"],
+  "controversy_flags": ["Political associations"],
+  "related_ids": ["barack-obama"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

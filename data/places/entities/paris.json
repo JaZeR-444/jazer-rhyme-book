@@ -1,0 +1,17 @@
+{
+  "id": "paris",
+  "type": "places",
+  "name": "Paris",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The global capital of fashion, art, and romance, defined by its historic architecture and chic lifestyle.",
+  "tags": ["luxury", "fashion", "classic", "art"],
+  "angles": ["high fashion", "parisian chic", "the city of light"],
+  "bar_seeds": ["eiffel tower shadow", "louvre halls", "fashion week fit"],
+  "related_ids": ["dior", "louis-vuitton", "the-louvre"],
+  "place_type": "city",
+  "vibe": "Elegant, sophisticated, and historic.",
+  "sensory_cues": ["Bakeries", "Cobblestones", "Cigarette smoke", "Perfume"],
+  "cultural_refs": ["Kanye West (N****s in Paris)", "The Renaissance", "Fashion Week"],
+  "bar_angles": ["Luxury in the air", "Art on every corner", "Chasing the chic"]
+}

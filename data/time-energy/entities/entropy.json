@@ -1,0 +1,17 @@
+{
+  "id": "entropy",
+  "type": "time-energy",
+  "name": "Entropy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The thermodynamic measure of disorder and the inevitable decline into chaos.",
+  "tags": ["quantum", "entropy", "scientific", "dark"],
+  "angles": ["disorder", "decay", "unavoidable"],
+  "bar_seeds": ["system breakdown", "order to chaos", "winding down"],
+  "related_ids": ["stasis"],
+  "concept_type": "Physics",
+  "perception": "A sense of gradual, irreversible loss and spreading randomness.",
+  "physics_basis": "The Second Law of Thermodynamics.",
+  "cultural_view": "Often used as a metaphor for social or personal decline.",
+  "idioms": ["Things fall apart", "Heat death of the universe", "Run to seed"]
+}

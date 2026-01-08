@@ -1,0 +1,54 @@
+{
+  "id": "sony",
+  "type": "brand",
+  "name": "Sony",
+  "aliases": [],
+  "era": "1946-Present",
+  "tags": [
+    "classic",
+    "mainstream",
+    "cinematic",
+    "contemporary",
+    "legacy"
+  ],
+  "one_liner": "Entertainment and electronics giant spanning gaming, film, and audio.",
+  "angles": [
+    "console culture",
+    "cinema legacy",
+    "audio precision"
+  ],
+  "bar_seeds": [
+    "play the next",
+    "cinema soundstage",
+    "headphones on hush"
+  ],
+  "related_ids": [
+    "virtual-reality",
+    "netflix"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sony",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Entertainment/Electronics",
+  "price_tier": "Mid to Premium",
+  "signature_products": [
+    "PlayStation",
+    "WH-1000XM",
+    "Sony Pictures"
+  ],
+  "status_signals": [
+    "PlayStation exclusives",
+    "cinema heritage"
+  ],
+  "bar_angles": [
+    "console king",
+    "cinema sound"
+  ]
+}

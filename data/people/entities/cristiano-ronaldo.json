@@ -1,0 +1,17 @@
+{
+  "id": "cristiano-ronaldo",
+  "type": "people",
+  "name": "Cristiano Ronaldo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Portuguese football icon known for his athleticism, work ethic, and massive global brand.",
+  "tags": ["sports", "hustle", "luxury", "global"],
+  "angles": ["discipline", "ego", "longevity"],
+  "bar_seeds": ["siuuu celebration", "cr7 brand", "bicycle kick"],
+  "related_ids": ["lionel-messi"],
+  "known_for": ["Real Madrid", "Goal scoring records", "Instagram following"],
+  "vibe": "Confident, machine-like, superstar",
+  "signature_items": ["Number 7", "Nike boots", "Abs"],
+  "quotables_short": ["Siuuu!", "I am the best."],
+  "controversy_flags": ["Legal allegations", "Ego clashes"]
+}

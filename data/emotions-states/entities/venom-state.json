@@ -1,0 +1,18 @@
+{
+  "id": "venom-state",
+  "type": "emotions-states",
+  "name": "Venom",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A psychological state characterized by extreme spite, malicious intent, or poisonous words.",
+  "tags": ["dark", "negative", "aggressive", "raw"],
+  "angles": ["toxic-thoughts", "poison-lips", "bitter-weapon"],
+  "bar_seeds": ["tasting the poison", "venom in the verse", "snake tongue"],
+  "related_ids": ["malice", "spite", "snake"],
+  "intensity": "High",
+  "physical_symptoms": ["Cold smile", "Sharp tone", "Narrowed focus"],
+  "triggers": ["Deep betrayal", "Long-term resentment", "Calculated attack"],
+  "action_urge": "To deliver cutting, damaging words or actions.",
+  "opposites": ["Honey", "Sweetness", "Sincerity"],
+  "related_ids": ["rage", "resentment"]
+}

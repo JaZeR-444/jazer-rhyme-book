@@ -1,0 +1,18 @@
+{
+  "id": "puffer-jacket",
+  "type": "fashion",
+  "name": "Puffer Jacket",
+  "aliases": ["Down Jacket", "Quilted Jacket"],
+  "era": "1930s-Present",
+  "tags": ["winter", "urban", "gorpcore", "technical"],
+  "one_liner": "A quilted, insulated jacket that provides massive volume and warmth, becoming an urban winter essential.",
+  "angles": ["insulation and impact", "urban silhouette", "technical warmth"],
+  "bar_seeds": ["goose down", "puffy coat", "700 fill"],
+  "item_type": "Outerwear",
+  "material": ["Nylon", "Down", "Synthetic Fill"],
+  "cultural_significance": "Staple of NY street style and modern gorpcore.",
+  "fit": ["Oversized", "Bulky"],
+  "associated_brands": ["The North Face", "Moncler", "Canada Goose"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

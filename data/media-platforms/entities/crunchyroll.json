@@ -1,0 +1,17 @@
+{
+  "id": "crunchyroll",
+  "type": "media-platforms",
+  "name": "Crunchyroll",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The world's most popular anime streaming service, a central hub for otaku culture.",
+  "tags": ["anime", "asian", "community", "vibrant"],
+  "angles": ["simulcast", "sub-vs-dub", "global-weeb-hub"],
+  "bar_seeds": ["simulcast drop", "orange interface", "watching the arc"],
+  "related_ids": ["netflix"],
+  "platform_type": "Video Streaming (Anime)",
+  "user_demographic": "Anime Fans, Gen Z, Gen Alpha",
+  "content_format": ["Anime", "Manga", "Live Action"],
+  "algorithm_bias": "Favors high-popularity shonen and seasonal simulcasts.",
+  "slang": ["Sub", "Dub", "Simulcast", "Waifu"]
+}

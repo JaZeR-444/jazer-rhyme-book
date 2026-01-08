@@ -1,0 +1,17 @@
+{
+  "id": "static",
+  "type": "time-energy",
+  "name": "Static",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Background noise, interference, or a state of unchanging energy.",
+  "tags": ["lo-fi", "industrial", "stasis", "technical"],
+  "angles": ["interference", "background", "unmoving"],
+  "bar_seeds": ["snow on the screen", "white noise", "crackling air"],
+  "related_ids": ["stasis", "vibration"],
+  "concept_type": "Energy/Information",
+  "perception": "Constant, potentially irritating, or oddly comforting (as white noise).",
+  "physics_basis": "Random electromagnetic fluctuations.",
+  "cultural_view": "Associated with dead air, lost connections, and the 'void'.",
+  "idioms": ["Cut through the noise", "Dead air", "Between the stations"]
+}

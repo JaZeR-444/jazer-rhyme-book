@@ -1,0 +1,35 @@
+# WORD: Sanitation
+
+## Meaning (plain):
+A strong idea tied to intensity, pressure, or dominance.
+
+## Rap meaning (how I'd say it):
+Used to signal strength, control, or momentum in a bar.
+
+## Syllables:
+4 (approx.)
+
+## Part of speech:
+Noun
+
+## Synonyms:
+control, energy, weight, power, force, strength
+
+## Antonyms:
+softness, surrender, silence, fragility
+
+## Rhyme ideas (end / slant / multi):
+END: nation, station, vibration / SLANT: creation, relation, translation / MULTI: domination, elevation, revelation
+
+## 3 bar-ready examples:
+1. Sanitation in the flow, make the speakers quake.
+2. Say Sanitation with the vision, watch the crowd awake.
+3. Sanitation in my cadence, heavy like a drumline.
+
+## 3 punchline angles:
+1. Leadership/crown imagery
+2. Force/weight contrast
+3. Power/control imagery
+
+## Tags:
+power, intensity, dominance, momentum

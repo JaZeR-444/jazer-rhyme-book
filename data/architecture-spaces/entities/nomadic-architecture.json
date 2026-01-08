@@ -1,0 +1,20 @@
+{
+  "id": "nomadic-architecture",
+  "type": "architecture-spaces",
+  "name": "Nomadic Architecture",
+  "aliases": ["Mobile Homes", "Temporary Structures"],
+  "era": "2010s-Present",
+  "tags": ["mobile", "temporary", "adaptive", "flexible", "portable"],
+  "one_liner": "Architecture designed for mobility and temporary use, emphasizing flexibility and portability.",
+  "angles": ["mobile living", "temporary beauty", "flexible spaces"],
+  "bar_seeds": ["mobile homes", "temporary architecture", "flexible living", "portable spaces"],
+  "visual_elements": ["collapsible structures", "modular designs", "light materials", "adaptive forms"],
+  "mood": "Flexible, mobile, and adaptive",
+  "associated_eras": ["Modern Day"],
+  "color_palette": ["light colors", "desert tones", "portable hues", "adaptive shades"],
+  "fashion_staples": ["modular pieces", "light materials", "collapsible", "mobile design"],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

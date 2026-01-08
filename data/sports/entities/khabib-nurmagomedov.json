@@ -1,0 +1,19 @@
+{
+  "id": "khabib-nurmagomedov",
+  "type": "sports",
+  "name": "Khabib Nurmagomedov",
+  "aliases": ["The Eagle"],
+  "era": "2000s-2020s",
+  "tags": ["mma", "dominance", "grit", "stoicism"],
+  "one_liner": "Undefeated Russian lightweight whose relentless wrestling and pressure made him one of the most dominant athletes in combat sports history.",
+  "angles": ["father's-plan", "sambo-mastery", "dagestani-power"],
+  "bar_seeds": ["send me location", "maul them down", "eagle flies"],
+  "related_ids": ["conor-mcgregor"],
+  "team_size": "1 (MMA)",
+  "key_skills": ["Wrestling", "Sambo", "Endurance"],
+  "equipment": ["MMA Gloves", "Papakha hat"],
+  "metaphors": ["The Eagle"],
+  "legends": ["29-0 Record", "UFC Lightweight Champion"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

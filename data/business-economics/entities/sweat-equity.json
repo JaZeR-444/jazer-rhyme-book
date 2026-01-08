@@ -1,0 +1,17 @@
+{
+  "id": "sweat-equity",
+  "type": "business-economics",
+  "name": "Sweat Equity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An interest or increased value in a property earned from labor toward upkeep or restoration.",
+  "tags": ["hustle", "work", "grit", "startup"],
+  "angles": ["hard-work", "investment", "grind"],
+  "bar_seeds": ["blood sweat and tears", "paid in work", "building it myself"],
+  "related_ids": ["bootstrapping"],
+  "industry": "Entrepreneurship / Real Estate",
+  "core_principle": "Labor as capital.",
+  "jargon": ["Vesting", "Grind", "DIY"],
+  "key_metrics": ["Hours Worked", "Value Created"],
+  "archetypes": ["Co-founder", "Flipper"]
+}

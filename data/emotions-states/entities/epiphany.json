@@ -1,0 +1,18 @@
+{
+  "id": "epiphany",
+  "type": "emotions-states",
+  "name": "Epiphany",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sudden, intuitive perception of or insight into the reality or essential meaning of something.",
+  "tags": ["innovative", "vibrant", "intellectual", "sudden"],
+  "angles": ["eureka-moment", "the-lightbulb", "sudden-clarity"],
+  "bar_seeds": ["struck by lightning", "now I see", "the pieces fit"],
+  "related_ids": ["wonder", "rationalism"],
+  "intensity": "High",
+  "physical_symptoms": ["Sudden intake of breath", "Widened eyes", "Goosebumps"],
+  "triggers": ["Deep thought", "Problem solving", "Artistic inspiration"],
+  "action_urge": "To record the thought, share it, or act upon it immediately.",
+  "opposites": ["Confusion", "Obfuscation"],
+  "related_ids": ["catharsis", "wonder"]
+}

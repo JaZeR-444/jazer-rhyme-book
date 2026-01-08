@@ -1,0 +1,20 @@
+{
+  "id": "training-day-2001",
+  "type": "cinema",
+  "name": "Training Day",
+  "aliases": ["Alonzo Harris", "Jake Hoyt"],
+  "era": "2001",
+  "tags": ["crime", "police-corruption", "los-angeles", "thriller"],
+  "one_liner": "A rookie cop spends his first day as a narcotics officer with a rogue detective who blurs the line between law and crime.",
+  "angles": ["wolf among sheep", "street justice vs law", "the mentor from hell"],
+  "bar_seeds": ["king kong ain't got shit on me", "monte carlo with the hydraulics", "the bathtub scene"],
+  "plot_hooks": ["a test of morals", "a set-up in the streets", "survival against a powerful foe"],
+  "iconic_scenes": ["The 'King Kong' monologue", "The shootout at the apartment", "The office in the car"],
+  "visual_motifs": ["Alonzo's jewelry", "The 1979 Monte Carlo", "Street murals"],
+  "themes": ["Corruption", "Power", "Morality"],
+  "quotables_short": ["King Kong ain't got shit on me", "To protect the sheep you gotta catch the wolf"],
+  "related_ids": ["dr-dre"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

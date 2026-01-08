@@ -1,0 +1,17 @@
+{
+  "id": "maya-angelou",
+  "type": "people",
+  "name": "Maya Angelou",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A renowned poet, memoirist, and civil rights activist whose work explores themes of identity, trauma, and resilience.",
+  "tags": ["poetic", "legacy", "resilience", "soulful"],
+  "angles": ["the-caged-bird", "phenomenal-woman", "wisdom"],
+  "bar_seeds": ["caged bird sings", "still I rise", "phenomenal woman"],
+  "related_ids": ["civil-rights-movement"],
+  "known_for": ["I Know Why the Caged Bird Sings", "Civil Rights", "Poetry"],
+  "vibe": "Wise, powerful, poetic",
+  "signature_items": ["Books", "Traditional prints", "Deep voice"],
+  "quotables_short": ["Still I rise.", "When people show you who they are, believe them."],
+  "controversy_flags": []
+}

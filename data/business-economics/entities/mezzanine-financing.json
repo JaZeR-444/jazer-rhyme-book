@@ -1,0 +1,17 @@
+{
+  "id": "mezzanine-financing",
+  "type": "business-economics",
+  "name": "Mezzanine Financing",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hybrid of debt and equity financing that gives the lender the right to convert to an equity interest in the company in case of default.",
+  "tags": ["technical", "finance", "power", "wealth"],
+  "angles": ["middle-layer", "high-risk-high-reward", "bridge-to-success"],
+  "bar_seeds": ["mezzanine level", "between debt and equity", "high interest power"],
+  "related_ids": ["venture-debt", "private-equity"],
+  "industry": "Corporate Finance",
+  "core_principle": "Subordinated debt with equity upside.",
+  "jargon": ["Warrant", "Subordination", "Junior debt"],
+  "key_metrics": ["Interest Rate", "Equity Kicker"],
+  "archetypes": ["Investment Banker", "Late-stage Founder"]
+}

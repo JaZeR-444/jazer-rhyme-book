@@ -1,0 +1,18 @@
+{
+  "id": "cognitive-dissonance",
+  "type": "emotions-states",
+  "name": "Dissonance",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The mental discomfort experienced by a person who holds two or more contradictory beliefs, ideas, or values.",
+  "tags": ["anxiety", "internal", "logic", "conflicted"],
+  "angles": ["clashing-truths", "uncomfortable-hypocrisy", "mental-noise"],
+  "bar_seeds": ["mind at war", "lying to myself", "the sound of the clash"],
+  "related_ids": ["ambivalence", "paradox"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Headache", "Irritability", "Restlessness"],
+  "triggers": ["New information contradicting beliefs", "Hypocritical actions", "Moral dilemmas"],
+  "action_urge": "To resolve the contradiction by changing beliefs, justifying the behavior, or ignoring the evidence.",
+  "opposites": ["Harmony", "Consistency", "Integrity"],
+  "related_ids": ["anxiety", "guilt"]
+}

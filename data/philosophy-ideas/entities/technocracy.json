@@ -1,0 +1,17 @@
+{
+  "id": "technocracy",
+  "type": "philosophy-ideas",
+  "name": "Technocracy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A system of government in which decision-makers are selected on the basis of their expertise in a given area of responsibility.",
+  "tags": ["technical", "logic", "political", "futuristic"],
+  "angles": ["rule-by-experts", "efficiency-over-ideology", "the-engineered-society"],
+  "bar_seeds": ["engineers at the helm", "optimizing the state", "data driven rule"],
+  "related_ids": ["meritocracy", "artificial-general-intelligence"],
+  "school_of_thought": "Political Science / Futurism",
+  "core_question": "Should society be managed by technical experts rather than politicians?",
+  "key_philosophers": ["Saint-Simon", "Thorstein Veblen"],
+  "paradoxes": ["The Expert's Blindness"],
+  "modern_application": "Central banking, regulatory agencies, Silicon Valley management styles."
+}

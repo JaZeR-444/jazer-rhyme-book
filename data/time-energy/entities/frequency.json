@@ -1,0 +1,20 @@
+{
+  "id": "frequency",
+  "type": "time-energy",
+  "name": "Frequency",
+  "aliases": ["Pitch", "Rate", "Wave"],
+  "era": "Universal",
+  "tags": ["energy", "audio", "science", "repetition"],
+  "one_liner": "The rate at which something occurs or is repeated over a particular period of time or in a given sample.",
+  "angles": ["on the same wavelength", "high speed energy", "the rhythm of the world"],
+  "bar_seeds": ["dialing in the frequency", "radio waves in the air", "pulsing light", "picking up the signals"],
+  "concept_type": "Oscillatory State",
+  "perception": "Rhythm, pitch, and energy levels.",
+  "physics_basis": "The number of cycles per unit of time (Hertz).",
+  "cultural_view": "Used metaphorically for mental state and social connection.",
+  "idioms": ["On the same frequency", "High frequency energy"],
+  "related_ids": ["music", "tech"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "woman-distracted-by-math",
+  "type": "internet-culture",
+  "name": "Woman Distracted by Math",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A reaction meme showing Brazilian actress Renata Sorrah looking confused while math equations float around her.",
+  "tags": ["technical", "contemporary", "logic", "abstract"],
+  "angles": ["confusion", "calculation", "overthinking"],
+  "bar_seeds": ["calculating the risk", "math floating", "confused look"],
+  "related_ids": ["galaxy-brain"],
+  "format": "GIF / Image Macro",
+  "origin_platform": "Twitter (Brazilian roots)",
+  "meaning": "The feeling of trying to understand something complex or nonsensical.",
+  "remix_rules": ["Floating geometry/calculus", "Four-panel confusion", "Used for plot holes or bad logic"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["Trying to find the logic, math floating in my vision", "Calculating the bill like the lady in the meme"]
+}

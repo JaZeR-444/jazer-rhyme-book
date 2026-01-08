@@ -1,0 +1,17 @@
+{
+  "id": "greenhouse",
+  "type": "architecture-spaces",
+  "name": "Greenhouse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A building where plants such as flowers and vegetables are grown under controlled conditions.",
+  "tags": ["nature", "organic", "vibrant", "aesthetic"],
+  "angles": ["artificial-nature", "shelter-for-life", "transparency"],
+  "bar_seeds": ["glass and vines", "humid air", "growing in the winter"],
+  "related_ids": ["vertical-forests", "solarpunk"],
+  "style": "Victorian / Modern Industrial",
+  "materials": ["Glass", "Steel", "PVC"],
+  "spatial_qualities": ["Humid", "Luminous", "Abundant"],
+  "function": "Cultivation",
+  "famous_examples": ["Kew Gardens Palm House", "Eden Project"]
+}

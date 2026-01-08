@@ -1,0 +1,17 @@
+{
+  "id": "vertical-farming-future",
+  "type": "science-future",
+  "name": "Vertical Farming",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The practice of growing crops in vertically stacked layers, often incorporating controlled-environment agriculture.",
+  "tags": ["nature", "innovative", "urban", "technical"],
+  "angles": ["skyscrapers-of-food", "hyper-efficiency", "urban-nature"],
+  "bar_seeds": ["growing up not out", "neon lights on the lettuce", "city harvest"],
+  "related_ids": ["vertical-forests", "solarpunk"],
+  "field": "Agriculture / Urban Planning",
+  "hypothesis": "Food production can be brought into cities and optimized using minimal space/water.",
+  "implications": ["End of food deserts", "Recovery of natural land", "Independence from weather"],
+  "technologies": ["Hydroponics", "Aeroponics", "LED grow lights"],
+  "ethical_concerns": ["Energy intensity", "Gentrification of food access"]
+}

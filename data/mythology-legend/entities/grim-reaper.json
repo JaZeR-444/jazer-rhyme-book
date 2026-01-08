@@ -1,0 +1,17 @@
+{
+  "id": "grim-reaper",
+  "type": "mythology-legend",
+  "name": "Grim Reaper",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The personification of death, usually depicted as a skeletal figure carrying a large scythe.",
+  "tags": ["dark", "universal", "mythology", "fear"],
+  "angles": ["inevitability", "harvest", "silence"],
+  "bar_seeds": ["pale horse", "scythe swing", "hooded cloak"],
+  "related_ids": ["hades", "anubis"],
+  "origin_culture": "European Folklore",
+  "deity_type": "Personification",
+  "powers": ["Ending life", "Invisibility"],
+  "symbols": ["Scythe", "Hourglass", "Black Cloak"],
+  "modern_parallels": ["Time", "Endings", "Entropy"]
+}

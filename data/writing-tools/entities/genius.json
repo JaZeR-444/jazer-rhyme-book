@@ -1,0 +1,18 @@
+{
+  "id": "genius",
+  "type": "writing-tool",
+  "name": "Genius",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The world's biggest collection of song lyrics and crowdsourced musical knowledge.",
+  "tags": ["tool", "technical", "culture", "community"],
+  "angles": ["annotation", "meaning", "context"],
+  "bar_seeds": ["verified annotation", "yellow highlight", "read the lyrics"],
+  "related_ids": [],
+  "category": "Reference",
+  "what_it_does": "Hosts lyrics with line-by-line annotations explaining meanings and references.",
+  "best_for": ["studying other artists", "decoding bars", "publishing own lyrics"],
+  "workflow_hooks": ["Add your own lyrics", "Read the backstory"],
+  "pitfalls": ["Crowdsourced errors", "Over-explanation"],
+  "bar_angles": ["Verified check", "Deep dive", "Context king"]
+}

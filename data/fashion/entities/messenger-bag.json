@@ -1,0 +1,19 @@
+{
+  "id": "messenger-bag",
+  "type": "fashion",
+  "name": "Messenger Bag",
+  "aliases": ["Courier Bag"],
+  "era": "1950s-Present",
+  "tags": ["urban", "utility", "industrial", "grit"],
+  "one_liner": "A type of sack, usually made out of some kind of cloth, that is worn over one shoulder with a strap that goes across the chest.",
+  "angles": ["urban-courier", "tactical-commute", "cross-body-power"],
+  "bar_seeds": ["strap across the chest", "buckle snap", "city navigator"],
+  "related_ids": ["utility-fashion"],
+  "item_type": "Accessories / Bags",
+  "material": ["Nylon", "Canvas", "Tarpaulin"],
+  "cultural_significance": "Derived from military and courier bags; a staple of bike messenger and urban commuter cultures.",
+  "fit": ["Cross-body"],
+  "associated_brands": ["Chrome Industries", "Timbuk2", "Louis Vuitton"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

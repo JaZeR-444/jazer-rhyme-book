@@ -1,0 +1,17 @@
+{
+  "id": "levis",
+  "type": "brand",
+  "name": "Levi's",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The quintessential American denim brand, inventors of the blue jean.",
+  "tags": ["classic", "vintage", "americana", "legacy"],
+  "angles": ["blue-jeans-origin", "workwear-to-pop-culture", "rugged-durability"],
+  "bar_seeds": ["501s", "red tab", "denim heart"],
+  "related_ids": ["denim-jacket"],
+  "category": "Fashion",
+  "price_tier": "Mid",
+  "signature_products": ["501 Original Fit Jeans", "Trucker Jacket"],
+  "status_signals": ["Red Tab", "Two-horse pull leather patch"],
+  "bar_angles": ["American legend", "Built to last", "The blue standard"]
+}

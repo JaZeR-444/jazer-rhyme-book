@@ -1,0 +1,17 @@
+{
+  "id": "apartheid",
+  "type": "history",
+  "name": "Apartheid",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A system of institutionalized racial segregation that existed in South Africa and South West Africa from 1948 until the early 1990s.",
+  "tags": ["dark", "political", "rebellion", "history"],
+  "angles": ["systemic-injustice", "resistance-spirit", "long-walk-to-freedom"],
+  "bar_seeds": ["divided city", "pass laws", "rising from the chains"],
+  "related_ids": ["civil-rights-movement", "nelson-mandela-release-1990"],
+  "key_dates": ["1948", "1994"],
+  "location": "South Africa",
+  "impact": "Created profound racial inequality; its end marked a major victory for human rights globally.",
+  "major_figures": ["Nelson Mandela", "Desmond Tutu", "Steve Biko"],
+  "cultural_shift": "Global boycott and the transition to a multiracial democracy."
+}

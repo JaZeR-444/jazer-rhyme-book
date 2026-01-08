@@ -1,0 +1,20 @@
+{
+  "id": "cpu",
+  "type": "tech",
+  "name": "CPU",
+  "aliases": ["Processor", "Microprocessor"],
+  "era": "1970s-Present",
+  "tags": ["technical", "hardware", "logic", "core"],
+  "one_liner": "The primary component of a computer that acts as its 'control center'.",
+  "angles": ["central logic", "clock speed", "the brain of the box"],
+  "bar_seeds": ["overclocked thoughts", "multi-core flow", "processing the pain"],
+  "related_ids": [],
+  "category": "Hardware",
+  "what_it_is": "Central Processing Unit; executes instructions of a computer program.",
+  "why_it_matters": "The fundamental engine of all digital computing.",
+  "risks": ["Overheating", "Security vulnerabilities (Spectre/Meltdown)", "Obsolescence"],
+  "metaphors": ["The conductor", "The master brain", "The engine room"],
+  "keywords": ["Intel", "Apple Silicon", "Clock speed", "Threads", "Nanometers"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ancient-greece",
+  "type": "history",
+  "name": "Ancient Greece",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The cradle of Western civilization, known for philosophy, democracy, and the Olympic Games.",
+  "tags": ["classic", "philosophical-ideas", "war", "legacy"],
+  "angles": ["democracy", "intellectual peak", "spartan grit"],
+  "bar_seeds": ["spartan shield", "athenian thoughts", "olympian reach"],
+  "key_dates": ["8th Century BC", "146 BC"],
+  "location": "Balkan Peninsula / Aegean Sea",
+  "impact": "Birth of democracy, philosophy, and classical drama.",
+  "major_figures": ["Socrates", "Alexander the Great", "Pericles"],
+  "cultural_shift": "Development of systematic logic and civic participation."
+}

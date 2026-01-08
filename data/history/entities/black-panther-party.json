@@ -1,0 +1,20 @@
+{
+  "id": "black-panther-party",
+  "type": "history",
+  "name": "Black Panther Party",
+  "aliases": ["BPP", "Black Panthers"],
+  "era": "1966-1982",
+  "tags": ["revolution", "civil-rights", "politics", "black-power"],
+  "one_liner": "A revolutionary political organization founded to challenge police brutality and provide social programs for the Black community.",
+  "angles": ["self-defense and survival", "revolutionary education", "challenging the status quo"],
+  "bar_seeds": ["black berets", "free breakfast program", "ten point program", "power to the people"],
+  "key_dates": ["October 1966 (Founded in Oakland)", "1969 (FBI declares BPP a threat)"],
+  "location": "United States (Oakland, CA)",
+  "impact": "Transformed Black political activism and social services in urban areas.",
+  "major_figures": ["Huey P. Newton", "Bobby Seale", "Fred Hampton"],
+  "cultural_shift": "A move towards radical self-determination and militant resistance against systemic racism.",
+  "related_ids": ["public-enemy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

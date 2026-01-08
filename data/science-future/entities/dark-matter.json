@@ -1,0 +1,17 @@
+{
+  "id": "dark-matter",
+  "type": "science-future",
+  "name": "Dark Matter",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical form of matter that is believed to make up approximately 85% of the matter in the universe.",
+  "tags": ["esoteric", "cosmic", "technical", "mystery"],
+  "angles": ["unseen influence", "the invisible weight", "missing mass"],
+  "bar_seeds": ["phantom weight", "dark energy dark flow", "holding it together from the shadows"],
+  "related_ids": ["black-hole"],
+  "field": "Astrophysics / Cosmology",
+  "hypothesis": "A vast amount of matter exists that does not emit or interact with electromagnetic radiation.",
+  "implications": ["Revision of standard model", "Galactic stability", "Ultimate fate of the universe"],
+  "technologies": ["Particle Detectors", "WIMP detection"],
+  "ethical_concerns": ["N/A"]
+}

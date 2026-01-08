@@ -1,0 +1,18 @@
+{
+  "id": "aphex-twin",
+  "type": "music",
+  "name": "Aphex Twin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An elusive electronic musician who pioneered IDM and pushed the boundaries of sound design.",
+  "tags": ["innovative", "abstract", "technical", "electronic"],
+  "angles": ["complexity", "mystery", "glitch"],
+  "bar_seeds": ["windowlicker", "ambient works", "richard d james"],
+  "related_ids": ["radiohead"],
+  "genre": ["IDM", "Ambient", "Techno"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Windowlicker", "Avril 14th", "Alberto Balsalm"],
+  "sonic_descriptors": ["Glitch drums", "Lush pads", "Distorted faces"],
+  "influence_tree": ["Brian Eno", "Kraftwerk"],
+  "aesthetic": "Distorted Digital"
+}

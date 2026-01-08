@@ -1,0 +1,20 @@
+{
+  "id": "patek-philippe",
+  "type": "brand",
+  "name": "Patek Philippe",
+  "aliases": ["Patek"],
+  "era": "1839-Present",
+  "tags": ["luxury", "watch", "swiss", "elite-status"],
+  "one_liner": "The pinnacle of Swiss watchmaking, representing ultimate wealth and generational legacy.",
+  "angles": ["generational wealth", "time as an asset", "the elite flex"],
+  "bar_seeds": ["patek on the wrist", "nautilus", "aquanaut", "iced out patek"],
+  "category": "Luxury Watches",
+  "price_tier": "Ultra-high-end",
+  "signature_products": ["Nautilus", "Aquanaut", "Calatrava"],
+  "status_signals": ["Nautilus silhouette", "Extreme price tag"],
+  "bar_angles": ["patek gallery", "wrist looking like a patek"],
+  "related_ids": ["rolex"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

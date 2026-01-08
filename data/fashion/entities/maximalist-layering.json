@@ -1,0 +1,56 @@
+{
+  "id": "maximalist-layering",
+  "type": "fashion",
+  "name": "Maximalist Layering",
+  "aliases": [
+    "Maximalist style"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "maximalist",
+    "vibrant",
+    "trend",
+    "contemporary"
+  ],
+  "one_liner": "Bold combinations of textures, colors, and layers.",
+  "angles": [
+    "more is more",
+    "texture pile-up",
+    "loud elegance"
+  ],
+  "bar_seeds": [
+    "layer on layer",
+    "color clash flex",
+    "texture on blast"
+  ],
+  "item_type": "Styling Approach",
+  "material": [
+    "Mixed fabrics",
+    "Knit",
+    "Denim"
+  ],
+  "cultural_significance": "Celebrates excess and personal expression.",
+  "fit": [
+    "Layered",
+    "Oversized"
+  ],
+  "associated_brands": [
+    "Gucci",
+    "Balenciaga",
+    "Comme des Garcons"
+  ],
+  "related_ids": [
+    "logomania",
+    "luxury-accessories"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Maximalism",
+      "url": "https://en.wikipedia.org/wiki/Maximalism",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

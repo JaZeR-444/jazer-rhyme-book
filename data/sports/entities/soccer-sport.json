@@ -1,0 +1,19 @@
+{
+  "id": "soccer-sport",
+  "type": "sports",
+  "name": "Soccer (Football)",
+  "aliases": ["The Beautiful Game", "Association Football"],
+  "era": "Ancient-Present",
+  "tags": ["soccer", "global", "vibrant", "dynamic"],
+  "one_liner": "The world's most popular sport, a game of flow, feet, and universal passion.",
+  "angles": ["the-beautiful-game", "ninety-minute-narrative", "the-world's-language"],
+  "bar_seeds": ["goal in the net", "pitch perfect", "world cup dream"],
+  "team_size": "11 vs 11",
+  "key_skills": ["Ball control", "Endurance", "Vision"],
+  "equipment": ["Soccer ball", "Goal", "Shin guards"],
+  "metaphors": ["The beautiful game", "Winning in extra time", "Leveling the pitch"],
+  "legends": ["Pelé", "Maradona", "Messi"],
+  "related_ids": ["pele", "diego-maradona", "lionel-messi"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

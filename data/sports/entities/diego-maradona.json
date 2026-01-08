@@ -1,0 +1,19 @@
+{
+  "id": "diego-maradona",
+  "type": "sports",
+  "name": "Diego Maradona",
+  "aliases": ["El Pibe de Oro (The Golden Boy)"],
+  "era": "1970s-1990s",
+  "tags": ["soccer", "rebellion", "legacy", "vibrant"],
+  "one_liner": "Argentine football genius whose skill was matched only by his chaotic and rebellious spirit.",
+  "angles": ["hand-of-god", "napoli-savior", "flawed-genius"],
+  "bar_seeds": ["hand of god", "goal of the century", "golden boy"],
+  "related_ids": ["lionel-messi", "soccer"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Dribbling", "Free kicks", "Leadership"],
+  "equipment": ["Soccer ball", "Cleats"],
+  "metaphors": ["The Hand of God"],
+  "legends": ["1986 World Cup Champion", "Napoli Legend"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

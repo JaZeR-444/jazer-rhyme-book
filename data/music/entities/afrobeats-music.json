@@ -1,0 +1,18 @@
+{
+  "id": "afrobeats-music",
+  "type": "music",
+  "name": "Afrobeats",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A modern umbrella term for contemporary West African music that fuses traditional rhythms with global pop.",
+  "tags": ["vibrant", "global", "energetic", "rhythmic"],
+  "angles": ["african-renaissance", "polyrhythmic-joy", "global-dominance"],
+  "bar_seeds": ["lagos to london", "vibe check", "rhythm of the continent"],
+  "related_ids": ["burna-boy", "wizkid"],
+  "genre": ["Pop", "Highlife", "Hip Hop"],
+  "era_detail": "2000s - Present",
+  "signature_songs": ["Ye", "Essence", "Fall"],
+  "sonic_descriptors": ["Polyrhythmic percussion", "Smooth vocals", "Lush production", "Auto-tune"],
+  "influence_tree": ["Afrobeat (Fela Kuti)", "Highlife", "Dancehall", "Hip Hop"],
+  "aesthetic": "Lagos Luxury and Color"
+}

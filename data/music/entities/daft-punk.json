@@ -1,0 +1,58 @@
+{
+  "id": "daft-punk",
+  "type": "music",
+  "name": "Daft Punk",
+  "aliases": [
+    "The Robots"
+  ],
+  "era": "1993-2021",
+  "tags": [
+    "futuristic",
+    "innovative",
+    "synthetic"
+  ],
+  "one_liner": "French electronic music duo who achieved significant popularity in the late 1990s and 2000s.",
+  "angles": [
+    "robotic persona",
+    "sampling mastery",
+    "visual mystery"
+  ],
+  "bar_seeds": [
+    "Helmet on, robotic flow like Daft Punk",
+    "Harder, better, faster, stronger with the bars"
+  ],
+  "related_ids": [
+    "discovery",
+    "homework"
+  ],
+  "created_at": "2025-12-23T10:40:00Z",
+  "updated_at": "2025-12-23T10:40:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "genre": [
+    "House",
+    "Electronic",
+    "Disco"
+  ],
+  "era_detail": "French Touch movement of the 90s into global stardom.",
+  "signature_songs": [
+    "One More Time",
+    "Get Lucky"
+  ],
+  "sonic_descriptors": [
+    "Compressed",
+    "Vocoder-heavy",
+    "Funky"
+  ],
+  "influence_tree": [
+    "Kanye West",
+    "The Weeknd"
+  ],
+  "aesthetic": "Robotic helmets, sleek leather, LED lights"
+}

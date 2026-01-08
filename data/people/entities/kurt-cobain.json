@@ -1,0 +1,18 @@
+{
+  "id": "kurt-cobain",
+  "type": "people",
+  "name": "Kurt Cobain",
+  "aliases": ["The Voice of a Generation"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The reluctant figurehead of grunge music, known for his raw songwriting and anti-fame attitude.",
+  "tags": ["grunge", "raw", "angst", "legacy"],
+  "angles": ["authenticity", "internal-pain", "rejection-of-pop"],
+  "bar_seeds": ["jaguar guitar", "cardigan sweater", "nirvana state"],
+  "related_ids": ["nirvana", "grunge-music"],
+  "known_for": ["Nirvana", "Nevermind", "Songwriting"],
+  "vibe": "Angsty, brilliant, fragile",
+  "signature_items": ["Fender Mustang", "Flannel shirt", "Journal"],
+  "quotables_short": ["I'd rather be hated for who I am...", "Peace, Love, Empathy."],
+  "controversy_flags": ["Drug use", "Death by suicide"]
+}

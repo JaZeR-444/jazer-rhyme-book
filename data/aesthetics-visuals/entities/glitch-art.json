@@ -1,0 +1,17 @@
+{
+  "id": "glitch-art",
+  "type": "aesthetics-visuals",
+  "name": "Glitch Art",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The practice of using digital or analog errors for aesthetic purposes by either corrupting digital data or physically manipulating electronic devices.",
+  "tags": ["digital", "glitch", "abstract", "technical"],
+  "angles": ["error", "distortion", "fragmentation"],
+  "bar_seeds": ["datamosh", "broken pixels", "signal loss"],
+  "related_ids": ["glitchcore"],
+  "visual_elements": ["Pixel sorting", "Scan lines", "Color bleed", "Digital noise"],
+  "mood": "Chaotic, experimental, modern",
+  "associated_eras": ["2000s", "Present"],
+  "color_palette": ["RGB", "Static Grey", "Neon bleed"],
+  "fashion_staples": ["Distorted graphics", "Asymmetric designs"]
+}

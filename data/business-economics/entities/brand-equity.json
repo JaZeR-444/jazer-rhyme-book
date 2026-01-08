@@ -1,0 +1,17 @@
+{
+  "id": "brand-equity",
+  "type": "business-economics",
+  "name": "Brand Equity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The commercial value that derives from consumer perception of the brand name of a particular product or service.",
+  "tags": ["marketing", "value", "psychology", "wealth"],
+  "angles": ["reputation", "trust", "premium"],
+  "bar_seeds": ["paying for the name", "logo markup", "reputation precedes me"],
+  "related_ids": ["marketing"],
+  "industry": "Marketing",
+  "core_principle": "Intangible value.",
+  "jargon": ["Brand awareness", "Loyalty", "Premium pricing"],
+  "key_metrics": ["Net Promoter Score", "Brand Value"],
+  "archetypes": ["CMO", "Brand Manager"]
+}

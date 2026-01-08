@@ -1,0 +1,20 @@
+{
+  "id": "terraforming",
+  "type": "science-future",
+  "name": "Terraforming",
+  "aliases": ["Earth-shaping"],
+  "era": "Future",
+  "tags": ["space", "future", "engineering", "ecology"],
+  "one_liner": "The hypothetical process of deliberately modifying the atmosphere, temperature, surface topography, or ecology of a planet to make it habitable by humans.",
+  "angles": ["shaping a new world", "nature as a tech project", "the gardener of the galaxy"],
+  "bar_seeds": ["martian oceans", "manufacturing a sky", "green on the red planet", "world building"],
+  "field": "Planetary Engineering / Ecology",
+  "hypothesis": "Planets like Mars or Venus can be engineered to support Earth-like life.",
+  "implications": ["Unlimited expansion for humanity", "Reshaping our understanding of 'nature'"],
+  "technologies": ["Atmospheric processing", "Giant space mirrors", "Bio-engineered microbes"],
+  "ethical_concerns": ["Planetary imperialism", "Destroying existing (microbial) life", "Cost vs Earth preservation"],
+  "related_ids": ["space-colonization"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "industrial-music",
+  "type": "music",
+  "name": "Industrial",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A genre of experimental music that draws on harsh, transgressive or provocative themes and sounds.",
+  "tags": ["industrial", "dark", "aggressive", "technical"],
+  "angles": ["machine-rhythm", "transgression", "sonic-assault"],
+  "bar_seeds": ["clanging metal", "distorted screams", "cold factory beat"],
+  "related_ids": ["brutalism", "cyberpunk"],
+  "genre": ["Electronic", "Experimental", "Rock"],
+  "era_detail": "1970s - Present",
+  "signature_songs": ["Closer", "Head Like a Hole", "Hamburger Lady"],
+  "sonic_descriptors": ["Metallic clangs", "White noise", "Heavy synthesizers", "Aggressive percussion"],
+  "influence_tree": ["Futurism", "Kraftwerk", "Musique concrète"],
+  "aesthetic": "Dystopian and Mechanical"
+}

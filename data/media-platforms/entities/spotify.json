@@ -1,0 +1,20 @@
+{
+  "id": "spotify",
+  "type": "media-platforms",
+  "name": "Spotify",
+  "aliases": ["The Spot"],
+  "era": "2000s-Present",
+  "tags": ["music", "streaming", "audio", "podcasts"],
+  "one_liner": "The world's most popular audio streaming subscription service.",
+  "angles": ["the library of every song", "the algorithmic playlist", "the death of the album era?"],
+  "bar_seeds": ["spotify wrapped", "playlist curator", "streaming pennies", "daily mix"],
+  "platform_type": "Audio Streaming",
+  "user_demographic": "Universal (music lovers)",
+  "content_format": ["Music", "Podcasts", "Audiobooks"],
+  "algorithm_bias": "User listening habits, genre similarity, and popularity",
+  "slang": ["Playlist", "Wrapped", "Canvas", "Artist Page"],
+  "related_ids": ["music"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

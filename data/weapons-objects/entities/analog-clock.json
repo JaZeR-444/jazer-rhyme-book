@@ -1,0 +1,20 @@
+{
+  "id": "analog-clock",
+  "type": "weapons-objects",
+  "name": "Analog Clock",
+  "aliases": ["The Ticking Clock", "Wall Clock"],
+  "era": "Ancient-Present",
+  "tags": ["object", "time", "pressure", "classic"],
+  "one_liner": "A device for measuring and showing time, characterized by moving hands and a numbered face.",
+  "angles": ["the countdown", "the persistence of time", "analog rhythm"],
+  "bar_seeds": ["ticking away", "hands of time", "grandfather clock shadow", "winding the gears"],
+  "weapon_type": "Conceptual Object",
+  "range": "N/A",
+  "damage_type": "N/A",
+  "symbolism": "Inevitability, mortality, pressure, and organization.",
+  "famous_users": ["Everyone"],
+  "related_ids": ["time-energy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

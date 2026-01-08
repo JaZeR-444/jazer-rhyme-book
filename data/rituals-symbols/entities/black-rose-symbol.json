@@ -1,0 +1,17 @@
+{
+  "id": "black-rose-symbol",
+  "type": "rituals-symbols",
+  "name": "Black Rose",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A symbol of death, mourning, or tragic love, also used by anarchist movements as a sign of rebellion.",
+  "tags": ["dark", "rebellion", "noir", "classic"],
+  "angles": ["dark-romance", "anarchy", "mourning"],
+  "bar_seeds": ["rose in the dark", "black ink petals", "rebellion in bloom"],
+  "related_ids": ["anarchism-philosophy", "goth"],
+  "purpose": "To symbolize the end of hope, tragic loss, or radical rebellion.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Black Rose", "Dye"],
+  "participants": "Goths, Anarchists, Mourners",
+  "outcome": "Marked state of dissent or grief."
+}

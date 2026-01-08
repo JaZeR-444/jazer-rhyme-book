@@ -1,0 +1,20 @@
+{
+  "id": "balenciaga",
+  "type": "brand",
+  "name": "Balenciaga",
+  "aliases": ["Balenci"],
+  "era": "1919-Present",
+  "tags": ["luxury", "avant-garde", "chunky", "high-fashion"],
+  "one_liner": "A historic luxury house redefined by avant-garde streetwear and oversized silhouettes.",
+  "angles": ["dystopian luxury", "the ugly-chic movement", "monumental sneakers"],
+  "bar_seeds": ["triple s", "speed trainers", "balenci balenci", "oversized hoodie"],
+  "category": "High-end Luxury",
+  "price_tier": "High-end",
+  "signature_products": ["Triple S Sneaker", "Speed Trainer", "Hourglass Bag"],
+  "status_signals": ["Oversized fit", "Aggressive sneaker designs"],
+  "bar_angles": ["balenciagas on the feet", "walking in the oversized"],
+  "related_ids": ["drip"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

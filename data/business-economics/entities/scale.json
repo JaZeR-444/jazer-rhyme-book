@@ -1,0 +1,17 @@
+{
+  "id": "scale",
+  "type": "business-economics",
+  "name": "Scale",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ability of a system, network, or process to handle a growing amount of work or its potential to be enlarged.",
+  "tags": ["growth", "technical", "business", "massive"],
+  "angles": ["growth", "efficiency", "domination"],
+  "bar_seeds": ["scaling up", "global reach", "economies of scale"],
+  "related_ids": ["startup", "unicorn-company"],
+  "industry": "Operations / Growth",
+  "core_principle": "Growing revenue faster than cost.",
+  "jargon": ["Scalability", "Bottleneck", "Blitzscaling"],
+  "key_metrics": ["CAC vs LTV", "Marginal Cost"],
+  "archetypes": ["Growth Hacker", "COO"]
+}

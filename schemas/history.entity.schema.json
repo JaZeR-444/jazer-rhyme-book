@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/history.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "key_dates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "major_figures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cultural_shift": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

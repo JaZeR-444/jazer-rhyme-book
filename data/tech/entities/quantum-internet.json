@@ -1,0 +1,66 @@
+{
+  "id": "quantum-internet",
+  "type": "tech",
+  "name": "Quantum Internet",
+  "aliases": [
+    "Quantum Network",
+    "Quantum Communication"
+  ],
+  "era": "2020s-Present",
+  "tags": [
+    "quantum",
+    "secure",
+    "revolutionary",
+    "future",
+    "theoretical"
+  ],
+  "one_liner": "A proposed network that uses quantum mechanical principles to transmit information.",
+  "angles": [
+    "quantum communication",
+    "security",
+    "future technology"
+  ],
+  "bar_seeds": [
+    "Quantum-encrypted, unhackable flow",
+    "Future of communication"
+  ],
+  "related_ids": [
+    "quantum-computing",
+    "cryptography",
+    "physics"
+  ],
+  "created_at": "2025-12-23T12:15:00Z",
+  "updated_at": "2025-12-23T12:15:00Z",
+  "sources": [
+    {
+      "title": "Research institutions",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Physics labs",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Quantum Technology",
+  "what_it_is": "A network using quantum entanglement for ultra-secure communication.",
+  "why_it_matters": "Could enable perfectly secure communication and quantum computing networks.",
+  "risks": [
+    "Technical challenges",
+    "Implementation complexity",
+    "Cost"
+  ],
+  "metaphors": [
+    "Perfectly secure network",
+    "Quantum entanglement web"
+  ],
+  "keywords": [
+    "Entanglement",
+    "Security",
+    "Quantum",
+    "Communication"
+  ]
+}

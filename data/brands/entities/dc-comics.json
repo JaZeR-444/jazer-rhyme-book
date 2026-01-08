@@ -1,0 +1,17 @@
+{
+  "id": "dc-comics",
+  "type": "brand",
+  "name": "DC Comics",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "One of the oldest and largest American comic book companies, home to the 'World's Greatest Super Heroes'.",
+  "tags": ["classic", "noir", "franchise", "legacy"],
+  "angles": ["gods-among-us", "dark-knight-noir", "mythic-heritage"],
+  "bar_seeds": ["superman shield", "bat signal", "justice league"],
+  "related_ids": ["marvel"],
+  "category": "Media / Entertainment",
+  "price_tier": "Mid",
+  "signature_products": ["Superman", "Batman", "Wonder Woman", "The Flash"],
+  "status_signals": ["The Bat-Signal", "Superman's 'S' crest"],
+  "bar_angles": ["God-like power", "The dark side of the hero", "DC dark vibes"]
+}

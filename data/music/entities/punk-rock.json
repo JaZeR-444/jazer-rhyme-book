@@ -1,0 +1,18 @@
+{
+  "id": "punk-rock",
+  "type": "music",
+  "name": "Punk Rock",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subculture and genre of rock music characterized by short, fast-paced songs and an anti-establishment message.",
+  "tags": ["rebellion", "raw", "aggressive", "classic"],
+  "angles": ["diy-spirit", "anti-establishment", "shock-value"],
+  "bar_seeds": ["three chords and the truth", "destroy the system", "pure noise"],
+  "related_ids": ["grunge-music", "punk-fashion"],
+  "genre": ["Rock", "Alternative"],
+  "era_detail": "1970s - Present",
+  "signature_songs": ["Anarchy in the U.K.", "Blitzkrieg Bop", "Holiday in Cambodia"],
+  "sonic_descriptors": ["Fast tempos", "Distorted guitars", "Shouted vocals", "Minimal production"],
+  "influence_tree": ["Garage Rock", "Glam Rock", "Pub Rock"],
+  "aesthetic": "Safety Pins and Leather"
+}

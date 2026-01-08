@@ -1,0 +1,17 @@
+{
+  "id": "medium",
+  "type": "media-platforms",
+  "name": "Medium",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "an online publishing platform that hosts articles from amateur and professional writers.",
+  "tags": ["technical", "intellectual", "blogging", "community"],
+  "angles": ["thought-leadership", "blogging", "curation"],
+  "bar_seeds": ["claps on the article", "five minute read", "paywalled insight"],
+  "related_ids": [],
+  "platform_type": "Blogging",
+  "user_demographic": "Tech Workers, Writers, Thought Leaders",
+  "content_format": ["Articles", "Essays"],
+  "algorithm_bias": "Favors reading time and engagement (claps).",
+  "slang": ["Clap", "Publication", "Partner Program"]
+}

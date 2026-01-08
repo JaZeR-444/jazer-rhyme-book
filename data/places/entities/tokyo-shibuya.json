@@ -1,0 +1,53 @@
+{
+  "id": "tokyo-shibuya",
+  "type": "place",
+  "name": "Shibuya",
+  "aliases": [
+    "Shibuya Crossing"
+  ],
+  "era": "Modern Era",
+  "tags": [
+    "futuristic",
+    "vibrant",
+    "contemporary"
+  ],
+  "one_liner": "A major commercial and business center in Tokyo, known for its iconic pedestrian crossing.",
+  "angles": [
+    "neon lights",
+    "organized chaos",
+    "youth culture"
+  ],
+  "bar_seeds": [
+    "Shibuya crossing, moving through the crowd",
+    "Neon lights in Tokyo, futuristic flow"
+  ],
+  "related_ids": [
+    "tokyo",
+    "harajuku"
+  ],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": [
+    {
+      "title": "Travel guides",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "vibe": "Energetic, bright, crowded",
+  "sensory_cues": [
+    "Glowing billboards",
+    "Giant screens",
+    "Sound of thousands of footsteps"
+  ],
+  "cultural_refs": [
+    "The Fast and the Furious: Tokyo Drift",
+    "Lost in Translation"
+  ],
+  "bar_angles": [
+    "intersection",
+    "hustle"
+  ],
+  "place_type": "district"
+}

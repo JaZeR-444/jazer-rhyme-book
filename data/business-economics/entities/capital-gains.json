@@ -1,0 +1,17 @@
+{
+  "id": "capital-gains",
+  "type": "business-economics",
+  "name": "Capital Gains",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Profit from the sale of property or an investment.",
+  "tags": ["wealth", "money", "hustle", "technical"],
+  "angles": ["unearned-income", "buy-low-sell-high", "tax-strategies"],
+  "bar_seeds": ["profit on the sale", "stacking the gains", "living on the growth"],
+  "related_ids": ["stock-market", "real-estate"],
+  "industry": "Finance / Personal Wealth",
+  "core_principle": "Profit from asset appreciation.",
+  "jargon": ["Realized gains", "Unrealized gains", "Tax basis"],
+  "key_metrics": ["Profit Margin", "Tax Rate"],
+  "archetypes": ["Investor", "Asset Owner"]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "patrick-mahomes",
+  "type": "sports",
+  "name": "Patrick Mahomes",
+  "aliases": [
+    "Mahomes"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "championship",
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NFL quarterback known for arm talent, improvisation, and championship success.",
+  "angles": [
+    "no-look magic",
+    "playmaking under pressure",
+    "big game leader"
+  ],
+  "bar_seeds": [
+    "sidearm laser",
+    "pocket escape",
+    "rings in the case"
+  ],
+  "team_size": "11 (American football)",
+  "key_skills": [
+    "Arm talent",
+    "Playmaking",
+    "Pocket mobility"
+  ],
+  "equipment": [
+    "Helmet",
+    "Football",
+    "Shoulder pads"
+  ],
+  "metaphors": [
+    "quarterback magician",
+    "laser cannon"
+  ],
+  "legends": [
+    "Super Bowl titles",
+    "League MVP"
+  ],
+  "related_ids": [
+    "tom-brady",
+    "aaron-rodgers"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

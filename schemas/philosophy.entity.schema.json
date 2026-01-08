@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/philosophy.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "school_of_thought": {
+      "type": "string"
+    },
+    "core_question": {
+      "type": "string"
+    },
+    "key_philosophers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "paradoxes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "modern_application": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

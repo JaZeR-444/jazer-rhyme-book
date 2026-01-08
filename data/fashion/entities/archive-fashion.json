@@ -1,0 +1,56 @@
+{
+  "id": "archive-fashion",
+  "type": "fashion",
+  "name": "Archive Fashion",
+  "aliases": [
+    "Archive pulls"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "vintage",
+    "classic",
+    "legacy",
+    "trend"
+  ],
+  "one_liner": "Sourcing and wearing past-season or historical designer pieces.",
+  "angles": [
+    "history on the body",
+    "collector energy",
+    "runway time capsule"
+  ],
+  "bar_seeds": [
+    "archive pull",
+    "old runway glow",
+    "vintage with a story"
+  ],
+  "item_type": "Collector Style",
+  "material": [
+    "Wool",
+    "Silk",
+    "Leather"
+  ],
+  "cultural_significance": "Signals knowledge of fashion history and rarity.",
+  "fit": [
+    "Varied",
+    "Tailored"
+  ],
+  "associated_brands": [
+    "Prada",
+    "Gucci",
+    "Jean Paul Gaultier"
+  ],
+  "related_ids": [
+    "vintage-clothing",
+    "luxury-handbags"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Fashion archive",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

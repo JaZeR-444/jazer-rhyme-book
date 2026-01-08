@@ -1,0 +1,272 @@
+{
+  "georgia": [
+    "atlanta"
+  ],
+  "southern-rap": [
+    "atlanta"
+  ],
+  "trap": [
+    "atlanta",
+    "houston"
+  ],
+  "culture-capital": [
+    "atlanta"
+  ],
+  "industrial": [
+    "berlin"
+  ],
+  "underground": [
+    "berlin"
+  ],
+  "noir": [
+    "berlin",
+    "red-light-district"
+  ],
+  "brutalist": [
+    "berlin"
+  ],
+  "brooklyn": [
+    "brooklyn-bed-stuy",
+    "marcy-houses"
+  ],
+  "new-york": [
+    "brooklyn-bed-stuy",
+    "harlem",
+    "marcy-houses",
+    "queensbridge"
+  ],
+  "legendary": [
+    "brooklyn-bed-stuy"
+  ],
+  "gentrification": [
+    "brooklyn-bed-stuy",
+    "london-brixton"
+  ],
+  "chicago": [
+    "chicago-south-side"
+  ],
+  "drill": [
+    "chicago-south-side"
+  ],
+  "politics": [
+    "chicago-south-side"
+  ],
+  "survival": [
+    "chicago-south-side"
+  ],
+  "los-angeles": [
+    "compton",
+    "south-central-la"
+  ],
+  "west-coast": [
+    "compton",
+    "south-central-la"
+  ],
+  "gangsta-rap": [
+    "compton"
+  ],
+  "legend": [
+    "compton"
+  ],
+  "detroit": [
+    "detroit-8-mile"
+  ],
+  "division": [
+    "detroit-8-mile"
+  ],
+  "hardcore-rap": [
+    "detroit-8-mile"
+  ],
+  "midwest": [
+    "detroit-8-mile"
+  ],
+  "luxury": [
+    "dubai",
+    "hollywood",
+    "ibiza",
+    "las-vegas",
+    "miami",
+    "paris",
+    "studio-54",
+    "the-louvre"
+  ],
+  "futuristic": [
+    "dubai",
+    "seoul",
+    "tokyo-shibuya"
+  ],
+  "status": [
+    "dubai",
+    "hollywood"
+  ],
+  "empire": [
+    "dubai"
+  ],
+  "manhattan": [
+    "harlem"
+  ],
+  "renaissance": [
+    "harlem"
+  ],
+  "hustle": [
+    "harlem",
+    "houston",
+    "marcy-houses"
+  ],
+  "fashion": [
+    "harlem",
+    "paris"
+  ],
+  "cinema": [
+    "hollywood"
+  ],
+  "classic": [
+    "hollywood",
+    "houston",
+    "paris",
+    "studio-54",
+    "the-louvre"
+  ],
+  "cyberpunk": [
+    "hong-kong"
+  ],
+  "urban": [
+    "hong-kong",
+    "times-square",
+    "toronto"
+  ],
+  "asian": [
+    "hong-kong",
+    "seoul"
+  ],
+  "technical": [
+    "hong-kong",
+    "san-francisco",
+    "seoul"
+  ],
+  "southern": [
+    "houston",
+    "memphis",
+    "new-orleans"
+  ],
+  "vibrant": [
+    "ibiza",
+    "kingston",
+    "las-vegas",
+    "miami",
+    "new-orleans",
+    "rio-de-janeiro",
+    "seoul",
+    "studio-54",
+    "times-square",
+    "tokyo-shibuya"
+  ],
+  "beach": [
+    "ibiza",
+    "miami"
+  ],
+  "electronic": [
+    "ibiza"
+  ],
+  "rebellion": [
+    "kingston"
+  ],
+  "caribbean": [
+    "kingston"
+  ],
+  "history": [
+    "kingston",
+    "memphis",
+    "new-orleans",
+    "the-louvre"
+  ],
+  "vice": [
+    "las-vegas",
+    "red-light-district",
+    "studio-54"
+  ],
+  "neon": [
+    "las-vegas",
+    "times-square"
+  ],
+  "london": [
+    "london-brixton"
+  ],
+  "uk-drill": [
+    "london-brixton"
+  ],
+  "caribbean-culture": [
+    "london-brixton"
+  ],
+  "projects": [
+    "marcy-houses",
+    "queensbridge"
+  ],
+  "dark": [
+    "memphis"
+  ],
+  "grit": [
+    "memphis",
+    "new-york-city-bronx",
+    "new-york-city-bronx",
+    "red-light-district",
+    "rio-de-janeiro"
+  ],
+  "latin": [
+    "miami",
+    "rio-de-janeiro"
+  ],
+  "soulful": [
+    "new-orleans"
+  ],
+  "legacy": [
+    "new-york-city-bronx",
+    "new-york-city-bronx"
+  ],
+  "raw": [
+    "new-york-city-bronx",
+    "new-york-city-bronx"
+  ],
+  "art": [
+    "paris",
+    "the-louvre"
+  ],
+  "queens": [
+    "queensbridge"
+  ],
+  "lyricism": [
+    "queensbridge"
+  ],
+  "culture": [
+    "red-light-district"
+  ],
+  "nature": [
+    "rio-de-janeiro",
+    "san-francisco"
+  ],
+  "innovative": [
+    "san-francisco"
+  ],
+  "modern": [
+    "san-francisco",
+    "toronto"
+  ],
+  "gang-culture": [
+    "south-central-la"
+  ],
+  "urban-drama": [
+    "south-central-la"
+  ],
+  "nyc": [
+    "times-square"
+  ],
+  "contemporary": [
+    "tokyo-shibuya"
+  ],
+  "mellow": [
+    "toronto"
+  ],
+  "cool": [
+    "toronto"
+  ]
+}

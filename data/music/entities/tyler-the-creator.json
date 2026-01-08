@@ -1,0 +1,18 @@
+{
+  "id": "tyler-the-creator",
+  "type": "music",
+  "name": "Tyler, The Creator",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A creative polymath who evolved from shock-rap agitator to a refined composer and fashion icon.",
+  "tags": ["innovative", "aesthetic", "quirky", "vibrant"],
+  "angles": ["growth", "world-building", "authenticity"],
+  "bar_seeds": ["golf wang", "flower boy", "igor"],
+  "related_ids": ["frank-ocean"],
+  "genre": ["Hip Hop", "Neo-Soul", "Alternative"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["EARFQUAKE", "Yonkers", "See You Again"],
+  "sonic_descriptors": ["Synths", "Chords", "Gritty bass", "Pitched vocals"],
+  "influence_tree": ["Pharrell Williams", "Erykah Badu"],
+  "aesthetic": "Pastel Surrealism"
+}

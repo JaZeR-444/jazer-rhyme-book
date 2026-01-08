@@ -1,0 +1,17 @@
+{
+  "id": "linkedin",
+  "type": "media-platforms",
+  "name": "LinkedIn",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The professional networking site known for corporate flexing and toxic positivity.",
+  "tags": ["business-economics", "technical", "mainstream", "hustle"],
+  "angles": ["professionalism", "networking", "corporate"],
+  "bar_seeds": ["humbled and honored", "connections grow", "open to work"],
+  "related_ids": [],
+  "platform_type": "Social Networking",
+  "user_demographic": "Professionals, Recruiters, Corporate Employees",
+  "content_format": ["Text Posts", "Articles", "Job Listings"],
+  "algorithm_bias": "Favors engagement bait, success stories, and polls.",
+  "slang": ["Connect", "Endorse", "Thought Leader"]
+}

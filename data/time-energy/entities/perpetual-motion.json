@@ -1,0 +1,17 @@
+{
+  "id": "perpetual-motion",
+  "type": "time-energy",
+  "name": "Perpetual Motion",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Motion of ad-infinitum devices that can continue to do work indefinitely without an external energy source.",
+  "tags": ["technical", "eternal", "momentum", "impossible"],
+  "angles": ["infinite cycle", "breaking the laws", "constant movement"],
+  "bar_seeds": ["machine that never stops", "over-unity", "defying gravity"],
+  "related_ids": ["momentum", "eternal-return"],
+  "concept_type": "Physics / Conceptual",
+  "perception": "Hypnotic, impossible, and fascinating.",
+  "physics_basis": "Violates the First or Second Law of Thermodynamics.",
+  "cultural_view": "A symbol of the search for the impossible and eternal efficiency.",
+  "idioms": ["Never-ending story", "Self-sustaining fire", "Closing the loop"]
+}

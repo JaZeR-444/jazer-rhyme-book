@@ -1,0 +1,20 @@
+{
+  "id": "magic-johnson",
+  "type": "sports",
+  "name": "Magic Johnson",
+  "aliases": ["Magic", "Earvin Johnson"],
+  "era": "1980s",
+  "tags": ["basketball", "showtime", "playmaking", "legacy"],
+  "one_liner": "The floor general of the 'Showtime' Lakers, redefined the point guard position with his size and vision.",
+  "tags": ["basketball", "vibrant", "legacy", "athlete"],
+  "angles": ["showtime", "vision", "passing"],
+  "bar_seeds": ["no look pass", "showtime lakers", "magic touch"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Court vision", "Passing", "Leadership"],
+  "equipment": ["Basketball", "Converse Weapon"],
+  "metaphors": ["The Magician"],
+  "legends": ["5x NBA Champion", "3x MVP", "Dream Team member"],
+  "related_ids": ["larry-bird", "michael-jordan"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

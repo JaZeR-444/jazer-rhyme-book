@@ -1,0 +1,18 @@
+{
+  "id": "grunge-music",
+  "type": "music",
+  "name": "Grunge",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dark, gritty alternative rock subculture and genre that emerged in the mid-1980s in Seattle.",
+  "tags": ["grunge", "raw", "angst", "rebellion"],
+  "angles": ["seattle-sound", "angsty-raw-emotion", "sludge-riffs"],
+  "bar_seeds": ["dirty guitar", "raspy scream", "unpolished spirit"],
+  "related_ids": ["nirvana", "grunge-aesthetic"],
+  "genre": ["Alternative Rock", "Punk", "Heavy Metal"],
+  "era_detail": "1980s - 1990s",
+  "signature_songs": ["Smells Like Teen Spirit", "Black Hole Sun", "Jeremy"],
+  "sonic_descriptors": ["Distortion", "Dynamic shifts", "Apathetic vocals"],
+  "influence_tree": ["The Stooges", "Black Sabbath", "Neil Young"],
+  "aesthetic": "Disheveled and Authentic"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "discord",
+  "type": "media-platforms",
+  "name": "Discord",
+  "aliases": ["The Cord"],
+  "era": "2010s-Present",
+  "tags": ["social-media", "community", "chat", "gaming"],
+  "one_liner": "A voice, video, and text communication service used by millions to hang out with their communities.",
+  "angles": ["digital clubhouses", "the modern chat room", "decentralized communities"],
+  "bar_seeds": ["server invite", "voice channel vibes", "custom emotes", "mod life"],
+  "platform_type": "Communication / Community",
+  "user_demographic": "Gamers, developers, and niche communities",
+  "content_format": ["Text", "Voice", "Video"],
+  "algorithm_bias": "None (User-driven server discovery)",
+  "slang": ["Server", "Channel", "Ping", "Nitro"],
+  "related_ids": ["twitch"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

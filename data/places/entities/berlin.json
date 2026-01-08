@@ -1,0 +1,17 @@
+{
+  "id": "berlin",
+  "type": "places",
+  "name": "Berlin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A center for electronic music and underground culture, known for its grit, history, and brutalist vibes.",
+  "tags": ["industrial", "underground", "noir", "brutalist"],
+  "angles": ["techno temple", "divided history", "raw industrial energy"],
+  "bar_seeds": ["berghain line", "concrete walls", "4am kick drum"],
+  "related_ids": ["brutalist", "fall-of-berlin-wall-1989"],
+  "place_type": "city",
+  "vibe": "Raw, edgy, and relentless.",
+  "sensory_cues": ["Heavy bass", "Concrete", "Graffiti", "Cold wind"],
+  "cultural_refs": ["Berghain", "David Bowie (Berlin Trilogy)", "Techno Culture"],
+  "bar_angles": ["Lost in the loop", "Industrial soul", "After hours energy"]
+}

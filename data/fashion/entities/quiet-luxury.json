@@ -1,0 +1,56 @@
+{
+  "id": "quiet-luxury",
+  "type": "fashion",
+  "name": "Quiet Luxury",
+  "aliases": [
+    "Stealth wealth"
+  ],
+  "era": "2020s-Present",
+  "tags": [
+    "luxury",
+    "minimalist",
+    "classic",
+    "contemporary"
+  ],
+  "one_liner": "Low-logo, high-quality fashion that signals wealth through craft.",
+  "angles": [
+    "subtle opulence",
+    "no-logo flex",
+    "timeless tailoring"
+  ],
+  "bar_seeds": [
+    "whispered gold",
+    "no logo, all quality",
+    "tailored hush"
+  ],
+  "item_type": "Luxury Essentials",
+  "material": [
+    "Cashmere",
+    "Wool",
+    "Silk"
+  ],
+  "cultural_significance": "Status signaled through materials and fit rather than branding.",
+  "fit": [
+    "Tailored",
+    "Classic"
+  ],
+  "associated_brands": [
+    "Loro Piana",
+    "The Row",
+    "Brunello Cucinelli"
+  ],
+  "related_ids": [
+    "luxury-accessories",
+    "haute-couture"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Luxury goods",
+      "url": "https://en.wikipedia.org/wiki/Luxury_goods",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

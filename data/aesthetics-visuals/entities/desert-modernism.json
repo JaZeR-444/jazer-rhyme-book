@@ -1,0 +1,17 @@
+{
+  "id": "desert-modernism",
+  "type": "aesthetics-visuals",
+  "name": "Desert Modernism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An architectural and lifestyle aesthetic focused on mid-century modernism in arid, desert environments.",
+  "tags": ["classic", "minimalist", "luxury", "organic"],
+  "angles": ["arid", "mid-century", "open-plan"],
+  "bar_seeds": ["Palm Springs heat", "glass walls in the sand", "cactus shadows"],
+  "related_ids": [],
+  "visual_elements": ["Cactus", "Flat roofs", "Glass walls", "Pools"],
+  "mood": "Relaxed, sophisticated, dry",
+  "associated_eras": ["1950s", "1960s"],
+  "color_palette": ["Sand", "Turquoise", "Burnt Orange", "Sage Green"],
+  "fashion_staples": ["Sunglasses", "Vintage button-ups", "Swimming trunks", "Linen"]
+}

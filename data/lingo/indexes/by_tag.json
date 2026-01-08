@@ -1,0 +1,367 @@
+{
+  "slang": [
+    "bands-slang",
+    "based",
+    "bet",
+    "bop",
+    "boul",
+    "bussin",
+    "civ-slang",
+    "clutch-slang",
+    "crash-out",
+    "cringe-slang",
+    "deadass",
+    "faded-slang",
+    "fanum-tax",
+    "flex-slang",
+    "gatekeep",
+    "ghost-slang",
+    "glazing",
+    "glizzy",
+    "guap",
+    "gyatt",
+    "hella",
+    "innit",
+    "mainline-slang",
+    "mandem",
+    "mewing",
+    "mid",
+    "motion",
+    "off-the-rip",
+    "on-god",
+    "plug-slang",
+    "pushin-p",
+    "rizz",
+    "say-less",
+    "simp",
+    "slaps",
+    "slumper",
+    "stan",
+    "stepping-slang",
+    "tryna",
+    "valid-slang",
+    "wagwan",
+    "yurr"
+  ],
+  "money": [
+    "bands-slang",
+    "guap",
+    "motion"
+  ],
+  "hustle": [
+    "bands-slang",
+    "brick",
+    "finesse",
+    "guap",
+    "motion",
+    "pushin-p"
+  ],
+  "trap": [
+    "bands-slang",
+    "no-cap"
+  ],
+  "positive": [
+    "based",
+    "bop",
+    "bussin",
+    "clutch-slang",
+    "slaps",
+    "slumper",
+    "valid-slang"
+  ],
+  "internet-culture": [
+    "based",
+    "clout",
+    "cringe-slang",
+    "fanum-tax",
+    "gatekeep",
+    "glazing",
+    "gyatt",
+    "mewing",
+    "simp"
+  ],
+  "legacy": [
+    "based",
+    "stan"
+  ],
+  "agreement": [
+    "bet",
+    "say-less"
+  ],
+  "confirmation": [
+    "bet"
+  ],
+  "music": [
+    "bop",
+    "slaps",
+    "slumper",
+    "stan"
+  ],
+  "negative": [
+    "bop",
+    "crash-out",
+    "cringe-slang",
+    "glazing",
+    "mid",
+    "simp"
+  ],
+  "philly": [
+    "boul"
+  ],
+  "community": [
+    "boul",
+    "mandem",
+    "yurr"
+  ],
+  "identity": [
+    "boul"
+  ],
+  "quantity": [
+    "brick"
+  ],
+  "cold": [
+    "brick"
+  ],
+  "street": [
+    "brick",
+    "opp",
+    "sliding"
+  ],
+  "vibrant": [
+    "bussin",
+    "slaps",
+    "yurr"
+  ],
+  "contemporary": [
+    "bussin",
+    "fanum-tax",
+    "finna",
+    "flex-slang",
+    "ghost-slang",
+    "gyatt",
+    "no-cap",
+    "off-the-rip",
+    "on-god",
+    "rizz",
+    "say-less",
+    "tryna",
+    "valid-slang"
+  ],
+  "grit": [
+    "civ-slang",
+    "deadass",
+    "mainline-slang",
+    "plug-slang",
+    "stepping-slang"
+  ],
+  "social-status": [
+    "civ-slang"
+  ],
+  "underground": [
+    "civ-slang",
+    "plug-slang"
+  ],
+  "social-media": [
+    "clout"
+  ],
+  "status": [
+    "clout",
+    "drip"
+  ],
+  "sports": [
+    "clutch-slang"
+  ],
+  "reliability": [
+    "clutch-slang"
+  ],
+  "streetwear": [
+    "crash-out",
+    "finna",
+    "mandem",
+    "no-cap"
+  ],
+  "aggressive": [
+    "crash-out",
+    "stepping-slang"
+  ],
+  "social": [
+    "cringe-slang",
+    "ghost-slang"
+  ],
+  "nyc": [
+    "deadass",
+    "yurr"
+  ],
+  "emphasis": [
+    "deadass",
+    "hella",
+    "on-god"
+  ],
+  "fashion": [
+    "drip"
+  ],
+  "luxury": [
+    "drip",
+    "flex-slang",
+    "guap"
+  ],
+  "atlanta": [
+    "drip"
+  ],
+  "vice": [
+    "faded-slang"
+  ],
+  "mellow": [
+    "faded-slang"
+  ],
+  "lifestyle": [
+    "faded-slang",
+    "pushin-p"
+  ],
+  "humor": [
+    "fanum-tax"
+  ],
+  "skill": [
+    "finesse"
+  ],
+  "manipulation": [
+    "finesse"
+  ],
+  "raw": [
+    "finna"
+  ],
+  "braggadocio": [
+    "flex-slang"
+  ],
+  "marijuana": [
+    "gas"
+  ],
+  "quality": [
+    "gas"
+  ],
+  "energy": [
+    "gas"
+  ],
+  "control": [
+    "gatekeep"
+  ],
+  "exclusive": [
+    "gatekeep"
+  ],
+  "romance": [
+    "ghost-slang",
+    "rizz",
+    "simp"
+  ],
+  "competitive": [
+    "glazing"
+  ],
+  "weapon": [
+    "glizzy"
+  ],
+  "food": [
+    "glizzy"
+  ],
+  "dmv": [
+    "glizzy"
+  ],
+  "youth": [
+    "gyatt",
+    "rizz"
+  ],
+  "bay-area": [
+    "hella",
+    "slumper"
+  ],
+  "classic": [
+    "hella",
+    "innit"
+  ],
+  "uk": [
+    "innit",
+    "mandem",
+    "wagwan"
+  ],
+  "casual": [
+    "innit",
+    "tryna"
+  ],
+  "philadelphia": [
+    "jawn"
+  ],
+  "versatile": [
+    "jawn"
+  ],
+  "noun": [
+    "jawn"
+  ],
+  "direct": [
+    "mainline-slang"
+  ],
+  "influence": [
+    "mainline-slang"
+  ],
+  "looksmaxxing": [
+    "mewing"
+  ],
+  "aesthetic": [
+    "mewing"
+  ],
+  "minimalist": [
+    "mid"
+  ],
+  "review": [
+    "mid"
+  ],
+  "success": [
+    "motion"
+  ],
+  "efficiency": [
+    "off-the-rip",
+    "say-less"
+  ],
+  "immediate": [
+    "off-the-rip"
+  ],
+  "truth": [
+    "on-god"
+  ],
+  "conflict": [
+    "opp"
+  ],
+  "drill": [
+    "opp",
+    "sliding"
+  ],
+  "chicago": [
+    "opp"
+  ],
+  "connection": [
+    "plug-slang"
+  ],
+  "cool": [
+    "pushin-p"
+  ],
+  "action": [
+    "sliding",
+    "stepping-slang"
+  ],
+  "movement": [
+    "sliding"
+  ],
+  "fandom": [
+    "stan"
+  ],
+  "intent": [
+    "tryna"
+  ],
+  "approval": [
+    "valid-slang"
+  ],
+  "caribbean": [
+    "wagwan"
+  ],
+  "greeting": [
+    "wagwan"
+  ]
+}

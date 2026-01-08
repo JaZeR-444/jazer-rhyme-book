@@ -1,0 +1,18 @@
+{
+  "id": "boredom",
+  "type": "emotions-states",
+  "name": "Boredom",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An emotional and occasionally psychological state experienced when an individual is left without anything in particular to do.",
+  "tags": ["negative", "stasis", "mundane", "youth"],
+  "angles": ["empty-time", "the-itch-for-action", "monotony"],
+  "bar_seeds": ["watching paint dry", "counting the tiles", "static in the brain"],
+  "related_ids": ["ennui", "apathy"],
+  "intensity": "Low",
+  "physical_symptoms": ["Yawning", "Fidgeting", "Lethargy"],
+  "triggers": ["Repetition", "Lack of stimulus", "Waiting"],
+  "action_urge": "To seek novelty, distraction, or creative outlet.",
+  "opposites": ["Engagement", "Excitement", "Flow State"],
+  "related_ids": ["ennui", "stasis"]
+}

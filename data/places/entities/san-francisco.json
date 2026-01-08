@@ -1,0 +1,17 @@
+{
+  "id": "san-francisco",
+  "type": "places",
+  "name": "San Francisco",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A tech-driven city of hills, fog, and radical innovation, the heart of Silicon Valley culture.",
+  "tags": ["technical", "innovative", "modern", "nature"],
+  "angles": ["silicon dreams", "golden gate", "steep hills"],
+  "bar_seeds": ["fog in the bay", "startup hustle", "bridge in the mist"],
+  "related_ids": ["startup", "apple"],
+  "place_type": "city",
+  "vibe": "Intellectual, expensive, and misty.",
+  "sensory_cues": ["Thick fog", "Salt breeze", "Cable car bells", "Glass towers"],
+  "cultural_refs": ["Silicon Valley", "Summer of Love", "The Tech Boom"],
+  "bar_angles": ["Coding the future", "High life on the hills", "Lost in the bay fog"]
+}

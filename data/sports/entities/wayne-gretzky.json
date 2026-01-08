@@ -1,0 +1,27 @@
+{
+  "id": "wayne-gretzky",
+  "type": "sports",
+  "name": "Wayne Gretzky",
+  "aliases": ["The Great One"],
+  "era": "1970s-1990s",
+  "tags": ["legacy", "championship", "dynasty", "athlete", "classic", "mainstream"],
+  "one_liner": "Canadian ice hockey center and record holder for career points and goals.",
+  "angles": ["vision on ice", "records that last", "Great One aura"],
+  "bar_seeds": ["skate on thin ice", "record book full", "great one status"],
+  "team_size": "6 (Ice hockey)",
+  "key_skills": ["Playmaking", "Anticipation", "Shooting accuracy"],
+  "equipment": ["Hockey stick", "Skates", "Puck"],
+  "metaphors": ["ice chess", "cold-blooded scorer"],
+  "legends": ["Most points in NHL history", "4 Stanley Cups with Oilers"],
+  "related_ids": ["stadium", "momentum"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

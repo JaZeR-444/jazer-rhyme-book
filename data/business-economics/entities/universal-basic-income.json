@@ -1,0 +1,17 @@
+{
+  "id": "universal-basic-income",
+  "type": "business-economics",
+  "name": "Universal Basic Income (UBI)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A government program in which every adult citizen receives a set amount of money regularly.",
+  "tags": ["social", "innovative", "government", "future"],
+  "angles": ["floor-for-all", "end-of-poverty", "post-work-society"],
+  "bar_seeds": ["freedom dividend", "guaranteed check", "safety net for the future"],
+  "related_ids": ["post-scarcity-economy", "marxism"],
+  "industry": "Social Policy / Economics",
+  "core_principle": "Regular, unconditional cash payments to all.",
+  "jargon": ["Safety net", "Dividend", "Unconditional"],
+  "key_metrics": ["Poverty Rate", "Gini Coefficient"],
+  "archetypes": ["Yang Gang", "Policy Maker"]
+}

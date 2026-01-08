@@ -1,0 +1,19 @@
+{
+  "id": "deion-sanders",
+  "type": "sports",
+  "name": "Deion Sanders",
+  "aliases": ["Prime Time", "Neon Deion", "Coach Prime"],
+  "era": "1980s-Present",
+  "tags": ["football", "baseball", "vibrant", "legacy"],
+  "one_liner": "A dual-sport superstar who revolutionized the cornerback position and later became a transformative coach.",
+  "angles": ["prime time", "neon lights", "dual threat dominance"],
+  "bar_seeds": ["prime time", "two sport star", "high stepping"],
+  "team_size": "11 (Football) / 9 (Baseball)",
+  "key_skills": ["Speed", "Confidence", "Interceptions"],
+  "equipment": ["Football cleats", "Baseball bat"],
+  "metaphors": ["Prime Time"],
+  "legends": ["NFL Hall of Fame", "Super Bowl Champ", "World Series appearance"],
+  "related_ids": ["bo-jackson"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

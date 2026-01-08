@@ -1,0 +1,17 @@
+{
+  "id": "teleportation",
+  "type": "science-future",
+  "name": "Teleportation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theoretical transfer of matter or energy from one point to another without traversing the physical space between them.",
+  "tags": ["speed", "futuristic", "technical", "sci-fi"],
+  "angles": ["deconstruction", "instant travel", "quantum copy"],
+  "bar_seeds": ["beam me up", "atom to bit back to atom", "instant entry"],
+  "related_ids": ["quantum-entanglement"],
+  "field": "Quantum Physics / Science Fiction",
+  "hypothesis": "Information about a quantum state can be transmitted to reconstruct a particle at another location.",
+  "implications": ["End of traditional transport", "Data-based travel", "Identity crises"],
+  "technologies": ["Quantum Teleportation", "Matter-Energy Converters"],
+  "ethical_concerns": ["Is the teleported person the same person?", "Data corruption during transfer", "Copying vs Moving"]
+}

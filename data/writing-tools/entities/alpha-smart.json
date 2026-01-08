@@ -1,0 +1,18 @@
+{
+  "id": "alpha-smart",
+  "type": "writing-tool",
+  "name": "AlphaSmart",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A retro, portable word processor with a keyboard and a tiny screen, loved for its distraction-free nature.",
+  "tags": ["tool", "vintage", "hardware", "minimalist", "focus"],
+  "angles": ["durability", "simplicity", "battery-life"],
+  "bar_seeds": ["LCD screen", "battery lasts forever", "just type"],
+  "related_ids": [],
+  "category": "Hardware",
+  "what_it_does": "Allows typing text files on the go with massive battery life and no internet.",
+  "best_for": ["drafting outdoors", "classrooms", "avoiding social media"],
+  "workflow_hooks": ["Take it to the park", "Upload via USB cable"],
+  "pitfalls": ["Small screen", "Obsolete tech"],
+  "bar_angles": ["Digital typewriter", "Off the grid", "Text tank"]
+}

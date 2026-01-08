@@ -1,0 +1,17 @@
+{
+  "id": "disney-plus",
+  "type": "media-platforms",
+  "name": "Disney+",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The streaming home for Disney, Pixar, Marvel, Star Wars, and National Geographic.",
+  "tags": ["entertainment", "family", "cinematic", "franchise"],
+  "angles": ["nostalgia", "franchise", "dominance"],
+  "bar_seeds": ["mandalorian flow", "marvel marathon", "vault unlocked"],
+  "related_ids": ["netflix"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "Families, Fans",
+  "content_format": ["Movies", "Series", "Documentaries"],
+  "algorithm_bias": "Heavily promotes major franchise releases.",
+  "slang": ["The Vault", "Premier Access", "MCU"]
+}

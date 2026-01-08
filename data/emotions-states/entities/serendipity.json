@@ -1,0 +1,17 @@
+{
+  "id": "serendipity",
+  "type": "emotions-states",
+  "name": "Serendipity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The occurrence and development of events by chance in a happy or beneficial way.",
+  "tags": ["positive", "luck", "surreal", "meaning"],
+  "angles": ["fortunate accident", "alignment", "miracle"],
+  "bar_seeds": ["just when I needed it", "perfect timing", "wrong turn right place"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Laughter", "Goosebumps", "Lightness"],
+  "triggers": ["Unexpected meeting", "Finding a lost item", "Fortunate coincidence"],
+  "action_urge": "To appreciate the moment and share the story.",
+  "opposites": ["Misfortune", "Bad luck"],
+  "related_ids": ["joy", "hope"]
+}

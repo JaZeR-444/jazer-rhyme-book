@@ -1,0 +1,20 @@
+{
+  "id": "streetwear",
+  "type": "aesthetics-visuals",
+  "name": "Streetwear",
+  "aliases": ["Street style"],
+  "era": "1980s-Present",
+  "tags": ["urban", "fashion", "culture", "sportswear"],
+  "one_liner": "A global fashion aesthetic rooted in skate, surf, hip-hop, and urban culture.",
+  "angles": ["from the streets to the runway", "the uniform of the culture", "unlimited self-expression"],
+  "bar_seeds": ["fresh kicks", "baggy silhouettes", "graphic tees", "limited drops"],
+  "visual_elements": ["sneakers", "hoodies", "bold logos", "urban backdrops"],
+  "mood": "Confident, cool, and culturally aware",
+  "associated_eras": ["1990s", "2010s-Present"],
+  "color_palette": ["Varies (often bold or neutral)"],
+  "fashion_staples": ["sneakers", "hoodies", "cargo pants", "tracksuits"],
+  "related_ids": ["adidas", "supreme", "nike"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

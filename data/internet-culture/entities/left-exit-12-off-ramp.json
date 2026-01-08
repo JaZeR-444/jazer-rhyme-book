@@ -1,0 +1,50 @@
+{
+  "id": "left-exit-12-off-ramp",
+  "type": "internet-culture",
+  "name": "Left Exit 12 Off Ramp",
+  "aliases": [
+    "Highway exit meme"
+  ],
+  "era": "2018-Present",
+  "tags": [
+    "satirical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A diagram showing a car swerving to a labeled exit for last-second choices.",
+  "angles": [
+    "last-second pivot",
+    "sudden choice",
+    "swerve"
+  ],
+  "bar_seeds": [
+    "swerve to the exit",
+    "last-second move",
+    "off-ramp energy"
+  ],
+  "related_ids": [
+    "two-buttons",
+    "distracted-boyfriend"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/left-exit-12-off-ramp",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Diagram",
+  "origin_platform": "Reddit",
+  "meaning": "Used to show a sudden or irrational switch in direction.",
+  "remix_rules": [
+    "Label the highway and the exit",
+    "Use the car as the subject"
+  ],
+  "lifespan_risk": "Medium (template cycle)",
+  "example_lines": [
+    "Plan the album / swerve to drop a single"
+  ]
+}

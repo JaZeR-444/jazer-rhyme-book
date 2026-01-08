@@ -1,0 +1,60 @@
+{
+  "id": "the-wolf-of-wall-street-2013",
+  "type": "cinema",
+  "name": "The Wolf of Wall Street",
+  "aliases": [
+    "Wolf of Wall Street"
+  ],
+  "era": "2013",
+  "tags": [
+    "cinematic",
+    "mainstream",
+    "satirical",
+    "classic"
+  ],
+  "one_liner": "A stockbroker rises to excess and chaos before a dramatic fall.",
+  "angles": [
+    "greed and glamour",
+    "rise and crash",
+    "sales machine"
+  ],
+  "bar_seeds": [
+    "sell on the phone",
+    "money rain",
+    "suit and tie chaos"
+  ],
+  "related_ids": [
+    "stock-market",
+    "bull-market"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "A broker builds a wild firm",
+    "Excess leads to investigation"
+  ],
+  "iconic_scenes": [
+    "Quaalude crawl",
+    "Stratton Oakmont speech"
+  ],
+  "visual_motifs": [
+    "Luxury excess",
+    "Trading floors"
+  ],
+  "themes": [
+    "Greed",
+    "Excess",
+    "Downfall"
+  ],
+  "quotables_short": [
+    "Sell me this pen"
+  ]
+}

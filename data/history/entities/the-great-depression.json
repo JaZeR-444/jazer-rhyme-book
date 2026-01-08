@@ -1,0 +1,16 @@
+{
+  "id": "the-great-depression",
+  "type": "history",
+  "name": "The Great Depression",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A severe worldwide economic depression that took place mostly during the 1930s.",
+  "tags": ["grit", "business-economics", "history", "crash"],
+  "angles": ["poverty", "resilience", "dust bowl"],
+  "bar_seeds": ["bread lines", "stock market crash", "dirt in the lungs"],
+  "key_dates": ["1929", "1939"],
+  "location": "Global, centered in the US",
+  "impact": "Reshaped the role of government in the economy; led to the New Deal.",
+  "major_figures": ["Franklin D. Roosevelt", "Herbert Hoover"],
+  "cultural_shift": "Rise of documentary photography and literature focusing on the common worker."
+}

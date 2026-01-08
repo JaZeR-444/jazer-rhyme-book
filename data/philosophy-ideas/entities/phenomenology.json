@@ -1,0 +1,17 @@
+{
+  "id": "phenomenology",
+  "type": "philosophy-ideas",
+  "name": "Phenomenology",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The study of structures of consciousness as experienced from the first-person point of view.",
+  "tags": ["internal", "abstract", "intellectual", "existence"],
+  "angles": ["pure-experience", "the-lived-world", "intentionality"],
+  "bar_seeds": ["what it feels like to be", "back to the things themselves", "first person vision"],
+  "related_ids": ["solipsism", "existentialism"],
+  "school_of_thought": "20th Century Continental Philosophy",
+  "core_question": "What is the structure of conscious experience?",
+  "key_philosophers": ["Edmund Husserl", "Martin Heidegger", "Maurice Merleau-Ponty"],
+  "paradoxes": [],
+  "modern_application": "Psychology, user experience design (UX), qualitative research."
+}

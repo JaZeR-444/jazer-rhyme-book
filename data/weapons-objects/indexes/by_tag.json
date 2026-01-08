@@ -1,0 +1,352 @@
+{
+  "weapon": [
+    "ak-47",
+    "ar-15",
+    "brass-knuckles",
+    "butterfly-knife",
+    "desert-eagle",
+    "katana"
+  ],
+  "military": [
+    "ak-47"
+  ],
+  "revolution": [
+    "ak-47",
+    "guillotine"
+  ],
+  "iconic": [
+    "ak-47"
+  ],
+  "object": [
+    "analog-clock",
+    "diamond-chain",
+    "gold-bar"
+  ],
+  "time": [
+    "analog-clock"
+  ],
+  "pressure": [
+    "analog-clock"
+  ],
+  "classic": [
+    "analog-clock",
+    "bo-staff",
+    "brass-key",
+    "dagger",
+    "hourglass",
+    "nunchucks",
+    "snub-nose-revolver"
+  ],
+  "controversial": [
+    "ar-15"
+  ],
+  "usa": [
+    "ar-15"
+  ],
+  "tactical": [
+    "ar-15"
+  ],
+  "grit": [
+    "balaclava",
+    "baseball-bat",
+    "bulletproof-vest",
+    "burner-phone",
+    "chainsaw",
+    "crowbar",
+    "glock-17",
+    "grenade",
+    "guillotine",
+    "mac-10",
+    "machete",
+    "molotov-cocktail",
+    "sawed-off-shotgun",
+    "sledgehammer",
+    "snub-nose-revolver",
+    "switchblade",
+    "tomahawk",
+    "uzi"
+  ],
+  "underground": [
+    "balaclava",
+    "burner-phone",
+    "mac-10",
+    "molotov-cocktail",
+    "sawed-off-shotgun"
+  ],
+  "drill": [
+    "balaclava"
+  ],
+  "symbolic-object": [
+    "balaclava",
+    "brass-key",
+    "burner-phone",
+    "compass",
+    "crown",
+    "crystal-ball",
+    "double-cup",
+    "hourglass",
+    "skeleton-key",
+    "stack-of-cash",
+    "voodoo-doll"
+  ],
+  "streetwear": [
+    "baseball-bat"
+  ],
+  "raw": [
+    "baseball-bat",
+    "machete",
+    "sawed-off-shotgun",
+    "sledgehammer",
+    "tomahawk"
+  ],
+  "tool": [
+    "baseball-bat",
+    "chainsaw",
+    "crowbar",
+    "glock-17",
+    "sledgehammer"
+  ],
+  "war": [
+    "bo-staff",
+    "c4",
+    "grenade",
+    "kunai",
+    "landmine",
+    "molotov-cocktail",
+    "nunchucks",
+    "rpg",
+    "shuriken",
+    "sniper-rifle",
+    "tomahawk"
+  ],
+  "discipline": [
+    "bo-staff"
+  ],
+  "asian": [
+    "bo-staff",
+    "kunai",
+    "nunchucks",
+    "shuriken"
+  ],
+  "legacy": [
+    "brass-key",
+    "compass",
+    "crown"
+  ],
+  "street": [
+    "brass-knuckles",
+    "butterfly-knife"
+  ],
+  "brawl": [
+    "brass-knuckles"
+  ],
+  "brutal": [
+    "brass-knuckles"
+  ],
+  "technical": [
+    "bulletproof-vest",
+    "burner-phone",
+    "c4",
+    "compass",
+    "glock-17",
+    "sniper-rifle",
+    "taser"
+  ],
+  "contemporary": [
+    "bulletproof-vest",
+    "double-cup",
+    "glock-17"
+  ],
+  "security": [
+    "bulletproof-vest"
+  ],
+  "blade": [
+    "butterfly-knife",
+    "dagger",
+    "katana",
+    "machete",
+    "switchblade"
+  ],
+  "skill": [
+    "butterfly-knife",
+    "katana",
+    "nunchucks"
+  ],
+  "flipping": [
+    "butterfly-knife"
+  ],
+  "explosive": [
+    "c4",
+    "grenade",
+    "landmine",
+    "rpg"
+  ],
+  "stealth": [
+    "c4",
+    "dagger",
+    "garrote-wire",
+    "kunai",
+    "poison-ring",
+    "shuriken",
+    "sniper-rifle"
+  ],
+  "horror": [
+    "chainsaw"
+  ],
+  "industrial": [
+    "chainsaw",
+    "mac-10",
+    "sledgehammer",
+    "uzi"
+  ],
+  "organic": [
+    "compass"
+  ],
+  "crime": [
+    "crowbar",
+    "garrote-wire"
+  ],
+  "utility": [
+    "crowbar",
+    "kunai"
+  ],
+  "luxury": [
+    "crown",
+    "diamond-chain",
+    "gold-bar",
+    "poison-ring",
+    "stack-of-cash"
+  ],
+  "empire": [
+    "crown"
+  ],
+  "esoteric": [
+    "crystal-ball",
+    "skeleton-key",
+    "voodoo-doll"
+  ],
+  "future": [
+    "crystal-ball"
+  ],
+  "glass": [
+    "crystal-ball"
+  ],
+  "noir": [
+    "dagger",
+    "garrote-wire",
+    "snub-nose-revolver"
+  ],
+  "power": [
+    "desert-eagle"
+  ],
+  "aggressive": [
+    "desert-eagle"
+  ],
+  "status": [
+    "desert-eagle",
+    "diamond-chain"
+  ],
+  "jewelry": [
+    "diamond-chain"
+  ],
+  "trap": [
+    "double-cup",
+    "landmine"
+  ],
+  "mellow": [
+    "double-cup"
+  ],
+  "dark": [
+    "garrote-wire",
+    "guillotine",
+    "voodoo-doll"
+  ],
+  "wealth": [
+    "gold-bar"
+  ],
+  "standard": [
+    "gold-bar"
+  ],
+  "chaos": [
+    "grenade"
+  ],
+  "history": [
+    "guillotine",
+    "poison-ring",
+    "tomahawk"
+  ],
+  "time-energy": [
+    "hourglass"
+  ],
+  "philosophical-ideas": [
+    "hourglass"
+  ],
+  "japanese": [
+    "katana"
+  ],
+  "honor": [
+    "katana"
+  ],
+  "fear": [
+    "landmine",
+    "pepper-spray"
+  ],
+  "90s": [
+    "mac-10",
+    "uzi"
+  ],
+  "jungle": [
+    "machete"
+  ],
+  "rebellion": [
+    "molotov-cocktail",
+    "rpg",
+    "sawed-off-shotgun",
+    "switchblade"
+  ],
+  "chemical": [
+    "pepper-spray"
+  ],
+  "defense": [
+    "pepper-spray"
+  ],
+  "control": [
+    "pepper-spray",
+    "taser"
+  ],
+  "deception": [
+    "poison-ring"
+  ],
+  "heavy": [
+    "rpg"
+  ],
+  "speed": [
+    "shuriken"
+  ],
+  "logic": [
+    "skeleton-key"
+  ],
+  "precision": [
+    "sniper-rifle"
+  ],
+  "vintage": [
+    "snub-nose-revolver",
+    "switchblade",
+    "uzi"
+  ],
+  "hustle": [
+    "stack-of-cash"
+  ],
+  "braggadocio": [
+    "stack-of-cash"
+  ],
+  "police": [
+    "taser"
+  ],
+  "non-lethal": [
+    "taser"
+  ],
+  "magic": [
+    "voodoo-doll"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lo-fi",
+  "type": "aesthetics-visuals",
+  "name": "Lo-Fi",
+  "aliases": ["Low Fidelity"],
+  "era": "2010s-Present",
+  "tags": ["mellow", "nostalgic", "beats", "chill"],
+  "one_liner": "A visual and auditory aesthetic characterized by low-fidelity production, nostalgic vibes, and a sense of calm.",
+  "angles": ["the beauty in imperfection", "study music atmosphere", "nostalgia for a time that never was"],
+  "bar_seeds": ["hiss and pop", "dusty records", "anime girl studying", "warm saturation"],
+  "visual_elements": ["VHS grain", "pastel colors", "retro anime stills", "cozy rooms"],
+  "mood": "Relaxed, nostalgic, and melancholic",
+  "associated_eras": ["1990s", "2010s"],
+  "color_palette": ["purple", "pink", "soft orange", "warm gray"],
+  "fashion_staples": ["oversized hoodies", "beanie hats", "vintage sweaters"],
+  "related_ids": ["vaporwave"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

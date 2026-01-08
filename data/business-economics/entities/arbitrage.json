@@ -1,0 +1,17 @@
+{
+  "id": "arbitrage",
+  "type": "business-economics",
+  "name": "Arbitrage",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The simultaneous purchase and sale of the same asset in different markets to profit from tiny differences in the asset's listed price.",
+  "tags": ["hustle", "technical", "opportunity", "speed"],
+  "angles": ["gap", "opportunity", "speed"],
+  "bar_seeds": ["buy low sell high instantly", "finding the spread", "market gap"],
+  "related_ids": ["cryptocurrency"],
+  "industry": "Trading",
+  "core_principle": "Exploiting market inefficiencies.",
+  "jargon": ["Spread", "Inefficiency", "Risk-free profit"],
+  "key_metrics": ["Spread", "Execution Speed"],
+  "archetypes": ["Trader", "Reseller"]
+}

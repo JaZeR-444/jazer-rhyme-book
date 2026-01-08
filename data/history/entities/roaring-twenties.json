@@ -1,0 +1,20 @@
+{
+  "id": "roaring-twenties",
+  "type": "history",
+  "name": "Roaring Twenties",
+  "aliases": ["Jazz Age"],
+  "era": "1920s",
+  "tags": ["culture", "prosperity", "excess", "jazz"],
+  "one_liner": "A decade of economic prosperity, cultural dynamism, and social change in the Western world.",
+  "angles": ["glamour and grit", "prohibition and speakeasies", "the birth of the modern consumer"],
+  "bar_seeds": ["flapper dresses", "bootleg gin", "gatsby parties", "jazz band swing"],
+  "key_dates": ["1920 (Prohibition begins)", "1929 (Stock Market Crash)"],
+  "location": "Western World (especially USA)",
+  "impact": "Massive shifts in lifestyle, technology (radio, cars), and women's rights (suffrage).",
+  "major_figures": ["F. Scott Fitzgerald", "Al Capone", "Louis Armstrong"],
+  "cultural_shift": "A move towards mass culture, urban living, and more liberal social norms.",
+  "related_ids": ["harlem-renaissance"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

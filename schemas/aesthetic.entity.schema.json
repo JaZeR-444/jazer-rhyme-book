@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/aesthetic.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "visual_elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mood": {
+      "type": "string"
+    },
+    "associated_eras": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "color_palette": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fashion_staples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

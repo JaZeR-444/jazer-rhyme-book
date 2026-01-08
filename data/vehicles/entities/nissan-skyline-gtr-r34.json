@@ -1,0 +1,17 @@
+{
+  "id": "nissan-skyline-gtr-r34",
+  "type": "vehicles",
+  "name": "Nissan Skyline GT-R R34",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Godzilla. The technologically advanced JDM masterpiece forbidden in the US for decades.",
+  "tags": ["speed", "technical", "90s", "futuristic"],
+  "angles": ["precision", "rarity", "technology"],
+  "bar_seeds": ["R34 blue", "right hand drive", "ATTESA E-TS"],
+  "related_ids": ["toyota-supra-mk4"],
+  "vehicle_type": "Sports Car",
+  "engine_type": "Twin-Turbo Inline-6 (RB26DETT)",
+  "top_speed": "155 mph (restricted)",
+  "cultural_status": "The ultimate forbidden fruit of car culture.",
+  "design_features": ["Four round taillights", "Multi-function display", "Boxy wide fenders"]
+}

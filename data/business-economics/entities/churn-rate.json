@@ -1,0 +1,17 @@
+{
+  "id": "churn-rate",
+  "type": "business-economics",
+  "name": "Churn Rate",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The rate at which customers stop doing business with an entity.",
+  "tags": ["technical", "subscription", "business", "metric"],
+  "angles": ["customer-loss", "leaky-bucket", "retention-war"],
+  "bar_seeds": ["stopping the bleed", "customers walking out", "zero churn"],
+  "related_ids": ["subscription-business-model"],
+  "industry": "SaaS / Subscription",
+  "core_principle": "Keeping customers is as important as getting them.",
+  "jargon": ["Retention", "Attrition", "Renewal"],
+  "key_metrics": ["Monthly Churn", "Annual Churn"],
+  "archetypes": ["Customer Success Manager", "Data Analyst"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "zen-buddhism",
+  "type": "philosophy-ideas",
+  "name": "Zen Buddhism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A school of Mahayana Buddhism that emphasizes the value of meditation and intuition rather than ritual worship.",
+  "tags": ["zen", "spiritual", "mellow", "minimalist"],
+  "angles": ["presence", "direct experience", "emptiness"],
+  "bar_seeds": ["clapping with one hand", "mind like a mirror", "sudden awakening"],
+  "school_of_thought": "Buddhism",
+  "core_question": "Can enlightenment be found in the present moment?",
+  "key_philosophers": ["Bodhidharma", "D.T. Suzuki"],
+  "paradoxes": ["Koans (e.g., What is the sound of one hand clapping?)"],
+  "modern_application": "Mindfulness, minimalist design, performance psychology."
+}

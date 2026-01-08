@@ -1,0 +1,17 @@
+{
+  "id": "feast",
+  "type": "rituals-symbols",
+  "name": "Feast",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A large meal, typically a celebratory one, characterized by abundance and shared consumption.",
+  "tags": ["ritual", "vibrant", "community", "luxury"],
+  "angles": ["abundance-overload", "communal-bond", "seasonal-celebration"],
+  "bar_seeds": ["table overflowing", "wine like a river", "toasting to the hunt"],
+  "related_ids": ["toast", "ceremony"],
+  "purpose": "To celebrate victory, mark a season, or strengthen community ties.",
+  "steps": ["Preparation of various dishes", "The initial toast", "Shared consumption", "Storytelling"],
+  "objects_used": ["Platters", "Wine", "Large table", "Seasonal decorations"],
+  "participants": "Community, Family, or Group",
+  "outcome": "Social cohesion and physical satisfaction."
+}

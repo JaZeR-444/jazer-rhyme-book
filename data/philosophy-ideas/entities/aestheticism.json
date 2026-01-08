@@ -1,0 +1,17 @@
+{
+  "id": "aestheticism",
+  "type": "philosophy-ideas",
+  "name": "Aestheticism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An intellectual and art movement supporting the emphasis of aesthetic values more than social-political themes.",
+  "tags": ["art", "aesthetic", "luxury", "vibrant"],
+  "angles": ["art for art's sake", "beauty as truth", "sensory peak"],
+  "bar_seeds": ["purely for the look", "oscar wilde flow", "beauty is the point"],
+  "related_ids": ["dandyism"],
+  "school_of_thought": "Art Theory",
+  "core_question": "Should art serve any purpose other than beauty?",
+  "key_philosophers": ["Oscar Wilde", "Walter Pater"],
+  "paradoxes": [],
+  "modern_application": "Instagram curation, fashion, high-end production design."
+}

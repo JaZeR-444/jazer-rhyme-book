@@ -1,0 +1,59 @@
+{
+  "id": "tesla",
+  "type": "brand",
+  "name": "Tesla",
+  "aliases": [
+    "TSLA",
+    "Elon's Baby",
+    "EV King"
+  ],
+  "era": "2003-Present",
+  "tags": [
+    "electric",
+    "luxury",
+    "innovative",
+    "disruptive",
+    "tech"
+  ],
+  "one_liner": "The electric vehicle pioneer that disrupted the automotive industry.",
+  "angles": [
+    "electric revolution",
+    "luxury tech",
+    "disruption"
+  ],
+  "bar_seeds": [
+    "Autopilot engaged",
+    "No emissions",
+    "Elon's vision"
+  ],
+  "related_ids": [
+    "elon-musk",
+    "electric-vehicles"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Tesla official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Automotive/Tech",
+  "price_tier": "Premium",
+  "signature_products": [
+    "Model S",
+    "Model 3",
+    "Cybertruck"
+  ],
+  "status_signals": [
+    "Minimalist design",
+    "Tech features"
+  ],
+  "bar_angles": [
+    "innovation",
+    "electric",
+    "luxury"
+  ]
+}

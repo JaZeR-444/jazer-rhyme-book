@@ -1,0 +1,19 @@
+{
+  "id": "ssd",
+  "type": "tech",
+  "name": "SSD",
+  "aliases": ["Solid State Drive", "Flash Storage"],
+  "era": "2000s-Present",
+  "tags": ["technical", "hardware", "speed", "stable"],
+  "angles": ["instant loading", "no moving parts", "permanent memory"],
+  "bar_seeds": ["no spin zone", "writing to the cells", "instant boot"],
+  "related_ids": [],
+  "category": "Hardware",
+  "what_it_is": "Solid State Drive; a storage device using flash memory to store data persistently.",
+  "why_it_matters": "Drastically faster than traditional hard drives, enabling instant-on computing.",
+  "risks": ["Limited write cycles", "Higher cost per gigabyte", "Data recovery difficulty"],
+  "metaphors": ["The library", "A vault of speed", "Solid ground"],
+  "keywords": ["NVMe", "NAND Flash", "Read speed", "Write speed", "IOPS"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

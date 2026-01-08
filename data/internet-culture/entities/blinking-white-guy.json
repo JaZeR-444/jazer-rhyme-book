@@ -1,0 +1,50 @@
+{
+  "id": "blinking-white-guy",
+  "type": "internet-culture",
+  "name": "Blinking White Guy",
+  "aliases": [
+    "Blinking man"
+  ],
+  "era": "2017-Present",
+  "tags": [
+    "satirical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A short reaction video expressing disbelief or confusion.",
+  "angles": [
+    "did you say that",
+    "confused reaction",
+    "blink twice"
+  ],
+  "bar_seeds": [
+    "blink in disbelief",
+    "wait what",
+    "double take"
+  ],
+  "related_ids": [
+    "surprised-pikachu",
+    "this-is-fine"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/blinking-white-guy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Reaction Video",
+  "origin_platform": "Twitter",
+  "meaning": "Used to show confusion or disbelief at a statement.",
+  "remix_rules": [
+    "Pair with a surprising statement",
+    "Use as a reaction clip"
+  ],
+  "lifespan_risk": "Medium (reaction cycle)",
+  "example_lines": [
+    "When the beat drops in the wrong key"
+  ]
+}

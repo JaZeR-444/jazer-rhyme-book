@@ -1,0 +1,20 @@
+{
+  "id": "lebron-james",
+  "type": "people",
+  "name": "LeBron James",
+  "aliases": ["King James", "The Chosen One", "LBJ"],
+  "era": "2000s-Present",
+  "tags": ["basketball", "athletic", "activism", "legacy", "versatility"],
+  "one_liner": "The basketball prodigy who became a cultural icon and social justice advocate.",
+  "angles": ["high school phenom", "social activism", "business mogul"],
+  "bar_seeds": ["Decision", "Cleveland championship", "King James", "Business empire"],
+  "known_for": ["NBA Championships", "The Decision", "Space Jam"],
+  "vibe": "Regal, powerful, purposeful",
+  "signature_items": ["Crown imagery", "Basketball excellence", "Social statements"],
+  "quotables_short": ["I'm taking my talents to South Beach", "Champagne wishes and satellite dreams"],
+  "controversy_flags": ["Political statements", "Decision show"],
+  "related_ids": ["michael-jordan", "kobe-bryant"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

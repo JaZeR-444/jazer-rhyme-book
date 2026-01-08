@@ -1,0 +1,21 @@
+{
+  "id": "doge",
+  "type": "internet-culture",
+  "name": "Doge",
+  "aliases": ["Shiba Inu", "Much Wow"],
+  "era": "2010s-Present",
+  "tags": ["meme", "dog", "crypto", "wholesome"],
+  "one_liner": "A Shiba Inu dog with a distinct internal monologue written in broken English and Comic Sans.",
+  "angles": ["wholesome humor", "from meme to currency", "the face of crypto"],
+  "bar_seeds": ["much wow", "such bark", "dogecoin moon", "shiba eyes"],
+  "format": "Image macro",
+  "origin_platform": "Tumblr / Reddit",
+  "meaning": "Internal monologue of a bewildered but happy dog.",
+  "remix_rules": ["Comic Sans text", "Intentional grammar errors", "Colorful text"],
+  "lifespan_risk": "Low (Evolved into crypto)",
+  "example_lines": ["Feeling like a doge today", "To the moon like doge"],
+  "related_ids": ["blockchain"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

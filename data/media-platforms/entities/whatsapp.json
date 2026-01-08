@@ -1,0 +1,17 @@
+{
+  "id": "whatsapp",
+  "type": "media-platforms",
+  "name": "WhatsApp",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The world's most popular messaging app, connecting billions via phone numbers.",
+  "tags": ["global", "utility", "mainstream", "communication"],
+  "angles": ["connection", "international", "simplicity"],
+  "bar_seeds": ["green bubble worldwide", "encrypted end-to-end", "family group chat"],
+  "related_ids": [],
+  "platform_type": "Messaging",
+  "user_demographic": "Global Population",
+  "content_format": ["Text", "Voice Notes", "Status"],
+  "algorithm_bias": "N/A (Direct communication)",
+  "slang": ["Blue ticks", "Status", "Voice note"]
+}

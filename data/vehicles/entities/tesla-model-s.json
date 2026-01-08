@@ -1,0 +1,20 @@
+{
+  "id": "tesla-model-s",
+  "type": "vehicles",
+  "name": "Tesla Model S",
+  "aliases": ["Tesla", "Plaid"],
+  "era": "2012-Present",
+  "tags": ["tech", "electric", "luxury", "future"],
+  "one_liner": "The electric sedan that brought sustainable performance and high-tech luxury to the mainstream.",
+  "angles": ["silent speed", "software on wheels", "the future is electric"],
+  "bar_seeds": ["plaid mode acceleration", "autopilot cruising", "giant touchscreen", "silent but deadly"],
+  "vehicle_type": "Electric Sedan",
+  "engine_type": "Electric Motors",
+  "top_speed": "155-200 mph (varies by trim)",
+  "cultural_status": "A symbol of tech-forward wealth and innovation.",
+  "design_features": ["Minimalist interior", "Retractable door handles", "Panoramic glass roof"],
+  "related_ids": ["tech"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

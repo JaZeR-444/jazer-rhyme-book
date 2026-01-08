@@ -1,0 +1,17 @@
+{
+  "id": "olive-branch-symbol",
+  "type": "rituals-symbols",
+  "name": "Olive Branch",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A symbol of peace or victory, originally from ancient Greek tradition.",
+  "tags": ["peace", "classic", "legacy", "victory"],
+  "angles": ["offering-peace", "resolution", "ancient-pact"],
+  "bar_seeds": ["extending the branch", "peace offering", "ending the feud"],
+  "related_ids": ["peace"],
+  "purpose": "To signify the end of a conflict or a desire for reconciliation.",
+  "steps": ["Extending the branch", "Acceptance by opponent"],
+  "objects_used": ["Olive Branch", "Wreath"],
+  "participants": "Rivals, Diplomats",
+  "outcome": "Reconciliation or cessation of war."
+}

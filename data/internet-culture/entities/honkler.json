@@ -1,0 +1,18 @@
+{
+  "id": "honkler",
+  "type": "internet-culture",
+  "name": "Honkler",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A variation of Pepe the Frog dressed as a clown, used to comment on the perceived absurdity of the modern world ('Clown World').",
+  "tags": ["controversial", "satirical", "absurdity", "internet-culture"],
+  "angles": ["clown-world", "nihilism", "honk-honk"],
+  "bar_seeds": ["honk honk", "clown world vision", "makeup on the frog"],
+  "related_ids": ["pepe-the-frog"],
+  "format": "Image Macro",
+  "origin_platform": "4chan / Reddit",
+  "meaning": "The belief that the world has become so nonsensical that the only logical response is to laugh like a clown.",
+  "remix_rules": ["Pepe in clown makeup", "Rainbow wig", "Honk sound effects"],
+  "lifespan_risk": "Moderate-High (Political sensitivity)",
+  "example_lines": ["Looking at the news and I'm putting on the wig, Honkler vibes", "World's a circus, I'm just the frog with the nose"]
+}

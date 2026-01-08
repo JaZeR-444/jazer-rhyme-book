@@ -1,0 +1,47 @@
+{
+  "id": "ok-boomer",
+  "type": "internet-culture",
+  "name": "OK Boomer",
+  "aliases": [],
+  "era": "2019-Present",
+  "tags": [
+    "satirical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A dismissive phrase used to brush off out-of-touch opinions.",
+  "angles": [
+    "generational clash",
+    "dismissive reply",
+    "culture gap"
+  ],
+  "bar_seeds": [
+    "ok boomer",
+    "mute the lecture",
+    "different era"
+  ],
+  "related_ids": [
+    "npc-meme",
+    "drake-hotline-bling"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OK_boomer",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Catchphrase",
+  "origin_platform": "TikTok/Twitter",
+  "meaning": "Used to dismiss statements seen as outdated or condescending.",
+  "remix_rules": [
+    "Use as a short reply to a long take"
+  ],
+  "lifespan_risk": "Medium (phrase cycle)",
+  "example_lines": [
+    "Ok boomer, we streaming now"
+  ]
+}

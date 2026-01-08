@@ -1,0 +1,18 @@
+{
+  "id": "roland-tr-808",
+  "type": "writing-tool",
+  "name": "Roland TR-808",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A drum machine that failed commercially but became the foundation of hip-hop, techno, and trap music.",
+  "tags": ["tool", "vintage", "music", "legendary"],
+  "angles": ["bass", "rhythm", "synthetic"],
+  "bar_seeds": ["808 kick", "cowbell", "snare snap"],
+  "related_ids": [],
+  "category": "Hardware",
+  "what_it_does": "Synthesizes drum sounds, most notably a deep, booming kick drum.",
+  "best_for": ["trap", "electro", "miami bass"],
+  "workflow_hooks": ["Tune the kick", "Program the step sequencer"],
+  "pitfalls": ["No swing setting", "Limited palette"],
+  "bar_angles": ["Heartbeat of the street", "Boom bap", "Synthetic soul"]
+}

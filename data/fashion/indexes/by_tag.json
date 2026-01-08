@@ -1,0 +1,602 @@
+{
+  "vintage": [
+    "archive-fashion",
+    "cuban-collar-shirt",
+    "denim-jacket",
+    "penny-loafers",
+    "thrifting"
+  ],
+  "classic": [
+    "archive-fashion",
+    "aviator-sunglasses",
+    "bandana-item",
+    "bomber-jacket",
+    "brogues",
+    "cardigan",
+    "chelsea-boots",
+    "denim-jacket",
+    "derby-shoes",
+    "desert-boots",
+    "double-breasted-suit",
+    "dr-martens",
+    "flannel-shirt",
+    "hoodie",
+    "leather-biker-jacket",
+    "loafers",
+    "minimalist-tailoring",
+    "monochrome-style",
+    "normcore",
+    "oxford-button-down",
+    "peacoat",
+    "penny-loafers",
+    "polo-shirt-item",
+    "power-dressing",
+    "preppy-fashion",
+    "quiet-luxury",
+    "resortwear",
+    "silk-scarf",
+    "trench-coat",
+    "turtleneck",
+    "varsity-jacket",
+    "workwear"
+  ],
+  "legacy": [
+    "archive-fashion",
+    "power-dressing",
+    "workwear"
+  ],
+  "trend": [
+    "archive-fashion",
+    "fast-fashion",
+    "festival-fashion",
+    "genderless-wardrobe",
+    "gorpcore",
+    "maximalist-layering",
+    "oversized-silhouette",
+    "resortwear",
+    "sport-luxe",
+    "upcycled-fashion",
+    "utility-fashion",
+    "y2k-fashion"
+  ],
+  "comfort": [
+    "athleisure",
+    "sweatpants"
+  ],
+  "functionality": [
+    "athleisure"
+  ],
+  "versatile": [
+    "athleisure"
+  ],
+  "lifestyle": [
+    "athleisure"
+  ],
+  "fitness": [
+    "athleisure"
+  ],
+  "experimental": [
+    "avant-garde"
+  ],
+  "conceptual": [
+    "avant-garde"
+  ],
+  "high-fashion": [
+    "avant-garde",
+    "deconstructed-fashion"
+  ],
+  "dark": [
+    "avant-garde"
+  ],
+  "luxury": [
+    "aviator-sunglasses",
+    "brogues",
+    "chelsea-boots",
+    "cuban-link-chain",
+    "double-breasted-suit",
+    "haute-couture",
+    "loafers",
+    "logomania",
+    "luxury-handbags",
+    "minimal-sneaker",
+    "peacoat",
+    "polo-shirt-item",
+    "quiet-luxury",
+    "silk-scarf",
+    "sport-luxe",
+    "trench-coat"
+  ],
+  "americana": [
+    "aviator-sunglasses",
+    "denim-jacket",
+    "overalls",
+    "varsity-jacket"
+  ],
+  "iconic": [
+    "aviator-sunglasses"
+  ],
+  "grit": [
+    "bandana-item",
+    "cuban-link-chain",
+    "denim-jacket",
+    "dr-martens",
+    "leather-biker-jacket",
+    "messenger-bag",
+    "overalls",
+    "workwear"
+  ],
+  "rebellion": [
+    "bandana-item",
+    "dr-martens",
+    "genderless-wardrobe",
+    "leather-biker-jacket"
+  ],
+  "identity": [
+    "bandana-item"
+  ],
+  "winter": [
+    "beanie",
+    "parka",
+    "peacoat",
+    "puffer-jacket"
+  ],
+  "streetwear": [
+    "beanie",
+    "bomber-jacket",
+    "bucket-hat",
+    "cargo-pants",
+    "gorpcore",
+    "graphic-tee",
+    "hoodie",
+    "oversized-silhouette",
+    "snapback-cap",
+    "sneakerhead",
+    "sport-luxe",
+    "sweatpants",
+    "techwear",
+    "tracksuit",
+    "vintage-sportswear"
+  ],
+  "casual": [
+    "beanie",
+    "bucket-hat",
+    "graphic-tee",
+    "sweatpants"
+  ],
+  "utility": [
+    "beanie",
+    "bomber-jacket",
+    "cargo-pants",
+    "derby-shoes",
+    "desert-boots",
+    "messenger-bag",
+    "parka",
+    "tote-bag-item"
+  ],
+  "free-spirited": [
+    "bohemian-fashion"
+  ],
+  "artistic": [
+    "bohemian-fashion"
+  ],
+  "flowing": [
+    "bohemian-fashion"
+  ],
+  "natural": [
+    "bohemian-fashion"
+  ],
+  "colorful": [
+    "bohemian-fashion"
+  ],
+  "industrial": [
+    "bomber-jacket",
+    "cargo-pants",
+    "cyberpunk-fashion",
+    "messenger-bag",
+    "utility-fashion"
+  ],
+  "heritage": [
+    "brogues",
+    "cuban-link-chain"
+  ],
+  "ornate": [
+    "brogues"
+  ],
+  "90s": [
+    "bucket-hat",
+    "overalls",
+    "slip-dress",
+    "snapback-cap",
+    "windbreaker"
+  ],
+  "vibrant": [
+    "bucket-hat",
+    "cuban-collar-shirt",
+    "festival-fashion",
+    "maximalist-layering",
+    "platform-shoes",
+    "resortwear",
+    "silk-scarf",
+    "snapback-cap",
+    "tracksuit",
+    "varsity-jacket",
+    "windbreaker",
+    "y2k-fashion"
+  ],
+  "academic": [
+    "cardigan",
+    "oxford-button-down",
+    "penny-loafers",
+    "turtleneck"
+  ],
+  "grunge": [
+    "cardigan",
+    "flannel-shirt"
+  ],
+  "mellow": [
+    "cardigan",
+    "desert-boots"
+  ],
+  "gorpcore": [
+    "cargo-pants",
+    "parka",
+    "puffer-jacket"
+  ],
+  "rock-n-roll": [
+    "chelsea-boots"
+  ],
+  "sleek": [
+    "chelsea-boots",
+    "loafers",
+    "slip-dress",
+    "turtleneck"
+  ],
+  "summer": [
+    "cuban-collar-shirt"
+  ],
+  "relaxed": [
+    "cuban-collar-shirt"
+  ],
+  "bling": [
+    "cuban-link-chain"
+  ],
+  "cyberpunk": [
+    "cyberpunk-fashion"
+  ],
+  "neon": [
+    "cyberpunk-fashion"
+  ],
+  "futuristic": [
+    "cyberpunk-fashion",
+    "techwear"
+  ],
+  "avant-garde": [
+    "deconstructed-fashion"
+  ],
+  "innovative": [
+    "deconstructed-fashion",
+    "upcycled-fashion"
+  ],
+  "contemporary": [
+    "deconstructed-fashion",
+    "festival-fashion",
+    "genderless-wardrobe",
+    "gorpcore",
+    "maximalist-layering",
+    "minimalist-tailoring",
+    "monochrome-style",
+    "normcore",
+    "oversized-silhouette",
+    "quiet-luxury",
+    "sport-luxe",
+    "techwear",
+    "upcycled-fashion",
+    "utility-fashion"
+  ],
+  "apparel": [
+    "denim-selvedge"
+  ],
+  "rugged": [
+    "denim-selvedge"
+  ],
+  "craftsmanship": [
+    "denim-selvedge",
+    "luxury-accessories"
+  ],
+  "denim": [
+    "denim-selvedge"
+  ],
+  "minimalist": [
+    "derby-shoes",
+    "genderless-wardrobe",
+    "minimal-sneaker",
+    "minimalist-tailoring",
+    "monochrome-style",
+    "normcore",
+    "oxford-button-down",
+    "quiet-luxury",
+    "slip-dress",
+    "tote-bag-item",
+    "turtleneck"
+  ],
+  "formal": [
+    "derby-shoes"
+  ],
+  "mod": [
+    "desert-boots",
+    "parka"
+  ],
+  "power": [
+    "double-breasted-suit"
+  ],
+  "tailoring": [
+    "double-breasted-suit"
+  ],
+  "punk-fashion": [
+    "dr-martens"
+  ],
+  "mass-market": [
+    "fast-fashion"
+  ],
+  "retail": [
+    "fast-fashion"
+  ],
+  "disposable": [
+    "fast-fashion"
+  ],
+  "mainstream": [
+    "festival-fashion",
+    "normcore",
+    "power-dressing"
+  ],
+  "raw": [
+    "flannel-shirt"
+  ],
+  "workwear": [
+    "flannel-shirt",
+    "overalls"
+  ],
+  "inclusive": [
+    "gender-fluid-fashion"
+  ],
+  "non-binary": [
+    "gender-fluid-fashion"
+  ],
+  "progressive": [
+    "gender-fluid-fashion"
+  ],
+  "expressive": [
+    "gender-fluid-fashion"
+  ],
+  "boundary-breaking": [
+    "gender-fluid-fashion"
+  ],
+  "organic": [
+    "gorpcore",
+    "upcycled-fashion"
+  ],
+  "culture": [
+    "graphic-tee"
+  ],
+  "pop": [
+    "graphic-tee"
+  ],
+  "handmade": [
+    "haute-couture"
+  ],
+  "exclusive": [
+    "haute-couture",
+    "luxury-sneakers"
+  ],
+  "french": [
+    "haute-couture"
+  ],
+  "athleisure": [
+    "hoodie",
+    "sweatpants",
+    "windbreaker"
+  ],
+  "youth": [
+    "hoodie",
+    "streetwear"
+  ],
+  "noir": [
+    "leather-biker-jacket",
+    "monochrome-style",
+    "trench-coat"
+  ],
+  "prep": [
+    "loafers"
+  ],
+  "branding": [
+    "logomania"
+  ],
+  "status": [
+    "logomania",
+    "luxury-accessories",
+    "luxury-handbags",
+    "luxury-sneakers"
+  ],
+  "excess": [
+    "logomania"
+  ],
+  "exclusivity": [
+    "luxury-accessories"
+  ],
+  "investment": [
+    "luxury-accessories",
+    "luxury-handbags",
+    "luxury-sneakers"
+  ],
+  "signature": [
+    "luxury-accessories"
+  ],
+  "accessory": [
+    "luxury-handbags"
+  ],
+  "collaboration": [
+    "luxury-sneakers"
+  ],
+  "hype": [
+    "luxury-sneakers",
+    "sneakerhead",
+    "streetwear"
+  ],
+  "maximalist": [
+    "maximalist-layering",
+    "platform-shoes"
+  ],
+  "urban": [
+    "messenger-bag",
+    "puffer-jacket",
+    "streetwear"
+  ],
+  "footwear": [
+    "minimal-sneaker",
+    "sneakerhead"
+  ],
+  "clean": [
+    "minimal-sneaker"
+  ],
+  "couture": [
+    "minimalist-tailoring"
+  ],
+  "silhouette": [
+    "oversized-silhouette"
+  ],
+  "preppy": [
+    "oxford-button-down",
+    "penny-loafers",
+    "polo-shirt-item",
+    "varsity-jacket"
+  ],
+  "nautical": [
+    "peacoat"
+  ],
+  "club": [
+    "platform-shoes"
+  ],
+  "70s": [
+    "platform-shoes"
+  ],
+  "sportswear": [
+    "polo-shirt-item",
+    "tracksuit",
+    "vintage-sportswear",
+    "windbreaker"
+  ],
+  "uniform": [
+    "power-dressing",
+    "workwear"
+  ],
+  "conservative": [
+    "preppy-fashion"
+  ],
+  "polo": [
+    "preppy-fashion"
+  ],
+  "eastern": [
+    "preppy-fashion"
+  ],
+  "traditional": [
+    "preppy-fashion"
+  ],
+  "technical": [
+    "puffer-jacket",
+    "techwear",
+    "utility-fashion"
+  ],
+  "rebellious": [
+    "punk-fashion"
+  ],
+  "edgy": [
+    "punk-fashion"
+  ],
+  "DIY": [
+    "punk-fashion"
+  ],
+  "anti-establishment": [
+    "punk-fashion"
+  ],
+  "aggressive": [
+    "punk-fashion"
+  ],
+  "pastel": [
+    "resortwear"
+  ],
+  "elegant": [
+    "silk-scarf"
+  ],
+  "feminine": [
+    "slip-dress"
+  ],
+  "sports": [
+    "snapback-cap"
+  ],
+  "collecting": [
+    "sneakerhead"
+  ],
+  "collaborative": [
+    "streetwear"
+  ],
+  "sneakers": [
+    "streetwear"
+  ],
+  "eco-friendly": [
+    "sustainable-fashion"
+  ],
+  "ethical": [
+    "sustainable-fashion"
+  ],
+  "conscious": [
+    "sustainable-fashion"
+  ],
+  "slow": [
+    "sustainable-fashion"
+  ],
+  "responsible": [
+    "sustainable-fashion"
+  ],
+  "sustainable": [
+    "thrifting"
+  ],
+  "style": [
+    "thrifting"
+  ],
+  "curated": [
+    "thrifting"
+  ],
+  "aesthetic": [
+    "tote-bag-item"
+  ],
+  "creative": [
+    "tote-bag-item"
+  ],
+  "00s": [
+    "tracksuit",
+    "y2k-fashion"
+  ],
+  "utilitarian": [
+    "trench-coat"
+  ],
+  "nostalgic": [
+    "vintage-clothing",
+    "vintage-sportswear",
+    "y2k-fashion"
+  ],
+  "unique": [
+    "vintage-clothing"
+  ],
+  "rare": [
+    "vintage-clothing"
+  ],
+  "authentic": [
+    "vintage-clothing"
+  ],
+  "character": [
+    "vintage-clothing"
+  ],
+  "retro": [
+    "vintage-sportswear"
+  ]
+}

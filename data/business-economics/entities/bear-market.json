@@ -1,0 +1,20 @@
+{
+  "id": "bear-market",
+  "type": "business-economics",
+  "name": "Bear Market",
+  "aliases": ["Downturn", "Market Decline"],
+  "era": "Modern Era",
+  "tags": ["finance", "economy", "decline", "fear"],
+  "one_liner": "A condition in which securities prices fall and widespread pessimism causes the stock market's downward spiral.",
+  "angles": ["hibernating wealth", "the season of fear", "weathering the storm"],
+  "bar_seeds": ["bloody markets", "bear claws", "market winter", "selling in panic"],
+  "industry": "Finance",
+  "core_principle": "Pessimism and declining prices.",
+  "jargon": ["Recession", "Correction", "Short selling"],
+  "key_metrics": ["20% drop from recent highs"],
+  "archetypes": ["Short seller", "Contrarian"],
+  "related_ids": ["stock-market", "bull-market"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

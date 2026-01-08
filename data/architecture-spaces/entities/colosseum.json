@@ -1,0 +1,17 @@
+{
+  "id": "colosseum",
+  "type": "architecture-spaces",
+  "name": "Colosseum",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An elliptical amphitheater in the center of Rome, the largest ever built and a symbol of gladiatorial spectacle.",
+  "tags": ["classic", "war", "history", "massive"],
+  "angles": ["bread-and-circuses", "blood-on-the-sand", "imperial-grandeur"],
+  "bar_seeds": ["roar of the crowd", "under the arches", "blood in the arena"],
+  "related_ids": ["ancient-rome", "stadium"],
+  "style": "Roman Classical",
+  "materials": ["Travertine", "Tuff", "Concrete"],
+  "spatial_qualities": ["Circular", "Open-air", "Tiered-seating"],
+  "function": "Entertainment / Spectacle",
+  "famous_examples": ["Flavian Amphitheatre"]
+}

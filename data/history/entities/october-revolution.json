@@ -1,0 +1,17 @@
+{
+  "id": "october-revolution",
+  "type": "history",
+  "name": "October Revolution",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A revolution in Russia led by the Bolshevik Party of Vladimir Lenin that was a key moment in the larger Russian Revolution.",
+  "tags": ["revolutionary", "political", "war", "history"],
+  "angles": ["rise-of-communism", "fall-of-the-tsar", "red-october"],
+  "bar_seeds": ["storming the winter palace", "ten days that shook the world", "hammer and sickle"],
+  "related_ids": ["marxism", "fall-of-the-soviet-union-1991"],
+  "key_dates": ["1917"],
+  "location": "Russia (Petrograd)",
+  "impact": "Led to the creation of the Soviet Union, the world's first socialist state.",
+  "major_figures": ["Vladimir Lenin", "Leon Trotsky"],
+  "cultural_shift": "Radical transition from monarchy to a state based on Marxist-Leninist ideology."
+}

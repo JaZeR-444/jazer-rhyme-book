@@ -1,0 +1,17 @@
+{
+  "id": "robin-hood",
+  "type": "mythology-legend",
+  "name": "Robin Hood",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary heroic outlaw originally depicted in English folklore and subsequently featured in literature and film.",
+  "tags": ["rebellion", "classic", "grit", "legacy"],
+  "angles": ["redistribution", "archery", "outlaw-honor"],
+  "bar_seeds": ["steal from the rich", "sherwood forest", "merry men"],
+  "related_ids": [],
+  "origin_culture": "English",
+  "deity_type": "Heroic Outlaw",
+  "powers": ["Archery mastery", "Stealth", "Charisma"],
+  "symbols": ["Bow and Arrow", "Green Tunic", "Forest"],
+  "modern_parallels": ["Vigilantes", "Socialist heroes", "Hacktivists"]
+}

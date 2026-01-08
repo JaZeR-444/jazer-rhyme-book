@@ -1,0 +1,50 @@
+{
+  "id": "drake-hotline-bling",
+  "type": "internet-culture",
+  "name": "Drake Hotline Bling",
+  "aliases": [
+    "Drake meme"
+  ],
+  "era": "2015-Present",
+  "tags": [
+    "vibrant",
+    "satirical",
+    "contemporary"
+  ],
+  "one_liner": "Two-panel Drake reaction image for comparing preferences.",
+  "angles": [
+    "preference switch",
+    "no vs yes",
+    "taste flex"
+  ],
+  "bar_seeds": [
+    "nah to that, yeah to this",
+    "Drake pick a side",
+    "clean swap"
+  ],
+  "related_ids": [
+    "distracted-boyfriend",
+    "this-is-fine"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/drakeposting",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Twitter/Reddit",
+  "meaning": "Used to show rejection of one thing and approval of another.",
+  "remix_rules": [
+    "Label the top image as the rejected option",
+    "Label the bottom image as the preferred option"
+  ],
+  "lifespan_risk": "Low (classic template)",
+  "example_lines": [
+    "Me rejecting bad mixes / Me approving clean masters"
+  ]
+}

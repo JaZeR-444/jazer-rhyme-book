@@ -1,0 +1,103 @@
+/**
+ * RapDictionaryExplorer Styles
+ */
+
+.dictionary-explorer {
+  padding: var(--space-section) var(--container-padding);
+  min-height: auto;
+  background: var(--surface-1);
+}
+
+.dictionary-header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.dictionary-header h2 {
+  margin-bottom: var(--space-sm);
+}
+
+/* Search */
+.dictionary-search {
+  max-width: 500px;
+  margin: 0 auto var(--space-lg);
+}
+
+/* Letter Filters */
+.letter-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: var(--space-md);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter-btn {
+  width: 36px;
+  height: 36px;
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.letter-btn:hover {
+  border-color: var(--accent-warm);
+  color: var(--text-primary);
+}
+
+.letter-btn.active {
+  background: var(--accent-warm);
+  color: var(--surface-0);
+  border-color: var(--accent-warm);
+}
+
+/* Words Grid */
+.words-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-sm);
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+/* Word Card */
+.word-card {
+  padding: var(--space-sm);
+  background: var(--surface-0);
+}
+
+.word-card:hover {
+  border-color: var(--accent-warm);
+}
+
+.word-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.word-title {
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-warm);
+}
+
+.word-pos {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.word-definition {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+}

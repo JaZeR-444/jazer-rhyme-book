@@ -1,0 +1,17 @@
+{
+  "id": "psychedelia",
+  "type": "aesthetics-visuals",
+  "name": "Psychedelia",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic inspired by the experiences and hallucinations of psychedelic drugs, featuring intense colors and kaleidoscopic patterns.",
+  "tags": ["vibrant", "surreal", "60s", "organic"],
+  "angles": ["expansion", "hallucination", "vibrancy"],
+  "bar_seeds": ["fractal patterns", "kaleidoscope eyes", "third eye vision"],
+  "related_ids": ["surrealism"],
+  "visual_elements": ["Fractals", "Swirling patterns", "Fluorescent colors", "Liquid light"],
+  "mood": "Euphoric, expanding, trippy",
+  "associated_eras": ["1960s", "1970s"],
+  "color_palette": ["Rainbow", "Neon Purple", "Acid Green", "Electric Yellow"],
+  "fashion_staples": ["Tie-dye", "Bell bottoms", "Paisley prints"]
+}

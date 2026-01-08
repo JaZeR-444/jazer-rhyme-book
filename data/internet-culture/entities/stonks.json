@@ -1,0 +1,50 @@
+{
+  "id": "stonks",
+  "type": "internet-culture",
+  "name": "Stonks",
+  "aliases": [
+    "Stonks meme"
+  ],
+  "era": "2017-Present",
+  "tags": [
+    "satirical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A suited figure in front of charts representing dubious financial wisdom.",
+  "angles": [
+    "fake business logic",
+    "number go up",
+    "ironic finance"
+  ],
+  "bar_seeds": [
+    "stonks only",
+    "charts in the background",
+    "profit in the air"
+  ],
+  "related_ids": [
+    "stock-market",
+    "bull-market"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/stonks",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Facebook",
+  "meaning": "Used to mock overly simplistic or flawed business reasoning.",
+  "remix_rules": [
+    "Add a short business claim",
+    "Keep the charts"
+  ],
+  "lifespan_risk": "Low (finance staple)",
+  "example_lines": [
+    "Spent all the budget on ads. Stonks."
+  ]
+}

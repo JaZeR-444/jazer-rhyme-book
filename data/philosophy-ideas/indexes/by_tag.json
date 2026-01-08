@@ -1,0 +1,354 @@
+{
+  "existence": [
+    "absurdism",
+    "cogito-ergo-sum",
+    "existentialism",
+    "metaphysics",
+    "nihilism",
+    "panpsychism",
+    "phenomenology",
+    "posthumanism",
+    "simulation-hypothesis",
+    "solipsism",
+    "the-will-to-power"
+  ],
+  "irony": [
+    "absurdism"
+  ],
+  "meaning": [
+    "absurdism",
+    "existentialism"
+  ],
+  "struggle": [
+    "absurdism"
+  ],
+  "art": [
+    "aestheticism"
+  ],
+  "aesthetic": [
+    "aestheticism"
+  ],
+  "luxury": [
+    "aestheticism",
+    "plutocracy"
+  ],
+  "vibrant": [
+    "aestheticism"
+  ],
+  "positive": [
+    "altruism",
+    "eudaimonia"
+  ],
+  "ethics": [
+    "altruism",
+    "deontology",
+    "eudaimonia",
+    "hedonism",
+    "social-contract",
+    "stoicism",
+    "utilitarianism",
+    "virtue-ethics"
+  ],
+  "social": [
+    "altruism",
+    "anarchism-philosophy",
+    "critical-theory",
+    "marxism"
+  ],
+  "peace": [
+    "altruism"
+  ],
+  "rebellion": [
+    "anarchism-philosophy",
+    "anarchism-philosophy",
+    "cynicism",
+    "marxism",
+    "post-structuralism",
+    "the-ubermensch"
+  ],
+  "political": [
+    "anarchism-philosophy",
+    "critical-theory",
+    "kakistocracy",
+    "marxism",
+    "technocracy"
+  ],
+  "zen": [
+    "ataraxia",
+    "stoic-calm",
+    "taoism",
+    "zen-buddhism"
+  ],
+  "mellow": [
+    "ataraxia",
+    "epicureanism",
+    "eudaimonia",
+    "stoic-calm",
+    "taoism",
+    "zen-buddhism"
+  ],
+  "classic": [
+    "ataraxia",
+    "cogito-ergo-sum",
+    "dualism",
+    "empiricism",
+    "epicureanism",
+    "eudaimonia",
+    "metaphysics",
+    "platonism",
+    "rationalism",
+    "ship-of-theseus"
+  ],
+  "logic": [
+    "ataraxia",
+    "cogito-ergo-sum",
+    "determinism",
+    "dualism",
+    "empiricism",
+    "epicureanism",
+    "epistemology",
+    "hermeneutics",
+    "meritocracy-philosophy",
+    "moral-relativism",
+    "nihilism",
+    "objectivism",
+    "occams-razor",
+    "post-structuralism",
+    "pragmatism",
+    "prisoners-dilemma",
+    "rationalism",
+    "ship-of-theseus",
+    "solipsism",
+    "stoicism",
+    "structuralism",
+    "technocracy",
+    "utilitarianism"
+  ],
+  "intellectual": [
+    "cogito-ergo-sum",
+    "critical-theory",
+    "epistemology",
+    "hermeneutics",
+    "moral-relativism",
+    "occams-razor",
+    "phenomenology",
+    "platonism",
+    "post-structuralism",
+    "rationalism",
+    "structuralism"
+  ],
+  "revolutionary": [
+    "critical-theory"
+  ],
+  "grit": [
+    "cynicism",
+    "the-will-to-power"
+  ],
+  "raw": [
+    "cynicism",
+    "empiricism"
+  ],
+  "nature": [
+    "cynicism"
+  ],
+  "duty": [
+    "deontology"
+  ],
+  "rules": [
+    "deontology"
+  ],
+  "morality": [
+    "deontology",
+    "utilitarianism"
+  ],
+  "fate": [
+    "determinism"
+  ],
+  "technical": [
+    "determinism",
+    "epistemology",
+    "hermeneutics",
+    "occams-razor",
+    "pragmatism",
+    "prisoners-dilemma",
+    "rationalism",
+    "ship-of-theseus",
+    "structuralism",
+    "technocracy",
+    "transhumanism"
+  ],
+  "scientific": [
+    "determinism",
+    "empiricism"
+  ],
+  "esoteric": [
+    "dualism",
+    "metaphysics",
+    "panpsychism",
+    "solipsism"
+  ],
+  "abstract": [
+    "dualism",
+    "metaphysics",
+    "moral-relativism",
+    "panpsychism",
+    "phenomenology",
+    "platonism",
+    "post-structuralism"
+  ],
+  "hedonism": [
+    "epicureanism"
+  ],
+  "academic": [
+    "epistemology",
+    "hermeneutics"
+  ],
+  "freedom": [
+    "existentialism"
+  ],
+  "choice": [
+    "existentialism"
+  ],
+  "pleasure": [
+    "hedonism"
+  ],
+  "indulgence": [
+    "hedonism"
+  ],
+  "happiness": [
+    "hedonism"
+  ],
+  "negative": [
+    "kakistocracy"
+  ],
+  "dark": [
+    "kakistocracy",
+    "nihilism",
+    "plutocracy"
+  ],
+  "chaos": [
+    "kakistocracy"
+  ],
+  "history": [
+    "marxism"
+  ],
+  "hustle": [
+    "meritocracy-philosophy",
+    "objectivism",
+    "pragmatism"
+  ],
+  "fairness": [
+    "meritocracy-philosophy"
+  ],
+  "competitive": [
+    "meritocracy-philosophy",
+    "prisoners-dilemma"
+  ],
+  "conflicted": [
+    "moral-relativism"
+  ],
+  "absent-meaning": [
+    "nihilism"
+  ],
+  "business-economics": [
+    "objectivism"
+  ],
+  "power": [
+    "objectivism",
+    "plutocracy",
+    "the-ubermensch",
+    "the-will-to-power"
+  ],
+  "minimalist": [
+    "occams-razor",
+    "zen-buddhism"
+  ],
+  "spiritual": [
+    "panpsychism",
+    "taoism",
+    "zen-buddhism"
+  ],
+  "internal": [
+    "phenomenology",
+    "solipsism",
+    "stoic-calm"
+  ],
+  "legacy": [
+    "platonism",
+    "the-ubermensch"
+  ],
+  "money": [
+    "plutocracy"
+  ],
+  "futuristic": [
+    "posthumanism",
+    "technocracy",
+    "transhumanism"
+  ],
+  "innovative": [
+    "posthumanism",
+    "transhumanism"
+  ],
+  "science-future": [
+    "posthumanism",
+    "transhumanism"
+  ],
+  "practical": [
+    "pragmatism"
+  ],
+  "strategy": [
+    "prisoners-dilemma"
+  ],
+  "identity": [
+    "ship-of-theseus"
+  ],
+  "metaphysics": [
+    "simulation-hypothesis"
+  ],
+  "tech": [
+    "simulation-hypothesis"
+  ],
+  "physics": [
+    "simulation-hypothesis"
+  ],
+  "politics": [
+    "social-contract"
+  ],
+  "society": [
+    "social-contract"
+  ],
+  "agreement": [
+    "social-contract"
+  ],
+  "stoicism": [
+    "stoic-calm"
+  ],
+  "wisdom": [
+    "stoicism",
+    "virtue-ethics"
+  ],
+  "endurance": [
+    "stoicism"
+  ],
+  "systems": [
+    "structuralism"
+  ],
+  "asian": [
+    "taoism"
+  ],
+  "existentialism": [
+    "the-ubermensch"
+  ],
+  "aggressive": [
+    "the-will-to-power"
+  ],
+  "consequence": [
+    "utilitarianism"
+  ],
+  "character": [
+    "virtue-ethics"
+  ],
+  "virtue": [
+    "virtue-ethics"
+  ]
+}

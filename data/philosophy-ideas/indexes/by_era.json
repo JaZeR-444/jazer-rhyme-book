@@ -1,0 +1,26 @@
+{
+  "20th Century": [
+    "absurdism"
+  ],
+  "18th Century-Present": [
+    "deontology",
+    "utilitarianism"
+  ],
+  "19th-20th Century": [
+    "existentialism"
+  ],
+  "Ancient-Present": [
+    "hedonism",
+    "stoicism",
+    "virtue-ethics"
+  ],
+  "19th Century-Present": [
+    "nihilism"
+  ],
+  "21st Century": [
+    "simulation-hypothesis"
+  ],
+  "17th-18th Century": [
+    "social-contract"
+  ]
+}

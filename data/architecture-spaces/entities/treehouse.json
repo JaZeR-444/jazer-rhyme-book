@@ -1,0 +1,17 @@
+{
+  "id": "treehouse",
+  "type": "architecture-spaces",
+  "name": "Treehouse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A building or shelter constructed among the branches of a tree.",
+  "tags": ["nature", "organic", "escape", "youth"],
+  "angles": ["aerial-escape", "childhood-sanctuary", "symbiosis-with-nature"],
+  "bar_seeds": ["climbing the rope", "living in the canopy", "secret hideout"],
+  "related_ids": ["sanctuary", "organic"],
+  "style": "Rustic / Vernacular",
+  "materials": ["Wood", "Rope", "Live Branches"],
+  "spatial_qualities": ["Elevated", "Irregular", "Open"],
+  "function": "Residential / Escape",
+  "famous_examples": ["Korowai Treehouses", "Treehotel (Sweden)"]
+}

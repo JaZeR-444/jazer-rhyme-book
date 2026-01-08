@@ -1,0 +1,18 @@
+{
+  "id": "whiteboard",
+  "type": "writing-tool",
+  "name": "Whiteboard",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The large-scale canvas for ephemeral planning and collaboration.",
+  "tags": ["tool", "minimalist", "business", "planning"],
+  "angles": ["visibility", "collaboration", "impermanence"],
+  "bar_seeds": ["erase and rewrite", "marker fumes", "big picture"],
+  "related_ids": [],
+  "category": "Physical",
+  "what_it_does": "Provides a large, erasable surface for writing and drawing.",
+  "best_for": ["tracklists", "studio sessions", "quick diagrams"],
+  "workflow_hooks": ["List potential tracks", "Draw song structure"],
+  "pitfalls": ["Accidental erasure", "Not portable"],
+  "bar_angles": ["Master plan", "War room", "Clean slate"]
+}

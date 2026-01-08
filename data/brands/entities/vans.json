@@ -1,0 +1,17 @@
+{
+  "id": "vans",
+  "type": "brand",
+  "name": "Vans",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A staple of skate and youth culture, famous for its waffle soles and 'Off the Wall' attitude.",
+  "tags": ["skate", "streetwear", "classic", "rebellion"],
+  "angles": ["off-the-wall", "waffle-sole", "skate-heritage"],
+  "bar_seeds": ["checkerboard slip ons", "old skool", "waffle grip"],
+  "related_ids": ["streetwear"],
+  "category": "Footwear / Streetwear",
+  "price_tier": "Low-Mid",
+  "signature_products": ["Old Skool", "Authentic", "Sk8-Hi", "Slip-On"],
+  "status_signals": ["Sidestripe (Jazz Stripe)", "Checkerboard pattern"],
+  "bar_angles": ["Skating through the city", "California dream", "Classic kick"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "omen",
+  "type": "rituals-symbols",
+  "name": "Omen",
+  "aliases": ["Portent", "Sign", "Harbinger"],
+  "era": "Ancient-Present",
+  "tags": ["symbol", "future", "mystery", "superstition"],
+  "one_liner": "An event regarded as a portent of good or evil.",
+  "angles": ["reading the signs", "inevitable destiny", "nature's warning"],
+  "bar_seeds": ["black crow flying", "cracked mirror", "blood moon", "lightning strike twice"],
+  "purpose": "To predict future events based on symbolic signs.",
+  "steps": ["Observation of unusual event", "Interpretation", "Action/Preparation"],
+  "objects_used": ["Animals", "Celestial bodies", "Natural phenomena"],
+  "participants": "The observer, the seer",
+  "outcome": "Anticipation, fear, or cautious optimism",
+  "related_ids": ["mythology-legend"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

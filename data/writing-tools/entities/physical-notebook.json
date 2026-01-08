@@ -1,0 +1,21 @@
+{
+  "id": "physical-notebook",
+  "type": "writing-tool",
+  "name": "Physical Notebook",
+  "aliases": ["The Pad", "Composition Book", "Moleskine"],
+  "era": "Ancient-Present",
+  "tags": ["analog", "tactile", "classic", "sovereign"],
+  "one_liner": "The timeless, analog method of capturing thoughts with pen and paper.",
+  "angles": ["tangible creativity", "no batteries required", "the weight of the ink"],
+  "bar_seeds": ["ink on the page", "torn out sheets", "composition book chronicles", "handwritten heat"],
+  "category": "Analog Stationery",
+  "what_it_does": "Provides a physical surface for writing and drawing.",
+  "best_for": ["Tactile drafting", "Deep focus (no notifications)", "Permanent physical record"],
+  "workflow_hooks": ["Carrying a pocket notebook everywhere", "Crossing out lines for a visual history"],
+  "pitfalls": ["Can be lost or destroyed", "No search function", "Harder to share"],
+  "bar_angles": ["ink bleeding through the pad", "handwriting like a doctor"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

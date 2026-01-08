@@ -1,0 +1,18 @@
+{
+  "id": "erykah-badu",
+  "type": "music",
+  "name": "Erykah Badu",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Queen of Neo-Soul, blending jazz, hip-hop, and R&B with spiritual eccentricity.",
+  "tags": ["soulful", "organic", "spiritual", "innovative"],
+  "angles": ["wisdom", "nature", "rhythm"],
+  "bar_seeds": ["baduizm", "headwrap", "analogue girl"],
+  "related_ids": ["tyler-the-creator"],
+  "genre": ["Neo-Soul", "R&B", "Jazz"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["On & On", "Tyrone", "Bag Lady"],
+  "sonic_descriptors": ["Rimshots", "Deep bass", "Unique vocal phrasing"],
+  "influence_tree": ["Billie Holiday", "Chaka Khan"],
+  "aesthetic": "Bohemian Matriarch"
+}

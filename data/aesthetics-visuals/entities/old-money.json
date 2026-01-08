@@ -1,0 +1,17 @@
+{
+  "id": "old-money",
+  "type": "aesthetics-visuals",
+  "name": "Old Money",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A lifestyle aesthetic that emphasizes inherited wealth, discretion, and timeless classic elegance.",
+  "tags": ["luxury", "classic", "minimalist", "legacy"],
+  "angles": ["inheritance", "preppy", "understated"],
+  "bar_seeds": ["generational wealth", "no logos", "sailing the coast"],
+  "related_ids": [],
+  "visual_elements": ["Tennis courts", "Estate grounds", "Vintage watches", "Pearls"],
+  "mood": "Sophisticated, exclusive, calm",
+  "associated_eras": ["1950s", "1960s", "Contemporary"],
+  "color_palette": ["Navy Blue", "White", "Beige", "Pastel Blue"],
+  "fashion_staples": ["Polo shirts", "Loafers", "Cashmere sweaters", "Linen trousers"]
+}

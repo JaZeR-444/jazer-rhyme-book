@@ -1,0 +1,17 @@
+{
+  "id": "bape",
+  "type": "brand",
+  "name": "A Bathing Ape (BAPE)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese streetwear brand known for its camo prints and shark hoodies.",
+  "tags": ["streetwear", "00s", "vibrant", "hype"],
+  "angles": ["camo", "hypebeast", "nigo"],
+  "bar_seeds": ["shark hoodie zipped up", "bape stas", "monkey camo"],
+  "related_ids": ["supreme", "off-white"],
+  "category": "Streetwear",
+  "price_tier": "Mid-High",
+  "signature_products": ["Shark Hoodie", "Bapesta Sneakers", "Camo Print"],
+  "status_signals": ["Full zip hood", "Cloud camo pattern"],
+  "bar_angles": ["2000s nostalgia", "Japanese street style", "Hype culture"]
+}

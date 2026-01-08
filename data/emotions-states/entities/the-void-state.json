@@ -1,0 +1,18 @@
+{
+  "id": "the-void-state",
+  "type": "emotions-states",
+  "name": "The Void",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A psychological state of profound emptiness, meaninglessness, or the absence of identity.",
+  "tags": ["dark", "nihilism", "abstract", "existence"],
+  "angles": ["inner-emptiness", "the-black-hole-within", "total-absence"],
+  "bar_seeds": ["staring into the abyss", "nothing where the soul was", "echoes in the hollow"],
+  "related_ids": ["nihilism", "existential-dread", "black-hole"],
+  "intensity": "High",
+  "physical_symptoms": ["Numbness", "Hollow feeling in the chest", "Dull gaze"],
+  "triggers": ["Significant loss", "Existential realization", "Burnout"],
+  "action_urge": "To stare into the emptiness or find anything to fill it.",
+  "opposites": ["Wholeness", "Presence", "Meaning"],
+  "related_ids": ["apathy", "existential-dread"]
+}

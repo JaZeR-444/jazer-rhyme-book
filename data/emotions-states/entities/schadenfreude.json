@@ -1,0 +1,17 @@
+{
+  "id": "schadenfreude",
+  "type": "emotions-states",
+  "name": "Schadenfreude",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Experience of pleasure, joy, or self-satisfaction that comes from learning of or witnessing the troubles, failures, or humiliation of others.",
+  "tags": ["negative", "satirical", "envy", "social"],
+  "angles": ["malicious joy", "watching the fall", "petty satisfaction"],
+  "bar_seeds": ["laughing at the crash", "sipping tea while you burn", "your loss is my win"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Smirk", "Suppressed laughter", "Feeling of lightness"],
+  "triggers": ["Rival's failure", "Public downfall of a high-status person"],
+  "action_urge": "To gossip or watch the situation unfold further.",
+  "opposites": ["Compassion", "Empathy", "Mudita"],
+  "related_ids": ["envy"]
+}

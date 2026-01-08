@@ -1,0 +1,19 @@
+{
+  "id": "american-football-sport",
+  "type": "sports",
+  "name": "American Football",
+  "aliases": ["Gridiron", "Football"],
+  "era": "Modern Era",
+  "tags": ["football", "war", "grit", "americana"],
+  "one_liner": "A high-impact team sport defined by territory gain, complex strategy, and raw physical power.",
+  "angles": ["chess-with-physical-consequences", "inches-game", "the-american-war-game"],
+  "bar_seeds": ["end zone", "blitz", "hail mary"],
+  "team_size": "11 vs 11",
+  "key_skills": ["Tactics", "Power", "Speed", "Agility"],
+  "equipment": ["Football", "Helmet", "Pads", "Cleats"],
+  "metaphors": ["Life is a game of inches", "Moving the chains", "Goal line stand"],
+  "legends": ["Tom Brady", "Jerry Rice", "Jim Brown"],
+  "related_ids": ["tom-brady", "patrick-mahomes"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

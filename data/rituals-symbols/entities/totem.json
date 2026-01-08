@@ -1,0 +1,20 @@
+{
+  "id": "totem",
+  "type": "rituals-symbols",
+  "name": "Totem",
+  "aliases": ["Spirit animal", "Emblem", "Sigil"],
+  "era": "Ancient-Present",
+  "tags": ["symbol", "identity", "spiritual", "protection"],
+  "one_liner": "A natural object or animal believed by a particular society to have spiritual significance and adopted by it as an emblem.",
+  "angles": ["spiritual anchor", "embodying the beast", "the mark of the clan"],
+  "bar_seeds": ["wolf spirit", "carved in wood", "ancient sigil", "talisman energy"],
+  "purpose": "To represent a group's identity and provide spiritual connection/protection.",
+  "steps": ["Selection of symbol", "Adoption", "Reverence"],
+  "objects_used": ["Carvings", "Tattoos", "Animal parts"],
+  "participants": "Clan members, individuals",
+  "outcome": "Group unity, spiritual guidance",
+  "related_ids": ["mythology-legend"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

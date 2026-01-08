@@ -1,0 +1,18 @@
+{
+  "id": "thanos-snap-meme",
+  "type": "internet-culture",
+  "name": "Thanos Snap",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The act of erasing half of all life with a snap of the fingers, used to represent drastic, balanced reduction.",
+  "tags": ["cinematic", "power", "logic", "viral"],
+  "angles": ["balance", "inevitability", "fading-away"],
+  "bar_seeds": ["perfectly balanced", "as all things should be", "gone in a snap"],
+  "related_ids": ["avengers-endgame-2019", "decay"],
+  "format": "Conceptual Meme / GIF",
+  "origin_platform": "Twitter / Reddit",
+  "meaning": "Drastic, impartial reduction or the sudden disappearance of something.",
+  "remix_rules": ["Fading to dust effect", "Balanced captions", "Snapping fingers gesture"],
+  "lifespan_risk": "High (Franchise longevity)",
+  "example_lines": ["Snapped the competition, now the world is balanced", "Fading like I'm Peter Parker in the street"]
+}

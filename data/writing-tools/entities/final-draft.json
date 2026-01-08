@@ -1,0 +1,18 @@
+{
+  "id": "final-draft",
+  "type": "writing-tool",
+  "name": "Final Draft",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The industry-standard software for screenwriting, formatting scripts to Hollywood specifications.",
+  "tags": ["tool", "technical", "cinema", "professional"],
+  "angles": ["structure", "hollywood", "formatting"],
+  "bar_seeds": ["fade in", "interior day", "cut to black"],
+  "related_ids": ["scrivener"],
+  "category": "Software",
+  "what_it_is": "Screenwriting software that handles the rigid formatting rules of film and TV scripts.",
+  "best_for": ["screenplays", "music videos", "stage plays"],
+  "workflow_hooks": ["Use Beat Board for structure", "Auto-format dialogue"],
+  "pitfalls": ["Expensive", "Crash prone historically"],
+  "bar_angles": ["Script the flip", "Director's cut", "Scene by scene"]
+}

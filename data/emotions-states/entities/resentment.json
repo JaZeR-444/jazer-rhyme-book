@@ -1,0 +1,17 @@
+{
+  "id": "resentment",
+  "type": "emotions-states",
+  "name": "Resentment",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A complex, multilayered emotion that has been described as a mixture of disappointed feelings, anger and fear.",
+  "tags": ["dark", "negative", "rage", "social"],
+  "angles": ["lingering bitterness", "unspoken grudge", "slow burn"],
+  "bar_seeds": ["bitter taste", "keeping score", "waiting for the turn"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Jaw clenching", "Muscle tension", "Narrowed eyes"],
+  "triggers": ["Perceived injustice", "Recurring mistreatment", "Unmet expectations"],
+  "action_urge": "To withdraw or plot a subtle revenge.",
+  "opposites": ["Forgiveness", "Acceptance"],
+  "related_ids": ["rage", "envy"]
+}

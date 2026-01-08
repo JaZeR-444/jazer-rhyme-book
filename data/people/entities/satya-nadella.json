@@ -1,0 +1,20 @@
+{
+  "id": "elon-musk-2",
+  "type": "people",
+  "name": "Satya Nadella",
+  "aliases": ["Satya", "Microsoft CEO"],
+  "era": "2014-Present",
+  "tags": ["ceo", "technology", "cloud", "innovation", "empathy"],
+  "one_liner": "Microsoft CEO who transformed the company with cloud computing and empathetic leadership.",
+  "angles": ["cloud transformation", "empathetic leadership", "tech innovation"],
+  "bar_seeds": ["microsoft cloud", "empathy", "mobile first", "growth mindset"],
+  "known_for": ["Microsoft Cloud", "Azure", "LinkedIn acquisition", "GitHub acquisition"],
+  "vibe": "Innovative, empathetic, and growth-focused",
+  "signature_items": ["Empathy", "Cloud computing", "Growth mindset"],
+  "quotables_short": ["Empathy is the heart of everything we do", "The only constant is change"],
+  "controversy_flags": ["Tech leadership"],
+  "related_ids": ["steve-ballmer", "bill-gates"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

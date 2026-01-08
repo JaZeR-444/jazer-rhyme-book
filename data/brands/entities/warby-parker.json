@@ -1,0 +1,56 @@
+{
+  "id": "warby-parker",
+  "type": "brand",
+  "name": "Warby Parker",
+  "aliases": [
+    "Warby Parker Inc.",
+    "Home Try-On"
+  ],
+  "era": "2010-Present",
+  "tags": [
+    "eyewear",
+    "direct-to-consumer",
+    "home-try-on",
+    "fashion",
+    "social-good"
+  ],
+  "one_liner": "An eyewear company that disrupted the industry with direct-to-consumer sales and home try-on.",
+  "angles": [
+    "direct-to-consumer",
+    "eyewear fashion",
+    "social good mission"
+  ],
+  "bar_seeds": [
+    "home try-on",
+    "affordable designer",
+    "buy-a-pair-give-a-pair",
+    "eyewear fashion"
+  ],
+  "visual_elements": [
+    "vintage-inspired frames",
+    "clean website",
+    "lifestyle photography",
+    "home try-on"
+  ],
+  "mood": "Accessible, stylish, and socially conscious",
+  "associated_eras": [
+    "2010s",
+    "Modern Day"
+  ],
+  "color_palette": [
+    "tortoise shell",
+    "black",
+    "navy",
+    "vintage colors"
+  ],
+  "fashion_staples": [
+    "vintage-inspired frames",
+    "accessorize",
+    "statement glasses",
+    "fashionable eyewear"
+  ],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

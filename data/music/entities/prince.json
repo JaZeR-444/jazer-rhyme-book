@@ -1,0 +1,18 @@
+{
+  "id": "prince",
+  "type": "music",
+  "name": "Prince",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A musical prodigy who mastered every instrument and blurred the lines of gender and genre.",
+  "tags": ["iconic", "virtuoso", "vibrant", "legacy"],
+  "angles": ["mastery", "sensuality", "mystique"],
+  "bar_seeds": ["purple rain", "paisley park", "symbol"],
+  "related_ids": [],
+  "genre": ["Funk", "Pop", "Rock", "R&B"],
+  "era_detail": "1970s - 2016",
+  "signature_songs": ["Purple Rain", "Kiss", "When Doves Cry"],
+  "sonic_descriptors": ["LinnDrum beats", "Screaming guitar", "Falsetto"],
+  "influence_tree": ["James Brown", "Jimi Hendrix", "Little Richard"],
+  "aesthetic": "Androgynous Royalty"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "euro-currency-launch-1999-2002",
+  "type": "history",
+  "name": "Euro Currency Launch",
+  "aliases": [
+    "Euro introduction"
+  ],
+  "era": "1999-2002",
+  "tags": [
+    "mainstream",
+    "political",
+    "legacy",
+    "peace"
+  ],
+  "one_liner": "The euro was introduced as a common currency for many European nations.",
+  "angles": [
+    "single currency",
+    "economic integration",
+    "continental shift"
+  ],
+  "bar_seeds": [
+    "one coin for many",
+    "currency union",
+    "euro in the pocket"
+  ],
+  "key_dates": [
+    "1999 (euro introduced)",
+    "2002 (cash circulation)"
+  ],
+  "location": "Europe",
+  "impact": "Deepened European economic integration and changed trade dynamics.",
+  "major_figures": [
+    "Jacques Santer"
+  ],
+  "cultural_shift": "European identity and integration became more tangible.",
+  "related_ids": [
+    "european-union-expansion-2004"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euro",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

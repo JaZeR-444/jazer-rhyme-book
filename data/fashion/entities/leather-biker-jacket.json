@@ -1,0 +1,18 @@
+{
+  "id": "leather-biker-jacket",
+  "type": "fashion",
+  "name": "Leather Biker Jacket",
+  "aliases": ["Double Rider", "Motorcycle Jacket"],
+  "era": "1950s-Present",
+  "tags": ["rebellion", "classic", "grit", "noir"],
+  "one_liner": "The ultimate symbol of tough-guy cool, defined by its asymmetric zip and silver hardware.",
+  "angles": ["armor for the road", "rockstar aesthetic", "asymmetric edge"],
+  "bar_seeds": ["black leather", "silver studs", "perfecto zip"],
+  "item_type": "Outerwear",
+  "material": ["Leather", "Cowhide", "Lambskin"],
+  "cultural_significance": "Symbolized the 'bad boy' image through Marlon Brando and the punk movement.",
+  "fit": ["Slim", "Cropped"],
+  "associated_brands": ["Schott NYC", "Saint Laurent", "Celine"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

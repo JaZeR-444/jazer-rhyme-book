@@ -1,0 +1,61 @@
+{
+  "id": "sidney-crosby",
+  "type": "sports",
+  "name": "Sidney Crosby",
+  "aliases": [
+    "Sid",
+    "The Kid"
+  ],
+  "era": "2000s-2020s",
+  "tags": [
+    "legacy",
+    "championship",
+    "athlete",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NHL center known for leadership, two-way play, and championship success.",
+  "angles": [
+    "captain leader",
+    "two-way excellence",
+    "playoff performer"
+  ],
+  "bar_seeds": [
+    "ice captain",
+    "backhand finish",
+    "banner raise"
+  ],
+  "team_size": "6 (Ice hockey)",
+  "key_skills": [
+    "Two-way play",
+    "Faceoffs",
+    "Playmaking"
+  ],
+  "equipment": [
+    "Hockey stick",
+    "Skates",
+    "Puck"
+  ],
+  "metaphors": [
+    "ice general",
+    "steady engine"
+  ],
+  "legends": [
+    "Stanley Cup titles",
+    "Generational center"
+  ],
+  "related_ids": [
+    "wayne-gretzky",
+    "connor-mcdavid"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sidney_Crosby",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

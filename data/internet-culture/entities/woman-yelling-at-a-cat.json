@@ -1,0 +1,21 @@
+{
+  "id": "woman-yelling-at-a-cat",
+  "type": "internet-culture",
+  "name": "Woman Yelling at a Cat",
+  "aliases": ["Smudge the Cat"],
+  "era": "2019-Present",
+  "tags": ["meme", "reaction", "contrast", "funny"],
+  "one_liner": "A side-by-side comparison of a distraught woman yelling and a confused cat sitting at a dinner table.",
+  "angles": ["unjustified anger vs indifference", "misinterpretation", "the chaos of communication"],
+  "bar_seeds": ["yelling at the cat", "smudge at the table", "unbothered cat"],
+  "format": "Split-screen image",
+  "origin_platform": "Twitter",
+  "meaning": "Conflict between intense emotion and complete confusion/indifference.",
+  "remix_rules": ["Left side: Someone yelling or complaining", "Right side: Someone/something unbothered"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Me yelling at the sky, the sky being the cat"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

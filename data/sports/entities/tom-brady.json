@@ -1,0 +1,20 @@
+{
+  "id": "tom-brady",
+  "type": "sports",
+  "name": "Tom Brady",
+  "aliases": ["TB12", "The GOAT"],
+  "era": "2000s-2020s",
+  "tags": ["football", "longevity", "champion", "quarterback"],
+  "one_liner": "The most successful quarterback in NFL history, known for his 7 Super Bowl wins and incredible longevity.",
+  "angles": ["the master of the comeback", "preparation is everything", "seven rings"],
+  "bar_seeds": ["tb12", "7 rings", "underdog to goat", "pocket presence"],
+  "team_size": "11 (Football)",
+  "key_skills": ["Accuracy", "Leadership", "Decision-making", "Longevity"],
+  "equipment": ["Football", "Helmet"],
+  "metaphors": ["The GOAT of the gridiron"],
+  "legends": ["7 Super Bowl Championships"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

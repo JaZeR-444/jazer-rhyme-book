@@ -1,0 +1,59 @@
+{
+  "id": "joel-embiid",
+  "type": "sports",
+  "name": "Joel Embiid",
+  "aliases": [
+    "The Process"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary",
+    "aggressive"
+  ],
+  "one_liner": "Dominant NBA center known for power scoring, rim protection, and big-game presence.",
+  "angles": [
+    "power and finesse",
+    "rim guardian",
+    "physical dominance"
+  ],
+  "bar_seeds": [
+    "process power",
+    "paint takeover",
+    "post-up pressure"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Post scoring",
+    "Rim protection",
+    "Free-throw drawing"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "tower in the paint",
+    "anchor"
+  ],
+  "legends": [
+    "Scoring leader",
+    "All-NBA impact"
+  ],
+  "related_ids": [
+    "nikola-jokic",
+    "giannis-antetokounmpo"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joel_Embiid",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

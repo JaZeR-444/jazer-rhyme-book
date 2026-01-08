@@ -1,0 +1,18 @@
+{
+  "id": "joan-of-arc",
+  "type": "people",
+  "name": "Joan of Arc",
+  "aliases": ["Maid of Orléans"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The French peasant girl who led the French army to victory in the Hundred Years' War before being martyred.",
+  "tags": ["war", "spiritual", "legacy", "history"],
+  "angles": ["divine-vision", "warrior-maiden", "martyrdom"],
+  "bar_seeds": ["voices in the head", "armor under the cross", "fire at the stake"],
+  "related_ids": ["history"],
+  "known_for": ["Siege of Orléans", "French National Hero", "Catholic Saint"],
+  "vibe": "Devout, brave, tragic",
+  "signature_items": ["Armor", "Banner", "Sword"],
+  "quotables_short": ["I am not afraid; I was born to do this."],
+  "controversy_flags": ["Trial for heresy", "Executed by burning"]
+}

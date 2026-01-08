@@ -1,0 +1,20 @@
+{
+  "id": "utilitarianism",
+  "type": "philosophy-ideas",
+  "name": "Utilitarianism",
+  "aliases": ["Consequentialism"],
+  "era": "18th Century-Present",
+  "tags": ["ethics", "logic", "consequence", "morality"],
+  "one_liner": "An ethical theory that determines right from wrong by focusing on outcomes, aiming for the greatest good for the greatest number.",
+  "angles": ["the math of morality", "ends justify the means", "total happiness"],
+  "bar_seeds": ["greatest good", "utility over all", "calculating the cost", "the greater number"],
+  "school_of_thought": "Consequentialism",
+  "core_question": "What action will result in the most happiness for the most people?",
+  "key_philosophers": ["Jeremy Bentham", "John Stuart Mill"],
+  "paradoxes": ["The Utility Monster (an individual who gets more pleasure from resources than others do)"],
+  "modern_application": "Influences public policy, economics, and effective altruism.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

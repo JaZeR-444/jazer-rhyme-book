@@ -1,0 +1,20 @@
+{
+  "id": "virtue-ethics",
+  "type": "philosophy-ideas",
+  "name": "Virtue Ethics",
+  "aliases": ["Aristotelian ethics"],
+  "era": "Ancient-Present",
+  "tags": ["ethics", "character", "virtue", "wisdom"],
+  "one_liner": "An approach to ethics that emphasizes an individual's character as the key element of ethical thinking.",
+  "angles": ["building the man", "the golden mean", "becoming excellent"],
+  "bar_seeds": ["golden mean", "character is destiny", "virtuous habit", "aiming for excellence"],
+  "school_of_thought": "Virtue Ethics",
+  "core_question": "What kind of person should I be?",
+  "key_philosophers": ["Aristotle"],
+  "paradoxes": ["The Unity of the Virtues (can you truly have one virtue without all the others?)"],
+  "modern_application": "Found in character education, leadership training, and some modern psychological approaches.",
+  "related_ids": ["stoicism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

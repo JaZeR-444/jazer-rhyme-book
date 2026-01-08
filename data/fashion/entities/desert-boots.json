@@ -1,0 +1,19 @@
+{
+  "id": "desert-boots",
+  "type": "fashion",
+  "name": "Desert Boots",
+  "aliases": ["Chukka Boots"],
+  "era": "1940s-Present",
+  "tags": ["classic", "mod", "utility", "mellow"],
+  "one_liner": "Ankle-high leather boots with suede or leather uppers, crepe soles, and two or three pairs of eyelets for lacing.",
+  "angles": ["military-simplicity", "mod-essentials", "the-rudeboy-step"],
+  "bar_seeds": ["suede finish", "crepe sole comfort", "desert march"],
+  "related_ids": ["clarks"],
+  "item_type": "Footwear",
+  "material": ["Suede", "Leather", "Crepe Rubber"],
+  "cultural_significance": "Based on boots worn by British soldiers in WWII; later a staple of Jamaican Rudeboys and UK Mods.",
+  "fit": ["Snug", "Ankle-high"],
+  "associated_brands": ["Clarks", "Astorflex"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

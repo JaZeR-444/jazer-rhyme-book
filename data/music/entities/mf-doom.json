@@ -1,0 +1,18 @@
+{
+  "id": "mf-doom",
+  "type": "music",
+  "name": "MF DOOM",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The villain of hip-hop, known for his metal mask, complex rhyme schemes, and multiple personas.",
+  "tags": ["underground", "lyrical", "abstract", "cult-classic"],
+  "angles": ["villainy", "anonymity", "complexity"],
+  "bar_seeds": ["metal mask", "supervillain", "all caps"],
+  "related_ids": [],
+  "genre": ["Hip Hop", "Underground Hip Hop"],
+  "era_detail": "1990s - 2020",
+  "signature_songs": ["Doomsday", "Rapp Snitch Knishes", "Accordion"],
+  "sonic_descriptors": ["Cartoon samples", "Off-beat flow", "Dense rhyming"],
+  "influence_tree": ["KMD", "De La Soul"],
+  "aesthetic": "Comic Book Villain"
+}

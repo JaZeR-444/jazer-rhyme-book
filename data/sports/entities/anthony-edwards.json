@@ -1,0 +1,19 @@
+{
+  "id": "anthony-edwards",
+  "type": "sports",
+  "name": "Anthony Edwards",
+  "aliases": ["Ant-Man", "Ant"],
+  "era": "2020s-Present",
+  "tags": ["basketball", "vibrant", "aggressive", "aura"],
+  "one_liner": "A high-flying, charismatic scoring machine who represents the next generation of NBA stardom.",
+  "angles": ["unmatched confidence", "explosive athleticism", "future face of the league"],
+  "bar_seeds": ["ant-man", "send da video", "dunk of the year"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Scoring", "Athleticism", "Charisma"],
+  "equipment": ["Basketball", "Adidas AE1"],
+  "metaphors": ["The Young Wolf"],
+  "legends": ["Olympic Gold Medalist", "All-Star"],
+  "related_ids": ["michael-jordan"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

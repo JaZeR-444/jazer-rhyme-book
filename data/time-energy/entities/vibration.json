@@ -1,0 +1,20 @@
+{
+  "id": "vibration",
+  "type": "time-energy",
+  "name": "Vibration",
+  "aliases": ["Vibe", "Pulse", "Tremor"],
+  "era": "Universal",
+  "tags": ["energy", "sensory", "feeling", "spiritual"],
+  "one_liner": "An instance of vibrating; a person's emotional state, the atmosphere of a place, or the associations of an object.",
+  "angles": ["the energy in the room", "tuning the soul", "physical pulses"],
+  "bar_seeds": ["good vibes only", "high vibration life", "the floor is shaking", "pulsing spirit"],
+  "concept_type": "Oscillatory State",
+  "perception": "Feeling, mood, and physical sensation.",
+  "physics_basis": "Mechanical oscillations about an equilibrium point.",
+  "cultural_view": "Central to 'vibe' culture and various spiritual beliefs about energy.",
+  "idioms": ["Catching a vibe", "Good vibrations"],
+  "related_ids": ["emotions-states", "zen"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

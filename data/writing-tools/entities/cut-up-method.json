@@ -1,0 +1,18 @@
+{
+  "id": "cut-up-method",
+  "type": "writing-tool",
+  "name": "Cut-Up Method",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Dadaist technique popularized by William S. Burroughs to rearrange text and find new meaning.",
+  "tags": ["tool", "innovative", "classic", "abstract", "surreal"],
+  "angles": ["randomness", "subconscious", "remix"],
+  "bar_seeds": ["scissors and glue", "rearranged reality", "accidental poetry"],
+  "related_ids": [],
+  "category": "Method",
+  "what_it_does": "Involves cutting up finished text and rearranging it to create a new text.",
+  "best_for": ["surreal lyrics", "finding new flows", "breaking linear thought"],
+  "workflow_hooks": ["Cut up a newspaper", "Rearrange your own old rhymes"],
+  "pitfalls": ["Can result in nonsense", "Requires patience"],
+  "bar_angles": ["Fragmented mind", "Collage of sound", "Chaos theory"]
+}

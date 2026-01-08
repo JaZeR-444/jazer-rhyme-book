@@ -1,0 +1,49 @@
+{
+  "id": "marcy-houses",
+  "type": "place",
+  "name": "Marcy Houses",
+  "aliases": [
+    "Marcy Projects",
+    "Marcy"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "brooklyn",
+    "new-york",
+    "projects",
+    "hustle"
+  ],
+  "one_liner": "A public housing complex in Brooklyn famous as the childhood home of Jay-Z and a symbol of project life.",
+  "angles": [
+    "from the projects to the boardroom",
+    "the concrete labyrinth",
+    "marcy made me"
+  ],
+  "bar_seeds": [
+    "marcy me",
+    "posted in the marcy",
+    "project bench dreams"
+  ],
+  "vibe": "Gritty, claustrophobic, ambitious, and legendary",
+  "sensory_cues": [
+    "brick walls",
+    "dimly lit stairwells",
+    "playground gates",
+    "distant city skyline"
+  ],
+  "cultural_refs": [
+    "Jay-Z",
+    "Memphis Bleek"
+  ],
+  "bar_angles": [
+    "marcy in the heart",
+    "escaping the marcy maze"
+  ],
+  "related_ids": [
+    "jay-z"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

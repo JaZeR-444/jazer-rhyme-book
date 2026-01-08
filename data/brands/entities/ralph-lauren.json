@@ -1,0 +1,17 @@
+{
+  "id": "ralph-lauren",
+  "type": "brand",
+  "name": "Ralph Lauren",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The quintessential American lifestyle brand, ranging from preppy Polo shirts to rugged Western wear.",
+  "tags": ["classic", "vintage", "prep", "americana"],
+  "angles": ["polo", "american-dream", "lo-life"],
+  "bar_seeds": ["polo horse", "lo head", "rugby shirt"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "Mid-High",
+  "signature_products": ["Polo Shirt", "Teddy Bear Sweater", "RRL Denim"],
+  "status_signals": ["Polo Pony logo", "The 'Polo Bear'"],
+  "bar_angles": ["Country club vibes", "Brooklyn Lo-Life culture", "American classic"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ukiyo-e",
+  "type": "aesthetics-visuals",
+  "name": "Ukiyo-e",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A genre of Japanese art which flourished from the 17th through 19th centuries, depicting the 'floating world'.",
+  "tags": ["classic", "asian", "nature", "history"],
+  "angles": ["floating world", "waves", "woodblock"],
+  "bar_seeds": ["great wave", "cherry blossom fall", "samurai stance"],
+  "related_ids": ["kitsune", "the-samurai-era"],
+  "visual_elements": ["Flat perspective", "Bold outlines", "Nature", "Kabuki actors"],
+  "mood": "Serene, dramatic, historical",
+  "associated_eras": ["Edo Period"],
+  "color_palette": ["Indigo", "Salmon Pink", "Paper White", "Black"],
+  "fashion_staples": ["Kimono patterns", "Traditional fabrics", "Indigo dye"]
+}

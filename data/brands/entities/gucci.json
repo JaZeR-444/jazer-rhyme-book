@@ -1,0 +1,20 @@
+{
+  "id": "gucci",
+  "type": "brand",
+  "name": "Gucci",
+  "aliases": ["Double G"],
+  "era": "1921-Present",
+  "tags": ["luxury", "italian", "high-fashion", "status"],
+  "one_liner": "An Italian luxury house that became a staple of hip-hop wealth and extravagance.",
+  "angles": ["maximalist luxury", "the monogram flex", "italian craftsmanship"],
+  "bar_seeds": ["gucci mane", "double g belt", "gg monogram", "luxury leather"],
+  "category": "Luxury Fashion",
+  "price_tier": "High-end",
+  "signature_products": ["Leather belts", "Loafers", "Handbags", "Monogram tracks"],
+  "status_signals": ["Green and red stripes", "Interlocking G logo"],
+  "bar_angles": ["gucci down to the socks", "belt with the double g"],
+  "related_ids": ["drip"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "attention-economy",
+  "type": "business-economics",
+  "name": "Attention Economy",
+  "aliases": [
+    "Attention market"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "viral",
+    "social-media"
+  ],
+  "one_liner": "System where human attention is the scarce resource driving monetization.",
+  "angles": [
+    "scroll competition",
+    "algorithmic feeds",
+    "time on platform"
+  ],
+  "bar_seeds": [
+    "attention tax",
+    "feed keeps pulling",
+    "minutes on the screen"
+  ],
+  "industry": "Media/Advertising",
+  "core_principle": "Attention is monetized through ads and engagement loops.",
+  "jargon": [
+    "engagement",
+    "CTR",
+    "watch time"
+  ],
+  "key_metrics": [
+    "time on platform",
+    "engagement rate",
+    "ad revenue"
+  ],
+  "archetypes": [
+    "platform",
+    "creator",
+    "advertiser"
+  ],
+  "related_ids": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Attention_economy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/place.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "place_type": {
+      "type": "string",
+      "enum": [
+        "city",
+        "venue",
+        "district",
+        "landmark"
+      ]
+    },
+    "vibe": {
+      "type": "string"
+    },
+    "sensory_cues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cultural_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bar_angles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

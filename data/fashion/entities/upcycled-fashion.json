@@ -1,0 +1,56 @@
+{
+  "id": "upcycled-fashion",
+  "type": "fashion",
+  "name": "Upcycled Fashion",
+  "aliases": [
+    "Reworked fashion"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "organic",
+    "innovative",
+    "contemporary",
+    "trend"
+  ],
+  "one_liner": "Clothing made by reusing or transforming existing garments.",
+  "angles": [
+    "second life",
+    "waste to wear",
+    "creative reuse"
+  ],
+  "bar_seeds": [
+    "old into gold",
+    "reworked drip",
+    "thread by thread"
+  ],
+  "item_type": "Sustainable Fashion",
+  "material": [
+    "Reclaimed textiles",
+    "Denim",
+    "Cotton"
+  ],
+  "cultural_significance": "Highlights sustainability and creativity in fashion.",
+  "fit": [
+    "Varied",
+    "Custom"
+  ],
+  "associated_brands": [
+    "Patagonia",
+    "Eileen Fisher",
+    "Levi's"
+  ],
+  "related_ids": [
+    "sustainable-fashion",
+    "thrifting"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Upcycling",
+      "url": "https://en.wikipedia.org/wiki/Upcycling",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

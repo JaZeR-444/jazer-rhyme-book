@@ -1,0 +1,18 @@
+{
+  "id": "isolation-state",
+  "type": "emotions-states",
+  "name": "Isolation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The state of being separated from others, often leading to a sense of disconnect or detachment from reality.",
+  "tags": ["dark", "internal", "loneliness", "noir"],
+  "angles": ["mental-walls", "out-of-reach", "the-island-of-self"],
+  "bar_seeds": ["no signal", "room with no doors", "talking to the shadows"],
+  "related_ids": ["solitude", "loneliness"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Coldness", "Quietness", "Loss of social skills"],
+  "triggers": ["Relocation", "Social rejection", "Deep focus", "Pandemics"],
+  "action_urge": "To reach out or to retreat further into the self.",
+  "opposites": ["Connection", "Community", "Intimacy"],
+  "related_ids": ["loneliness", "apathy"]
+}

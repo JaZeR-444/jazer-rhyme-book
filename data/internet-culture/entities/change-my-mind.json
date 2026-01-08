@@ -1,0 +1,49 @@
+{
+  "id": "change-my-mind",
+  "type": "internet-culture",
+  "name": "Change My Mind",
+  "aliases": [
+    "CMV sign"
+  ],
+  "era": "2018-Present",
+  "tags": [
+    "satirical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A seated man behind a sign inviting debate on a bold opinion.",
+  "angles": [
+    "hot take table",
+    "argument bait",
+    "public challenge"
+  ],
+  "bar_seeds": [
+    "sign on the table",
+    "prove me wrong",
+    "debate in the square"
+  ],
+  "related_ids": [
+    "two-buttons",
+    "distracted-boyfriend"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/steven-crowders-change-my-mind-campus-sign",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Twitter/Reddit",
+  "meaning": "Used to present a statement as a debate prompt.",
+  "remix_rules": [
+    "Replace the sign text with a claim"
+  ],
+  "lifespan_risk": "Medium (topic-driven)",
+  "example_lines": [
+    "Hook > verse. Change my mind."
+  ]
+}

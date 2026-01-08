@@ -1,0 +1,17 @@
+{
+  "id": "paramount-plus",
+  "type": "media-platforms",
+  "name": "Paramount+",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A global streaming service that combines live sports, news, and legendary film franchises.",
+  "tags": ["mainstream", "sports", "cinematic", "legacy"],
+  "angles": ["hollywood-heritage", "live-coverage", "mountain-of-entertainment"],
+  "bar_seeds": ["starry mountain", "mission impossible vibes", "champions league live"],
+  "related_ids": ["netflix"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "Sports Fans, Nostalgia Seekers, Families",
+  "content_format": ["Live TV", "Movies", "Originals"],
+  "algorithm_bias": "Favors legacy franchises and live sports events.",
+  "slang": ["Paramount Mountain", "Exclusive", "Live Stream"]
+}

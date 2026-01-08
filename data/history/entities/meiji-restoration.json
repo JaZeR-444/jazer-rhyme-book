@@ -1,0 +1,17 @@
+{
+  "id": "meiji-restoration",
+  "type": "history",
+  "name": "Meiji Restoration",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A coup d'état that restored practical imperial rule to the Empire of Japan in 1868 under Emperor Meiji.",
+  "tags": ["innovative", "asian", "history", "technical"],
+  "angles": ["end-of-the-samurai", "hyper-speed-modernization", "eastern-imperialism"],
+  "bar_seeds": ["trading the sword for the gear", "steamships in the bay", "imperial sun rising"],
+  "related_ids": ["the-samurai-era"],
+  "key_dates": ["1868"],
+  "location": "Japan",
+  "impact": "Transformed Japan from a feudal society into a modern global industrial power in decades.",
+  "major_figures": ["Emperor Meiji", "Saigō Takamori"],
+  "cultural_shift": "Rapid Westernization mixed with intense nationalistic pride."
+}

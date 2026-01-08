@@ -1,0 +1,17 @@
+{
+  "id": "vampire-folklore",
+  "type": "mythology-legend",
+  "name": "Vampire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mythical creature that subsists by feeding on the vital essence (generally in the form of blood) of the living.",
+  "tags": ["dark", "noir", "luxury", "classic"],
+  "angles": ["eternal-youth", "parasitism", "predatory-elegance"],
+  "bar_seeds": ["sipping the life", "fear of the sun", "count in the castle"],
+  "related_ids": ["dark-romanticism", "goth"],
+  "origin_culture": "European / Universal",
+  "deity_type": "Mythical Creature / Undead",
+  "powers": ["Immortality", "Shapeshifting", "Enhanced strength", "Mind control"],
+  "symbols": ["Fangs", "Blood", "Bat", "Coffin"],
+  "modern_parallels": ["Billionaires (metaphorical)", "Addiction", "Goth culture"]
+}

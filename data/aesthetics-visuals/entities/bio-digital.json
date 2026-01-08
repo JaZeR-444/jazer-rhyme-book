@@ -1,0 +1,17 @@
+{
+  "id": "bio-digital",
+  "type": "aesthetics-visuals",
+  "name": "Bio-Digital",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic exploring the intersection of biological forms and digital technology.",
+  "tags": ["futuristic", "organic", "synthetic", "quantum"],
+  "angles": ["fusion", "evolution", "hybrid"],
+  "bar_seeds": ["circuits in the skin", "digital DNA", "glowing veins"],
+  "related_ids": ["solarpunk", "cyberpunk"],
+  "visual_elements": ["Bioluminescence", "Geometric organics", "Neural networks", "Soft tech"],
+  "mood": "Alien, futuristic, integrated",
+  "associated_eras": ["2020s", "Future"],
+  "color_palette": ["Deep Sea Blue", "Neon Green", "White", "Ultraviolet"],
+  "fashion_staples": ["3D printed textures", "Mesh", "Glowing accents", "Skin-tight techwear"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nintendo",
+  "type": "brand",
+  "name": "Nintendo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Japanese giant of the video game industry, known for its iconic characters and innovative hardware.",
+  "tags": ["gaming", "vibrant", "classic", "innovative"],
+  "angles": ["nostalgia-machine", "creative-play", "unyielding-ip"],
+  "bar_seeds": ["mario world", "link's sword", "game boy vibes"],
+  "related_ids": ["sega", "sony"],
+  "category": "Gaming",
+  "price_tier": "Mid",
+  "signature_products": ["Nintendo Switch", "Mario", "Zelda", "Game Boy"],
+  "status_signals": ["The Red Logo", "Handheld dominance"],
+  "bar_angles": ["Childhood dreams", "Playing the game", "Level up"]
+}

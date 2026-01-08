@@ -1,0 +1,66 @@
+{
+  "id": "5g",
+  "type": "tech",
+  "name": "5G",
+  "aliases": [
+    "Fifth Generation",
+    "NextGen Network"
+  ],
+  "era": "2020s-Present",
+  "tags": [
+    "fast",
+    "connectivity",
+    "wireless",
+    "revolutionary",
+    "network"
+  ],
+  "one_liner": "The fifth generation of wireless technology offering faster speeds and lower latency.",
+  "angles": [
+    "speed revolution",
+    "connectivity",
+    "latency reduction"
+  ],
+  "bar_seeds": [
+    "Lightning fast, 5G",
+    "Connectivity at the speed of light"
+  ],
+  "related_ids": [
+    "telecommunications",
+    "iot",
+    "edge-computing"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": [
+    {
+      "title": "Telecom industry",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Standards organizations",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Wireless Technology",
+  "what_it_is": "Advanced wireless network technology with superior speed and capacity.",
+  "why_it_matters": "Enables new applications requiring high speed and low latency.",
+  "risks": [
+    "Infrastructure costs",
+    "Health concerns",
+    "Security issues"
+  ],
+  "metaphors": [
+    "Digital highway",
+    "Supercharged connection"
+  ],
+  "keywords": [
+    "Speed",
+    "Latency",
+    "Bandwidth",
+    "Connectivity"
+  ]
+}

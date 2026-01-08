@@ -1,0 +1,47 @@
+{
+  "id": "thrifting",
+  "type": "fashion",
+  "name": "Thrifting",
+  "aliases": [
+    "Vintage hunting",
+    "Second-hand"
+  ],
+  "era": "Ancient-Present (Popularized in 2010s)",
+  "tags": [
+    "vintage",
+    "sustainable",
+    "style",
+    "curated"
+  ],
+  "one_liner": "The act of shopping at thrift stores, flea markets, or second-hand shops to find unique or vintage items.",
+  "angles": [
+    "treasure hunting in the bins",
+    "sustainable style",
+    "finding the one-of-a-kind"
+  ],
+  "bar_seeds": [
+    "thrift store find",
+    "single stitch tee",
+    "goodwill gold",
+    "vintage wash"
+  ],
+  "item_type": "Second-hand Apparel",
+  "material": [
+    "Varies (often natural fibers from older eras)"
+  ],
+  "cultural_significance": "A move towards sustainability and individualistic, non-commercial style.",
+  "fit": [
+    "Oversized / Retro"
+  ],
+  "associated_brands": [
+    "Goodwill",
+    "Depop",
+    "Grailed"
+  ],
+  "related_ids": [
+    "vintage"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

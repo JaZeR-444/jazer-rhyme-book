@@ -1,0 +1,17 @@
+{
+  "id": "witch-house-aesthetic",
+  "type": "aesthetics-visuals",
+  "name": "Witch House",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dark, occult-themed aesthetic emerging from the 2010s electronic music scene, characterized by glitchy visuals and esoteric symbols.",
+  "tags": ["occult", "dark", "glitch", "internet-culture"],
+  "angles": ["ritual-trap", "digital-shadows", "triangles"],
+  "bar_seeds": ["inverted cross", "glitchy footage", "vhs occult"],
+  "related_ids": ["lo-fi", "rituals-symbols"],
+  "visual_elements": ["Triangles", "Unicode symbols", "Grainy VHS", "Forests"],
+  "mood": "Spooky, underground, druggy",
+  "associated_eras": ["2010s"],
+  "color_palette": ["Shadow Black", "Faded Grey", "Static Purple", "Deep Red"],
+  "fashion_staples": ["Oversized black hoodies", "Cross jewelry", "Platform boots"]
+}

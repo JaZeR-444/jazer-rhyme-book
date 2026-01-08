@@ -1,0 +1,16 @@
+{
+  "id": "the-space-race",
+  "type": "history",
+  "name": "The Space Race",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A 20th-century competition between the Soviet Union and the United States to achieve superior spaceflight capability.",
+  "tags": ["futuristic", "science", "technical", "global"],
+  "angles": ["competition", "innovation", "new frontier"],
+  "bar_seeds": ["sputnik beep", "apollo mission", "one small step"],
+  "key_dates": ["1955", "1975"],
+  "location": "Global / Space",
+  "impact": "Led to unprecedented technological advances and the first human landing on the moon.",
+  "major_figures": ["John F. Kennedy", "Neil Armstrong", "Yuri Gagarin"],
+  "cultural_shift": "Global fascination with the future and science fiction."
+}

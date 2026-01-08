@@ -1,0 +1,35 @@
+# WORD: Uvate
+
+## Meaning (plain):
+A bold term associated with strength, scale, or force.
+
+## Rap meaning (how I'd say it):
+Used to signal strength, control, or momentum in a bar.
+
+## Syllables:
+2 (approx.)
+
+## Part of speech:
+Verb
+
+## Synonyms:
+might, impact, pressure, drive, edge, authority
+
+## Antonyms:
+decline, weakness, softness, surrender
+
+## Rhyme ideas (end / slant / multi):
+END: state, fate, late / SLANT: gate, create, straight / MULTI: create a state, defy fate, never late
+
+## 3 bar-ready examples:
+1. I move with Uvate, every step a headline.
+2. Uvate on the mic, watch the room align.
+3. Uvate in the flow, make the speakers quake.
+
+## 3 punchline angles:
+1. Scale/impact flex
+2. Momentum/pressure metaphor
+3. Leadership/crown imagery
+
+## Tags:
+power, intensity, dominance, momentum

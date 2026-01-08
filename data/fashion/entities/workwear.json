@@ -1,0 +1,56 @@
+{
+  "id": "workwear",
+  "type": "fashion",
+  "name": "Workwear",
+  "aliases": [
+    "Utility work style"
+  ],
+  "era": "1900s-Present",
+  "tags": [
+    "uniform",
+    "classic",
+    "grit",
+    "legacy"
+  ],
+  "one_liner": "Durable, functional clothing inspired by labor and trades.",
+  "angles": [
+    "hardwearing style",
+    "blue-collar roots",
+    "utility first"
+  ],
+  "bar_seeds": [
+    "denim and canvas",
+    "built for the shift",
+    "tools in the pockets"
+  ],
+  "item_type": "Workwear",
+  "material": [
+    "Denim",
+    "Canvas",
+    "Leather"
+  ],
+  "cultural_significance": "Work uniforms turned into everyday fashion staples.",
+  "fit": [
+    "Relaxed",
+    "Straight"
+  ],
+  "associated_brands": [
+    "Carhartt",
+    "Dickies",
+    "Levi's"
+  ],
+  "related_ids": [
+    "denim-selvedge",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Workwear",
+      "url": "https://en.wikipedia.org/wiki/Workwear",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

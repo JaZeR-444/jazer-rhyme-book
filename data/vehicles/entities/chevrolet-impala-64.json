@@ -1,0 +1,17 @@
+{
+  "id": "chevrolet-impala-64",
+  "type": "vehicles",
+  "name": "Chevrolet Impala '64",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The quintessential lowrider canvas, immortalized by West Coast hip-hop.",
+  "tags": ["classic", "streetwear", "vintage", "iconic"],
+  "angles": ["cruising", "bounce", "style"],
+  "bar_seeds": ["cruisin' down the street", "hit the switches", "candy paint"],
+  "related_ids": ["lowrider"],
+  "vehicle_type": "Lowrider",
+  "engine_type": "V8",
+  "top_speed": "120 mph",
+  "cultural_status": "The official car of West Coast G-Funk.",
+  "design_features": ["Hydraulics", "Wire wheels", "Triple taillights", "Chrome bumpers"]
+}

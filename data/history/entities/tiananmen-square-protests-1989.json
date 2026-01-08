@@ -1,0 +1,48 @@
+{
+  "id": "tiananmen-square-protests-1989",
+  "type": "history",
+  "name": "Tiananmen Square Protests",
+  "aliases": [
+    "1989 Tiananmen protests"
+  ],
+  "era": "1989",
+  "tags": [
+    "political",
+    "rebellion",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "Student-led protests in Beijing calling for reform were met with a crackdown.",
+  "angles": [
+    "protest in the square",
+    "state response",
+    "memory and silence"
+  ],
+  "bar_seeds": [
+    "tanks in the square",
+    "voices for reform",
+    "silence after the storm"
+  ],
+  "key_dates": [
+    "1989-06-04"
+  ],
+  "location": "Beijing, China",
+  "impact": "Shaped China's political trajectory and global human rights discourse.",
+  "major_figures": [
+    "Deng Xiaoping"
+  ],
+  "cultural_shift": "Symbol of protest and the limits of political reform.",
+  "related_ids": [
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "european-migrant-crisis-2015",
+  "type": "history",
+  "name": "European Migrant Crisis",
+  "aliases": [
+    "European refugee crisis"
+  ],
+  "era": "2015-2016",
+  "tags": [
+    "political",
+    "legacy",
+    "mainstream",
+    "peace"
+  ],
+  "one_liner": "A surge of refugees and migrants into Europe following regional conflicts.",
+  "angles": [
+    "border pressure",
+    "humanitarian response",
+    "political backlash"
+  ],
+  "bar_seeds": [
+    "borders under strain",
+    "crowded crossings",
+    "hope on the move"
+  ],
+  "key_dates": [
+    "2015 (peak arrivals)",
+    "2016 (EU-Turkey deal)"
+  ],
+  "location": "Europe",
+  "impact": "Reshaped immigration policy and fueled political shifts.",
+  "major_figures": [
+    "Angela Merkel"
+  ],
+  "cultural_shift": "Debates on identity, borders, and humanitarian responsibility intensified.",
+  "related_ids": [
+    "syrian-civil-war"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/European_migrant_crisis",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

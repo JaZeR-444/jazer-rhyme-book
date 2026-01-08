@@ -1,0 +1,55 @@
+{
+  "id": "mark-zuckerberg",
+  "type": "people",
+  "name": "Mark Zuckerberg",
+  "aliases": [
+    "Zuck"
+  ],
+  "era": "2000s-2020s",
+  "tags": [
+    "mainstream",
+    "innovative",
+    "contemporary",
+    "legacy"
+  ],
+  "one_liner": "Tech executive who built a global social platform and shaped modern social media.",
+  "angles": [
+    "platform architect",
+    "network scale",
+    "data era"
+  ],
+  "bar_seeds": [
+    "blue app empire",
+    "social web threads",
+    "news feed flow"
+  ],
+  "related_ids": [
+    "facebook",
+    "elon-musk"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Technology",
+    "Business leadership"
+  ],
+  "vibe": "Analytical, reserved, and ambitious",
+  "signature_items": [
+    "Hoodie look",
+    "Product focus"
+  ],
+  "quotables_short": [
+    "Move fast"
+  ],
+  "controversy_flags": [
+    "privacy scrutiny"
+  ]
+}

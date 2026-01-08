@@ -1,0 +1,20 @@
+{
+  "id": "cyber-architecture",
+  "type": "architecture-spaces",
+  "name": "Cyber Architecture",
+  "aliases": ["Digital Architecture", "Future Structures"],
+  "era": "2020s-Present",
+  "tags": ["digital", "futuristic", "smart", "tech", "neon"],
+  "one_liner": "Architecture that integrates advanced technology and digital interfaces into living spaces.",
+  "angles": ["digital integration", "smart environments", "tech aesthetic"],
+  "bar_seeds": ["smart homes", "digital interfaces", "tech integration", "future living"],
+  "visual_elements": ["LED surfaces", "smart materials", "digital interfaces", "futuristic forms"],
+  "mood": "High-tech, futuristic, and digital",
+  "associated_eras": ["Modern Day"],
+  "color_palette": ["neon blues", "digital whites", "tech grays", "electric accents"],
+  "fashion_staples": ["smart fabrics", "tech wear", "digital patterns", "futuristic silhouettes"],
+  "related_ids": ["cyberpunk"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bill-gates",
+  "type": "people",
+  "name": "Bill Gates",
+  "aliases": ["Gates", "Microsoft", "Bill"],
+  "era": "1980s-Present",
+  "tags": ["tech", "philanthropy", "innovation", "wealth", "founder"],
+  "one_liner": "The tech pioneer who built an empire and then dedicated his life to global philanthropy.",
+  "angles": ["tech empire", "philanthropy", "pivot from business"],
+  "bar_seeds": ["Windows", "Microsoft", "Gates Foundation", "Net worth"],
+  "known_for": ["Microsoft", "Windows", "Gates Foundation", "Polio eradication"],
+  "vibe": "Intellectual, generous, tech-focused",
+  "signature_items": ["Glasses", "Casual dress", "TED talks"],
+  "quotables_short": ["Your most unhappy customers are your greatest source of learning", "Life is not fair—get used to it"],
+  "controversy_flags": ["Monopoly accusations", "Tax avoidance"],
+  "related_ids": ["steve-jobs", "paul-allen"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

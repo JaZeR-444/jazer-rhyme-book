@@ -1,0 +1,20 @@
+{
+  "id": "louis-vuitton",
+  "type": "brand",
+  "name": "Louis Vuitton",
+  "aliases": ["LV", "Louis"],
+  "era": "1854-Present",
+  "tags": ["luxury", "french", "travel", "monogram"],
+  "one_liner": "The French fashion house that defined luxury travel and the iconic monogram pattern.",
+  "angles": ["classic luxury", "monogram flex", "travel in style"],
+  "bar_seeds": ["lv monogram", "louis luggage", "keepall bag"],
+  "category": "High-end Luxury",
+  "price_tier": "High-end",
+  "signature_products": ["Monogram luggage", "Keepall", "Handbags"],
+  "status_signals": ["LV Monogram", "Damier pattern"],
+  "bar_angles": ["lv on the bag", "louis down to the shoes"],
+  "related_ids": ["kanye-west", "virgil-abloh"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

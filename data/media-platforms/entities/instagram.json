@@ -1,0 +1,20 @@
+{
+  "id": "instagram",
+  "type": "media-platforms",
+  "name": "Instagram",
+  "aliases": ["IG", "The Gram"],
+  "era": "2010s-Present",
+  "tags": ["social-media", "visuals", "influence", "meta"],
+  "one_liner": "A visual-first social networking service focused on photo and video sharing.",
+  "angles": ["the curated life", "aesthetic supremacy", "the dopamine loop of the scroll"],
+  "bar_seeds": ["ig models", "posted on the gram", "clout chasing", "verified checkmark"],
+  "platform_type": "Social Networking / Visual",
+  "user_demographic": "Broad (heavily Gen Z and Millennials)",
+  "content_format": ["Photos", "Reels", "Stories"],
+  "algorithm_bias": "High engagement, visually appealing content",
+  "slang": ["Finsta", "DM", "Shadowban", "Influencer"],
+  "related_ids": ["clout", "meta-platforms"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

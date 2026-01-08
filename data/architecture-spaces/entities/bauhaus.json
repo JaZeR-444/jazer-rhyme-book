@@ -1,0 +1,17 @@
+{
+  "id": "bauhaus",
+  "type": "architecture-spaces",
+  "name": "Bauhaus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A German art school that combined crafts and the fine arts, famous for the approach that form follows function.",
+  "tags": ["minimalist", "innovative", "modern", "technical"],
+  "angles": ["function", "simplicity", "industrial"],
+  "bar_seeds": ["form follows function", "clean lines", "concrete blocks"],
+  "related_ids": [],
+  "style": "Modernist",
+  "materials": ["Concrete", "Steel", "Glass"],
+  "spatial_qualities": ["Functional", "Open", "Minimal"],
+  "function": "Design Philosophy",
+  "famous_examples": ["Bauhaus Dessau"]
+}

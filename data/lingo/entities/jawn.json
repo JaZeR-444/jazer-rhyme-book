@@ -1,0 +1,21 @@
+{
+  "id": "jawn",
+  "type": "lingo",
+  "name": "Jawn",
+  "aliases": ["Thing"],
+  "era": "1980s-Present",
+  "tags": ["philadelphia", "versatile", "noun"],
+  "one_liner": "A universal noun from Philadelphia used to refer to any person, place, or thing.",
+  "angles": ["the ultimate placeholder", "philly identity"],
+  "bar_seeds": ["that jawn", "the new jawn"],
+  "meaning": "A placeholder word for literally anything.",
+  "usage": "Iconic to Philadelphia speakers.",
+  "origin": "Philadelphia",
+  "region": "Mid-Atlantic US",
+  "example_lines": ["Pass me that jawn", "The jawn at the store"],
+  "do_not_use_if": ["Outside of a Philly-influenced context (can sound forced)"],
+  "related_ids": ["the-roots"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

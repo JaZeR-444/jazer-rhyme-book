@@ -1,0 +1,18 @@
+{
+  "id": "reggaeton-music",
+  "type": "music",
+  "name": "Reggaeton",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A global music genre originating in Puerto Rico, defined by its infectious 'Dem Bow' rhythm.",
+  "tags": ["latin", "vibrant", "energetic", "mainstream"],
+  "angles": ["island-rhythm", "global-party", "cultural-pride"],
+  "bar_seeds": ["dem bow beat", "gasolina", "san juan nights"],
+  "related_ids": ["bad-bunny"],
+  "genre": ["Reggae", "Hip Hop", "Latin"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Gasolina", "Diles", "Despacito"],
+  "sonic_descriptors": ["Syncopated drums", "Deep bass", "Melodic hooks", "Spanish vocals"],
+  "influence_tree": ["Dancehall", "Hip Hop", "Reggae en Español"],
+  "aesthetic": "Tropical Urban"
+}

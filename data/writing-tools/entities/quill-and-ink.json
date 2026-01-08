@@ -1,0 +1,16 @@
+{
+  "id": "quill-and-ink",
+  "type": "writing-tool",
+  "name": "Quill and Ink",
+  "aliases": ["The Pen", "The Feather"],
+  "era": "Ancient-19th Century",
+  "tags": ["object", "writing", "classic", "intellectual"],
+  "one_liner": "The classic tools of writing, representing the historical power of the written word.",
+  "angles": ["the power of the pen", "ink bleeding into history", "the original scribe"],
+  "bar_seeds": ["dipped in ink", "quill on parchment", "writing the decree", "ink stained hands"],
+  "category": "Physical Tool",
+  "related_ids": ["physical-notebook"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,642 @@
+{
+  "jazz-rap": [
+    "a-tribe-called-quest",
+    "de-la-soul",
+    "the-roots"
+  ],
+  "queens": [
+    "a-tribe-called-quest",
+    "run-dmc"
+  ],
+  "conscious": [
+    "a-tribe-called-quest",
+    "kendrick-lamar-2",
+    "kendrick-lamar",
+    "the-roots"
+  ],
+  "native-tongues": [
+    "a-tribe-called-quest",
+    "de-la-soul"
+  ],
+  "classic": [
+    "a-tribe-called-quest",
+    "beastie-boys",
+    "boom-bap",
+    "de-la-soul",
+    "g-funk",
+    "mobb-deep",
+    "outkast",
+    "punk-rock",
+    "sade"
+  ],
+  "powerful": [
+    "adele"
+  ],
+  "emotional": [
+    "adele",
+    "bon-iver",
+    "billie-eilish-2"
+  ],
+  "vocalist": [
+    "adele"
+  ],
+  "british": [
+    "adele",
+    "arctic-monkeys"
+  ],
+  "heartbreak": [
+    "adele"
+  ],
+  "vibrant": [
+    "afrobeats-music",
+    "beyonce",
+    "dancehall-music",
+    "hyperpop",
+    "kanye-west",
+    "playboi-carti",
+    "prince",
+    "reggaeton-music",
+    "synthwave-music",
+    "trap-music",
+    "tyler-the-creator"
+  ],
+  "global": [
+    "afrobeats-music",
+    "bad-bunny"
+  ],
+  "energetic": [
+    "afrobeats-music",
+    "dancehall-music",
+    "playboi-carti",
+    "reggaeton-music"
+  ],
+  "rhythmic": [
+    "afrobeats-music"
+  ],
+  "innovative": [
+    "aphex-twin",
+    "beyonce",
+    "bjork",
+    "daft-punk",
+    "david-bowie",
+    "erykah-badu",
+    "gorillaz",
+    "kanye-west",
+    "radiohead",
+    "tyler-the-creator"
+  ],
+  "abstract": [
+    "aphex-twin",
+    "mf-doom",
+    "shoegaze"
+  ],
+  "technical": [
+    "aphex-twin",
+    "bjork",
+    "industrial-music",
+    "radiohead",
+    "shoegaze"
+  ],
+  "electronic": [
+    "aphex-twin",
+    "grime-music",
+    "synthwave-music",
+    "tame-impala"
+  ],
+  "indie": [
+    "arctic-monkeys",
+    "bon-iver",
+    "billie-eilish-2",
+    "the-1975"
+  ],
+  "rock": [
+    "arctic-monkeys"
+  ],
+  "lyrical": [
+    "arctic-monkeys",
+    "boom-bap",
+    "fleet-foxes",
+    "frank-ocean",
+    "kendrick-lamar-2",
+    "kendrick-lamar",
+    "mf-doom",
+    "billie-eilish-2",
+    "the-1975",
+    "wu-tang-clan"
+  ],
+  "evolving": [
+    "arctic-monkeys",
+    "the-1975"
+  ],
+  "reggaeton": [
+    "bad-bunny"
+  ],
+  "latin": [
+    "bad-bunny",
+    "reggaeton-music"
+  ],
+  "experimental": [
+    "bad-bunny"
+  ],
+  "style": [
+    "bad-bunny"
+  ],
+  "new-york": [
+    "beastie-boys"
+  ],
+  "punk-rap": [
+    "beastie-boys"
+  ],
+  "innovators": [
+    "beastie-boys"
+  ],
+  "versatile": [
+    "beastie-boys"
+  ],
+  "queen": [
+    "beyonce"
+  ],
+  "legacy": [
+    "beyonce",
+    "david-bowie",
+    "jay-z",
+    "mac-miller",
+    "nirvana",
+    "prince",
+    "the-notorious-big",
+    "tupac-shakur",
+    "wu-tang-clan"
+  ],
+  "gen-z": [
+    "billie-eilish",
+    "sza"
+  ],
+  "alternative": [
+    "billie-eilish",
+    "de-la-soul",
+    "frank-ocean",
+    "gorillaz",
+    "frank-ocean-2",
+    "the-weeknd"
+  ],
+  "intimate": [
+    "billie-eilish",
+    "frank-ocean",
+    "billie-eilish-2",
+    "sza"
+  ],
+  "dark": [
+    "billie-eilish",
+    "drill-music",
+    "future",
+    "industrial-music",
+    "mobb-deep",
+    "phonk-music",
+    "the-weeknd"
+  ],
+  "minimalist": [
+    "billie-eilish"
+  ],
+  "organic": [
+    "bjork",
+    "erykah-badu",
+    "neo-soul-genre"
+  ],
+  "art": [
+    "bjork",
+    "david-bowie"
+  ],
+  "folk": [
+    "bon-iver",
+    "bonnie-raitt",
+    "fleet-foxes",
+    "billie-eilish-2"
+  ],
+  "ethereal": [
+    "bon-iver"
+  ],
+  "winter": [
+    "bon-iver"
+  ],
+  "blues": [
+    "bonnie-raitt"
+  ],
+  "slide-guitar": [
+    "bonnie-raitt"
+  ],
+  "soul": [
+    "bonnie-raitt",
+    "frank-ocean-2"
+  ],
+  "veteran": [
+    "bonnie-raitt"
+  ],
+  "boom-bap": [
+    "boom-bap"
+  ],
+  "grit": [
+    "boom-bap",
+    "drill-music",
+    "grime-music",
+    "wu-tang-clan"
+  ],
+  "asian": [
+    "city-pop"
+  ],
+  "luxury": [
+    "city-pop",
+    "jay-z",
+    "kanye-west",
+    "sade",
+    "the-notorious-big"
+  ],
+  "smooth": [
+    "city-pop",
+    "sade"
+  ],
+  "retro": [
+    "city-pop",
+    "synthwave-music",
+    "tame-impala"
+  ],
+  "cloud-rap": [
+    "cloud-rap"
+  ],
+  "mellow": [
+    "cloud-rap",
+    "g-funk",
+    "lo-fi-hip-hop-genre",
+    "mac-miller",
+    "neo-soul-genre",
+    "shoegaze",
+    "trip-hop-genre"
+  ],
+  "atmospheric": [
+    "cloud-rap",
+    "massive-attack",
+    "shoegaze",
+    "the-weeknd",
+    "travis-scott",
+    "trip-hop-genre"
+  ],
+  "surreal": [
+    "cloud-rap"
+  ],
+  "futuristic": [
+    "daft-punk"
+  ],
+  "synthetic": [
+    "daft-punk"
+  ],
+  "caribbean": [
+    "dancehall-music"
+  ],
+  "rebellion": [
+    "dancehall-music",
+    "grunge-music",
+    "punk-rock"
+  ],
+  "theatrical": [
+    "david-bowie",
+    "lady-gaga"
+  ],
+  "sampling": [
+    "de-la-soul"
+  ],
+  "canadian": [
+    "drake"
+  ],
+  "melodic": [
+    "drake",
+    "post-malone"
+  ],
+  "chart-topping": [
+    "drake"
+  ],
+  "melodic-rap": [
+    "drake"
+  ],
+  "mainstream": [
+    "drake",
+    "reggaeton-music"
+  ],
+  "drill": [
+    "drill-music"
+  ],
+  "aggressive": [
+    "drill-music",
+    "grime-music",
+    "industrial-music",
+    "punk-rock"
+  ],
+  "soulful": [
+    "erykah-badu",
+    "mac-miller",
+    "neo-soul-genre",
+    "sza"
+  ],
+  "spiritual": [
+    "erykah-badu",
+    "neo-soul-genre"
+  ],
+  "harmonious": [
+    "fleet-foxes"
+  ],
+  "nature": [
+    "fleet-foxes"
+  ],
+  "beach": [
+    "fleet-foxes"
+  ],
+  "r&b": [
+    "frank-ocean",
+    "rihanna",
+    "sza",
+    "the-weeknd"
+  ],
+  "mysterious": [
+    "frank-ocean"
+  ],
+  "trap": [
+    "future",
+    "migos",
+    "trap-music",
+    "travis-scott"
+  ],
+  "hustle": [
+    "future",
+    "jay-z",
+    "trap-music"
+  ],
+  "influential": [
+    "future"
+  ],
+  "funk": [
+    "g-funk",
+    "outkast"
+  ],
+  "gangster": [
+    "g-funk",
+    "tupac-shakur"
+  ],
+  "digital": [
+    "gorillaz",
+    "hyperpop"
+  ],
+  "eclectic": [
+    "gorillaz",
+    "outkast"
+  ],
+  "uk": [
+    "grime-music"
+  ],
+  "grunge": [
+    "grunge-music",
+    "nirvana"
+  ],
+  "raw": [
+    "grunge-music",
+    "nirvana",
+    "punk-rock"
+  ],
+  "angst": [
+    "grunge-music",
+    "nirvana"
+  ],
+  "hyperpop": [
+    "hyperpop"
+  ],
+  "contemporary": [
+    "hyperpop",
+    "playboi-carti",
+    "trap-music"
+  ],
+  "industrial": [
+    "industrial-music"
+  ],
+  "storyteller": [
+    "kendrick-lamar-2",
+    "kendrick-lamar"
+  ],
+  "north-carolina": [
+    "kendrick-lamar-2"
+  ],
+  "underground": [
+    "kendrick-lamar-2",
+    "mf-doom"
+  ],
+  "braggadocio": [
+    "jay-z"
+  ],
+  "controversial": [
+    "kanye-west",
+    "nwa",
+    "travis-scott"
+  ],
+  "compton": [
+    "kendrick-lamar",
+    "nwa"
+  ],
+  "poet": [
+    "kendrick-lamar"
+  ],
+  "pop": [
+    "lady-gaga",
+    "rihanna",
+    "the-1975"
+  ],
+  "performance": [
+    "lady-gaga"
+  ],
+  "artistic": [
+    "lady-gaga"
+  ],
+  "fashion": [
+    "lady-gaga",
+    "rihanna",
+    "run-dmc"
+  ],
+  "dream-pop": [
+    "lana-del-rey"
+  ],
+  "hollywood": [
+    "lana-del-rey"
+  ],
+  "melancholic": [
+    "lana-del-rey"
+  ],
+  "cinematic": [
+    "lana-del-rey"
+  ],
+  "nostalgic": [
+    "lana-del-rey"
+  ],
+  "lo-fi": [
+    "lo-fi-hip-hop-genre",
+    "phonk-music"
+  ],
+  "ambient": [
+    "lo-fi-hip-hop-genre"
+  ],
+  "internet-culture": [
+    "lo-fi-hip-hop-genre",
+    "phonk-music"
+  ],
+  "introspective": [
+    "mac-miller"
+  ],
+  "noir": [
+    "massive-attack",
+    "trip-hop-genre"
+  ],
+  "90s": [
+    "massive-attack",
+    "trip-hop-genre"
+  ],
+  "cool": [
+    "massive-attack"
+  ],
+  "cult-classic": [
+    "mf-doom",
+    "playboi-carti"
+  ],
+  "atlanta": [
+    "migos",
+    "outkast"
+  ],
+  "triplet-flow": [
+    "migos"
+  ],
+  "ad-libs": [
+    "migos"
+  ],
+  "modern": [
+    "migos"
+  ],
+  "queensbridge": [
+    "mobb-deep"
+  ],
+  "hardcore-rap": [
+    "mobb-deep"
+  ],
+  "gritty": [
+    "mobb-deep"
+  ],
+  "gangsta-rap": [
+    "nwa"
+  ],
+  "protest": [
+    "nwa",
+    "public-enemy"
+  ],
+  "legend": [
+    "nwa",
+    "public-enemy",
+    "run-dmc",
+    "the-roots"
+  ],
+  "southern-rap": [
+    "outkast"
+  ],
+  "phonk": [
+    "phonk-music"
+  ],
+  "genre-blending": [
+    "post-malone",
+    "the-1975"
+  ],
+  "commercial": [
+    "post-malone"
+  ],
+  "accessible": [
+    "post-malone"
+  ],
+  "tattoos": [
+    "post-malone"
+  ],
+  "iconic": [
+    "prince"
+  ],
+  "virtuoso": [
+    "prince"
+  ],
+  "political": [
+    "public-enemy"
+  ],
+  "long-island": [
+    "public-enemy"
+  ],
+  "revolutionary": [
+    "public-enemy",
+    "tupac-shakur"
+  ],
+  "melancholy": [
+    "radiohead"
+  ],
+  "esoteric": [
+    "radiohead"
+  ],
+  "barbadian": [
+    "rihanna"
+  ],
+  "entrepreneur": [
+    "rihanna"
+  ],
+  "pioneers": [
+    "run-dmc"
+  ],
+  "rock-rap": [
+    "run-dmc"
+  ],
+  "romantic": [
+    "sade"
+  ],
+  "synthwave": [
+    "synthwave-music"
+  ],
+  "rnb": [
+    "frank-ocean-2"
+  ],
+  "vulnerable": [
+    "frank-ocean-2",
+    "sza",
+    "the-weeknd"
+  ],
+  "poetic": [
+    "frank-ocean-2",
+    "tupac-shakur"
+  ],
+  "psychedelic": [
+    "tame-impala"
+  ],
+  "dreamy": [
+    "tame-impala"
+  ],
+  "synth": [
+    "tame-impala"
+  ],
+  "flow": [
+    "the-notorious-big"
+  ],
+  "storytelling": [
+    "the-notorious-big"
+  ],
+  "philadelphia": [
+    "the-roots"
+  ],
+  "live-band": [
+    "the-roots"
+  ],
+  "astroworld": [
+    "travis-scott"
+  ],
+  "production": [
+    "travis-scott"
+  ],
+  "aesthetic": [
+    "tyler-the-creator"
+  ],
+  "quirky": [
+    "tyler-the-creator"
+  ]
+}

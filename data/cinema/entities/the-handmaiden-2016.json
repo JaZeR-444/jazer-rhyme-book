@@ -1,0 +1,18 @@
+{
+  "id": "the-handmaiden-2016",
+  "type": "cinema",
+  "name": "The Handmaiden",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
+  "tags": ["thriller", "art", "international", "noir"],
+  "angles": ["deception-layers", "lush-eroticism", "the-hidden-twist"],
+  "bar_seeds": ["layers of the lie", "palace of secrets", "ink and skin"],
+  "related_ids": ["parasite-2019"],
+  "era": "2016",
+  "plot_hooks": ["The scam", "The blossoming romance", "The switch"],
+  "iconic_scenes": ["The bathtub scene", "The library reading", "The forest escape"],
+  "visual_motifs": ["Gothic manor", "Octopus art", "Silks"],
+  "themes": ["Liberation", "Deception", "Class struggle"],
+  "quotables_short": ["My life's savior... my handmaiden."]
+}

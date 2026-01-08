@@ -1,0 +1,18 @@
+{
+  "id": "platform-shoes",
+  "type": "fashion",
+  "name": "Platform Shoes",
+  "aliases": ["Platforms", "Elevated Shoes"],
+  "era": "1970s-Present",
+  "tags": ["maximalist", "club", "vibrant", "70s"],
+  "one_liner": "Shoes with thick soles that add height and drama to any silhouette.",
+  "angles": ["elevated presence", "disco heights", "chunky drama"],
+  "bar_seeds": ["three inch sole", "platform heel", "towering height"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Rubber", "Wood"],
+  "cultural_significance": "Defined 70s disco and 90s rave culture (Spice Girls).",
+  "fit": ["Elevated", "Chunky"],
+  "associated_brands": ["Buffalo London", "Vivienne Westwood", "Rick Owens"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

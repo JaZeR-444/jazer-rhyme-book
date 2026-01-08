@@ -1,0 +1,17 @@
+{
+  "id": "mac-10",
+  "type": "weapons-objects",
+  "name": "MAC-10",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A boxy, high-rate-of-fire machine pistol synonymous with rapid delivery.",
+  "tags": ["grit", "90s", "underground", "industrial"],
+  "angles": ["boxiness", "speed", "uncontrollable"],
+  "bar_seeds": ["paper shredder", "back of the coat", "ringing in the ears"],
+  "related_ids": ["uzi"],
+  "weapon_type": "Machine Pistol",
+  "range": "Close-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Chaos, overwhelming force, and DIY grit.",
+  "famous_users": ["Biggie Smalls", "various action movie villains"]
+}

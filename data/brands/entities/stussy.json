@@ -1,0 +1,17 @@
+{
+  "id": "stussy",
+  "type": "brand",
+  "name": "Stüssy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The original streetwear brand, born from surf culture and defined by its iconic scrawled logo.",
+  "tags": ["streetwear", "classic", "vibrant", "youth"],
+  "angles": ["surf-to-street", "the-tribe", "graphic-pioneer"],
+  "bar_seeds": ["scrawled logo", "eight ball fleece", "world tour tee"],
+  "related_ids": ["supreme", "streetwear"],
+  "category": "Streetwear",
+  "price_tier": "Mid-High",
+  "signature_products": ["8 Ball Fleece", "World Tour T-shirt", "Stock Logo hoodie"],
+  "status_signals": ["Shawn Stüssy signature logo", "8 Ball motif"],
+  "bar_angles": ["Streetwear royalty", "International tribe", "West coast cool"]
+}

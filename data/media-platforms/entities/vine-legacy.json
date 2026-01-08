@@ -1,0 +1,17 @@
+{
+  "id": "vine-legacy",
+  "type": "media-platforms",
+  "name": "Vine (Legacy)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A short-form video hosting service where users shared six-second-long looping video clips.",
+  "tags": ["vintage", "viral", "culture", "fleeting"],
+  "angles": ["brevity", "comedy", "loop"],
+  "bar_seeds": ["do it for the vine", "six seconds", "looping forever"],
+  "related_ids": ["tiktok"],
+  "platform_type": "Video Hosting",
+  "user_demographic": "Gen Z, Millennials (formerly)",
+  "content_format": ["6-second Videos"],
+  "algorithm_bias": "Favored comedy and quick visual gags.",
+  "slang": ["Do it for the Vine", "Viner", "Loop"]
+}

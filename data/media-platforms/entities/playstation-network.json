@@ -1,0 +1,17 @@
+{
+  "id": "playstation-network",
+  "type": "media-platforms",
+  "name": "PlayStation Network (PSN)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The digital hub for PlayStation consoles, combining gaming, media, and social interaction.",
+  "tags": ["gaming", "mainstream", "community", "technical"],
+  "angles": ["blue-empire", "trophy-hunting", "console-exclusive"],
+  "bar_seeds": ["trophy pop sound", "psn party", "dualshock blue"],
+  "related_ids": ["sony", "steam"],
+  "platform_type": "Gaming Network",
+  "user_demographic": "Console Gamers, Media Consumers",
+  "content_format": ["Games", "Video", "Social Chat"],
+  "algorithm_bias": "Favors first-party Sony titles and popular live-service games.",
+  "slang": ["Platinum", "PS Plus", "Noob"]
+}

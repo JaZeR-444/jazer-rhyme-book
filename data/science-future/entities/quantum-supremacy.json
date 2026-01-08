@@ -1,0 +1,17 @@
+{
+  "id": "quantum-supremacy",
+  "type": "science-future",
+  "name": "Quantum Supremacy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The point where a quantum computer can solve a problem that no classical computer can solve in a reasonable amount of time.",
+  "tags": ["technical", "quantum", "innovative", "power"],
+  "angles": ["surpassing-silicon", "unbreakable-speed", "the-computational-peak"],
+  "bar_seeds": ["qubits in sync", "breaking the encryption", "instant calculation"],
+  "related_ids": ["quantum-computing", "encryption"],
+  "field": "Quantum Computing",
+  "hypothesis": "Quantum gates can perform parallel calculations impossible for classical binary bits.",
+  "implications": ["End of current encryption", "Revolution in drug discovery", "Optimization of global logistics"],
+  "technologies": ["Superconducting Qubits", "Trapped Ions"],
+  "ethical_concerns": ["Security of global financial systems", "Weaponization of processing power"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mobb-deep",
+  "type": "music",
+  "name": "Mobb Deep",
+  "aliases": ["The Infamous"],
+  "era": "1990s-2010s",
+  "tags": ["queensbridge", "hardcore-rap", "gritty", "classic", "dark"],
+  "one_liner": "The definitive voice of hardcore New York street rap, known for their cold, dark soundscapes.",
+  "angles": ["the infamous life", "project nightmares", "survival of the fittest"],
+  "bar_seeds": ["shook ones pt ii", "quiet storm", "dun language", "timbs and camo"],
+  "genre": ["Hardcore Hip Hop"],
+  "era_detail": "Active 1991–2017.",
+  "signature_songs": ["Shook Ones Pt. II", "Survival of the Fittest"],
+  "sonic_descriptors": ["dark", "haunting", "gritty"],
+  "influence_tree": ["Nas"],
+  "aesthetic": "Camo jackets and Timberlands",
+  "related_ids": ["nas", "notorious-big"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

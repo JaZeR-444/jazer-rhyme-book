@@ -1,0 +1,17 @@
+{
+  "id": "medjed",
+  "type": "mythology-legend",
+  "name": "Medjed",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A minor and mysterious Egyptian deity mentioned in the Book of the Dead, known for its sheet-like appearance.",
+  "tags": ["esoteric", "internet-culture", "ancient", "mystery"],
+  "angles": ["the-smiter", "ghostly-appearance", "modern-viral-legend"],
+  "bar_seeds": ["eyes under the sheet", "shooting beams", "the hidden god"],
+  "related_ids": ["ancient-egypt"],
+  "origin_culture": "Egyptian",
+  "deity_type": "God / Spirit",
+  "powers": ["Shooting beams from eyes", "Invisible", "Invisibility"],
+  "symbols": ["Sheet-like body", "Eyes"],
+  "modern_parallels": ["Meme culture", "Among Us (visual similarity)", "Ghost tropes"]
+}

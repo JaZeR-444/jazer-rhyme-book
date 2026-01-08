@@ -1,0 +1,18 @@
+{
+  "id": "windbreaker",
+  "type": "fashion",
+  "name": "Windbreaker",
+  "aliases": ["Windcheater"],
+  "era": "1970s-Present",
+  "tags": ["sportswear", "90s", "vibrant", "athleisure"],
+  "one_liner": "A thin fabric coat designed to resist wind chill and light rain, often in bright, multi-colored designs.",
+  "angles": ["90s-neon-vibe", "lightweight-layering", "trackside-style"],
+  "bar_seeds": ["nylon swish", "color blocking", "lightweight shield"],
+  "item_type": "Outerwear",
+  "material": ["Nylon", "Polyester"],
+  "cultural_significance": "A staple of 80s and 90s sportswear and hip-hop dance culture.",
+  "fit": ["Relaxed", "Boxy"],
+  "associated_brands": ["Nike", "Adidas", "Patagonia"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

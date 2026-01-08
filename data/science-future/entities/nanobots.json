@@ -1,0 +1,17 @@
+{
+  "id": "nanobots",
+  "type": "science-future",
+  "name": "Nanobots",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Robots whose components are at or near the scale of a nanometer.",
+  "tags": ["technical", "nanotechnology", "innovative", "futuristic"],
+  "angles": ["internal-surgeons", "atomic-assembly", "invisible-workers"],
+  "bar_seeds": ["swimming in the blood", "fixing the cells", "microscopic army"],
+  "related_ids": ["nanotechnology", "biotechnology"],
+  "field": "Nanotechnology / Robotics",
+  "hypothesis": "Machines can be built to manipulate matter at the molecular level.",
+  "implications": ["Cure for all physical diseases", "On-demand material creation", "Advanced surveillance"],
+  "technologies": ["Molecular Assemblers", "Nano-motors"],
+  "ethical_concerns": ["gray-goo-risk", "Biological hacking", "Inequality of access"]
+}

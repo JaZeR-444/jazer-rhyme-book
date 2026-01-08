@@ -1,0 +1,17 @@
+{
+  "id": "high-noon",
+  "type": "time-energy",
+  "name": "High Noon",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Midday, when the sun is at its highest point in the sky; a time for confrontation.",
+  "tags": ["grit", "classic", "western", "clutch"],
+  "angles": ["confrontation", "peak", "heat"],
+  "bar_seeds": ["sun directly overhead", "no shadows to hide in", "showdown time"],
+  "related_ids": ["the-present"],
+  "concept_type": "Temporal/Cultural",
+  "perception": "Blinding, intense, and demanding action.",
+  "physics_basis": "Solar zenith.",
+  "cultural_view": "The classic time for a duel; the moment of truth.",
+  "idioms": ["Moment of truth", "Nowhere to hide", "Twelve o'clock sharp"]
+}

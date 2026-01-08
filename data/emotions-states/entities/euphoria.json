@@ -1,0 +1,20 @@
+{
+  "id": "euphoria",
+  "type": "emotions-states",
+  "name": "Euphoria",
+  "aliases": ["The High", "Bliss", "Elation"],
+  "era": "Universal",
+  "tags": ["positive", "high-energy", "peak", "temporary"],
+  "one_liner": "A state of intense excitement and happiness.",
+  "angles": ["the peak of the high", "fleeting bliss", "artificial vs natural elation"],
+  "bar_seeds": ["cloud nine", "golden glow", "heart racing high", "sky walking"],
+  "intensity": "Extreme",
+  "physical_symptoms": ["Increased heart rate", "Dilation of pupils", "Lightheadedness", "Tingling sensations"],
+  "triggers": ["Success", "Substances", "New love", "Achievement"],
+  "action_urge": "To celebrate, to move, to shout",
+  "opposites": ["Melancholy", "Depression"],
+  "related_ids": ["hedonism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "masterpiece-generator",
+  "type": "writing-tool",
+  "name": "Masterpiece Generator",
+  "aliases": ["Song Generator"],
+  "era": "2010s-Present",
+  "tags": ["generator", "fun", "quick-fix", "digital"],
+  "one_liner": "A fun, automated tool for generating song lyrics based on a set of keywords or themes.",
+  "angles": ["template creativity", "quick and dirty lyrics", "the lottery of generation"],
+  "bar_seeds": ["generated hook", "plug and play rhymes", "random masterpiece"],
+  "category": "Lyric Generator",
+  "what_it_does": "Produces lyrics using templates and user-provided keywords.",
+  "best_for": ["Overcoming writer's block (parody/fun)", "Quick structures"],
+  "workflow_hooks": ["Filling in keywords for instant results"],
+  "pitfalls": ["Highly repetitive", "Non-sensical at times", "No real depth"],
+  "bar_angles": ["generator spit it out", "masterpiece in a minute"],
+  "related_ids": ["chatgpt"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

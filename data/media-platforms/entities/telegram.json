@@ -1,0 +1,17 @@
+{
+  "id": "telegram",
+  "type": "media-platforms",
+  "name": "Telegram",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cloud-based instant messaging service focused on speed and security.",
+  "tags": ["privacy", "underground", "technical", "global"],
+  "angles": ["encryption", "freedom", "channels"],
+  "bar_seeds": ["encrypted chat", "channel broadcast", "bot api"],
+  "related_ids": [],
+  "platform_type": "Messaging",
+  "user_demographic": "Privacy Advocates, Crypto Communities, Tech Savvy",
+  "content_format": ["Messages", "Files", "Channels"],
+  "algorithm_bias": "Chronological, no algorithmic feed.",
+  "slang": ["Channel", "Bot", "Secret Chat"]
+}

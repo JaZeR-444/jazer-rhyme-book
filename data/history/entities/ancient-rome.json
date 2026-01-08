@@ -1,0 +1,16 @@
+{
+  "id": "ancient-rome",
+  "type": "history",
+  "name": "Ancient Rome",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An empire that defined the Western world with its laws, engineering, and military dominance.",
+  "tags": ["empire", "classic", "war", "legacy"],
+  "angles": ["conquest", "infrastructure", "fall from within"],
+  "bar_seeds": ["roman senate", "colosseum crowd", "all roads lead to me"],
+  "key_dates": ["753 BC (Founding)", "476 AD (Fall of West)"],
+  "location": "Mediterranean / Europe",
+  "impact": "Foundational influence on modern law, government, and architecture.",
+  "major_figures": ["Julius Caesar", "Augustus", "Marcus Aurelius"],
+  "cultural_shift": "The move from a Republic to a sprawling, centralized Empire."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chimera-mythology",
+  "type": "mythology-legend",
+  "name": "Chimera",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A monstrous fire-breathing creature of Lycia in Asia Minor, composed of the parts of more than one animal.",
+  "tags": ["monster", "hybrid", "classic", "dark"],
+  "angles": ["hybrid-nature", "fire-breathing", "unstoppable-beast"],
+  "bar_seeds": ["lion goat and snake", "breathing fire", "mismatched power"],
+  "related_ids": [],
+  "origin_culture": "Greek",
+  "deity_type": "Monster",
+  "powers": ["Fire breath", "Multiple heads", "Extreme aggression"],
+  "symbols": ["Lion Head", "Goat Head", "Snake Tail"],
+  "modern_parallels": ["Genetic hybrids", "Inconsistent projects", "Complex problems"]
+}

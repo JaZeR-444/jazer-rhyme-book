@@ -1,0 +1,20 @@
+{
+  "id": "barack-obama",
+  "type": "people",
+  "name": "Barack Obama",
+  "aliases": ["Obama", "44th President", "Barry"],
+  "era": "2000s-Present",
+  "tags": ["politics", "oratory", "first", "hope", "eloquent"],
+  "one_liner": "The first African American president who inspired a generation with his message of hope and change.",
+  "angles": ["first Black president", "oratory skills", "post-partisan hope"],
+  "bar_seeds": ["Yes we can", "Hope", "Change", "Post-racial America"],
+  "known_for": ["First Black president", "Healthcare reform", "Nobel Peace Prize"],
+  "vibe": "Calm, collected, inspiring",
+  "signature_items": ["Blue suit", "Hope poster", "Confident smile"],
+  "quotables_short": ["Yes we can", "Don't boo, vote", "The arc of the moral universe is long"],
+  "controversy_flags": ["Birth certificate", "Partisan politics"],
+  "related_ids": ["hillary-clinton", "michelle-obama"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

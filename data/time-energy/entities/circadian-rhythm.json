@@ -1,0 +1,17 @@
+{
+  "id": "circadian-rhythm",
+  "type": "time-energy",
+  "name": "Circadian Rhythm",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The natural, internal process that regulates the sleep-wake cycle and repeats roughly every 24 hours.",
+  "tags": ["technical", "organic", "cyclical", "stoicism"],
+  "angles": ["internal-clock", "cycle", "alignment"],
+  "bar_seeds": ["body's own beat", "internal sunset", "aligned with the earth"],
+  "related_ids": ["the-present", "jet-lag"],
+  "concept_type": "Biological/Temporal",
+  "perception": "Reliable, grounding, and physical.",
+  "physics_basis": "Biological clock (Suprachiasmatic nucleus).",
+  "cultural_view": "The foundation of health and the baseline for human daily life.",
+  "idioms": ["The body clock", "Rise and shine", "Day in, day out"]
+}

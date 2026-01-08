@@ -1,0 +1,18 @@
+{
+  "id": "steal-his-look",
+  "type": "internet-culture",
+  "name": "Steal His Look",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A meme format that breaks down a character's outfit into absurdly expensive or impossible components.",
+  "tags": ["fashion", "maximalist", "satirical", "streetwear"],
+  "angles": ["price-tag", "absurdity", "breakdown"],
+  "bar_seeds": ["gucci belt", "walmart socks", "priceless soul"],
+  "related_ids": ["streetwear"],
+  "format": "Image Breakdown",
+  "origin_platform": "Tumblr / Twitter",
+  "meaning": "Poking fun at high-fashion 'lookbooks' by applying the same logic to weird or fictional characters.",
+  "remix_rules": ["List items and prices", "Arrow pointers", "Mix of real brands and fake concepts"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Steal the look, five bands for the dirty sneakers", "Price tag on the vibe, you can't afford the aura"]
+}

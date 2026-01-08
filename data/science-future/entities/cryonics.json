@@ -1,0 +1,17 @@
+{
+  "id": "cryonics",
+  "type": "science-future",
+  "name": "Cryonics",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The low-temperature freezing and storage of a human corpse or severed head, with the speculative hope that resurrection may be possible in the future.",
+  "tags": ["futuristic", "technical", "life-extension", "dark"],
+  "angles": ["cheating death", "frozen in time", "waiting for the future"],
+  "bar_seeds": ["ice in the veins", "waking up in 3000", "capsule sleep"],
+  "related_ids": ["life-extension"],
+  "field": "Life Extension / Medicine",
+  "hypothesis": "Biological information can be preserved at ultra-low temperatures until medical tech catches up.",
+  "implications": ["Functional immortality", "Time travel (one way)", "Legal personhood of the frozen"],
+  "technologies": ["Vitrification", "Cryogenic Tanks"],
+  "ethical_concerns": ["Overpopulation", "Resource allocation", "Psychological trauma of resurrection"]
+}

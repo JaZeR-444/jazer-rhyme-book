@@ -1,0 +1,17 @@
+{
+  "id": "quantum-entanglement",
+  "type": "science-future",
+  "name": "Quantum Entanglement",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity such that the quantum state of each particle cannot be described independently of the state of the others.",
+  "tags": ["quantum", "technical", "esoteric", "logic"],
+  "angles": ["spooky action at a distance", "instant connection", "beyond space and time"],
+  "bar_seeds": ["linked at the atom", "what happens to me happens to you", "instant sync"],
+  "related_ids": ["resonance", "vibration"],
+  "field": "Quantum Physics",
+  "hypothesis": "Particles remain connected such that the state of one instantaneously affects the other, regardless of distance.",
+  "implications": ["Faster-than-light information transfer (theoretical)", "Quantum computing", "New understanding of reality"],
+  "technologies": ["Quantum Computers", "Quantum Encryption"],
+  "ethical_concerns": ["Privacy in a quantum-encrypted world", "Unpredictable physical consequences"]
+}

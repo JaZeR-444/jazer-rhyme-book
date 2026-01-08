@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art",
+  "type": "aesthetics-visuals",
+  "name": "Pixel Art",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A form of digital art, created through the use of software, where images are edited on the pixel level.",
+  "tags": ["digital", "retro", "gaming", "lo-fi"],
+  "angles": ["8-bit", "nostalgia", "digital-craft"],
+  "bar_seeds": ["low resolution", "blocky world", "sprite animation"],
+  "related_ids": ["arcade"],
+  "visual_elements": ["Visible pixels", "Limited color palette", "Grid structure", "Dithering"],
+  "mood": "Nostalgic, playful, precise",
+  "associated_eras": ["1980s", "1990s"],
+  "color_palette": ["Cyan", "Magenta", "Neon Green", "Black"],
+  "fashion_staples": ["Graphic tees", "Cyber fashion", "Blocky accessories"]
+}

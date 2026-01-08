@@ -1,0 +1,20 @@
+{
+  "id": "boyz-n-the-hood-1991",
+  "type": "cinema",
+  "name": "Boyz n the Hood",
+  "aliases": ["Tre Styles", "Ricky Baker"],
+  "era": "1991",
+  "tags": ["urban", "drama", "coming-of-age", "south-central", "classic"],
+  "one_liner": "A powerful look at three young men growing up in South Central Los Angeles.",
+  "angles": ["fatherhood in the hood", "escaping the cycle", "the tragedy of wasted potential"],
+  "bar_seeds": ["ricky running", "doughboy's porch", "furious styles knowledge"],
+  "plot_hooks": ["growing up in a war zone", "the dream of a college scholarship", "the weight of revenge"],
+  "iconic_scenes": ["Ricky's death in the alley", "Furious Styles' gentrification speech", "The final porch talk"],
+  "visual_motifs": ["Police helicopters", "Lowriders", "The red scratch-off ticket"],
+  "themes": ["Fatherhood", "Responsibility", "Environment"],
+  "quotables_short": ["Either they don't know, don't show, or don't care", "Any problem you have, you can come to me"],
+  "related_ids": ["nwa"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "larry-bird",
+  "type": "sports",
+  "name": "Larry Bird",
+  "aliases": ["Larry Legend", "The Hick from French Lick"],
+  "era": "1980s",
+  "tags": ["basketball", "clutch", "grit", "technical"],
+  "one_liner": "A legendary shooter and fierce competitor who led the Celtics to three titles and had a historic rivalry with Magic Johnson.",
+  "angles": ["cold blooded", "trash talk", "pure shooter"],
+  "bar_seeds": ["green and white", "three point contest", "larry legend"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Shooting", "Passing", "Mental toughness"],
+  "equipment": ["Basketball", "Converse Weapon"],
+  "metaphors": ["Larry Legend"],
+  "legends": ["3x NBA Champion", "3x consecutive MVP"],
+  "related_ids": ["magic-johnson", "michael-jordan"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

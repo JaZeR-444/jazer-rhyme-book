@@ -1,0 +1,56 @@
+{
+  "id": "product-market-fit",
+  "type": "business-economics",
+  "name": "Product-Market Fit",
+  "aliases": [
+    "PMF"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "startup",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Stage where a product meets strong market demand and sustainable growth.",
+  "angles": [
+    "demand lock-in",
+    "market pull",
+    "fit before scale"
+  ],
+  "bar_seeds": [
+    "fit locked in",
+    "pull from the market",
+    "fans on repeat"
+  ],
+  "industry": "Startups/Technology",
+  "core_principle": "Strong demand drives organic growth and retention.",
+  "jargon": [
+    "retention curve",
+    "cohort",
+    "activation"
+  ],
+  "key_metrics": [
+    "retention",
+    "NPS",
+    "organic growth"
+  ],
+  "archetypes": [
+    "founder",
+    "early user",
+    "product team"
+  ],
+  "related_ids": [
+    "startup",
+    "venture-capital"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Product/market_fit",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

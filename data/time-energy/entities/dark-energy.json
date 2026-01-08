@@ -1,0 +1,17 @@
+{
+  "id": "dark-energy",
+  "type": "time-energy",
+  "name": "Dark Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mysterious force that is believed to make up 68% of the universe and is responsible for its accelerating expansion.",
+  "tags": ["esoteric", "cosmic", "technical", "dark"],
+  "angles": ["unseen expansion", "the void pushing back", "cosmic acceleration"],
+  "bar_seeds": ["phantom force", "pushing the stars apart", "invisible expansion"],
+  "related_ids": ["dark-matter", "infinity"],
+  "concept_type": "Cosmology / Physics",
+  "perception": "Vast, mysterious, and inevitable.",
+  "physics_basis": "Cosmological constant / Vacuum energy.",
+  "cultural_view": "The ultimate unknown factor driving the universe.",
+  "idioms": ["Pushed by the void", "The unseen driver", "Expanding silence"]
+}

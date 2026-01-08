@@ -1,0 +1,18 @@
+{
+  "id": "cargo-pants",
+  "type": "fashion",
+  "name": "Cargo Pants",
+  "aliases": ["Combat Trousers"],
+  "era": "1940s-Present",
+  "tags": ["utility", "streetwear", "gorpcore", "industrial"],
+  "one_liner": "Rugged trousers characterized by large pockets, blending military utility with street style.",
+  "angles": ["pockets for everything", "tactical urbanism", "rugged volume"],
+  "bar_seeds": ["six pockets", "ripstop fabric", "earth tones"],
+  "item_type": "Bottoms",
+  "material": ["Cotton Twill", "Ripstop", "Nylon"],
+  "cultural_significance": "Military origins transitioned into 90s skater culture and modern techwear.",
+  "fit": ["Oversized", "Baggy", "Tapered"],
+  "associated_brands": ["Carhartt WIP", "Stone Island", "Rick Owens"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "goodfellas-1990",
+  "type": "cinema",
+  "name": "Goodfellas",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his partners in crime.",
+  "tags": ["classic", "grit", "crime", "legacy"],
+  "angles": ["loyalty", "betrayal", "rise-and-fall"],
+  "bar_seeds": ["funny how", "copacabana shot", "lufthansa heist"],
+  "related_ids": ["the-godfather-1972"],
+  "era": "1990",
+  "plot_hooks": ["Joining the mob", "The heist", "Becoming a rat"],
+  "iconic_scenes": ["Funny like a clown?", "The long tracking shot", "Layla montage"],
+  "visual_motifs": ["Red lighting", "Suits", "Food"],
+  "themes": ["Organized crime", "Friendship", "Downfall"],
+  "quotables_short": ["As far back as I can remember...", "Funny how?"]
+}

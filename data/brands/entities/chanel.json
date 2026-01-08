@@ -1,0 +1,17 @@
+{
+  "id": "chanel",
+  "type": "brand",
+  "name": "Chanel",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A French luxury fashion house that focuses on women's ready-to-wear clothes, luxury goods, and accessories.",
+  "tags": ["luxury", "classic", "vintage", "legacy"],
+  "angles": ["timeless", "pearls", "coco"],
+  "bar_seeds": ["double c on the bag", "number 5 perfume", "tweed jacket"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["No. 5 Perfume", "2.55 Bag", "Tweed Suit"],
+  "status_signals": ["Interlocking C logo", "Quilted leather"],
+  "bar_angles": ["Classic never fades", "Coco's legacy", "The ultimate gift"]
+}

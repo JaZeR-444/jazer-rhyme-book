@@ -1,0 +1,17 @@
+{
+  "id": "cyber-y2k",
+  "type": "aesthetics-visuals",
+  "name": "Cyber-Y2K",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A futuristic take on 2000s fashion, blending early internet aesthetics with modern techwear elements.",
+  "tags": ["futuristic", "00s", "technical", "streetwear"],
+  "angles": ["futurism", "nostalgia", "silver"],
+  "bar_seeds": ["chrome hearts", "matrix flow", "dial-up speed"],
+  "related_ids": ["y2k", "cyberpunk"],
+  "visual_elements": ["Chrome textures", "Translucent plastic", "Digital fonts", "Circuit patterns"],
+  "mood": "Optimistic, technological, edgy",
+  "associated_eras": ["1999", "2000s", "2020s"],
+  "color_palette": ["Silver", "Electric Blue", "White", "Black"],
+  "fashion_staples": ["Shield sunglasses", "Velour tracksuits", "Cargo skirts", "Metallic jackets"]
+}

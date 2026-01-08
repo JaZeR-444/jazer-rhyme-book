@@ -1,0 +1,18 @@
+{
+  "id": "malcolm-x",
+  "type": "people",
+  "name": "Malcolm X",
+  "aliases": ["el-Hajj Malik el-Shabazz"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A radical civil rights leader and Muslim minister who advocated for black empowerment and self-defense.",
+  "tags": ["revolutionary", "legacy", "grit", "intellectual"],
+  "angles": ["by-any-means-necessary", "black-nationalism", "transformation"],
+  "bar_seeds": ["shabazz", "by any means", "ballot or the bullet"],
+  "related_ids": ["civil-rights-movement", "martin-luther-king-jr"],
+  "known_for": ["Nation of Islam", "Black Empowerment", "Oratory"],
+  "vibe": "Disciplined, militant, sharp",
+  "signature_items": ["Glasses", "Suit and tie", "Pointer finger up"],
+  "quotables_short": ["By any means necessary.", "The future belongs to those who prepare for it today."],
+  "controversy_flags": ["Assassination", "Radicalism (perceived)"]
+}

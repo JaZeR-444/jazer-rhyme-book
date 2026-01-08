@@ -1,0 +1,18 @@
+{
+  "id": "pro-tools",
+  "type": "writing-tool",
+  "name": "Pro Tools",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The industry standard digital audio workstation (DAW) found in professional studios worldwide.",
+  "tags": ["tool", "technical", "music", "professional"],
+  "angles": ["industry-standard", "mixing", "precision"],
+  "bar_seeds": ["pro tools session", "punching in", "waveform edit"],
+  "related_ids": ["recording-studio"],
+  "category": "Software / DAW",
+  "what_it_does": "Records, edits, and mixes audio with extreme precision.",
+  "best_for": ["recording vocals", "final mixing", "studio tracking"],
+  "workflow_hooks": ["Group tracks for mixing", "Use playlists for vocal comps"],
+  "pitfalls": ["Steep learning curve", "Expensive hardware requirements"],
+  "bar_angles": ["Engineering the sound", "Fix it in the mix", "Studio rat"]
+}

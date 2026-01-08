@@ -1,0 +1,19 @@
+{
+  "id": "derby-shoes",
+  "type": "fashion",
+  "name": "Derby Shoes",
+  "aliases": ["Gibsons", "Bluchers"],
+  "era": "19th Century-Present",
+  "tags": ["classic", "minimalist", "utility", "formal"],
+  "one_liner": "A style of boot or shoe characterized by quarters with shoelace eyelets that are sewn on top of the vamp.",
+  "angles": ["open-lacing-freedom", "versatile-formality", "structured-minimalism"],
+  "bar_seeds": ["black derbies", "rugged formal", "step in the bluchers"],
+  "related_ids": ["minimalist-tailoring"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Suede", "Cordovan"],
+  "cultural_significance": "The more relaxed, functional alternative to the Oxford; favored for its comfort and versatility.",
+  "fit": ["Standard", "Open-lace"],
+  "associated_brands": ["Dr. Martens", "Prada", "Church's"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

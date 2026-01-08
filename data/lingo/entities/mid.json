@@ -1,0 +1,18 @@
+{
+  "id": "mid",
+  "type": "lingo",
+  "name": "Mid",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Average, mediocre, or underwhelming quality.",
+  "tags": ["slang", "negative", "minimalist", "review"],
+  "angles": ["mediocrity", "disappointment", "average"],
+  "bar_seeds": ["mid pack", "solid 5/10", "not trash but not gas"],
+  "related_ids": ["gas"],
+  "meaning": "Mediocre.",
+  "usage": "Describing an overhyped album or weed.",
+  "origin": "Cannabis culture (Mid-grade)",
+  "region": "Global",
+  "example_lines": ["That album was mid", "Don't pass me the mid"],
+  "do_not_use_if": ["Describing something actually terrible (use 'trash')"]
+}

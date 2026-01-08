@@ -1,0 +1,18 @@
+{
+  "id": "hunter-s-thompson",
+  "type": "people",
+  "name": "Hunter S. Thompson",
+  "aliases": ["Raoul Duke", "The Good Doctor"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The founder of Gonzo journalism, known for his eccentric behavior, drug use, and savage critiques of American culture.",
+  "tags": ["grit", "rebellion", "vice", "intellectual"],
+  "angles": ["gonzo-spirit", "drug-fueled-clarity", "savage-honesty"],
+  "bar_seeds": ["fear and loathing", "bat country", "gonzo fist"],
+  "related_ids": ["vice"],
+  "known_for": ["Fear and Loathing in Las Vegas", "Gonzo Journalism", "Hell's Angels"],
+  "vibe": "Crazed, brilliant, drug-addled",
+  "signature_items": ["Aviator glasses", "Bucket hat", "Cigarette holder", "Typewriter"],
+  "quotables_short": ["Buy the ticket, take the ride.", "When the going gets weird..."],
+  "controversy_flags": ["Extreme drug use", "Firearms obsession", "Suicide"]
+}

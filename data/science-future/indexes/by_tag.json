@@ -1,0 +1,322 @@
+{
+  "futuristic": [
+    "anti-gravity",
+    "bio-computation",
+    "cryonics",
+    "dyson-swarm",
+    "kardashev-scale",
+    "matrioshka-brain",
+    "mind-uploading",
+    "nanobots",
+    "neural-lace-future",
+    "neuralink",
+    "post-human-society",
+    "programmable-matter",
+    "simulation-point",
+    "space-elevator",
+    "superintelligence",
+    "teleportation",
+    "type-i-civilization",
+    "type-ii-civilization",
+    "type-iii-civilization",
+    "von-neumann-probe",
+    "wormhole"
+  ],
+  "speed": [
+    "anti-gravity",
+    "teleportation",
+    "wormhole"
+  ],
+  "sci-fi": [
+    "anti-gravity",
+    "teleportation",
+    "wormhole"
+  ],
+  "technical": [
+    "anti-gravity",
+    "antimatter",
+    "asteroid-mining",
+    "bio-computation",
+    "cold-fusion",
+    "cryonics",
+    "dark-matter",
+    "dyson-swarm",
+    "gene-drive",
+    "kardashev-scale",
+    "lab-grown-meat",
+    "matrioshka-brain",
+    "mind-uploading",
+    "nanobots",
+    "neural-lace-future",
+    "neuralink",
+    "nuclear-fusion-future",
+    "programmable-matter",
+    "quantum-entanglement",
+    "quantum-supremacy",
+    "simulation-point",
+    "space-elevator",
+    "superintelligence",
+    "teleportation",
+    "type-i-civilization",
+    "vertical-farming-future",
+    "von-neumann-probe",
+    "wormhole"
+  ],
+  "quantum": [
+    "antimatter",
+    "boltzmann-brain",
+    "multiverse-theory",
+    "quantum-entanglement",
+    "quantum-supremacy"
+  ],
+  "explosive": [
+    "antimatter"
+  ],
+  "energy": [
+    "antimatter",
+    "dyson-sphere",
+    "dyson-swarm",
+    "kardashev-scale",
+    "matrioshka-brain",
+    "type-i-civilization",
+    "type-ii-civilization"
+  ],
+  "ai": [
+    "artificial-general-intelligence",
+    "singularity"
+  ],
+  "future": [
+    "artificial-general-intelligence",
+    "asteroid-mining",
+    "cyborgization",
+    "dyson-sphere",
+    "exoplanets",
+    "genetic-engineering",
+    "life-extension",
+    "nanotechnology",
+    "singularity",
+    "space-colonization",
+    "terraforming"
+  ],
+  "tech": [
+    "artificial-general-intelligence",
+    "cyborgization",
+    "nanotechnology",
+    "singularity"
+  ],
+  "intelligence": [
+    "artificial-general-intelligence"
+  ],
+  "space-travel": [
+    "asteroid-mining",
+    "von-neumann-probe"
+  ],
+  "hustle": [
+    "asteroid-mining",
+    "cold-fusion"
+  ],
+  "organic": [
+    "bio-computation",
+    "lab-grown-meat"
+  ],
+  "innovative": [
+    "bio-computation",
+    "cold-fusion",
+    "gene-drive",
+    "lab-grown-meat",
+    "nanobots",
+    "neural-lace-future",
+    "neuralink",
+    "nuclear-fusion-future",
+    "programmable-matter",
+    "quantum-supremacy",
+    "vertical-farming-future"
+  ],
+  "dark": [
+    "black-hole",
+    "cryonics",
+    "gray-goo-risk",
+    "the-great-filter"
+  ],
+  "gravity": [
+    "black-hole"
+  ],
+  "cosmic": [
+    "black-hole",
+    "dark-matter",
+    "exoplanets",
+    "fermi-paradox",
+    "type-ii-civilization",
+    "type-iii-civilization"
+  ],
+  "finality": [
+    "black-hole"
+  ],
+  "esoteric": [
+    "boltzmann-brain",
+    "dark-matter",
+    "multiverse-theory",
+    "quantum-entanglement"
+  ],
+  "philosophical-ideas": [
+    "boltzmann-brain",
+    "fermi-paradox",
+    "simulation-point",
+    "the-great-filter"
+  ],
+  "existence": [
+    "boltzmann-brain",
+    "fermi-paradox",
+    "post-human-society",
+    "the-great-filter"
+  ],
+  "clean-energy": [
+    "cold-fusion",
+    "nuclear-fusion-future"
+  ],
+  "life-extension": [
+    "cryonics"
+  ],
+  "humanity": [
+    "cyborgization"
+  ],
+  "biotech": [
+    "cyborgization",
+    "genetic-engineering",
+    "life-extension"
+  ],
+  "mystery": [
+    "dark-matter",
+    "fermi-paradox"
+  ],
+  "space": [
+    "dyson-sphere",
+    "space-colonization",
+    "terraforming"
+  ],
+  "megastructure": [
+    "dyson-sphere"
+  ],
+  "massive": [
+    "dyson-swarm",
+    "matrioshka-brain",
+    "space-elevator",
+    "type-ii-civilization",
+    "type-iii-civilization"
+  ],
+  "physics": [
+    "entropy"
+  ],
+  "philosophy": [
+    "entropy"
+  ],
+  "decay": [
+    "entropy",
+    "gray-goo-risk"
+  ],
+  "time": [
+    "entropy"
+  ],
+  "nature": [
+    "exoplanets",
+    "vertical-farming-future"
+  ],
+  "exploration": [
+    "exoplanets"
+  ],
+  "genetic": [
+    "gene-drive"
+  ],
+  "power": [
+    "gene-drive",
+    "nuclear-fusion-future",
+    "quantum-supremacy",
+    "superintelligence"
+  ],
+  "ethics": [
+    "genetic-engineering",
+    "life-extension"
+  ],
+  "evolution": [
+    "genetic-engineering"
+  ],
+  "nanotechnology": [
+    "gray-goo-risk",
+    "nanobots",
+    "programmable-matter"
+  ],
+  "fear": [
+    "gray-goo-risk",
+    "the-great-filter"
+  ],
+  "global": [
+    "kardashev-scale",
+    "type-i-civilization"
+  ],
+  "ethical": [
+    "lab-grown-meat"
+  ],
+  "longevity": [
+    "life-extension"
+  ],
+  "identity": [
+    "mind-uploading"
+  ],
+  "cyberpunk": [
+    "mind-uploading"
+  ],
+  "cinematic": [
+    "multiverse-theory"
+  ],
+  "infinity": [
+    "multiverse-theory",
+    "type-iii-civilization",
+    "von-neumann-probe"
+  ],
+  "miniature": [
+    "nanotechnology"
+  ],
+  "science": [
+    "nanotechnology"
+  ],
+  "cyborgization": [
+    "neural-lace-future",
+    "neuralink"
+  ],
+  "social": [
+    "post-human-society"
+  ],
+  "legacy": [
+    "post-human-society"
+  ],
+  "logic": [
+    "quantum-entanglement"
+  ],
+  "surreal": [
+    "simulation-point"
+  ],
+  "transhumanism": [
+    "singularity"
+  ],
+  "survival": [
+    "space-colonization"
+  ],
+  "expansion": [
+    "space-colonization"
+  ],
+  "transport": [
+    "space-elevator"
+  ],
+  "singularity": [
+    "superintelligence"
+  ],
+  "engineering": [
+    "terraforming"
+  ],
+  "ecology": [
+    "terraforming"
+  ],
+  "urban": [
+    "vertical-farming-future"
+  ]
+}

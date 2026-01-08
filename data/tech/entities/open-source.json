@@ -1,0 +1,21 @@
+{
+  "id": "open-source",
+  "type": "tech",
+  "name": "Open Source",
+  "aliases": ["OSS", "FOSS"],
+  "era": "1980s-Present",
+  "tags": ["technical", "community", "rebellion", "software"],
+  "one_liner": "Software with source code that anyone can inspect, modify, and enhance.",
+  "tags": ["technical", "community", "rebellion", "innovative"],
+  "angles": ["collective intelligence", "anti-corporate", "transparency"],
+  "bar_seeds": ["code for the people", "fork the repo", "built by us"],
+  "related_ids": [],
+  "category": "Software / Philosophy",
+  "what_it_is": "A model of decentralized software development that encourages open collaboration.",
+  "why_it_matters": "Powers much of the modern web (Linux, Android, Apache).",
+  "risks": ["Lack of formal support", "Vulnerability exposure", "Project abandonment"],
+  "metaphors": ["A public library", "The digital commons", "Collective architecture"],
+  "keywords": ["GitHub", "License", "Fork", "Commit", "Transparency"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

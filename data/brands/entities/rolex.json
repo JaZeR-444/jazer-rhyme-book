@@ -1,0 +1,53 @@
+{
+  "id": "rolex",
+  "type": "brand",
+  "name": "Rolex",
+  "aliases": [
+    "The Crown",
+    "Rollie"
+  ],
+  "era": "1905-Present",
+  "tags": [
+    "luxury",
+    "legacy",
+    "classic"
+  ],
+  "one_liner": "Swiss luxury watch manufacturer known for performance and prestige.",
+  "angles": [
+    "status symbol",
+    "timeless precision",
+    "investment value"
+  ],
+  "bar_seeds": [
+    "Presidential Rolex, timing is perfect",
+    "The crown on the wrist, royalty flow"
+  ],
+  "related_ids": [
+    "submariner",
+    "daytona"
+  ],
+  "created_at": "2025-12-23T10:50:00Z",
+  "updated_at": "2025-12-23T10:50:00Z",
+  "sources": [
+    {
+      "title": "Rolex official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Watches",
+  "price_tier": "High Luxury",
+  "signature_products": [
+    "Submariner",
+    "Datejust"
+  ],
+  "status_signals": [
+    "Sweeping second hand",
+    "Oyster case"
+  ],
+  "bar_angles": [
+    "time is money",
+    "legacy wealth"
+  ]
+}

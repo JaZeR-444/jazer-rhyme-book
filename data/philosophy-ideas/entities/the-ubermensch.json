@@ -1,0 +1,17 @@
+{
+  "id": "the-ubermensch",
+  "type": "philosophy-ideas",
+  "name": "The Ubermensch",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Nietzsche's 'Overman', a figure who transcends conventional morality to create their own values.",
+  "tags": ["power", "rebellion", "legacy", "existentialism"],
+  "angles": ["beyond-good-and-evil", "self-overcoming", "creator-of-values"],
+  "bar_seeds": ["superman of the soul", "breaking the old tablets", "climbing the mountain"],
+  "related_ids": ["nihilism", "the-will-to-power"],
+  "school_of_thought": "Nietzschean Philosophy",
+  "core_question": "Can humanity transcend its current limitations?",
+  "key_philosophers": ["Friedrich Nietzsche"],
+  "paradoxes": [],
+  "modern_application": "Self-help, transhumanism, individual empowerment."
+}

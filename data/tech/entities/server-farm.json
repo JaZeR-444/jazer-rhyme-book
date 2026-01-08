@@ -1,0 +1,20 @@
+{
+  "id": "server-farm",
+  "type": "tech",
+  "name": "Server Farm",
+  "aliases": ["Data Center", "Data Centre"],
+  "era": "1990s-Present",
+  "tags": ["technical", "infrastructure", "massive", "industrial"],
+  "one_liner": "A facility composed of thousands of networked computer servers used for the remote storage and processing of data.",
+  "angles": ["physicality of the cloud", "hum of the world", "logical monolith"],
+  "bar_seeds": ["blinking blue lights", "aisles of cold air", "where the data lives"],
+  "related_ids": ["cloud-computing"],
+  "category": "Infrastructure",
+  "what_it_is": "A collective of servers housed in one location to provide high-capacity computing power.",
+  "why_it_matters": "The actual physical location where the 'Cloud' exists.",
+  "risks": ["Energy consumption", "Security breaches", "Hardware failure"],
+  "metaphors": ["The brain of the planet", "A digital factory", "Rows of silence"],
+  "keywords": ["Rack", "Cooling", "Uptime", "Redundancy", "Terabytes"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

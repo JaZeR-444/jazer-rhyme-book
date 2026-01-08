@@ -1,0 +1,17 @@
+{
+  "id": "chernobyl-disaster",
+  "type": "history",
+  "name": "Chernobyl Disaster",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The worst nuclear disaster in history, caused by a reactor explosion in 1986.",
+  "tags": ["dark", "technical", "industrial", "decay"],
+  "angles": ["invisible-death", "bureaucratic-failure", "abandoned-future"],
+  "bar_seeds": ["reactor core exposed", "pripyat ghosts", "3.6 roentgen"],
+  "related_ids": ["nuclear-energy", "decay", "ruin"],
+  "key_dates": ["April 26, 1986"],
+  "location": "Chernobyl, USSR (Modern Ukraine)",
+  "impact": "Severely damaged the credibility of the Soviet government and led to global changes in nuclear safety.",
+  "major_figures": ["Mikhail Gorbachev", "Valery Legasov"],
+  "cultural_shift": "Deep-seated fear of nuclear technology and the realization of catastrophic human error."
+}

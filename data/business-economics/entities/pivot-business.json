@@ -1,0 +1,17 @@
+{
+  "id": "pivot-business",
+  "type": "business-economics",
+  "name": "Pivot",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fundamental change in the strategy of a business after determining that the current product or service is not meeting the needs of the market.",
+  "tags": ["startup", "innovative", "change", "hustle"],
+  "angles": ["radical-change", "failure-to-success", "market-adaptation"],
+  "bar_seeds": ["swerving the lane", "flipping the script", "starting over to get ahead"],
+  "related_ids": ["startup", "disruption"],
+  "industry": "Entrepreneurship",
+  "core_principle": "Flexibility in the face of market data.",
+  "jargon": ["Iterate", "Lean startup", "Minimum Viable Product (MVP)"],
+  "key_metrics": ["Product-Market Fit", "Retention"],
+  "archetypes": ["Startup Founder", "Turnaround Artist"]
+}

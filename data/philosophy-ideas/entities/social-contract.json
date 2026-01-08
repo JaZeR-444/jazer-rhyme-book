@@ -1,0 +1,20 @@
+{
+  "id": "social-contract",
+  "type": "philosophy-ideas",
+  "name": "Social Contract Theory",
+  "aliases": ["The Contract"],
+  "era": "17th-18th Century",
+  "tags": ["politics", "ethics", "society", "agreement"],
+  "one_liner": "The view that persons' moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.",
+  "angles": ["the price of order", "giving up freedom for safety", "the state of nature"],
+  "bar_seeds": ["unwritten contract", "state of nature", "consent of the governed", "societal chains"],
+  "school_of_thought": "Political Philosophy",
+  "core_question": "Why should I obey the law?",
+  "key_philosophers": ["Thomas Hobbes", "John Locke", "Jean-Jacques Rousseau"],
+  "paradoxes": ["The Paradox of Freedom (we are only free when we agree to limit our freedom through law)"],
+  "modern_application": "The philosophical foundation of modern democratic states and legal systems.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

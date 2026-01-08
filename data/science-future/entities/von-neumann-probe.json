@@ -1,0 +1,17 @@
+{
+  "id": "von-neumann-probe",
+  "type": "science-future",
+  "name": "Von Neumann Probe",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A self-replicating spacecraft designed to explore the galaxy.",
+  "tags": ["space-travel", "futuristic", "technical", "infinity"],
+  "angles": ["galactic expansion", "self-replication", "eternal exploration"],
+  "bar_seeds": ["probes in every system", "infinite recursion", "seeds of the stars"],
+  "related_ids": ["space-colonization"],
+  "field": "Cosmology / Robotics",
+  "hypothesis": "Autonomous machines can be sent to other star systems to build copies of themselves and continue the mission.",
+  "implications": ["Mapping the entire galaxy", "Interstellar communication networks", "Encountering alien probes"],
+  "technologies": ["Self-Replicating Machines", "AI"],
+  "ethical_concerns": ["Resource consumption of entire star systems", "Risk of out-of-control replication"]
+}

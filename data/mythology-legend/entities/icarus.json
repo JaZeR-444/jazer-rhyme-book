@@ -1,0 +1,20 @@
+{
+  "id": "icarus",
+  "type": "mythology-legend",
+  "name": "Icarus",
+  "aliases": ["The Boy Who Flew Too High"],
+  "era": "Ancient Greece",
+  "tags": ["tragic", "ambition", "cautionary", "greek"],
+  "one_liner": "The son of Daedalus who flew too close to the sun with wings of wax, falling to his death.",
+  "angles": ["flying too high", "the danger of hubris", "the cost of freedom"],
+  "bar_seeds": ["melting wax", "wings on fire", "falling from the sky", "sun-scorched"],
+  "origin_culture": "Greek",
+  "deity_type": "Mortal / Hero",
+  "powers": ["Flight (via artificial wings)"],
+  "symbols": ["Wings", "Wax", "The Sun"],
+  "modern_parallels": ["People who chase fame too fast", "Over-ambitious ventures"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

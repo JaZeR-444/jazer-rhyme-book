@@ -1,0 +1,20 @@
+{
+  "id": "dark-academia",
+  "type": "aesthetics-visuals",
+  "name": "Dark Academia",
+  "aliases": ["Academia"],
+  "era": "2010s-Present",
+  "tags": ["intellectual", "vintage", "gothic", "academic"],
+  "one_liner": "An aesthetic centered around higher education, writing, the arts, and a brooding, gothic atmosphere.",
+  "angles": ["the pursuit of knowledge at all costs", "hidden libraries", "melancholy of the intellectual"],
+  "bar_seeds": ["ink-stained fingers", "old leather books", "candlelit study", "tweed jackets"],
+  "visual_elements": ["old libraries", "classical architecture", "statues", "fountain pens"],
+  "mood": "Intellectual, brooding, and romantic",
+  "associated_eras": ["19th Century", "Mid-20th Century"],
+  "color_palette": ["brown", "black", "burgundy", "forest green"],
+  "fashion_staples": ["tweed blazers", "turtlenecks", "oxford shoes"],
+  "related_ids": ["goth"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

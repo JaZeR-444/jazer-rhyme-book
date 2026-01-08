@@ -1,0 +1,17 @@
+{
+  "id": "frutiger-aero",
+  "type": "aesthetics-visuals",
+  "name": "Frutiger Aero",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An optimistic mid-2000s tech aesthetic characterized by glossy textures, water, grass, and blue skies.",
+  "tags": ["00s", "futuristic", "vibrant", "nostalgic"],
+  "angles": ["skeuomorphism", "glossy", "fresh"],
+  "bar_seeds": ["glossy icons", "tropical fish", "glass and grass"],
+  "related_ids": ["y2k"],
+  "visual_elements": ["Bubbles", "Glossy spheres", "Green fields", "Blue sky with clouds"],
+  "mood": "Optimistic, clean, refreshing",
+  "associated_eras": ["2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013"],
+  "color_palette": ["Sky Blue", "Grass Green", "Glossy White", "Clear Water"],
+  "fashion_staples": ["Clean sportswear", "White sneakers", "Translucent plastics", "Minimalist tech accessories"]
+}

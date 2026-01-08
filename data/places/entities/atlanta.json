@@ -1,0 +1,55 @@
+{
+  "id": "atlanta",
+  "type": "place",
+  "name": "Atlanta",
+  "aliases": [
+    "ATL",
+    "The A",
+    "Hotlanta"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "georgia",
+    "southern-rap",
+    "trap",
+    "culture-capital"
+  ],
+  "one_liner": "The unofficial capital of modern hip-hop and the birthplace of trap music.",
+  "angles": [
+    "southern hospitality meets trap house",
+    "the strip club as a hit-maker",
+    "black excellence"
+  ],
+  "bar_seeds": [
+    "atlanta streets",
+    "trapping out the A",
+    "magic city",
+    "lemon pepper wings"
+  ],
+  "vibe": "Vibrant, flashy, humid, and innovative",
+  "sensory_cues": [
+    "peach trees",
+    "strip club lights",
+    "heavy bass from cars",
+    "waffle house at 3am"
+  ],
+  "cultural_refs": [
+    "OutKast",
+    "Migos",
+    "Gucci Mane",
+    "Future"
+  ],
+  "bar_angles": [
+    "straight out the A",
+    "trapping in atlanta like a young hov"
+  ],
+  "related_ids": [
+    "outkast",
+    "migos",
+    "gucci"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "city"
+}

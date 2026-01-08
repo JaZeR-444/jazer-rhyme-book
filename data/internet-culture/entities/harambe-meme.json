@@ -1,0 +1,18 @@
+{
+  "id": "harambe-meme",
+  "type": "internet-culture",
+  "name": "Harambe",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The gorilla whose death became a massive, ironic internet phenomenon and a symbol of 2016 chaos.",
+  "tags": ["legacy", "ironic", "viral", "tragedy"],
+  "angles": ["martyrdom", "internet-absurdity", "memorial"],
+  "bar_seeds": ["dicks out for harambe", "cininnati zoo", "never forget"],
+  "related_ids": [],
+  "format": "Conceptual Meme / Hashtag",
+  "origin_platform": "Twitter / Reddit",
+  "meaning": "An ironic veneration of a tragic event, often used to mock performative outrage or memorial culture.",
+  "remix_rules": ["Over-the-top tributes", "Ironic hashtags", "Gorilla imagery"],
+  "lifespan_risk": "Legendary (Internet History)",
+  "example_lines": ["Standing tall for the fallen, like Harambe in the cage", "Legacy immortal, 2016 energy"]
+}

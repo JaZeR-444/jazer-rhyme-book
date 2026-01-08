@@ -1,0 +1,59 @@
+{
+  "id": "cocacola",
+  "type": "brand",
+  "name": "Coca-Cola",
+  "aliases": [
+    "Coke",
+    "Coca",
+    "The Real Thing"
+  ],
+  "era": "1886-Present",
+  "tags": [
+    "beverage",
+    "iconic",
+    "classic",
+    "global",
+    "refreshing"
+  ],
+  "one_liner": "The iconic soft drink that became a symbol of American culture worldwide.",
+  "angles": [
+    "refreshment",
+    "nostalgia",
+    "happiness"
+  ],
+  "bar_seeds": [
+    "Open happiness",
+    "Coca-Cola flow",
+    "Red and white"
+  ],
+  "related_ids": [
+    "pepsi",
+    "candy"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Coca-Cola official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Beverage",
+  "price_tier": "Affordable",
+  "signature_products": [
+    "Coca-Cola Classic",
+    "Coke Zero",
+    "Diet Coke"
+  ],
+  "status_signals": [
+    "Red color",
+    "Classic script"
+  ],
+  "bar_angles": [
+    "refreshment",
+    "nostalgia",
+    "happiness"
+  ]
+}

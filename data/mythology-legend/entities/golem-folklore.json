@@ -1,0 +1,17 @@
+{
+  "id": "golem-folklore",
+  "type": "mythology-legend",
+  "name": "Golem",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An anthropomorphic being in Jewish folklore, created entirely from inanimate matter (usually clay) and brought to life through magic.",
+  "tags": ["esoteric", "technical", "protection", "clay"],
+  "angles": ["creation-out-of-control", "silent-protector", "magic-code"],
+  "bar_seeds": ["clay coming to life", "word on the forehead", "silent giant"],
+  "related_ids": ["robotics"],
+  "origin_culture": "Jewish / Hebrew",
+  "deity_type": "Created Being",
+  "powers": ["Superhuman strength", "Inexhaustibility", "Obedience"],
+  "symbols": ["Clay", "Shem (holy word)", "Dust"],
+  "modern_parallels": ["Robots", "AI", "Frankenstein's Monster"]
+}

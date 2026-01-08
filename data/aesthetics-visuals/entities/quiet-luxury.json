@@ -1,0 +1,17 @@
+{
+  "id": "quiet-luxury",
+  "type": "aesthetics-visuals",
+  "name": "Quiet Luxury",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A contemporary aesthetic focusing on high-quality, logo-free garments and an understated, expensive lifestyle.",
+  "tags": ["luxury", "minimalist", "contemporary", "high-fashion"],
+  "angles": ["subtlety", "quality", "discretion"],
+  "bar_seeds": ["stealth wealth", "Loro Piana knit", "no labels shown"],
+  "related_ids": ["old-money"],
+  "visual_elements": ["High-quality fabrics", "Minimalist interiors", "Neutral colors", "Clean lines"],
+  "mood": "Calm, confident, wealthy",
+  "associated_eras": ["2020s"],
+  "color_palette": ["Oatmeal", "Grey", "Beige", "Black"],
+  "fashion_staples": ["Unbranded cashmere", "Tailored coats", "Linen shirts", "Leather loafers"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bandana-item",
+  "type": "fashion",
+  "name": "Bandana",
+  "aliases": ["Kerchief"],
+  "era": "Ancient-Present",
+  "tags": ["grit", "rebellion", "classic", "identity"],
+  "one_liner": "A large, colorful triangular or square piece of cloth, often with a paisley print, worn on the head or around the neck.",
+  "tags": ["grit", "rebellion", "identity", "classic"],
+  "angles": ["gang-colors", "outlaw-mask", "iconic-wrap"],
+  "bar_seeds": ["paisley print", "knotted in the back", "face covered in cotton"],
+  "related_ids": ["tupac-shakur", "balaclava"],
+  "item_type": "Accessories",
+  "material": ["Cotton", "Silk"],
+  "cultural_significance": "A complex symbol spanning Western outlaws, 90s gang culture, and counterculture fashion.",
+  "fit": ["Variable"],
+  "associated_brands": ["Levi's", "Kapital", "Hav-A-Hank"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

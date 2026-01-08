@@ -1,0 +1,17 @@
+{
+  "id": "sirens",
+  "type": "mythology-legend",
+  "name": "Sirens",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Dangerous creatures who lured nearby sailors with their enchanting music and singing to shipwreck.",
+  "tags": ["mythology", "music", "noir", "temptation"],
+  "angles": ["seduction", "trap", "voice"],
+  "bar_seeds": ["siren song", "crashing on the rocks", "beautiful trap"],
+  "related_ids": [],
+  "origin_culture": "Greek",
+  "deity_type": "Monster / Nymph",
+  "powers": ["Hypnotic voice", "Prophecy"],
+  "symbols": ["Song", "Rocks", "Feathers"],
+  "modern_parallels": ["Pop Stars", "Advertisements", "Addiction"]
+}

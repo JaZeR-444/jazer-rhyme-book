@@ -1,0 +1,20 @@
+{
+  "id": "diamond-chain",
+  "type": "weapons-objects",
+  "name": "Diamond Chain",
+  "aliases": ["Bling", "Piece", "Iced out chain"],
+  "era": "1980s-Present",
+  "tags": ["object", "luxury", "status", "jewelry"],
+  "one_liner": "A heavy metal chain encrusted with diamonds, a primary status symbol in hip-hop culture.",
+  "angles": ["wearing the trophy", "the weight of success", "blinding the haters"],
+  "bar_seeds": ["iced out neck", "vvs diamonds", "chain hanging low", "heavy piece"],
+  "weapon_type": "Status Object",
+  "range": "N/A",
+  "damage_type": "N/A",
+  "symbolism": "Wealth, achievement, vanity, and cultural identity.",
+  "famous_users": ["Rappers", "Athletes", "Celebrities"],
+  "related_ids": ["luxury", "cartier"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

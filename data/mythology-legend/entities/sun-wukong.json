@@ -1,0 +1,17 @@
+{
+  "id": "sun-wukong",
+  "type": "mythology-legend",
+  "name": "Sun Wukong",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Monkey King, a trickster figure from Chinese legend known for his strength, speed, and transformations.",
+  "tags": ["vibrant", "trickster", "mythology", "war"],
+  "angles": ["rebellion", "immortality", "mischief"],
+  "bar_seeds": ["monkey king", "72 transformations", "journey to the west"],
+  "related_ids": [],
+  "origin_culture": "Chinese",
+  "deity_type": "Demon / God",
+  "powers": ["Transformation", "Cloud flying", "Immortality"],
+  "symbols": ["Golden Staff", "Cloud", "Circlet"],
+  "modern_parallels": ["Goku", "Luffy", "Anti-Heroes"]
+}

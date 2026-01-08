@@ -1,0 +1,20 @@
+{
+  "id": "deontology",
+  "type": "philosophy-ideas",
+  "name": "Deontology",
+  "aliases": ["Duty-based ethics"],
+  "era": "18th Century-Present",
+  "tags": ["ethics", "duty", "rules", "morality"],
+  "one_liner": "The normative ethical theory that the morality of an action should be based on whether that action itself is right or wrong under a series of rules.",
+  "angles": ["do your duty", "rules are absolute", "means over ends"],
+  "bar_seeds": ["categorical imperative", "the line you don't cross", "duty bound", "universal law"],
+  "school_of_thought": "Deontology",
+  "core_question": "What is my moral duty?",
+  "key_philosophers": ["Immanuel Kant"],
+  "paradoxes": ["The Inquiring Murderer (is it wrong to lie to a murderer to save a life?)"],
+  "modern_application": "Foundation of legal systems, human rights codes, and professional ethics.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

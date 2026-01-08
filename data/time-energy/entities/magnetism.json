@@ -1,0 +1,17 @@
+{
+  "id": "magnetism",
+  "type": "time-energy",
+  "name": "Magnetism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A physical phenomenon produced by the motion of electric charge, resulting in attractive and repulsive forces.",
+  "tags": ["technical", "scientific", "invisible", "power"],
+  "angles": ["attraction", "repulsion", "invisible-pull"],
+  "bar_seeds": ["polar opposites", "magnetic field", "stuck like a magnet"],
+  "related_ids": ["vibration", "resonance"],
+  "concept_type": "Physics",
+  "perception": "Unseen but undeniable force pulling things together or pushing them apart.",
+  "physics_basis": "Electromagnetic force.",
+  "cultural_view": "Commonly used to describe charisma or intense relationships.",
+  "idioms": ["Animal magnetism", "Polar opposites", "Drawn like a moth to a flame"]
+}

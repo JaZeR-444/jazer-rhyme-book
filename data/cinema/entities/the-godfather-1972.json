@@ -1,0 +1,20 @@
+{
+  "id": "the-godfather-1972",
+  "type": "cinema",
+  "name": "The Godfather",
+  "aliases": ["Don Corleone"],
+  "era": "1972",
+  "tags": ["crime", "mafia", "family", "classic", "power"],
+  "one_liner": "A sprawling epic about the Corleone crime family and Michael Corleone's reluctant rise to power.",
+  "angles": ["family business", "honor among thieves", "the burden of leadership"],
+  "bar_seeds": ["offer he can't refuse", "horse head in the bed", "don corleone"],
+  "plot_hooks": ["transfer of power from father to son", "war between five families", "revenge and betrayal"],
+  "iconic_scenes": ["The wedding opening", "The baptism murders", "The toll booth scene"],
+  "visual_motifs": ["Shadowy offices", "Oranges as omens of death", "Cannoli"],
+  "themes": ["Loyalty", "Corruption of the soul", "Legacy"],
+  "quotables_short": ["I'm gonna make him an offer he can't refuse", "Leave the gun, take the cannoli"],
+  "related_ids": ["notorious-big", "jay-z"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

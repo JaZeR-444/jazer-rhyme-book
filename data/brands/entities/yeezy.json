@@ -1,0 +1,17 @@
+{
+  "id": "yeezy",
+  "type": "brand",
+  "name": "Yeezy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Kanye West's fashion brand that popularized neutral tones, distressed fabrics, and futuristic sneakers.",
+  "tags": ["streetwear", "innovative", "minimalist", "hype"],
+  "angles": ["dystopia", "comfort", "hype"],
+  "bar_seeds": ["yeezy slides", "earth tones", "foam runners"],
+  "related_ids": ["adidas"],
+  "category": "Streetwear",
+  "price_tier": "High (Resale)",
+  "signature_products": ["Yeezy Boost 350", "Foam Runner", "Slides"],
+  "status_signals": ["Distinctive silhouette", "Muted color palette"],
+  "bar_angles": ["Future fashion", "Comfort over everything", "Cult following"]
+}

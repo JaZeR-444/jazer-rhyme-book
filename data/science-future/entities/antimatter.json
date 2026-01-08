@@ -1,0 +1,17 @@
+{
+  "id": "antimatter",
+  "type": "science-future",
+  "name": "Antimatter",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Matter composed of the antiparticles of those which constitute ordinary matter.",
+  "tags": ["quantum", "technical", "explosive", "energy"],
+  "angles": ["annihilation", "perfect energy", "rare value"],
+  "bar_seeds": ["matter meets anti", "pure destruction", "the most expensive substance"],
+  "related_ids": ["the-big-bang"],
+  "field": "Particle Physics",
+  "hypothesis": "Every particle has an antiparticle counterpart with opposite charge.",
+  "implications": ["100% efficient energy conversion", "Ultimate weaponry", "Spacecraft propulsion"],
+  "technologies": ["Antimatter Engines", "PET Scans (current use)"],
+  "ethical_concerns": ["Extreme destructive potential", "Containment risks"]
+}

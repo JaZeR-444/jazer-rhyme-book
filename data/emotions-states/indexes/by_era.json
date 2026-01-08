@@ -1,0 +1,35 @@
+{
+  "Timeless": [
+    "anticipation",
+    "apathy",
+    "awe",
+    "confidence",
+    "contentment",
+    "envy",
+    "gratitude",
+    "grief",
+    "guilt",
+    "joy",
+    "love",
+    "pride",
+    "relief"
+  ],
+  "Universal": [
+    "anxiety",
+    "euphoria",
+    "hope",
+    "loneliness",
+    "melancholy",
+    "nostalgia",
+    "paranoia",
+    "rage",
+    "shame"
+  ],
+  "Modern": [
+    "burnout",
+    "overwhelm"
+  ],
+  "Ancient-Present": [
+    "zen"
+  ]
+}

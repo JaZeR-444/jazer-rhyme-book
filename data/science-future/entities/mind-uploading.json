@@ -1,0 +1,17 @@
+{
+  "id": "mind-uploading",
+  "type": "science-future",
+  "name": "Mind Uploading",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The hypothetical process of scanning a physical structure of the brain and copying its state into a computer.",
+  "tags": ["futuristic", "technical", "identity", "cyberpunk"],
+  "angles": ["digital-immortality", "copy-vs-self", "ghost-in-the-machine"],
+  "bar_seeds": ["uploading the soul", "severing the biological", "infinite server life"],
+  "related_ids": ["transhumanism", "posthumanism", "ghost-in-the-shell-1995"],
+  "field": "Neuroscience / Computing",
+  "hypothesis": "Consciousness can be treated as data and transferred to new substrate.",
+  "implications": ["End of death", "Digital space travel", "Duplication of identity"],
+  "technologies": ["High-resolution brain scanning", "Neural wetware simulation"],
+  "ethical_concerns": ["Is the copy 'me'?", "Rights of digital people", "Power consumption of the afterlife"]
+}

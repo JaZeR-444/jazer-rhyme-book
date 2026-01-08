@@ -1,0 +1,17 @@
+{
+  "id": "mandala",
+  "type": "rituals-symbols",
+  "name": "Mandala",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A geometric configuration of symbols used in various spiritual traditions as a tool for focus and meditation.",
+  "tags": ["spiritual", "geometric", "art", "asian"],
+  "angles": ["unity", "cosmos", "impermanence"],
+  "bar_seeds": ["drawing the circle", "sand blown by the wind", "center of the universe"],
+  "related_ids": ["zen"],
+  "purpose": "To represent the cosmos and serve as a map for spiritual guidance.",
+  "steps": ["Precise geometric construction", "Meditation on the pattern", "Destruction (in sand mandalas)"],
+  "objects_used": ["Colored sand", "Paint", "Geometry tools"],
+  "participants": "Monks, Practitioners",
+  "outcome": "Mental clarity and recognition of universal unity."
+}

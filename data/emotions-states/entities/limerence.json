@@ -1,0 +1,17 @@
+{
+  "id": "limerence",
+  "type": "emotions-states",
+  "name": "Limerence",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An involuntary state of intense romantic desire and obsession for another person.",
+  "tags": ["romance", "obsession", "euphoria", "anxiety"],
+  "angles": ["intrusive thoughts", "yearning", "emotional dependency"],
+  "bar_seeds": ["can't stop thinking bout you", "dreaming wide awake", "floating on a hope"],
+  "intensity": "High",
+  "physical_symptoms": ["Heart palpitations", "Trembling", "Loss of appetite", "Insomnia"],
+  "triggers": ["Interaction with the limerent object", "Social media checking", "Music"],
+  "action_urge": "To seek reciprocation and closeness at any cost.",
+  "opposites": ["Apathy", "Indifference"],
+  "related_ids": ["love", "obsession"]
+}

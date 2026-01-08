@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/weapon.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "weapon_type": {
+      "type": "string"
+    },
+    "range": {
+      "type": "string"
+    },
+    "damage_type": {
+      "type": "string"
+    },
+    "symbolism": {
+      "type": "string"
+    },
+    "famous_users": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

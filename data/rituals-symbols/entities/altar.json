@@ -1,0 +1,17 @@
+{
+  "id": "altar",
+  "type": "rituals-symbols",
+  "name": "Altar",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A structure upon which offerings such as sacrifices are made for religious purposes.",
+  "tags": ["ritual", "classic", "sacrifice", "spiritual"],
+  "angles": ["focal point", "sacrifice", "sacred space"],
+  "bar_seeds": ["laying it on the altar", "blood on the stone", "sacred table"],
+  "related_ids": ["sacrifice", "sanctuary"],
+  "purpose": "To serve as a place of offering or spiritual focus.",
+  "steps": ["Cleaning the space", "Placing offerings", "Invocation"],
+  "objects_used": ["Stone", "Gold", "Candles", "Flowers"],
+  "participants": "Priest, Worshipper",
+  "outcome": "Divine connection or appeasement."
+}

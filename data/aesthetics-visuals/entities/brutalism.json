@@ -1,0 +1,20 @@
+{
+  "id": "brutalism",
+  "type": "aesthetics-visuals",
+  "name": "Brutalism",
+  "aliases": ["Brutalist Architecture"],
+  "era": "1950s-1970s",
+  "tags": ["industrial", "raw", "architecture", "concrete"],
+  "one_liner": "An architectural and visual style characterized by massive, raw concrete structures and a focus on function over ornament.",
+  "angles": ["the honesty of materials", "monolithic power", "urban alienation"],
+  "bar_seeds": ["raw concrete", "exposed structures", "gray monoliths", "blocky shadows"],
+  "visual_elements": ["heavy concrete", "sharp angles", "repetitive patterns", "exposed beams"],
+  "mood": "Imposing, cold, and powerful",
+  "associated_eras": ["Cold War Era", "Modernism"],
+  "color_palette": ["gray", "charcoal", "off-white", "rust"],
+  "fashion_staples": ["minimalist streetwear", "structural coats", "monochromatic layers"],
+  "related_ids": ["architecture-spaces"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

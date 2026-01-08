@@ -1,0 +1,20 @@
+{
+  "id": "oprah-winfrey",
+  "type": "people",
+  "name": "Oprah Winfrey",
+  "aliases": ["Oprah", "The Queen of All Media", "O"],
+  "era": "1980s-Present",
+  "tags": ["media", "talk-show", "inspiration", "empowerment", "interviews"],
+  "one_liner": "The media mogul who redefined talk shows and became America's most trusted voice.",
+  "angles": ["rags to riches", "media empire", "cultural influence"],
+  "bar_seeds": ["Oprah's book club", "You get a car", "Favorite things"],
+  "known_for": ["The Oprah Winfrey Show", "OWN", "Book Club"],
+  "vibe": "Warm, inspiring, trustworthy",
+  "signature_items": ["Purple", "Car giveaways", "Book recommendations"],
+  "quotables_short": ["You get a car! You get a car!", "Live your best life"],
+  "controversy_flags": ["Book club influence", "Political endorsements"],
+  "related_ids": ["barack-obama", "deepak-chopra"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

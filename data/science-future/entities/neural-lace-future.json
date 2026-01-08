@@ -1,0 +1,17 @@
+{
+  "id": "neural-lace-future",
+  "type": "science-future",
+  "name": "Neural Lace",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mesh-like electronic interface that grows with and around the brain, enabling high-bandwidth symbiotic AI connection.",
+  "tags": ["futuristic", "cyborgization", "technical", "innovative"],
+  "angles": ["mesh-mind", "symbiotic-intelligence", "seamless-merge"],
+  "bar_seeds": ["growing the web in the skull", "lace on the cortex", "thinking at light speed"],
+  "related_ids": ["neuralink", "cyborgization"],
+  "field": "Neurotechnology / AI",
+  "hypothesis": "A flexible, injectable mesh can merge with the brain's circulatory or nervous system.",
+  "implications": ["Direct access to internet through thought", "Enhanced cognition", "Protection against AI displacement"],
+  "technologies": ["Flexible Electronics", "Nanotech"],
+  "ethical_concerns": ["Mental privacy", "The loss of the 'natural' human", "Hacking the self"]
+}

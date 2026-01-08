@@ -1,0 +1,17 @@
+{
+  "id": "nunchucks",
+  "type": "weapons-objects",
+  "name": "Nunchucks",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A traditional Okinawan martial arts weapon consisting of two sticks connected by a short chain or rope.",
+  "tags": ["war", "classic", "skill", "asian"],
+  "angles": ["flow", "speed", "discipline"],
+  "bar_seeds": ["spinning sticks", "bruce lee flow", "blunt force rhythm"],
+  "related_ids": ["bruce-lee"],
+  "weapon_type": "Blunt",
+  "range": "Melee",
+  "damage_type": "Bludgeoning",
+  "symbolism": "Martial arts mastery, speed, and flashy skill.",
+  "famous_users": ["Bruce Lee", "Michelangelo (TMNT)"]
+}

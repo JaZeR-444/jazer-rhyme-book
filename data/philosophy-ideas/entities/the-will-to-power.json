@@ -1,0 +1,17 @@
+{
+  "id": "the-will-to-power",
+  "type": "philosophy-ideas",
+  "name": "The Will to Power",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The fundamental drive of all living things to exert their strength and achieve dominance over their environment.",
+  "tags": ["power", "aggressive", "grit", "existence"],
+  "angles": ["primal-drive", "self-assertion", "overcoming-resistance"],
+  "bar_seeds": ["the fire to win", "asserting the self", "nature's engine"],
+  "related_ids": ["the-ubermensch", "nihilism"],
+  "school_of_thought": "Nietzschean Philosophy",
+  "core_question": "Is the drive for power the fundamental nature of life?",
+  "key_philosophers": ["Friedrich Nietzsche"],
+  "paradoxes": [],
+  "modern_application": "Psychology, leadership theory, survivalism."
+}

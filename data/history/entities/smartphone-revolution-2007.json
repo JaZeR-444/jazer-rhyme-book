@@ -1,0 +1,50 @@
+{
+  "id": "smartphone-revolution-2007",
+  "type": "history",
+  "name": "Smartphone Revolution",
+  "aliases": [
+    "Mobile computing era"
+  ],
+  "era": "2007-Present",
+  "tags": [
+    "innovative",
+    "technical",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "The shift to always-connected mobile computing reshaped daily life.",
+  "angles": [
+    "pocket computer",
+    "app economy",
+    "always connected"
+  ],
+  "bar_seeds": [
+    "screen in the palm",
+    "apps run the day",
+    "tap to the world"
+  ],
+  "key_dates": [
+    "2007 (iPhone launch)",
+    "2008 (app stores)"
+  ],
+  "location": "Global",
+  "impact": "Changed communication, commerce, and the digital economy.",
+  "major_figures": [
+    "Steve Jobs"
+  ],
+  "cultural_shift": "Mobile-first behavior became the norm.",
+  "related_ids": [
+    "smartphone",
+    "internet-of-things"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Smartphone",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

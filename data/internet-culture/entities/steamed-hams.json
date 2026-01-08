@@ -1,0 +1,18 @@
+{
+  "id": "steamed-hams",
+  "type": "internet-culture",
+  "name": "Steamed Hams",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A scene from The Simpsons that became a massive source of video remixes and linguistic deconstruction.",
+  "tags": ["classic", "remix", "technical", "community"],
+  "angles": ["aurora-borealis", "skinner-and-chalmers", "unforgettable-luncheon"],
+  "bar_seeds": ["localized entirely in your kitchen", "steamed clams", "isometric exercise"],
+  "related_ids": [],
+  "format": "Video Remix / Copypasta",
+  "origin_platform": "YouTube / 4chan",
+  "meaning": "A testament to the internet's ability to obsess over a specific, awkward 90s television moment.",
+  "remix_rules": ["Increasingly verbose", "Replacing every 'ham' with a different word", "Genre-swapped edits"],
+  "lifespan_risk": "Legendary (Simpsons fandom)",
+  "example_lines": ["At this time of year? Steamed hams in the kitchen", "Patented Skinner burgers, old family recipe"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "the-silk-road",
+  "type": "history",
+  "name": "The Silk Road",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A network of trade routes connecting the East and West, central to cultural interaction through regions of the Asian continent.",
+  "tags": ["classic", "global", "luxury", "ancient"],
+  "angles": ["trade", "exchange", "travel"],
+  "bar_seeds": ["caravan trails", "spice and silk", "bridging the worlds"],
+  "key_dates": ["130 BC", "1453 AD"],
+  "location": "Asia / Europe / Africa",
+  "impact": "Facilitated the exchange of goods, ideas, and religions across the known world.",
+  "major_figures": ["Marco Polo", "Zhang Qian"],
+  "cultural_shift": "The first true wave of globalization and cross-continental interdependence."
+}

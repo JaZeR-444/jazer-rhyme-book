@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/media.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "platform_type": {
+      "type": "string"
+    },
+    "user_demographic": {
+      "type": "string"
+    },
+    "content_format": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "algorithm_bias": {
+      "type": "string"
+    },
+    "slang": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "delorean-dmc-12",
+  "type": "vehicles",
+  "name": "DeLorean DMC-12",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A stainless steel sports car with gull-wing doors, famous for traveling through time.",
+  "tags": ["vintage", "sci-fi", "80s", "iconic"],
+  "angles": ["time-travel", "nostalgia", "steel"],
+  "bar_seeds": ["88 miles per hour", "flux capacitor", "stainless steel wings"],
+  "related_ids": [],
+  "vehicle_type": "Sports Car",
+  "engine_type": "PRV V6",
+  "top_speed": "110 mph",
+  "cultural_status": "A pop culture icon thanks to Back to the Future.",
+  "design_features": ["Gull-wing doors", "Brushed stainless steel body", "Giugiaro design"]
+}

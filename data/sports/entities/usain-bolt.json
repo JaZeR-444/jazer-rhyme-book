@@ -1,0 +1,27 @@
+{
+  "id": "usain-bolt",
+  "type": "sports",
+  "name": "Usain Bolt",
+  "aliases": ["Lightning Bolt"],
+  "era": "2000s-2010s",
+  "tags": ["championship", "legacy", "clutch", "athlete", "mainstream", "vibrant"],
+  "one_liner": "Jamaican sprinter and world record holder known for unmatched speed and showmanship.",
+  "angles": ["lightning speed", "showman champion", "world record standard"],
+  "bar_seeds": ["bolt like lightning", "9.58 on the clock", "victory pose"],
+  "team_size": "1 (Track sprinting)",
+  "key_skills": ["Explosive start", "Top-end speed", "Stride efficiency"],
+  "equipment": ["Spikes", "Starting blocks"],
+  "metaphors": ["lightning", "unbeatable pace"],
+  "legends": ["100m and 200m world records", "Olympic gold sweep"],
+  "related_ids": ["momentum", "vibration"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Usain_Bolt",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

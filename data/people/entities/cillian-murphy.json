@@ -1,0 +1,17 @@
+{
+  "id": "cillian-murphy",
+  "type": "people",
+  "name": "Cillian Murphy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An intense Irish actor with piercing blue eyes, known for playing complex, often tormented characters.",
+  "tags": ["cinematic", "dark", "stoicism", "cool"],
+  "angles": ["intensity", "eyes", "mystery"],
+  "bar_seeds": ["peaky blinders cap", "oppenheimer stare", "by order of"],
+  "related_ids": [],
+  "known_for": ["Peaky Blinders", "Oppenheimer", "Batman Begins"],
+  "vibe": "Quietly terrifying, intelligent",
+  "signature_items": ["Flat cap", "Cigarette", "Blue eyes"],
+  "quotables_short": ["No fighting!", "I am become death"],
+  "controversy_flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sphinx-mythology",
+  "type": "mythology-legend",
+  "name": "Sphinx",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mythical creature with the head of a human and the body of a lion, known for its riddles and guardianship.",
+  "tags": ["classic", "intellectual", "ancient", "mystery"],
+  "angles": ["the-riddle", "guardianship", "hybrid-nature"],
+  "bar_seeds": ["answer the riddle or die", "lion body human head", "silent guardian"],
+  "related_ids": ["ancient-egypt", "ancient-greece"],
+  "origin_culture": "Egyptian / Greek",
+  "deity_type": "Mythical Creature / Guardian",
+  "powers": ["Riddle-making", "Guardianship", "Wisdom"],
+  "symbols": ["Riddle", "Lion", "Pyramids"],
+  "modern_parallels": ["Gatekeepers", "Cryptic advisors", "Security systems"]
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/base.entity.schema.json",
+  "title": "Base Entity",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "created_at",
+    "updated_at",
+    "one_liner",
+    "tags",
+    "angles",
+    "bar_seeds",
+    "related_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "brand",
+        "cinema",
+        "internet-culture",
+        "lingo",
+        "music",
+        "people",
+        "place",
+        "tech",
+        "writing-tool",
+        "history",
+        "sports",
+        "fashion",
+        "vehicles",
+        "weapons-objects",
+        "philosophy-ideas",
+        "emotions-states",
+        "aesthetics-visuals",
+        "business-economics",
+        "science-future",
+        "mythology-legend",
+        "architecture-spaces",
+        "rituals-symbols",
+        "time-energy",
+        "media-platforms"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "era": {
+      "type": "string",
+      "description": "e.g. '1990s', '2020s', '1999'"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "one_liner": {
+      "type": "string",
+      "maxLength": 280
+    },
+    "angles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bar_seeds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "type"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "type": { "type": "string", "enum": ["article", "video", "book", "interview", "wiki", "other"] },
+          "accessed_at": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}

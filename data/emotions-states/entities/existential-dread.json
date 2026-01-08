@@ -1,0 +1,17 @@
+{
+  "id": "existential-dread",
+  "type": "emotions-states",
+  "name": "Existential Dread",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deep-seated anxiety about the meaning of life and the inevitability of death.",
+  "tags": ["anxiety", "philosophical-ideas", "dark", "existence"],
+  "angles": ["meaninglessness", "mortality", "void"],
+  "bar_seeds": ["staring at the ceiling", "what's it all for", "fading into static"],
+  "intensity": "High",
+  "physical_symptoms": ["Shortness of breath", "Chest tightness", "Restlessness"],
+  "triggers": ["Significant birthdays", "Late night reflection", "Loss of a loved one"],
+  "action_urge": "To find meaning or escape through distraction.",
+  "opposites": ["Faith", "Contentment"],
+  "related_ids": ["anxiety", "burnout"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bodega",
+  "type": "architecture-spaces",
+  "name": "Bodega",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A small convenience store in NYC, serving as a community hub and source of essentials.",
+  "tags": ["urban", "community", "nyc", "grit"],
+  "angles": ["convenience", "neighborhood", "cat"],
+  "bar_seeds": ["chopped cheese", "bodega cat", "corner store"],
+  "related_ids": [],
+  "style": "Urban Commercial",
+  "materials": ["Shelves", "Glass", "Tile"],
+  "spatial_qualities": ["Cramped", "Colorful", "Busy"],
+  "function": "Retail / Community Hub",
+  "famous_examples": ["NYC Corner Store"]
+}

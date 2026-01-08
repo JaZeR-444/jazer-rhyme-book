@@ -1,0 +1,56 @@
+{
+  "id": "deconstructed-fashion",
+  "type": "fashion",
+  "name": "Deconstructed Fashion",
+  "aliases": [
+    "Deconstruction"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "avant-garde",
+    "high-fashion",
+    "innovative",
+    "contemporary"
+  ],
+  "one_liner": "Garments designed with exposed seams, asymmetry, and deliberate disruption.",
+  "angles": [
+    "unfinished on purpose",
+    "inside-out design",
+    "rule-breaking couture"
+  ],
+  "bar_seeds": [
+    "seams on display",
+    "inside out flex",
+    "broken silhouette"
+  ],
+  "item_type": "Avant-garde",
+  "material": [
+    "Wool",
+    "Cotton",
+    "Mixed fabrics"
+  ],
+  "cultural_significance": "Challenges traditional construction and beauty norms.",
+  "fit": [
+    "Asymmetric",
+    "Tailored"
+  ],
+  "associated_brands": [
+    "Comme des Garcons",
+    "Maison Margiela",
+    "Yohji Yamamoto"
+  ],
+  "related_ids": [
+    "avant-garde",
+    "haute-couture"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Deconstruction (fashion)",
+      "url": "https://en.wikipedia.org/wiki/Deconstruction_(fashion)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

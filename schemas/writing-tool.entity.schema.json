@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/writing-tool.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "category": {
+      "type": "string"
+    },
+    "what_it_does": {
+      "type": "string"
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workflow_hooks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pitfalls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bar_angles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

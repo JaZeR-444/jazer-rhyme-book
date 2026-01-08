@@ -1,0 +1,18 @@
+{
+  "id": "tryna",
+  "type": "lingo",
+  "name": "Tryna",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Contraction of 'trying to', expressing intent or desire.",
+  "tags": ["slang", "intent", "casual", "contemporary"],
+  "angles": ["aspiration", "action", "desire"],
+  "bar_seeds": ["tryna be the best", "tryna get the bag", "tryna find a way"],
+  "related_ids": ["finna"],
+  "meaning": "Trying to / Intending to.",
+  "usage": "To state a goal or immediate intent.",
+  "origin": "AAVE / General Slang",
+  "region": "Global",
+  "example_lines": ["I'm tryna see what's up", "He's tryna act like he don't know"],
+  "do_not_use_if": ["In a formal legal document"]
+}

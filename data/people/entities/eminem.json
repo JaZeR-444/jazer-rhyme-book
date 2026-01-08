@@ -1,0 +1,20 @@
+{
+  "id": "eminem",
+  "type": "people",
+  "name": "Eminem",
+  "aliases": ["Slim Shady", "Marshall Mathers", "Rabbit"],
+  "era": "2000s-Present",
+  "tags": ["lyrical", "controversial", "detroit", "technical", "battle-rap"],
+  "one_liner": "The technically gifted rap god who brought horrorcore and battle rap to the mainstream.",
+  "angles": ["trailer park to mansion", "angry blonde", "technical wizardry"],
+  "bar_seeds": ["8 mile", "mom's spaghetti", "stan", "bleached hair"],
+  "known_for": ["The Marshall Mathers LP", "The Eminem Show", "8 Mile"],
+  "vibe": "Manic, aggressive, precise",
+  "signature_items": ["Hoodie", "Bleached hair (early era)", "Kangol hat"],
+  "quotables_short": ["Will the real Slim Shady please stand up", "You only get one shot"],
+  "controversy_flags": ["Misogyny accusations", "Pop star feuds"],
+  "related_ids": ["dr-dre", "50-cent"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "anthony-bourdain",
+  "type": "people",
+  "name": "Anthony Bourdain",
+  "aliases": ["Tony"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A chef, author, and travel documentarian who explored the world through food and human connection with raw honesty.",
+  "tags": ["grit", "global", "culture", "poetic"],
+  "angles": ["kitchen-confidential", "parts-unknown", "curious-observer"],
+  "bar_seeds": ["kitchen confidential", "no reservations", "street food wisdom"],
+  "related_ids": [],
+  "known_for": ["Kitchen Confidential", "Parts Unknown", "Food Culture"],
+  "vibe": "Cool, empathetic, world-weary",
+  "signature_items": ["Chef's knife", "Watch", "Passport"],
+  "quotables_short": ["Your body is not a temple, it's an amusement park.", "Travel changes you."],
+  "controversy_flags": ["Drug addiction history", "Suicide"]
+}

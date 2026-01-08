@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/vehicle.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "vehicle_type": {
+      "type": "string"
+    },
+    "engine_type": {
+      "type": "string"
+    },
+    "top_speed": {
+      "type": "string"
+    },
+    "cultural_status": {
+      "type": "string"
+    },
+    "design_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

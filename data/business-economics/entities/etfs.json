@@ -1,0 +1,17 @@
+{
+  "id": "etfs",
+  "type": "business-economics",
+  "name": "Exchange Traded Funds (ETFs)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A type of pooled investment security that operates much like a mutual fund but is traded on a stock exchange.",
+  "tags": ["wealth", "strategy", "stock-market", "technical"],
+  "angles": ["diversification-at-scale", "passive-index", "market-basket"],
+  "bar_seeds": ["buying the index", "s-and-p 500", "passive portfolio"],
+  "related_ids": ["stock-market", "asset-allocation"],
+  "industry": "Finance",
+  "core_principle": "Pooled investment traded as a single stock.",
+  "jargon": ["Expense ratio", "Index fund", "Liquidity"],
+  "key_metrics": ["AUM (Assets Under Management)", "Yield"],
+  "archetypes": ["Passive Investor", "Asset Manager"]
+}

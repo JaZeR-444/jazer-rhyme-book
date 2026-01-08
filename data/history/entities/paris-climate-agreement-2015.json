@@ -1,0 +1,50 @@
+{
+  "id": "paris-climate-agreement-2015",
+  "type": "history",
+  "name": "Paris Climate Agreement",
+  "aliases": [
+    "Paris Agreement"
+  ],
+  "era": "2015",
+  "tags": [
+    "peace",
+    "political",
+    "mainstream",
+    "legacy"
+  ],
+  "one_liner": "Global accord to limit climate change through emissions targets.",
+  "angles": [
+    "planet pact",
+    "emissions targets",
+    "global cooperation"
+  ],
+  "bar_seeds": [
+    "heat line in the sand",
+    "world on one page",
+    "green promises"
+  ],
+  "key_dates": [
+    "2015-12 (agreement adopted)",
+    "2016 (entered into force)"
+  ],
+  "location": "Paris / Global",
+  "impact": "Set international frameworks for climate policy and emissions reduction.",
+  "major_figures": [
+    "Laurent Fabius",
+    "Barack Obama"
+  ],
+  "cultural_shift": "Climate policy became a central global agenda item.",
+  "related_ids": [
+    "climate-strike-movement"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paris_Agreement",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ponzi-scheme",
+  "type": "business-economics",
+  "name": "Ponzi Scheme",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fraudulent investing scam promising high rates of return with little risk to investors.",
+  "tags": ["crime", "dark", "scam", "wealth"],
+  "angles": ["deception", "greed", "collapse"],
+  "bar_seeds": ["robbing peter to pay paul", "house of cards", "fake returns"],
+  "related_ids": ["white-collar-crime"],
+  "industry": "Fraud",
+  "core_principle": "Using new investor money to pay old investors.",
+  "jargon": ["Pyramid", "Madoff", "Redemption"],
+  "key_metrics": ["New Capital Inflow", "Withdrawal Requests"],
+  "archetypes": ["Con Artist", "Victim"]
+}

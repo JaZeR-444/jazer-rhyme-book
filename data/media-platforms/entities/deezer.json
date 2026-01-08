@@ -1,0 +1,17 @@
+{
+  "id": "deezer",
+  "type": "media-platforms",
+  "name": "Deezer",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A French music streaming service with a massive global catalog and a focus on personalized recommendations.",
+  "tags": ["global", "music", "technical", "mainstream"],
+  "angles": ["global-reach", "personalized-flow", "high-fidelity"],
+  "bar_seeds": ["flow by deezer", "international sounds", "lossless streaming"],
+  "related_ids": ["spotify", "tidal"],
+  "platform_type": "Audio Streaming",
+  "user_demographic": "International Users, Tech Savvy listeners",
+  "content_format": ["Audio", "Podcasts", "Radio"],
+  "algorithm_bias": "Heavy focus on 'Flow' (personalized endless playlist).",
+  "slang": ["Flow", "Deezer Sessions"]
+}

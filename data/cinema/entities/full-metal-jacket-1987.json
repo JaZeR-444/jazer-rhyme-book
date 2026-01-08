@@ -1,0 +1,18 @@
+{
+  "id": "full-metal-jacket-1987",
+  "type": "cinema",
+  "name": "Full Metal Jacket",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+  "tags": ["war", "grit", "psychological", "classic"],
+  "angles": ["dehumanization", "dual-nature-of-man", "military-precision"],
+  "bar_seeds": ["born to kill", "peace sign on the helmet", "thousand yard stare"],
+  "related_ids": ["apocalypse-now-1979"],
+  "era": "1987",
+  "plot_hooks": ["Boot camp trauma", "The sniper in Hue", "Pyle's breakdown"],
+  "iconic_scenes": ["Drill Sergeant monologue", "Pyle in the bathroom", "The Mickey Mouse march"],
+  "visual_motifs": ["Symmetrical barracks", "Thousand yard stare", "Mickey Mouse ears"],
+  "themes": ["Loss of identity", "Hypocrisy", "The machine of war"],
+  "quotables_short": ["I am in a world of shit.", "Born to Kill."]
+}

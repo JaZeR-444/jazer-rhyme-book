@@ -1,0 +1,14 @@
+{
+  "name": "jazer-master-flow-knowledge-hub",
+  "version": "1.0.0",
+  "description": "Creative knowledge base for rap/music writing retrieval.",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build-indexes.js"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  }
+}

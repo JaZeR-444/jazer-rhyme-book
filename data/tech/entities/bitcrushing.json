@@ -1,0 +1,18 @@
+{
+  "id": "bitcrushing",
+  "type": "tech",
+  "name": "Bitcrushing",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A digital audio effect which produces distortion by the reduction of the resolution or bandwidth of digital audio data.",
+  "tags": ["technical", "lo-fi", "music", "glitch"],
+  "angles": ["digital-distortion", "low-res-soul", "crushing-the-signal"],
+  "bar_seeds": ["8-bit grit", "crushing the sample", "digital noise"],
+  "related_ids": ["lo-fi-hip-hop-genre", "glitch-art"],
+  "category": "Audio Software",
+  "what_it_is": "A process that reduces bit depth or sample rate to create harmonic distortion.",
+  "why_it_matters": "The key ingredient for the lo-fi and industrial audio aesthetics.",
+  "risks": ["Aliasing", "Harshness", "Loss of detail"],
+  "metaphors": ["Sanding down the bits", "Digital rot", "The sound of the machine breaking"],
+  "keywords": ["Bit depth", "Sample rate", "Distortion", "Lo-fi", "Aliasing"]
+}

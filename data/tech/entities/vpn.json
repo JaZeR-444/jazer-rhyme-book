@@ -1,0 +1,20 @@
+{
+  "id": "vpn",
+  "type": "tech",
+  "name": "VPN",
+  "aliases": ["Virtual Private Network"],
+  "era": "1990s-Present",
+  "tags": ["technical", "security", "privacy", "software"],
+  "one_liner": "A service that creates a safe, encrypted connection over a less secure network, such as the internet.",
+  "angles": ["digital invisibility", "borderless browsing", "the encrypted tunnel"],
+  "bar_seeds": ["hiding the ip", "location jumping", "safe passage"],
+  "related_ids": ["cybersecurity"],
+  "category": "Software / Security",
+  "what_it_is": "Virtual Private Network; extends a private network across a public network.",
+  "why_it_matters": "Essential for privacy, bypassing censorship, and remote work security.",
+  "risks": ["Untrustworthy providers", "False sense of total security", "Speed reduction"],
+  "metaphors": ["A hooded cloak for the web", "A secret tunnel", "A digital passport"],
+  "keywords": ["Encryption", "IP Address", "Tunneling", "Node", "Zero-logs"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

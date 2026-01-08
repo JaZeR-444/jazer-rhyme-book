@@ -1,0 +1,59 @@
+{
+  "id": "google",
+  "type": "brand",
+  "name": "Google",
+  "aliases": [
+    "Alphabet",
+    "Big G",
+    "Search Engine"
+  ],
+  "era": "1998-Present",
+  "tags": [
+    "search",
+    "ai",
+    "advertising",
+    "ubiquitous",
+    "innovative"
+  ],
+  "one_liner": "The search giant that expanded into every aspect of digital life.",
+  "angles": [
+    "search dominance",
+    "data collection",
+    "AI integration"
+  ],
+  "bar_seeds": [
+    "Don't be evil (used to)",
+    "Search everything",
+    "Data is king"
+  ],
+  "related_ids": [
+    "alphabet",
+    "android"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Google official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Technology/Internet",
+  "price_tier": "Free to Premium",
+  "signature_products": [
+    "Google Search",
+    "Android",
+    "Gmail"
+  ],
+  "status_signals": [
+    "Colorful logo",
+    "Global reach"
+  ],
+  "bar_angles": [
+    "search",
+    "data",
+    "ai"
+  ]
+}

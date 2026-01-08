@@ -1,0 +1,18 @@
+{
+  "id": "trap-music",
+  "type": "music",
+  "name": "Trap Music",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of hip-hop originating from the Southern US, known for its deep 808s and rapid hi-hats.",
+  "tags": ["trap", "hustle", "contemporary", "vibrant"],
+  "angles": ["the-trap-house", "hustle-narrative", "digital-bass"],
+  "bar_seeds": ["skittering hats", "booming 808", "kitchen cook up"],
+  "related_ids": ["future", "migos", "travis-scott"],
+  "genre": ["Hip Hop", "Southern Rap"],
+  "era_detail": "2000s - Present",
+  "signature_songs": ["March Madness", "Hard in da Paint", "Bad and Boujee"],
+  "sonic_descriptors": ["Double-time hi-hats", "Sub-bass", "Dark synths", "Aggressive ad-libs"],
+  "influence_tree": ["Miami Bass", "Dirty South", "Crunk"],
+  "aesthetic": "Chain Flash and Cups"
+}

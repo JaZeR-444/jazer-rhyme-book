@@ -1,0 +1,17 @@
+{
+  "id": "versace",
+  "type": "brand",
+  "name": "Versace",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Italian luxury fashion company known for its flashy prints and bright colors.",
+  "tags": ["luxury", "vibrant", "opulence", "iconic"],
+  "angles": ["medusa", "gold", "excess"],
+  "bar_seeds": ["medusa head on me", "versace silk", "migos flow"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["Silk Shirts", "Medusa Logo", "Chain Reaction Sneakers"],
+  "status_signals": ["Gold baroque prints", "Medusa head logo"],
+  "bar_angles": ["Living loud", "Italian mob wife aesthetic", "Gold on gold"]
+}

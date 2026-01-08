@@ -1,0 +1,17 @@
+{
+  "id": "tesla-cybertruck",
+  "type": "vehicles",
+  "name": "Tesla Cybertruck",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A polarizing, stainless steel electric polygon straight out of a dystopian future.",
+  "tags": ["futuristic", "technical", "industrial", "controversial"],
+  "angles": ["geometry", "electric", "durability"],
+  "bar_seeds": ["stainless steel", "bulletproof glass", "mars rover"],
+  "related_ids": ["tesla-model-s"],
+  "vehicle_type": "Pickup Truck",
+  "engine_type": "Electric",
+  "top_speed": "130 mph",
+  "cultural_status": "A meme, a status symbol, and a brutalist statement piece.",
+  "design_features": ["Exoskeleton", "Triangle silhouette", "Light bar"]
+}

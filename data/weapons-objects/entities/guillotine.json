@@ -1,0 +1,17 @@
+{
+  "id": "guillotine",
+  "type": "weapons-objects",
+  "name": "Guillotine",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A heavy blade sliding in vertical guides, used for beheading.",
+  "tags": ["grit", "history", "revolution", "dark"],
+  "angles": ["finality", "gravity", "justice"],
+  "bar_seeds": ["sharp descent", "basket for the head", "reign of terror"],
+  "related_ids": [],
+  "weapon_type": "Blade",
+  "range": "Melee",
+  "damage_type": "Slashing",
+  "symbolism": "The ultimate end of power, radical revolution, and clinical execution.",
+  "famous_users": ["Maximilien Robespierre", "French Revolutionaries"]
+}

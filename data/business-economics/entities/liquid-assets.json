@@ -1,0 +1,17 @@
+{
+  "id": "liquid-assets",
+  "type": "business-economics",
+  "name": "Liquid Assets",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Assets that can be easily, securely, and quickly exchanged for legal tender.",
+  "tags": ["wealth", "utility", "security", "technical"],
+  "angles": ["cash", "speed", "access"],
+  "bar_seeds": ["cash on hand", "staying liquid", "ready to move"],
+  "related_ids": ["stack-of-cash"],
+  "industry": "Finance",
+  "core_principle": "Accessibility of value.",
+  "jargon": ["Liquidity", "Cash equivalents", "Solvency"],
+  "key_metrics": ["Current Ratio", "Quick Ratio"],
+  "archetypes": ["Treasurer", "High Net Worth Individual"]
+}

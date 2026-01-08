@@ -1,0 +1,17 @@
+{
+  "id": "indie-sleaze",
+  "type": "aesthetics-visuals",
+  "name": "Indie Sleaze",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hedonistic, messy aesthetic from the late 2000s characterized by flash photography, vintage filters, and a party lifestyle.",
+  "tags": ["00s", "rebellion", "lo-fi", "culture"],
+  "angles": ["party", "messy", "amateur"],
+  "bar_seeds": ["flash in the dark", "American Apparel days", "tangled headphones"],
+  "related_ids": [],
+  "visual_elements": ["Flash photography", "Polaroids", "Messy rooms", "Neon lights"],
+  "mood": "Chaotic, fun, youthful",
+  "associated_eras": ["2000s", "2010s"],
+  "color_palette": ["Yellowish White", "Shadow Black", "Saturation Red", "Neon Blue"],
+  "fashion_staples": ["Skinny jeans", "Metallic leggings", "Headbands", "Graphic tank tops"]
+}

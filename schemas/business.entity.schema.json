@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/business.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "industry": {
+      "type": "string"
+    },
+    "core_principle": {
+      "type": "string"
+    },
+    "jargon": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "archetypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,27 @@
+{
+  "controlled_vocabulary": [
+    "luxury", "grit", "futuristic", "vintage", "streetwear", "high-fashion",
+    "cyberpunk", "lo-fi", "industrial", "organic", "minimalist", "maximalist",
+    "90s", "00s", "contemporary", "classic", "underground", "mainstream",
+    "political", "esoteric", "aggressive", "mellow", "dark", "vibrant",
+    "technical", "lyrical", "abstract", "storytelling", "satirical", "braggadocio",
+    "hustle", "spirituality", "rebellion", "legacy", "innovative", "cult-classic",
+    "main-character-energy", "villain-arc", "surreal", "cinematic", "nostalgic",
+    "hyperpop", "boom-bap", "trap", "drill", "soulful", "synthetic", "raw",
+    "revolution", "empire", "renaissance", "war", "peace", "colony",
+    "championship", "underdog", "dynasty", "clutch", "athlete",
+    "couture", "silhouette", "avant-garde", "trend", "uniform",
+    "speed", "transport", "engine", "aerodynamic", "luxury-car",
+    "relic", "tool", "artifact", "blade", "symbolic-object",
+    "stoicism", "existentialism", "logic", "ethics", "metaphysics",
+    "euphoria", "melancholy", "rage", "anxiety", "zen",
+    "neon", "noir", "pastel", "gothic", "baroque",
+    "bear-market", "bull-market", "monopoly", "startup", "crash",
+    "quantum", "entropy", "singularity", "space-travel", "genetic",
+    "deity", "hero", "monster", "trickster", "folklore",
+    "brutalist", "skyscraper", "ruin", "sanctuary", "interior",
+    "initiation", "ceremony", "omen", "totem", "taboo",
+    "cyclical", "eternal", "fleeting", "momentum", "stasis",
+    "streaming", "broadcast", "viral", "social-media", "analog"
+  ]
+}

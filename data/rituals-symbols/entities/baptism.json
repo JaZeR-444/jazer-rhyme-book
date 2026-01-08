@@ -1,0 +1,17 @@
+{
+  "id": "baptism",
+  "type": "rituals-symbols",
+  "name": "Baptism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Christian rite of admission and adoption, almost invariably with the use of water.",
+  "tags": ["ritual", "purification", "spiritual", "classic"],
+  "angles": ["rebirth", "cleansing", "initiation"],
+  "bar_seeds": ["wash away the sins", "under the water", "born again"],
+  "related_ids": ["purification", "initiation"],
+  "purpose": "To signify rebirth and the removal of sins.",
+  "steps": ["Immersion in or sprinkling of water", "Recitation of holy names", "Witnessing by community"],
+  "objects_used": ["Water", "Font", "White robes"],
+  "participants": "Clergy, Candidate, Godparents",
+  "outcome": "Spiritual purity and inclusion in the faith."
+}

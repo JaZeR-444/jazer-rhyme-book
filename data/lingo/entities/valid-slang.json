@@ -1,0 +1,18 @@
+{
+  "id": "valid-slang",
+  "type": "lingo",
+  "name": "Valid",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Describing something that is good, acceptable, or high quality.",
+  "tags": ["slang", "positive", "approval", "contemporary"],
+  "angles": ["legitimacy", "quality", "approval"],
+  "bar_seeds": ["that's valid", "staying valid", "vibe check passed"],
+  "related_ids": [],
+  "meaning": "Good / Real / Approved.",
+  "usage": "To confirm that something is worthy of respect or attention.",
+  "origin": "AAVE / NYC Slang",
+  "region": "Global Urban",
+  "example_lines": ["That new track is valid", "He's valid in my city"],
+  "do_not_use_if": ["You are talking about a legal document (use 'expired' or 'active')"]
+}

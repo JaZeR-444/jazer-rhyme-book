@@ -1,0 +1,21 @@
+{
+  "id": "the-1975",
+  "type": "music",
+  "name": "The 1975",
+  "aliases": ["Matty Healy", "1975"],
+  "era": "2002-Present",
+  "tags": ["indie", "pop", "evolving", "lyrical", "genre-blending"],
+  "one_liner": "A British band known for genre-blending music and Matty Healy's distinctive vocals.",
+  "angles": ["genre-blending", "evolving sound", "lyrical themes"],
+  "bar_seeds": ["the 1975", "i like it when you sleep", "a brief inquiry", "notes on a conditional form"],
+  "genre": ["Indie Pop", "Alternative", "Synth Pop"],
+  "era_detail": "Formed in 2002, breakthrough in 2010s.",
+  "signature_songs": ["Somebody Else", "Chocolate", "Robbers"],
+  "sonic_descriptors": ["genre-blending", "evolving", "pop-influenced"],
+  "influence_tree": ["Various genres", "80s pop"],
+  "aesthetic": "Genre-blending, evolving, pop-influenced",
+  "related_ids": ["cavetown", "declan-mckenna"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cheems",
+  "type": "internet-culture",
+  "name": "Cheems",
+  "aliases": [
+    "Balltze"
+  ],
+  "era": "2017-Present",
+  "tags": [
+    "vibrant",
+    "surreal",
+    "contemporary"
+  ],
+  "one_liner": "A Shiba Inu dog used in captioned memes with playful misspellings.",
+  "angles": [
+    "cute but awkward",
+    "soft meme energy",
+    "silly misspellings"
+  ],
+  "bar_seeds": [
+    "cheemsburger",
+    "doge cousin",
+    "soft voice"
+  ],
+  "related_ids": [
+    "doge",
+    "wojak"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/cheems",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Facebook/Reddit",
+  "meaning": "Used to show timid or awkward expressions with playful language.",
+  "remix_rules": [
+    "Use intentional misspellings",
+    "Keep the dog image"
+  ],
+  "lifespan_risk": "Medium (character-based)",
+  "example_lines": [
+    "listening to my own track at 2am, cheems"
+  ]
+}

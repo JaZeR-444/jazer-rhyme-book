@@ -1,0 +1,49 @@
+{
+  "id": "fall-of-berlin-wall-1989",
+  "type": "history",
+  "name": "Fall of the Berlin Wall",
+  "aliases": [
+    "Berlin Wall falls"
+  ],
+  "era": "1989",
+  "tags": [
+    "political",
+    "legacy",
+    "mainstream",
+    "peace"
+  ],
+  "one_liner": "The Berlin Wall opened, symbolizing the end of Cold War division in Europe.",
+  "angles": [
+    "barriers crumble",
+    "freedom surge",
+    "end of an era"
+  ],
+  "bar_seeds": [
+    "walls coming down",
+    "city reunites",
+    "iron curtain fades"
+  ],
+  "key_dates": [
+    "1989-11-09"
+  ],
+  "location": "Berlin, Germany",
+  "impact": "Accelerated German reunification and the collapse of Eastern Bloc regimes.",
+  "major_figures": [
+    "Mikhail Gorbachev",
+    "Ronald Reagan"
+  ],
+  "cultural_shift": "Became a global symbol of freedom and reunification.",
+  "related_ids": [
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Wall",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

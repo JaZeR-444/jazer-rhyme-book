@@ -1,0 +1,18 @@
+{
+  "id": "fight-club-1999",
+  "type": "cinema",
+  "name": "Fight Club",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker.",
+  "tags": ["cult-classic", "dark", "philosophical-ideas", "rebellion"],
+  "angles": ["masculinity", "consumerism", "duality"],
+  "bar_seeds": ["first rule of fight club", "soap maker", "project mayhem"],
+  "related_ids": [],
+  "era": "1999",
+  "plot_hooks": ["Underground fighting", "Destroying credit records", "Split personality"],
+  "iconic_scenes": ["Chemical burn", "The end buildings falling", "I want you to hit me"],
+  "visual_motifs": ["Subliminal frames", "Grime", "IKEA catalogs"],
+  "themes": ["Anti-consumerism", "Existential dread", "Anarchy"],
+  "quotables_short": ["I am Jack's complete lack of surprise.", "It's only after we've lost everything..."]
+}

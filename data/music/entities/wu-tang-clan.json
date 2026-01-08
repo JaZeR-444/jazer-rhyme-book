@@ -1,0 +1,57 @@
+{
+  "id": "wu-tang-clan",
+  "type": "music",
+  "name": "Wu-Tang Clan",
+  "aliases": [
+    "Wu-Tang",
+    "The Clan"
+  ],
+  "era": "1992-Present",
+  "tags": [
+    "grit",
+    "lyrical",
+    "legacy"
+  ],
+  "one_liner": "American hip hop group from Staten Island, New York City, original and influential.",
+  "angles": [
+    "Shaolin mythology",
+    "gritty production",
+    "group dynamic"
+  ],
+  "bar_seeds": [
+    "Wu-Tang style, Shaolin in the mental",
+    "Protect ya neck when the bars hit"
+  ],
+  "related_ids": [
+    "rza",
+    "method-man"
+  ],
+  "created_at": "2025-12-23T10:45:00Z",
+  "updated_at": "2025-12-23T10:45:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "genre": [
+    "Hip Hop",
+    "Hardcore Rap"
+  ],
+  "era_detail": "90s East Coast Hip Hop renaissance.",
+  "signature_songs": [
+    "C.R.E.A.M.",
+    "Protect Ya Neck"
+  ],
+  "sonic_descriptors": [
+    "Raw",
+    "Lo-fi",
+    "Kung-fu samples"
+  ],
+  "influence_tree": [
+    "Almost all modern hip hop"
+  ],
+  "aesthetic": "Streetwear, yellow and black, martial arts motifs"
+}

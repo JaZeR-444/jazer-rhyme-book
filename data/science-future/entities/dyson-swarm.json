@@ -1,0 +1,17 @@
+{
+  "id": "dyson-swarm",
+  "type": "science-future",
+  "name": "Dyson Swarm",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A more realistic version of a Dyson Sphere, consisting of millions of independent power-collecting satellites orbiting a star.",
+  "tags": ["futuristic", "massive", "energy", "technical"],
+  "angles": ["star-harvest", "incremental-godhood", "swarm-intelligence"],
+  "bar_seeds": ["cloud of mirrors", "eating the sunlight", "solar collectors in orbit"],
+  "related_ids": ["dyson-sphere", "type-ii-civilization"],
+  "field": "Futurism / Mega-engineering",
+  "hypothesis": "Stars can be incrementally wrapped in satellites to capture nearly all radiant energy.",
+  "implications": ["Endless power for computation", "Ability to move star systems", "Signs of alien civilizations (technosignatures)"],
+  "technologies": ["Self-Replicating Robotics", "Solar Sails"],
+  "ethical_concerns": ["Resource stripping of planets", "Occlusion of light for other worlds"]
+}

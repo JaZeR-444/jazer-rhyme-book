@@ -1,0 +1,19 @@
+{
+  "id": "boxing-sport",
+  "type": "sports",
+  "name": "Boxing",
+  "aliases": ["The Sweet Science", "The Squared Circle"],
+  "era": "Ancient-Present",
+  "tags": ["boxing", "grit", "raw", "combat"],
+  "one_liner": "The combat sport of punching, known as the 'Sweet Science' for its blend of brutality and strategic depth.",
+  "angles": ["the sweet science", "survival in the ring", "unyielding spirit"],
+  "bar_seeds": ["jab cross hook", "towel in the ring", "saving by the bell"],
+  "team_size": "1 vs 1",
+  "key_skills": ["Punching", "Footwork", "Durability"],
+  "equipment": ["Gloves", "Wraps", "Ring"],
+  "metaphors": ["The world is a ring", "Roll with the punches"],
+  "legends": ["Ali", "Tyson", "Mayweather"],
+  "related_ids": ["muhammad-ali", "mike-tyson"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

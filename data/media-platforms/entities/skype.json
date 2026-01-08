@@ -1,0 +1,17 @@
+{
+  "id": "skype",
+  "type": "media-platforms",
+  "name": "Skype",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A telecommunications application that specializes in providing video chat and voice calls between computers and mobile devices.",
+  "tags": ["classic", "utility", "business", "vintage"],
+  "angles": ["early-video-call", "long-distance-connection", "corporate-legacy"],
+  "bar_seeds": ["skype ringing", "pixelated face", "connecting the world"],
+  "related_ids": ["zoom"],
+  "platform_type": "Video Communication",
+  "user_demographic": "Older Professionals, Families, Legacy Users",
+  "content_format": ["Video Call", "Voice Call", "IM"],
+  "algorithm_bias": "N/A",
+  "slang": ["Skyping", "Screen share", "Credits"]
+}

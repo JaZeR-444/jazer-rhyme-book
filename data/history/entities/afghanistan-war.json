@@ -1,0 +1,51 @@
+{
+  "id": "afghanistan-war",
+  "type": "history",
+  "name": "War in Afghanistan",
+  "aliases": [
+    "Afghanistan War"
+  ],
+  "era": "2001-2021",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "Two-decade conflict following 9/11, ending with U.S. withdrawal.",
+  "angles": [
+    "long war",
+    "nation-building",
+    "withdrawal"
+  ],
+  "bar_seeds": [
+    "mountain war",
+    "two decades long",
+    "last helicopter"
+  ],
+  "key_dates": [
+    "2001 (invasion)",
+    "2021 (withdrawal)"
+  ],
+  "location": "Afghanistan",
+  "impact": "Shaped global counterterror policy and regional stability.",
+  "major_figures": [
+    "Hamid Karzai",
+    "George W. Bush"
+  ],
+  "cultural_shift": "War fatigue and debates over intervention intensified.",
+  "related_ids": [
+    "global-war-on-terror",
+    "september-11-attacks-2001"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "de-stijl",
+  "type": "aesthetics-visuals",
+  "name": "De Stijl",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Dutch art movement founded in 1917 that advocated pure abstraction and universality by a reduction to the essentials of form and color.",
+  "tags": ["minimalist", "classic", "abstract", "geometric"],
+  "angles": ["primary colors", "grid", "purity"],
+  "bar_seeds": ["red yellow blue", "black grid lines", "mondrian blocks"],
+  "related_ids": ["minimalist", "bauhaus"],
+  "visual_elements": ["Primary colors", "Black lines", "Rectangles", "White space"],
+  "mood": "Orderly, balanced, utopian",
+  "associated_eras": ["1910s", "1920s"],
+  "color_palette": ["Red", "Blue", "Yellow", "Black", "White"],
+  "fashion_staples": ["Color-blocked dresses", "Geometric jewelry"]
+}

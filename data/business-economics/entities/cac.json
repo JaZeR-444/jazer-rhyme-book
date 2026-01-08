@@ -1,0 +1,17 @@
+{
+  "id": "cac",
+  "type": "business-economics",
+  "name": "Customer Acquisition Cost (CAC)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The cost of winning a customer to purchase a product or service.",
+  "tags": ["technical", "marketing", "business", "metric"],
+  "angles": ["price-of-growth", "advertising-spend", "efficiency"],
+  "bar_seeds": ["burning cash for ads", "cost of entry", "buying the attention"],
+  "related_ids": ["ltv", "attention-economy"],
+  "industry": "Marketing / Business",
+  "core_principle": "Measuring the efficiency of growth efforts.",
+  "jargon": ["Ad spend", "Conversion rate", "Payback period"],
+  "key_metrics": ["Cost per lead", "Total marketing spend"],
+  "archetypes": ["Marketing Director", "Founder"]
+}

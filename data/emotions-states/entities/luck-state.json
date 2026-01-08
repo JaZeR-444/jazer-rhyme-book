@@ -1,0 +1,18 @@
+{
+  "id": "luck-state",
+  "type": "emotions-states",
+  "name": "Luck",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A psychological state or perception of being favored by chance or fortune.",
+  "tags": ["positive", "vibrant", "luck", "meaning"],
+  "angles": ["the-winning-streak", "golden-touch", "random-favor"],
+  "bar_seeds": ["stars aligning", "loaded dice", "destiny calling"],
+  "related_ids": ["serendipity", "casino"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Smiling", "Lightness of step", "Risk-taking behavior"],
+  "triggers": ["Unexpected win", "Near-miss accidents", "Coincidence"],
+  "action_urge": "To take further risks or express gratitude.",
+  "opposites": ["Jinxed", "Cursed", "Misfortune"],
+  "related_ids": ["joy", "serendipity"]
+}

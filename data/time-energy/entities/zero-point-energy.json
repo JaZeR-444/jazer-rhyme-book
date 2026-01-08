@@ -1,0 +1,17 @@
+{
+  "id": "zero-point-energy",
+  "type": "time-energy",
+  "name": "Zero Point Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The lowest possible energy that a quantum mechanical system may have.",
+  "tags": ["quantum", "technical", "esoteric", "energy"],
+  "angles": ["infinite vacuum", "stillness", "unseen power"],
+  "bar_seeds": ["power from the void", "absolute zero", "the energy of empty space"],
+  "related_ids": ["vacuum", "frequency"],
+  "concept_type": "Quantum Physics",
+  "perception": "A sense of infinite potential hidden in nothingness.",
+  "physics_basis": "Heisenberg uncertainty principle.",
+  "cultural_view": "Often featured in sci-fi as a source of clean, infinite power.",
+  "idioms": ["Energy from nothing", "The static of existence", "Bottom of the well"]
+}

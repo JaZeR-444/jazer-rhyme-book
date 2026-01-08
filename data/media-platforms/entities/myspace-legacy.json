@@ -1,0 +1,17 @@
+{
+  "id": "myspace-legacy",
+  "type": "media-platforms",
+  "name": "MySpace (Legacy)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The first major social network, known for customizable profiles, music integration, and the Top 8.",
+  "tags": ["vintage", "00s", "music", "culture"],
+  "angles": ["customization", "nostalgia", "friendship"],
+  "bar_seeds": ["top 8 friends", "tom in the list", "html profile"],
+  "related_ids": ["facebook"],
+  "platform_type": "Social Networking",
+  "user_demographic": "Millennials (formerly)",
+  "content_format": ["Profiles", "Music", "Blogs"],
+  "algorithm_bias": "N/A (User-curated)",
+  "slang": ["Top 8", "Tom", "PC4PC"]
+}

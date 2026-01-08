@@ -1,0 +1,50 @@
+{
+  "id": "russian-invasion-of-ukraine-2022",
+  "type": "history",
+  "name": "Russian Invasion of Ukraine",
+  "aliases": [
+    "2022 invasion of Ukraine"
+  ],
+  "era": "2022-Present",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A full-scale invasion that triggered global condemnation and conflict.",
+  "angles": [
+    "sovereignty under attack",
+    "global sanctions",
+    "resistance"
+  ],
+  "bar_seeds": [
+    "sirens in the city",
+    "sky dark with drones",
+    "defiance on the streets"
+  ],
+  "key_dates": [
+    "2022-02 (invasion begins)"
+  ],
+  "location": "Ukraine",
+  "impact": "Reshaped energy markets, alliances, and European security.",
+  "major_figures": [
+    "Vladimir Putin",
+    "Volodymyr Zelenskyy"
+  ],
+  "cultural_shift": "Renewed focus on sovereignty, defense, and global alliances.",
+  "related_ids": [
+    "russian-annexation-of-crimea-2014",
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

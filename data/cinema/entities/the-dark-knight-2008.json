@@ -1,0 +1,27 @@
+{
+  "id": "the-dark-knight-2008",
+  "type": "cinema",
+  "name": "The Dark Knight",
+  "aliases": ["TDK"],
+  "era": "2008",
+  "tags": ["cinematic", "dark", "classic", "legacy", "mainstream"],
+  "one_liner": "Batman faces the Joker, whose chaos tests Gotham and the limits of justice.",
+  "angles": ["order vs chaos", "moral tradeoffs", "symbol under pressure"],
+  "bar_seeds": ["why so serious", "joker chaos card", "gotham in the dark"],
+  "related_ids": ["goth", "stadium"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": ["A new villain undermines Gotham", "A hero forced to break rules"],
+  "iconic_scenes": ["Interrogation room", "Hospital ferry dilemma"],
+  "visual_motifs": ["Clown mask", "Burning money"],
+  "themes": ["Chaos", "Justice", "Sacrifice"],
+  "quotables_short": ["Why so serious?"]
+}

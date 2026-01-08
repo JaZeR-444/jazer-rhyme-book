@@ -1,0 +1,16 @@
+{
+  "id": "determinism",
+  "type": "philosophy-ideas",
+  "name": "Determinism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophical view that all events, including moral choices, are determined completely by previously existing causes.",
+  "tags": ["logic", "fate", "technical", "scientific"],
+  "angles": ["fate vs choice", "domino effect", "inevitability"],
+  "bar_seeds": ["written in the stars", "biological script", "the dice were loaded"],
+  "school_of_thought": "Causal Determinism",
+  "core_question": "Is free will an illusion?",
+  "key_philosophers": ["Baruch Spinoza", "Pierre-Simon Laplace"],
+  "paradoxes": ["Laplace's Demon"],
+  "modern_application": "Neuroscience, AI predictions, genetic engineering."
+}

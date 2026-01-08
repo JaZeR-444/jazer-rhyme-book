@@ -1,0 +1,17 @@
+{
+  "id": "sledgehammer",
+  "type": "weapons-objects",
+  "name": "Sledgehammer",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A large, heavy hammer used for breaking through walls and obstacles.",
+  "tags": ["grit", "industrial", "tool", "raw"],
+  "angles": ["destruction", "momentum", "demolition"],
+  "bar_seeds": ["swinging for the walls", "concrete cracks", "heavy metal head"],
+  "related_ids": ["baseball-bat"],
+  "weapon_type": "Blunt",
+  "range": "Melee",
+  "damage_type": "Bludgeoning",
+  "symbolism": "Total demolition, brute force, and breaking down barriers.",
+  "famous_users": ["Construction crews", "Peter Gabriel (metaphorically)"]
+}

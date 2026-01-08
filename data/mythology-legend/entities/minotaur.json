@@ -1,0 +1,17 @@
+{
+  "id": "minotaur",
+  "type": "mythology-legend",
+  "name": "Minotaur",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A creature with the head of a bull and the body of a man, dwelling at the center of the Labyrinth.",
+  "tags": ["dark", "mythology", "architecture-spaces", "fear"],
+  "angles": ["confusion", "imprisonment", "savagery"],
+  "bar_seeds": ["lost in the maze", "bull head", "thread of ariadne"],
+  "related_ids": [],
+  "origin_culture": "Greek",
+  "deity_type": "Monster",
+  "powers": ["Strength", "Knowledge of the maze"],
+  "symbols": ["Labyrinth", "Bull", "Axe"],
+  "modern_parallels": ["Inner Demons", "Bureaucracy", "Rage"]
+}

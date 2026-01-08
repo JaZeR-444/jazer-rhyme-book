@@ -1,0 +1,17 @@
+{
+  "id": "hydra-mythology",
+  "type": "mythology-legend",
+  "name": "Hydra",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A serpentine water monster with many heads; whenever one was cut off, two more would grow in its place.",
+  "tags": ["monster", "regeneration", "classic", "dark"],
+  "angles": ["regeneration", "multiplying-threat", "undying-nature"],
+  "bar_seeds": ["cut one head off two grow back", "venomous breath", "swamp monster"],
+  "related_ids": ["hercules"],
+  "origin_culture": "Greek",
+  "deity_type": "Monster",
+  "powers": ["Rapid regeneration", "Toxic breath", "Multiple heads"],
+  "symbols": ["Multiple Heads", "Serpent", "Swamp"],
+  "modern_parallels": ["Bureaucracy", "Decentralized networks", "Unsolvable tasks"]
+}

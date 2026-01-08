@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/brand.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "category": {
+      "type": "string"
+    },
+    "price_tier": {
+      "type": "string"
+    },
+    "signature_products": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bar_angles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/lingo.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "meaning": {
+      "type": "string"
+    },
+    "usage": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "example_lines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "do_not_use_if": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

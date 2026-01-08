@@ -1,0 +1,17 @@
+{
+  "id": "drop-shipping",
+  "type": "business-economics",
+  "name": "Drop Shipping",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A retail fulfillment method where a store doesn't keep the products it sells in stock.",
+  "tags": ["hustle", "business", "contemporary", "low-risk"],
+  "angles": ["no-inventory", "middleman-profit", "digital-storefront"],
+  "bar_seeds": ["shipping from the factory", "no warehouse needed", "middleman magic"],
+  "related_ids": ["shopify", "e-commerce"],
+  "industry": "E-commerce",
+  "core_principle": "Fulfillment without inventory ownership.",
+  "jargon": ["Fulfillment", "Supplier", "White label"],
+  "key_metrics": ["Net Profit Margin", "Ad Spend ROI"],
+  "archetypes": ["Dropshipper", "Digital Nomad"]
+}

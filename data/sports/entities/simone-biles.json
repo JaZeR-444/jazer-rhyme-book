@@ -1,0 +1,27 @@
+{
+  "id": "simone-biles",
+  "type": "sports",
+  "name": "Simone Biles",
+  "aliases": ["GOAT"],
+  "era": "2010s-2020s",
+  "tags": ["championship", "legacy", "athlete", "clutch", "mainstream", "innovative"],
+  "one_liner": "American gymnast with record-setting titles, known for power, difficulty, and precision.",
+  "angles": ["unmatched difficulty", "airtime control", "mental resilience"],
+  "bar_seeds": ["stick the landing", "twist in midair", "GOAT on the mat"],
+  "team_size": "1 (Artistic gymnastics)",
+  "key_skills": ["Explosive tumbling", "Aerial awareness", "Balance"],
+  "equipment": ["Balance beam", "Uneven bars", "Floor", "Vault"],
+  "metaphors": ["gravity defier", "aerial precision"],
+  "legends": ["Most decorated gymnast", "Multiple skills named after her"],
+  "related_ids": ["zen", "momentum"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Simone_Biles",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "the-big-lebowski-1998",
+  "type": "cinema",
+  "name": "The Big Lebowski",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+  "tags": ["cult-classic", "mellow", "noir", "satire"],
+  "angles": ["the-dude-abides", "unreliable-detective", "absurdist-noir"],
+  "bar_seeds": ["the rug tied the room together", "white russian", "donny you're out of your element"],
+  "related_ids": ["absurdism"],
+  "era": "1998",
+  "plot_hooks": ["The peed-on rug", "The fake kidnapping", "The bowling tournament"],
+  "iconic_scenes": ["Dream sequence bowling", "The nihilsts fight", "Ashes in the wind"],
+  "visual_motifs": ["Bathrobes", "Bowling pins", "The Rug"],
+  "themes": ["Laziness as resistance", "Identity", "Post-modern noir"],
+  "quotables_short": ["The Dude abides.", "That rug really tied the room together."]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "trip-hop-genre",
+  "type": "music",
+  "name": "Trip Hop",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A genre of electronic music that originated in the early 1990s in the United Kingdom, specifically Bristol.",
+  "tags": ["noir", "atmospheric", "mellow", "90s"],
+  "angles": ["bristol-sound", "smoky-atmosphere", "cinematic-beats"],
+  "bar_seeds": ["slow burn", "echoes in the rain", "dub basslines"],
+  "related_ids": ["massive-attack", "portishead"],
+  "genre": ["Electronic", "Hip Hop", "Dub"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Teardrop", "Glory Box", "Hell is Round the Corner"],
+  "sonic_descriptors": ["Slow tempos", "Deep dub bass", "Orchestral samples", "Whispered vocals"],
+  "influence_tree": ["Hip Hop", "Dub", "Psychedelic Rock", "Soul"],
+  "aesthetic": "Urban Noir and Mystery"
+}

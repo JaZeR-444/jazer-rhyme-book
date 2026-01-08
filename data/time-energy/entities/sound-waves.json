@@ -1,0 +1,17 @@
+{
+  "id": "sound-waves",
+  "type": "time-energy",
+  "name": "Sound Waves",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A wave of compression and rarefaction, by which sound is propagated in an elastic medium such as air.",
+  "tags": ["vibration", "technical", "music", "physical"],
+  "angles": ["resonance", "echo", "physicality of sound"],
+  "bar_seeds": ["ripples in the air", "sonic boom", "pure frequency"],
+  "related_ids": ["vibration", "resonance"],
+  "concept_type": "Physics / Energy",
+  "perception": "Physical, vibrating, and communicative.",
+  "physics_basis": "Mechanical waves through a medium.",
+  "cultural_view": "The medium of music and voice; the power of the word.",
+  "idioms": ["Sounding off", "Clear as a bell", "Making waves"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ford-mustang-gt",
+  "type": "vehicles",
+  "name": "Ford Mustang GT",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pony car that started it all, representing accessible American speed.",
+  "tags": ["classic", "speed", "legacy", "iconic"],
+  "angles": ["freedom", "muscle", "americana"],
+  "bar_seeds": ["5.0 liter", "pony emblem", "wild horses"],
+  "related_ids": [],
+  "vehicle_type": "Muscle Car",
+  "engine_type": "Coyote V8",
+  "top_speed": "155 mph",
+  "cultural_status": "A symbol of American freedom and teenage rebellion.",
+  "design_features": ["Tri-bar taillights", "Long hood", "Fastback profile"]
+}

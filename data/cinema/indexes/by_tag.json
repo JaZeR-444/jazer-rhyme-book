@@ -1,0 +1,502 @@
+{
+  "sci-fi": [
+    "2001-a-space-odyssey-1968",
+    "blade-runner-1982",
+    "eternal-sunshine-2004",
+    "star-wars-1977"
+  ],
+  "classic": [
+    "2001-a-space-odyssey-1968",
+    "a-clockwork-orange-1971",
+    "apocalypse-now-1979",
+    "avengers-endgame-2019",
+    "black-swan-2010",
+    "blade-runner-1982",
+    "boyz-n-the-hood-1991",
+    "city-of-god-2002",
+    "coco-2017",
+    "do-the-right-thing-1989",
+    "dune-2021",
+    "full-metal-jacket-1987",
+    "get-out-2017",
+    "godfather-part-ii-1974",
+    "goodfellas-1990",
+    "heat-1995",
+    "inception-2010",
+    "interstellar-2014",
+    "jaws-1975",
+    "joker-2019",
+    "juice-1992",
+    "la-la-land-2016",
+    "mad-max-fury-road-2015",
+    "moonlight-2016",
+    "oppenheimer-2023",
+    "parasite-2019",
+    "psycho-1960",
+    "scarface-1983",
+    "seven-samurai-1954",
+    "spider-man-into-the-spider-verse-2018",
+    "spirited-away-2001",
+    "star-wars-1977",
+    "the-dark-knight-2008",
+    "the-godfather-1972",
+    "the-shining-1980",
+    "the-truman-show-1998",
+    "the-wolf-of-wall-street-2013",
+    "there-will-be-blood-2007",
+    "whiplash-2014"
+  ],
+  "philosophical-ideas": [
+    "2001-a-space-odyssey-1968",
+    "fight-club-1999",
+    "ghost-in-the-shell-1995",
+    "the-truman-show-1998"
+  ],
+  "technical": [
+    "2001-a-space-odyssey-1968",
+    "akira-1988",
+    "oppenheimer-2023",
+    "the-social-network-2010"
+  ],
+  "dystopia": [
+    "a-clockwork-orange-1971"
+  ],
+  "dark": [
+    "a-clockwork-orange-1971",
+    "american-psycho-2000",
+    "apocalypse-now-1979",
+    "black-swan-2010",
+    "fight-club-1999",
+    "get-out-2017",
+    "inception-2010",
+    "joker-2019",
+    "oppenheimer-2023",
+    "parasite-2019",
+    "requiem-for-a-dream-2000",
+    "the-dark-knight-2008",
+    "there-will-be-blood-2007",
+    "whiplash-2014"
+  ],
+  "rebellion": [
+    "a-clockwork-orange-1971",
+    "fight-club-1999"
+  ],
+  "anime": [
+    "akira-1988",
+    "ghost-in-the-shell-1995",
+    "princess-mononoke-1997"
+  ],
+  "cyberpunk": [
+    "akira-1988",
+    "blade-runner-1982",
+    "blade-runner-2049",
+    "ghost-in-the-shell-1995",
+    "the-matrix-1999",
+    "the-matrix-1999"
+  ],
+  "grit": [
+    "akira-1988",
+    "blue-velvet-1986",
+    "city-of-god-2002",
+    "django-unchained-2012",
+    "fargo-1996",
+    "full-metal-jacket-1987",
+    "goodfellas-1990",
+    "joker-2019",
+    "la-haine-1995",
+    "mad-max-fury-road-2015",
+    "no-country-for-old-men-2007",
+    "requiem-for-a-dream-2000",
+    "se7en-1995",
+    "taxi-driver-1976",
+    "trainspotting-1996",
+    "uncut-gems-2019"
+  ],
+  "satire": [
+    "american-psycho-2000",
+    "the-big-lebowski-1998",
+    "the-truman-show-1998"
+  ],
+  "horror": [
+    "american-psycho-2000",
+    "psycho-1960",
+    "se7en-1995",
+    "silence-of-the-lambs-1991",
+    "the-shining-1980"
+  ],
+  "business-economics": [
+    "american-psycho-2000",
+    "there-will-be-blood-2007"
+  ],
+  "war": [
+    "apocalypse-now-1979",
+    "full-metal-jacket-1987",
+    "inglourious-basterds-2009",
+    "princess-mononoke-1997",
+    "seven-samurai-1954"
+  ],
+  "psychological": [
+    "apocalypse-now-1979",
+    "eternal-sunshine-2004",
+    "full-metal-jacket-1987",
+    "mulholland-drive-2001",
+    "psycho-1960",
+    "requiem-for-a-dream-2000",
+    "taxi-driver-1976",
+    "the-shining-1980"
+  ],
+  "cinematic": [
+    "avatar-2009",
+    "avengers-endgame-2019",
+    "barbie-2023",
+    "black-panther-2018",
+    "black-swan-2010",
+    "coco-2017",
+    "dune-2021",
+    "everything-everywhere-all-at-once-2022",
+    "get-out-2017",
+    "inception-2010",
+    "inglourious-basterds-2009",
+    "interstellar-2014",
+    "joker-2019",
+    "la-la-land-2016",
+    "mad-max-fury-road-2015",
+    "moonlight-2016",
+    "oppenheimer-2023",
+    "parasite-2019",
+    "spider-man-into-the-spider-verse-2018",
+    "spirited-away-2001",
+    "the-dark-knight-2008",
+    "the-grand-budapest-hotel-2014",
+    "the-matrix-1999",
+    "the-matrix-1999",
+    "the-social-network-2010",
+    "the-wolf-of-wall-street-2013",
+    "whiplash-2014"
+  ],
+  "mainstream": [
+    "avatar-2009",
+    "avengers-endgame-2019",
+    "barbie-2023",
+    "black-panther-2018",
+    "the-dark-knight-2008",
+    "the-social-network-2010",
+    "the-wolf-of-wall-street-2013"
+  ],
+  "vibrant": [
+    "avatar-2009",
+    "barbie-2023",
+    "black-panther-2018",
+    "blade-runner-2049",
+    "coco-2017",
+    "la-la-land-2016",
+    "spider-man-into-the-spider-verse-2018",
+    "spirited-away-2001",
+    "the-grand-budapest-hotel-2014"
+  ],
+  "futuristic": [
+    "avatar-2009",
+    "dune-2021"
+  ],
+  "legacy": [
+    "avengers-endgame-2019",
+    "godfather-part-ii-1974",
+    "goodfellas-1990",
+    "interstellar-2014",
+    "seven-samurai-1954",
+    "the-dark-knight-2008"
+  ],
+  "satirical": [
+    "barbie-2023",
+    "get-out-2017",
+    "the-wolf-of-wall-street-2013"
+  ],
+  "crime": [
+    "belly-1998",
+    "city-of-god-2002",
+    "fargo-1996",
+    "godfather-part-ii-1974",
+    "goodfellas-1990",
+    "heat-1995",
+    "juice-1992",
+    "menace-ii-society-1993",
+    "paid-in-full-2002",
+    "pulp-fiction-1994",
+    "scarface-1983",
+    "the-godfather-1972",
+    "training-day-2001"
+  ],
+  "visual-masterpiece": [
+    "belly-1998"
+  ],
+  "noir": [
+    "belly-1998",
+    "blade-runner-1982",
+    "blue-velvet-1986",
+    "drive-2011",
+    "fargo-1996",
+    "ghost-in-the-shell-1995",
+    "heat-1995",
+    "la-haine-1995",
+    "mulholland-drive-2001",
+    "no-country-for-old-men-2007",
+    "oldboy-2003",
+    "psycho-1960",
+    "se7en-1995",
+    "silence-of-the-lambs-1991",
+    "taxi-driver-1976",
+    "the-big-lebowski-1998",
+    "the-handmaiden-2016"
+  ],
+  "street": [
+    "belly-1998"
+  ],
+  "redemption": [
+    "belly-1998"
+  ],
+  "innovative": [
+    "black-panther-2018",
+    "dune-2021",
+    "everything-everywhere-all-at-once-2022",
+    "inception-2010",
+    "mad-max-fury-road-2015",
+    "spider-man-into-the-spider-verse-2018"
+  ],
+  "surreal": [
+    "black-swan-2010",
+    "blue-velvet-1986",
+    "everything-everywhere-all-at-once-2022",
+    "inception-2010",
+    "interstellar-2014",
+    "mulholland-drive-2001",
+    "spirited-away-2001"
+  ],
+  "esoteric": [
+    "blade-runner-2049"
+  ],
+  "aesthetic": [
+    "blue-velvet-1986",
+    "drive-2011",
+    "kill-bill-vol-1-2003"
+  ],
+  "urban": [
+    "boyz-n-the-hood-1991",
+    "do-the-right-thing-1989",
+    "menace-ii-society-1993"
+  ],
+  "drama": [
+    "boyz-n-the-hood-1991"
+  ],
+  "coming-of-age": [
+    "boyz-n-the-hood-1991"
+  ],
+  "south-central": [
+    "boyz-n-the-hood-1991"
+  ],
+  "international": [
+    "city-of-god-2002",
+    "la-haine-1995",
+    "oldboy-2003",
+    "the-handmaiden-2016",
+    "trainspotting-1996"
+  ],
+  "nostalgic": [
+    "coco-2017",
+    "interstellar-2014",
+    "la-la-land-2016",
+    "the-grand-budapest-hotel-2014"
+  ],
+  "western": [
+    "django-unchained-2012",
+    "no-country-for-old-men-2007"
+  ],
+  "revenge": [
+    "django-unchained-2012",
+    "inglourious-basterds-2009",
+    "kill-bill-vol-1-2003"
+  ],
+  "pop": [
+    "django-unchained-2012",
+    "inglourious-basterds-2009",
+    "kill-bill-vol-1-2003"
+  ],
+  "brooklyn": [
+    "do-the-right-thing-1989"
+  ],
+  "racial-tension": [
+    "do-the-right-thing-1989"
+  ],
+  "summer": [
+    "do-the-right-thing-1989"
+  ],
+  "action": [
+    "drive-2011",
+    "heat-1995",
+    "kill-bill-vol-1-2003",
+    "oldboy-2003"
+  ],
+  "synthwave": [
+    "drive-2011"
+  ],
+  "romance": [
+    "eternal-sunshine-2004"
+  ],
+  "indie-sleaze": [
+    "eternal-sunshine-2004"
+  ],
+  "cult-classic": [
+    "everything-everywhere-all-at-once-2022",
+    "fight-club-1999",
+    "pulp-fiction-1994",
+    "spirited-away-2001",
+    "the-big-lebowski-1998",
+    "the-grand-budapest-hotel-2014"
+  ],
+  "humor": [
+    "fargo-1996"
+  ],
+  "empire": [
+    "godfather-part-ii-1974"
+  ],
+  "thriller": [
+    "jaws-1975",
+    "no-country-for-old-men-2007",
+    "oldboy-2003",
+    "se7en-1995",
+    "silence-of-the-lambs-1991",
+    "the-handmaiden-2016",
+    "training-day-2001"
+  ],
+  "nature": [
+    "jaws-1975",
+    "princess-mononoke-1997"
+  ],
+  "fear": [
+    "jaws-1975"
+  ],
+  "harlem": [
+    "juice-1992",
+    "paid-in-full-2002"
+  ],
+  "betrayal": [
+    "juice-1992"
+  ],
+  "power": [
+    "juice-1992",
+    "the-godfather-1972"
+  ],
+  "political": [
+    "la-haine-1995"
+  ],
+  "gritty": [
+    "menace-ii-society-1993"
+  ],
+  "watts": [
+    "menace-ii-society-1993"
+  ],
+  "nihilism": [
+    "menace-ii-society-1993"
+  ],
+  "melancholy": [
+    "moonlight-2016"
+  ],
+  "storytelling": [
+    "moonlight-2016",
+    "parasite-2019"
+  ],
+  "art": [
+    "mulholland-drive-2001",
+    "the-handmaiden-2016"
+  ],
+  "based-on-true-story": [
+    "paid-in-full-2002"
+  ],
+  "80s": [
+    "paid-in-full-2002"
+  ],
+  "hustle": [
+    "paid-in-full-2002"
+  ],
+  "epic": [
+    "princess-mononoke-1997"
+  ],
+  "non-linear": [
+    "pulp-fiction-1994"
+  ],
+  "dialogue": [
+    "pulp-fiction-1994"
+  ],
+  "los-angeles": [
+    "pulp-fiction-1994",
+    "training-day-2001"
+  ],
+  "tragedy": [
+    "requiem-for-a-dream-2000"
+  ],
+  "miami": [
+    "scarface-1983"
+  ],
+  "immigrant": [
+    "scarface-1983"
+  ],
+  "rise-and-fall": [
+    "scarface-1983"
+  ],
+  "asian": [
+    "seven-samurai-1954"
+  ],
+  "intellectual": [
+    "silence-of-the-lambs-1991"
+  ],
+  "franchise": [
+    "star-wars-1977"
+  ],
+  "mythology": [
+    "star-wars-1977"
+  ],
+  "nyc": [
+    "taxi-driver-1976",
+    "uncut-gems-2019"
+  ],
+  "mellow": [
+    "the-big-lebowski-1998"
+  ],
+  "mafia": [
+    "the-godfather-1972"
+  ],
+  "family": [
+    "the-godfather-1972"
+  ],
+  "philosophical": [
+    "the-matrix-1999",
+    "the-matrix-1999"
+  ],
+  "isolation": [
+    "the-shining-1980"
+  ],
+  "contemporary": [
+    "the-social-network-2010",
+    "uncut-gems-2019"
+  ],
+  "media-platforms": [
+    "the-truman-show-1998"
+  ],
+  "history": [
+    "there-will-be-blood-2007"
+  ],
+  "police-corruption": [
+    "training-day-2001"
+  ],
+  "raw": [
+    "trainspotting-1996"
+  ],
+  "90s": [
+    "trainspotting-1996"
+  ],
+  "anxiety": [
+    "uncut-gems-2019"
+  ],
+  "aggressive": [
+    "whiplash-2014"
+  ]
+}

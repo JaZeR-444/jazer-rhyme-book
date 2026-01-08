@@ -1,0 +1,56 @@
+{
+  "id": "monochrome-style",
+  "type": "fashion",
+  "name": "Monochrome Style",
+  "aliases": [
+    "Single-tone dressing"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "minimalist",
+    "noir",
+    "classic",
+    "contemporary"
+  ],
+  "one_liner": "Outfits built around a single color for a clean, focused silhouette.",
+  "angles": [
+    "one-tone elegance",
+    "clean lines",
+    "color discipline"
+  ],
+  "bar_seeds": [
+    "head-to-toe black",
+    "single shade flow",
+    "tone on tone"
+  ],
+  "item_type": "Styling Approach",
+  "material": [
+    "Wool",
+    "Cotton",
+    "Leather"
+  ],
+  "cultural_significance": "Creates a sleek visual identity with minimal noise.",
+  "fit": [
+    "Tailored",
+    "Clean"
+  ],
+  "associated_brands": [
+    "Prada",
+    "Helmut Lang",
+    "COS"
+  ],
+  "related_ids": [
+    "minimal-sneaker",
+    "haute-couture"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Monochrome",
+      "url": "https://en.wikipedia.org/wiki/Monochrome",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

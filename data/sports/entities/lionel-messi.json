@@ -1,0 +1,20 @@
+{
+  "id": "lionel-messi",
+  "type": "sports",
+  "name": "Lionel Messi",
+  "aliases": ["Leo", "La Pulga"],
+  "era": "2000s-Present",
+  "tags": ["soccer", "magic", "legend", "skill"],
+  "one_liner": "A soccer wizard known for his incredible dribbling, vision, and prolific goal-scoring.",
+  "angles": ["pure magic on the pitch", "the humble genius", "winning it all"],
+  "bar_seeds": ["messi magic", "the flea", "barcelona legend", "world cup winner"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Dribbling", "Vision", "Finishing", "Passing"],
+  "equipment": ["Soccer ball", "Cleats"],
+  "metaphors": ["The magician", "Alien of the pitch"],
+  "legends": ["8 Ballon d'Or awards", "World Cup winner"],
+  "related_ids": ["cristiano-ronaldo"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

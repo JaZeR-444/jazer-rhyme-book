@@ -1,0 +1,751 @@
+{
+  "intellectual": [
+    "albert-einstein",
+    "hunter-s-thompson",
+    "james-baldwin",
+    "malcolm-x"
+  ],
+  "science": [
+    "albert-einstein"
+  ],
+  "legacy": [
+    "albert-einstein",
+    "andy-warhol",
+    "ariana-grande",
+    "billie-holiday",
+    "bruce-lee",
+    "che-guevara",
+    "cleopatra",
+    "dwayne-johnson",
+    "frida-kahlo",
+    "genghis-khan-person",
+    "jay-z",
+    "jean-michel-basquiat",
+    "jeff-bezos",
+    "jimi-hendrix",
+    "joan-of-arc",
+    "justin-bieber",
+    "kobe-bryant",
+    "kurt-cobain",
+    "lebron-james",
+    "malcolm-x",
+    "mark-zuckerberg",
+    "martin-luther-king-jr",
+    "maya-angelou",
+    "miles-davis",
+    "muhammad-ali",
+    "napoleon-bonaparte",
+    "nikola-tesla",
+    "nina-simone",
+    "pharrell-williams",
+    "quincy-jones",
+    "rick-rubin",
+    "robert-downey-jr",
+    "steve-jobs",
+    "steve-wozniak",
+    "virgil-abloh",
+    "will-smith"
+  ],
+  "iconic": [
+    "albert-einstein",
+    "bruce-lee",
+    "frida-kahlo",
+    "keanu-reeves",
+    "kobe-bryant",
+    "leonardo-dicaprio",
+    "lionel-messi",
+    "marilyn-monroe",
+    "martin-luther-king-jr",
+    "michael-jordan",
+    "muhammad-ali",
+    "rihanna-mogul",
+    "will-smith"
+  ],
+  "eccentric": [
+    "andre-3000"
+  ],
+  "fashion": [
+    "andre-3000",
+    "asap-rocky",
+    "kanye-west",
+    "rihanna-mogul"
+  ],
+  "atlanta": [
+    "andre-3000"
+  ],
+  "lyrical": [
+    "andre-3000",
+    "eminem",
+    "kendrick-lamar"
+  ],
+  "innovator": [
+    "andre-3000"
+  ],
+  "art": [
+    "andy-warhol",
+    "frida-kahlo",
+    "jean-michel-basquiat"
+  ],
+  "pop": [
+    "andy-warhol",
+    "pedro-pascal",
+    "taylor-swift"
+  ],
+  "innovative": [
+    "andy-warhol",
+    "doja-cat",
+    "dua-lipa",
+    "jeff-bezos",
+    "mark-zuckerberg",
+    "miles-davis",
+    "mrbeast",
+    "nikola-tesla",
+    "pharrell-williams",
+    "rick-rubin",
+    "steve-jobs",
+    "steve-wozniak",
+    "tyler-the-creator",
+    "virgil-abloh"
+  ],
+  "grit": [
+    "anthony-bourdain",
+    "charles-bukowski",
+    "che-guevara",
+    "genghis-khan-person",
+    "hunter-s-thompson",
+    "james-baldwin",
+    "kobe-bryant",
+    "malcolm-x"
+  ],
+  "global": [
+    "anthony-bourdain",
+    "cristiano-ronaldo",
+    "lionel-messi"
+  ],
+  "culture": [
+    "anthony-bourdain"
+  ],
+  "poetic": [
+    "anthony-bourdain",
+    "charles-bukowski",
+    "james-baldwin",
+    "maya-angelou",
+    "nas"
+  ],
+  "mainstream": [
+    "ariana-grande",
+    "cardi-b",
+    "chris-hemsworth",
+    "doja-cat",
+    "drake",
+    "dua-lipa",
+    "dwayne-johnson",
+    "gal-gadot",
+    "jeff-bezos",
+    "justin-bieber",
+    "lil-uzi-vert",
+    "margot-robbie",
+    "mark-zuckerberg",
+    "megan-thee-stallion",
+    "mrbeast",
+    "pharrell-williams",
+    "playboi-carti",
+    "robert-downey-jr",
+    "tom-holland",
+    "will-smith"
+  ],
+  "vibrant": [
+    "ariana-grande",
+    "cardi-b",
+    "chris-hemsworth",
+    "doja-cat",
+    "dua-lipa",
+    "dwayne-johnson",
+    "gal-gadot",
+    "jimi-hendrix",
+    "justin-bieber",
+    "lil-uzi-vert",
+    "margot-robbie",
+    "megan-thee-stallion",
+    "pedro-pascal",
+    "pharrell-williams",
+    "playboi-carti",
+    "quincy-jones",
+    "tom-holland",
+    "travis-scott",
+    "tyler-the-creator"
+  ],
+  "contemporary": [
+    "ariana-grande",
+    "cardi-b",
+    "chris-hemsworth",
+    "doja-cat",
+    "dua-lipa",
+    "dwayne-johnson",
+    "gal-gadot",
+    "jeff-bezos",
+    "justin-bieber",
+    "lil-uzi-vert",
+    "margot-robbie",
+    "mark-zuckerberg",
+    "megan-thee-stallion",
+    "mrbeast",
+    "pharrell-williams",
+    "playboi-carti",
+    "robert-downey-jr",
+    "tom-holland",
+    "tyler-the-creator",
+    "virgil-abloh"
+  ],
+  "cool": [
+    "asap-rocky",
+    "cillian-murphy",
+    "miles-davis"
+  ],
+  "aesthetic": [
+    "asap-rocky"
+  ],
+  "streetwear": [
+    "asap-rocky",
+    "virgil-abloh"
+  ],
+  "politics": [
+    "barack-obama"
+  ],
+  "oratory": [
+    "barack-obama"
+  ],
+  "first": [
+    "barack-obama"
+  ],
+  "hope": [
+    "barack-obama"
+  ],
+  "eloquent": [
+    "barack-obama"
+  ],
+  "power": [
+    "beyonce",
+    "cleopatra",
+    "serena-williams"
+  ],
+  "feminism": [
+    "beyonce"
+  ],
+  "visual": [
+    "beyonce"
+  ],
+  "perfection": [
+    "beyonce"
+  ],
+  "black-excellence": [
+    "beyonce"
+  ],
+  "tech": [
+    "bill-gates",
+    "elon-musk",
+    "steve-wozniak"
+  ],
+  "philanthropy": [
+    "bill-gates"
+  ],
+  "innovation": [
+    "bill-gates",
+    "elon-musk",
+    "elon-musk-2"
+  ],
+  "wealth": [
+    "bill-gates"
+  ],
+  "founder": [
+    "bill-gates"
+  ],
+  "soulful": [
+    "billie-holiday",
+    "maya-angelou",
+    "nina-simone"
+  ],
+  "jazz": [
+    "billie-holiday",
+    "miles-davis"
+  ],
+  "tragedy": [
+    "billie-holiday",
+    "marilyn-monroe"
+  ],
+  "philosophical-ideas": [
+    "bruce-lee"
+  ],
+  "war": [
+    "bruce-lee",
+    "genghis-khan-person",
+    "joan-of-arc",
+    "napoleon-bonaparte"
+  ],
+  "braggadocio": [
+    "cardi-b",
+    "megan-thee-stallion"
+  ],
+  "raw": [
+    "charles-bukowski",
+    "jean-michel-basquiat",
+    "kurt-cobain"
+  ],
+  "dark": [
+    "charles-bukowski",
+    "cillian-murphy",
+    "sid-vicious"
+  ],
+  "revolutionary": [
+    "che-guevara",
+    "james-baldwin",
+    "malcolm-x",
+    "martin-luther-king-jr",
+    "nina-simone",
+    "tupac-shakur"
+  ],
+  "rebellion": [
+    "che-guevara",
+    "hunter-s-thompson",
+    "muhammad-ali",
+    "sid-vicious"
+  ],
+  "cinematic": [
+    "chris-hemsworth",
+    "cillian-murphy",
+    "dwayne-johnson",
+    "gal-gadot",
+    "keanu-reeves",
+    "leonardo-dicaprio",
+    "margot-robbie",
+    "pedro-pascal",
+    "quentin-tarantino",
+    "robert-downey-jr",
+    "tom-holland",
+    "will-smith"
+  ],
+  "stoicism": [
+    "cillian-murphy",
+    "keanu-reeves"
+  ],
+  "luxury": [
+    "cleopatra",
+    "cristiano-ronaldo",
+    "leonardo-dicaprio",
+    "rihanna-mogul"
+  ],
+  "ancient": [
+    "cleopatra"
+  ],
+  "sports": [
+    "cristiano-ronaldo",
+    "kobe-bryant",
+    "lionel-messi",
+    "muhammad-ali"
+  ],
+  "hustle": [
+    "cristiano-ronaldo",
+    "jay-z"
+  ],
+  "viral": [
+    "doja-cat",
+    "mrbeast"
+  ],
+  "melodic": [
+    "drake"
+  ],
+  "toronto": [
+    "drake"
+  ],
+  "hitmaker": [
+    "drake"
+  ],
+  "versatile": [
+    "drake"
+  ],
+  "controversy": [
+    "elon-musk"
+  ],
+  "meme": [
+    "elon-musk"
+  ],
+  "entrepreneur": [
+    "elon-musk",
+    "ryan-reynolds"
+  ],
+  "controversial": [
+    "eminem",
+    "kanye-west"
+  ],
+  "detroit": [
+    "eminem"
+  ],
+  "technical": [
+    "eminem",
+    "lionel-messi",
+    "nikola-tesla",
+    "steve-wozniak"
+  ],
+  "battle-rap": [
+    "eminem"
+  ],
+  "pain": [
+    "frida-kahlo"
+  ],
+  "empire": [
+    "genghis-khan-person",
+    "napoleon-bonaparte"
+  ],
+  "activist": [
+    "oscar-isaac-2",
+    "michelle-obama",
+    "serena-williams-2",
+    "beyonce-2"
+  ],
+  "climate": [
+    "oscar-isaac-2"
+  ],
+  "youth": [
+    "oscar-isaac-2"
+  ],
+  "swedish": [
+    "oscar-isaac-2"
+  ],
+  "uncompromising": [
+    "oscar-isaac-2"
+  ],
+  "vice": [
+    "hunter-s-thompson"
+  ],
+  "relatable": [
+    "j-cole"
+  ],
+  "storytelling": [
+    "j-cole",
+    "kendrick-lamar",
+    "nas",
+    "notorious-big",
+    "tyler-the-creator"
+  ],
+  "conscious": [
+    "j-cole",
+    "kendrick-lamar",
+    "beyonce-2"
+  ],
+  "north-carolina": [
+    "j-cole"
+  ],
+  "producer": [
+    "j-cole",
+    "kanye-west"
+  ],
+  "business": [
+    "jay-z",
+    "kim-kardashian"
+  ],
+  "new-york": [
+    "jay-z"
+  ],
+  "legend": [
+    "jay-z",
+    "nas",
+    "notorious-big",
+    "tupac-shakur"
+  ],
+  "nyc": [
+    "jean-michel-basquiat"
+  ],
+  "virtuoso": [
+    "jimi-hendrix",
+    "nina-simone",
+    "quincy-jones"
+  ],
+  "psychedelia": [
+    "jimi-hendrix"
+  ],
+  "spiritual": [
+    "joan-of-arc"
+  ],
+  "history": [
+    "joan-of-arc"
+  ],
+  "rapper": [
+    "kanye-west"
+  ],
+  "chicago": [
+    "kanye-west"
+  ],
+  "mellow": [
+    "keanu-reeves"
+  ],
+  "compton": [
+    "kendrick-lamar"
+  ],
+  "west-coast": [
+    "kendrick-lamar",
+    "tupac-shakur"
+  ],
+  "influence": [
+    "kim-kardashian"
+  ],
+  "reality": [
+    "kim-kardashian"
+  ],
+  "style": [
+    "kim-kardashian"
+  ],
+  "cultural": [
+    "kim-kardashian"
+  ],
+  "grunge": [
+    "kurt-cobain"
+  ],
+  "angst": [
+    "kurt-cobain"
+  ],
+  "basketball": [
+    "lebron-james",
+    "michael-jordan"
+  ],
+  "athletic": [
+    "lebron-james"
+  ],
+  "activism": [
+    "lebron-james",
+    "leonardo-dicaprio"
+  ],
+  "versatility": [
+    "lebron-james"
+  ],
+  "surreal": [
+    "lil-uzi-vert",
+    "playboi-carti"
+  ],
+  "trap": [
+    "lil-uzi-vert",
+    "playboi-carti"
+  ],
+  "actress": [
+    "lupita-nyongo",
+    "zendaya"
+  ],
+  "kenyan-mexican": [
+    "lupita-nyongo"
+  ],
+  "oscar-winner": [
+    "lupita-nyongo"
+  ],
+  "style-icon": [
+    "lupita-nyongo",
+    "timothee-chalamet",
+    "zendaya"
+  ],
+  "diverse": [
+    "lupita-nyongo",
+    "zendaya-2",
+    "zendaya"
+  ],
+  "vintage": [
+    "marilyn-monroe"
+  ],
+  "classic": [
+    "marilyn-monroe"
+  ],
+  "peace": [
+    "martin-luther-king-jr"
+  ],
+  "resilience": [
+    "maya-angelou"
+  ],
+  "championship": [
+    "michael-jordan"
+  ],
+  "brand": [
+    "michael-jordan"
+  ],
+  "competitive": [
+    "michael-jordan"
+  ],
+  "first-lady": [
+    "michelle-obama"
+  ],
+  "lawyer": [
+    "michelle-obama"
+  ],
+  "inspiring": [
+    "michelle-obama"
+  ],
+  "education": [
+    "michelle-obama"
+  ],
+  "tennis": [
+    "serena-williams-2",
+    "serena-williams"
+  ],
+  "four-slam": [
+    "serena-williams-2"
+  ],
+  "mental-health": [
+    "serena-williams-2"
+  ],
+  "japanese-american": [
+    "serena-williams-2"
+  ],
+  "leadership": [
+    "napoleon-bonaparte"
+  ],
+  "lyricist": [
+    "nas"
+  ],
+  "queensbridge": [
+    "nas"
+  ],
+  "futuristic": [
+    "nikola-tesla"
+  ],
+  "flow": [
+    "notorious-big"
+  ],
+  "brooklyn": [
+    "notorious-big"
+  ],
+  "mafioso": [
+    "notorious-big"
+  ],
+  "media": [
+    "oprah-winfrey"
+  ],
+  "talk-show": [
+    "oprah-winfrey"
+  ],
+  "inspiration": [
+    "oprah-winfrey"
+  ],
+  "empowerment": [
+    "oprah-winfrey"
+  ],
+  "interviews": [
+    "oprah-winfrey"
+  ],
+  "actor": [
+    "zendaya-2",
+    "ryan-reynolds",
+    "timothee-chalamet"
+  ],
+  "singer": [
+    "zendaya-2",
+    "beyonce-2",
+    "zendaya"
+  ],
+  "talented": [
+    "zendaya-2",
+    "timothee-chalamet",
+    "zendaya"
+  ],
+  "dramatic": [
+    "zendaya-2"
+  ],
+  "masculinity": [
+    "pedro-pascal"
+  ],
+  "cult-classic": [
+    "quentin-tarantino"
+  ],
+  "maximalist": [
+    "quentin-tarantino"
+  ],
+  "music": [
+    "quincy-jones",
+    "rick-rubin"
+  ],
+  "zen": [
+    "rick-rubin"
+  ],
+  "business-economics": [
+    "rihanna-mogul"
+  ],
+  "comedian": [
+    "ryan-reynolds"
+  ],
+  "sarky": [
+    "ryan-reynolds"
+  ],
+  "witty": [
+    "ryan-reynolds"
+  ],
+  "ceo": [
+    "elon-musk-2"
+  ],
+  "technology": [
+    "elon-musk-2"
+  ],
+  "cloud": [
+    "elon-musk-2"
+  ],
+  "empathy": [
+    "elon-musk-2"
+  ],
+  "dominance": [
+    "serena-williams"
+  ],
+  "grace": [
+    "serena-williams"
+  ],
+  "mother": [
+    "serena-williams"
+  ],
+  "punk-fashion": [
+    "sid-vicious"
+  ],
+  "aggressive": [
+    "sid-vicious"
+  ],
+  "artistic": [
+    "beyonce-2"
+  ],
+  "sister": [
+    "beyonce-2"
+  ],
+  "minimalist": [
+    "steve-jobs"
+  ],
+  "songwriter": [
+    "taylor-swift"
+  ],
+  "country": [
+    "taylor-swift"
+  ],
+  "reinvention": [
+    "taylor-swift"
+  ],
+  "narrative": [
+    "taylor-swift"
+  ],
+  "french-american": [
+    "timothee-chalamet"
+  ],
+  "young": [
+    "timothee-chalamet"
+  ],
+  "hype": [
+    "travis-scott"
+  ],
+  "corporate": [
+    "travis-scott"
+  ],
+  "rage": [
+    "travis-scott"
+  ],
+  "poet": [
+    "tupac-shakur"
+  ],
+  "passionate": [
+    "tupac-shakur"
+  ],
+  "avant-garde": [
+    "tyler-the-creator"
+  ],
+  "high-fashion": [
+    "virgil-abloh"
+  ]
+}

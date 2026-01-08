@@ -1,0 +1,17 @@
+{
+  "id": "mastodon",
+  "type": "media-platforms",
+  "name": "Mastodon",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A free, open-source self-hosted social networking service forming part of the Fediverse.",
+  "tags": ["technical", "community", "privacy", "decentralized"],
+  "angles": ["the-fediverse", "no-algorithm", "instance-power"],
+  "bar_seeds": ["tooting into the void", "choosing my instance", "open source social"],
+  "related_ids": ["twitter-x"],
+  "platform_type": "Social Networking (Federated)",
+  "user_demographic": "Techies, Privacy Advocates, Academic Circles",
+  "content_format": ["Short Text", "Images", "Polls"],
+  "algorithm_bias": "None (Chronological feed only).",
+  "slang": ["Toot", "Instance", "Fediverse"]
+}

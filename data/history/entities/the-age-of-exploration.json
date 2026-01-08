@@ -1,0 +1,17 @@
+{
+  "id": "the-age-of-exploration",
+  "type": "history",
+  "name": "The Age of Exploration",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A period from the 15th to the 17th century during which European ships traveled around the world to search for new trading routes and partners.",
+  "tags": ["empire", "global", "history", "classic"],
+  "angles": ["mapping-the-void", "collision-of-worlds", "spices-and-gold"],
+  "bar_seeds": ["edge of the map", "sailing the unknown", "gold of the new world"],
+  "related_ids": ["the-silk-road", "empire"],
+  "key_dates": ["1400s", "1600s"],
+  "location": "Global / Oceans",
+  "impact": "Led to the first true globalization, but also colonialism, slavery, and the decimation of indigenous populations.",
+  "major_figures": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama"],
+  "cultural_shift": "Expansion of the human world map and the beginning of European global dominance."
+}

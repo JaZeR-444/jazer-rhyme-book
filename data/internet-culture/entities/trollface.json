@@ -1,0 +1,18 @@
+{
+  "id": "trollface",
+  "type": "internet-culture",
+  "name": "Trollface",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The classic rage comic face used to represent internet trolling and mischief.",
+  "tags": ["classic", "mischief", "rebellion", "legacy"],
+  "angles": ["problem?", "deception", "u mad?"],
+  "bar_seeds": ["problem?", "u mad bro?", "trolling the system"],
+  "related_ids": ["wojak"],
+  "format": "Rage Comic Character",
+  "origin_platform": "DeviantArt / 4chan",
+  "meaning": "Provoking others for amusement; the universal symbol of the 'troll'.",
+  "remix_rules": ["Black and white line art", "Wide, mischievous grin", "Used after a prank or annoying statement"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["Grinning like the trollface after I hit the lick", "You mad? Check the face, I'm the one who set the trap"]
+}

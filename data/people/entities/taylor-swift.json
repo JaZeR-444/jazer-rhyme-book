@@ -1,0 +1,20 @@
+{
+  "id": "taylor-swift",
+  "type": "people",
+  "name": "Taylor Swift",
+  "aliases": ["T-Swift", "Taylor", "Swift"],
+  "era": "2000s-Present",
+  "tags": ["songwriter", "pop", "country", "reinvention", "narrative"],
+  "one_liner": "A master storyteller who evolved from country sweetheart to pop superstar to indie folk artist.",
+  "angles": ["lyrical storytelling", "era reinvention", "feud mastery"],
+  "bar_seeds": ["1989", "Red", "Folklore", "Eras tour"],
+  "known_for": ["Fearless", "1989", "Folklore", "Eras Tour"],
+  "vibe": "Authentic, calculated, nostalgic",
+  "signature_items": ["Cat motifs", "Eras tour looks", "Vintage dresses"],
+  "quotables_short": ["We are never ever getting back together", "Shake it off"],
+  "controversy_flags": ["Kanye west incident", "Political silence"],
+  "related_ids": ["beyonce", "lady-gaga"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

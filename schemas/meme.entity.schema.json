@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jazer.hub/schemas/meme.entity.schema.json",
+  "allOf": [
+    {
+      "$ref": "base.entity.schema.json"
+    }
+  ],
+  "properties": {
+    "format": {
+      "type": "string"
+    },
+    "origin_platform": {
+      "type": "string"
+    },
+    "meaning": {
+      "type": "string"
+    },
+    "remix_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lifespan_risk": {
+      "type": "string"
+    },
+    "example_lines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "type": "object"
+}

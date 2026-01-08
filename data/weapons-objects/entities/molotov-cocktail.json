@@ -1,0 +1,17 @@
+{
+  "id": "molotov-cocktail",
+  "type": "weapons-objects",
+  "name": "Molotov Cocktail",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A crude incendiary device consisting of a bottle filled with flammable liquid and a rag wick.",
+  "tags": ["grit", "rebellion", "underground", "war"],
+  "angles": ["volatility", "fire", "makeshift"],
+  "bar_seeds": ["glass shattering", "rag on fire", "street light heat"],
+  "related_ids": [],
+  "weapon_type": "Incendiary",
+  "range": "Thrown",
+  "damage_type": "Fire",
+  "symbolism": "Resistance, urban insurrection, and low-cost devastation.",
+  "famous_users": ["Resistance fighters", "Anarchists"]
+}

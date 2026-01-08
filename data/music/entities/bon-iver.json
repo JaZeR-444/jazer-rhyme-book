@@ -1,0 +1,21 @@
+{
+  "id": "bon-iver",
+  "type": "music",
+  "name": "Bon Iver",
+  "aliases": ["Justin Vernon", "Bon Iver"],
+  "era": "2006-Present",
+  "tags": ["folk", "indie", "emotional", "ethereal", "winter"],
+  "one_liner": "An indie folk project known for emotional, ethereal sounds and winter imagery.",
+  "angles": ["emotional folk", "ethereal sound", "winter themes"],
+  "bar_seeds": ["for emma", "bon iver", "22, a million", "i,i"],
+  "genre": ["Indie Folk", "Alternative", "Experimental"],
+  "era_detail": "Started in 2006, consistent evolution since.",
+  "signature_songs": ["Skinny Love", "Holocene", "10 d E A T h b R E a s T ⚄ ⚄"],
+  "sonic_descriptors": ["ethereal", "emotional", "folk-influenced"],
+  "influence_tree": ["Folk traditions", "Experimental music"],
+  "aesthetic": "Winter, emotional, ethereal",
+  "related_ids": ["phoebe-bridgers", "fleet-foxes"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

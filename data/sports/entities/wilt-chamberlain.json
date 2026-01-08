@@ -1,0 +1,19 @@
+{
+  "id": "wilt-chamberlain",
+  "type": "sports",
+  "name": "Wilt Chamberlain",
+  "aliases": ["Wilt the Stilt", "The Big Dipper"],
+  "era": "1950s-1970s",
+  "tags": ["basketball", "dominance", "classic", "legacy"],
+  "one_liner": "A statistical anomaly whose physical dominance forced the NBA to change its rules.",
+  "angles": ["mythic-numbers", "100-point-game", "unstoppable-size"],
+  "bar_seeds": ["hundred points in a game", "fifty point average", "dipping on the rim"],
+  "related_ids": ["basketball-sport"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Size", "Scoring", "Rebounding"],
+  "equipment": ["Basketball", "Headband"],
+  "metaphors": ["The Stilt"],
+  "legends": ["100 Points in a single game", "Most rebounds in NBA history"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

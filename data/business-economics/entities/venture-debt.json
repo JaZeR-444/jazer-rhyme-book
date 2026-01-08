@@ -1,0 +1,56 @@
+{
+  "id": "venture-debt",
+  "type": "business-economics",
+  "name": "Venture Debt",
+  "aliases": [
+    "Startup debt"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "startup",
+    "contemporary",
+    "bull-market"
+  ],
+  "one_liner": "Debt financing for venture-backed startups to extend runway.",
+  "angles": [
+    "non-dilutive capital",
+    "runway extension",
+    "risk pricing"
+  ],
+  "bar_seeds": [
+    "debt for the runway",
+    "interest on the climb",
+    "bridge to the next round"
+  ],
+  "industry": "Finance/Startups",
+  "core_principle": "Debt can extend growth without immediate dilution.",
+  "jargon": [
+    "warrants",
+    "covenants",
+    "interest-only"
+  ],
+  "key_metrics": [
+    "interest rate",
+    "debt coverage",
+    "runway extension"
+  ],
+  "archetypes": [
+    "lender",
+    "founder",
+    "investor"
+  ],
+  "related_ids": [
+    "venture-capital",
+    "startup"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Venture_debt",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

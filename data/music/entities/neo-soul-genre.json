@@ -1,0 +1,18 @@
+{
+  "id": "neo-soul-genre",
+  "type": "music",
+  "name": "Neo-Soul",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A genre of popular music that fuses contemporary R&B and soul with elements of hip hop, jazz, and funk.",
+  "tags": ["soulful", "organic", "spiritual", "mellow"],
+  "angles": ["rhythmic-spirituality", "conscious-vibes", "smooth-intellectualism"],
+  "bar_seeds": ["rhodes keys", "rimshot rhythm", "warm bass"],
+  "related_ids": ["erykah-badu", "sza"],
+  "genre": ["Soul", "R&B", "Hip Hop", "Jazz"],
+  "era_detail": "Late 1990s - Present",
+  "signature_songs": ["On & On", "Brown Sugar", "Untitled (How Does It Feel)"],
+  "sonic_descriptors": ["Electric piano", "Live instrumentation", "Rich vocal harmonies"],
+  "influence_tree": ["Stevie Wonder", "Marvin Gaye", "Nina Simone"],
+  "aesthetic": "Bohemian and Earthy"
+}

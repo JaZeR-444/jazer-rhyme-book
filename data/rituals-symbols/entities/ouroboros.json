@@ -1,0 +1,17 @@
+{
+  "id": "ouroboros",
+  "type": "rituals-symbols",
+  "name": "Ouroboros",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ancient symbol depicting a serpent or dragon eating its own tail.",
+  "tags": ["cyclical", "eternal", "esoteric", "symbolic-object"],
+  "angles": ["infinity", "self-destruction", "rebirth"],
+  "bar_seeds": ["eating my own tail", "infinite loop", "eternal return"],
+  "related_ids": ["infinity", "eternal-return"],
+  "purpose": "To represent the infinite cycle of life, death, and rebirth.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Snake imagery", "Circular art"],
+  "participants": "Philosophers, Alchemists",
+  "outcome": "Unity of opposites and eternity."
+}

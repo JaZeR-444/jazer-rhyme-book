@@ -1,0 +1,56 @@
+{
+  "id": "zendaya",
+  "type": "people",
+  "name": "Zendaya",
+  "aliases": [
+    "Z",
+    "Zendaya Maree Stoermer Coleman"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "actress",
+    "singer",
+    "style-icon",
+    "diverse",
+    "talented"
+  ],
+  "one_liner": "A versatile actress and singer known for breaking barriers and exceptional style.",
+  "angles": [
+    "versatile talent",
+    "style icon",
+    "barrier breaker"
+  ],
+  "bar_seeds": [
+    "euphoria",
+    "spider-man",
+    "dune",
+    "dazzling style"
+  ],
+  "known_for": [
+    "Euphoria",
+    "Spider-Man",
+    "Dune",
+    "Ella Fitzgerald biopic"
+  ],
+  "vibe": "Talented, stylish, and boundary-pushing",
+  "signature_items": [
+    "Dazzling style",
+    "Bold fashion choices",
+    "Red carpet moments"
+  ],
+  "quotables_short": [
+    "I don't want to be the next anyone",
+    "Fashion is about dressing according to what you are"
+  ],
+  "controversy_flags": [
+    "Fashion choices",
+    "Young Hollywood"
+  ],
+  "related_ids": [
+    "tom-holland",
+    "timothe-chalamet"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

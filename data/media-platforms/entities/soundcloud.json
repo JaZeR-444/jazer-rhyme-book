@@ -1,0 +1,17 @@
+{
+  "id": "soundcloud",
+  "type": "media-platforms",
+  "name": "SoundCloud",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An open audio platform that birthed an entire generation of 'SoundCloud Rappers' and lo-fi beats.",
+  "tags": ["underground", "music", "lo-fi", "community"],
+  "angles": ["discovery", "diy", "hustle"],
+  "bar_seeds": ["orange cloud", "soundcloud link in bio", "unsigned hype"],
+  "related_ids": [],
+  "platform_type": "Audio Streaming",
+  "user_demographic": "Musicians, Gen Z, Indie Artists",
+  "content_format": ["Audio Tracks", "DJ Sets", "Demos"],
+  "algorithm_bias": "Favors viral remixes and independent uploads over major labels.",
+  "slang": ["SoundCloud Rapper", "Repost", "Drop the link"]
+}

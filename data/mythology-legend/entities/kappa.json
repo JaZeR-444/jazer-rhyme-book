@@ -1,0 +1,17 @@
+{
+  "id": "kappa",
+  "type": "mythology-legend",
+  "name": "Kappa",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An amphibious yōkai demon from Japanese folklore, known for the water-filled plate on its head.",
+  "tags": ["esoteric", "nature", "asian", "mythology"],
+  "angles": ["vulnerability-in-water", "cucumber-obsession", "polite-danger"],
+  "bar_seeds": ["water on the head", "cucumber snack", "river king"],
+  "related_ids": ["oni"],
+  "origin_culture": "Japanese",
+  "deity_type": "Yokai",
+  "powers": ["Amphibious strength", "Wrestling", "Water-based power"],
+  "symbols": ["Cucumber", "Bowl of water", "Turtle shell"],
+  "modern_parallels": ["Environmental protection", "Quirky monsters", "Anime mascots"]
+}

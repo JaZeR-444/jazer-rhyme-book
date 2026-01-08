@@ -1,0 +1,19 @@
+{
+  "id": "zinedine-zidane",
+  "type": "sports",
+  "name": "Zinedine Zidane",
+  "aliases": ["Zizou"],
+  "era": "1990s-2000s",
+  "tags": ["soccer", "elegant", "virtuoso", "stoicism"],
+  "one_liner": "The French maestro of elegance, known for his extraordinary ball control and high-pressure performance.",
+  "angles": ["the-maestro", "clutch-headbutt", "balletic-power"],
+  "bar_seeds": ["zizou spin", "france 98", "final moment headbutt"],
+  "related_ids": ["paris", "soccer"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Ball control", "Volleys", "Vision"],
+  "equipment": ["Adidas Predator Cleats"],
+  "metaphors": ["The Maestro"],
+  "legends": ["1998 World Cup Winner", "Real Madrid Legend", "Ballon d'Or"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}
