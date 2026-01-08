@@ -5,6 +5,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/jazer-rhyme-book/',
   resolve: {
     alias: {
       // Allow importing from parent directory data folders
