@@ -16,6 +16,14 @@ export default defineConfig({
     fs: {
       // Allow serving files from parent directory
       allow: ['..'],
+    },
+    watch: {
+      // Only ignore node_modules to prevent watcher overload
+      // Keep data and dictionary for hot reload
+      ignored: ['**/node_modules/**', '**/.git/**'],
+      // Use polling for large directories to avoid file handle issues
+      usePolling: true,
+      interval: 1000,
     }
   },
   // Enable JSON imports
