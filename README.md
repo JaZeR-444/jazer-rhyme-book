@@ -1,9 +1,15 @@
-# 🎤 JaZeR Master Flow Knowledge Hub
+<div align="center">
+
+![JaZeR Rhyme Book Logo](.github/logo.svg)
+
+# JaZeR Master Flow Knowledge Hub
 
 > **A production-ready, AI-powered knowledge base optimized for rap/music writing, creative retrieval, and long-term expansion.**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
 [![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](package.json)
+
+</div>
 
 ---
 

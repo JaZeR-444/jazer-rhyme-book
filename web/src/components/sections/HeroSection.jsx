@@ -15,6 +15,7 @@
 import { useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAPContext } from '../motion/useGSAPContext';
+import { Logo } from '../common/Logo';
 import { easing, timing } from '../../lib/gsap/easing';
 import './HeroSection.css';
 
@@ -70,9 +71,9 @@ export function HeroSection({ id }) {
       
       {/* Main content */}
       <div className="hero-content">
-        <h1 ref={logoRef} className="hero-logo text-hero">
-          <span className="logo-accent">JaZeR</span>
-        </h1>
+        <div ref={logoRef} className="hero-logo-container">
+          <Logo variant="full" size="large" />
+        </div>
         
         <p ref={taglineRef} className="hero-tagline text-secondary">
           Musical Journey · Knowledge System · Creative Evolution
