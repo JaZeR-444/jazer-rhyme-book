@@ -1,0 +1,72 @@
+.dictionary-page {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.dictionary-page__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.dictionary-page__title {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-neon);
+  margin-bottom: var(--space-sm);
+}
+
+.dictionary-page__description {
+  font-size: var(--text-h3);
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.dictionary-page__letters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: var(--space-md);
+}
+
+@media (max-width: 768px) {
+  .dictionary-page__letters {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: var(--space-sm);
+  }
+}
+
+.letter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-1);
+  border: 2px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-lg);
+  text-decoration: none;
+  transition: all var(--duration-short) var(--ease-out);
+  aspect-ratio: 1;
+}
+
+.letter-card:hover {
+  background: var(--surface-2);
+  border-color: var(--accent-neon);
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.letter-card__letter {
+  font-size: 48px;
+  font-weight: var(--weight-bold);
+  color: var(--accent-neon);
+  font-family: var(--font-mono);
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.letter-card__label {
+  font-size: var(--text-small);
+  color: var(--text-secondary);
+  font-weight: var(--weight-medium);
+}

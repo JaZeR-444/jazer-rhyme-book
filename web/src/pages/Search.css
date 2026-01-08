@@ -1,0 +1,83 @@
+.search-page {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.search-page__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.search-page__title {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-neon);
+  margin-bottom: var(--space-sm);
+}
+
+.search-page__description {
+  font-size: var(--text-body);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+}
+
+.search-page__search {
+  max-width: 700px;
+  margin: 0 auto var(--space-md);
+}
+
+.search-page__filters {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+}
+
+.search-page__count {
+  font-size: var(--text-body);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+  font-family: var(--font-mono);
+}
+
+.search-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+@media (max-width: 768px) {
+  .search-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.search-word-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-md);
+  text-decoration: none;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.search-word-card:hover {
+  background: var(--surface-2);
+  border-color: var(--accent-purple);
+  transform: translateY(-2px);
+}
+
+.search-word-card__name {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-semibold);
+  color: var(--text-primary);
+}
+
+.search-word-card__meta {
+  font-size: var(--text-small);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}

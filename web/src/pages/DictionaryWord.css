@@ -1,0 +1,45 @@
+.dictionary-word {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.dictionary-word__header {
+  margin-bottom: var(--space-xl);
+}
+
+.dictionary-word__title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.dictionary-word__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.dictionary-word__back:hover {
+  background: var(--surface-3);
+  color: var(--accent-neon);
+}
+
+.dictionary-word__title {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-neon);
+  margin: 0;
+}
+
+.dictionary-word__content {
+  padding: var(--space-xl);
+}

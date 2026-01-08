@@ -1,0 +1,27 @@
+.content-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.content-page__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.content-page__title {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-neon);
+  margin-bottom: var(--space-sm);
+}
+
+.content-page__subtitle {
+  font-size: var(--text-body);
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.content-page__content {
+  padding: var(--space-xl);
+}

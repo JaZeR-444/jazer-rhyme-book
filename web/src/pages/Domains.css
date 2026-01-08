@@ -1,0 +1,29 @@
+.domains-page {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+.domains-page__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.domains-page__title {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-semibold);
+  color: var(--accent-neon);
+  margin-bottom: var(--space-sm);
+}
+
+.domains-page__description {
+  font-size: var(--text-h3);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+  line-height: var(--leading-relaxed);
+}
+
+.domains-page__search {
+  max-width: 600px;
+  margin: 0 auto;
+}

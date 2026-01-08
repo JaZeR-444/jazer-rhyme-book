@@ -1,37 +1,53 @@
-/**
- * JaZeR Master Flow Knowledge Hub
- */
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { AppLayout } from './components/AppLayout';
 
-import { Logo } from './components/common/Logo';
-import { KnowledgeHubExplorer } from './components/sections/KnowledgeHubExplorer';
-import { RapDictionaryExplorer } from './components/sections/RapDictionaryExplorer';
+// Pages
+import { Home } from './pages/Home';
+import { Domains } from './pages/Domains';
+import { DomainDetail } from './pages/DomainDetail';
+import { EntityDetail } from './pages/EntityDetail';
+import { Dictionary } from './pages/Dictionary';
+import { DictionaryLetter } from './pages/DictionaryLetter';
+import { DictionaryWord } from './pages/DictionaryWord';
+import { Search } from './pages/Search';
+import { Architecture } from './pages/Architecture';
+import { Docs } from './pages/Docs';
+import { About } from './pages/About';
+import { NotFound } from './pages/NotFound';
+
+// Styles
 import './index.css';
-import './App.css';
 
 function App() {
   return (
-    <div className="app">
-      <header className="hero-section section">
-        <div className="hero-logo-container">
-          <Logo variant="full" size="large" />
-        </div>
-        <p style={{ marginTop: '1rem', fontSize: '1.2rem', letterSpacing: '0.1em', color: '#888' }}>
-          MASTER FLOW KNOWLEDGE HUB
-        </p>
-      </header>
-      
-      <KnowledgeHubExplorer id="knowledge-hub" />
-      <RapDictionaryExplorer id="dictionary" />
-      
-      <footer className="app-footer">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', justifyContent: 'center' }}>
-          <Logo variant="icon" size="small" />
-          <p style={{ color: '#666', fontSize: '0.875rem' }}>
-            JaZeR Master Flow Knowledge Hub © 2026
-          </p>
-        </div>
-      </footer>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}>
+          <Route index element={<Home />} />
+
+          {/* Domains */}
+          <Route path="domains" element={<Domains />} />
+          <Route path="domains/:domainId" element={<DomainDetail />} />
+
+          {/* Entities */}
+          <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
+
+          {/* Dictionary */}
+          <Route path="dictionary" element={<Dictionary />} />
+          <Route path="dictionary/:letter" element={<DictionaryLetter />} />
+          <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
+
+          {/* Other Pages */}
+          <Route path="search" element={<Search />} />
+          <Route path="architecture" element={<Architecture />} />
+          <Route path="docs" element={<Docs />} />
+          <Route path="about" element={<About />} />
+
+          {/* 404 */}
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   );
 }
 

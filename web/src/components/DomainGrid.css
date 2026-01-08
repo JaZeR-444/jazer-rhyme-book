@@ -1,0 +1,100 @@
+.domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-md);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .domain-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--space-sm);
+  }
+}
+
+.domain-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--duration-short) var(--ease-out);
+  position: relative;
+  overflow: hidden;
+}
+
+.domain-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-neon), var(--accent-purple));
+  opacity: 0;
+  transition: opacity var(--duration-short) var(--ease-out);
+}
+
+.domain-card:hover {
+  background: var(--surface-2);
+  border-color: var(--accent-neon);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.domain-card:hover::before {
+  opacity: 1;
+}
+
+.domain-card__icon {
+  font-size: 48px;
+  margin-bottom: var(--space-sm);
+  filter: grayscale(100%);
+  transition: filter var(--duration-short) var(--ease-out);
+}
+
+.domain-card:hover .domain-card__icon {
+  filter: grayscale(0%);
+}
+
+.domain-card__name {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-semibold);
+  color: var(--text-primary);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.domain-card__stats {
+  margin: var(--space-xs) 0;
+}
+
+.domain-card__count {
+  font-size: var(--text-small);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+
+.domain-card__footer {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+}
+
+.domain-card__explore {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-small);
+  color: var(--accent-neon);
+  font-weight: var(--weight-medium);
+  opacity: 0;
+  transition: opacity var(--duration-short) var(--ease-out);
+}
+
+.domain-card:hover .domain-card__explore {
+  opacity: 1;
+}

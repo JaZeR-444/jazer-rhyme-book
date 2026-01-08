@@ -1,0 +1,239 @@
+/**
+ * Data Loading Utilities
+ * Loads domains, entities, indexes, and dictionary data from public folder
+ */
+
+const BASE_URL = '/';
+
+/**
+ * Fetch JSON with error handling
+ */
+async function fetchJSON(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.warn(`Error loading ${url}:`, error.message);
+    return null;
+  }
+}
+
+/**
+ * Fetch text with error handling
+ */
+async function fetchText(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+    }
+    return await response.text();
+  } catch (error) {
+    console.warn(`Error loading ${url}:`, error.message);
+    return null;
+  }
+}
+
+/**
+ * Load list of all domains
+ */
+export async function loadDomains() {
+  const manifest = await fetchJSON(`${BASE_URL}domains-manifest.json`);
+  if (!manifest || !manifest.domains) {
+    return [];
+  }
+  return manifest.domains.sort();
+}
+
+/**
+ * Load all entities for a domain
+ */
+export async function loadDomainEntities(domainId) {
+  try {
+    const response = await fetch(`${BASE_URL}data/${domainId}/entities/`);
+    if (!response.ok) return [];
+
+    // Try to list files (this works if directory listing is enabled, otherwise we'll need a manifest)
+    // For now, we'll need to create entity manifests during prepare step
+    // Let's read the entity files we know exist or generate a manifest
+
+    // Fallback: Try to load common entities or use an index
+    const entitiesIndex = await fetchJSON(`${BASE_URL}data/${domainId}/entities-manifest.json`);
+    if (entitiesIndex) {
+      const entities = await Promise.all(
+        entitiesIndex.files.map(async (file) => {
+          const entity = await fetchJSON(`${BASE_URL}data/${domainId}/entities/${file}`);
+          return entity;
+        })
+      );
+      return entities.filter(Boolean);
+    }
+
+    return [];
+  } catch (error) {
+    console.warn(`Error loading entities for ${domainId}:`, error);
+    return [];
+  }
+}
+
+/**
+ * Load a single entity
+ */
+export async function loadEntity(domainId, entityId) {
+  return await fetchJSON(`${BASE_URL}data/${domainId}/entities/${entityId}.json`);
+}
+
+/**
+ * Load domain indexes (tags, aliases, eras)
+ */
+export async function loadDomainIndexes(domainId) {
+  const [byTag, aliasMap, byEra] = await Promise.all([
+    fetchJSON(`${BASE_URL}data/${domainId}/indexes/by_tag.json`),
+    fetchJSON(`${BASE_URL}data/${domainId}/indexes/alias_map.json`),
+    fetchJSON(`${BASE_URL}data/${domainId}/indexes/by_era.json`)
+  ]);
+
+  return {
+    byTag: byTag || {},
+    aliasMap: aliasMap || {},
+    byEra: byEra || {}
+  };
+}
+
+/**
+ * Load global indexes
+ */
+export async function loadGlobalIndexes() {
+  const [allEntities, byTag, byEra, aliasMap] = await Promise.all([
+    fetchJSON(`${BASE_URL}data/_indexes/all_entities.json`),
+    fetchJSON(`${BASE_URL}data/_indexes/global_by_tag.json`),
+    fetchJSON(`${BASE_URL}data/_indexes/global_by_era.json`),
+    fetchJSON(`${BASE_URL}data/_indexes/global_alias_map.json`)
+  ]);
+
+  return {
+    allEntities: allEntities || {},
+    byTag: byTag || {},
+    byEra: byEra || {},
+    aliasMap: aliasMap || {}
+  };
+}
+
+/**
+ * Load relations for a domain
+ */
+export async function loadDomainRelations(domainId) {
+  return await fetchJSON(`${BASE_URL}data/${domainId}/relations/relations.json`) || [];
+}
+
+/**
+ * Load global relations
+ */
+export async function loadGlobalRelations() {
+  return await fetchJSON(`${BASE_URL}data/_relations/relations.json`) || [];
+}
+
+/**
+ * Load dictionary letters
+ */
+export async function loadDictionaryLetters() {
+  const manifest = await fetchJSON(`${BASE_URL}dictionary-manifest.json`);
+  if (!manifest || !manifest.letters) {
+    return [];
+  }
+  return manifest.letters;
+}
+
+/**
+ * Load words for a letter
+ */
+export async function loadDictionaryWords(letter) {
+  try {
+    // Try to load letter index
+    const indexPath = `${BASE_URL}dictionary/${letter}/${letter} Master Index.md`;
+    const indexContent = await fetchText(indexPath);
+
+    if (!indexContent) {
+      return [];
+    }
+
+    // Parse markdown to extract word list
+    // Look for word directories
+    const wordsPath = `${BASE_URL}dictionary/${letter}/01_Words/`;
+
+    // We'll need a manifest for this too
+    const wordsManifest = await fetchJSON(`${BASE_URL}dictionary/${letter}/words-manifest.json`);
+    if (wordsManifest && wordsManifest.words) {
+      return wordsManifest.words.map(word => ({
+        name: word,
+        letter: letter,
+        path: `${letter}/01_Words/${word.toLowerCase()}/word.md`
+      }));
+    }
+
+    return [];
+  } catch (error) {
+    console.warn(`Error loading words for letter ${letter}:`, error);
+    return [];
+  }
+}
+
+/**
+ * Load a dictionary word
+ */
+export async function loadDictionaryWord(letter, word) {
+  const path = `${BASE_URL}dictionary/${letter}/01_Words/${word.toLowerCase()}/word.md`;
+  return await fetchText(path);
+}
+
+/**
+ * Load controlled vocabulary tags
+ */
+export async function loadTags() {
+  const tags = await fetchJSON(`${BASE_URL}data/../_meta/tags.json`);
+  return tags?.controlled_vocabulary || [];
+}
+
+/**
+ * Build search index from all data
+ */
+export async function buildSearchIndex() {
+  const domains = await loadDomains();
+  const searchIndex = {
+    entities: [],
+    words: []
+  };
+
+  // Load all entities from all domains
+  for (const domain of domains) {
+    try {
+      const entities = await loadDomainEntities(domain);
+      searchIndex.entities.push(...entities.map(entity => ({
+        ...entity,
+        domain,
+        _type: 'entity'
+      })));
+    } catch (error) {
+      console.warn(`Error indexing domain ${domain}:`, error);
+    }
+  }
+
+  // Load dictionary words
+  const letters = await loadDictionaryLetters();
+  for (const letter of letters) {
+    try {
+      const words = await loadDictionaryWords(letter);
+      searchIndex.words.push(...words.map(word => ({
+        ...word,
+        _type: 'word'
+      })));
+    } catch (error) {
+      console.warn(`Error indexing letter ${letter}:`, error);
+    }
+  }
+
+  return searchIndex;
+}
