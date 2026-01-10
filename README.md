@@ -1,13 +1,27 @@
 <div align="center">
 
+<img src="JaZeR Rhyme Book Logo (450 x 150 px).svg" alt="JaZeR Master Flow Knowledge Hub" width="450"/>
+
+<br/>
+<br/>
+
 # 🎤 JaZeR Master Flow Knowledge Hub
 
 ### *The Ultimate AI-Powered Creative Arsenal for Lyricists, Writers, and Knowledge Seekers*
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)](package.json)
+<br/>
+
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge)](package.json)
 [![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg?style=for-the-badge&logo=node.js)](package.json)
 [![License](https://img.shields.io/badge/license-Personal-orange.svg?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/status-Active-success.svg?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/status-Live-success.svg?style=for-the-badge)]()
+[![Deployment](https://img.shields.io/badge/🚀_LIVE_SITE-GitHub_Pages-blueviolet.svg?style=for-the-badge)](https://jazer-444.github.io/jazer-rhyme-book/)
+
+<br/>
+
+### 🌐 **[✨ VIEW LIVE SITE](https://jazer-444.github.io/jazer-rhyme-book/)** 🌐
+
+<br/>
 
 **[🚀 Quick Start](#-quick-start)** • 
 **[📖 Features](#-core-features)** • 
@@ -23,9 +37,19 @@
 |:------------------:|:---------------------:|:---------------:|:---------------:|:---------------------:|
 | Music • Tech • Culture | Thousands of Words | Claude • Gemini • Qwen | JSON Schema | Smart Relations |
 
+<br/>
+
+### ✨ **NEW in Version 2.0**
+
+| 🎵 **Music Player** | 🔗 **Smart Links** | 🔍 **Advanced Search** | 🎤 **Rhyme Finder** | ✨ **Discovery** |
+|:------------------:|:------------------:|:---------------------:|:-------------------:|:----------------:|
+| Real audio playback | Cross-domain navigation | Multi-filter system | Phonetic matching | Random exploration |
+
 </div>
 
 <br>
+
+---
 
 ## 🌟 What Is This?
 
@@ -52,11 +76,40 @@ This hub solves a critical problem: **fragmented creative knowledge**. Whether y
 ```
 
 - **🗂️ Comprehensive**: 25+ interconnected domains covering music, culture, tech, mythology, and more
-- **📚 Rich Dictionary**: Complete A-Z rhyme bank with contextual definitions and usage examples
-- **🔗 Intelligent Linking**: Cross-domain relationships and semantic connections
+- **📚 Rich Dictionary**: Complete A-Z rhyme bank with contextual definitions and phonetic rhyme matching
+- **🔗 Intelligent Linking**: Cross-domain relationships and semantic connections that actually work
 - **🤖 AI-Native**: Structured JSON optimized for Claude, Gemini, Qwen, and other LLMs
 - **⚡ Quality Assured**: Automated validation with JSON Schema and metadata rules
-- **🌐 Multi-Interface**: Python tools, Node.js APIs, and React web UI
+- **🌐 Multi-Interface**: Python tools, Node.js APIs, and React web UI with GSAP animations
+- **🎵 Interactive**: Real music player with Web Audio API visualization
+- **🔍 Smart Search**: Advanced multi-domain, tag, and era filtering
+
+<br>
+
+---
+
+## 🚀 Live Deployment
+
+<div align="center">
+
+### **[🌐 Experience It Live: jazer-444.github.io/jazer-rhyme-book](https://jazer-444.github.io/jazer-rhyme-book/)**
+
+<br/>
+
+<img src="JaZeR Master Hub Icon (100 x 100 px).svg" alt="JaZeR Hub Icon" width="100"/>
+
+<br/>
+
+**Fully deployed on GitHub Pages** • **Fast CDN delivery** • **Always online**
+
+Try the features:
+- 🎵 Click play on the music visualizer
+- 🔗 Navigate entity relationships  
+- 🔍 Use advanced search filters
+- 🎤 Find rhymes for any word
+- ✨ Hit "Surprise Me" for discovery
+
+</div>
 
 <br>
 
@@ -85,9 +138,10 @@ This hub solves a critical problem: **fragmented creative knowledge**. Whether y
 ### 📖 **A-Z Rhyme Dictionary**
 Complete alphabetical word bank with:
 - **Definitions**: Context-aware meanings
+- **Rhyme Finder**: Phonetic matching (Perfect/Near/Assonance)
+- **Syllable Counter**: Automatic syllable detection
 - **Usage**: How words flow in lyrics
-- **Variations**: Slang, regional dialects
-- **Examples**: Real-world applications
+- **Navigation**: Click rhymes to explore
 - **Expandable**: Python tools for growth
 
 </td>
@@ -112,21 +166,81 @@ Zero-tolerance data integrity:
 - **Metadata Rules**: Tag/ID enforcement
 - **Relation Verification**: Link integrity
 - **Auto-Indexing**: Generated lookup tables
-- **CI/CD Ready**: npm run validate
+- **CI/CD Ready**: `npm run validate`
 
 </td>
 </tr>
 </table>
 
-### 🌐 **Additional Capabilities**
+### 🌐 **Version 2.0 New Features**
 
-| Feature | Technology | Status |
-|---------|-----------|--------|
-| **Web Interface** | React + Vite + GSAP animations | ✅ Active |
-| **Python Toolkit** | Auto-expansion scripts | ✅ Active |
-| **Cross-Domain Search** | Tag-based, alias-aware | ✅ Active |
-| **Relationship Mapping** | Complex entity connections | ✅ Active |
-| **Real-Time Updates** | Hot-reload ready | ✅ Active |
+<table>
+<tr>
+<td width="33%">
+
+#### 🎵 **Music Player**
+- Real HTML5 Audio playback
+- Web Audio API visualization
+- Live frequency analysis
+- Volume controls that work
+- Ready for custom tracks
+
+</td>
+<td width="33%">
+
+#### 🔗 **Smart Navigation**
+- Cross-domain entity links
+- Related entity cards
+- Click to navigate anywhere
+- Domain badges
+- Seamless exploration
+
+</td>
+<td width="33%">
+
+#### 🔍 **Advanced Search**
+- Multi-domain filtering
+- Tag-based queries
+- Era filtering (90s, 2000s, etc.)
+- Real-time results
+- Visual active states
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+#### 🎤 **Rhyme Finder**
+- Phonetic algorithm (metaphone)
+- Perfect rhymes (exact match)
+- Near rhymes (similar ending)
+- Assonance (vowel similarity)
+- Syllable counting
+- Click-to-navigate
+
+</td>
+<td width="33%">
+
+#### ✨ **Discovery Mode**
+- "Surprise Me" button
+- Random entity selector
+- Cross-domain exploration
+- Smooth animations
+- Serendipitous learning
+
+</td>
+<td width="33%">
+
+#### 📊 **Performance**
+- Bundle size: ~3.1 MB
+- Build time: ~18 seconds
+- 4,337+ modules
+- GSAP animations
+- Optimized for speed
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -390,145 +504,72 @@ The hub organizes knowledge into 25 specialized domains, each containing rich en
 jazer-rhyme-book/
 │
 ├── 📊 data/                                    # Core knowledge domains
-│   │
-│   ├── aesthetics-visuals/                     # Visual arts & design
-│   ├── brands/                                 # Companies & labels
-│   ├── business-economics/                     # Finance & commerce
-│   ├── cinema/                                 # Film & directors
-│   ├── emotions-states/                        # Feelings & moods
-│   ├── fashion/                                # Style & trends
-│   ├── history/                                # Events & eras
-│   ├── internet-culture/                       # Online phenomena
-│   ├── lingo/                                  # Slang & expressions
-│   ├── media-platforms/                        # TV, radio, streaming
 │   ├── music/                                  # Artists, genres, flow
 │   │   ├── entities/                           # Source JSON files
-│   │   │   ├── kendrick-lamar.json
-│   │   │   ├── boom-bap.json
-│   │   │   └── [more entities...]
 │   │   ├── indexes/                            # Auto-generated lookups
-│   │   │   ├── by_tag.json
-│   │   │   ├── by_era.json
-│   │   │   └── alias_map.json
-│   │   └── relations/
-│   │       └── relations.json
+│   │   └── relations/                          # Relationship maps
 │   │
-│   ├── mythology-legend/                       # Gods & folklore
-│   ├── people/                                 # Icons & celebrities
-│   ├── philosophy-ideas/                       # Concepts & ideologies
-│   ├── places/                                 # Cities & landmarks
-│   ├── rituals-symbols/                        # Cultural practices
-│   ├── science-future/                         # Innovation & space
-│   ├── sports/                                 # Athletics & competition
-│   ├── tech/                                   # Gadgets & software
-│   ├── time-energy/                            # Temporal concepts
-│   ├── vehicles/                               # Cars & transportation
-│   ├── weapons-objects/                        # Tools & artifacts
-│   ├── writing-tools/                          # Literary devices
+│   ├── [24 more domains...]                    # lingo, tech, people, etc.
 │   │
 │   ├── _indexes/                               # Global cross-domain indexes
-│   │   ├── all_entities.json
-│   │   ├── global_tags.json
-│   │   └── cross_domain_map.json
-│   │
 │   └── _relations/                             # Cross-domain relationships
-│       └── global_relations.json
 │
 ├── 📖 Rap_Dictionary_Master_Hub/               # A-Z rhyme dictionary
-│   ├── A/
-│   │   ├── 01_Words/
-│   │   │   ├── abandon/
-│   │   │   │   └── word.md                     # Definition + context
-│   │   │   ├── ability/
-│   │   │   └── [50+ words...]
-│   │   └── A Master Index.md                   # Letter overview
-│   ├── B/ through Z/                           # 25 more letter folders
-│   └── Master_Hub_Index.md                     # Full dictionary guide
+│   ├── A/ through Z/                           # 26 letter folders
+│   │   ├── 01_Words/                           # Word definitions
+│   │   └── [Letter] Master Index.md
+│   └── Master_Hub_Index.md
 │
 ├── 🎨 web/                                     # React web interface
 │   ├── src/
 │   │   ├── components/                         # React components
-│   │   │   ├── DomainExplorer.jsx
-│   │   │   ├── SearchBar.jsx
-│   │   │   └── EntityCard.jsx
-│   │   ├── lib/                                # Utilities
-│   │   │   └── dataLoader.js
-│   │   ├── App.jsx                             # Main app
-│   │   └── main.jsx                            # Entry point
+│   │   │   ├── StudioPlayer.jsx               # Music player
+│   │   │   ├── RandomDiscovery.jsx            # Surprise Me button
+│   │   │   └── [more components...]
+│   │   ├── pages/                              # Page components
+│   │   │   ├── EntityDetail.jsx               # Entity view + relations
+│   │   │   ├── Search.jsx                     # Advanced search
+│   │   │   └── DictionaryWord.jsx             # Word + rhyme finder
+│   │   └── lib/                                # Utilities
+│   │       ├── rhymeFinder.js                 # Phonetic algorithms
+│   │       └── data/knowledgeHub.js           # Cross-domain data
 │   ├── public/
-│   │   ├── logo.svg
-│   │   └── icon.svg
-│   ├── package.json
-│   └── vite.config.js
+│   │   ├── logo.svg                            # JaZeR logo
+│   │   ├── icon.svg                            # Hub icon
+│   │   └── data/                               # Static data copies
+│   └── package.json
 │
 ├── ⚙️ scripts/                                 # Build & validation tools
 │   ├── validate.js                             # JSON Schema validator
 │   ├── build-indexes.js                        # Index generator
-│   ├── check-relations.js                      # Relation verifier
-│   └── utils.js                                # Helper functions
+│   └── prepare-web-data.js                     # Web build preparation
 │
 ├── 📋 schemas/                                 # JSON Schema definitions
-│   ├── entity.schema.json                      # Base entity schema
-│   ├── music.entity.schema.json                # Domain-specific
-│   ├── lingo.entity.schema.json
-│   └── [domain schemas...]
+│   ├── entity.schema.json
+│   └── [domain-specific schemas...]
 │
 ├── 🔧 _meta/                                   # Global rules & config
 │   ├── tags.json                               # Controlled vocabulary
 │   ├── id_rules.json                           # ID naming conventions
-│   ├── relation_types.json                     # Valid relationship types
-│   └── domain_config.json                      # Domain metadata
+│   └── relation_types.json
 │
-├── 🐍 Python Automation Scripts
-│   ├── auto_expand_dictionary.py               # Auto-grow dictionary
-│   ├── create_rap_hub.py                       # Generate hub structure
-│   ├── add_50_a_words.py                       # Add words by letter
-│   ├── add_v_words_2.py
-│   ├── add_w_words_2.py
+├── 🐍 Python Scripts
+│   ├── auto_expand_dictionary.py
 │   └── [letter-specific scripts...]
 │
-├── 🤖 AI Configuration
-│   ├── AGENTS.md                               # General AI guidelines
-│   ├── GEMINI.md                               # Gemini-specific config
-│   └── QWEN.md                                 # Qwen-specific config
+├── 📚 Documentation
+│   ├── README.md                               # You are here
+│   ├── IMPLEMENTATION_SUMMARY.md              # Technical details
+│   ├── QUICK_START_GUIDE.md                   # User guide
+│   └── SITE_ENHANCEMENT_RECOMMENDATIONS.md    # Feature roadmap
 │
-├── 📦 Configuration Files
-│   ├── package.json                            # Node dependencies
-│   ├── package-lock.json                       # Dependency lock
-│   └── word_bank.json                          # Master word list
+├── 🎨 Assets
+│   ├── JaZeR Rhyme Book Logo (450 x 150 px).svg
+│   └── JaZeR Master Hub Icon (100 x 100 px).svg
 │
-├── 📄 Output Files
-│   ├── validation_output.txt                   # Validation logs
-│   ├── validation_output_v2.txt
-│   └── [validation history...]
-│
-├── 📁 folder_structure.txt                     # Directory tree
-└── 📖 README.md                                # You are here
-```
-
-### 🗂️ Key Directory Purposes
-
-| Directory | Purpose | Manual/Generated |
-|-----------|---------|------------------|
-| `data/*/entities/` | **Source of truth** - all knowledge lives here | ✍️ Manual |
-| `data/*/indexes/` | **Fast lookups** - auto-generated from entities | 🤖 Generated |
-| `data/*/relations/` | **Connections** - how entities relate | ✍️ Manual |
-| `Rap_Dictionary_Master_Hub/` | **A-Z words** - rhyme dictionary | ✍️ Manual + 🐍 Python |
-| `web/` | **User interface** - React app | ✍️ Manual |
-| `scripts/` | **Build tools** - validation & indexing | ✍️ Manual |
-| `schemas/` | **Data contracts** - JSON Schema rules | ✍️ Manual |
-| `_meta/` | **Global config** - tags, IDs, relations | ✍️ Manual |
-
-### 🔄 Data Flow
-
-```
-1. Create Entity (data/music/entities/drake.json)
-            ↓
-2. Validate (npm run validate)
-            ↓
-3. Build Indexes (npm run build)
-            ↓
-4. Serve to Web/AI
+└── 📦 Config Files
+    ├── package.json
+    └── word_bank.json
 ```
 
 </details>
@@ -545,12 +586,14 @@ Get up and running in **under 2 minutes**:
 - **Node.js** 14.0+ ([Download](https://nodejs.org))
 - **npm** (comes with Node)
 - **Python** 3.8+ (for dictionary tools)
+- **Git** (for cloning/pulling)
 
 ### Installation
 
 ```bash
-# 1. Navigate to repository
-cd "C:\Users\JaZeR\OneDrive\Desktop\2026 → JaZeR Mainframe\2026 → JaZeR Rhyme Book"
+# 1. Clone or navigate to repository
+git clone https://github.com/JaZeR-444/jazer-rhyme-book.git
+cd jazer-rhyme-book
 
 # 2. Install Node dependencies
 npm install
@@ -562,7 +605,7 @@ npm run validate
 npm run build
 ```
 
-### Launch Web Interface (Optional)
+### Launch Web Interface Locally
 
 ```bash
 # Navigate to web directory
@@ -577,6 +620,12 @@ npm run dev
 # Open browser to: http://localhost:5173
 ```
 
+### Or Just Visit the Live Site!
+
+🌐 **[https://jazer-444.github.io/jazer-rhyme-book/](https://jazer-444.github.io/jazer-rhyme-book/)**
+
+No installation needed to explore!
+
 ### Verify Everything Works
 
 ```bash
@@ -585,9 +634,6 @@ npm run validate
 
 # Should generate indexes without errors
 npm run build
-
-# Check folder structure
-dir data
 ```
 
 ### 🎉 You're Ready!
@@ -595,16 +641,17 @@ dir data
 - ✅ **Dependencies installed**
 - ✅ **Data validated** against schemas
 - ✅ **Indexes generated** for fast lookups
-- ✅ **Web UI running** (if you started it)
+- ✅ **Web UI accessible** (locally or live)
 - ✅ **Ready for AI integration**
 
 ### Common Commands
 
 ```bash
-npm run validate          # Validate all entity files
-npm run build            # Rebuild all indexes
-python auto_expand_dictionary.py  # Expand dictionary
-cd web && npm run dev    # Start web interface
+npm run validate                    # Validate all entity files
+npm run build                       # Rebuild all indexes
+python auto_expand_dictionary.py    # Expand dictionary
+cd web && npm run dev               # Start local dev server
+cd web && npm run build             # Build for production
 ```
 
 <br>
@@ -612,6 +659,16 @@ cd web && npm run dev    # Start web interface
 ---
 
 ## 📚 Documentation
+
+### 🎮 Using the Live Site
+
+Visit **[jazer-444.github.io/jazer-rhyme-book](https://jazer-444.github.io/jazer-rhyme-book/)** to:
+
+1. **🎵 Music Player**: Click play button (bottom right) for ambient music with live visualization
+2. **🔍 Advanced Search**: Search entities → Click "Advanced Filters" → Select domains/tags/eras
+3. **🔗 Entity Navigation**: Click any entity → See related entities cards → Click to navigate
+4. **🎤 Rhyme Finder**: Dictionary → Pick word → Click "Find Rhymes" → Explore perfect/near rhymes
+5. **✨ Random Discovery**: Homepage → Click "Surprise Me" → Explore random entities
 
 ### 📝 Adding New Entities
 
@@ -637,32 +694,18 @@ touch j-cole.json
   "description": "North Carolina rapper known for introspective lyricism and storytelling. Founded Dreamville Records.",
   "tags": ["hip-hop", "lyricist", "north-carolina", "producer"],
   "aliases": ["Jermaine Cole", "Cole World"],
-  "era": "2010s",
+  "era": "2010s-Present",
   "related_ids": ["kendrick-lamar", "dreamville", "born-sinner"],
   "sources": [
     "Wikipedia: J. Cole",
     "AllMusic: J. Cole Biography"
   ],
   "metadata": {
-    "added": "2026-01-08",
+    "added": "2026-01-10",
     "verified": true
   }
 }
 ```
-
-#### Required Fields
-- **id**: Lowercase, hyphenated slug (must match filename)
-- **name**: Display name
-- **type**: Entity type (person, concept, place, etc.)
-- **description**: Clear, concise explanation
-- **tags**: Array from `_meta/tags.json`
-- **sources**: Citation URLs or titles
-
-#### Optional But Recommended
-- **aliases**: Alternative names/spellings
-- **era**: Time period (1990s, 2000s, etc.)
-- **related_ids**: Links to other entities
-- **metadata**: Additional context
 
 #### Validate & Build
 
@@ -676,7 +719,8 @@ npm run build
 
 ### 🔗 Entity Relationships
 
-#### Simple Linking (within entity file)
+Cross-domain relationships now work seamlessly in the web interface:
+
 ```json
 {
   "id": "kendrick-lamar",
@@ -684,127 +728,20 @@ npm run build
 }
 ```
 
-#### Complex Relations (in `relations/relations.json`)
-```json
-{
-  "source_id": "kendrick-lamar",
-  "target_id": "tupac",
-  "relation_type": "influenced_by",
-  "context": "Thematic exploration of West Coast struggle and consciousness",
-  "strength": "strong"
-}
-```
+When viewing Kendrick's page, related entities appear as clickable cards that navigate to the correct entity, even if they're in different domains!
 
-#### Valid Relation Types (from `_meta/relation_types.json`)
-- `influenced_by` / `influences`
-- `member_of` / `has_member`
-- `created_by` / `created`
-- `part_of` / `contains`
-- `similar_to`
-- `inspired_by` / `inspires`
+### 🎤 Dictionary Rhyme Features
 
-### 📖 Dictionary Expansion
+The new rhyme finder uses phonetic algorithms:
 
-The Rap Dictionary uses Python scripts for automated growth:
-
-#### Add Words to Specific Letter
-
-```bash
-# Add 50 words to letter A
-python add_50_a_words.py
-
-# Add words to V, W, X, Y, Z
-python add_v_words_2.py
-python add_w_words_2.py
-python add_x_words_2.py
-python add_y_words_2.py
-python add_z_words_2.py
-```
-
-#### Auto-Expand Entire Dictionary
-
-```bash
-# Intelligently grow all letters
-python auto_expand_dictionary.py
-```
-
-#### Manual Word Addition
-
-1. Navigate to letter folder: `Rap_Dictionary_Master_Hub/A/01_Words/`
-2. Create word folder: `mkdir awesome`
-3. Create definition file: `awesome/word.md`
-4. Follow markdown template:
-
-```markdown
-# Awesome
-
-**Pronunciation**: /ˈɔːsəm/  
-**Part of Speech**: Adjective
-
-## Definition
-Extremely impressive or excellent; inspiring awe.
-
-## Usage in Lyrics
-- "My flow is awesome, lyrics stay boss-some"
-- "Awesome presence when I step on the scene"
-
-## Synonyms
-- Incredible, Amazing, Phenomenal, Dope
-
-## Related Words
-- Dope, Fire, Hard, Cold
-
-## Cultural Context
-Modern slang evolution from formal "awe-inspiring" to casual excellence.
-```
-
-### 🏷️ Tag Management
-
-Tags must come from `_meta/tags.json`. To add new tags:
-
-```bash
-# 1. Edit _meta/tags.json
-{
-  "tags": [
-    "hip-hop",
-    "trap",
-    "lyricist",
-    "your-new-tag"  // Add here
-  ]
-}
-
-# 2. Validate the change
-npm run validate
-
-# 3. Use in entities
-```
-
-### 🔍 Searching & Querying
-
-#### By Tag
-```javascript
-// Look in data/music/indexes/by_tag.json
-{
-  "hip-hop": ["kendrick-lamar", "j-cole", "nas"],
-  "producer": ["kanye-west", "dr-dre", "metro-boomin"]
-}
-```
-
-#### By Alias
-```javascript
-// Look in data/music/indexes/alias_map.json
-{
-  "Drizzy": "drake",
-  "Champagne Papi": "drake",
-  "King Kendrick": "kendrick-lamar"
-}
-```
-
-#### Cross-Domain
-```javascript
-// Look in data/_indexes/all_entities.json
-// Contains every entity across all domains
-```
+1. Navigate to any dictionary word
+2. Click "Find Rhymes" button
+3. View categorized results:
+   - **Perfect Rhymes** (Cyan) - Exact phonetic match
+   - **Near Rhymes** (Magenta) - Similar ending sounds
+   - **Assonance** (Gray) - Similar vowel patterns
+4. See syllable counts for each rhyme
+5. Click any rhyme to navigate to that word
 
 ### 🤖 AI Integration
 
@@ -819,6 +756,12 @@ See dedicated AI configuration files:
 3. **Rhyme Assistance**: Access dictionary by letter/word
 4. **Validation**: Auto-check data integrity
 5. **Index Generation**: Rebuild lookups after changes
+
+### 📖 Additional Documentation
+
+- **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)**: Full technical implementation details of v2.0 features
+- **[QUICK_START_GUIDE.md](QUICK_START_GUIDE.md)**: User-facing guide for all new features
+- **[SITE_ENHANCEMENT_RECOMMENDATIONS.md](SITE_ENHANCEMENT_RECOMMENDATIONS.md)**: Future feature roadmap
 
 <br>
 
@@ -849,55 +792,53 @@ We welcome contributions that improve the knowledge base! Here's how to contribu
 
 ### 🔄 Contribution Workflow
 
-``bash
-# 1. Navigate to appropriate domain
-cd data/lingo/entities/
+```bash
+# 1. Fork repository on GitHub
+# 2. Clone your fork
+git clone https://github.com/YOUR-USERNAME/jazer-rhyme-book.git
 
-# 2. Create new entity file
-# Example: bussin.json
+# 3. Create feature branch
+git checkout -b feat/add-mf-doom-entity
 
-# 3. Write JSON following schema
-{
-  "id": "bussin",
-  "name": "Bussin",
-  "type": "slang",
-  "description": "Extremely good, delicious, or impressive",
-  "tags": ["slang", "food", "modern"],
-  "sources": ["Urban Dictionary"]
-}
+# 4. Make changes (add entities, etc.)
+cd data/music/entities/
+# Create your entity JSON file
 
-# 4. Validate
+# 5. Validate
 npm run validate
 
-# 5. Build indexes
+# 6. Build indexes
 npm run build
-``
+
+# 7. Commit with conventional commit message
+git add .
+git commit -m "feat(music): add MF DOOM entity with full discography"
+
+# 8. Push to your fork
+git push origin feat/add-mf-doom-entity
+
+# 9. Open Pull Request on GitHub
+```
 
 ### 📝 Commit Message Convention
 
-Follow [Conventional Commits](https://www.conventionalcommits.org/) format:
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-``
+```
 <type>(<scope>): <description>
 
 [optional body]
-[optional footer]
-``
+```
 
-#### Types
-- `feat`: New entity or feature
-- `fix`: Correction to existing data
-- `docs`: Documentation updates
-- `chore`: Maintenance tasks
-- `refactor`: Restructuring without data changes
+**Types**: `feat`, `fix`, `docs`, `chore`, `refactor`
 
-#### Examples
-``bash
+**Examples**:
+```bash
 feat(music): add MF DOOM entity with full discography
 fix(lingo): correct "drip" definition and add aliases
-docs(readme): update installation instructions for Windows
+docs(readme): update installation instructions
 chore(indexes): rebuild after bulk entity import
-``
+```
 
 ### ✅ Pull Request Checklist
 
@@ -932,87 +873,17 @@ chore(indexes): rebuild after bulk entity import
 | `_meta/*.json` | Git commits (critical config) |
 | Generated indexes | ❌ Never backup (rebuild with `npm run build`) |
 
-### 🔧 Troubleshooting Guide
-
-<details>
-<summary><b>❌ Validation Fails</b></summary>
-
-``bash
-# View detailed errors
-type validation_output_v6.txt
-
-# Validate specific domain
-node scripts/validate.js data/music
-
-# Common issues:
-# - Missing required fields (id, name, type, description)
-# - Invalid tag not in _meta/tags.json
-# - ID doesn't match filename
-# - Malformed JSON syntax
-``
-</details>
-
-<details>
-<summary><b>❌ Index Build Errors</b></summary>
-
-``bash
-# Clear all indexes and rebuild
-rmdir /s /q data\music\indexes
-rmdir /s /q data\_indexes
-npm run build
-
-# Check for:
-# - Circular dependencies in related_ids
-# - Invalid entity IDs in relations
-# - Corrupted JSON files
-``
-</details>
-
-<details>
-<summary><b>❌ Python Script Issues</b></summary>
-
-``bash
-# Check Python version (need 3.8+)
-python --version
-
-# If missing dependencies
-pip install -r requirements.txt
-
-# Common issues:
-# - Wrong Python version
-# - File path problems (use absolute paths)
-``
-</details>
-
-<details>
-<summary><b>❌ Web Interface Won't Start</b></summary>
-
-``bash
-cd web
-
-# Reinstall dependencies
-rmdir /s /q node_modules
-npm install
-
-# Start dev server
-npm run dev
-
-# Check:
-# - Port 5173 already in use
-# - Corrupted node_modules
-``
-</details>
-
 ### 📊 System Statistics
 
 | Metric | Count | Notes |
 |--------|-------|-------|
 | **Domains** | 25 | Fully structured |
-| **Entities** | Growing | Varies by domain |
-| **Dictionary Words** | 1000s | A-Z coverage |
+| **Entities** | 1000+ | Growing |
+| **Dictionary Words** | 5000+ | A-Z coverage |
 | **Validation Rules** | 50+ | JSON Schema based |
 | **Relation Types** | 15+ | Defined in `_meta/` |
 | **Tags** | 100+ | Controlled vocabulary |
+| **Build Size** | ~3.1 MB | Optimized bundle |
 
 <br>
 
@@ -1031,10 +902,11 @@ This is a **personal creative project** by JaZeR. All content proprietary.
 - ❌ Redistribution without permission
 
 ### Attribution
-``
+```
 JaZeR Master Flow Knowledge Hub
 Created by JaZeR | 2026
-``
+https://jazer-444.github.io/jazer-rhyme-book/
+```
 
 <br>
 
@@ -1047,11 +919,14 @@ Created by JaZeR | 2026
 - 📚 **Knowledge Graph Projects**: WikiData, ConceptNet
 - 🤖 **AI Research**: Claude, Gemini, open-source LLMs
 
-### Technology
-- ⚡ **AJV**: Fast JSON Schema validation
-- ⚛️ **React + Vite**: Modern web framework
+### Technology Stack
+- ⚛️ **React 19 + Vite 7**: Modern web framework
 - 🎨 **GSAP**: Smooth animations
+- ⚡ **AJV**: Fast JSON Schema validation
+- 🔊 **Web Audio API**: Real-time audio visualization
+- 🎵 **Metaphone**: Phonetic rhyme matching
 - 🐍 **Python**: Automation excellence
+- 🚀 **GitHub Pages**: Free hosting
 
 ### Contributors
 - **JaZeR**: Creator, maintainer, visionary
@@ -1064,10 +939,16 @@ Created by JaZeR | 2026
 
 ## 📞 Contact & Support
 
+### Live Site
+🌐 **[https://jazer-444.github.io/jazer-rhyme-book/](https://jazer-444.github.io/jazer-rhyme-book/)**
+
+### Repository
+📦 **[https://github.com/JaZeR-444/jazer-rhyme-book](https://github.com/JaZeR-444/jazer-rhyme-book)**
+
 ### Project Information
-- **Location**: `C:\Users\JaZeR\OneDrive\Desktop\2026 → JaZeR Mainframe\2026 → JaZeR Rhyme Book`
-- **Version**: 1.0.0
-- **Status**: Active Development
+- **Version**: 2.0.0 (Major Update)
+- **Status**: Active Development + Live Deployment
+- **Last Updated**: January 10, 2026
 
 ### For AI Agents
 Interaction protocols documented in:
@@ -1076,14 +957,22 @@ Interaction protocols documented in:
 - **[QWEN.md](QWEN.md)**: Qwen model config
 
 ### Quick Links
-- [🚀 Quick Start](#-quick-start)
-- [📖 Documentation](#-documentation)
+- [🚀 Live Site](https://jazer-444.github.io/jazer-rhyme-book/)
+- [📖 Quick Start](#-quick-start)
+- [🎯 Features](#-core-features)
+- [📚 Documentation](#-documentation)
 - [🤝 Contributing](#-contributing)
-- [🛠️ Troubleshooting](#-maintenance--troubleshooting)
 
 ---
 
 <div align="center">
+
+<br/>
+
+<img src="JaZeR Master Hub Icon (100 x 100 px).svg" alt="JaZeR Hub Icon" width="80"/>
+
+<br/>
+<br/>
 
 ### 🎤 Built with passion for the culture
 
@@ -1091,6 +980,9 @@ Interaction protocols documented in:
 
 ---
 
-**JaZeR Master Flow Knowledge Hub** • 2026 • Version 1.0.0
+**JaZeR Master Flow Knowledge Hub** • 2026 • Version 2.0.0
+
+[![Live Site](https://img.shields.io/badge/🌐_LIVE_SITE-Visit_Now-success.svg?style=for-the-badge)](https://jazer-444.github.io/jazer-rhyme-book/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg?style=for-the-badge&logo=github)](https://github.com/JaZeR-444/jazer-rhyme-book)
 
 </div>
