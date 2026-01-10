@@ -22,12 +22,20 @@
   --text-secondary: hsl(240, 10%, 60%); /* Subdued text */
   --text-muted: hsl(240, 10%, 40%); /* Hints, labels */
 
-  /* Accent Colors — Neon restraint, used sparingly */
+  /* Accent Colors — JaZeR Brand Palette */
+  --accent-primary: hsl(262, 70%, 55%); /* Brand purple */
+  --accent-primary-glow: hsla(262, 70%, 55%, 0.4);
+  --accent-secondary: hsl(180, 100%, 41%); /* Brand cyan/teal */
+  --accent-secondary-glow: hsla(180, 100%, 41%, 0.3);
   --accent-neon: hsl(180, 100%, 50%); /* Cyan highlights */
   --accent-neon-glow: hsla(180, 100%, 50%, 0.3);
   --accent-warm: hsl(35, 100%, 60%); /* Amber secondary */
   --accent-warm-glow: hsla(35, 100%, 60%, 0.3);
   --accent-purple: hsl(270, 80%, 60%); /* Creative emphasis */
+  
+  /* Brand Gradient */
+  --brand-gradient: linear-gradient(135deg, #5D3FD3 0%, #6B4CE6 50%, #00CED1 100%);
+  --brand-gradient-subtle: linear-gradient(135deg, hsla(262, 70%, 55%, 0.2) 0%, hsla(180, 100%, 41%, 0.2) 100%);
 
   /* Era Colors — Each era has a signature hue */
   --era-genesis: hsl(200, 80%, 50%);

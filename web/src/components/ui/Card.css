@@ -39,16 +39,21 @@
   bottom: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, var(--accent-neon), var(--accent-purple));
+  background: var(--brand-gradient);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   opacity: 0;
   transition: opacity var(--duration-short) var(--ease-out);
 }
 
 .card--glow:hover::before {
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+.card--glow:hover {
+  box-shadow: 0 8px 32px var(--accent-primary-glow);
 }
 
 .card__header {

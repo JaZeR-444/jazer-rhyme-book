@@ -1,0 +1,139 @@
+.dictionary-favorites {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+.dictionary-favorites__header {
+  margin-bottom: var(--space-xl);
+}
+
+.dictionary-favorites__title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin: var(--space-md) 0;
+}
+
+.dictionary-favorites__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.dictionary-favorites__back:hover {
+  background: var(--surface-3);
+  border-color: var(--accent-primary);
+  color: var(--accent-secondary);
+  transform: translateX(-2px);
+}
+
+.dictionary-favorites__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-bold);
+  background: linear-gradient(135deg, #ff4d6d 0%, #ff8fa3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.dictionary-favorites__icon {
+  color: #ff4d6d;
+  -webkit-text-fill-color: initial;
+}
+
+.dictionary-favorites__count {
+  font-size: var(--text-h3);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+  font-family: var(--font-mono);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+/* ============================================
+   FAVORITES GRID
+   ============================================ */
+.dictionary-favorites__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-md);
+}
+
+/* ============================================
+   FAVORITE WORD CARD
+   ============================================ */
+.favorite-word-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-md) var(--space-lg);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.favorite-word-card:hover {
+  background: var(--surface-2);
+  border-color: #ff4d6d;
+  box-shadow: 0 4px 20px rgba(255, 77, 109, 0.15);
+}
+
+.favorite-word-card__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  text-decoration: none;
+  flex: 1;
+}
+
+.favorite-word-card__letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--brand-gradient-subtle);
+  border-radius: 8px;
+  color: var(--accent-secondary);
+  font-family: var(--font-mono);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-body);
+}
+
+.favorite-word-card__name {
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  color: var(--text-primary);
+  transition: color var(--duration-short) var(--ease-out);
+}
+
+.favorite-word-card:hover .favorite-word-card__name {
+  color: #ff4d6d;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+  .dictionary-favorites__grid {
+    grid-template-columns: 1fr;
+  }
+}

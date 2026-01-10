@@ -4,24 +4,73 @@
   padding: var(--space-xl) var(--container-padding);
 }
 
+/* ============================================
+   HEADER
+   ============================================ */
 .dictionary-page__header {
   text-align: center;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+  position: relative;
+}
+
+.dictionary-page__header::after {
+  content: '';
+  position: absolute;
+  bottom: calc(-1 * var(--space-lg));
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 2px;
+  background: var(--brand-gradient);
+  border-radius: 2px;
 }
 
 .dictionary-page__title {
-  font-size: var(--text-h1);
-  font-weight: var(--weight-semibold);
-  color: var(--accent-neon);
-  margin-bottom: var(--space-sm);
+  font-size: var(--text-hero);
+  font-weight: var(--weight-bold);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-md);
+  letter-spacing: -0.02em;
 }
 
 .dictionary-page__description {
-  font-size: var(--text-h3);
+  font-size: var(--text-body);
   color: var(--text-secondary);
-  line-height: var(--leading-relaxed);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
+.dictionary-page__favorites-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+  padding: var(--space-sm) var(--space-lg);
+  background: rgba(255, 77, 109, 0.1);
+  border: 1px solid rgba(255, 77, 109, 0.2);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.dictionary-page__favorites-btn:hover {
+  background: rgba(255, 77, 109, 0.15);
+  border-color: #ff4d6d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 77, 109, 0.1);
+}
+
+.dictionary-page__favorites-text {
+  color: #ff4d6d;
+  font-weight: var(--weight-semibold);
+}
+
+/* ============================================
+   LETTER GRID
+   ============================================ */
 .dictionary-page__letters {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -30,11 +79,14 @@
 
 @media (max-width: 768px) {
   .dictionary-page__letters {
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
     gap: var(--space-sm);
   }
 }
 
+/* ============================================
+   LETTER CARDS
+   ============================================ */
 .letter-card {
   display: flex;
   flex-direction: column;
@@ -42,31 +94,80 @@
   justify-content: center;
   background: var(--surface-1);
   border: 2px solid var(--border-subtle);
-  border-radius: 12px;
+  border-radius: 16px;
   padding: var(--space-lg);
   text-decoration: none;
   transition: all var(--duration-short) var(--ease-out);
   aspect-ratio: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient border on hover */
+.letter-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: var(--brand-gradient);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity var(--duration-short) var(--ease-out);
+}
+
+.letter-card::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: var(--surface-1);
+  border-radius: 14px;
+  z-index: -1;
+  transition: background var(--duration-short) var(--ease-out);
 }
 
 .letter-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px var(--accent-primary-glow);
+}
+
+.letter-card:hover::before {
+  opacity: 1;
+}
+
+.letter-card:hover::after {
   background: var(--surface-2);
-  border-color: var(--accent-neon);
-  transform: scale(1.05);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .letter-card__letter {
-  font-size: 48px;
+  font-size: clamp(36px, 8vw, 56px);
   font-weight: var(--weight-bold);
-  color: var(--accent-neon);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-family: var(--font-mono);
   line-height: 1;
   margin-bottom: var(--space-xs);
+  transition: transform var(--duration-short) var(--ease-out);
+}
+
+.letter-card:hover .letter-card__letter {
+  transform: scale(1.1);
 }
 
 .letter-card__label {
-  font-size: var(--text-small);
-  color: var(--text-secondary);
+  font-size: var(--text-micro);
+  color: var(--text-muted);
   font-weight: var(--weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.letter-card:hover .letter-card__label {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--text-secondary);
 }

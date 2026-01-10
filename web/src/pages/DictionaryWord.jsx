@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, BookOpen } from 'lucide-react';
-import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer } from '../components/ui';
+import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton } from '../components/ui';
 import { useDictionaryWord } from '../lib/hooks';
 import './DictionaryWord.css';
 
@@ -42,7 +42,10 @@ export function DictionaryWord() {
           <Link to={`/dictionary/${letter}`} className="dictionary-word__back">
             <ArrowLeft size={24} />
           </Link>
-          <h1 className="dictionary-word__title">{wordName}</h1>
+          <div className="dictionary-word__title-group">
+            <h1 className="dictionary-word__title">{wordName}</h1>
+            <FavoriteButton word={word} letter={letter} size={28} showLabel />
+          </div>
         </div>
       </div>
 

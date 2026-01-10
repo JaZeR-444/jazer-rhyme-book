@@ -36,14 +36,16 @@
 
 /* Variants */
 .btn--primary {
-  background: linear-gradient(135deg, var(--accent-neon), var(--accent-purple));
+  background: var(--brand-gradient);
   color: var(--surface-0);
   font-weight: var(--weight-semibold);
+  box-shadow: 0 4px 15px var(--accent-primary-glow);
 }
 
 .btn--primary:hover:not(:disabled) {
-  filter: brightness(1.1);
-  box-shadow: 0 0 20px var(--accent-neon-glow);
+  filter: brightness(1.15);
+  box-shadow: 0 6px 25px var(--accent-primary-glow), 0 0 40px var(--accent-secondary-glow);
+  transform: translateY(-2px);
 }
 
 .btn--secondary {

@@ -1,6 +1,7 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, FileText, Info, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { Logo } from './common/Logo';
 import './AppLayout.css';
 
 export function AppLayout() {
@@ -28,8 +29,7 @@ export function AppLayout() {
       <header className="app-header">
         <div className="app-header__content">
           <Link to="/" className="app-header__logo">
-            <span className="app-header__logo-text">JaZeR</span>
-            <span className="app-header__logo-accent">Hub</span>
+            <Logo variant="full" size="small" className="nav-logo" />
           </Link>
 
           {/* Desktop Nav */}
@@ -81,7 +81,9 @@ export function AppLayout() {
 
       {/* Footer */}
       <footer className="app-footer">
+        <div className="app-footer__gradient-line" />
         <div className="app-footer__content">
+          <Logo variant="icon" size="small" className="footer-logo" />
           <p className="app-footer__text">
             © 2026 JaZeR Master Flow Knowledge Hub
           </p>

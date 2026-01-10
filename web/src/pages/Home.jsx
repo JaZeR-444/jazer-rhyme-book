@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, Zap, Globe } from 'lucide-react';
 import { Button, Card } from '../components/ui';
+import { Logo } from '../components/common/Logo';
 import { useDomains, useDictionaryLetters } from '../lib/hooks';
 import { useGSAP } from '@gsap/react';
 import { gsap, ScrollTrigger } from '../lib/gsap';
@@ -14,12 +15,21 @@ export function Home() {
   const featuresRef = useRef();
 
   useGSAP(() => {
-    // Hero animation
+    // Logo entrance animation
+    gsap.from(heroRef.current.querySelector('.hero__logo'), {
+      opacity: 0,
+      scale: 0.8,
+      duration: 1,
+      ease: 'power3.out'
+    });
+
+    // Hero text animation - staggered entrance
     gsap.from(heroRef.current.querySelectorAll('.hero__title, .hero__subtitle, .hero__actions'), {
       opacity: 0,
       y: 30,
       duration: 0.8,
-      stagger: 0.2,
+      stagger: 0.15,
+      delay: 0.3,
       ease: 'power3.out'
     });
 
@@ -42,8 +52,11 @@ export function Home() {
       {/* Hero Section */}
       <section className="hero" ref={heroRef}>
         <div className="hero__content">
+          <div className="hero__logo">
+            <Logo variant="full" size="xlarge" className="hero-logo-img" />
+          </div>
           <h1 className="hero__title">
-            JaZeR Master Flow
+            <span className="hero__title-gradient">Master Flow</span>
             <br />
             <span className="hero__title-accent">Knowledge Hub</span>
           </h1>

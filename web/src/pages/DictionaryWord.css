@@ -4,6 +4,9 @@
   padding: var(--space-xl) var(--container-padding);
 }
 
+/* ============================================
+   HEADER
+   ============================================ */
 .dictionary-word__header {
   margin-bottom: var(--space-xl);
 }
@@ -11,35 +14,61 @@
 .dictionary-word__title-row {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-lg);
   margin: var(--space-md) 0;
 }
 
-.dictionary-word__back {
+.dictionary-word__title-group {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  background: var(--surface-2);
-  color: var(--text-primary);
-  text-decoration: none;
-  transition: all var(--duration-short) var(--ease-out);
-}
-
-.dictionary-word__back:hover {
-  background: var(--surface-3);
-  color: var(--accent-neon);
+  gap: var(--space-lg);
+  flex-wrap: wrap;
 }
 
 .dictionary-word__title {
-  font-size: var(--text-h1);
-  font-weight: var(--weight-semibold);
-  color: var(--accent-neon);
+  font-size: clamp(2.5rem, 10vw, 4rem);
+  font-weight: var(--weight-bold);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin: 0;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
+/* ============================================
+   CONTENT CARD
+   ============================================ */
 .dictionary-word__content {
   padding: var(--space-xl);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient accent line at top */
+.dictionary-word__content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--brand-gradient);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+  .dictionary-word__content {
+    padding: var(--space-lg);
+  }
+  
+  .dictionary-word__title-row {
+    gap: var(--space-md);
+  }
 }

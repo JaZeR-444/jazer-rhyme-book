@@ -13,7 +13,8 @@ export function Logo({ variant = 'full', size = 'medium', className = '' }) {
     xlarge: { full: '600px', icon: '80px' },
   };
 
-  const logoSrc = variant === 'icon' ? '/icon.svg' : '/logo.svg';
+  const basePath = import.meta.env.BASE_URL || '/';
+  const logoSrc = variant === 'icon' ? `${basePath}icon.svg` : `${basePath}logo.svg`;
   const altText = variant === 'icon' ? 'JaZeR Master Hub Icon' : 'JaZeR Rhyme Book Logo';
   const maxWidth = sizes[size]?.[variant] || sizes.medium[variant];
 
