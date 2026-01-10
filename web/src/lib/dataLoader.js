@@ -3,7 +3,7 @@
  * Loads domains, entities, indexes, and dictionary data from public folder
  */
 
-const BASE_URL = '/';
+const BASE_URL = import.meta.env.BASE_URL;
 
 /**
  * Fetch JSON with error handling
