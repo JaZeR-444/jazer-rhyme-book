@@ -139,6 +139,29 @@ export function useDictionaryLetters() {
 }
 
 /**
+ * Hook to load all dictionary words (for rhyme finding)
+ */
+export function useDictionaryIndex() {
+  const [words, setWords] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    dataLoader.loadDictionaryManifest()
+      .then(data => {
+        setWords(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        setError(err);
+        setLoading(false);
+      });
+  }, []);
+
+  return { words, loading, error };
+}
+
+/**
  * Hook to load words for a letter
  */
 export function useDictionaryWords(letter) {

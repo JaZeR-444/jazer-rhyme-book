@@ -109,11 +109,7 @@ if (fs.existsSync(dictionaryDest)) {
     .map(entry => entry.name)
     .sort();
 
-  fs.writeFileSync(
-    path.join(webPublicDir, 'dictionary-manifest.json'),
-    JSON.stringify({ letters }, null, 2)
-  );
-  console.log('  ✓ Dictionary manifest generated\n');
+  const allWords = [];
 
   // Generate word manifests for each letter
   console.log('  → Generating word manifests for each letter...');
@@ -124,12 +120,24 @@ if (fs.existsSync(dictionaryDest)) {
         .filter(entry => entry.isDirectory())
         .map(entry => entry.name);
 
+      // Add to global words list
+      words.forEach(word => {
+        allWords.push({ name: word, letter });
+      });
+
       fs.writeFileSync(
         path.join(dictionaryDest, letter, 'words-manifest.json'),
         JSON.stringify({ words }, null, 2)
       );
     }
   }
+
+  // Write dictionary manifest with all words
+  fs.writeFileSync(
+    path.join(webPublicDir, 'dictionary-manifest.json'),
+    JSON.stringify({ letters, words: allWords }, null, 2)
+  );
+  console.log('  ✓ Dictionary manifest generated\n');
   console.log('  ✓ Word manifests generated\n');
 }
 

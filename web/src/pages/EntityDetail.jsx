@@ -1,7 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag, Link2, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Calendar, Tag, Link2, ExternalLink, Sparkles } from 'lucide-react';
 import { Breadcrumbs, LoadingState, EmptyState, Badge, Card } from '../components/ui';
 import { useEntity } from '../lib/hooks';
+import { findEntitiesByIds } from '../lib/data/knowledgeHub';
 import './EntityDetail.css';
 
 export function EntityDetail() {
@@ -12,6 +13,11 @@ export function EntityDetail() {
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
+
+  // Resolve related entities with cross-domain support
+  const relatedEntities = entity?.related_ids 
+    ? findEntitiesByIds(entity.related_ids) 
+    : [];
 
   if (loading) {
     return <LoadingState message="Loading entity..." />;
@@ -154,16 +160,17 @@ export function EntityDetail() {
               <div className="entity-detail__meta-item entity-detail__meta-item--column">
                 <div className="entity-detail__meta-header">
                   <Link2 size={16} />
-                  <span className="entity-detail__meta-label">Related:</span>
+                  <span className="entity-detail__meta-label">Related Entities:</span>
                 </div>
-                <div className="entity-detail__related">
-                  {entity.related_ids.map((relatedId, idx) => (
+                <div className="entity-detail__related-grid">
+                  {relatedEntities.map(({ entity: relEnt, domain: relDomain }, idx) => (
                     <Link
                       key={idx}
-                      to={`/entities/${domainId}/${relatedId}`}
-                      className="entity-detail__related-link"
+                      to={`/entities/${relDomain}/${relEnt.id}`}
+                      className="entity-detail__related-card"
                     >
-                      {relatedId}
+                      <div className="entity-detail__related-name">{relEnt.name}</div>
+                      <Badge size="xs" variant="secondary">{relDomain}</Badge>
                     </Link>
                   ))}
                 </div>

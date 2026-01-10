@@ -148,6 +148,17 @@ export async function loadDictionaryLetters() {
 }
 
 /**
+ * Load dictionary manifest (all words)
+ */
+export async function loadDictionaryManifest() {
+  const manifest = await fetchJSON(`${BASE_URL}dictionary-manifest.json`);
+  if (!manifest || !manifest.words) {
+    return [];
+  }
+  return manifest.words;
+}
+
+/**
  * Load words for a letter
  */
 export async function loadDictionaryWords(letter) {

@@ -1,17 +1,41 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Search as SearchIcon } from 'lucide-react';
+import { Search as SearchIcon, Filter, X } from 'lucide-react';
 import Fuse from 'fuse.js';
 import { SearchBar, LoadingState, EmptyState, Badge, Button } from '../components/ui';
 import { EntityCard } from '../components/EntityCard';
 import { Link } from 'react-router-dom';
 import { useSearchIndex } from '../lib/hooks';
+import { domainNames } from '../lib/data/knowledgeHub';
 import './Search.css';
 
 export function Search() {
   const { searchIndex, loading } = useSearchIndex();
   const [query, setQuery] = useState('');
   const [typeFilter, setTypeFilter] = useState('all'); // 'all', 'entity', 'word'
+  const [domainFilter, setDomainFilter] = useState([]);
+  const [tagFilter, setTagFilter] = useState([]);
+  const [eraFilter, setEraFilter] = useState('all');
+  const [showFilters, setShowFilters] = useState(false);
   const [results, setResults] = useState([]);
+
+  // Extract unique tags and eras from entities
+  const availableTags = useMemo(() => {
+    if (!searchIndex?.entities) return [];
+    const tags = new Set();
+    searchIndex.entities.forEach(e => {
+      if (e.tags) e.tags.forEach(tag => tags.add(tag));
+    });
+    return Array.from(tags).sort();
+  }, [searchIndex]);
+
+  const availableEras = useMemo(() => {
+    if (!searchIndex?.entities) return [];
+    const eras = new Set();
+    searchIndex.entities.forEach(e => {
+      if (e.era) eras.add(e.era);
+    });
+    return Array.from(eras).sort();
+  }, [searchIndex]);
 
   // Create Fuse instances
   const entityFuse = useMemo(() => {
@@ -32,18 +56,35 @@ export function Search() {
     });
   }, [searchIndex]);
 
-  // Perform search
+  // Perform search with filters
   useEffect(() => {
     if (!query || !entityFuse || !wordFuse) {
       setResults([]);
       return;
     }
 
-    const entityResults = typeFilter !== 'word' ? entityFuse.search(query).map(r => r.item) : [];
+    let entityResults = typeFilter !== 'word' ? entityFuse.search(query).map(r => r.item) : [];
     const wordResults = typeFilter !== 'entity' ? wordFuse.search(query).map(r => r.item) : [];
 
+    // Apply domain filter
+    if (domainFilter.length > 0) {
+      entityResults = entityResults.filter(e => domainFilter.includes(e.domain));
+    }
+
+    // Apply tag filter
+    if (tagFilter.length > 0) {
+      entityResults = entityResults.filter(e => 
+        e.tags && tagFilter.some(tag => e.tags.includes(tag))
+      );
+    }
+
+    // Apply era filter
+    if (eraFilter !== 'all') {
+      entityResults = entityResults.filter(e => e.era === eraFilter);
+    }
+
     setResults([...entityResults, ...wordResults]);
-  }, [query, typeFilter, entityFuse, wordFuse]);
+  }, [query, typeFilter, domainFilter, tagFilter, eraFilter, entityFuse, wordFuse]);
 
   if (loading) {
     return <LoadingState message="Building search index..." />;
@@ -88,7 +129,96 @@ export function Search() {
           >
             Dictionary
           </Button>
+          
+          <Button
+            variant={showFilters ? 'primary' : 'ghost'}
+            size="sm"
+            icon={<Filter size={16} />}
+            onClick={() => setShowFilters(!showFilters)}
+          >
+            Advanced Filters
+          </Button>
         </div>
+
+        {showFilters && (
+          <div className="search-page__advanced-filters">
+            <div className="advanced-filter-section">
+              <h3 className="advanced-filter-title">Domains</h3>
+              <div className="filter-chips">
+                {domainNames.map(domain => (
+                  <Badge
+                    key={domain}
+                    className={`filter-chip ${domainFilter.includes(domain) ? 'active' : ''}`}
+                    onClick={() => {
+                      setDomainFilter(prev =>
+                        prev.includes(domain)
+                          ? prev.filter(d => d !== domain)
+                          : [...prev, domain]
+                      );
+                    }}
+                  >
+                    {domain}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div className="advanced-filter-section">
+              <h3 className="advanced-filter-title">Tags</h3>
+              <div className="filter-chips">
+                {availableTags.slice(0, 20).map(tag => (
+                  <Badge
+                    key={tag}
+                    className={`filter-chip ${tagFilter.includes(tag) ? 'active' : ''}`}
+                    onClick={() => {
+                      setTagFilter(prev =>
+                        prev.includes(tag)
+                          ? prev.filter(t => t !== tag)
+                          : [...prev, tag]
+                      );
+                    }}
+                  >
+                    {tag}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <div className="advanced-filter-section">
+              <h3 className="advanced-filter-title">Era</h3>
+              <div className="filter-chips">
+                <Badge
+                  className={`filter-chip ${eraFilter === 'all' ? 'active' : ''}`}
+                  onClick={() => setEraFilter('all')}
+                >
+                  All Eras
+                </Badge>
+                {availableEras.map(era => (
+                  <Badge
+                    key={era}
+                    className={`filter-chip ${eraFilter === era ? 'active' : ''}`}
+                    onClick={() => setEraFilter(era)}
+                  >
+                    {era}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            <Button
+              size="sm"
+              variant="ghost"
+              icon={<X size={16} />}
+              onClick={() => {
+                setDomainFilter([]);
+                setTagFilter([]);
+                setEraFilter('all');
+              }}
+            >
+              Clear All Filters
+            </Button>
+          </div>
+        )}
       </div>
 
       {query === '' ? (

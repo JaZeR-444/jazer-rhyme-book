@@ -7,23 +7,74 @@ export function StudioPlayer() {
   const [volume, setVolume] = useState(0.5);
   const [isMuted, setIsMuted] = useState(false);
   const [visualizerData, setVisualizerData] = useState(new Array(20).fill(10));
+  const audioRef = useRef(null);
+  const audioContextRef = useRef(null);
+  const analyserRef = useRef(null);
   
-  // Simulation loop for visualizer
+  // Initialize audio on mount
   useEffect(() => {
-    let interval;
-    if (isPlaying) {
-      interval = setInterval(() => {
-        setVisualizerData(prev => 
-          prev.map(() => Math.max(20, Math.random() * 100))
-        );
-      }, 100);
+    audioRef.current = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    audioRef.current.loop = true;
+    audioRef.current.volume = volume;
+    
+    // Setup Web Audio API for visualization
+    if (!audioContextRef.current) {
+      audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
+      analyserRef.current = audioContextRef.current.createAnalyser();
+      analyserRef.current.fftSize = 64;
+      
+      const source = audioContextRef.current.createMediaElementSource(audioRef.current);
+      source.connect(analyserRef.current);
+      analyserRef.current.connect(audioContextRef.current.destination);
+    }
+    
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+  
+  // Real visualizer using audio analysis
+  useEffect(() => {
+    let animationId;
+    if (isPlaying && analyserRef.current) {
+      const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
+      
+      const updateVisualizer = () => {
+        analyserRef.current.getByteFrequencyData(dataArray);
+        const normalized = Array.from(dataArray.slice(0, 20)).map(val => Math.max(10, (val / 255) * 100));
+        setVisualizerData(normalized);
+        animationId = requestAnimationFrame(updateVisualizer);
+      };
+      
+      updateVisualizer();
     } else {
       setVisualizerData(new Array(20).fill(10));
     }
-    return () => clearInterval(interval);
+    return () => cancelAnimationFrame(animationId);
   }, [isPlaying]);
+  
+  // Handle volume changes
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = isMuted ? 0 : volume;
+    }
+  }, [volume, isMuted]);
 
-  const togglePlay = () => setIsPlaying(!isPlaying);
+  const togglePlay = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioContextRef.current?.resume();
+        audioRef.current.play().catch(err => console.error('Playback failed:', err));
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+  
   const toggleMute = () => setIsMuted(!isMuted);
 
   return (

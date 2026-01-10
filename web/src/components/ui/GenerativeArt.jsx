@@ -19,8 +19,9 @@ export function GenerativeArt({ seed, width = '100%', height = '100%', className
     // Simple hash function for seeding
     const hash = (str) => {
       let h = 0;
-      for (let i = 0; i < str.length; i++) {
-        h = Math.imul(31, h) + str.charCodeAt(i) | 0;
+      const s = String(str || 'default'); // Ensure string
+      for (let i = 0; i < s.length; i++) {
+        h = Math.imul(31, h) + s.charCodeAt(i) | 0;
       }
       return h;
     };

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, Zap, Globe } from 'lucide-react';
 import { Button, Card } from '../components/ui';
 import { Logo } from '../components/common/Logo';
+import { RandomDiscovery } from '../components/RandomDiscovery';
 import { useDomains, useDictionaryLetters } from '../lib/hooks';
 import { useGSAP } from '@gsap/react';
 import { gsap, ScrollTrigger } from '../lib/gsap';
@@ -74,6 +75,7 @@ export function Home() {
                 Browse Dictionary
               </Button>
             </Link>
+            <RandomDiscovery />
           </div>
         </div>
         <div className="hero__stats">

@@ -83,6 +83,21 @@ export function getEntityById(id) {
   return allEntities.find(e => e.id === id);
 }
 
+// Get entity with domain by ID (cross-domain search)
+export function findEntityById(id) {
+  const entity = allEntities.find(e => e.id === id);
+  if (!entity) return null;
+  return {
+    entity,
+    domain: entity.domain || entity.type,
+  };
+}
+
+// Get multiple entities by IDs with their domains
+export function findEntitiesByIds(ids) {
+  return ids.map(id => findEntityById(id)).filter(Boolean);
+}
+
 // Get random entities
 export function getRandomEntities(count = 5, domain = null) {
   let pool = domain ? domainMap[domain] || [] : allEntities;
