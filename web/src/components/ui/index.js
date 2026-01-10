@@ -5,3 +5,4 @@ export { SearchBar } from './SearchBar';
 export { LoadingState, LoadingSpinner } from './LoadingState';
 export { EmptyState } from './EmptyState';
 export { MarkdownRenderer } from './MarkdownRenderer';
+export { Breadcrumbs } from './Breadcrumbs';

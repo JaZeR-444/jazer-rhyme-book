@@ -34,8 +34,10 @@ export default defineConfig({
   // Optimize large data imports
   build: {
     rollupOptions: {
-      // Increase chunk size warning limit for data files
-      chunkSizeWarningLimit: 5000,
+      output: {
+        // Increase chunk size warning limit for data files
+        manualChunks: undefined,
+      }
     }
   }
 })
