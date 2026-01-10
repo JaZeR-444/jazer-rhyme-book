@@ -36,5 +36,27 @@ web/public/data/
 web/public/dictionary/
 web/public/*-manifest.json
 
-# Validation outputs (optional - uncomment if you want to exclude)
-# validation_output*.txt
+# Validation outputs
+validation_output*.txt
+
+# Temporary/Setup files
+Setup*.txt
+*PROMPT.txt
+folder_structure.txt
+
+# Old/backup documentation
+*_OLD.md
+*_old.md
+
+# AI assistant cache
+.claude/
+.qwen/
+
+# Dictionary processing logs and temp files
+Rap_Dictionary_Master_Hub/.mw_progress*.txt
+Rap_Dictionary_Master_Hub/*_failed*.txt
+Rap_Dictionary_Master_Hub/*_missing*.txt
+Rap_Dictionary_Master_Hub/*_remaining*.txt
+Rap_Dictionary_Master_Hub/*_no_*.txt
+Rap_Dictionary_Master_Hub/Z_*.txt
+Rap_Dictionary_Master_Hub/A_E_*.txt

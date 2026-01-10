@@ -28,11 +28,21 @@ npm run validate
 # Build/rebuild all indexes after data changes
 npm run build
 
-# Start web development server
+# Start web development server (automatically prepares data first)
 cd web && npm run dev
 
-# Build web interface for production
+# Build web interface for production (automatically prepares data first)
 cd web && npm run build
+```
+
+### Web-Specific Commands
+```bash
+# In web/ directory:
+npm run prepare          # Manually prepare web data (auto-runs before dev/build)
+npm run dev             # Start development server with hot reload
+npm run build           # Build for production deployment
+npm run lint            # Lint React codebase
+npm run preview         # Preview production build locally
 ```
 
 ### Python Dictionary Tools
@@ -194,6 +204,10 @@ Different domains extend the base schema with additional fields:
 - **Animations**: GSAP (@gsap/react)
 - **Icons**: lucide-react
 - **Graph Visualization**: react-force-graph-2d
+- **Search**: fuse.js (fuzzy search)
+- **NLP**: natural, metaphone (phonetic/linguistic processing)
+- **Markdown**: react-markdown + remark-gfm (dictionary rendering)
+- **Syntax Highlighting**: react-syntax-highlighter
 
 ### Project Structure
 ```
@@ -224,12 +238,21 @@ web/
 '@dictionary': '../Rap_Dictionary_Master_Hub'  // Access dictionary
 ```
 
+**Deployment Config**:
+```javascript
+base: '/jazer-rhyme-book/'      // Base path for GitHub Pages or hosting
+```
+
 **File System Config**:
 - Allows serving files from parent directory (`allow: ['..']`)
 - Uses polling for file watcher (resolves large directory issues)
 - Ignores node_modules and .git to prevent overload
 
 **JSON Imports**: Enabled with `stringify: false`
+
+**Build Optimizations**:
+- Manual chunks disabled for better data file handling
+- Increased chunk size limits for large entity imports
 
 ### Development Server
 - Default port: `5173`
@@ -242,8 +265,10 @@ web/
 - `validate.js`: JSON Schema validation using AJV 2020-12
 - `build-indexes.js`: Generates alias maps, tag indexes, era timelines
 - `build-graph-data.js`: Builds relationship graph data for visualization
+- `prepare-web-data.js`: Prepares data for web consumption (auto-runs before dev/build)
 - `sync-data.js`: Data synchronization utilities
-- `fix_data.js`: Data repair/migration scripts (versioned)
+- `fix_schemas.js`: Schema repair utilities
+- `fix_data.js`, `fix_data_v2.js`, `fix_data_final.js`: Versioned data repair/migration scripts
 
 ### Python Scripts (Root Directory)
 - `auto_expand_dictionary.py`: Intelligently grows all dictionary letters
