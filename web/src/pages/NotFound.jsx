@@ -1,28 +1,28 @@
 import { Link } from 'react-router-dom';
-import { Home, AlertCircle } from 'lucide-react';
-import { Button, EmptyState } from '../components/ui';
-import './ContentPage.css';
+import { Button } from '../components/ui';
+import './NotFound.css';
 
 export function NotFound() {
   return (
-    <div className="content-page">
-      <EmptyState
-        icon={<AlertCircle size={64} />}
-        title="404 - Page Not Found"
-        description="The page you're looking for doesn't exist or has been moved."
-      />
-      <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', marginTop: '24px' }}>
-        <Link to="/">
-          <Button variant="primary" icon={<Home size={20} />}>
-            Go Home
-          </Button>
-        </Link>
-        <Link to="/domains">
-          <Button variant="secondary">
-            Browse Domains
-          </Button>
-        </Link>
+    <div className="system-breach">
+      <div className="system-breach__content">
+        <h1 className="system-breach__title" data-text="404 SYSTEM ERROR">404 SYSTEM ERROR</h1>
+        <div className="system-breach__diagnostic">
+          <p>{`> ERROR_CODE: PAGE_NOT_FOUND`}</p>
+          <p>{`> SECTOR: UNKNOWN`}</p>
+          <p>{`> STATUS: CORRUPTED`}</p>
+        </div>
+        <p className="system-breach__message">
+          The requested data packet could not be retrieved from the mainframe.
+          Navigation capability has been compromised in this sector.
+        </p>
+        <div className="system-breach__actions">
+          <Link to="/">
+            <Button variant="primary">INITIATE SYSTEM REBOOT</Button>
+          </Link>
+        </div>
       </div>
+      <div className="scanline"></div>
     </div>
   );
 }

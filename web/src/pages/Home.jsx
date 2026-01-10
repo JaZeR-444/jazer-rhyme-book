@@ -53,7 +53,7 @@ export function Home() {
       <section className="hero" ref={heroRef}>
         <div className="hero__content">
           <div className="hero__logo">
-            <Logo variant="full" size="xlarge" className="hero-logo-img" />
+            <Logo variant="icon" size="large" className="hero-logo-img" />
           </div>
           <h1 className="hero__title">
             <span className="hero__title-gradient">Master Flow</span>

@@ -1,0 +1,97 @@
+.docs-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.docs-page__header {
+  margin-bottom: var(--space-2xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.docs-page__title {
+  font-size: var(--text-display);
+  font-weight: var(--weight-display);
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.docs-page__subtitle {
+  font-size: var(--text-lead);
+  color: var(--text-secondary);
+}
+
+/* Docs Content Styling */
+.docs-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Override Markdown for Docs Readability */
+.docs-content {
+  padding: var(--space-2xl);
+  font-size: var(--text-body);
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.docs-content h1,
+.docs-content h2,
+.docs-content h3 {
+  color: var(--text-primary);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.docs-content h2 {
+  font-size: var(--text-h3);
+  border-bottom: 2px solid var(--border-subtle);
+  padding-bottom: var(--space-xs);
+  display: inline-block;
+  padding-right: var(--space-xl);
+  background: linear-gradient(90deg, var(--accent-primary) 0%, transparent 100%) bottom left / 100% 2px no-repeat;
+  background-size: 50% 2px;
+}
+
+.docs-content p {
+  margin-bottom: var(--space-md);
+  max-width: 70ch;
+}
+
+.docs-content code {
+  background: var(--surface-2);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  color: var(--accent-secondary);
+  font-size: 0.9em;
+  border: 1px solid var(--border-subtle);
+}
+
+.docs-content pre {
+  background: var(--surface-0) !important;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  margin: var(--space-lg) 0;
+}
+
+.docs-content blockquote {
+  border-left: 4px solid var(--accent-primary);
+  margin: var(--space-lg) 0;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface-2);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.docs-content ul, .docs-content ol {
+  margin-bottom: var(--space-md);
+  padding-left: var(--space-xl);
+}
+
+.docs-content li {
+  margin-bottom: var(--space-xs);
+}

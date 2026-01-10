@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Search, Heart, ArrowUpDown } from 'lucide-react';
-import { Breadcrumbs, SearchBar, LoadingState, EmptyState, FavoriteButton } from '../components/ui';
+import { ArrowLeft, Search, Heart, ArrowUpDown, Filter } from 'lucide-react';
+import { Breadcrumbs, SearchBar, LoadingState, EmptyState, FavoriteButton, Badge } from '../components/ui';
 import { useDictionaryWords } from '../lib/hooks';
 import { useFavorites } from '../lib/FavoritesContext';
 import { useState, useMemo } from 'react';
@@ -10,6 +10,8 @@ const SORT_OPTIONS = [
   { value: 'az', label: 'A → Z' },
   { value: 'za', label: 'Z → A' },
   { value: 'favorites', label: 'Favorites First' },
+  { value: 'syllables_asc', label: 'Syllables (Low → High)' },
+  { value: 'syllables_desc', label: 'Syllables (High → Low)' },
 ];
 
 export function DictionaryLetter() {
@@ -18,13 +20,22 @@ export function DictionaryLetter() {
   const { getFavoritesForLetter, isFavorite } = useFavorites();
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('az');
+  const [syllableFilter, setSyllableFilter] = useState('all');
 
   const letterFavorites = getFavoritesForLetter(letter);
 
+  // Extract unique syllable counts
+  const availableSyllables = useMemo(() => {
+    const counts = new Set(words.map(w => w.syllables).filter(Boolean));
+    return Array.from(counts).sort((a, b) => a - b);
+  }, [words]);
+
   const filteredAndSortedWords = useMemo(() => {
-    let result = words.filter(word =>
-      word.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    let result = words.filter(word => {
+      const matchesSearch = word.name.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSyllables = syllableFilter === 'all' || word.syllables === parseInt(syllableFilter);
+      return matchesSearch && matchesSyllables;
+    });
 
     switch (sortBy) {
       case 'za':
@@ -39,13 +50,19 @@ export function DictionaryLetter() {
           return a.name.localeCompare(b.name);
         });
         break;
+      case 'syllables_asc':
+        result = [...result].sort((a, b) => (a.syllables || 0) - (b.syllables || 0));
+        break;
+      case 'syllables_desc':
+        result = [...result].sort((a, b) => (b.syllables || 0) - (a.syllables || 0));
+        break;
       case 'az':
       default:
         result = [...result].sort((a, b) => a.name.localeCompare(b.name));
     }
 
     return result;
-  }, [words, searchQuery, sortBy, letter, isFavorite]);
+  }, [words, searchQuery, sortBy, syllableFilter, letter, isFavorite]);
 
   if (loading) {
     return <LoadingState message={`Loading words for ${letter}...`} />;
@@ -102,17 +119,35 @@ export function DictionaryLetter() {
             className="dictionary-letter__search"
           />
           
-          <div className="dictionary-letter__sort">
-            <ArrowUpDown size={16} />
-            <select 
-              value={sortBy} 
-              onChange={(e) => setSortBy(e.target.value)}
-              className="dictionary-letter__sort-select"
-            >
-              {SORT_OPTIONS.map(opt => (
-                <option key={opt.value} value={opt.value}>{opt.label}</option>
-              ))}
-            </select>
+          <div className="dictionary-letter__filters">
+            {availableSyllables.length > 0 && (
+              <div className="dictionary-letter__filter">
+                <Filter size={16} />
+                <select 
+                  value={syllableFilter} 
+                  onChange={(e) => setSyllableFilter(e.target.value)}
+                  className="dictionary-letter__select"
+                >
+                  <option value="all">All Syllables</option>
+                  {availableSyllables.map(count => (
+                    <option key={count} value={count}>{count} Syllable{count > 1 ? 's' : ''}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            <div className="dictionary-letter__sort">
+              <ArrowUpDown size={16} />
+              <select 
+                value={sortBy} 
+                onChange={(e) => setSortBy(e.target.value)}
+                className="dictionary-letter__select"
+              >
+                {SORT_OPTIONS.map(opt => (
+                  <option key={opt.value} value={opt.value}>{opt.label}</option>
+                ))}
+              </select>
+            </div>
           </div>
         </div>
       </div>
@@ -125,7 +160,14 @@ export function DictionaryLetter() {
                 to={`/dictionary/${letter}/${word.name.toLowerCase()}`}
                 className="word-card__link"
               >
-                <span className="word-card__name">{word.name}</span>
+                <div className="word-card__main">
+                  <span className="word-card__name">{word.name}</span>
+                  {word.syllables && (
+                    <Badge variant="outline" size="sm" className="word-card__syllables">
+                      {word.syllables}
+                    </Badge>
+                  )}
+                </div>
               </Link>
               <FavoriteButton word={word.name} letter={letter} size={18} />
             </div>

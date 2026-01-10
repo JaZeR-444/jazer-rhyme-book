@@ -70,6 +70,7 @@
   max-width: 500px;
   width: 100%;
   height: auto;
+  margin: 0 auto;
   filter: drop-shadow(0 0 30px var(--accent-primary-glow))
           drop-shadow(0 0 60px var(--accent-secondary-glow));
   animation: logoFloat 6s ease-in-out infinite;

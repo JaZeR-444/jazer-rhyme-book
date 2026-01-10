@@ -20,38 +20,42 @@ import { NotFound } from './pages/NotFound';
 // Styles
 import './index.css';
 
+import { WorkspaceProvider } from './lib/WorkspaceContext';
+
 function App() {
   return (
     <FavoritesProvider>
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<AppLayout />}>
-            <Route index element={<Home />} />
+      <WorkspaceProvider>
+        <HashRouter>
+          <Routes>
+            <Route path="/" element={<AppLayout />}>
+              <Route index element={<Home />} />
 
-            {/* Domains */}
-            <Route path="domains" element={<Domains />} />
-            <Route path="domains/:domainId" element={<DomainDetail />} />
+              {/* Domains */}
+              <Route path="domains" element={<Domains />} />
+              <Route path="domains/:domainId" element={<DomainDetail />} />
 
-            {/* Entities */}
-            <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
+              {/* Entities */}
+              <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
 
-            {/* Dictionary */}
-            <Route path="dictionary" element={<Dictionary />} />
-            <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
-            <Route path="dictionary/:letter" element={<DictionaryLetter />} />
-            <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
+              {/* Dictionary */}
+              <Route path="dictionary" element={<Dictionary />} />
+              <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
+              <Route path="dictionary/:letter" element={<DictionaryLetter />} />
+              <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
 
-            {/* Other Pages */}
-            <Route path="search" element={<Search />} />
-            <Route path="architecture" element={<Architecture />} />
-            <Route path="docs" element={<Docs />} />
-            <Route path="about" element={<About />} />
+              {/* Other Pages */}
+              <Route path="search" element={<Search />} />
+              <Route path="architecture" element={<Architecture />} />
+              <Route path="docs" element={<Docs />} />
+              <Route path="about" element={<About />} />
 
-            {/* 404 */}
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-      </HashRouter>
+              {/* 404 */}
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </HashRouter>
+      </WorkspaceProvider>
     </FavoritesProvider>
   );
 }

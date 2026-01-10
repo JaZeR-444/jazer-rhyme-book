@@ -112,9 +112,30 @@
 .markdown-renderer pre {
   margin: var(--space-lg) 0;
   border-radius: 12px;
-  overflow: hidden;
+  overflow-x: auto; /* Allow horizontal scrolling */
   background: var(--surface-2);
   border: 1px solid var(--border-subtle);
+  /* Custom Scrollbar for Code Blocks */
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) var(--surface-2);
+}
+
+.markdown-renderer pre::-webkit-scrollbar {
+  height: 6px; /* Horizontal scrollbar height */
+}
+
+.markdown-renderer pre::-webkit-scrollbar-track {
+  background: var(--surface-2);
+  border-radius: 0 0 12px 12px;
+}
+
+.markdown-renderer pre::-webkit-scrollbar-thumb {
+  background: var(--accent-primary);
+  border-radius: 3px;
+}
+
+.markdown-renderer pre::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-neon);
 }
 
 .markdown-renderer pre code {
@@ -123,6 +144,7 @@
   display: block;
   color: var(--text-primary);
   border: none;
+  min-width: 100%; /* Ensure content stretches */
 }
 
 /* ============================================

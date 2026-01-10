@@ -2,6 +2,11 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, FileText, Info, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Logo } from './common/Logo';
+import { WorkspaceDrawer } from './WorkspaceDrawer';
+import { CommandPalette } from './CommandPalette';
+import { StudioPlayer } from './StudioPlayer';
+import { SystemStatus } from './SystemStatus';
+import { HapticFeedback } from './HapticFeedback';
 import './AppLayout.css';
 
 export function AppLayout() {
@@ -75,7 +80,7 @@ export function AppLayout() {
       </header>
 
       {/* Main Content */}
-      <main className="app-main">
+      <main className="app-main fade-in">
         <Outlet />
       </main>
 
@@ -84,14 +89,15 @@ export function AppLayout() {
         <div className="app-footer__gradient-line" />
         <div className="app-footer__content">
           <Logo variant="icon" size="small" className="footer-logo" />
-          <p className="app-footer__text">
-            © 2026 JaZeR Master Flow Knowledge Hub
-          </p>
-          <p className="app-footer__text app-footer__text--muted">
-            Built with React + Vite + GSAP
-          </p>
+          <div style={{ flex: 1, overflow: 'hidden' }}>
+            <SystemStatus />
+          </div>
         </div>
       </footer>
+      <WorkspaceDrawer />
+      <StudioPlayer />
+      <CommandPalette />
+      <HapticFeedback />
     </div>
   );
 }

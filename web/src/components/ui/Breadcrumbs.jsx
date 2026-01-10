@@ -11,9 +11,9 @@ export function Breadcrumbs({ items }) {
             {index < items.length - 1 ? (
               <>
                 <Link to={item.path} className="breadcrumbs__link">
-                  {item.label}
+                  {index === 0 ? '~' : item.label}
                 </Link>
-                <ChevronRight className="breadcrumbs__separator" size={16} />
+                <span className="breadcrumbs__separator">/</span>
               </>
             ) : (
               <span className="breadcrumbs__current">{item.label}</span>

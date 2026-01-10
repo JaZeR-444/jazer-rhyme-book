@@ -1,15 +1,50 @@
 import { Link } from 'react-router-dom';
-import { Badge } from './ui';
+import { Badge, GenerativeArt } from './ui';
+import { Pin } from 'lucide-react';
+import { useWorkspace } from '../lib/WorkspaceContext';
 import './EntityCard.css';
 
 export function EntityCard({ entity, domain }) {
+  const { isPinned, addItem, removeItem } = useWorkspace();
+  const pinned = isPinned(entity.id, 'entity');
+
+  const handlePin = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (pinned) {
+      removeItem(entity.id, 'entity');
+    } else {
+      addItem({
+        id: entity.id,
+        type: 'entity',
+        title: entity.name,
+        subtitle: entity.type,
+        link: `/entities/${domain}/${entity.id}`
+      });
+    }
+  };
+
   return (
     <Link
       to={`/entities/${domain}/${entity.id}`}
       className="entity-card"
     >
+      <div className="entity-card__bg">
+         <GenerativeArt seed={entity.id} />
+      </div>
+      <div className="entity-card__content">
       <div className="entity-card__header">
         <h3 className="entity-card__name">{entity.name}</h3>
+        <button 
+          className={`entity-pin-btn ${pinned ? 'is-pinned' : ''}`}
+          onClick={handlePin}
+          title={pinned ? "Remove from Verse Board" : "Pin to Verse Board"}
+        >
+          <Pin size={14} fill={pinned ? "currentColor" : "none"} />
+        </button>
+      </div>
+      <div className="entity-card__type">
         <Badge variant="outline" size="sm">{entity.type}</Badge>
       </div>
 
@@ -37,6 +72,7 @@ export function EntityCard({ entity, domain }) {
           <span className="entity-card__era">{entity.era}</span>
         </div>
       )}
+      </div>
     </Link>
   );
 }

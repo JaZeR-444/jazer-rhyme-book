@@ -150,6 +150,7 @@ body {
   color: var(--text-primary);
   background-color: var(--surface-0);
   overflow-x: hidden;
+  padding-bottom: 80px; /* Safe zone for persistent footer/drawer */
 }
 
 /* ============================================
@@ -168,9 +169,57 @@ body {
 }
 
 /* ============================================
+   SCROLLBAR & SELECTION
+   ============================================ */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface-0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface-3);
+  border-radius: 4px;
+  border: 1px solid var(--surface-0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary-glow);
+}
+
+/* Text Selection */
+::selection {
+  background: var(--accent-primary);
+  color: white;
+  text-shadow: 0 0 8px var(--accent-primary-glow);
+}
+
+/* ============================================
    SCROLL CONTAINER
    ============================================ */
 
+/* Global Focus Style - Cyber Ring */
+*:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 4px;
+  box-shadow: 0 0 15px var(--accent-neon-glow);
+  border-radius: 4px;
+  animation: focus-pulse 1.5s infinite;
+}
+
+@keyframes focus-pulse {
+  0% { box-shadow: 0 0 15px var(--accent-neon-glow); }
+  50% { box-shadow: 0 0 25px var(--accent-neon), 0 0 10px var(--accent-primary); }
+  100% { box-shadow: 0 0 15px var(--accent-neon-glow); }
+}
+
+/* Scroll Container */
 .scroll-container {
   position: relative;
   width: 100%;

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Search as SearchIcon, Filter } from 'lucide-react';
+import { Search as SearchIcon } from 'lucide-react';
 import Fuse from 'fuse.js';
 import { SearchBar, LoadingState, EmptyState, Badge, Button } from '../components/ui';
 import { EntityCard } from '../components/EntityCard';
@@ -52,17 +52,18 @@ export function Search() {
   return (
     <div className="search-page">
       <div className="search-page__header">
-        <h1 className="search-page__title">Search</h1>
+        <h1 className="search-page__title">Search Knowledge</h1>
         <p className="search-page__description">
-          Search across all domains and dictionary
+          Explore domains, entities, and rhymes in one place.
         </p>
 
         <SearchBar
           value={query}
           onChange={setQuery}
           onClear={() => setQuery('')}
-          placeholder="Search entities, words, tags..."
+          placeholder="Type to search..."
           className="search-page__search"
+          autoFocus
         />
 
         <div className="search-page__filters">
@@ -71,7 +72,7 @@ export function Search() {
             size="sm"
             onClick={() => setTypeFilter('all')}
           >
-            All
+            All Results
           </Button>
           <Button
             variant={typeFilter === 'entity' ? 'primary' : 'ghost'}
@@ -91,29 +92,40 @@ export function Search() {
       </div>
 
       {query === '' ? (
-        <EmptyState
-          icon={<SearchIcon size={48} />}
-          title="Start Searching"
-          description="Enter a query to search across all domains and dictionary"
-        />
+        <div style={{ // Quick inline style for empty spacer to keep hero centered vertically if needed 
+            marginTop: '2rem' 
+        }}>
+           {/* Visual space or featured tags could go here */}
+        </div>
       ) : results.length > 0 ? (
         <div className="search-page__results">
           <p className="search-page__count">
-            Found {results.length} {results.length === 1 ? 'result' : 'results'}
+            Found {results.length} results for "{query}"
           </p>
 
           <div className="search-page__grid">
             {results.map((result, idx) => {
+              // Unique key fallback
+              const key = result.id || result.name + idx;
+              
               if (result._type === 'entity') {
-                return <EntityCard key={idx} entity={result} domain={result.domain} />;
+                return (
+                    <div style={{ animation: `fadeIn 0.5s ease-out ${idx * 0.05}s backwards` }} key={key}>
+                        <EntityCard entity={result} domain={result.domain} />
+                    </div>
+                );
               } else {
                 return (
                   <Link
-                    key={idx}
+                    key={key}
                     to={`/dictionary/${result.letter}/${result.name.toLowerCase()}`}
                     className="search-word-card"
+                    style={{ animation: `fadeIn 0.5s ease-out ${idx * 0.05}s backwards` }}
                   >
-                    <Badge size="sm" variant="purple">Dictionary</Badge>
+                    <div className="search-word-card__header" style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                        <Badge size="sm" variant="outline">Dictionary</Badge>
+                        {/* Could put favorite button here if we had access */}
+                    </div>
                     <div className="search-word-card__name">{result.name}</div>
                     <div className="search-word-card__meta">Letter {result.letter}</div>
                   </Link>
@@ -125,8 +137,9 @@ export function Search() {
       ) : (
         <EmptyState
           icon={<SearchIcon size={48} />}
-          title="No Results"
-          description={`No results found for "${query}"`}
+          title="No Data Found"
+          description={`Search query "${query}" yielded zero matches in the index.`}
+          variant="diagnostic"
         />
       )}
     </div>

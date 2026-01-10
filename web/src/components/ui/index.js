@@ -7,4 +7,5 @@ export { EmptyState } from './EmptyState';
 export { MarkdownRenderer } from './MarkdownRenderer';
 export { Breadcrumbs } from './Breadcrumbs';
 export { FavoriteButton } from './FavoriteButton';
+export { GenerativeArt } from './GenerativeArt';
 

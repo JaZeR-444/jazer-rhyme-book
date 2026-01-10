@@ -1,12 +1,8 @@
 .dictionary-letter {
-  max-width: var(--container-max);
+  max-width: 900px;
   margin: 0 auto;
-  padding: var(--space-xl) var(--container-padding);
 }
 
-/* ============================================
-   HEADER
-   ============================================ */
 .dictionary-letter__header {
   margin-bottom: var(--space-xl);
 }
@@ -14,235 +10,179 @@
 .dictionary-letter__title-row {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
-  margin: var(--space-md) 0;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
 }
 
-/* Back Button */
 .dictionary-letter__back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: var(--surface-2);
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   border: 1px solid var(--border-subtle);
-  color: var(--text-primary);
-  text-decoration: none;
-  transition: all var(--duration-short) var(--ease-out);
+  color: var(--text-secondary);
+  background: var(--surface-2);
+  transition: all var(--duration-short);
 }
 
 .dictionary-letter__back:hover {
   background: var(--surface-3);
-  border-color: var(--accent-primary);
-  color: var(--accent-secondary);
-  transform: translateX(-2px);
+  color: var(--text-primary);
+  border-color: var(--border-default);
 }
 
-/* Giant Letter Title */
 .dictionary-letter__title {
-  font-size: clamp(4rem, 15vw, 8rem);
-  font-weight: var(--weight-bold);
+  font-size: var(--text-display);
+  font-weight: var(--weight-display);
+  margin: 0;
   background: var(--brand-gradient);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: var(--font-mono);
-  line-height: 1;
-  margin: 0;
-  letter-spacing: -0.05em;
-  text-shadow: 0 0 80px var(--accent-primary-glow);
+  color: transparent;
+  line-height: 1.1;
+  padding-bottom: 4px;
 }
 
-/* Word Count */
 .dictionary-letter__stats {
   display: flex;
   align-items: center;
   gap: var(--space-lg);
-  margin-bottom: var(--space-md);
-  flex-wrap: wrap;
-}
-
-.dictionary-letter__count {
-  font-size: var(--text-h3);
+  margin-top: var(--space-md);
   color: var(--text-secondary);
-  font-family: var(--font-mono);
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-}
-
-.dictionary-letter__count::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background: var(--accent-secondary);
-  border-radius: 50%;
-  animation: pulse 2s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
+  font-size: var(--text-small);
 }
 
 .dictionary-letter__favorites-link {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
-  color: #ff4d6d;
-  font-size: var(--text-body);
-  font-weight: var(--weight-medium);
+  color: var(--accent-alert);
   text-decoration: none;
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: 8px;
-  background: rgba(255, 77, 109, 0.1);
-  transition: all var(--duration-short) var(--ease-out);
+  font-weight: var(--weight-medium);
+  transition: opacity var(--duration-short);
 }
 
 .dictionary-letter__favorites-link:hover {
-  background: rgba(255, 77, 109, 0.2);
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
-/* ============================================
-   CONTROLS ROW
-   ============================================ */
 .dictionary-letter__controls {
   display: flex;
-  gap: var(--space-md);
   align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
   flex-wrap: wrap;
 }
 
-/* ============================================
-   SEARCH BAR
-   ============================================ */
 .dictionary-letter__search {
   flex: 1;
-  min-width: 200px;
-  max-width: 500px;
+  min-width: 250px;
 }
 
-/* ============================================
-   SORT DROPDOWN
-   ============================================ */
+.dictionary-letter__filters {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.dictionary-letter__select {
+  background: var(--surface-1);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: var(--text-small);
+  cursor: pointer;
+  outline: none;
+  transition: all var(--duration-short);
+}
+
+.dictionary-letter__select:hover,
+.dictionary-letter__select:focus {
+  border-color: var(--accent-primary);
+  background: var(--surface-2);
+}
+
+.dictionary-letter__filter,
 .dictionary-letter__sort {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
-  padding: var(--space-sm) var(--space-md);
-  background: var(--surface-2);
-  border: 1px solid var(--border-subtle);
-  border-radius: 12px;
   color: var(--text-secondary);
-  transition: all var(--duration-short) var(--ease-out);
 }
 
-.dictionary-letter__sort:hover {
-  border-color: var(--accent-primary);
-}
-
-.dictionary-letter__sort-select {
-  background: transparent;
-  border: none;
-  color: var(--text-primary);
-  font-size: var(--text-body);
-  font-family: var(--font-sans);
-  cursor: pointer;
-  outline: none;
-}
-
-.dictionary-letter__sort-select option {
-  background: var(--surface-1);
-  color: var(--text-primary);
-}
-
-/* ============================================
-   WORD GRID
-   ============================================ */
 .dictionary-letter__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: var(--space-md);
 }
 
-@media (max-width: 768px) {
-  .dictionary-letter__grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: var(--space-sm);
-  }
-}
-
-/* ============================================
-   WORD CARDS
-   ============================================ */
+/* Updated Word Card for Syllables */
 .word-card {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md);
   background: var(--surface-1);
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
-  padding: var(--space-sm) var(--space-md);
-  transition: all var(--duration-short) var(--ease-out);
-  min-height: 56px;
-  position: relative;
-  overflow: hidden;
-}
-
-/* Gradient line on left */
-.word-card::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: var(--brand-gradient);
-  opacity: 0;
-  transition: opacity var(--duration-short) var(--ease-out);
+  transition: all var(--duration-short);
 }
 
 .word-card:hover {
+  transform: translateY(-2px);
   background: var(--surface-2);
-  border-color: var(--accent-primary);
-  box-shadow: 0 8px 24px var(--accent-primary-glow);
-}
-
-.word-card:hover::before {
-  opacity: 1;
+  border-color: var(--accent-primary-glow);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .word-card__link {
-  flex: 1;
   text-decoration: none;
+  flex: 1;
   display: flex;
   align-items: center;
-  padding: var(--space-xs) 0;
+}
+
+.word-card__main {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
 }
 
 .word-card__name {
   font-size: var(--text-body);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-medium);
   color: var(--text-primary);
-  transition: color var(--duration-short) var(--ease-out);
+  transition: color var(--duration-short);
 }
 
 .word-card:hover .word-card__name {
-  color: var(--accent-secondary);
+  color: var(--accent-primary);
 }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
-@media (max-width: 768px) {
-  .dictionary-letter__title {
-    font-size: clamp(3rem, 20vw, 5rem);
+.word-card__syllables {
+  margin-left: auto;
+  margin-right: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .dictionary-letter__controls {
+    flex-direction: column;
+    align-items: stretch;
   }
-  
-  .dictionary-letter__title-row {
-    gap: var(--space-md);
+
+  .dictionary-letter__filters {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .dictionary-letter__select {
+    flex: 1;
   }
 }

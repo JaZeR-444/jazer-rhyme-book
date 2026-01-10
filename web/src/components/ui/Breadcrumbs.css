@@ -1,5 +1,8 @@
+/* Terminal Breadcrumbs */
 .breadcrumbs {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
 }
 
 .breadcrumbs__list {
@@ -16,25 +19,30 @@
   display: flex;
   align-items: center;
   gap: var(--space-xs);
+  color: var(--text-muted);
 }
 
 .breadcrumbs__link {
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: var(--text-small);
-  transition: color var(--duration-micro) var(--ease-out);
+  transition: all var(--duration-micro) var(--ease-out);
+  position: relative;
+  border-bottom: 1px solid transparent;
 }
 
 .breadcrumbs__link:hover {
   color: var(--accent-neon);
+  border-bottom-color: var(--accent-neon);
+  text-shadow: 0 0 8px var(--accent-neon-glow);
 }
 
 .breadcrumbs__separator {
   color: var(--text-muted);
+  opacity: 0.5;
+  font-weight: bold;
 }
 
 .breadcrumbs__current {
   color: var(--text-primary);
-  font-size: var(--text-small);
   font-weight: var(--weight-medium);
 }

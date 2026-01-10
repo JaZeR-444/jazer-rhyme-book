@@ -1,83 +1,149 @@
 .search-page {
-  max-width: var(--container-max);
+  max-width: 1200px;
   margin: 0 auto;
-  padding: var(--space-xl) var(--container-padding);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Header / Hero Section */
 .search-page__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl) var(--space-md);
   text-align: center;
-  margin-bottom: var(--space-xl);
+  position: relative;
+}
+
+/* Add a subtle glow behind the search area */
+.search-page__header::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 200px;
+  background: radial-gradient(circle, var(--accent-primary-dim) 0%, transparent 70%);
+  opacity: 0.2;
+  filter: blur(60px);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .search-page__title {
-  font-size: var(--text-h1);
-  font-weight: var(--weight-semibold);
-  color: var(--accent-neon);
-  margin-bottom: var(--space-sm);
+  font-size: var(--text-display);
+  font-weight: var(--weight-display);
+  margin-bottom: var(--space-xs);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.02em;
 }
 
 .search-page__description {
-  font-size: var(--text-body);
   color: var(--text-secondary);
-  margin-bottom: var(--space-lg);
+  font-size: var(--text-h4);
+  margin-bottom: var(--space-xl);
+  max-width: 600px;
 }
 
 .search-page__search {
-  max-width: 700px;
-  margin: 0 auto var(--space-md);
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: var(--space-lg);
 }
 
-.search-page__filters {
-  display: flex;
-  gap: var(--space-sm);
-  justify-content: center;
+/* Result Stats */
+.search-page__results {
+  animation: fadeIn var(--duration-medium) var(--ease-out);
 }
 
 .search-page__count {
-  font-size: var(--text-body);
+  margin-bottom: var(--space-lg);
   color: var(--text-secondary);
-  margin-bottom: var(--space-md);
-  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: var(--space-sm);
 }
 
+/* Grid Layout */
 .search-page__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: var(--space-md);
+  gap: var(--space-lg);
 }
 
-@media (max-width: 768px) {
-  .search-page__grid {
-    grid-template-columns: 1fr;
-  }
-}
-
+/* Word Card (Dictionary Result) */
 .search-word-card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  padding: var(--space-lg);
   background: var(--surface-1);
   border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-  padding: var(--space-md);
+  border-radius: 16px;
   text-decoration: none;
-  transition: all var(--duration-short) var(--ease-out);
+  transition: all var(--duration-short);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .search-word-card:hover {
+  transform: translateY(-4px);
   background: var(--surface-2);
-  border-color: var(--accent-purple);
-  transform: translateY(-2px);
+  border-color: var(--accent-secondary-glow);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.search-word-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--brand-gradient);
+  opacity: 0.5;
+  transition: opacity var(--duration-short);
+}
+
+.search-word-card:hover::before {
+  opacity: 1;
 }
 
 .search-word-card__name {
   font-size: var(--text-h3);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-bold);
   color: var(--text-primary);
+  margin: var(--space-sm) 0;
 }
 
 .search-word-card__meta {
+  margin-top: auto;
   font-size: var(--text-small);
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-family: var(--font-mono);
+}
+
+/* Filters Row */
+.search-page__filters {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .search-page__title {
+    font-size: var(--text-h1);
+  }
 }

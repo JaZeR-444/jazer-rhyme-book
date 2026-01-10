@@ -1,0 +1,97 @@
+.about-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-page__header {
+  text-align: center;
+  padding: var(--space-3xl) 0;
+  margin-bottom: var(--space-xl);
+}
+
+.about-page__title {
+  font-size: 4rem;
+  font-weight: var(--weight-display);
+  line-height: 1;
+  margin-bottom: var(--space-md);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-page__tagline {
+  font-size: var(--text-h3);
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: var(--weight-light);
+}
+
+/* Feature Grid for About Section */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+  margin-bottom: var(--space-3xl);
+}
+
+.about-card {
+  padding: var(--space-xl);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  transition: transform var(--duration-medium);
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent-primary-dim);
+}
+
+.about-card h3 {
+  font-size: var(--text-h3);
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
+}
+
+.about-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.about-accent {
+  width: 40px;
+  height: 4px;
+  background: var(--brand-gradient);
+  margin-bottom: var(--space-lg);
+  border-radius: 2px;
+}
+
+/* Footer Section */
+.about-footer {
+  text-align: center;
+  padding: var(--space-2xl);
+  background: var(--surface-1);
+  border-radius: 24px;
+  border: 1px solid var(--border-subtle);
+}
+
+.about-footer h2 {
+  font-size: var(--text-h2);
+  margin-bottom: var(--space-lg);
+}
+
+.about-badges {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+  .about-page__title {
+    font-size: 3rem;
+  }
+}

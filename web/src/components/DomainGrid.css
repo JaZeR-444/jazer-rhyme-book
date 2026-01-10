@@ -1,50 +1,49 @@
 .domain-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: var(--space-md);
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  .domain-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: var(--space-sm);
-  }
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-lg);
 }
 
 .domain-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  background: var(--surface-1);
+  justify-content: center;
+  padding: var(--space-xl);
+  background: var(--surface-overlay);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-  padding: var(--space-lg);
+  border-radius: 20px;
   text-decoration: none;
-  color: inherit;
-  transition: all var(--duration-short) var(--ease-out);
+  transition: all var(--duration-medium) var(--ease-out);
   position: relative;
   overflow: hidden;
+  height: 100%;
+  text-align: center;
+  gap: var(--space-md);
 }
 
+/* Gradient Border Effect on Hover */
 .domain-card::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--accent-neon), var(--accent-purple));
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  background: var(--brand-gradient);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
   opacity: 0;
-  transition: opacity var(--duration-short) var(--ease-out);
+  transition: opacity var(--duration-medium) var(--ease-out);
 }
 
 .domain-card:hover {
-  background: var(--surface-2);
-  border-color: var(--accent-neon);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px var(--accent-primary-glow);
+  background: hsla(240, 20%, 12%, 0.8);
 }
 
 .domain-card:hover::before {
@@ -52,49 +51,53 @@
 }
 
 .domain-card__icon {
-  font-size: 48px;
-  margin-bottom: var(--space-sm);
-  filter: grayscale(100%);
-  transition: filter var(--duration-short) var(--ease-out);
+  font-size: 3rem;
+  margin-bottom: var(--space-xs);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
+  transition: transform var(--duration-medium) var(--ease-out);
 }
 
 .domain-card:hover .domain-card__icon {
-  filter: grayscale(0%);
+  transform: scale(1.1) rotate(5deg);
 }
 
 .domain-card__name {
   font-size: var(--text-h3);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-bold);
   color: var(--text-primary);
-  margin: 0 0 var(--space-xs) 0;
+  margin: 0;
+  z-index: 1;
 }
 
 .domain-card__stats {
-  margin: var(--space-xs) 0;
-}
-
-.domain-card__count {
   font-size: var(--text-small);
   color: var(--text-secondary);
   font-family: var(--font-mono);
+  background: var(--surface-1);
+  padding: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
 }
 
 .domain-card__footer {
   margin-top: auto;
-  padding-top: var(--space-sm);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.domain-card:hover .domain-card__footer {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .domain-card__explore {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
+  color: var(--accent-secondary);
+  font-weight: var(--weight-bold);
   font-size: var(--text-small);
-  color: var(--accent-neon);
-  font-weight: var(--weight-medium);
-  opacity: 0;
-  transition: opacity var(--duration-short) var(--ease-out);
-}
-
-.domain-card:hover .domain-card__explore {
-  opacity: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
