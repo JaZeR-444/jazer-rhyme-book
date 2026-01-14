@@ -133,3 +133,14 @@
   60% { transform: skew(0deg); }
   100% { transform: skew(0deg); }
 }
+
+@media (max-width: 768px) {
+  .system-breach__content {
+    padding: var(--space-lg);
+    margin: var(--space-md);
+  }
+
+  .system-breach__title {
+    font-size: 2.5rem;
+  }
+}

@@ -115,7 +115,7 @@
   --grid-gap: var(--space-md);
 
   /* Section Heights */
-  --section-min-height: 100vh;
+  --section-min-height: 100dvh;
 
   /* Z-Index Scale */
   --z-base: 0;

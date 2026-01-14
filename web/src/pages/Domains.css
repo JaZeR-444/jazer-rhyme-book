@@ -1,5 +1,5 @@
 .domains-page {
-  max-width: var(--container-max);
+  max-width: 1600px;
   margin: 0 auto;
   padding: var(--space-xl) var(--container-padding);
 }
@@ -60,12 +60,30 @@
 /* ============================================
    GRID LAYOUT
    ============================================ */
-.domain-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--space-lg);
-  perspective: 1000px;
-}
+/* .domain-grid style moved to DomainGrid.css to allow proper component encapsulation and mobile overrides */
 
 /* Update Domain Card styles via global Card.css or here if specific overrides needed */
 /* Assuming usage of generic Card styling, but let's add specific hover effects if the grid uses tailored components */
+
+/* ============================================
+   MOBILE OPTIMIZATIONS
+   ============================================ */
+@media (max-width: 768px) {
+  .domains-page {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .domains-page__header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .domains-page__title {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    margin-bottom: var(--space-xs);
+  }
+
+  .domains-page__description {
+    font-size: var(--text-body);
+    margin-bottom: var(--space-md);
+  }
+}

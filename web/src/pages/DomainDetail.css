@@ -1,5 +1,5 @@
 .domain-detail {
-  max-width: var(--container-max);
+  max-width: 1600px;
   margin: 0 auto;
   padding: var(--space-xl) var(--container-padding);
 }
@@ -306,11 +306,25 @@
 }
 
 @media (max-width: 768px) {
+  .domain-detail {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .domain-detail__header {
+    margin-bottom: var(--space-md);
+  }
+
   .domain-detail__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on mobile */
+    gap: 8px;
   }
   
   .domain-detail__title {
-    font-size: clamp(2.5rem, 15vw, 3.5rem);
+    font-size: clamp(1.5rem, 10vw, 2rem);
+  }
+
+  .domain-detail__count {
+    font-size: var(--text-small);
+    margin-bottom: var(--space-sm);
   }
 }

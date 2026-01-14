@@ -133,6 +133,14 @@
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
+  .dictionary-favorites {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .dictionary-favorites__header {
+    margin-bottom: var(--space-md);
+  }
+
   .dictionary-favorites__grid {
     grid-template-columns: 1fr;
   }

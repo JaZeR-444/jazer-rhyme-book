@@ -129,6 +129,54 @@
   background: rgba(0, 255, 255, 0.1);
 }
 
+/* Like Button */
+.entity-like-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--duration-short);
+}
+
+.entity-like-btn:hover {
+  background: var(--surface-3);
+  color: #ff6b9d;
+}
+
+.entity-like-btn.is-liked {
+  color: #ff6b9d;
+  background: rgba(255, 107, 157, 0.15);
+}
+
+/* Liked Badge - shows on card corner */
+.entity-card__liked-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 10;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b9d, #ff4778);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 71, 120, 0.4);
+}
+
+/* Actions container */
+.entity-card__actions {
+  display: flex;
+  gap: 4px;
+}
+
 /* Tags */
 .entity-card__tags {
   display: flex;
@@ -152,3 +200,41 @@
   color: var(--text-secondary);
   font-family: var(--font-mono);
 }
+
+/* Mobile Compact View */
+@media (max-width: 768px) {
+  .entity-card {
+    border-radius: 10px;
+  }
+
+  .entity-card__content {
+    padding: 8px;
+  }
+
+  .entity-card__header {
+    margin-bottom: 0;
+  }
+
+  .entity-card__name {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  /* Hide non-essential content on mobile */
+  .entity-card__description,
+  .entity-card__type,
+  .entity-card__tags,
+  .entity-card__meta,
+  .entity-pin-btn {
+    display: none;
+  }
+
+  .entity-card::after {
+    display: none; /* Disable hover effect on mobile */
+  }
+
+  .entity-card:hover {
+    transform: none;
+  }
+}
+

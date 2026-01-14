@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/jazer-rhyme-book/',
+  base: mode === 'production' ? '/jazer-rhyme-book/' : '/',
   resolve: {
     alias: {
       // Allow importing from parent directory data folders
@@ -40,4 +40,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))

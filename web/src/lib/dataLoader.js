@@ -172,7 +172,11 @@ export async function loadDictionaryWords(letter) {
         letter: letter,
         path: `${letter}/01_Words/${word.toLowerCase()}/word.md`,
         syllables: data.s,
-        rhyme: data.r
+        rhyme: data.r,
+        d: data.d,
+        rd: data.rd,
+        syn: data.syn,
+        t: data.t
       }));
     }
 

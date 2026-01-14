@@ -105,4 +105,12 @@ export function getRandomEntities(count = 5, domain = null) {
   return shuffled.slice(0, count);
 }
 
+// Get all entities with their domains
+export function getAllEntities() {
+  return allEntities.map(entity => ({
+    entity,
+    domain: entity.domain || entity.type
+  }));
+}
+
 console.log(`[Knowledge Hub] Loaded ${stats.totalEntities} entities from ${stats.totalDomains} domains`);

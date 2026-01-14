@@ -91,7 +91,20 @@
 }
 
 @media (max-width: 768px) {
+  .about-page {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .about-page__header {
+    padding: var(--space-xl) 0;
+    margin-bottom: var(--space-lg);
+  }
+
   .about-page__title {
     font-size: 3rem;
+  }
+  
+  .about-card {
+    padding: var(--space-lg);
   }
 }

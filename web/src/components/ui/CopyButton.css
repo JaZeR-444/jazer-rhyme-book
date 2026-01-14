@@ -1,0 +1,71 @@
+.copy-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-short);
+  font-family: inherit;
+  font-weight: var(--weight-medium);
+}
+
+.copy-button:hover {
+  background: var(--surface-3);
+  border-color: var(--accent-primary-glow);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.copy-button:active {
+  transform: translateY(0);
+}
+
+.copy-button.is-copied {
+  background: var(--accent-success);
+  border-color: var(--accent-success);
+  color: white;
+}
+
+/* Sizes */
+.copy-button--xs {
+  padding: 4px 8px;
+  font-size: 11px;
+}
+
+.copy-button--sm {
+  padding: 6px 12px;
+  font-size: var(--text-small);
+}
+
+.copy-button--md {
+  padding: 8px 16px;
+  font-size: var(--text-base);
+}
+
+/* Variants */
+.copy-button--default {
+  /* Default styles already set above */
+}
+
+.copy-button--primary {
+  background: var(--brand-gradient);
+  border-color: transparent;
+  color: white;
+}
+
+.copy-button--primary:hover {
+  opacity: 0.9;
+}
+
+.copy-button--ghost {
+  background: transparent;
+  border-color: transparent;
+}
+
+.copy-button--ghost:hover {
+  background: var(--surface-2);
+  border-color: var(--border-subtle);
+}

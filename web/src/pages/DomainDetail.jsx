@@ -45,11 +45,11 @@ export function DomainDetail() {
   const [selectedEras, setSelectedEras] = useState(new Set());
   const [selectedTypes, setSelectedTypes] = useState(new Set());
   
-  // Collapsible state for filters
+  // Collapsible state for filters - start collapsed
   const [expandedSections, setExpandedSections] = useState({
-    eras: true,
-    types: true,
-    tags: true
+    eras: false,
+    types: false,
+    tags: false
   });
 
   const toggleSection = (section) => {

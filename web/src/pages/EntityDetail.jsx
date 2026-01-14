@@ -1,13 +1,17 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag, Link2, ExternalLink, Sparkles } from 'lucide-react';
-import { Breadcrumbs, LoadingState, EmptyState, Badge, Card } from '../components/ui';
+import { ArrowLeft, Calendar, Tag, Link2, ExternalLink, Sparkles, Pin } from 'lucide-react';
+import { Breadcrumbs, LoadingState, EmptyState, Badge, Card, CopyButton } from '../components/ui';
 import { useEntity } from '../lib/hooks';
 import { findEntitiesByIds } from '../lib/data/knowledgeHub';
+import { useWorkspace } from '../lib/WorkspaceContext';
+import { useKeyboardShortcuts } from '../lib/useKeyboardShortcuts';
+import { SimilarEntities } from '../components/SimilarEntities';
 import './EntityDetail.css';
 
 export function EntityDetail() {
   const { domainId, entityId } = useParams();
   const { entity, loading, error } = useEntity(domainId, entityId);
+  const { addItem, isPinned } = useWorkspace();
 
   const domainName = domainId
     .split('-')
@@ -15,9 +19,29 @@ export function EntityDetail() {
     .join(' ');
 
   // Resolve related entities with cross-domain support
-  const relatedEntities = entity?.related_ids 
-    ? findEntitiesByIds(entity.related_ids) 
+  const relatedEntities = entity?.related_ids
+    ? findEntitiesByIds(entity.related_ids)
     : [];
+
+  const handlePin = () => {
+    if (entity) {
+      addItem({
+        id: entity.id,
+        type: 'entity',
+        title: entity.name,
+        subtitle: entity.one_liner,
+        link: `/entities/${domainId}/${entityId}`,
+        domainId
+      });
+    }
+  };
+
+  const pinned = entity ? isPinned(entity.id, 'entity') : false;
+
+  // Page-specific keyboard shortcuts
+  useKeyboardShortcuts({
+    'p': handlePin,
+  }, !loading && !error && entity); // Only enable when entity is loaded
 
   if (loading) {
     return <LoadingState message="Loading entity..." />;
@@ -50,7 +74,7 @@ export function EntityDetail() {
           <Link to={`/domains/${domainId}`} className="entity-detail__back">
             <ArrowLeft size={24} />
           </Link>
-          <div>
+          <div className="entity-detail__title-content">
             <h1 className="entity-detail__title">{entity.name}</h1>
             {entity.aliases && entity.aliases.length > 0 && (
               <p className="entity-detail__aliases">
@@ -58,6 +82,14 @@ export function EntityDetail() {
               </p>
             )}
           </div>
+          <button
+            className={`entity-detail__pin-btn ${pinned ? 'is-pinned' : ''}`}
+            onClick={handlePin}
+            title={pinned ? 'Pinned to Verse Board' : 'Pin to Verse Board'}
+          >
+            <Pin size={18} />
+            {pinned ? 'Pinned' : 'Pin'}
+          </button>
         </div>
       </div>
 
@@ -66,7 +98,10 @@ export function EntityDetail() {
           {entity.one_liner && (
             <Card className="entity-detail__card">
               <div className="entity-detail__section">
-                <h2 className="entity-detail__section-title">Overview</h2>
+                <div className="entity-detail__section-header">
+                  <h2 className="entity-detail__section-title">Overview</h2>
+                  <CopyButton text={entity.one_liner} label="Copy" size="xs" />
+                </div>
                 <p className="entity-detail__one-liner">{entity.one_liner}</p>
               </div>
             </Card>
@@ -75,7 +110,14 @@ export function EntityDetail() {
           {entity.angles && entity.angles.length > 0 && (
             <Card className="entity-detail__card">
               <div className="entity-detail__section">
-                <h2 className="entity-detail__section-title">Creative Angles</h2>
+                <div className="entity-detail__section-header">
+                  <h2 className="entity-detail__section-title">Creative Angles</h2>
+                  <CopyButton
+                    text={entity.angles.join('\n')}
+                    label="Copy All"
+                    size="xs"
+                  />
+                </div>
                 <ul className="entity-detail__list">
                   {entity.angles.map((angle, idx) => (
                     <li key={idx}>{angle}</li>
@@ -88,7 +130,14 @@ export function EntityDetail() {
           {entity.bar_seeds && entity.bar_seeds.length > 0 && (
             <Card className="entity-detail__card">
               <div className="entity-detail__section">
-                <h2 className="entity-detail__section-title">Bar Seeds</h2>
+                <div className="entity-detail__section-header">
+                  <h2 className="entity-detail__section-title">Bar Seeds</h2>
+                  <CopyButton
+                    text={entity.bar_seeds.join(', ')}
+                    label="Copy All"
+                    size="xs"
+                  />
+                </div>
                 <div className="entity-detail__seeds">
                   {entity.bar_seeds.map((seed, idx) => (
                     <Badge key={idx} variant="purple">{seed}</Badge>
@@ -201,6 +250,8 @@ export function EntityDetail() {
           </Card>
         </div>
       </div>
+
+      <SimilarEntities currentEntity={entity} currentDomain={domainId} />
     </div>
   );
 }

@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Badge, GenerativeArt } from './ui';
-import { Pin } from 'lucide-react';
+import { Pin, Heart } from 'lucide-react';
 import { useWorkspace } from '../lib/WorkspaceContext';
+import { useEntityLikes } from '../lib/EntityLikesContext';
 import './EntityCard.css';
 
 export function EntityCard({ entity, domain }) {
   const { isPinned, addItem, removeItem } = useWorkspace();
+  const { isLiked, toggleLike } = useEntityLikes();
   const pinned = isPinned(entity.id, 'entity');
+  const liked = isLiked(entity.id, domain);
 
   const handlePin = (e) => {
     e.preventDefault();
@@ -25,24 +28,46 @@ export function EntityCard({ entity, domain }) {
     }
   };
 
+  const handleLike = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleLike(entity.id, domain);
+  };
+
   return (
     <Link
       to={`/entities/${domain}/${entity.id}`}
-      className="entity-card"
+      className={`entity-card ${liked ? 'is-liked' : ''}`}
     >
+      {/* Liked indicator - small heart on the card */}
+      {liked && (
+        <div className="entity-card__liked-badge">
+          <Heart size={10} fill="currentColor" />
+        </div>
+      )}
+      
       <div className="entity-card__bg">
          <GenerativeArt seed={entity.id} />
       </div>
       <div className="entity-card__content">
       <div className="entity-card__header">
         <h3 className="entity-card__name">{entity.name}</h3>
-        <button 
-          className={`entity-pin-btn ${pinned ? 'is-pinned' : ''}`}
-          onClick={handlePin}
-          title={pinned ? "Remove from Verse Board" : "Pin to Verse Board"}
-        >
-          <Pin size={14} fill={pinned ? "currentColor" : "none"} />
-        </button>
+        <div className="entity-card__actions">
+          <button 
+            className={`entity-like-btn ${liked ? 'is-liked' : ''}`}
+            onClick={handleLike}
+            title={liked ? "Remove like" : "Like this entity"}
+          >
+            <Heart size={14} fill={liked ? "currentColor" : "none"} />
+          </button>
+          <button 
+            className={`entity-pin-btn ${pinned ? 'is-pinned' : ''}`}
+            onClick={handlePin}
+            title={pinned ? "Remove from Verse Board" : "Pin to Verse Board"}
+          >
+            <Pin size={14} fill={pinned ? "currentColor" : "none"} />
+          </button>
+        </div>
       </div>
       <div className="entity-card__type">
         <Badge variant="outline" size="sm">{entity.type}</Badge>
@@ -76,3 +101,4 @@ export function EntityCard({ entity, domain }) {
     </Link>
   );
 }
+

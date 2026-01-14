@@ -6,7 +6,7 @@
    HERO SECTION
    ============================================ */
 .hero {
-  min-height: 85vh;
+  min-height: 85dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,28 +289,150 @@
 @media (max-width: 768px) {
   .hero {
     min-height: 70vh;
-    padding: var(--space-xl) var(--container-padding);
+    padding: var(--space-xl) var(--space-md);
   }
 
   .hero__logo .hero-logo-img {
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .hero__title {
-    font-size: clamp(2rem, 10vw, 4rem);
+    font-size: clamp(2rem, 10vw, 3.5rem);
   }
 
   .hero__subtitle {
-    font-size: var(--text-h3);
+    font-size: var(--text-body);
+    margin-bottom: var(--space-md);
+  }
+
+  .hero__actions {
+    gap: var(--space-sm);
   }
 
   .hero__stats {
-    gap: var(--space-lg);
+    gap: var(--space-md);
     padding: var(--space-md);
+    flex-direction: column;
+  }
+
+  .stat__value {
+    font-size: var(--text-h2);
+  }
+
+  .stat__label {
+    font-size: var(--text-small);
+  }
+
+  .features {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .features__title {
+    font-size: var(--text-h2);
+    margin-bottom: var(--space-lg);
   }
 
   .features__grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
+  }
+
+  .feature-card {
+    padding: var(--space-md);
+  }
+
+  .feature-card__icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .feature-card__title {
+    font-size: var(--text-body);
+  }
+
+  .feature-card__description {
+    font-size: var(--text-small);
+  }
+
+  .cta {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .cta__card {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .cta__title {
+    font-size: var(--text-h2);
+  }
+
+  .cta__description {
+    font-size: var(--text-body);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 60vh;
+    padding: var(--space-lg) var(--space-sm);
+  }
+
+  .hero__logo .hero-logo-img {
+    max-width: 220px;
+  }
+
+  .hero__title {
+    font-size: 1.75rem;
+  }
+
+  .hero__subtitle {
+    font-size: var(--text-small);
+  }
+
+  .hero__stats {
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+  }
+
+  .stat__value {
+    font-size: var(--text-h3);
+  }
+
+  .stat__label {
+    font-size: 10px;
+  }
+
+  .features {
+    padding: var(--space-lg) var(--space-sm);
+  }
+
+  .features__title {
+    font-size: var(--text-h3);
+  }
+
+  .feature-card {
+    padding: var(--space-sm);
+  }
+
+  .feature-card__icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+  }
+
+  .cta {
+    padding: var(--space-lg) var(--space-sm);
+  }
+
+  .cta__card {
+    padding: var(--space-lg) var(--space-sm);
+  }
+
+  .cta__title {
+    font-size: var(--text-h3);
+  }
+
+  .cta__description {
+    font-size: var(--text-small);
   }
 }

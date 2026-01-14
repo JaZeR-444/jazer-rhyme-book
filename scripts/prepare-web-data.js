@@ -111,8 +111,36 @@ if (fs.existsSync(dictionaryDest)) {
 
   const allWords = [];
 
-  // Generate word manifests for each letter
-  console.log('  → Generating word manifests for each letter...');
+  // Parsing function for word files
+  const parseWordFile = (filePath) => {
+    try {
+      if (!fs.existsSync(filePath)) return null;
+      const content = fs.readFileSync(filePath, 'utf8');
+      const sections = {};
+      const parts = content.split(/^##\s+/m);
+      
+      parts.forEach(part => {
+        const firstLineEnd = part.indexOf('\n');
+        if (firstLineEnd === -1) return;
+        
+        const header = part.substring(0, firstLineEnd).trim().toLowerCase().replace(':', '');
+        const body = part.substring(firstLineEnd).trim();
+        
+        if (header.includes('meaning (plain)')) sections.d = body;
+        else if (header.includes('rap meaning')) sections.rd = body;
+        else if (header.includes('syllables')) sections.s = parseInt(body.split(' ')[0]) || 0;
+        else if (header.includes('synonyms')) sections.syn = body.split(',').map(s => s.trim()).filter(Boolean);
+        else if (header.includes('tags')) sections.t = body.split(',').map(s => s.trim()).filter(Boolean);
+        else if (header.includes('rhyme ideas')) sections.r = body;
+      });
+      return sections;
+    } catch (e) {
+      return null;
+    }
+  };
+
+  // Generate word manifests and metadata for each letter
+  console.log('  → Generating word metadata for each letter (this may take a moment)...');
   for (const letter of letters) {
     const wordsDir = path.join(dictionaryDest, letter, '01_Words');
     if (fs.existsSync(wordsDir)) {
@@ -120,11 +148,27 @@ if (fs.existsSync(dictionaryDest)) {
         .filter(entry => entry.isDirectory())
         .map(entry => entry.name);
 
-      // Add to global words list
+      const metadata = {};
+      
+      // Process each word to build metadata
       words.forEach(word => {
         allWords.push({ name: word, letter });
+        const wordPath = path.join(wordsDir, word, 'word.md');
+        const data = parseWordFile(wordPath);
+        if (data) {
+          metadata[word] = data;
+        } else {
+          metadata[word] = { s: 0 }; // Minimal fallback
+        }
       });
 
+      // Write metadata.json (Rich data for recommender)
+      fs.writeFileSync(
+        path.join(dictionaryDest, letter, 'metadata.json'),
+        JSON.stringify(metadata, null, 0) // Minified to save space
+      );
+
+      // Write legacy manifest just in case
       fs.writeFileSync(
         path.join(dictionaryDest, letter, 'words-manifest.json'),
         JSON.stringify({ words }, null, 2)

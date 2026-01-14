@@ -116,18 +116,76 @@
   }
 }
 
+/* Full-screen Mobile Menu Overlay */
 .app-nav--mobile {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-md) var(--container-padding);
-  border-top: 1px solid var(--border-subtle);
-  background: var(--surface-1);
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: flex; /* Flex is managed by conditional rendering in JSX, this styles the container */
+  flex-direction: column; /* Stack vertically */
+  justify-content: center; /* Center vertically */
+  padding: var(--space-2xl) var(--space-xl);
+  background: var(--surface-0); /* Fallback */
+  background: rgba(10, 10, 12, 0.95); /* High opacity dark background */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  animation: mobileMenuFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes mobileMenuFadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 @media (min-width: 769px) {
   .app-nav--mobile {
-    display: none;
+    display: none !important;
   }
+}
+
+/* Staggered Link Animation */
+.app-nav--mobile .app-nav__link {
+  font-size: var(--text-h3); /* Larger text for mobile menu */
+  padding: var(--space-md);
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-subtle);
+  width: 100%;
+  justify-content: flex-start;
+  opacity: 0;
+  animation: linkSlideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Loop to creating staggering delays would usually be done in SCSS or JS styling. 
+   Here uses standard CSS nth-child assumption or base delay. 
+   For simplicity in CSS-only, we can just animate them all or add specific delays if we knew the count.
+   Let's just give them a base animation for now. */
+
+@keyframes linkSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Add delays for the first few items manually for that premium feel */
+.app-nav--mobile .app-nav__link:nth-child(1) { animation-delay: 0.1s; }
+.app-nav--mobile .app-nav__link:nth-child(2) { animation-delay: 0.15s; }
+.app-nav--mobile .app-nav__link:nth-child(3) { animation-delay: 0.2s; }
+.app-nav--mobile .app-nav__link:nth-child(4) { animation-delay: 0.25s; }
+.app-nav--mobile .app-nav__link:nth-child(5) { animation-delay: 0.3s; }
+.app-nav--mobile .app-nav__link:nth-child(6) { animation-delay: 0.35s; }
+.app-nav--mobile .app-nav__link:nth-child(7) { animation-delay: 0.4s; }
+.app-nav--mobile .app-nav__link:nth-child(8) { animation-delay: 0.45s; }
+
+.app-nav--mobile .app-nav__link--active {
+  color: var(--text-primary);
+  border-left: 4px solid var(--accent-primary);
+  background: linear-gradient(90deg, var(--surface-2), transparent);
+  border-bottom: none; /* Override standard border */
+}
+
+/* Close button positioning */
+.app-header__menu-btn {
+  z-index: 2001; /* Ensure button stays (just) above the full-screen menu (2000) */
+  position: relative; 
 }
 
 .app-nav__link {
@@ -239,6 +297,43 @@
   transform: scale(1.1);
 }
 
+.app-footer__shortcuts-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 8px 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-short);
+}
+
+.app-footer__shortcuts-btn:hover {
+  background: var(--surface-3);
+  border-color: var(--accent-primary-glow);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+.shortcuts-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.shortcuts-text {
+  font-family: var(--font-sans);
+}
+
+@media (max-width: 640px) {
+  .shortcuts-text {
+    display: none;
+  }
+}
+
 .app-footer__text {
   font-size: var(--text-small);
   color: var(--text-secondary);
@@ -249,4 +344,60 @@
   color: var(--text-muted);
   font-family: var(--font-mono);
   font-size: var(--text-micro);
+}
+
+/* ============================================
+   MOBILE OPTIMIZATIONS
+   ============================================ */
+@media (max-width: 768px) {
+  .app-header__content {
+    padding: var(--space-xs) var(--space-md);
+  }
+
+  .app-nav--mobile {
+    gap: var(--space-xs);
+  }
+
+  .app-nav__link {
+    padding: var(--space-sm);
+    font-size: var(--text-small);
+  }
+
+  .app-footer {
+    margin-top: var(--space-xl);
+  }
+
+  .app-footer__content {
+    padding: var(--space-lg) var(--space-md);
+    gap: var(--space-sm);
+  }
+
+  .app-footer__content .footer-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .app-footer__shortcuts-btn {
+    padding: 6px 12px;
+    font-size: var(--text-small);
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header__content {
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  .app-header__logo .nav-logo {
+    height: 28px;
+    max-width: 120px;
+  }
+
+  .app-nav__link {
+    padding: 10px var(--space-sm);
+  }
+
+  .app-footer__content {
+    padding: var(--space-md) var(--space-sm);
+  }
 }

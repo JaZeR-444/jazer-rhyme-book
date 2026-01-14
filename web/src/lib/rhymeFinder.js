@@ -4,12 +4,43 @@
  */
 
 import * as metaphoneLib from 'metaphone';
-const metaphone = metaphoneLib.default || metaphoneLib;
+
+// Robust import handling for different environments
+let metaphone;
+try {
+  if (typeof metaphoneLib === 'function') {
+    metaphone = metaphoneLib;
+  } else if (metaphoneLib && typeof metaphoneLib.default === 'function') {
+    metaphone = metaphoneLib.default;
+  } else {
+    // Attempt to find it or fallback
+    metaphone = metaphoneLib;
+  }
+} catch (e) {
+  console.warn('Error resolving metaphone:', e);
+}
 
 export function getRhymeScheme(word) {
+  if (!word) return { perfect: '', ending: '', syllables: 0 };
+  
   const cleaned = word.toLowerCase().trim();
+  let perfect = '';
+
+  try {
+    if (typeof metaphone === 'function') {
+      perfect = metaphone(cleaned);
+    } else {
+      // Fallback if metaphone isn't a function
+      console.warn('Metaphone is not a function in getRhymeScheme', metaphone);
+      perfect = cleaned; 
+    }
+  } catch (err) {
+    console.warn(`Error generating metaphone for ${word}:`, err);
+    perfect = cleaned; // Fallback
+  }
+
   return {
-    perfect: metaphone(cleaned),
+    perfect,
     ending: getEndingSound(cleaned),
     syllables: countSyllables(cleaned),
   };
@@ -67,7 +98,7 @@ function getEndingSound(word) {
   return word.slice(-3).toLowerCase();
 }
 
-function countSyllables(word) {
+export function countSyllables(word) {
   word = word.toLowerCase().trim();
   if (word.length <= 3) return 1;
   

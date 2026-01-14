@@ -95,3 +95,22 @@
 .docs-content li {
   margin-bottom: var(--space-xs);
 }
+
+@media (max-width: 768px) {
+  .docs-page {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .docs-page__header {
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-md);
+  }
+
+  .docs-page__title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .docs-content {
+    padding: var(--space-lg) var(--space-md);
+  }
+}

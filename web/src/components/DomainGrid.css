@@ -101,3 +101,34 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+@media (max-width: 768px) {
+  .domain-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .domain-card {
+    padding: 8px;
+    gap: 4px;
+    border-radius: 10px;
+    min-height: auto; /* Remove any minimum height */
+  }
+
+  .domain-card__icon {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .domain-card__name {
+    font-size: 10px;
+    line-height: 1.1;
+    font-weight: var(--weight-semibold);
+  }
+
+  /* Hide footer and stats on mobile to save space */
+  .domain-card__footer,
+  .domain-card__stats {
+    display: none;
+  }
+}

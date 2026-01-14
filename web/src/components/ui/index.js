@@ -8,4 +8,5 @@ export { MarkdownRenderer } from './MarkdownRenderer';
 export { Breadcrumbs } from './Breadcrumbs';
 export { FavoriteButton } from './FavoriteButton';
 export { GenerativeArt } from './GenerativeArt';
+export { CopyButton } from './CopyButton';
 
