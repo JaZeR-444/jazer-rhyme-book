@@ -16,7 +16,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_ROOT = path.join(__dirname, '../../data');
+const DATA_ROOT = path.join(__dirname, '../public/data');
 const OUTPUT_DIR = path.join(__dirname, '../public/data');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'knowledge-hub.json');
 

@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-01-15T07:43:13.335Z",
+  "dryRun": false,
+  "originalCount": 4346,
+  "specificToRemove": [],
+  "inflectionsToRemove": [
+    {
+      "word": "accepting",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "acting",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "aligned",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "allowing",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "answering",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "applied",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "applying",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "attracting",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "believing",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "belonged",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "belonging",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "blamed",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "blowing",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "bounded",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "buying",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "catching",
+      "reason": "Gerund/progressive form"
+    },
+    {
+      "word": "checked",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "completed",
+      "reason": "Past tense form"
+    },
+    {
+      "word": "literally",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "merely",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "mostly",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "notably",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "purely",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "sharply",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "slowly",
+      "reason": "Adverb form"
+    },
+    {
+      "word": "truly",
+      "reason": "Adverb form"
+    }
+  ],
+  "rhymeAnchorsToAdd": [],
+  "stats": {
+    "removed": 0,
+    "added": 0,
+    "errors": [],
+    "removedEntries": [],
+    "addedEntries": []
+  },
+  "projectedCount": 4320
+}

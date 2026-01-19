@@ -25,8 +25,6 @@ export function AppLayout() {
     { path: '/dictionary', label: 'Dictionary', icon: <BookOpen size={18} /> },
     { path: '/search', label: 'Search', icon: <Search size={18} /> },
     { path: '/studio', label: 'Studio', icon: <Edit3 size={18} /> },
-    { path: '/architecture', label: 'Architecture', icon: <Code size={18} /> },
-    { path: '/docs', label: 'Docs', icon: <FileText size={18} /> },
     { path: '/about', label: 'About', icon: <Info size={18} /> }
   ];
 

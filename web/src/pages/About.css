@@ -29,6 +29,50 @@
   font-weight: var(--weight-light);
 }
 
+/* Tabs */
+.about-tabs {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: var(--space-md);
+}
+
+.about-tab {
+  padding: var(--space-sm) var(--space-xl);
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+  border-radius: 12px;
+  position: relative;
+}
+
+.about-tab:hover {
+  color: var(--text-primary);
+  background: var(--surface-2);
+}
+
+.about-tab.active {
+  color: var(--accent-primary);
+  background: rgba(var(--accent-primary-rgb), 0.1);
+}
+
+.about-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary);
+}
+
 /* Feature Grid for About Section */
 .about-grid {
   display: grid;

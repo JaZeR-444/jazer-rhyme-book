@@ -1,0 +1,2802 @@
+{
+  "move": [
+    {
+      "target": "anthem-like",
+      "action": "MOVE",
+      "currentPath": "A/01_Words/anthem-like/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "dialed-in",
+      "action": "MOVE",
+      "currentPath": "D/01_Words/dialed-in/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "win-win",
+      "action": "MOVE",
+      "currentPath": "W/01_Words/win-win/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "yes-man",
+      "action": "MOVE",
+      "currentPath": "Y/01_Words/yes-man/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "yin-yang",
+      "action": "MOVE",
+      "currentPath": "Y/01_Words/yin-yang/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "yo-yo",
+      "action": "MOVE",
+      "currentPath": "Y/01_Words/yo-yo/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "your-highness",
+      "action": "MOVE",
+      "currentPath": "Y/01_Words/your-highness/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "zenith-point",
+      "action": "MOVE",
+      "currentPath": "Z/01_Words/zenith-point/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "zero-sum",
+      "action": "MOVE",
+      "currentPath": "Z/01_Words/zero-sum/word.md",
+      "status": "found",
+      "notes": ""
+    }
+  ],
+  "remove": [
+    {
+      "target": "ah",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "A/01_Words/ah/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "am",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "A/01_Words/am/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "ax",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "A/01_Words/ax/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "go",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "G/01_Words/go/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "if",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "I/01_Words/if/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "in",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "I/01_Words/in/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "no",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "N/01_Words/no/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "of",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "O/01_Words/of/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "on",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "O/01_Words/on/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "or",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "O/01_Words/or/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "ox",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "O/01_Words/ox/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "up",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "U/01_Words/up/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "we",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "W/01_Words/we/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "yi",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "Y/01_Words/yi/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "yo",
+      "action": "REMOVE",
+      "category": "B-utility",
+      "base": null,
+      "currentPath": "Y/01_Words/yo/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "abandoned",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "abandon",
+      "baseExists": true,
+      "currentPath": "A/01_Words/abandoned/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "achieves",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "achieve",
+      "baseExists": true,
+      "currentPath": "A/01_Words/achieves/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "achieving",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "achieve",
+      "baseExists": true,
+      "currentPath": "A/01_Words/achieving/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "activists",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "activist",
+      "baseExists": true,
+      "currentPath": "A/01_Words/activists/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "added",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "add",
+      "baseExists": true,
+      "currentPath": "A/01_Words/added/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "allegedly",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "alleged",
+      "baseExists": true,
+      "currentPath": "A/01_Words/allegedly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "balances",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "balance",
+      "baseExists": true,
+      "currentPath": "B/01_Words/balances/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "bathing",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "bath",
+      "baseExists": true,
+      "currentPath": "B/01_Words/bathing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "blandly",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "bland",
+      "baseExists": true,
+      "currentPath": "B/01_Words/blandly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "blitzes",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "blitz",
+      "baseExists": true,
+      "currentPath": "B/01_Words/blitzes/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "bonuses",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "bonus",
+      "baseExists": true,
+      "currentPath": "B/01_Words/bonuses/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "brushes",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "brush",
+      "baseExists": true,
+      "currentPath": "B/01_Words/brushes/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "cakes",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "cake",
+      "baseExists": true,
+      "currentPath": "C/01_Words/cakes/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "canceled",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "cancel",
+      "baseExists": true,
+      "currentPath": "C/01_Words/canceled/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "calling",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "call",
+      "baseExists": true,
+      "currentPath": "C/01_Words/calling/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "clearly",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "clear",
+      "baseExists": true,
+      "currentPath": "C/01_Words/clearly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "dances",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "dance",
+      "baseExists": true,
+      "currentPath": "D/01_Words/dances/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "damned",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "damn",
+      "baseExists": true,
+      "currentPath": "D/01_Words/damned/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "deeply",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "deep",
+      "baseExists": true,
+      "currentPath": "D/01_Words/deeply/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "deleting",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "delete",
+      "baseExists": true,
+      "currentPath": "D/01_Words/deleting/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "directly",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "direct",
+      "baseExists": true,
+      "currentPath": "D/01_Words/directly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "gases",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "gas",
+      "baseExists": true,
+      "currentPath": "G/01_Words/gases/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "tangs",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "tang",
+      "baseExists": true,
+      "currentPath": "T/01_Words/tangs/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "uncovered",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "uncover",
+      "baseExists": true,
+      "currentPath": "U/01_Words/uncovered/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "undergoing",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "undergo",
+      "baseExists": true,
+      "currentPath": "U/01_Words/undergoing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "unusually",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "unusual",
+      "baseExists": true,
+      "currentPath": "U/01_Words/unusually/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "valleys",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "valley",
+      "baseExists": true,
+      "currentPath": "V/01_Words/valleys/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "valued",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "value",
+      "baseExists": true,
+      "currentPath": "V/01_Words/valued/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "values",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "value",
+      "baseExists": true,
+      "currentPath": "V/01_Words/values/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "vibrating",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "vibrate",
+      "baseExists": true,
+      "currentPath": "V/01_Words/vibrating/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "vertically",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "vertical",
+      "baseExists": true,
+      "currentPath": "V/01_Words/vertically/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "viewed",
+      "action": "REMOVE",
+      "category": "C-inflection",
+      "base": "view",
+      "baseExists": true,
+      "currentPath": "V/01_Words/viewed/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "currently",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "current",
+      "baseExists": true,
+      "currentPath": "C/01_Words/currently/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "entirely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "entire",
+      "baseExists": true,
+      "currentPath": "E/01_Words/entirely/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "evenly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "even",
+      "baseExists": true,
+      "currentPath": "E/01_Words/evenly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "explicitly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "explicit",
+      "baseExists": true,
+      "currentPath": "E/01_Words/explicitly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "fairly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "fair",
+      "baseExists": true,
+      "currentPath": "F/01_Words/fairly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "firmly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "firm",
+      "baseExists": true,
+      "currentPath": "F/01_Words/firmly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "freshly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "fresh",
+      "baseExists": true,
+      "currentPath": "F/01_Words/freshly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "genuinely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "genuine",
+      "baseExists": true,
+      "currentPath": "G/01_Words/genuinely/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "ghostly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "ghost",
+      "baseExists": true,
+      "currentPath": "G/01_Words/ghostly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "gladly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "glad",
+      "baseExists": true,
+      "currentPath": "G/01_Words/gladly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "globally",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "global",
+      "baseExists": true,
+      "currentPath": "G/01_Words/globally/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "greatly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "great",
+      "baseExists": true,
+      "currentPath": "G/01_Words/greatly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "hardly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "hard",
+      "baseExists": true,
+      "currentPath": "H/01_Words/hardly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "highly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "high",
+      "baseExists": true,
+      "currentPath": "H/01_Words/highly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "hopefully",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "hopeful",
+      "baseExists": true,
+      "currentPath": "H/01_Words/hopefully/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "ideally",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "ideal",
+      "baseExists": true,
+      "currentPath": "I/01_Words/ideally/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "indirectly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "indirect",
+      "baseExists": true,
+      "currentPath": "I/01_Words/indirectly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "inherently",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "inherent",
+      "baseExists": true,
+      "currentPath": "I/01_Words/inherently/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "jadedly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "jaded",
+      "baseExists": true,
+      "currentPath": "J/01_Words/jadedly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "kindly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "kind",
+      "baseExists": true,
+      "currentPath": "K/01_Words/kindly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "largely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "large",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "lightly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "light",
+      "baseExists": true,
+      "currentPath": "L/01_Words/lightly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "literally",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "literal",
+      "baseExists": false,
+      "currentPath": "L/01_Words/literally/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"literal\" not found!"
+    },
+    {
+      "target": "locally",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "local",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"local\" not found!"
+    },
+    {
+      "target": "loosely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "loose",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"loose\" not found!"
+    },
+    {
+      "target": "loudly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "loud",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "lowly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "low",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "mainly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "main",
+      "baseExists": true,
+      "currentPath": "M/01_Words/mainly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "massively",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "massive",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "mentally",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "mental",
+      "baseExists": true,
+      "currentPath": "M/01_Words/mentally/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "merely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "mere",
+      "baseExists": false,
+      "currentPath": "M/01_Words/merely/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"mere\" not found!"
+    },
+    {
+      "target": "mostly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "most",
+      "baseExists": false,
+      "currentPath": "M/01_Words/mostly/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"most\" not found!"
+    },
+    {
+      "target": "narrowly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "narrow",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "nearly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "near",
+      "baseExists": true,
+      "currentPath": "N/01_Words/nearly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "neatly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "neat",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "notably",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "notable",
+      "baseExists": true,
+      "currentPath": "N/01_Words/notably/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "oddly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "odd",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "openly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "open",
+      "baseExists": true,
+      "currentPath": "O/01_Words/openly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "partially",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "partial",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"partial\" not found!"
+    },
+    {
+      "target": "perfectly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "perfect",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "physically",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "physical",
+      "baseExists": true,
+      "currentPath": "P/01_Words/physically/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "plainly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "plain",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"plain\" not found!"
+    },
+    {
+      "target": "politely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "polite",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "purely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "pure",
+      "baseExists": false,
+      "currentPath": "P/01_Words/purely/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"pure\" not found!"
+    },
+    {
+      "target": "quickly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "quick",
+      "baseExists": true,
+      "currentPath": "Q/01_Words/quickly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "quietly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "quiet",
+      "baseExists": true,
+      "currentPath": "Q/01_Words/quietly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "rarely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "rare",
+      "baseExists": true,
+      "currentPath": "R/01_Words/rarely/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "really",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "real",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "recently",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "recent",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"recent\" not found!"
+    },
+    {
+      "target": "repeatedly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "repeated",
+      "baseExists": true,
+      "currentPath": "R/01_Words/repeatedly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "roughly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "rough",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"rough\" not found!"
+    },
+    {
+      "target": "ruggedly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "rugged",
+      "baseExists": true,
+      "currentPath": "R/01_Words/ruggedly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "securely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "secure",
+      "baseExists": true,
+      "currentPath": "S/01_Words/securely/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "sharply",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "sharp",
+      "baseExists": false,
+      "currentPath": "S/01_Words/sharply/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"sharp\" not found!"
+    },
+    {
+      "target": "shortly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "short",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "simply",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "simple",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"simple\" not found!"
+    },
+    {
+      "target": "slowly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "slow",
+      "baseExists": false,
+      "currentPath": "S/01_Words/slowly/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"slow\" not found!"
+    },
+    {
+      "target": "softly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "soft",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"soft\" not found!"
+    },
+    {
+      "target": "solely",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "sole",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "strongly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "strong",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"strong\" not found!"
+    },
+    {
+      "target": "suddenly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "sudden",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"sudden\" not found!"
+    },
+    {
+      "target": "tightly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "tight",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"tight\" not found!"
+    },
+    {
+      "target": "truly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "true",
+      "baseExists": true,
+      "currentPath": "T/01_Words/truly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "utterly",
+      "action": "REMOVE",
+      "category": "D1-adverb",
+      "base": "utter",
+      "baseExists": true,
+      "currentPath": "U/01_Words/utterly/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "abandoning",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "abandon",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "absorbing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "absorb",
+      "baseExists": false,
+      "currentPath": "A/01_Words/absorbing/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"absorb\" not found!"
+    },
+    {
+      "target": "accepting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "accept",
+      "baseExists": false,
+      "currentPath": "A/01_Words/accepting/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"accept\" not found!"
+    },
+    {
+      "target": "accessing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "access",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"access\" not found!"
+    },
+    {
+      "target": "accusing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "accuse",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"accuse\" not found!"
+    },
+    {
+      "target": "acquiring",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "acquire",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"acquire\" not found!"
+    },
+    {
+      "target": "acting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "act",
+      "baseExists": false,
+      "currentPath": "A/01_Words/acting/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"act\" not found!"
+    },
+    {
+      "target": "adapting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "adapt",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"adapt\" not found!"
+    },
+    {
+      "target": "adding",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "add",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "aiming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "aim",
+      "baseExists": true,
+      "currentPath": "A/01_Words/aiming/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "allowing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "allow",
+      "baseExists": false,
+      "currentPath": "A/01_Words/allowing/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"allow\" not found!"
+    },
+    {
+      "target": "alarming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "alarm",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "aligning",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "align",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"align\" not found!"
+    },
+    {
+      "target": "analyzing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "analyze",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"analyze\" not found!"
+    },
+    {
+      "target": "anchoring",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "anchor",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "announcing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "announce",
+      "baseExists": true,
+      "currentPath": "A/01_Words/announcing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "answering",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "answer",
+      "baseExists": false,
+      "currentPath": "A/01_Words/answering/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"answer\" not found!"
+    },
+    {
+      "target": "apologizing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "apologize",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"apologize\" not found!"
+    },
+    {
+      "target": "appearing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "appear",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "applying",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "apply",
+      "baseExists": false,
+      "currentPath": "A/01_Words/applying/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"apply\" not found!"
+    },
+    {
+      "target": "arranging",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "arrange",
+      "baseExists": true,
+      "currentPath": "A/01_Words/arranging/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "arriving",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "arrive",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"arrive\" not found!"
+    },
+    {
+      "target": "asking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "ask",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"ask\" not found!"
+    },
+    {
+      "target": "assessing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "assess",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"assess\" not found!"
+    },
+    {
+      "target": "assisting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "assist",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"assist\" not found!"
+    },
+    {
+      "target": "assuming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "assume",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"assume\" not found!"
+    },
+    {
+      "target": "attacking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "attack",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "attempting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "attempt",
+      "baseExists": true,
+      "currentPath": "A/01_Words/attempting/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "attending",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "attend",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"attend\" not found!"
+    },
+    {
+      "target": "attracting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "attract",
+      "baseExists": false,
+      "currentPath": "A/01_Words/attracting/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"attract\" not found!"
+    },
+    {
+      "target": "auditing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "audit",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"audit\" not found!"
+    },
+    {
+      "target": "avoiding",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "avoid",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"avoid\" not found!"
+    },
+    {
+      "target": "awakening",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "awaken",
+      "baseExists": true,
+      "currentPath": "A/01_Words/awakening/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "balancing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "balance",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "banking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "bank",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "beating",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "beat",
+      "baseExists": true,
+      "currentPath": "B/01_Words/beating/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "becoming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "become",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"become\" not found!"
+    },
+    {
+      "target": "beginning",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "begin",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"begin\" not found!"
+    },
+    {
+      "target": "believing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "believe",
+      "baseExists": false,
+      "currentPath": "B/01_Words/believing/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"believe\" not found!"
+    },
+    {
+      "target": "belonging",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "belong",
+      "baseExists": false,
+      "currentPath": "B/01_Words/belonging/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"belong\" not found!"
+    },
+    {
+      "target": "bending",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "bend",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"bend\" not found!"
+    },
+    {
+      "target": "blocking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "block",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"block\" not found!"
+    },
+    {
+      "target": "blowing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "blow",
+      "baseExists": false,
+      "currentPath": "B/01_Words/blowing/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"blow\" not found!"
+    },
+    {
+      "target": "breaking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "break",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "bringing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "bring",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "building",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "build",
+      "baseExists": false,
+      "currentPath": "B/01_Words/building/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"build\" not found!"
+    },
+    {
+      "target": "burning",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "burn",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "buying",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "buy",
+      "baseExists": false,
+      "currentPath": "B/01_Words/buying/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"buy\" not found!"
+    },
+    {
+      "target": "calling",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "call",
+      "baseExists": true,
+      "currentPath": "C/01_Words/calling/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "calming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "calm",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"calm\" not found!"
+    },
+    {
+      "target": "camping",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "camp",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"camp\" not found!"
+    },
+    {
+      "target": "caring",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "care",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "carrying",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "carry",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"carry\" not found!"
+    },
+    {
+      "target": "casting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "cast",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "catching",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "catch",
+      "baseExists": false,
+      "currentPath": "C/01_Words/catching/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"catch\" not found!"
+    },
+    {
+      "target": "causing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "cause",
+      "baseExists": true,
+      "currentPath": "C/01_Words/causing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "challenging",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "challenge",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"challenge\" not found!"
+    },
+    {
+      "target": "changing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "change",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"change\" not found!"
+    },
+    {
+      "target": "charging",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "charge",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "chasing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "chase",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"chase\" not found!"
+    },
+    {
+      "target": "checking",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "check",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"check\" not found!"
+    },
+    {
+      "target": "choosing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "choose",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "cleaning",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "clean",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"clean\" not found!"
+    },
+    {
+      "target": "clearing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "clear",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "climbing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "climb",
+      "baseExists": true,
+      "currentPath": "C/01_Words/climbing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "closing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "close",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"close\" not found!"
+    },
+    {
+      "target": "coaching",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "coach",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "collecting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "collect",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"collect\" not found!"
+    },
+    {
+      "target": "combining",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "combine",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"combine\" not found!"
+    },
+    {
+      "target": "coming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "come",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"come\" not found!"
+    },
+    {
+      "target": "comparing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "compare",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"compare\" not found!"
+    },
+    {
+      "target": "competing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "compete",
+      "baseExists": true,
+      "currentPath": "C/01_Words/competing/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "completing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "complete",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"complete\" not found!"
+    },
+    {
+      "target": "confirming",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "confirm",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "connecting",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "connect",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"connect\" not found!"
+    },
+    {
+      "target": "considering",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "consider",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"consider\" not found!"
+    },
+    {
+      "target": "continuing",
+      "action": "REMOVE",
+      "category": "D2-ing",
+      "base": "continue",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"continue\" not found!"
+    },
+    {
+      "target": "agreed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "agree",
+      "baseExists": true,
+      "currentPath": "A/01_Words/agreed/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "aimed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "aim",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "aligned",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "align",
+      "baseExists": false,
+      "currentPath": "A/01_Words/aligned/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"align\" not found!"
+    },
+    {
+      "target": "allowed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "allow",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"allow\" not found!"
+    },
+    {
+      "target": "appeared",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "appear",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "applied",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "apply",
+      "baseExists": false,
+      "currentPath": "A/01_Words/applied/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"apply\" not found!"
+    },
+    {
+      "target": "arranged",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "arrange",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "arrived",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "arrive",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"arrive\" not found!"
+    },
+    {
+      "target": "asked",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "ask",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"ask\" not found!"
+    },
+    {
+      "target": "assumed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "assume",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"assume\" not found!"
+    },
+    {
+      "target": "attacked",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "attack",
+      "baseExists": true,
+      "currentPath": "A/01_Words/attacked/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "attempted",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "attempt",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "avoided",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "avoid",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"avoid\" not found!"
+    },
+    {
+      "target": "balanced",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "balance",
+      "baseExists": true,
+      "currentPath": "B/01_Words/balanced/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "believed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "believe",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"believe\" not found!"
+    },
+    {
+      "target": "belonged",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "belong",
+      "baseExists": false,
+      "currentPath": "B/01_Words/belonged/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"belong\" not found!"
+    },
+    {
+      "target": "blocked",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "block",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"block\" not found!"
+    },
+    {
+      "target": "blamed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "blame",
+      "baseExists": false,
+      "currentPath": "B/01_Words/blamed/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"blame\" not found!"
+    },
+    {
+      "target": "booked",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "book",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"book\" not found!"
+    },
+    {
+      "target": "boosted",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "boost",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "borrowed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "borrow",
+      "baseExists": true,
+      "currentPath": "B/01_Words/borrowed/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "bounded",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "bound",
+      "baseExists": false,
+      "currentPath": "B/01_Words/bounded/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"bound\" not found!"
+    },
+    {
+      "target": "breached",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "breach",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "broadened",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "broaden",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"broaden\" not found!"
+    },
+    {
+      "target": "burned",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "burn",
+      "baseExists": true,
+      "currentPath": "B/01_Words/burned/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "calmed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "calm",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"calm\" not found!"
+    },
+    {
+      "target": "carried",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "carry",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"carry\" not found!"
+    },
+    {
+      "target": "caused",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "cause",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "challenged",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "challenge",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"challenge\" not found!"
+    },
+    {
+      "target": "changed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "change",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"change\" not found!"
+    },
+    {
+      "target": "charged",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "charge",
+      "baseExists": true,
+      "currentPath": "C/01_Words/charged/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "checked",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "check",
+      "baseExists": false,
+      "currentPath": "C/01_Words/checked/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"check\" not found!"
+    },
+    {
+      "target": "cleaned",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "clean",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"clean\" not found!"
+    },
+    {
+      "target": "cleared",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "clear",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "closed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "close",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"close\" not found!"
+    },
+    {
+      "target": "coached",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "coach",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "collected",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "collect",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"collect\" not found!"
+    },
+    {
+      "target": "combined",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "combine",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"combine\" not found!"
+    },
+    {
+      "target": "compared",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "compare",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"compare\" not found!"
+    },
+    {
+      "target": "completed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "complete",
+      "baseExists": false,
+      "currentPath": "C/01_Words/completed/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"complete\" not found!"
+    },
+    {
+      "target": "confirmed",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "confirm",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "connected",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "connect",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"connect\" not found!"
+    },
+    {
+      "target": "considered",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "consider",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"consider\" not found!"
+    },
+    {
+      "target": "continued",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "continue",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"continue\" not found!"
+    },
+    {
+      "target": "copied",
+      "action": "REMOVE",
+      "category": "D3-ed",
+      "base": "copy",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"copy\" not found!"
+    },
+    {
+      "target": "academies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "academy",
+      "baseExists": true,
+      "currentPath": "A/01_Words/academies/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "apologies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "apology",
+      "baseExists": true,
+      "currentPath": "A/01_Words/apologies/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "babies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "baby",
+      "baseExists": false,
+      "currentPath": "B/01_Words/babies/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"baby\" not found!"
+    },
+    {
+      "target": "batteries",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "battery",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"battery\" not found!"
+    },
+    {
+      "target": "charities",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "charity",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "companies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "company",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"company\" not found!"
+    },
+    {
+      "target": "countries",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "country",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"country\" not found!"
+    },
+    {
+      "target": "dynasties",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "dynasty",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "enemies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "enemy",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "families",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "family",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"family\" not found!"
+    },
+    {
+      "target": "fantasies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "fantasy",
+      "baseExists": false,
+      "currentPath": "F/01_Words/fantasies/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"fantasy\" not found!"
+    },
+    {
+      "target": "glories",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "glory",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "harmonies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "harmony",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "industries",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "industry",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "injuries",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "injury",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"injury\" not found!"
+    },
+    {
+      "target": "journeys",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "journey",
+      "baseExists": true,
+      "currentPath": "J/01_Words/journeys/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "melodies",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "melody",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "memories",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "memory",
+      "baseExists": true,
+      "currentPath": "M/01_Words/memories/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "mysteries",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "mystery",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "parties",
+      "action": "REMOVE",
+      "category": "D4-ies",
+      "base": "party",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "announces",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "announce",
+      "baseExists": true,
+      "currentPath": "A/01_Words/announces/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "approaches",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "approach",
+      "baseExists": false,
+      "currentPath": "A/01_Words/approaches/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"approach\" not found!"
+    },
+    {
+      "target": "balances",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "balance",
+      "baseExists": true,
+      "currentPath": "B/01_Words/balances/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "benches",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "bench",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "boxes",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "box",
+      "baseExists": false,
+      "currentPath": "B/01_Words/boxes/word.md",
+      "status": "found",
+      "notes": "WARNING: base \"box\" not found!"
+    },
+    {
+      "target": "brushes",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "brush",
+      "baseExists": true,
+      "currentPath": "B/01_Words/brushes/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "closes",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "close",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"close\" not found!"
+    },
+    {
+      "target": "coaches",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "coach",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "confuses",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "confuse",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"confuse\" not found!"
+    },
+    {
+      "target": "crosses",
+      "action": "REMOVE",
+      "category": "D5-es",
+      "base": "cross",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"cross\" not found!"
+    },
+    {
+      "target": "calves",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "calf",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"calf\" not found!"
+    },
+    {
+      "target": "elves",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "elf",
+      "baseExists": false,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": "WARNING: base \"elf\" not found!"
+    },
+    {
+      "target": "halves",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "half",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "knives",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "knife",
+      "baseExists": true,
+      "currentPath": "K/01_Words/knives/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "leaves",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "leaf",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "wolves",
+      "action": "REMOVE",
+      "category": "D6-ves",
+      "base": "wolf",
+      "baseExists": true,
+      "currentPath": "N/A",
+      "status": "missing",
+      "notes": ""
+    },
+    {
+      "target": "adults",
+      "action": "REMOVE",
+      "category": "D7-s",
+      "base": "adult",
+      "baseExists": true,
+      "currentPath": "A/01_Words/adults/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "advisors",
+      "action": "REMOVE",
+      "category": "D7-s",
+      "base": "advisor",
+      "baseExists": true,
+      "currentPath": "A/01_Words/advisors/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "amateurs",
+      "action": "REMOVE",
+      "category": "D7-s",
+      "base": "amateur",
+      "baseExists": true,
+      "currentPath": "A/01_Words/amateurs/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "anchors",
+      "action": "REMOVE",
+      "category": "D7-s",
+      "base": "anchor",
+      "baseExists": true,
+      "currentPath": "A/01_Words/anchors/word.md",
+      "status": "found",
+      "notes": ""
+    },
+    {
+      "target": "appeals",
+      "action": "REMOVE",
+      "category": "D7-s",
+      "base": "appeal",
+      "baseExists": true,
+      "currentPath": "A/01_Words/appeals/word.md",
+      "status": "found",
+      "notes": ""
+    }
+  ],
+  "summary": {
+    "totalMoveTargets": 9,
+    "moveFound": 9,
+    "moveMissing": 0,
+    "totalRemoveTargets": 274,
+    "removeFound": 141,
+    "removeMissing": 133
+  }
+}

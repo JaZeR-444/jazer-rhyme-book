@@ -115,11 +115,11 @@
 
 .dictionary-letter__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--space-sm);
 }
 
-/* Updated Word Card for Syllables */
+/* Simplified grid word card */
 .word-card {
   display: flex;
   justify-content: space-between;
@@ -129,6 +129,7 @@
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
   transition: all var(--duration-short);
+  gap: var(--space-sm);
 }
 
 .word-card:hover {
@@ -143,32 +144,23 @@
   flex: 1;
   display: flex;
   align-items: center;
-}
-
-.word-card__main {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  width: 100%;
+  min-width: 0;
+  color: var(--text-primary);
 }
 
 .word-card__name {
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
-  color: var(--text-primary);
   transition: color var(--duration-short);
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .word-card:hover .word-card__name {
   color: var(--accent-primary);
-}
-
-.word-card__syllables {
-  margin-left: auto;
-  margin-right: var(--space-md);
-  font-family: var(--font-mono);
-  font-size: 10px;
-  opacity: 0.7;
 }
 
 @media (max-width: 640px) {
@@ -364,14 +356,6 @@
   flex-wrap: wrap;
 }
 
-/* Add tags to word cards */
-.word-card__tags {
-  display: flex;
-  gap: 4px;
-  margin-top: 4px;
-  flex-wrap: wrap;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .dictionary-letter {
@@ -450,11 +434,6 @@
     font-size: var(--text-body);
   }
 
-  .dictionary-letter__grid {
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-    gap: var(--space-sm);
-  }
-
   .word-card {
     padding: var(--space-sm);
   }
@@ -463,9 +442,9 @@
     font-size: var(--text-small);
   }
 
-  .word-card__syllables {
-    font-size: 9px;
-    margin-right: var(--space-sm);
+  .dictionary-letter__grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: var(--space-xs);
   }
 
   .word-list-item {
@@ -507,18 +486,15 @@
     flex-wrap: wrap;
   }
 
-  .dictionary-letter__grid,
-  .word-group__items {
-    /* User requested 3 words per row. 
-       Use minmax small enough to fit 3 on 375px screens. 
-       375px - 16px padding = 359px. / 3 = ~119px. 
-       Gap needs consideration. */
-    grid-template-columns: repeat(3, 1fr);
+  .dictionary-letter__grid {
+    /* Slim cards allow four columns on narrow screens */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 6px;
   }
 
-  .word-card__syllables {
-    display: none;
+  .word-group__items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
   }
 
   .word-group__header {

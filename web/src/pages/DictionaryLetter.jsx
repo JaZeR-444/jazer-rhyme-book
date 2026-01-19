@@ -242,21 +242,7 @@ export function DictionaryLetter() {
                     to={`/dictionary/${letter}/${word.name.toLowerCase()}`}
                     className="word-card__link"
                   >
-                    <div className="word-card__main">
-                      <span className="word-card__name">{word.name}</span>
-                      {word.syllables && (
-                        <Badge variant="outline" size="sm" className="word-card__syllables">
-                          {word.syllables}
-                        </Badge>
-                      )}
-                    </div>
-                    {word.tags && word.tags.length > 0 && (
-                      <div className="word-card__tags">
-                        {word.tags.slice(0, 2).map((tag, idx) => (
-                          <Badge key={idx} size="xs" variant="secondary">{tag}</Badge>
-                        ))}
-                      </div>
-                    )}
+                    <span className="word-card__name">{word.name}</span>
                   </Link>
                   <FavoriteButton word={word.name} letter={letter} size={18} />
                 </div>

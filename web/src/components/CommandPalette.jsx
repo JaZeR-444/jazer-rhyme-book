@@ -21,8 +21,8 @@ export function CommandPalette() {
     { type: 'nav', name: 'Domains', path: '/domains', icon: <Database /> },
     { type: 'nav', name: 'Dictionary', path: '/dictionary', icon: <BookOpen /> },
     { type: 'nav', name: 'Search', path: '/search', icon: <Search /> },
-    { type: 'nav', name: 'Architecture', path: '/architecture', icon: <Code /> },
-    { type: 'nav', name: 'Documentation', path: '/docs', icon: <FileText /> },
+    { type: 'nav', name: 'Architecture', path: '/about', icon: <Code /> },
+    { type: 'nav', name: 'Documentation', path: '/about', icon: <FileText /> },
     { type: 'nav', name: 'About', path: '/about', icon: <Info /> }
   ], []);
 

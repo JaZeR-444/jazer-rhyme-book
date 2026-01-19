@@ -1,0 +1,232 @@
+[
+  {
+    "name": "abyss",
+    "word": "Abyss",
+    "letter": "A",
+    "meaning": "A deep or seemingly bottomless chasm",
+    "rap_meaning": "The lowest point of the struggle, deep depression, the trap that's hard to escape",
+    "syllables": "2 (a-byss)",
+    "pos": "Noun",
+    "synonyms": "Void, pit, chasm",
+    "antonyms": "Summit, peak",
+    "rhymes": "END: miss, dis, hiss, kiss, bliss / SLANT: wrist / MULTI: paralysis",
+    "bars": [
+      "Staring in the abyss, it stared back at me",
+      "Climbed out the abyss with dirt under my nails",
+      "Voice from the abyss, echoing the pain"
+    ],
+    "punchlines": [
+      "Nietzsche reference (staring into abyss)",
+      "Bottomless pit imagery",
+      "Depth of character"
+    ],
+    "tags": "dark, struggle, deep, depression"
+  },
+  {
+    "name": "accolade",
+    "word": "Accolade",
+    "letter": "A",
+    "meaning": "Award or privilege granted as a special honor",
+    "rap_meaning": "Trophies, grammys, plaques, street respect",
+    "syllables": "3 (ac-co-lade)",
+    "pos": "Noun",
+    "synonyms": "Award, honor, praise",
+    "antonyms": "Criticism",
+    "rhymes": "END: parade, charade, brigade, shade / SLANT: paid / MULTI: lemonade",
+    "bars": [
+      "Don't do it for the accolade, do it for the love",
+      "Stacking accolades like plaques on the wall",
+      "Only accolade I need is my hood's respect"
+    ],
+    "punchlines": [
+      "Trophy case flex",
+      "Knighting ceremony idea (accolade)",
+      "Validation vs Reality"
+    ],
+    "tags": "success, award, respect, fame"
+  },
+  {
+    "name": "ace",
+    "word": "Ace",
+    "letter": "A",
+    "meaning": "Playing card with value 1 or 11; expert",
+    "rap_meaning": "Number one, best friend (Ace boon coon), Ace of Spades (champagne)",
+    "syllables": "1 (ace)",
+    "pos": "Noun",
+    "synonyms": "Expert, one, champion",
+    "antonyms": "Joker",
+    "rhymes": "END: base, chase, face, race, case / SLANT: days / MULTI: interface",
+    "bars": [
+      "Ace of Spades popping, celebration vibes",
+      "Keep an ace up the sleeve for the rainy day",
+      "I'm the ace in the deck, you just a joker"
+    ],
+    "punchlines": [
+      "Card game metaphor",
+      "Gambling reference",
+      "Champagne brand"
+    ],
+    "tags": "best, cards, drink, friend"
+  },
+  {
+    "name": "acid",
+    "word": "Acid",
+    "letter": "A",
+    "meaning": "Corrosive substance; LSD",
+    "rap_meaning": "Tripping, burning through obstacles, toxic personality, Acid Rap (Chance)",
+    "syllables": "2 (ac-id)",
+    "pos": "Noun",
+    "synonyms": "Lsd, burn",
+    "antonyms": "Base",
+    "rhymes": "END: placid, flaccid / SLANT: massive / MULTI: antacid",
+    "bars": [
+      "Flow like acid, burning through the floor",
+      "Acid trip visuals, colors in the air",
+      "Toxic like battery acid, keep your distance"
+    ],
+    "punchlines": [
+      "Chemistry burn",
+      "Psychedelic reference",
+      "Corrosion"
+    ],
+    "tags": "drug, dangerous, burn, trippy"
+  },
+  {
+    "name": "acme",
+    "word": "Acme",
+    "letter": "A",
+    "meaning": "The point at which someone or something is best",
+    "rap_meaning": "The peak, Looney Tunes explosives (Wile E. Coyote fake), top tier",
+    "syllables": "2 (ac-me)",
+    "pos": "Noun",
+    "synonyms": "Peak, zenith",
+    "antonyms": "Bottom",
+    "rhymes": "END: acne, hackney / SLANT: back me / MULTI: attack me",
+    "bars": [
+      "Reached the acme, look down on the rest",
+      "Your trap look like Acme, cartoon explosives",
+      "Standard is acme, nothing less accepted"
+    ],
+    "punchlines": [
+      "Road Runner/Coyote cartoon reference",
+      "Peak performance",
+      "Generic brand insult"
+    ],
+    "tags": "peak, cartoon, fake, top"
+  },
+  {
+    "name": "acoustics",
+    "word": "Acoustics",
+    "letter": "A",
+    "meaning": "Properties of a room that determine how sound is transmitted",
+    "rap_meaning": "How the gun sounds, studio quality, echoing in empty spaces",
+    "syllables": "3 (a-cous-tics)",
+    "pos": "Noun",
+    "synonyms": "Sound, audio",
+    "antonyms": "Silence",
+    "rhymes": "END: logistics, statistics, ballistics / SLANT: sticks / MULTI: linguistics",
+    "bars": [
+      "Fix the acoustics, I need to hear the truth",
+      "Pistol acoustics, echoing in the alley",
+      "Bathroom acoustics flow, raw and uncluttered"
+    ],
+    "punchlines": [
+      "Gunshot sound",
+      "Studio engineering",
+      "Echo chamber"
+    ],
+    "tags": "sound, music, gun, loud"
+  },
+  {
+    "name": "acrobat",
+    "word": "Acrobat",
+    "letter": "A",
+    "meaning": "An entertainer who performs gymnastic feats",
+    "rap_meaning": "Flipping money, flexible flows, bending over backwards",
+    "syllables": "3 (ac-ro-bat)",
+    "pos": "Noun",
+    "synonyms": "Gymnast, jumper",
+    "antonyms": "Clumsy",
+    "rhymes": "END: habitat, aristocrat, diplomat / SLANT: bat / MULTI: copycat",
+    "bars": [
+      "Money do acrobat flips, gymnastics",
+      "Lyrical acrobat, walking the tightrope",
+      "Bending over backwards like an acrobat for nothing"
+    ],
+    "punchlines": [
+      "Money flipping",
+      "Circus imagery",
+      "Flexibility metaphor"
+    ],
+    "tags": "money, skill, move, circus"
+  },
+  {
+    "name": "acrylic",
+    "word": "Acrylic",
+    "letter": "A",
+    "meaning": "Plastic substance used for paint or nails",
+    "rap_meaning": "Fake (plastic), fake nails (girls), painting pictures",
+    "syllables": "3 (a-cryl-ic)",
+    "pos": "Noun/Adjective",
+    "synonyms": "Plastic, paint",
+    "antonyms": "Natural",
+    "rhymes": "END: idyllic, cyrillic / SLANT: kill it / MULTI: acidic",
+    "bars": [
+      "Heart made of acrylic, see through and plastic",
+      "Click-clack of the acrylics, she typing a text",
+      "Painting vivid pictures, acrylic on canvas"
+    ],
+    "punchlines": [
+      "Fake/Plastic personality",
+      "Nail salon reference",
+      "Artistic metaphor"
+    ],
+    "tags": "fake, art, girl, plastic"
+  },
+  {
+    "name": "action",
+    "word": "Action",
+    "letter": "A",
+    "meaning": "Fact or process of doing something",
+    "rap_meaning": "Action movies, about that action (fighting/doing), gun play",
+    "syllables": "2 (ac-tion)",
+    "pos": "Noun",
+    "synonyms": "Activity, deed",
+    "antonyms": "Talk",
+    "rhymes": "END: faction, traction, reaction / SLANT: ask him / MULTI: satisfaction",
+    "bars": [
+      "Lights, camera, action, movie life",
+      "Don't talk about it, be about that action",
+      "Missing in action when the beef kicked off"
+    ],
+    "punchlines": [
+      "Movie director quote",
+      "MIA (Missing In Action)",
+      "Talk vs Do"
+    ],
+    "tags": "fight, movie, real, do"
+  },
+  {
+    "name": "activist",
+    "word": "Activist",
+    "letter": "A",
+    "meaning": "Person traversing for social change",
+    "rap_meaning": "Freedom fighter, fighting the power, sipping Actavis (lean)",
+    "syllables": "3 (ac-tiv-ist)",
+    "pos": "Noun",
+    "synonyms": "Fighter, reformer",
+    "antonyms": "Bystander",
+    "rhymes": "END: pacifist, masochist / SLANT: wrist / MULTI: protagonist",
+    "bars": [
+      "Sipping Activist, leaning like an activist",
+      "Voice of the people, neighborhood activist",
+      "Social activist until the check clears"
+    ],
+    "punchlines": [
+      "Actavis (cough syrup) wordplay",
+      "Fighting the system",
+      "Fake woke"
+    ],
+    "tags": "fight, drug, political, wordplay"
+  }
+]

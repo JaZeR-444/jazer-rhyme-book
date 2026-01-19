@@ -14,8 +14,6 @@ import { DictionaryWord } from './pages/DictionaryWord';
 import { DictionaryFavorites } from './pages/DictionaryFavorites';
 import { Search } from './pages/Search';
 import { WritingStudio } from './pages/WritingStudio';
-import { Architecture } from './pages/Architecture';
-import { Docs } from './pages/Docs';
 import { About } from './pages/About';
 import { NotFound } from './pages/NotFound';
 
@@ -50,8 +48,6 @@ function App() {
                 {/* Other Pages */}
                 <Route path="search" element={<Search />} />
                 <Route path="studio" element={<WritingStudio />} />
-                <Route path="architecture" element={<Architecture />} />
-                <Route path="docs" element={<Docs />} />
                 <Route path="about" element={<About />} />
 
                 {/* 404 */}

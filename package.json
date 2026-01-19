@@ -4,8 +4,8 @@
   "description": "Creative knowledge base for rap/music writing retrieval.",
   "main": "index.js",
   "scripts": {
-    "validate": "node scripts/validate.js",
-    "build": "node scripts/build-indexes.js"
+    "validate": "node src/99_SCRIPTS/validate.js",
+    "build": "node src/99_SCRIPTS/build-indexes.js"
   },
   "dependencies": {
     "ajv": "^8.12.0",

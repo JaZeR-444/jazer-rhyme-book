@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prepare": "node ../scripts/prepare-web-data.js",
-    "dev": "npm run prepare && vite",
-    "build": "npm run prepare && vite build",
+    "prepare:metadata": "node scripts/generate-metadata.js",
+    "prepare:tracks": "node scripts/scan-tracks.js",
+    "prepare:data": "node scripts/buildData.js",
+    "prepare": "npm run prepare:metadata && npm run prepare:tracks && npm run prepare:data",
+    "dev": "npm run prepare && vite -c scripts/vite.config.js",
+    "build": "npm run prepare && vite build -c scripts/vite.config.js",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview -c scripts/vite.config.js"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

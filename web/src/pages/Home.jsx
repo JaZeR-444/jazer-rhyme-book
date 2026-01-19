@@ -173,7 +173,7 @@ export function Home() {
                 Start Searching
               </Button>
             </Link>
-            <Link to="/architecture">
+            <Link to="/about">
               <Button variant="ghost">Learn More</Button>
             </Link>
           </div>
