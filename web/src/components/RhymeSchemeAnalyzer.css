@@ -1,0 +1,234 @@
+.rhyme-scheme-analyzer {
+  margin-top: var(--space-lg);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+}
+
+.rhyme-scheme-analyzer.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl);
+  gap: var(--space-sm);
+  text-align: center;
+}
+
+.analyzer-hint {
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  margin: 0;
+}
+
+.analyzer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: var(--space-md);
+}
+
+.analyzer-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.analyzer-title h3 {
+  font-size: var(--text-h4);
+  font-weight: var(--weight-semibold);
+  margin: 0;
+}
+
+.analyzer-pattern {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-small);
+}
+
+.pattern-label {
+  color: var(--text-secondary);
+  font-weight: var(--weight-medium);
+}
+
+.pattern-value {
+  padding: 4px 12px;
+  background: var(--gradient-primary);
+  color: white;
+  border-radius: 12px;
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-micro);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Scheme Visual */
+.analyzer-scheme {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-lg);
+  padding: var(--space-md);
+  background: var(--surface-2);
+  border-radius: 12px;
+}
+
+.scheme-visual {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.scheme-letter {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-primary);
+  color: white;
+  border-radius: 8px;
+  font-weight: var(--weight-bold);
+  font-size: var(--text-small);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.scheme-letter.none {
+  background: var(--surface-3);
+  color: var(--text-secondary);
+  opacity: 0.5;
+}
+
+.scheme-letter:nth-child(2n) {
+  background: var(--accent-secondary);
+}
+
+.scheme-letter:nth-child(3n) {
+  background: var(--accent-neon);
+}
+
+.scheme-string {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  color: var(--text-primary);
+  letter-spacing: 0.2em;
+}
+
+/* Analyzed Lines */
+.analyzer-lines {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.analyzed-line {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-sm);
+  background: var(--surface-2);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-primary);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.analyzed-line:hover {
+  background: var(--surface-3);
+  transform: translateX(4px);
+}
+
+.line-scheme {
+  min-width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-primary);
+  color: white;
+  border-radius: 6px;
+  font-weight: var(--weight-bold);
+  font-size: var(--text-small);
+  flex-shrink: 0;
+}
+
+.line-scheme.none {
+  background: var(--surface-3);
+  color: var(--text-secondary);
+}
+
+.line-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.line-text {
+  color: var(--text-primary);
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
+}
+
+.line-meta {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  font-size: var(--text-micro);
+}
+
+.line-word {
+  padding: 2px 8px;
+  background: var(--accent-primary-glow);
+  color: var(--accent-primary);
+  border-radius: 4px;
+  font-weight: var(--weight-semibold);
+  font-family: var(--font-mono);
+}
+
+.line-syllables {
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .analyzer-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  .scheme-visual {
+    gap: 4px;
+  }
+
+  .scheme-letter {
+    width: 24px;
+    height: 24px;
+    font-size: var(--text-micro);
+  }
+
+  .scheme-string {
+    font-size: var(--text-body);
+  }
+
+  .analyzed-line {
+    gap: var(--space-sm);
+  }
+
+  .line-scheme {
+    min-width: 24px;
+    height: 24px;
+    font-size: var(--text-micro);
+  }
+
+  .line-text {
+    font-size: var(--text-small);
+  }
+}

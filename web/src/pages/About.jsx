@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Card, Badge, Button, MarkdownRenderer } from '../components/ui';
-import { Database, Code, Cpu, ExternalLink, FileText, Search, Share2, Layers } from 'lucide-react';
+import { Database, Code, Cpu, ExternalLink, FileText, Search, Share2, Layers, Mail, Twitter, MessageCircle } from 'lucide-react';
 import './About.css';
 import './Architecture.css';
 import './Docs.css';
@@ -179,12 +179,31 @@ export function About() {
                 This project represents the convergence of music, technology, and information architecture.
                 Created by JaZeR.
               </p>
-              
-              <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+
+              <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', marginBottom: '24px' }}>
                 <Button variant="outline" onClick={() => window.open('https://github.com/StartHereEng/jazer-rhyme-book', '_blank')}>
                   <ExternalLink size={16} className="mr-2" />
                   View on GitHub
                 </Button>
+              </div>
+
+              {/* Contact & Social Links */}
+              <div className="about-contact">
+                <h3 className="about-contact__title">Get in Touch</h3>
+                <div className="about-contact__links">
+                  <a href="mailto:contact@jazer-rhymes.com" className="contact-link" title="Email">
+                    <Mail size={20} />
+                    <span>Email</span>
+                  </a>
+                  <a href="https://github.com/StartHereEng/jazer-rhyme-book/issues" target="_blank" rel="noopener noreferrer" className="contact-link" title="Report Issues">
+                    <MessageCircle size={20} />
+                    <span>Feedback</span>
+                  </a>
+                  <a href="https://twitter.com/jazer" target="_blank" rel="noopener noreferrer" className="contact-link" title="Twitter">
+                    <Twitter size={20} />
+                    <span>Twitter</span>
+                  </a>
+                </div>
               </div>
 
               <div className="about-badges">

@@ -14,6 +14,7 @@ import { Dictionary } from './pages/Dictionary';
 import { DictionaryLetter } from './pages/DictionaryLetter';
 import { DictionaryWord } from './pages/DictionaryWord';
 import { DictionaryFavorites } from './pages/DictionaryFavorites';
+import { WordCompare } from './pages/WordCompare';
 import { Search } from './pages/Search';
 import { WritingStudio } from './pages/WritingStudio';
 import { About } from './pages/About';
@@ -46,6 +47,7 @@ function App() {
                     {/* Dictionary */}
                     <Route path="dictionary" element={<Dictionary />} />
                     <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
+                    <Route path="dictionary/compare" element={<WordCompare />} />
                     <Route path="dictionary/:letter" element={<DictionaryLetter />} />
                     <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
 

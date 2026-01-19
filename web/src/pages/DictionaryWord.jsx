@@ -1,6 +1,7 @@
-import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Pin, Sparkles } from 'lucide-react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { ArrowLeft, BookOpen, Pin, Sparkles, GitCompare, Copy, Check } from 'lucide-react';
 import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton, Badge } from '../components/ui';
+import { ContinueExploring } from '../components/dictionary/ContinueExploring';
 import { useDictionaryWord, useDictionaryIndex } from '../lib/hooks';
 import { useWorkspace } from '../lib/WorkspaceContext';
 import { useBrowsingHistory } from '../lib/BrowsingHistoryContext';
@@ -10,11 +11,13 @@ import './DictionaryWord.css';
 
 export function DictionaryWord() {
   const { letter, word } = useParams();
+  const navigate = useNavigate();
   const { content, loading, error } = useDictionaryWord(letter, word);
   const { words: allWords } = useDictionaryIndex();
   const { isPinned, addItem, removeItem } = useWorkspace();
   const { addToHistory } = useBrowsingHistory();
   const [showRhymes, setShowRhymes] = useState(false);
+  const [copySuccess, setCopySuccess] = useState(false);
 
   const wordName = word.charAt(0).toUpperCase() + word.slice(1);
   const pinned = isPinned(word, 'word');
@@ -46,6 +49,31 @@ export function DictionaryWord() {
         subtitle: `Letter ${letter}`,
         link: `/dictionary/${letter}/${word}`
       });
+    }
+  };
+
+  const handleCopyRhymes = async () => {
+    if (!rhymeData) return;
+
+    const rhymeText = [
+      `Rhymes for "${wordName}":`,
+      '',
+      rhymeData.perfect.length > 0 && `Perfect Rhymes (${rhymeData.perfect.length}):`,
+      rhymeData.perfect.length > 0 && rhymeData.perfect.map(r => `- ${r.word} (${r.syllables} syllables)`).join('\n'),
+      '',
+      rhymeData.near.length > 0 && `Near Rhymes (${rhymeData.near.length}):`,
+      rhymeData.near.length > 0 && rhymeData.near.map(r => `- ${r.word} (${r.syllables} syllables)`).join('\n'),
+      '',
+      rhymeData.assonance.length > 0 && `Assonance (${rhymeData.assonance.length}):`,
+      rhymeData.assonance.length > 0 && rhymeData.assonance.map(r => `- ${r.word} (${r.syllables} syllables)`).join('\n'),
+    ].filter(Boolean).join('\n');
+
+    try {
+      await navigator.clipboard.writeText(rhymeText);
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy rhymes:', err);
     }
   };
 
@@ -85,12 +113,19 @@ export function DictionaryWord() {
             <h1 className="dictionary-word__title">{wordName}</h1>
             <div className="dictionary-word__actions">
               <FavoriteButton word={word} letter={letter} size={28} showLabel />
-              <button 
+              <button
                 className={`word-pin-btn ${pinned ? 'is-pinned' : ''}`}
                 onClick={handlePin}
                 title={pinned ? "Remove from Verse Board" : "Pin to Verse Board"}
               >
                 <Pin size={20} fill={pinned ? "currentColor" : "none"} />
+              </button>
+              <button
+                className="word-compare-btn"
+                onClick={() => navigate('/dictionary/compare')}
+                title="Compare with another word"
+              >
+                <GitCompare size={20} />
               </button>
             </div>
           </div>
@@ -108,12 +143,24 @@ export function DictionaryWord() {
             <Sparkles size={20} />
             Rhyme Analysis
           </h2>
-          <button 
-            className="rhyme-toggle-btn"
-            onClick={() => setShowRhymes(!showRhymes)}
-          >
-            {showRhymes ? 'Hide' : 'Find'} Rhymes
-          </button>
+          <div className="rhyme-card__actions">
+            <button
+              className="rhyme-toggle-btn"
+              onClick={() => setShowRhymes(!showRhymes)}
+            >
+              {showRhymes ? 'Hide' : 'Find'} Rhymes
+            </button>
+            {showRhymes && rhymeData && (
+              <button
+                className="rhyme-copy-btn"
+                onClick={handleCopyRhymes}
+                title="Copy all rhymes to clipboard"
+              >
+                {copySuccess ? <Check size={16} /> : <Copy size={16} />}
+                {copySuccess ? 'Copied!' : 'Copy All'}
+              </button>
+            )}
+          </div>
         </div>
 
         <div className="rhyme-card__info">
@@ -195,6 +242,8 @@ export function DictionaryWord() {
           </div>
         )}
       </Card>
+
+      <ContinueExploring currentWord={wordName} currentLetter={letter.toUpperCase()} />
     </div>
   );
 }

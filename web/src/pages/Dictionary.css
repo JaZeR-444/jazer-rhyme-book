@@ -81,6 +81,114 @@
   box-shadow: 0 4px 12px var(--accent-primary-glow);
 }
 
+/* Quick Filters */
+.dictionary-quick-filters {
+  margin-top: var(--space-xl);
+  padding: var(--space-md);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quick-filters-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quick-filters-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.filter-chip {
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+  white-space: nowrap;
+}
+
+.filter-chip:hover {
+  background: var(--surface-3);
+  border-color: var(--border-default);
+  transform: translateY(-2px);
+}
+
+.filter-chip.active {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.filter-chip.clear {
+  background: var(--surface-2);
+  border-color: var(--accent-danger);
+  color: var(--accent-danger);
+}
+
+.filter-chip.clear:hover {
+  background: var(--accent-danger);
+  color: white;
+}
+
+/* Surprise Me Button */
+.dictionary-surprise-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--gradient-secondary);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-body);
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.2);
+}
+
+.dictionary-surprise-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 255, 255, 0.4);
+}
+
+.dictionary-surprise-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dictionary-surprise-btn.spinning .refresh-icon {
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* ============================================
    FEATURED WORD
    ============================================ */

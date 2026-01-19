@@ -90,6 +90,32 @@
   transform: scale(0.95);
 }
 
+/* Compare Button */
+.word-compare-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-short);
+}
+
+.word-compare-btn:hover {
+  background: var(--surface-2);
+  color: var(--accent-neon);
+  border-color: var(--accent-neon);
+  transform: translateY(-2px);
+}
+
+.word-compare-btn:active {
+  transform: scale(0.95);
+}
+
 .dictionary-word__content {
   position: relative;
   overflow: hidden;
@@ -131,6 +157,12 @@
   margin: 0;
 }
 
+.rhyme-card__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
 .rhyme-toggle-btn {
   padding: var(--space-sm) var(--space-md);
   background: var(--gradient-primary);
@@ -145,6 +177,30 @@
 .rhyme-toggle-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.rhyme-copy-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-small);
+  cursor: pointer;
+  transition: all var(--duration-short);
+  white-space: nowrap;
+}
+
+.rhyme-copy-btn:hover {
+  background: var(--surface-3);
+  color: var(--accent-secondary);
+  border-color: var(--accent-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.2);
 }
 
 .rhyme-card__info {
@@ -282,7 +338,13 @@
     gap: var(--space-sm);
   }
 
-  .rhyme-toggle-btn {
+  .rhyme-card__actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .rhyme-toggle-btn,
+  .rhyme-copy-btn {
     width: 100%;
     justify-content: center;
   }

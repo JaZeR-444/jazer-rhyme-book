@@ -14,7 +14,9 @@ import {
   Copy,
   BookOpen,
   Sparkles,
-  Zap
+  Zap,
+  Check,
+  FileJson
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useWorkspace } from '../lib/WorkspaceContext';
@@ -23,6 +25,7 @@ import { Badge } from '../components/ui';
 import { WorkspaceGraph } from '../components/WorkspaceGraph';
 import { ConceptRecommender } from '../components/ConceptRecommender';
 import { GhostModule } from '../components/GhostModule';
+import { RhymeSchemeAnalyzer } from '../components/RhymeSchemeAnalyzer';
 import './WritingStudio.css';
 
 export function WritingStudio() {
@@ -54,6 +57,7 @@ export function WritingStudio() {
   const [writingText, setWritingText] = useState(() => {
     return localStorage.getItem('jazer_writing_studio_text') || '';
   });
+  const [copySuccess, setCopySuccess] = useState(false);
   const textareaRef = useRef(null);
 
   // Auto-save writing text
@@ -87,6 +91,42 @@ export function WritingStudio() {
     a.download = `writing-${Date.now()}.txt`;
     a.click();
     URL.revokeObjectURL(url);
+  };
+
+  const handleExportJSON = () => {
+    const exportData = {
+      content: writingText,
+      metadata: {
+        wordCount,
+        lineCount,
+        charCount,
+        timestamp: new Date().toISOString(),
+        references: items.map(item => ({
+          title: item.title,
+          type: item.type,
+          section: item.sectionId,
+          notes: item.notes
+        }))
+      }
+    };
+
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `writing-${Date.now()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleCopyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(writingText);
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
   };
 
   const startEditingNotes = (item) => {
@@ -410,10 +450,28 @@ export function WritingStudio() {
               className="editor__button"
               onClick={handleExportWriting}
               disabled={!writingText.trim()}
-              title="Export Writing"
+              title="Export as TXT"
             >
               <Download size={16} />
-              Export
+              Export TXT
+            </button>
+            <button
+              className="editor__button"
+              onClick={handleExportJSON}
+              disabled={!writingText.trim()}
+              title="Export as JSON"
+            >
+              <FileJson size={16} />
+              Export JSON
+            </button>
+            <button
+              className="editor__button"
+              onClick={handleCopyToClipboard}
+              disabled={!writingText.trim()}
+              title="Copy to Clipboard"
+            >
+              {copySuccess ? <Check size={16} /> : <Copy size={16} />}
+              {copySuccess ? 'Copied!' : 'Copy'}
             </button>
             <button
               className="editor__button"
@@ -442,6 +500,9 @@ export function WritingStudio() {
 Tip: Use the Ghost Module on the right for rhymes and flow checks!"
             spellCheck="true"
           />
+
+          {/* Rhyme Scheme Analysis */}
+          <RhymeSchemeAnalyzer text={writingText} />
         </main>
 
         {/* Right Sidebar - Ghost Module (Desktop: always visible if showGhost is true. Mobile: Toggled via drawer) */}

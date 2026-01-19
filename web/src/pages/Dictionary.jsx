@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { BookOpen, Heart, Sparkles, ArrowRight } from 'lucide-react';
+import { BookOpen, Heart, Filter, Sparkles, RefreshCw } from 'lucide-react';
 import { LoadingState, EmptyState } from '../components/ui';
 import { Autocomplete } from '../components/ui/Autocomplete';
 import { SkeletonGrid } from '../components/ui/SkeletonCard';
 import { RecentlyViewed } from '../components/dictionary/RecentlyViewed';
+import { WordOfDay } from '../components/dictionary/WordOfDay';
+import { ContextualSuggestions } from '../components/dictionary/ContextualSuggestions';
 import { useDictionaryLetters, useSearchIndex } from '../lib/hooks';
 import { useFavorites } from '../lib/FavoritesContext';
+import { getRhymeScheme } from '../lib/rhymeFinder';
 import './Dictionary.css';
 
 export function Dictionary() {
@@ -17,6 +20,8 @@ export function Dictionary() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [semanticResults, setSemanticResults] = useState([]);
+  const [syllableFilter, setSyllableFilter] = useState(null); // null, '1', '2', '3+'
+  const [isSpinning, setIsSpinning] = useState(false);
 
   // Debounced search handler
   useEffect(() => {
@@ -32,15 +37,30 @@ export function Dictionary() {
         setIsSearching(true);
         // Simple client-side re-implementation of the analysis logic
         // Ideally this logic should be shared in a utility
-        const results = analyzeDictionarySearch(searchQuery, searchIndex);
+        const results = analyzeDictionarySearch(searchQuery, searchIndex, syllableFilter);
         setSemanticResults(results);
         setIsSearching(false);
       }
     }, 500);
 
     return () => clearTimeout(timer);
-  }, [searchQuery, searchIndex]);
+  }, [searchQuery, searchIndex, syllableFilter]);
 
+  const handleSurpriseMe = () => {
+    if (!searchIndex || !searchIndex.words || searchIndex.words.length === 0) return;
+
+    setIsSpinning(true);
+
+    setTimeout(() => {
+      const randomIndex = Math.floor(Math.random() * searchIndex.words.length);
+      const randomWord = searchIndex.words[randomIndex];
+
+      if (randomWord && randomWord.letter && randomWord.name) {
+        navigate(`/dictionary/${randomWord.letter}/${randomWord.name}`);
+      }
+      setIsSpinning(false);
+    }, 500);
+  };
 
   if (loading) {
     return <LoadingState message="Loading dictionary..." />;
@@ -83,6 +103,53 @@ export function Dictionary() {
               <span>View {favoritesCount} Favorite Words</span>
             </Link>
           )}
+
+          {/* Quick Filters Bar */}
+          <div className="dictionary-quick-filters">
+            <div className="quick-filters-header">
+              <Filter size={16} />
+              <span>Quick Filters</span>
+            </div>
+            <div className="quick-filters-buttons">
+              <button
+                className={`filter-chip ${syllableFilter === '1' ? 'active' : ''}`}
+                onClick={() => setSyllableFilter(syllableFilter === '1' ? null : '1')}
+              >
+                1 Syllable
+              </button>
+              <button
+                className={`filter-chip ${syllableFilter === '2' ? 'active' : ''}`}
+                onClick={() => setSyllableFilter(syllableFilter === '2' ? null : '2')}
+              >
+                2 Syllables
+              </button>
+              <button
+                className={`filter-chip ${syllableFilter === '3+' ? 'active' : ''}`}
+                onClick={() => setSyllableFilter(syllableFilter === '3+' ? null : '3+')}
+              >
+                3+ Syllables
+              </button>
+              {syllableFilter && (
+                <button
+                  className="filter-chip clear"
+                  onClick={() => setSyllableFilter(null)}
+                >
+                  Clear Filter
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Surprise Me Button */}
+          <button
+            className={`dictionary-surprise-btn ${isSpinning ? 'spinning' : ''}`}
+            onClick={handleSurpriseMe}
+            disabled={isSpinning || !searchIndex}
+          >
+            <Sparkles size={18} />
+            <span>Surprise Me</span>
+            <RefreshCw size={14} className="refresh-icon" />
+          </button>
         </div>
       </div>
 
@@ -126,30 +193,16 @@ export function Dictionary() {
       {/* Default View (Hidden when searching) */}
       {!searchQuery && (
         <>
-          {/* Featured Word Section */}
+          {/* Word of the Day */}
           <section className="dictionary-featured">
-            <div className="featured-card glass-dark">
-              <div className="featured-card__header">
-                <span className="featured-badge">Word of the Day</span>
-                <Sparkles size={20} className="text-accent" />
-              </div>
-              <div className="featured-card__content">
-                <h2 className="featured-word">Syncopation</h2>
-                <div className="featured-pronunciation">/ˌsiNGkəˈpāSH(ə)n/</div>
-                <p className="featured-definition">
-                  A disturbance or interruption of the regular flow of rhythm; a placement of rhythmic stresses or accents where they wouldn't normally occur.
-                </p>
-              </div>
-              <div className="featured-card__footer">
-                <Link to="/dictionary/S" className="featured-link">
-                  Read Entry <ArrowRight size={16} />
-                </Link>
-              </div>
-            </div>
+            <WordOfDay />
           </section>
 
           {/* Recently Viewed */}
           <RecentlyViewed limit={10} />
+
+          {/* Contextual Suggestions */}
+          <ContextualSuggestions limit={6} />
 
           <section className="dictionary-grid-section">
             <h3 className="section-title">Browse by Letter</h3>
@@ -176,7 +229,7 @@ export function Dictionary() {
 }
 
 // Reusing logic from ConceptRecommender but tuned for search
-function analyzeDictionarySearch(text, index) {
+function analyzeDictionarySearch(text, index, syllableFilter = null) {
   try {
     if (!text || !index) return [];
 
@@ -237,6 +290,15 @@ function analyzeDictionarySearch(text, index) {
         }
     
         if (score > 0) {
+            // Apply syllable filter if active
+            if (syllableFilter) {
+                const wordSyllables = word.syllables || getRhymeScheme(word.name).syllables;
+
+                if (syllableFilter === '1' && wordSyllables !== 1) return;
+                if (syllableFilter === '2' && wordSyllables !== 2) return;
+                if (syllableFilter === '3+' && wordSyllables < 3) return;
+            }
+
             results.push({
                 name: word.name,
                 link: `/dictionary/${word.letter}/${word.name}`,

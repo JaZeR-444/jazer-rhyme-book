@@ -9,4 +9,5 @@ export { Breadcrumbs } from './Breadcrumbs';
 export { FavoriteButton } from './FavoriteButton';
 export { GenerativeArt } from './GenerativeArt';
 export { CopyButton } from './CopyButton';
+export { CompareSelect } from './CompareSelect';
 

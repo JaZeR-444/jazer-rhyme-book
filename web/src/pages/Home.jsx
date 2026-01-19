@@ -1,17 +1,22 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, Zap, Globe } from 'lucide-react';
 import { Button, Card } from '../components/ui';
 import { Logo } from '../components/common/Logo';
 import { RandomDiscovery } from '../components/RandomDiscovery';
-import { useDomains, useDictionaryLetters } from '../lib/hooks';
+import { FeaturedContent } from '../components/home/FeaturedContent';
+import { Autocomplete } from '../components/ui/Autocomplete';
+import { useDomains, useDictionaryLetters, useSearchIndex } from '../lib/hooks';
+import { useState, useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap, ScrollTrigger } from '../lib/gsap';
-import { useRef } from 'react';
 import './Home.css';
 
 export function Home() {
+  const navigate = useNavigate();
   const { domains } = useDomains();
   const { letters } = useDictionaryLetters();
+  const { searchIndex } = useSearchIndex();
+  const [searchQuery, setSearchQuery] = useState('');
   const heroRef = useRef();
   const featuresRef = useRef();
 
@@ -64,6 +69,18 @@ export function Home() {
           <p className="hero__subtitle">
             The Ultimate AI-Powered Creative Arsenal for Lyricists, Writers, and Knowledge Seekers
           </p>
+
+          {/* Quick Search Bar */}
+          <div className="hero__search">
+            <Autocomplete
+              value={searchQuery}
+              onChange={setSearchQuery}
+              onSelect={(result) => navigate(result.link)}
+              searchIndex={searchIndex?.words || []}
+              placeholder="Search dictionary, domains, or entities..."
+            />
+          </div>
+
           <div className="hero__actions">
             <Link to="/domains">
               <Button size="lg" variant="primary" icon={<Database size={20} />}>
@@ -93,6 +110,9 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      {/* Featured Content Section */}
+      <FeaturedContent />
 
       {/* Features Section */}
       <section className="features" ref={featuresRef}>

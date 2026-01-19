@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="3; url=./web/index.html" />
+    <title>JaZeR Rhyme Book | Launching...</title>
+    <style>
+      body {
+        background-color: #030712;
+        color: #f9fafb;
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      .container {
+        max-width: 600px;
+        padding: 2rem;
+        background: rgba(17, 24, 39, 0.7);
+        backdrop-filter: blur(12px);
+        border-radius: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 2rem;
+        filter: drop-shadow(0 0 20px rgba(56, 189, 248, 0.3));
+        animation: pulse 2s infinite ease-in-out;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      p {
+        color: #9ca3af;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+      }
+
+      .loader {
+        width: 48px;
+        height: 48px;
+        border: 3px solid rgba(56, 189, 248, 0.1);
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+      }
+
+      .loader::after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #38bdf8;
+        width: 12px;
+        height: 12px;
+        transform: translate(-50%, 50%);
+        border-radius: 50%;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: linear-gradient(135deg, #38bdf8 0%, #1d4ed8 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 12px;
+        font-weight: 600;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+        margin-top: 1rem;
+      }
+
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.4);
+      }
+
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.05);
+          opacity: 0.8;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="JaZeR Master Hub Icon (100 x 100 px).svg"
+        alt="JaZeR Logo"
+        class="logo"
+      />
+      <h1>JaZeR Master Flow</h1>
+      <p>Initializing entry point... Redirecting you to the creative hub.</p>
+      <div class="loader"></div>
+      <div style="margin-top: 2rem">
+        <a href="./web/index.html" class="btn">Launch Hub Now</a>
+      </div>
+      <p style="font-size: 0.8rem; margin-top: 2rem">
+        Tip: Run <code>npm run dev</code> in the project root to start the full
+        development environment.
+      </p>
+    </div>
+  </body>
+</html>

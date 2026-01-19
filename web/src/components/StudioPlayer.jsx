@@ -1,81 +1,128 @@
 import { useState, useRef, useEffect } from 'react';
-import { Play, Pause, Volume2, VolumeX, Activity } from 'lucide-react';
+import { Play, Pause, Volume2, VolumeX, Activity, Music, SkipForward } from 'lucide-react';
+import WaveSurfer from 'wavesurfer.js';
 import './StudioPlayer.css';
+
+// Beat Library
+const BEAT_LIBRARY = [
+  {
+    id: 'beat-1',
+    name: 'Lo-Fi Flow',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+    bpm: 90,
+    genre: 'Lo-Fi'
+  },
+  {
+    id: 'beat-2',
+    name: 'Boom Bap Classic',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+    bpm: 95,
+    genre: 'Boom Bap'
+  },
+  {
+    id: 'beat-3',
+    name: 'Trap Energy',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+    bpm: 140,
+    genre: 'Trap'
+  },
+  {
+    id: 'beat-4',
+    name: 'Chill Vibes',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+    bpm: 85,
+    genre: 'Chill'
+  }
+];
 
 export function StudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
   const [isMuted, setIsMuted] = useState(false);
-  const [visualizerData, setVisualizerData] = useState(new Array(20).fill(10));
-  const audioRef = useRef(null);
-  const audioContextRef = useRef(null);
-  const analyserRef = useRef(null);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+  const [showTrackMenu, setShowTrackMenu] = useState(false);
+  const waveformRef = useRef(null);
+  const wavesurferRef = useRef(null);
+
+  const currentTrack = BEAT_LIBRARY[currentTrackIndex];
   
-  // Initialize audio on mount
+  // Initialize WaveSurfer on mount
   useEffect(() => {
-    audioRef.current = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
-    audioRef.current.loop = true;
-    audioRef.current.volume = volume;
-    
-    // Setup Web Audio API for visualization
-    if (!audioContextRef.current) {
-      audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
-      analyserRef.current = audioContextRef.current.createAnalyser();
-      analyserRef.current.fftSize = 64;
-      
-      const source = audioContextRef.current.createMediaElementSource(audioRef.current);
-      source.connect(analyserRef.current);
-      analyserRef.current.connect(audioContextRef.current.destination);
-    }
-    
+    if (!waveformRef.current) return;
+
+    const wavesurfer = WaveSurfer.create({
+      container: waveformRef.current,
+      waveColor: '#8B5CF6',
+      progressColor: '#00FFFF',
+      cursorColor: '#FF0080',
+      barWidth: 2,
+      barGap: 1,
+      barRadius: 2,
+      height: 40,
+      normalize: true,
+      backend: 'WebAudio',
+    });
+
+    wavesurfer.load(currentTrack.url);
+
+    wavesurfer.on('ready', () => {
+      setDuration(wavesurfer.getDuration());
+      wavesurfer.setVolume(volume);
+    });
+
+    wavesurfer.on('audioprocess', () => {
+      setCurrentTime(wavesurfer.getCurrentTime());
+    });
+
+    wavesurfer.on('finish', () => {
+      setIsPlaying(false);
+      // Auto-advance to next track
+      handleNextTrack();
+    });
+
+    wavesurferRef.current = wavesurfer;
+
     return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
+      wavesurfer.destroy();
     };
-  }, []);
-  
-  // Real visualizer using audio analysis
-  useEffect(() => {
-    let animationId;
-    if (isPlaying && analyserRef.current) {
-      const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
-      
-      const updateVisualizer = () => {
-        analyserRef.current.getByteFrequencyData(dataArray);
-        const normalized = Array.from(dataArray.slice(0, 20)).map(val => Math.max(10, (val / 255) * 100));
-        setVisualizerData(normalized);
-        animationId = requestAnimationFrame(updateVisualizer);
-      };
-      
-      updateVisualizer();
-    } else {
-      setVisualizerData(new Array(20).fill(10));
-    }
-    return () => cancelAnimationFrame(animationId);
-  }, [isPlaying]);
+  }, [currentTrackIndex]);
   
   // Handle volume changes
   useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.volume = isMuted ? 0 : volume;
+    if (wavesurferRef.current) {
+      wavesurferRef.current.setVolume(isMuted ? 0 : volume);
     }
   }, [volume, isMuted]);
 
   const togglePlay = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioContextRef.current?.resume();
-        audioRef.current.play().catch(err => console.error('Playback failed:', err));
-      }
+    if (wavesurferRef.current) {
+      wavesurferRef.current.playPause();
       setIsPlaying(!isPlaying);
     }
   };
-  
+
   const toggleMute = () => setIsMuted(!isMuted);
+
+  const handleTrackSelect = (index) => {
+    setCurrentTrackIndex(index);
+    setShowTrackMenu(false);
+    setIsPlaying(false);
+  };
+
+  const handleNextTrack = () => {
+    const nextIndex = (currentTrackIndex + 1) % BEAT_LIBRARY.length;
+    setCurrentTrackIndex(nextIndex);
+    setIsPlaying(false);
+  };
+
+  const formatTime = (seconds) => {
+    if (!seconds || isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
 
   return (
     <div className="studio-player glass-dark">
@@ -85,34 +132,63 @@ export function StudioPlayer() {
         </button>
         
         <div className="studio-player__info">
-          <span className="studio-player__label">STUDIO MODE</span>
-          <span className="studio-player__track">Ambience: Lo-Fi Flow</span>
+          <div className="studio-player__meta">
+            <button
+              className="studio-player__track-selector"
+              onClick={() => setShowTrackMenu(!showTrackMenu)}
+              title="Select Track"
+            >
+              <Music size={12} />
+              <span>{currentTrack.name}</span>
+            </button>
+
+            {showTrackMenu && (
+              <div className="track-menu">
+                {BEAT_LIBRARY.map((track, index) => (
+                  <button
+                    key={track.id}
+                    className={`track-menu__item ${index === currentTrackIndex ? 'active' : ''}`}
+                    onClick={() => handleTrackSelect(index)}
+                  >
+                    <span className="track-name">{track.name}</span>
+                    <span className="track-info">{track.bpm} BPM • {track.genre}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+          <div className="studio-player__stats">
+            <span className="studio-player__bpm">{currentTrack.bpm} BPM</span>
+            <span className="studio-player__time">
+              {formatTime(currentTime)} / {formatTime(duration)}
+            </span>
+          </div>
         </div>
 
-        <div className="studio-player__visualizer">
-          {visualizerData.map((height, i) => (
-            <div 
-              key={i} 
-              className="visualizer-bar"
-              style={{ height: `${height}%` }}
-            />
-          ))}
-        </div>
+        <div className="studio-player__waveform" ref={waveformRef}></div>
 
         <div className="studio-player__volume">
           <button className="studio-player__btn" onClick={toggleMute}>
             {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
           </button>
-          <input 
-            type="range" 
-            min="0" 
-            max="1" 
-            step="0.01" 
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
             value={volume}
             onChange={(e) => setVolume(parseFloat(e.target.value))}
             className="volume-slider"
           />
         </div>
+
+        <button
+          className="studio-player__btn"
+          onClick={handleNextTrack}
+          title="Next Track"
+        >
+          <SkipForward size={16} />
+        </button>
       </div>
       
       <div className="studio-player__status-line"></div>

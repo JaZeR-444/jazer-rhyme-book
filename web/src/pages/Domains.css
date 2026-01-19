@@ -54,7 +54,65 @@
    ============================================ */
 .domains-page__search {
   max-width: 600px;
+  margin: 0 auto var(--space-lg);
+}
+
+/* ============================================
+   CATEGORY FILTERS
+   ============================================ */
+.domains-category-filters {
+  max-width: 900px;
   margin: 0 auto;
+  padding: var(--space-md);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+}
+
+.category-filters-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.category-filters-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+}
+
+.category-chip {
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+  white-space: nowrap;
+}
+
+.category-chip:hover {
+  background: var(--surface-3);
+  border-color: var(--border-default);
+  transform: translateY(-2px);
+}
+
+.category-chip.active {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
 }
 
 /* ============================================

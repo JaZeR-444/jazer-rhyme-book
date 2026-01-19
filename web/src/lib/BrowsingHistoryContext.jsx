@@ -7,10 +7,13 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 const BrowsingHistoryContext = createContext(null);
 
 const STORAGE_KEY = 'jazer-dictionary-history';
+const PAGE_HISTORY_KEY = 'jazer-page-history';
 const MAX_HISTORY_ITEMS = 20;
+const MAX_PAGE_HISTORY_ITEMS = 15;
 
 export function BrowsingHistoryProvider({ children }) {
   const [history, setHistory] = useState([]);
+  const [pageHistory, setPageHistory] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
 
   // Load history from localStorage on mount
@@ -19,6 +22,10 @@ export function BrowsingHistoryProvider({ children }) {
       const stored = localStorage.getItem(STORAGE_KEY);
       if (stored) {
         setHistory(JSON.parse(stored));
+      }
+      const pageStored = localStorage.getItem(PAGE_HISTORY_KEY);
+      if (pageStored) {
+        setPageHistory(JSON.parse(pageStored));
       }
     } catch (e) {
       console.error('Error loading browsing history:', e);
@@ -36,6 +43,17 @@ export function BrowsingHistoryProvider({ children }) {
       }
     }
   }, [history, isLoaded]);
+
+  // Save page history to localStorage
+  useEffect(() => {
+    if (isLoaded) {
+      try {
+        localStorage.setItem(PAGE_HISTORY_KEY, JSON.stringify(pageHistory));
+      } catch (e) {
+        console.error('Error saving page history:', e);
+      }
+    }
+  }, [pageHistory, isLoaded]);
 
   const addToHistory = useCallback((word, letter) => {
     setHistory(prev => {
@@ -69,6 +87,27 @@ export function BrowsingHistoryProvider({ children }) {
     return history.filter(h => h.letter === letter);
   }, [history]);
 
+  const addToPageHistory = useCallback((path, label, icon = null) => {
+    setPageHistory(prev => {
+      const filtered = prev.filter(h => h.path !== path);
+      const newEntry = {
+        path,
+        label,
+        icon,
+        viewedAt: Date.now()
+      };
+      return [newEntry, ...filtered].slice(0, MAX_PAGE_HISTORY_ITEMS);
+    });
+  }, []);
+
+  const getRecentPages = useCallback((limit = 10) => {
+    return pageHistory.slice(0, limit);
+  }, [pageHistory]);
+
+  const clearPageHistory = useCallback(() => {
+    setPageHistory([]);
+  }, []);
+
   const value = {
     history,
     addToHistory,
@@ -76,7 +115,12 @@ export function BrowsingHistoryProvider({ children }) {
     clearHistory,
     getHistoryForLetter,
     historyCount: history.length,
-    isLoaded
+    isLoaded,
+    pageHistory,
+    addToPageHistory,
+    getRecentPages,
+    clearPageHistory,
+    pageHistoryCount: pageHistory.length
   };
 
   return (

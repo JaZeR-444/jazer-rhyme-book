@@ -11,7 +11,7 @@
 
 <br/>
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge)](package.json)
+[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg?style=for-the-badge)](package.json)
 [![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg?style=for-the-badge&logo=node.js)](package.json)
 [![License](https://img.shields.io/badge/license-Personal-orange.svg?style=for-the-badge)]()
 [![Status](https://img.shields.io/badge/status-Live-success.svg?style=for-the-badge)]()
@@ -33,17 +33,21 @@
 
 ### 🎯 **At a Glance**
 
-| 🎤 **25+ Domains** | 📖 **A-Z Dictionary** | 🤖 **AI-Ready** | ⚡ **Validated** | 🔗 **Interconnected** |
+| 🎤 **24 Domains** | 📖 **1,678 Words** | 🤖 **AI-Ready** | ⚡ **Validated** | 🔗 **Interconnected** |
 |:------------------:|:---------------------:|:---------------:|:---------------:|:---------------------:|
-| Music • Tech • Culture | Thousands of Words | Claude • Gemini • Qwen | JSON Schema | Smart Relations |
+| Music • Tech • Culture | A-Z Dictionary | Claude • Gemini • Qwen | JSON Schema | Smart Relations |
 
 <br/>
 
-### ✨ **NEW in Version 2.0**
+### ✨ **NEW in Version 2.0-2.1**
 
 | 🎵 **Music Player** | 🔗 **Smart Links** | 🔍 **Advanced Search** | 🎤 **Rhyme Finder** | ✨ **Discovery** |
 |:------------------:|:------------------:|:---------------------:|:-------------------:|:----------------:|
 | Real audio playback | Cross-domain navigation | Multi-filter system | Phonetic matching | Random exploration |
+
+| ⚡ **Virtual Scrolling** | 🎯 **Smart Suggestions** | 📊 **Word Compare** | 📱 **Mobile Nav** | 🛠️ **CLI Tools** |
+|:-----------------------:|:------------------------:|:-------------------:|:-----------------:|:---------------:|
+| 1000+ word performance | AI-powered recommendations | Side-by-side comparison | Bottom navigation | Developer commands |
 
 </div>
 
@@ -241,6 +245,32 @@ Zero-tolerance data integrity:
 </td>
 </tr>
 </table>
+
+### 🚀 **Latest Updates (v2.1 Features)**
+
+| ⚡ **Virtual Scrolling** | 🎯 **Smart Filtering** | 🔍 **Autocomplete Search** |
+|:-----------------------:|:----------------------:|:--------------------------:|
+| 1000+ words render instantly | RangeSlider, MultiSelect | Keyboard nav, history |
+
+| 📜 **Browsing History** | 🎤 **Word Comparison** | ✨ **Continue Exploring** |
+|:-----------------------:|:----------------------:|:-------------------------:|
+| RecentlyViewed, breadcrumbs | Side-by-side comparison | Tag/rhyme/letter suggestions |
+
+| 📅 **Word of the Day** | 💡 **Contextual Suggestions** | 📱 **Mobile Nav** |
+|:----------------------:|:----------------------------:|:-----------------:|
+| Date-based + random | Based on your browsing history | Bottom navigation bar |
+
+| 🛠️ **Developer CLI** | 📊 **New Components** | 🎨 **UI Enhancements** |
+|:--------------------:|:---------------------:|:----------------------:|
+| `jazer`, `dict` commands | 28+ new components | Glassmorphism, GSAP |
+
+| 🔗 **Related Entities** | 🎵 **Enhanced Music Player** | 🏗️ **Unified Build System** |
+|:-----------------------:|:----------------------------:|:---------------------------:|
+| Cross-domain entity links | Web Audio API visualization | prepare-hub.js script |
+
+| 📚 **Dictionary Manager** | 🔧 **Archive Scripts** | 🚀 **Improved Deployment** |
+|:-------------------------:|:----------------------:|:--------------------------:|
+| CLI for dictionary operations | Legacy script cleanup | GitHub Pages workflow |
 
 <br>
 
@@ -481,10 +511,11 @@ The hub organizes knowledge into 25 specialized domains, each containing rich en
 </table>
 
 ### 📊 **Domain Statistics**
-- **Total Domains**: 25 specialized knowledge areas
-- **Entities per Domain**: Varies (10-500+)
+- **Total Domains**: 24 specialized knowledge areas
+- **Entities per Domain**: Varies (30-100+)
 - **Cross-Domain Links**: Thousands of relationships
 - **Tags**: 100+ controlled vocabulary terms
+- **Dictionary Words**: 1,678 words across 26 letters
 - **Growing**: New entities added regularly
 
 </details>
@@ -525,24 +556,57 @@ jazer-rhyme-book/
 │   │   ├── components/                         # React components
 │   │   │   ├── StudioPlayer.jsx               # Music player
 │   │   │   ├── RandomDiscovery.jsx            # Surprise Me button
+│   │   │   ├── dictionary/                    # Dictionary components
+│   │   │   │   ├── WordCard.jsx               # Word display card
+│   │   │   │   ├── FilterPanel.jsx            # Filter sidebar
+│   │   │   │   ├── QuickActions.jsx           # Copy, favorite, share
+│   │   │   │   ├── RhymePreviewPopover.jsx    # Rhyme preview modal
+│   │   │   │   ├── RecentlyViewed.jsx         # Browsing history
+│   │   │   │   ├── ContinueExploring.jsx      # Smart suggestions
+│   │   │   │   ├── ContextualSuggestions.jsx  # AI recommendations
+│   │   │   │   ├── RelatedEntities.jsx        # Domain cross-links
+│   │   │   │   └── WordOfDay.jsx              # Daily word feature
+│   │   │   ├── ui/                            # Reusable UI components
+│   │   │   │   ├── VirtualWordGrid.jsx        # Virtual scrolling grid
+│   │   │   │   ├── Autocomplete.jsx           # Search autocomplete
+│   │   │   │   ├── RangeSlider.jsx            # Dual-handle slider
+│   │   │   │   ├── MultiSelect.jsx            # Multi-select dropdown
+│   │   │   │   ├── CompareSelect.jsx          # Word comparison selector
+│   │   │   │   └── Breadcrumbs.jsx            # Navigation with history
+│   │   │   ├── BottomNav.jsx                  # Mobile bottom navigation
 │   │   │   └── [more components...]
 │   │   ├── pages/                              # Page components
 │   │   │   ├── EntityDetail.jsx               # Entity view + relations
 │   │   │   ├── Search.jsx                     # Advanced search
-│   │   │   └── DictionaryWord.jsx             # Word + rhyme finder
+│   │   │   ├── DictionaryWord.jsx             # Word + rhyme finder
+│   │   │   └── WordCompare.jsx                # Side-by-side comparison
 │   │   └── lib/                                # Utilities
 │   │       ├── rhymeFinder.js                 # Phonetic algorithms
+│   │       ├── BrowsingHistoryContext.jsx     # History state management
+│   │       ├── FilterContext.jsx              # Filter state management
 │   │       └── data/knowledgeHub.js           # Cross-domain data
 │   ├── public/
 │   │   ├── logo.svg                            # JaZeR logo
 │   │   ├── icon.svg                            # Hub icon
 │   │   └── data/                               # Static data copies
+│   │       └── README.md                       # Auto-generated warning
 │   └── package.json
 │
 ├── ⚙️ scripts/                                 # Build & validation tools
 │   ├── validate.js                             # JSON Schema validator
 │   ├── build-indexes.js                        # Index generator
-│   └── prepare-web-data.js                     # Web build preparation
+│   ├── prepare-web-data.js                     # Web build preparation
+│   └── dictionary-manager.js                   # Dictionary CLI tool
+│
+├── 🔧 src/99_SCRIPTS/                          # Core build scripts
+│   ├── prepare-hub.js                          # Unified build script (NEW)
+│   ├── archive-scripts.js                      # Archive legacy scripts (NEW)
+│   ├── sync-data.js                            # Data synchronization
+│   └── build-graph-data.js                     # Graph data builder
+│
+├── 🤖 src/cli/                                 # CLI tools
+│   └── jazer-cli.js                            # Main CLI (NEW)
+│
 │
 ├── 📋 schemas/                                 # JSON Schema definitions
 │   ├── entity.schema.json
@@ -647,11 +711,27 @@ npm run build
 ### Common Commands
 
 ```bash
+# Build & Validate
 npm run validate                    # Validate all entity files
 npm run build                       # Rebuild all indexes
-python auto_expand_dictionary.py    # Expand dictionary
+npm run build-all                   # Unified build (sync + indexes + manifests)
+npm run prepare                     # Same as build-all
+
+# Development
 cd web && npm run dev               # Start local dev server
 cd web && npm run build             # Build for production
+
+# CLI Tools
+npm run status                      # Show project status
+npm run jazer -- add-entity <domain>  # Interactive entity builder
+npm run jazer -- add-word <letter>    # Interactive word builder
+npm run jazer -- validate            # Validate all data
+
+# Dictionary Management
+npm run dict -- list A               # List words in letter A
+npm run dict -- count                # Word count per letter
+npm run dict -- cleanup --all        # Cleanup all letters
+npm run dict -- stats                # Show dictionary statistics
 ```
 
 <br>
@@ -669,6 +749,14 @@ Visit **[jazer-444.github.io/jazer-rhyme-book](https://jazer-444.github.io/jazer
 3. **🔗 Entity Navigation**: Click any entity → See related entities cards → Click to navigate
 4. **🎤 Rhyme Finder**: Dictionary → Pick word → Click "Find Rhymes" → Explore perfect/near rhymes
 5. **✨ Random Discovery**: Homepage → Click "Surprise Me" → Explore random entities
+6. **📜 Browse History**: Click clock icon in breadcrumbs → View recently visited pages
+7. **⚖️ Compare Words**: Dictionary → Word page → Click "Compare" → Select second word
+8. **📅 Word of Day**: Dictionary landing → See featured word → Click refresh for random
+9. **💡 Smart Suggestions**: Dictionary landing → "Suggested for You" based on your history
+10. **🔗 Related Entities**: Dictionary words → See related knowledge base entities at bottom
+11. **✨ Continue Exploring**: Dictionary words → Smart recommendations for similar words
+12. **📱 Mobile Navigation**: Bottom navigation bar for mobile users
+13. **🗃️ Word Bank**: Like/favorite words to save in your personal bank (coming soon)
 
 ### 📝 Adding New Entities
 
@@ -762,6 +850,56 @@ See dedicated AI configuration files:
 - **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)**: Full technical implementation details of v2.0 features
 - **[QUICK_START_GUIDE.md](QUICK_START_GUIDE.md)**: User-facing guide for all new features
 - **[SITE_ENHANCEMENT_RECOMMENDATIONS.md](SITE_ENHANCEMENT_RECOMMENDATIONS.md)**: Future feature roadmap
+- **[Clean_Directory_To-Do_List.md](Clean_Directory_To-Do_List.md)**: Development progress tracker
+
+### 🛠️ CLI Tools
+
+The project now includes powerful CLI tools for developers:
+
+#### JaZeR CLI (Interactive)
+```bash
+npm run jazer -- add-entity music     # Add new entity interactively
+npm run jazer -- add-word A           # Add new word interactively
+npm run jazer -- validate             # Validate all data
+npm run jazer -- status               # Show project statistics
+```
+
+#### Dictionary Manager
+```bash
+npm run dict -- list A                # List words in letter A
+npm run dict -- count                 # Word count per letter (1678 words across 26 letters)
+npm run dict -- cleanup --all         # Cleanup all letters
+npm run dict -- validate              # Validate dictionary structure
+npm run dict -- stats                 # Show statistics
+npm run dict -- export                # Export word list to JSON
+```
+
+#### Unified Build System
+```bash
+npm run build-all                     # Complete build: sync + validate + indexes + manifests
+npm run prepare                       # Same as build-all (unified entry point)
+npm run validate                      # Validate JSON schemas and data integrity
+npm run build                         # Build indexes and relations
+```
+
+#### Additional Commands
+```bash
+npm run status                        # Show project status overview
+```
+
+The unified build system (`prepare-hub.js`) provides a complete build process that:
+- Syncs 24 knowledge base domains (1571 entities) to web/public
+- Builds domain indexes (alias maps, tag indexes, era indexes)
+- Generates dictionary manifests and metadata (1678 words across 26 letters)
+- Creates entity manifests for each domain
+- Produces build statistics and timing information
+
+The new `prepare-hub.js` script provides a unified build process that:
+- Syncs knowledge base data to web/public
+- Builds domain indexes (alias maps, tag indexes, era indexes)
+- Generates dictionary manifests and metadata
+- Creates entity manifests for each domain
+- Produces build statistics and timing information
 
 <br>
 
@@ -785,7 +923,7 @@ We welcome contributions that improve the knowledge base! Here's how to contribu
 |------|--------|
 | ❌ **Never edit** `data/*/indexes/*` or `data/_indexes/*` | These are auto-generated; edit source entities instead |
 | ✅ **Always run** `npm run validate` before committing | Catches schema violations early |
-| ✅ **Always run** `npm run build` after changes | Keeps indexes in sync |
+| ✅ **Always run** `npm run build-all` after changes | Keeps everything in sync (validate + sync + indexes + manifests) |
 | ✅ **Include sources** for factual claims | Ensures credibility and traceability |
 | ✅ **Use existing tags** from `_meta/tags.json` | Maintains controlled vocabulary |
 | ✅ **Match ID to filename** (`drake.json` → `"id": "drake"`) | Required for index generation |
@@ -801,14 +939,18 @@ git clone https://github.com/YOUR-USERNAME/jazer-rhyme-book.git
 git checkout -b feat/add-mf-doom-entity
 
 # 4. Make changes (add entities, etc.)
-cd data/music/entities/
+# Option A: Use CLI interactive mode
+npm run jazer -- add-entity music
+
+# Option B: Manual
+cd knowledge_base/data/music/entities/
 # Create your entity JSON file
 
 # 5. Validate
 npm run validate
 
 # 6. Build indexes
-npm run build
+npm run build-all
 
 # 7. Commit with conventional commit message
 git add .
@@ -846,7 +988,7 @@ chore(indexes): rebuild after bulk entity import
 - [ ] **ID Consistency**: IDs match filenames (lowercase-hyphenated)
 - [ ] **Tag Validity**: All tags exist in `_meta/tags.json`
 - [ ] **Validation Passes**: `npm run validate` shows no errors
-- [ ] **Indexes Built**: `npm run build` completed successfully
+- [ ] **Build Completes**: `npm run build-all` completed successfully
 - [ ] **Sources Cited**: URLs or titles provided for factual data
 - [ ] **Description Clear**: PR explains what/why of changes
 
@@ -877,13 +1019,15 @@ chore(indexes): rebuild after bulk entity import
 
 | Metric | Count | Notes |
 |--------|-------|-------|
-| **Domains** | 25 | Fully structured |
-| **Entities** | 1000+ | Growing |
-| **Dictionary Words** | 5000+ | A-Z coverage |
+| **Domains** | 24 | Fully structured |
+| **Entities** | 1571 | Growing |
+| **Dictionary Words** | 1678 | A-Z coverage (26 letters) |
 | **Validation Rules** | 50+ | JSON Schema based |
 | **Relation Types** | 15+ | Defined in `_meta/` |
 | **Tags** | 100+ | Controlled vocabulary |
 | **Build Size** | ~3.1 MB | Optimized bundle |
+| **Components** | 32+ | New in v2.1 |
+| **Context Providers** | 3 | BrowsingHistory, Filter, Favorites |
 
 <br>
 
@@ -946,9 +1090,10 @@ https://jazer-444.github.io/jazer-rhyme-book/
 📦 **[https://github.com/JaZeR-444/jazer-rhyme-book](https://github.com/JaZeR-444/jazer-rhyme-book)**
 
 ### Project Information
-- **Version**: 2.0.0 (Major Update)
+- **Version**: 2.1.0 (Major Update)
 - **Status**: Active Development + Live Deployment
-- **Last Updated**: January 10, 2026
+- **Last Updated**: January 19, 2026
+- **New Components**: 32+ (Added WordOfDay, ContextualSuggestions, ContinueExploring, RelatedEntities, WordCompare, BottomNav)
 
 ### For AI Agents
 Interaction protocols documented in:
@@ -980,7 +1125,7 @@ Interaction protocols documented in:
 
 ---
 
-**JaZeR Master Flow Knowledge Hub** • 2026 • Version 2.0.0
+**JaZeR Master Flow Knowledge Hub** • 2026 • Version 2.1.0
 
 [![Live Site](https://img.shields.io/badge/🌐_LIVE_SITE-Visit_Now-success.svg?style=for-the-badge)](https://jazer-444.github.io/jazer-rhyme-book/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg?style=for-the-badge&logo=github)](https://github.com/JaZeR-444/jazer-rhyme-book)

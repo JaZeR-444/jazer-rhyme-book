@@ -1,0 +1,176 @@
+/* Word of the Day */
+.word-of-day {
+  position: relative;
+  overflow: hidden;
+}
+
+.word-of-day::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-neon), var(--accent-primary), var(--accent-secondary));
+}
+
+.word-of-day--animating {
+  opacity: 0.7;
+}
+
+.word-of-day--loading .word-of-day__content {
+  justify-content: center;
+}
+
+.word-of-day__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--glass-light);
+  border-radius: var(--radius-full);
+  font-size: var(--text-tiny);
+  font-weight: var(--weight-medium);
+  color: var(--accent-neon);
+  margin-bottom: var(--space-md);
+}
+
+.word-of-day__content {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+.word-of-day__letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--accent-neon), var(--accent-primary));
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  color: var(--bg-primary);
+  flex-shrink: 0;
+}
+
+.word-of-day__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.word-of-day__name {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--text-primary);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.word-of-day__definition {
+  font-size: var(--text-small);
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.word-of-day__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--glass-border);
+}
+
+.word-of-day__read-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-light);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+  transition: all var(--duration-micro) var(--ease-out);
+}
+
+.word-of-day__read-btn:hover {
+  background: var(--glass-medium);
+  border-color: var(--accent-neon);
+  color: var(--accent-neon);
+}
+
+.word-of-day__random-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--glass-light);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--duration-micro) var(--ease-out);
+}
+
+.word-of-day__random-btn:hover {
+  background: var(--glass-medium);
+  color: var(--accent-neon);
+  border-color: var(--accent-neon);
+}
+
+/* Random Discovery Button */
+.random-discovery-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--glass-light);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-micro) var(--ease-out);
+}
+
+.random-discovery-btn:hover {
+  background: var(--glass-medium);
+  border-color: var(--accent-neon);
+  color: var(--accent-neon);
+}
+
+.random-discovery-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Animations */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .word-of-day__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .word-of-day__actions {
+    justify-content: center;
+  }
+}
