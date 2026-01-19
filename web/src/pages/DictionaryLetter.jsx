@@ -1,8 +1,16 @@
-import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Search, Heart, ArrowUpDown, Filter, Grid3x3, List, Layers } from 'lucide-react';
-import { Breadcrumbs, SearchBar, LoadingState, EmptyState, FavoriteButton, Badge } from '../components/ui';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { ArrowLeft, Search, Heart, ArrowUpDown, Filter, Grid3x3, List, Layers, SlidersHorizontal } from 'lucide-react';
+import { Breadcrumbs, LoadingState, EmptyState, FavoriteButton, Badge } from '../components/ui';
+import { Autocomplete } from '../components/ui/Autocomplete';
+import { VirtualWordGrid } from '../components/ui/VirtualWordGrid';
+import { SkeletonGrid } from '../components/ui/SkeletonCard';
+import { FilterPanel } from '../components/dictionary/FilterPanel';
+import { WordCard } from '../components/dictionary/WordCard';
+import { QuickActions } from '../components/dictionary/QuickActions';
+import { RhymePreviewPopover } from '../components/dictionary/RhymePreviewPopover';
 import { useDictionaryWords } from '../lib/hooks';
 import { useFavorites } from '../lib/FavoritesContext';
+import { useFilters } from '../lib/FilterContext';
 import { useState, useMemo } from 'react';
 import './DictionaryLetter.css';
 
@@ -22,13 +30,17 @@ const VIEW_MODES = [
 
 export function DictionaryLetter() {
   const { letter } = useParams();
+  const navigate = useNavigate();
   const { words, loading, error } = useDictionaryWords(letter);
   const { getFavoritesForLetter, isFavorite } = useFavorites();
+  const { filters } = useFilters();
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('az');
   const [syllableFilter, setSyllableFilter] = useState('all');
   const [tagFilter, setTagFilter] = useState('all');
   const [viewMode, setViewMode] = useState('grouped');
+  const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
+  const [rhymePreviewWord, setRhymePreviewWord] = useState(null);
 
   const letterFavorites = getFavoritesForLetter(letter);
 
@@ -49,12 +61,46 @@ export function DictionaryLetter() {
     return Array.from(tagsSet).sort();
   }, [words]);
 
+  // Extract unique parts of speech
+  const availablePartsOfSpeech = useMemo(() => {
+    const posSet = new Set();
+    words.forEach(word => {
+      if (word.partOfSpeech && word.partOfSpeech !== 'unknown') {
+        posSet.add(word.partOfSpeech);
+      }
+    });
+    return Array.from(posSet).sort();
+  }, [words]);
+
+  // Create search index for autocomplete
+  const searchIndex = useMemo(() => {
+    return words.map(word => ({
+      name: word.name,
+      link: `/dictionary/${letter}/${word.name.toLowerCase()}`
+    }));
+  }, [words, letter]);
+
   const filteredAndSortedWords = useMemo(() => {
     let result = words.filter(word => {
+      // Search
       const matchesSearch = word.name.toLowerCase().includes(searchQuery.toLowerCase());
+
+      // Legacy filters (keep for backward compatibility)
       const matchesSyllables = syllableFilter === 'all' || word.syllables === parseInt(syllableFilter);
       const matchesTag = tagFilter === 'all' || (word.tags && word.tags.includes(tagFilter));
-      return matchesSearch && matchesSyllables && matchesTag;
+
+      // New FilterContext filters
+      const matchesSyllableRange = word.syllables >= filters.syllableRange[0] && word.syllables <= filters.syllableRange[1];
+      const matchesLengthRange = word.name.length >= filters.lengthRange[0] && word.name.length <= filters.lengthRange[1];
+      const matchesPartsOfSpeech = filters.partsOfSpeech.length === 0 || filters.partsOfSpeech.includes(word.partOfSpeech);
+      const matchesTags = filters.tags.length === 0 || (word.tags && word.tags.some(t => filters.tags.includes(t)));
+      const matchesHasRhymes = !filters.hasRhymes || word.hasRhymes;
+      const matchesHasExamples = !filters.hasExamples || word.hasExamples;
+      const matchesComplexity = filters.complexity === 'All' || word.complexity === filters.complexity;
+
+      return matchesSearch && matchesSyllables && matchesTag &&
+             matchesSyllableRange && matchesLengthRange && matchesPartsOfSpeech &&
+             matchesTags && matchesHasRhymes && matchesHasExamples && matchesComplexity;
     });
 
     switch (sortBy) {
@@ -82,7 +128,7 @@ export function DictionaryLetter() {
     }
 
     return result;
-  }, [words, searchQuery, sortBy, syllableFilter, tagFilter, letter, isFavorite]);
+  }, [words, searchQuery, sortBy, syllableFilter, tagFilter, letter, isFavorite, filters]);
 
   // Group words for grouped view
   const groupedWords = useMemo(() => {
@@ -107,7 +153,24 @@ export function DictionaryLetter() {
   }, [filteredAndSortedWords, viewMode]);
 
   if (loading) {
-    return <LoadingState message={`Loading words for ${letter}...`} />;
+    return (
+      <div className="dictionary-letter">
+        <div className="dictionary-letter__header">
+          <Breadcrumbs items={[
+            { label: 'Home', path: '/' },
+            { label: 'Dictionary', path: '/dictionary' },
+            { label: `Letter ${letter}`, path: `/dictionary/${letter}` }
+          ]} />
+          <div className="dictionary-letter__title-row">
+            <Link to="/dictionary" className="dictionary-letter__back">
+              <ArrowLeft size={24} />
+            </Link>
+            <h1 className="dictionary-letter__title">{letter}</h1>
+          </div>
+        </div>
+        <SkeletonGrid count={12} variant="grid" />
+      </div>
+    );
   }
 
   if (error) {
@@ -153,12 +216,21 @@ export function DictionaryLetter() {
         </div>
 
         <div className="dictionary-letter__controls">
-          <SearchBar
+          <button
+            className="dictionary-letter__filter-toggle"
+            onClick={() => setIsFilterPanelOpen(true)}
+            title="Open filters"
+          >
+            <SlidersHorizontal size={20} />
+            <span>Filters</span>
+          </button>
+
+          <Autocomplete
             value={searchQuery}
             onChange={setSearchQuery}
-            onClear={() => setSearchQuery('')}
+            onSelect={(result) => navigate(result.link)}
+            searchIndex={searchIndex}
             placeholder="Search words..."
-            className="dictionary-letter__search"
           />
 
           <div className="dictionary-letter__filters">
@@ -235,19 +307,27 @@ export function DictionaryLetter() {
         <>
           {/* Grid View */}
           {viewMode === 'grid' && (
-            <div className="dictionary-letter__grid">
-              {filteredAndSortedWords.map((word) => (
-                <div key={word.name} className="word-card">
-                  <Link
-                    to={`/dictionary/${letter}/${word.name.toLowerCase()}`}
-                    className="word-card__link"
-                  >
-                    <span className="word-card__name">{word.name}</span>
-                  </Link>
-                  <FavoriteButton word={word.name} letter={letter} size={18} />
+            <>
+              {filteredAndSortedWords.length > 100 ? (
+                <div style={{ height: '80vh' }}>
+                  <VirtualWordGrid words={filteredAndSortedWords} letter={letter} />
                 </div>
-              ))}
-            </div>
+              ) : (
+                <div className="dictionary-letter__grid">
+                  {filteredAndSortedWords.map((word) => (
+                    <div key={word.name} className="word-card">
+                      <Link
+                        to={`/dictionary/${letter}/${word.name.toLowerCase()}`}
+                        className="word-card__link"
+                      >
+                        <span className="word-card__name">{word.name}</span>
+                      </Link>
+                      <FavoriteButton word={word.name} letter={letter} size={18} />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </>
           )}
 
           {/* List View */}
@@ -329,6 +409,22 @@ export function DictionaryLetter() {
           description={searchQuery ? `No words match "${searchQuery}"` : 'No words in this category'}
         />
       )}
+
+      {/* Filter Panel */}
+      <FilterPanel
+        isOpen={isFilterPanelOpen}
+        onClose={() => setIsFilterPanelOpen(false)}
+        availablePartsOfSpeech={availablePartsOfSpeech}
+        availableTags={availableTags}
+      />
+
+      {/* Rhyme Preview Popover */}
+      <RhymePreviewPopover
+        word={rhymePreviewWord?.word}
+        letter={rhymePreviewWord?.letter}
+        isOpen={rhymePreviewWord !== null}
+        onClose={() => setRhymePreviewWord(null)}
+      />
     </div>
   );
 }

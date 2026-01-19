@@ -3,7 +3,8 @@ import { ArrowLeft, BookOpen, Pin, Sparkles } from 'lucide-react';
 import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton, Badge } from '../components/ui';
 import { useDictionaryWord, useDictionaryIndex } from '../lib/hooks';
 import { useWorkspace } from '../lib/WorkspaceContext';
-import { useState, useMemo } from 'react';
+import { useBrowsingHistory } from '../lib/BrowsingHistoryContext';
+import { useState, useMemo, useEffect } from 'react';
 import { findRhymes, getRhymeScheme } from '../lib/rhymeFinder';
 import './DictionaryWord.css';
 
@@ -12,10 +13,18 @@ export function DictionaryWord() {
   const { content, loading, error } = useDictionaryWord(letter, word);
   const { words: allWords } = useDictionaryIndex();
   const { isPinned, addItem, removeItem } = useWorkspace();
+  const { addToHistory } = useBrowsingHistory();
   const [showRhymes, setShowRhymes] = useState(false);
 
   const wordName = word.charAt(0).toUpperCase() + word.slice(1);
   const pinned = isPinned(word, 'word');
+
+  // Track browsing history
+  useEffect(() => {
+    if (word && letter && !loading && !error) {
+      addToHistory(wordName, letter.toUpperCase());
+    }
+  }, [word, letter, wordName, loading, error, addToHistory]);
 
   // Calculate rhymes
   const rhymeData = useMemo(() => {

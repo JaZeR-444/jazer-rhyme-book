@@ -1,0 +1,113 @@
+/* RadioGroup Styles */
+
+.radio-group {
+  width: 100%;
+}
+
+.radio-group__label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary, #fff);
+  margin-bottom: 0.75rem;
+}
+
+.radio-group__options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.radio-group__option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--color-bg-card, #1a1a1a);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.radio-group__option:hover {
+  border-color: var(--color-accent, #00ff88);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.radio-group__option.selected {
+  border-color: var(--color-accent, #00ff88);
+  background: rgba(0, 255, 136, 0.05);
+}
+
+.radio-group__input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radio-group__radio {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-border, #333);
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.radio-group__option:hover .radio-group__radio {
+  border-color: var(--color-accent, #00ff88);
+}
+
+.radio-group__option.selected .radio-group__radio {
+  border-color: var(--color-accent, #00ff88);
+  background: rgba(0, 255, 136, 0.1);
+}
+
+.radio-group__radio-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--color-accent, #00ff88);
+  border-radius: 50%;
+  animation: radioDotAppear 0.2s ease;
+}
+
+@keyframes radioDotAppear {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.radio-group__option-label {
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--color-text-primary, #fff);
+  font-weight: 400;
+}
+
+.radio-group__option.selected .radio-group__option-label {
+  font-weight: 500;
+  color: var(--color-accent, #00ff88);
+}
+
+/* Focus styles for accessibility */
+.radio-group__input:focus + .radio-group__radio {
+  box-shadow: 0 0 0 3px rgba(0, 255, 136, 0.3);
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .radio-group__option {
+    padding: 1rem;
+  }
+}

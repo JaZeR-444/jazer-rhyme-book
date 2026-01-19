@@ -1,12 +1,16 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BookOpen, Heart, Sparkles, ArrowRight } from 'lucide-react';
-import { LoadingState, EmptyState, SearchBar } from '../components/ui';
+import { LoadingState, EmptyState } from '../components/ui';
+import { Autocomplete } from '../components/ui/Autocomplete';
+import { SkeletonGrid } from '../components/ui/SkeletonCard';
+import { RecentlyViewed } from '../components/dictionary/RecentlyViewed';
 import { useDictionaryLetters, useSearchIndex } from '../lib/hooks';
 import { useFavorites } from '../lib/FavoritesContext';
 import './Dictionary.css';
 
 export function Dictionary() {
+  const navigate = useNavigate();
   const { letters, loading, error } = useDictionaryLetters();
   const { favoritesCount } = useFavorites();
   const { searchIndex } = useSearchIndex();
@@ -64,11 +68,12 @@ export function Dictionary() {
           </p>
           
           <div className="dictionary-search-container">
-            <SearchBar 
+            <Autocomplete
               value={searchQuery}
               onChange={setSearchQuery}
+              onSelect={(result) => navigate(result.link)}
+              searchIndex={searchIndex?.words || []}
               placeholder="Search concepts like 'Gravitational forces'..."
-              className="dictionary-search-input"
             />
           </div>
 
@@ -90,8 +95,10 @@ export function Dictionary() {
             </h3>
             {isSearching && <span className="search-loading">Analyzing...</span>}
           </div>
-          
-          {semanticResults.length > 0 && (
+
+          {isSearching && <SkeletonGrid count={8} variant="grid" />}
+
+          {!isSearching && semanticResults.length > 0 && (
             <div className="semantic-grid">
               {semanticResults.map((item, idx) => (
                 <Link 
@@ -140,6 +147,9 @@ export function Dictionary() {
               </div>
             </div>
           </section>
+
+          {/* Recently Viewed */}
+          <RecentlyViewed limit={10} />
 
           <section className="dictionary-grid-section">
             <h3 className="section-title">Browse by Letter</h3>

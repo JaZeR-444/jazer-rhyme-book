@@ -1,0 +1,111 @@
+/* SkeletonCard Styles */
+
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--color-bg-card, #1a1a1a);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 8px;
+  padding: 1rem;
+  height: 140px;
+}
+
+.skeleton-card--grid {
+  width: 100%;
+}
+
+.skeleton-card--list {
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+}
+
+.skeleton-card__title {
+  height: 1.5rem;
+  width: 70%;
+  border-radius: 4px;
+  background: var(--color-skeleton-base, #2a2a2a);
+}
+
+.skeleton-card__meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.skeleton-card__badge {
+  height: 1.5rem;
+  width: 80px;
+  border-radius: 4px;
+  background: var(--color-skeleton-base, #2a2a2a);
+}
+
+/* Shimmer Animation */
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 20%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* SkeletonGrid Layout */
+.skeleton-grid {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+}
+
+.skeleton-grid--grid {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.skeleton-grid--list {
+  grid-template-columns: 1fr;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .skeleton-grid--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skeleton-card {
+    padding: 0.75rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .skeleton-grid--grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .skeleton-grid--grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

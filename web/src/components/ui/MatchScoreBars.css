@@ -1,0 +1,24 @@
+/* MatchScoreBars Styles */
+
+.match-score-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 24px;
+}
+
+.match-score-bar {
+  width: 3px;
+  background: var(--color-border, #333);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.match-score-bar.filled {
+  background: var(--color-accent, #00ff88);
+  box-shadow: 0 0 4px rgba(0, 255, 136, 0.3);
+}
+
+.match-score-bar:hover {
+  opacity: 0.8;
+}
