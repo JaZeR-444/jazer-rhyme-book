@@ -1,5 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AppLayout } from './components/AppLayout';
+import { BrowsingHistoryProvider } from './lib/BrowsingHistoryContext';
+import { FilterProvider } from './lib/FilterContext';
 import { FavoritesProvider } from './lib/FavoritesContext';
 import { EntityLikesProvider } from './lib/EntityLikesContext';
 
@@ -24,40 +26,44 @@ import { WorkspaceProvider } from './lib/WorkspaceContext';
 
 function App() {
   return (
-    <FavoritesProvider>
-      <EntityLikesProvider>
-        <WorkspaceProvider>
-          <HashRouter>
-            <Routes>
-              <Route path="/" element={<AppLayout />}>
-                <Route index element={<Home />} />
+    <BrowsingHistoryProvider>
+      <FilterProvider>
+        <FavoritesProvider>
+          <EntityLikesProvider>
+            <WorkspaceProvider>
+              <HashRouter>
+                <Routes>
+                  <Route path="/" element={<AppLayout />}>
+                    <Route index element={<Home />} />
 
-                {/* Domains */}
-                <Route path="domains" element={<Domains />} />
-                <Route path="domains/:domainId" element={<DomainDetail />} />
+                    {/* Domains */}
+                    <Route path="domains" element={<Domains />} />
+                    <Route path="domains/:domainId" element={<DomainDetail />} />
 
-                {/* Entities */}
-                <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
+                    {/* Entities */}
+                    <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
 
-                {/* Dictionary */}
-                <Route path="dictionary" element={<Dictionary />} />
-                <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
-                <Route path="dictionary/:letter" element={<DictionaryLetter />} />
-                <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
+                    {/* Dictionary */}
+                    <Route path="dictionary" element={<Dictionary />} />
+                    <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
+                    <Route path="dictionary/:letter" element={<DictionaryLetter />} />
+                    <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
 
-                {/* Other Pages */}
-                <Route path="search" element={<Search />} />
-                <Route path="studio" element={<WritingStudio />} />
-                <Route path="about" element={<About />} />
+                    {/* Other Pages */}
+                    <Route path="search" element={<Search />} />
+                    <Route path="studio" element={<WritingStudio />} />
+                    <Route path="about" element={<About />} />
 
-                {/* 404 */}
-                <Route path="*" element={<NotFound />} />
-              </Route>
-            </Routes>
-          </HashRouter>
-        </WorkspaceProvider>
-      </EntityLikesProvider>
-    </FavoritesProvider>
+                    {/* 404 */}
+                    <Route path="*" element={<NotFound />} />
+                  </Route>
+                </Routes>
+              </HashRouter>
+            </WorkspaceProvider>
+          </EntityLikesProvider>
+        </FavoritesProvider>
+      </FilterProvider>
+    </BrowsingHistoryProvider>
   );
 }
 
