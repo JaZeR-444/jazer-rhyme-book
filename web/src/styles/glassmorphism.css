@@ -12,33 +12,56 @@
   border: 1px solid var(--border-visible, hsla(0, 0%, 100%, 0.12));
   position: relative;
   overflow: hidden;
+  border-radius: var(--radius, 16px);
+
+  /* Layering: ensure pseudo elements sit behind content */
+  z-index: 0;
 }
 
-/* Border Glow Gradient */
+/* Ensure children render above ::before/::after overlays */
+.glass > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Border Glow Gradient (masked to border ring) */
 .glass::before {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: inherit;
   padding: 1px;
+
   background: linear-gradient(
     135deg,
     hsla(262, 70%, 55%, 0.3) 0%,
     hsla(180, 100%, 50%, 0.2) 50%,
     hsla(262, 70%, 55%, 0.1) 100%
   );
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
+
+  /* Mask to create a 1px border ring */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+
+  /* Spec-compliant fallback for non-webkit engines */
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
   mask-composite: exclude;
+
   pointer-events: none;
   opacity: 0;
   transition: opacity var(--duration-short, 300ms) ease;
+  z-index: 0;
 }
 
-.glass:hover::before {
-  opacity: 1;
+/* Only apply hover glow when hover is actually supported */
+@media (hover: hover) and (pointer: fine) {
+  .glass:hover::before {
+    opacity: 1;
+  }
 }
 
 /* Noise/Grain Overlay */
@@ -46,11 +69,15 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="300" height="300" filter="url(%23noise)" opacity="0.05"/></svg>');
+  border-radius: inherit;
+
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><filter id='noise'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23noise)' opacity='0.05'/></svg>");
   background-size: 150px 150px;
-  opacity: 0.4;
+
+  opacity: 0.35;
   mix-blend-mode: overlay;
   pointer-events: none;
+  z-index: 0;
 }
 
 /* Variants */
@@ -105,36 +132,35 @@
 /* Animated border glow */
 .glass--animated::before {
   animation: borderGlow 3s ease-in-out infinite;
+  opacity: 0.4; /* baseline visibility for animated variant */
 }
 
 @keyframes borderGlow {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 1;
-  }
+  0%, 100% { opacity: 0.25; }
+  50%      { opacity: 1; }
 }
 
-/* Disable effects for reduced motion */
+/* Reduced motion: remove animation + avoid “pulsing” glow */
 @media (prefers-reduced-motion: reduce) {
-  .glass::before,
+  .glass::before {
+    transition: none;
+  }
   .glass--animated::before {
     animation: none;
-    transition: none;
+    opacity: 0.35;
   }
 }
 
 /* Fallback for browsers without backdrop-filter support */
-@supports not (backdrop-filter: blur(12px)) {
+@supports not ((backdrop-filter: blur(12px)) or (-webkit-backdrop-filter: blur(12px))) {
   .glass {
     background: hsla(240, 15%, 16%, 0.95);
   }
-  
+
   .glass--subtle {
     background: hsla(240, 15%, 16%, 0.9);
   }
-  
+
   .glass--heavy {
     background: hsla(240, 15%, 16%, 0.98);
   }

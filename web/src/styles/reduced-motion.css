@@ -1,89 +1,103 @@
-/* Reduced Motion Support */
-/* Respects prefers-reduced-motion media query */
+/* Reduced Motion Support
+   Respects prefers-reduced-motion and optional [data-motion="reduced"] override
+*/
 
+/* 1) System preference: reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    /* Disable all animations */
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    
-    /* Disable all transitions */
-    transition-duration: 0.01ms !important;
-    transition-delay: 0ms !important;
-    
-    /* Disable scroll animations */
+  /* Disable smooth scroll reliably (not inherited) */
+  html:focus-within {
+    scroll-behavior: auto !important;
+  }
+  html {
     scroll-behavior: auto !important;
   }
 
-  /* Disable keyframe animations */
-  * {
-    animation-name: none !important;
+  /* Reduce or remove motion everywhere */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-property: none !important;
+    transition-duration: 0ms !important;
+    transition-delay: 0ms !important;
   }
 
-  /* Disable parallax effects */
+  /* If you rely on scroll snapping for carousels, disable the motion aspect */
+  [class*="carousel"],
+  [class*="slider"] {
+    scroll-snap-type: none !important;
+  }
+
+  /* Parallax / background-attachment motion */
   .parallax,
   [class*="parallax"] {
     background-attachment: scroll !important;
     transform: none !important;
   }
 
-  /* Stop auto-playing media */
-  video[autoplay],
-  audio[autoplay] {
-    animation: none !important;
-  }
-
-  /* Disable marquee */
-  marquee {
-    -webkit-marquee: none !important;
-  }
-
-  /* Disable hover transforms */
-  *:hover {
-    transform: none !important;
-  }
-
-  /* Keep essential transitions (immediate feedback) */
-  button:active,
-  a:active,
-  input:focus,
-  textarea:focus,
-  select:focus {
-    transition: background-color 0.01ms, border-color 0.01ms, color 0.01ms !important;
-  }
-
-  /* Disable loading spinners animation (but keep them visible) */
+  /* Stop spinners/loading animations but keep visible */
   .spinner,
   [class*="spinner"],
   [class*="loading"] {
     animation: none !important;
   }
 
-  /* Disable carousels auto-advance */
-  [class*="carousel"],
-  [class*="slider"] {
-    scroll-snap-type: none !important;
+  /* Avoid hover-induced movement on common interactive elements only */
+  a:hover,
+  button:hover,
+  [role="button"]:hover,
+  [tabindex]:hover {
+    transform: none !important;
   }
 
-  /* Disable infinite scroll animations */
-  .infinite-scroll {
-    scroll-behavior: auto !important;
+  /* Keep focus indication (no animation) */
+  :focus,
+  :focus-visible {
+    transition: none !important;
   }
 }
 
-/* Reduced motion mode toggle (user preference override) */
-[data-motion="reduced"] *,
-[data-motion="reduced"] *::before,
-[data-motion="reduced"] *::after {
-  animation-duration: 0.01ms !important;
-  animation-iteration-count: 1 !important;
-  transition-duration: 0.01ms !important;
+/* 2) Manual override: reduced motion mode (takes effect regardless of system setting)
+   Apply the same rules under a parent attribute flag. */
+[data-motion="reduced"] html:focus-within,
+[data-motion="reduced"] html {
   scroll-behavior: auto !important;
 }
 
-/* Motion safe animations (only play if motion is NOT reduced) */
+[data-motion="reduced"] *,
+[data-motion="reduced"] *::before,
+[data-motion="reduced"] *::after {
+  animation: none !important;
+  transition-property: none !important;
+  transition-duration: 0ms !important;
+  transition-delay: 0ms !important;
+}
+
+[data-motion="reduced"] .parallax,
+[data-motion="reduced"] [class*="parallax"] {
+  background-attachment: scroll !important;
+  transform: none !important;
+}
+
+[data-motion="reduced"] .spinner,
+[data-motion="reduced"] [class*="spinner"],
+[data-motion="reduced"] [class*="loading"] {
+  animation: none !important;
+}
+
+[data-motion="reduced"] [class*="carousel"],
+[data-motion="reduced"] [class*="slider"] {
+  scroll-snap-type: none !important;
+}
+
+[data-motion="reduced"] a:hover,
+[data-motion="reduced"] button:hover,
+[data-motion="reduced"] [role="button"]:hover,
+[data-motion="reduced"] [tabindex]:hover {
+  transform: none !important;
+}
+
+/* 3) Motion-safe utilities (only when motion is allowed) */
 @media (prefers-reduced-motion: no-preference) {
   .motion-safe-fade {
     animation: fadeIn 0.3s ease-in;
@@ -99,16 +113,16 @@
 
   @keyframes fadeIn {
     from { opacity: 0; }
-    to { opacity: 1; }
+    to   { opacity: 1; }
   }
 
   @keyframes slideIn {
     from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    to   { transform: translateY(0); opacity: 1; }
   }
 
   @keyframes scaleIn {
     from { transform: scale(0.95); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+    to   { transform: scale(1); opacity: 1; }
   }
 }

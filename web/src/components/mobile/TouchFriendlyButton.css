@@ -1,0 +1,101 @@
+.touch-friendly-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.touch-friendly-btn:active {
+  transform: scale(0.95);
+}
+
+.touch-friendly-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Variants */
+.touch-friendly-btn--primary {
+  background: linear-gradient(135deg, #00ffff 0%, #0080ff 100%);
+  color: #000;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.touch-friendly-btn--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.touch-friendly-btn--ghost {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+
+.touch-friendly-btn--danger {
+  background: linear-gradient(135deg, #ff0080 0%, #ff0040 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(255, 0, 80, 0.3);
+}
+
+/* Sizes - Mobile First */
+.touch-friendly-btn--small {
+  padding: 0.6rem 1rem;
+  font-size: 0.875rem;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.touch-friendly-btn--medium {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.touch-friendly-btn--large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  min-height: 56px;
+  min-width: 56px;
+}
+
+/* Icon */
+.touch-friendly-btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+/* Mobile specific (44px minimum touch target) */
+@media (max-width: 767px) {
+  .touch-friendly-btn--small {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .touch-friendly-btn--medium {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 0.9rem 1.6rem;
+  }
+
+  .touch-friendly-btn--large {
+    min-height: 56px;
+    min-width: 56px;
+    padding: 1.1rem 2.2rem;
+  }
+}

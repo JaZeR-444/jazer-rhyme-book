@@ -1,0 +1,62 @@
+.swipeable-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1rem;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.swipeable-card--dragging {
+  cursor: grabbing;
+  box-shadow: 0 10px 40px rgba(0, 255, 255, 0.3);
+  z-index: 10;
+}
+
+.swipeable-card__indicators {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.swipeable-card__indicator {
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.swipeable-card__indicator--left {
+  color: #ff0080;
+}
+
+.swipeable-card__indicator--right {
+  color: #00ffff;
+}
+
+/* Mobile optimizations */
+@media (max-width: 767px) {
+  .swipeable-card {
+    padding: 0.75rem;
+    border-radius: 12px;
+  }
+  
+  .swipeable-card__indicator {
+    font-size: 2rem;
+  }
+  
+  .swipeable-card__indicators {
+    padding: 0 1rem;
+  }
+}

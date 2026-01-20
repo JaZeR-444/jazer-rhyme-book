@@ -6,77 +6,144 @@
   --text-primary: #ffffff;
   --text-secondary: #ffffff;
   --text-tertiary: #ffffff;
-  
+
   /* Background Colors */
   --bg-primary: #000000;
   --bg-secondary: #1a1a1a;
   --bg-tertiary: #2a2a2a;
-  
+
   /* Accent Colors */
   --accent-primary: #ffff00; /* Yellow for maximum visibility */
   --accent-secondary: #00ffff; /* Cyan for secondary actions */
   --accent-hover: #ffff66;
-  
+
   /* Border & Dividers */
   --border-color: #ffffff;
   --divider-color: #ffffff;
-  
+
   /* Glass morphism (disabled in high contrast) */
   --glass-bg: rgba(0, 0, 0, 0.95);
   --glass-border: rgba(255, 255, 255, 0.8);
-  
+
   /* Focus Indicators */
-  --focus-ring: 3px solid #ffff00;
+  --focus-ring-color: #ffff00;
+  --focus-ring-width: 3px;
   --focus-ring-offset: 2px;
+
+  /* Helpful defaults */
+  color-scheme: dark;
 }
 
-/* Ensure all text meets contrast ratio */
-[data-theme="high-contrast"] * {
+/* Base foreground/background */
+[data-theme="high-contrast"] {
+  background: var(--bg-primary);
   color: var(--text-primary);
+}
+
+/* Avoid clobbering every single element; target typical text-bearing elements */
+[data-theme="high-contrast"] body,
+[data-theme="high-contrast"] p,
+[data-theme="high-contrast"] span,
+[data-theme="high-contrast"] li,
+[data-theme="high-contrast"] dt,
+[data-theme="high-contrast"] dd,
+[data-theme="high-contrast"] label,
+[data-theme="high-contrast"] legend,
+[data-theme="high-contrast"] small,
+[data-theme="high-contrast"] strong,
+[data-theme="high-contrast"] em,
+[data-theme="high-contrast"] h1,
+[data-theme="high-contrast"] h2,
+[data-theme="high-contrast"] h3,
+[data-theme="high-contrast"] h4,
+[data-theme="high-contrast"] h5,
+[data-theme="high-contrast"] h6 {
+  color: var(--text-primary);
+}
+
+/* Borders: apply broadly but safely */
+[data-theme="high-contrast"] *,
+[data-theme="high-contrast"] *::before,
+[data-theme="high-contrast"] *::after {
   border-color: var(--border-color);
 }
 
-/* Stronger borders */
-[data-theme="high-contrast"] button,
-[data-theme="high-contrast"] input,
-[data-theme="high-contrast"] select,
-[data-theme="high-contrast"] textarea {
-  border: 2px solid #ffffff !important;
-  background: #000000 !important;
-  color: #ffffff !important;
-}
-
-/* Enhanced focus indicators */
-[data-theme="high-contrast"] *:focus {
-  outline: var(--focus-ring) !important;
-  outline-offset: var(--focus-ring-offset) !important;
-}
-
-/* Links and buttons with underlines */
-[data-theme="high-contrast"] a,
-[data-theme="high-contrast"] button {
-  text-decoration: underline;
-  font-weight: 600;
-  text-underline-offset: 3px;
-}
-
 /* Remove subtle effects */
-[data-theme="high-contrast"] * {
+[data-theme="high-contrast"] *,
+[data-theme="high-contrast"] *::before,
+[data-theme="high-contrast"] *::after {
   backdrop-filter: none !important;
   box-shadow: none !important;
   text-shadow: none !important;
 }
 
+/* Form controls */
+[data-theme="high-contrast"] button,
+[data-theme="high-contrast"] input,
+[data-theme="high-contrast"] select,
+[data-theme="high-contrast"] textarea {
+  border: 2px solid var(--border-color) !important;
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Placeholder text */
+[data-theme="high-contrast"] input::placeholder,
+[data-theme="high-contrast"] textarea::placeholder {
+  color: var(--text-primary);
+  opacity: 0.85;
+}
+
+/* Enhanced focus indicators: prefer focus-visible */
+@supports selector(:focus-visible) {
+  [data-theme="high-contrast"] *:focus-visible {
+    outline: var(--focus-ring-width) solid var(--focus-ring-color) !important;
+    outline-offset: var(--focus-ring-offset) !important;
+  }
+  [data-theme="high-contrast"] *:focus {
+    outline: none !important;
+  }
+}
+
+/* Fallback */
+@supports not selector(:focus-visible) {
+  [data-theme="high-contrast"] *:focus {
+    outline: var(--focus-ring-width) solid var(--focus-ring-color) !important;
+    outline-offset: var(--focus-ring-offset) !important;
+  }
+}
+
+/* Links */
+[data-theme="high-contrast"] a {
+  color: var(--accent-primary);
+  text-decoration: underline;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+[data-theme="high-contrast"] a:hover {
+  color: var(--accent-hover);
+}
+
+/* Buttons: keep underline optional; many designs prefer not underlined buttons */
+[data-theme="high-contrast"] button {
+  font-weight: 700;
+}
+
 /* High contrast cards */
 [data-theme="high-contrast"] .card,
 [data-theme="high-contrast"] [class*="card"] {
-  background: #000000 !important;
-  border: 2px solid #ffffff !important;
+  background: var(--bg-primary) !important;
+  border: 2px solid var(--border-color) !important;
+}
+
+/* Icons: make sure they inherit currentColor */
+[data-theme="high-contrast"] svg {
+  color: currentColor;
 }
 
 /* Images and icons */
-[data-theme="high-contrast"] img,
-[data-theme="high-contrast"] svg {
+[data-theme="high-contrast"] img {
   filter: contrast(1.2) brightness(1.1);
 }
 
@@ -87,9 +154,9 @@
   text-decoration: line-through;
 }
 
-/* Selection */
+/* Text selection */
 [data-theme="high-contrast"] ::selection {
-  background: #ffff00;
+  background: var(--accent-primary);
   color: #000000;
 }
 
@@ -105,7 +172,7 @@
   border: 2px solid #fff;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .high-contrast-toggle:hover {

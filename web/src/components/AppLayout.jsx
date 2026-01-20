@@ -8,7 +8,6 @@ import { StudioPlayer } from './StudioPlayer';
 import { SystemStatus } from './SystemStatus';
 import { HapticFeedback } from './HapticFeedback';
 import { KeyboardShortcutsHelp } from './KeyboardShortcutsHelp';
-import { BottomNav } from './BottomNav';
 import SmartSearch from './search/SmartSearch';
 import { useKeyboardShortcuts } from '../lib/useKeyboardShortcuts';
 import { useWorkspace } from '../lib/WorkspaceContext';
@@ -167,7 +166,6 @@ export function AppLayout() {
       <StudioPlayer />
       <CommandPalette />
       <HapticFeedback />
-      <BottomNav />
       <KeyboardShortcutsHelp
         isOpen={showShortcutsHelp}
         onClose={() => setShowShortcutsHelp(false)}

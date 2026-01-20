@@ -176,7 +176,7 @@ export class NaturalLanguageParser {
           'home': '/',
           'domains': '/domains',
           'dictionary': '/dictionary',
-          'workspace': '/workspace',
+          'search': '/search',
           'studio': '/studio',
           'about': '/about',
           'settings': '/settings'

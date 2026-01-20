@@ -1,0 +1,33 @@
+.mobile-optimized-grid {
+  display: grid;
+  gap: var(--grid-gap, 1rem);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* Mobile: 1 column by default */
+@media (max-width: 767px) {
+  .mobile-optimized-grid {
+    grid-template-columns: repeat(var(--mobile-cols, 1), 1fr);
+    gap: 0.75rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mobile-optimized-grid {
+    grid-template-columns: repeat(var(--tablet-cols, 2), 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+  .mobile-optimized-grid {
+    grid-template-columns: repeat(var(--desktop-cols, 3), 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}

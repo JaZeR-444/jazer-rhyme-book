@@ -1,0 +1,11 @@
+.draggable-card {
+  cursor: grab;
+}
+
+.draggable-card:active {
+  cursor: grabbing;
+}
+
+.draggable-card.is-disabled {
+  cursor: default;
+}

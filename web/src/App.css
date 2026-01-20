@@ -4,6 +4,14 @@
 
 .app {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* If your AppLayout renders main content, this helps push footer to bottom */
+.app-main {
+  flex: 1 1 auto;
+  min-width: 0; /* prevents overflow in nested flex layouts */
 }
 
 .app-footer {

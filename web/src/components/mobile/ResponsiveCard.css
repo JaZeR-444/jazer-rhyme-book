@@ -1,0 +1,72 @@
+.responsive-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.responsive-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(0, 255, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+}
+
+/* Variants */
+.responsive-card--glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+}
+
+.responsive-card--solid {
+  background: rgba(20, 20, 30, 0.9);
+  backdrop-filter: none;
+}
+
+.responsive-card--highlight {
+  border-color: rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+/* Sizes */
+.responsive-card--compact {
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.responsive-card--small {
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+
+.responsive-card--large {
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 767px) {
+  .responsive-card {
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+  
+  .responsive-card--compact {
+    padding: 0.4rem;
+    border-radius: 6px;
+  }
+  
+  .responsive-card--small {
+    padding: 0.6rem;
+    border-radius: 8px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .responsive-card {
+    padding: 1rem;
+  }
+}

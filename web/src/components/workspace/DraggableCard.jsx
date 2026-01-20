@@ -1,29 +1,36 @@
-import { useDrag } from 'react-dnd';
-import { motion } from 'framer-motion';
+import { useMemo } from "react";
+import "./DraggableCard.css";
 
-const ITEM_TYPE = 'WORKSPACE_ITEM';
-
-export const DraggableCard = ({ item, children, className = '' }) => {
-  const [{ isDragging }, drag] = useDrag(() => ({
-    type: ITEM_TYPE,
-    item: item,
-    collect: (monitor) => ({
-      isDragging: !!monitor.isDragging(),
-    }),
-  }));
+/**
+ * Minimal DraggableCard stub.
+ * - Wraps children
+ * - Adds data attributes you can hook into later
+ * - Does NOT require any DnD library to compile
+ */
+export function DraggableCard({
+  id,
+  type = "card",
+  disabled = false,
+  className = "",
+  children,
+  ...props
+}) {
+  const attrs = useMemo(() => {
+    return {
+      "data-draggable": disabled ? "false" : "true",
+      "data-dnd-type": type,
+      "data-dnd-id": id ?? "",
+    };
+  }, [disabled, type, id]);
 
   return (
-    <motion.div
-      ref={drag}
-      className={className}
-      style={{
-        opacity: isDragging ? 0.5 : 1,
-        cursor: 'grab',
-      }}
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
+    <div
+      {...attrs}
+      className={`draggable-card ${disabled ? "is-disabled" : ""} ${className}`}
+      draggable={!disabled}
+      {...props}
     >
       {children}
-    </motion.div>
+    </div>
   );
-};
+}

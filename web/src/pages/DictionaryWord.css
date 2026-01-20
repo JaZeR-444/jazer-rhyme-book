@@ -1,6 +1,9 @@
+/* DictionaryWord.css (DROP-IN REPLACEMENT) */
+
 .dictionary-word {
-  max-width: 900px;
+  max-width: var(--container-max);
   margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
 }
 
 .dictionary-word__header {
@@ -17,19 +20,30 @@
 .dictionary-word__back {
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
   background: var(--surface-2);
-  transition: all var(--duration-short);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    border-color var(--duration-short) var(--ease-out),
+    color var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
 }
 
 .dictionary-word__back:hover {
   background: var(--surface-3);
   color: var(--text-primary);
-  border-color: var(--border-default);
+  border-color: var(--border-visible);
+  box-shadow: 0 12px 24px -18px var(--overlay-dark);
+  transform: translateX(-2px);
+}
+
+.dictionary-word__back:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .dictionary-word__title-group {
@@ -54,72 +68,62 @@
 .dictionary-word__actions {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
-/* Pin Button */
-.word-pin-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
+/* Unified icon action button */
+.word-pin-btn,
+.word-compare-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   border: 1px solid var(--border-subtle);
-  background: var(--surface-1);
+  background: var(--surface-2);
   color: var(--text-secondary);
   cursor: pointer;
-  transition: all var(--duration-short);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    border-color var(--duration-short) var(--ease-out),
+    color var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
 }
 
-.word-pin-btn:hover {
-  background: var(--surface-2);
+.word-pin-btn:hover,
+.word-compare-btn:hover {
+  background: var(--surface-3);
   color: var(--text-primary);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 18px 34px -26px var(--overlay-dark);
+  border-color: var(--border-visible);
+}
+
+.word-pin-btn:focus-visible,
+.word-compare-btn:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .word-pin-btn.is-pinned {
   color: var(--accent-secondary);
-  border-color: var(--accent-secondary-glow);
-  background: rgba(0, 255, 255, 0.1);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  border-color: color-mix(in srgb, var(--accent-secondary) 65%, transparent);
+  background: color-mix(in srgb, var(--accent-secondary-glow) 25%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-secondary) 30%, transparent);
 }
 
-.word-pin-btn:active {
-  transform: scale(0.95);
-}
-
-/* Compare Button */
-.word-compare-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  border: 1px solid var(--border-subtle);
-  background: var(--surface-1);
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all var(--duration-short);
-}
-
-.word-compare-btn:hover {
-  background: var(--surface-2);
-  color: var(--accent-neon);
-  border-color: var(--accent-neon);
-  transform: translateY(-2px);
-}
-
+.word-pin-btn:active,
 .word-compare-btn:active {
-  transform: scale(0.95);
+  transform: scale(0.97);
 }
 
 .dictionary-word__content {
   position: relative;
   overflow: hidden;
   margin-bottom: var(--space-lg);
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
 }
 
 .dictionary-word__content::before {
@@ -128,9 +132,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background: var(--brand-gradient);
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 /* Rhyme Analysis Card */
@@ -166,32 +170,42 @@
 .rhyme-toggle-btn {
   padding: var(--space-sm) var(--space-md);
   background: var(--gradient-primary);
-  color: white;
+  color: #fff;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   font-weight: var(--weight-semibold);
   cursor: pointer;
-  transition: all var(--duration-short);
+  transition: transform var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
 }
 
 .rhyme-toggle-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 18px 34px -26px var(--overlay-dark);
+}
+
+.rhyme-toggle-btn:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .rhyme-copy-btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
   padding: var(--space-sm) var(--space-md);
   background: var(--surface-2);
   color: var(--text-secondary);
   border: 1px solid var(--border-subtle);
-  border-radius: 8px;
+  border-radius: 12px;
   font-weight: var(--weight-semibold);
   font-size: var(--text-small);
   cursor: pointer;
-  transition: all var(--duration-short);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    border-color var(--duration-short) var(--ease-out),
+    color var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
   white-space: nowrap;
 }
 
@@ -200,7 +214,12 @@
   color: var(--accent-secondary);
   border-color: var(--accent-secondary);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.2);
+  box-shadow: 0 18px 34px -26px rgba(0, 255, 255, 0.25);
+}
+
+.rhyme-copy-btn:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .rhyme-card__info {
@@ -222,7 +241,12 @@
 }
 
 .rhyme-results {
-  animation: fadeIn 0.4s var(--ease-out);
+  animation: fadeIn 0.35s var(--ease-out);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .rhyme-section {
@@ -253,11 +277,18 @@
   align-items: center;
   gap: var(--space-xs);
   padding: var(--space-xs) var(--space-sm);
-  border-radius: 6px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: var(--weight-medium);
-  transition: all var(--duration-short);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    color var(--duration-short) var(--ease-out);
   border: 1px solid;
+}
+
+.rhyme-chip:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .rhyme-chip.perfect {
@@ -280,7 +311,7 @@
 
 .rhyme-chip.near:hover {
   background: var(--accent-primary);
-  color: white;
+  color: #fff;
   transform: translateY(-2px);
 }
 
@@ -312,7 +343,7 @@
 /* Mobile Optimizations */
 @media (max-width: 768px) {
   .dictionary-word {
-    padding: 0 var(--space-sm);
+    padding: var(--space-md) var(--space-sm);
   }
 
   .dictionary-word__header {
@@ -323,14 +354,7 @@
     font-size: clamp(2rem, 6vw, 3rem);
   }
 
-  .dictionary-word__title-row {
-    gap: var(--space-sm);
-  }
-
-  .dictionary-word__back {
-    width: 36px;
-    height: 36px;
-  }
+  .dictionary-word__title-row { gap: var(--space-sm); }
 
   .rhyme-card__header {
     flex-direction: column;
@@ -354,47 +378,11 @@
     gap: var(--space-sm);
   }
 
-  .rhyme-chips {
-    gap: var(--space-xs);
-  }
+  .rhyme-chips { gap: var(--space-xs); }
 
   .rhyme-chip {
     font-size: var(--text-small);
     padding: 6px 10px;
-  }
-}
-
-@media (max-width: 640px) {
-  .dictionary-word {
-    padding: 0 var(--space-sm);
-  }
-
-  .dictionary-word__title {
-    font-size: var(--text-h2);
-  }
-
-  .dictionary-word__title-group {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-sm);
-  }
-
-  .dictionary-word__actions {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .word-pin-btn {
-    width: 36px;
-    height: 36px;
-  }
-
-  .rhyme-card__title {
-    font-size: var(--text-body);
-  }
-
-  .rhyme-section-title {
-    font-size: var(--text-small);
   }
 }
 

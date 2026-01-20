@@ -1,3 +1,5 @@
+/* DictionaryFavorites.css (DROP-IN REPLACEMENT) */
+
 .dictionary-favorites {
   max-width: var(--container-max);
   margin: 0 auto;
@@ -14,47 +16,56 @@
 .dictionary-favorites__title-row {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   margin: var(--space-md) 0;
 }
 
+/* Unified back button style */
 .dictionary-favorites__back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   background: var(--surface-2);
   border: 1px solid var(--border-subtle);
-  color: var(--text-primary);
+  color: var(--text-secondary);
   text-decoration: none;
-  transition: all var(--duration-short) var(--ease-out);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    border-color var(--duration-short) var(--ease-out),
+    color var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
 }
 
 .dictionary-favorites__back:hover {
   background: var(--surface-3);
-  border-color: var(--accent-primary);
-  color: var(--accent-secondary);
+  border-color: var(--border-visible);
+  color: var(--text-primary);
   transform: translateX(-2px);
+  box-shadow: 0 12px 24px -18px var(--overlay-dark);
+}
+
+.dictionary-favorites__back:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 3px;
 }
 
 .dictionary-favorites__title {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   font-size: var(--text-h1);
   font-weight: var(--weight-bold);
-  background: linear-gradient(135deg, #ff4d6d 0%, #ff8fa3 100%);
+  margin: 0;
+  background: var(--brand-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 0;
 }
 
 .dictionary-favorites__icon {
-  color: #ff4d6d;
-  -webkit-text-fill-color: initial;
+  color: var(--accent-primary);
 }
 
 .dictionary-favorites__count {
@@ -83,17 +94,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--surface-1);
+  background: var(--surface-2);
   border: 1px solid var(--border-subtle);
-  border-radius: 12px;
+  border-radius: 14px;
   padding: var(--space-md) var(--space-lg);
-  transition: all var(--duration-short) var(--ease-out);
+  transition: transform var(--duration-short) var(--ease-out),
+    background var(--duration-short) var(--ease-out),
+    border-color var(--duration-short) var(--ease-out),
+    box-shadow var(--duration-short) var(--ease-out);
 }
 
 .favorite-word-card:hover {
-  background: var(--surface-2);
-  border-color: #ff4d6d;
-  box-shadow: 0 4px 20px rgba(255, 77, 109, 0.15);
+  transform: translateY(-3px);
+  background: var(--surface-3);
+  border-color: var(--accent-primary);
+  box-shadow: 0 18px 34px -26px var(--overlay-dark);
 }
 
 .favorite-word-card__link {
@@ -102,16 +117,23 @@
   gap: var(--space-md);
   text-decoration: none;
   flex: 1;
+  min-width: 0;
+}
+
+.favorite-word-card__link:focus-visible {
+  outline: 2px solid var(--accent-neon);
+  outline-offset: 4px;
+  border-radius: 12px;
 }
 
 .favorite-word-card__letter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   width: 36px;
   height: 36px;
   background: var(--brand-gradient-subtle);
-  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
   color: var(--accent-secondary);
   font-family: var(--font-mono);
   font-weight: var(--weight-bold);
@@ -123,10 +145,13 @@
   font-weight: var(--weight-semibold);
   color: var(--text-primary);
   transition: color var(--duration-short) var(--ease-out);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .favorite-word-card:hover .favorite-word-card__name {
-  color: #ff4d6d;
+  color: var(--accent-primary);
 }
 
 /* ============================================
