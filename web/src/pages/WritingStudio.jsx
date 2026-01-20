@@ -16,7 +16,8 @@ import {
   Sparkles,
   Zap,
   Check,
-  FileJson
+  FileJson,
+  Maximize
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useWorkspace } from '../lib/WorkspaceContext';
@@ -26,6 +27,7 @@ import { WorkspaceGraph } from '../components/WorkspaceGraph';
 import { ConceptRecommender } from '../components/ConceptRecommender';
 import { GhostModule } from '../components/GhostModule';
 import { RhymeSchemeAnalyzer } from '../components/RhymeSchemeAnalyzer';
+import { ImmersiveMode } from '../components/ImmersiveMode';
 import './WritingStudio.css';
 
 export function WritingStudio() {
@@ -183,6 +185,7 @@ export function WritingStudio() {
   const [currentLine, setCurrentLine] = useState('');
   const [currentWord, setCurrentWord] = useState('');
   const [showGhost, setShowGhost] = useState(true);
+  const [immersiveModeOpen, setImmersiveModeOpen] = useState(false);
 
   const handleCursorActivity = (e) => {
     const textarea = e.target;
@@ -241,22 +244,31 @@ export function WritingStudio() {
 
 
   return (
-    <div className={`writing-studio ${showGhost ? 'with-ghost' : ''}`}>
-      <div className="writing-studio__header">
-        <div className="writing-studio__title">
-          <Edit3 size={24} />
-          <h1>Writing Studio</h1>
-        </div>
-        <div className="writing-studio__stats">
-          <span className="stat"><strong>{wordCount}</strong> words</span>
-          <span className="stat"><strong>{lineCount}</strong> lines</span>
-          <button 
-            className={`btn-ghost-toggle ${showGhost ? 'active' : ''}`}
-            onClick={() => setShowGhost(!showGhost)}
-            title="Toggle Ghost Assistant"
-          >
-            <Zap size={14} className={showGhost ? 'text-accent' : ''} />
-          </button>
+    <>
+      <div className={`writing-studio ${showGhost ? 'with-ghost' : ''}`}>
+        <div className="writing-studio__header">
+          <div className="writing-studio__title">
+            <Edit3 size={24} />
+            <h1>Writing Studio</h1>
+          </div>
+          <div className="writing-studio__stats">
+            <span className="stat"><strong>{wordCount}</strong> words</span>
+            <span className="stat"><strong>{lineCount}</strong> lines</span>
+            <button 
+              className="btn-immersive"
+              onClick={() => setImmersiveModeOpen(true)}
+              title="Enter Immersive Mode"
+            >
+              <Maximize size={14} />
+              <span>Immersive</span>
+            </button>
+            <button 
+              className={`btn-ghost-toggle ${showGhost ? 'active' : ''}`}
+              onClick={() => setShowGhost(!showGhost)}
+              title="Toggle Ghost Assistant"
+            >
+              <Zap size={14} className={showGhost ? 'text-accent' : ''} />
+            </button>
         </div>
       </div>
 
@@ -546,5 +558,20 @@ Tip: Use the Ghost Module on the right for rhymes and flow checks!"
         onAddToBoard={handleAddRecommendation}
       />
     </div>
+
+    <ImmersiveMode
+      isOpen={immersiveModeOpen}
+      onClose={() => setImmersiveModeOpen(false)}
+      writingText={writingText}
+      onTextChange={setWritingText}
+      currentLine={currentLine}
+      currentWord={currentWord}
+      dictionaryIndex={searchIndex}
+      onInsertRhyme={insertRhyme}
+    />
+    </>
   );
 }
+
+
+export default WritingStudio;

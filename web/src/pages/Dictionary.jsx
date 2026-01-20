@@ -319,3 +319,6 @@ function analyzeDictionarySearch(text, index, syllableFilter = null) {
     return [];
   }
 }
+
+
+export default Dictionary;

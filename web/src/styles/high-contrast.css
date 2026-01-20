@@ -1,0 +1,114 @@
+/* High Contrast Theme */
+/* WCAG 2.1 AA Compliant High Contrast Mode */
+
+[data-theme="high-contrast"] {
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --text-tertiary: #ffffff;
+  
+  /* Background Colors */
+  --bg-primary: #000000;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #2a2a2a;
+  
+  /* Accent Colors */
+  --accent-primary: #ffff00; /* Yellow for maximum visibility */
+  --accent-secondary: #00ffff; /* Cyan for secondary actions */
+  --accent-hover: #ffff66;
+  
+  /* Border & Dividers */
+  --border-color: #ffffff;
+  --divider-color: #ffffff;
+  
+  /* Glass morphism (disabled in high contrast) */
+  --glass-bg: rgba(0, 0, 0, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  
+  /* Focus Indicators */
+  --focus-ring: 3px solid #ffff00;
+  --focus-ring-offset: 2px;
+}
+
+/* Ensure all text meets contrast ratio */
+[data-theme="high-contrast"] * {
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+/* Stronger borders */
+[data-theme="high-contrast"] button,
+[data-theme="high-contrast"] input,
+[data-theme="high-contrast"] select,
+[data-theme="high-contrast"] textarea {
+  border: 2px solid #ffffff !important;
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Enhanced focus indicators */
+[data-theme="high-contrast"] *:focus {
+  outline: var(--focus-ring) !important;
+  outline-offset: var(--focus-ring-offset) !important;
+}
+
+/* Links and buttons with underlines */
+[data-theme="high-contrast"] a,
+[data-theme="high-contrast"] button {
+  text-decoration: underline;
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
+/* Remove subtle effects */
+[data-theme="high-contrast"] * {
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* High contrast cards */
+[data-theme="high-contrast"] .card,
+[data-theme="high-contrast"] [class*="card"] {
+  background: #000000 !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* Images and icons */
+[data-theme="high-contrast"] img,
+[data-theme="high-contrast"] svg {
+  filter: contrast(1.2) brightness(1.1);
+}
+
+/* Disabled state */
+[data-theme="high-contrast"] :disabled,
+[data-theme="high-contrast"] [aria-disabled="true"] {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/* Selection */
+[data-theme="high-contrast"] ::selection {
+  background: #ffff00;
+  color: #000000;
+}
+
+/* Toggle for high contrast mode */
+.high-contrast-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 0.75rem 1rem;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.high-contrast-toggle:hover {
+  background: #fff;
+  color: #000;
+}

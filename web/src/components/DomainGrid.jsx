@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-import { Database, Sparkles, Tag } from 'lucide-react';
+import { DomainCard2 } from './DomainCard2';
 import './DomainGrid.css';
 
 // Domain metadata with descriptions and categories
@@ -62,55 +61,15 @@ export function DomainGrid({ domains, stats = {} }) {
     <div className="domain-grid">
       {domains.map((domain) => {
         const metadata = DOMAIN_METADATA[domain] || {};
-        const displayName = domain.split('-').map(word =>
-          word.charAt(0).toUpperCase() + word.slice(1)
-        ).join(' ');
-
+        
         return (
-          <Link
+          <DomainCard2
             key={domain}
-            to={`/domains/${domain}`}
-            className="domain-card"
-          >
-            {/* Category Badge */}
-            {metadata.category && (
-              <div className="domain-card__category">
-                <Tag size={12} />
-                <span>{metadata.category}</span>
-              </div>
-            )}
-
-            {/* Icon */}
-            <div className="domain-card__icon">
-              {DOMAIN_ICONS[domain] || <Database size={32} />}
-            </div>
-
-            {/* Name */}
-            <h3 className="domain-card__name">{displayName}</h3>
-
-            {/* Description */}
-            {metadata.description && (
-              <p className="domain-card__description">
-                {metadata.description}
-              </p>
-            )}
-
-            {/* Entity Count */}
-            {stats[domain] && (
-              <div className="domain-card__stats">
-                <span className="domain-card__count">
-                  {stats[domain]} {stats[domain] === 1 ? 'entity' : 'entities'}
-                </span>
-              </div>
-            )}
-
-            {/* Footer */}
-            <div className="domain-card__footer">
-              <span className="domain-card__explore">
-                Explore <Sparkles size={14} />
-              </span>
-            </div>
-          </Link>
+            domain={domain}
+            metadata={metadata}
+            stats={stats}
+            showPreview={true}
+          />
         );
       })}
     </div>

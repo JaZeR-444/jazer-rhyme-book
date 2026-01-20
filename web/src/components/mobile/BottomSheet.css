@@ -1,0 +1,130 @@
+.bottom-sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+.bottom-sheet__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.bottom-sheet__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-primary, #1e1e2e);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 95vh;
+}
+
+.bottom-sheet__content--dragging {
+  transition: none;
+}
+
+.bottom-sheet__header {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+  cursor: grab;
+  flex-shrink: 0;
+}
+
+.bottom-sheet__header:active {
+  cursor: grabbing;
+}
+
+.bottom-sheet__handle {
+  width: 40px;
+  height: 4px;
+  background: var(--text-secondary, rgba(255, 255, 255, 0.3));
+  border-radius: 2px;
+}
+
+.bottom-sheet__title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  flex-shrink: 0;
+}
+
+.bottom-sheet__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+  margin: 0;
+}
+
+.bottom-sheet__close {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.bottom-sheet__close:hover {
+  background: var(--glass-hover, rgba(255, 255, 255, 0.1));
+  color: var(--text-primary, #fff);
+}
+
+.bottom-sheet__body {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .bottom-sheet__body {
+    padding: 1rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .bottom-sheet__content {
+    animation: none;
+    transition: none;
+  }
+
+  .bottom-sheet__backdrop {
+    animation: none;
+  }
+}

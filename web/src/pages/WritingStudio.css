@@ -36,6 +36,7 @@
 .writing-studio__stats {
   display: flex;
   gap: var(--space-lg);
+  align-items: center;
 }
 
 .stat {
@@ -47,6 +48,32 @@
   color: var(--text-primary);
   font-weight: var(--weight-bold);
   margin-right: 4px;
+}
+
+/* Immersive Mode Button */
+.btn-immersive {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #8B5CF6, #00FFFF);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.btn-immersive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+}
+
+.btn-immersive:active {
+  transform: translateY(0);
 }
 
 /* Layout */

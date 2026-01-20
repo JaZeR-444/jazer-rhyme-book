@@ -255,3 +255,6 @@ export function EntityDetail() {
     </div>
   );
 }
+
+
+export default EntityDetail;

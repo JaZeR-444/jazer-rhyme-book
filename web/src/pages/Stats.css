@@ -1,0 +1,203 @@
+.stats-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.stats-page__loading {
+  text-align: center;
+  padding: 4rem 0;
+  font-size: 1.125rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.stats-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--glass-bg, rgba(30, 30, 46, 0.6));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.stats-page__header-content {
+  flex: 1;
+}
+
+.stats-page__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  margin: 0 0 0.5rem 0;
+}
+
+.stats-page__subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+  margin: 0;
+}
+
+.stats-page__header-icon {
+  color: var(--accent-primary, #8b5cf6);
+}
+
+.stats-page__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: var(--glass-bg, rgba(30, 30, 46, 0.6));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-primary, #8b5cf6);
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.2);
+}
+
+.stat-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-primary, #8b5cf6), var(--accent-secondary, #ec4899));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.stat-card__content {
+  flex: 1;
+}
+
+.stat-card__value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  margin-bottom: 0.25rem;
+}
+
+.stat-card__label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  font-weight: 500;
+}
+
+.stats-page__weekly {
+  background: var(--glass-bg, rgba(30, 30, 46, 0.6));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  margin-bottom: 2rem;
+}
+
+.stats-page__section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+  margin: 0 0 1.5rem 0;
+}
+
+.stats-page__weekly-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.weekly-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.weekly-stat__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-primary, #8b5cf6);
+  margin-bottom: 0.5rem;
+}
+
+.weekly-stat__label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.stats-page__section {
+  margin-bottom: 2rem;
+}
+
+.stats-page__additional {
+  background: var(--glass-bg, rgba(30, 30, 46, 0.6));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.stats-page__additional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.additional-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.additional-stat__label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+}
+
+.additional-stat__value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+}
+
+@media (max-width: 768px) {
+  .stats-page {
+    padding: 1rem;
+  }
+
+  .stats-page__header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .stats-page__title {
+    font-size: 1.5rem;
+  }
+
+  .stats-page__metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-page__weekly-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-page__additional-grid {
+    grid-template-columns: 1fr;
+  }
+}

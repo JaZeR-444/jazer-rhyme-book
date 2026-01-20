@@ -4,10 +4,10 @@
   "description": "Creative knowledge base for rap/music writing retrieval.",
   "main": "index.js",
   "scripts": {
-    "validate": "node src/99_SCRIPTS/validate.js",
-    "build": "node src/99_SCRIPTS/build-indexes.js",
-    "build-all": "node src/99_SCRIPTS/prepare-hub.js",
-    "prepare": "node src/99_SCRIPTS/prepare-hub.js",
+    "validate": "node src/scripts/build/validate.js",
+    "build": "node src/scripts/build/build-indexes.js",
+    "build-all": "node src/scripts/build/prepare-hub.js",
+    "prepare": "node src/scripts/build/prepare-hub.js",
     "dev": "npm run dev --prefix web",
     "start": "npm run dev --prefix web",
     "status": "node src/cli/jazer-cli.js status",
@@ -19,6 +19,6 @@
   "dependencies": {
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
-    "dependencies": "^0.0.1"
+    "recharts": "^3.6.0"
   }
 }

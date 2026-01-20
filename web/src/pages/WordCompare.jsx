@@ -4,6 +4,7 @@ import { ArrowLeft, GitCompare, Share2, Copy, Check } from 'lucide-react';
 import { useDictionaryIndex } from '../lib/hooks';
 import { CompareSelect } from '../components/ui/CompareSelect';
 import { Card, LoadingState } from '../components/ui';
+import { VibeRadarChart } from '../components/discovery';
 import './WordCompare.css';
 
 export function WordCompare() {
@@ -93,6 +94,8 @@ Compared using JaZeR Rhyme Book`;
 
       {word1 && word2 && (
         <>
+          <VibeRadarChart word1={word1} word2={word2} />
+
           <div className="word-compare__actions">
             <button
               className="word-compare__action-btn"
@@ -253,3 +256,6 @@ Compared using JaZeR Rhyme Book`;
     </div>
   );
 }
+
+
+export default WordCompare;

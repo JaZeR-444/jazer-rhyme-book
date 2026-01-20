@@ -428,3 +428,6 @@ export function DictionaryLetter() {
     </div>
   );
 }
+
+
+export default DictionaryLetter;

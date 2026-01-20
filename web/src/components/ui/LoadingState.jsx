@@ -25,3 +25,7 @@ export function LoadingSpinner({ size = 'md', className = '' }) {
         </div>
     );
 }
+
+export function RouteLoading() {
+  return <LoadingState message="INITIALIZING..." size="lg" />;
+}

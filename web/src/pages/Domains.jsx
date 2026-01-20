@@ -86,3 +86,6 @@ export function Domains() {
     </div>
   );
 }
+
+
+export default Domains;

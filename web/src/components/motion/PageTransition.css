@@ -1,0 +1,19 @@
+.page-transition {
+  width: 100%;
+  min-height: 100vh;
+  will-change: transform, opacity;
+}
+
+/* Prevent layout shift during transitions */
+.page-transition > * {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure smooth transforms */
+@media (prefers-reduced-motion: no-preference) {
+  .page-transition {
+    transform: translateZ(0);
+  }
+}

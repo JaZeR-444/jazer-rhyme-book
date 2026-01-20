@@ -1,0 +1,114 @@
+/* Reduced Motion Support */
+/* Respects prefers-reduced-motion media query */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    /* Disable all animations */
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    
+    /* Disable all transitions */
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+    
+    /* Disable scroll animations */
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable keyframe animations */
+  * {
+    animation-name: none !important;
+  }
+
+  /* Disable parallax effects */
+  .parallax,
+  [class*="parallax"] {
+    background-attachment: scroll !important;
+    transform: none !important;
+  }
+
+  /* Stop auto-playing media */
+  video[autoplay],
+  audio[autoplay] {
+    animation: none !important;
+  }
+
+  /* Disable marquee */
+  marquee {
+    -webkit-marquee: none !important;
+  }
+
+  /* Disable hover transforms */
+  *:hover {
+    transform: none !important;
+  }
+
+  /* Keep essential transitions (immediate feedback) */
+  button:active,
+  a:active,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    transition: background-color 0.01ms, border-color 0.01ms, color 0.01ms !important;
+  }
+
+  /* Disable loading spinners animation (but keep them visible) */
+  .spinner,
+  [class*="spinner"],
+  [class*="loading"] {
+    animation: none !important;
+  }
+
+  /* Disable carousels auto-advance */
+  [class*="carousel"],
+  [class*="slider"] {
+    scroll-snap-type: none !important;
+  }
+
+  /* Disable infinite scroll animations */
+  .infinite-scroll {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Reduced motion mode toggle (user preference override) */
+[data-motion="reduced"] *,
+[data-motion="reduced"] *::before,
+[data-motion="reduced"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Motion safe animations (only play if motion is NOT reduced) */
+@media (prefers-reduced-motion: no-preference) {
+  .motion-safe-fade {
+    animation: fadeIn 0.3s ease-in;
+  }
+
+  .motion-safe-slide {
+    animation: slideIn 0.4s ease-out;
+  }
+
+  .motion-safe-scale {
+    animation: scaleIn 0.3s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes scaleIn {
+    from { transform: scale(0.95); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+}

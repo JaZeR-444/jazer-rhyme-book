@@ -4,6 +4,7 @@
  */
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { DraggableCard } from '../workspace/DraggableCard';
 import './WordCard.css';
 
 export function WordCard({
@@ -11,11 +12,20 @@ export function WordCard({
   letter,
   variant = 'grid',
   showQuickActions = true,
-  QuickActionsComponent
+  QuickActionsComponent,
+  enableDrag = true
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
-  return (
+  const dragItem = {
+    id: word.name.toLowerCase(),
+    type: 'word',
+    name: word.name,
+    letter: letter,
+    data: word
+  };
+
+  const content = (
     <div
       className={`word-card word-card--${variant}`}
       onMouseEnter={() => setIsHovered(true)}
@@ -66,5 +76,15 @@ export function WordCard({
         </div>
       )}
     </div>
+  );
+
+  if (!enableDrag) {
+    return content;
+  }
+
+  return (
+    <DraggableCard item={dragItem}>
+      {content}
+    </DraggableCard>
   );
 }

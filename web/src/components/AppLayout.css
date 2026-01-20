@@ -44,11 +44,24 @@
   gap: var(--space-lg);
 }
 
+.app-header__search {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .app-header__search {
+    display: none;
+  }
+}
+
 .app-header__logo {
   display: flex;
   align-items: center;
   text-decoration: none;
   transition: transform var(--duration-short) var(--ease-out);
+  flex-shrink: 0;
 }
 
 .app-header__logo:hover {

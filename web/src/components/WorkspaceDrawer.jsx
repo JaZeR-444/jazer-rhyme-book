@@ -4,6 +4,7 @@ import { useWorkspace } from '../lib/WorkspaceContext';
 import { Link } from 'react-router-dom';
 import { Badge } from './ui';
 import { WorkspaceGraph } from './WorkspaceGraph';
+import { DropZone } from './workspace/DropZone';
 import './WorkspaceDrawer.css';
 
 export function WorkspaceDrawer() {
@@ -74,7 +75,7 @@ export function WorkspaceDrawer() {
         {isOpen ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
       </button>
 
-      <div className="workspace-drawer__content">
+      <DropZone className="workspace-drawer__content">
         <div className="workspace-drawer__header">
           <h3>Pinned Items</h3>
           <div className="workspace-drawer__actions">
@@ -236,7 +237,7 @@ export function WorkspaceDrawer() {
             })}
           </div>
         )}
-      </div>
+      </DropZone>
 
       <WorkspaceGraph isOpen={showGraph} onClose={() => setShowGraph(false)} />
     </div>

@@ -1,9 +1,14 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Database, BookOpen, Search, Code, Zap, Globe } from 'lucide-react';
 import { Button, Card } from '../components/ui';
+import { GenerativeArt } from '../components/ui/GenerativeArt';
+import { TextScramble } from '../components/motion/TextScramble';
+import { MagneticButton } from '../components/interactions';
 import { Logo } from '../components/common/Logo';
 import { RandomDiscovery } from '../components/RandomDiscovery';
 import { FeaturedContent } from '../components/home/FeaturedContent';
+import { DailyDigest } from '../components/home/DailyDigest';
+import { RecommendedFeed } from '../components/home/RecommendedFeed';
 import { Autocomplete } from '../components/ui/Autocomplete';
 import { useDomains, useDictionaryLetters, useSearchIndex } from '../lib/hooks';
 import { useState, useRef } from 'react';
@@ -57,14 +62,23 @@ export function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="hero" ref={heroRef}>
+        {/* Generative Art Background */}
+        <div className="hero__background">
+          <GenerativeArt seed="home-hero" animated={true} />
+        </div>
+
         <div className="hero__content">
           <div className="hero__logo">
             <Logo variant="icon" size="large" className="hero-logo-img" />
           </div>
           <h1 className="hero__title">
-            <span className="hero__title-gradient">Master Flow</span>
+            <TextScramble as="span" className="hero__title-gradient" duration={1.2}>
+              Master Flow
+            </TextScramble>
             <br />
-            <span className="hero__title-accent">Knowledge Hub</span>
+            <TextScramble as="span" className="hero__title-accent" delay={0.3} duration={1}>
+              Knowledge Hub
+            </TextScramble>
           </h1>
           <p className="hero__subtitle">
             The Ultimate AI-Powered Creative Arsenal for Lyricists, Writers, and Knowledge Seekers
@@ -83,14 +97,16 @@ export function Home() {
 
           <div className="hero__actions">
             <Link to="/domains">
-              <Button size="lg" variant="primary" icon={<Database size={20} />}>
+              <MagneticButton size="lg" variant="primary" strength={0.3}>
+                <Database size={20} />
                 Explore Domains
-              </Button>
+              </MagneticButton>
             </Link>
             <Link to="/dictionary">
-              <Button size="lg" variant="secondary" icon={<BookOpen size={20} />}>
+              <MagneticButton size="lg" variant="secondary" strength={0.3}>
+                <BookOpen size={20} />
                 Browse Dictionary
-              </Button>
+              </MagneticButton>
             </Link>
             <RandomDiscovery />
           </div>
@@ -113,6 +129,12 @@ export function Home() {
 
       {/* Featured Content Section */}
       <FeaturedContent />
+
+      {/* Daily Digest Section */}
+      <DailyDigest />
+
+      {/* Personalized Recommendations */}
+      <RecommendedFeed />
 
       {/* Features Section */}
       <section className="features" ref={featuresRef}>
@@ -202,3 +224,6 @@ export function Home() {
     </div>
   );
 }
+
+
+export default Home;

@@ -9,6 +9,7 @@ import { SystemStatus } from './SystemStatus';
 import { HapticFeedback } from './HapticFeedback';
 import { KeyboardShortcutsHelp } from './KeyboardShortcutsHelp';
 import { BottomNav } from './BottomNav';
+import SmartSearch from './search/SmartSearch';
 import { useKeyboardShortcuts } from '../lib/useKeyboardShortcuts';
 import { useWorkspace } from '../lib/WorkspaceContext';
 import './AppLayout.css';
@@ -77,6 +78,23 @@ export function AppLayout() {
           <Link to="/" className="app-header__logo">
             <Logo variant="full" size="small" className="nav-logo" />
           </Link>
+
+          {/* Smart Search Bar */}
+          <div className="app-header__search">
+            <SmartSearch 
+              onSelect={(result) => {
+                if (result.type === 'word') {
+                  const letter = result.word[0].toLowerCase();
+                  navigate(`/dictionary/${letter}/${result.word}`);
+                } else if (result.type === 'entity') {
+                  navigate(`/entities/${result.domain}/${result.id}`);
+                } else if (result.type === 'domain') {
+                  navigate(`/domains/${result.id}`);
+                }
+              }}
+              placeholder="Quick search..."
+            />
+          </div>
 
           {/* Desktop Nav */}
           <nav className="app-nav app-nav--desktop">

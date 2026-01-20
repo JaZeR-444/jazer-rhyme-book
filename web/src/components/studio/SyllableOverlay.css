@@ -1,0 +1,57 @@
+.syllable-overlay {
+  position: relative;
+  pointer-events: none;
+}
+
+.syllable-stats {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  background: var(--bg-secondary, #1a1a1a);
+  border-bottom: 1px solid var(--border-color, #333);
+  font-size: 0.875rem;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary, #999);
+}
+
+.syllable-lines {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.syllable-line {
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 2rem;
+  transition: all 0.2s ease;
+}
+
+.syllable-count {
+  font-size: 0.75rem;
+  color: var(--accent, #6366f1);
+  font-variant-numeric: tabular-nums;
+  transition: all 0.2s ease;
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.syllable-line.hovered .syllable-count {
+  background: rgba(99, 102, 241, 0.2);
+  transform: scale(1.1);
+}

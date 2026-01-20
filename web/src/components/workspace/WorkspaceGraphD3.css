@@ -1,0 +1,226 @@
+.workspace-graph-d3-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workspace-graph-d3-overlay {
+  position: absolute;
+  inset: 0;
+  background: hsla(240, 18%, 10%, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.workspace-graph-d3-content {
+  position: relative;
+  width: 90vw;
+  max-width: 900px;
+  background: hsla(240, 18%, 10%, 0.95);
+  border: 1px solid var(--border-visible, hsla(0, 0%, 100%, 0.12));
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+  animation: modalIn 300ms var(--ease-smooth, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.workspace-graph-d3-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md, 16px);
+  padding: var(--space-md, 20px);
+  border-bottom: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+}
+
+.workspace-graph-d3-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm, 12px);
+  flex: 1;
+}
+
+.workspace-graph-d3-title h3 {
+  margin: 0;
+  font-size: var(--text-h4, 1.25rem);
+  font-weight: var(--weight-bold, 700);
+  color: var(--text-primary, hsl(0, 0%, 95%));
+}
+
+.workspace-graph-d3-count {
+  padding: 4px 12px;
+  background: hsla(180, 100%, 50%, 0.1);
+  border: 1px solid hsla(180, 100%, 50%, 0.3);
+  border-radius: 12px;
+  font-size: var(--text-micro, 0.75rem);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+.workspace-graph-d3-controls {
+  display: flex;
+  gap: var(--space-xs, 8px);
+}
+
+.workspace-graph-d3-controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  border-radius: 8px;
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+  cursor: pointer;
+  transition: all var(--duration-short, 300ms);
+}
+
+.workspace-graph-d3-controls button:hover {
+  background: hsla(180, 100%, 50%, 0.1);
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+.workspace-graph-d3-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  border-radius: 8px;
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+  cursor: pointer;
+  transition: all var(--duration-short, 300ms);
+}
+
+.workspace-graph-d3-close:hover {
+  background: hsla(0, 100%, 50%, 0.1);
+  border-color: hsl(0, 100%, 50%);
+  color: hsl(0, 100%, 50%);
+}
+
+.workspace-graph-d3-canvas-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  background: #0a0a0a;
+}
+
+.workspace-graph-d3-canvas {
+  display: block;
+  max-width: 100%;
+  cursor: grab;
+}
+
+.workspace-graph-d3-canvas:active {
+  cursor: grabbing;
+}
+
+.workspace-graph-d3-empty {
+  text-align: center;
+  color: var(--text-muted, hsl(240, 10%, 40%));
+}
+
+.workspace-graph-d3-empty p:first-child {
+  font-size: var(--text-body, 1rem);
+  font-weight: var(--weight-semibold, 600);
+}
+
+.workspace-graph-d3-hint {
+  margin-top: var(--space-sm, 12px);
+  font-size: var(--text-small, 0.875rem);
+}
+
+.workspace-graph-d3-legend {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md, 16px);
+  padding: var(--space-md, 16px);
+  border-top: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  background: hsla(240, 18%, 8%, 0.5);
+}
+
+.workspace-graph-d3-legend-title {
+  font-size: var(--text-small, 0.875rem);
+  font-weight: var(--weight-semibold, 600);
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+}
+
+.workspace-graph-d3-legend-items {
+  display: flex;
+  gap: var(--space-md, 16px);
+}
+
+.workspace-graph-d3-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs, 8px);
+  font-size: var(--text-small, 0.875rem);
+  color: var(--text-primary, hsl(0, 0%, 95%));
+}
+
+.workspace-graph-d3-legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px currentColor;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .workspace-graph-d3-content {
+    width: 95vw;
+    max-height: 90vh;
+  }
+
+  .workspace-graph-d3-header {
+    flex-wrap: wrap;
+    padding: var(--space-sm, 12px);
+  }
+
+  .workspace-graph-d3-title {
+    flex-basis: 100%;
+  }
+
+  .workspace-graph-d3-canvas-wrapper {
+    min-height: 300px;
+  }
+
+  .workspace-graph-d3-canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  .workspace-graph-d3-legend {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .workspace-graph-d3-content {
+    animation: none;
+  }
+
+  .workspace-graph-d3-controls button,
+  .workspace-graph-d3-close {
+    transition: none;
+  }
+}

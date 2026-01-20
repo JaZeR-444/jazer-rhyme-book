@@ -2,6 +2,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Pin, Sparkles, GitCompare, Copy, Check } from 'lucide-react';
 import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton, Badge } from '../components/ui';
 import { ContinueExploring } from '../components/dictionary/ContinueExploring';
+import { SimilarWords } from '../components/dictionary/SimilarWords';
 import { useDictionaryWord, useDictionaryIndex } from '../lib/hooks';
 import { useWorkspace } from '../lib/WorkspaceContext';
 import { useBrowsingHistory } from '../lib/BrowsingHistoryContext';
@@ -243,7 +244,12 @@ export function DictionaryWord() {
         )}
       </Card>
 
+      <SimilarWords currentWord={{ name: wordName, syllables: wordScheme.syllables, letter: letter.toUpperCase() }} />
+
       <ContinueExploring currentWord={wordName} currentLetter={letter.toUpperCase()} />
     </div>
   );
 }
+
+
+export default DictionaryWord;

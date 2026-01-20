@@ -236,3 +236,6 @@ export function DomainDetail() {
     </div>
   );
 }
+
+
+export default DomainDetail;

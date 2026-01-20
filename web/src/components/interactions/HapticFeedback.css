@@ -1,0 +1,123 @@
+.haptic-button {
+  position: relative;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ripple Effect */
+.haptic-ripple {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(180, 100%, 50%, 0.6) 0%,
+    hsla(180, 100%, 50%, 0) 70%
+  );
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+/* Visual Feedback Toast */
+.visual-feedback {
+  position: fixed;
+  top: var(--space-lg, 40px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+  
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm, 16px);
+  
+  padding: var(--space-sm, 16px) var(--space-md, 24px);
+  background: hsla(240, 18%, 10%, 0.95);
+  backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 8px;
+  border: 1px solid var(--border-visible, hsla(0, 0%, 100%, 0.12));
+  box-shadow: 
+    0 8px 32px hsla(0, 0%, 0%, 0.5),
+    0 0 0 1px hsla(262, 70%, 55%, 0.2);
+  
+  font-family: var(--font-sans);
+  font-size: var(--text-body, 1rem);
+  font-weight: var(--weight-medium, 500);
+  color: var(--text-primary, hsl(0, 0%, 95%));
+  
+  will-change: transform, opacity;
+}
+
+.visual-feedback__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.visual-feedback__message {
+  flex: 1;
+}
+
+/* Feedback Types */
+.visual-feedback--success {
+  border-color: hsl(150, 70%, 45%);
+}
+
+.visual-feedback--success .visual-feedback__icon {
+  background: hsl(150, 70%, 45%);
+  color: white;
+}
+
+.visual-feedback--error {
+  border-color: hsl(0, 70%, 55%);
+}
+
+.visual-feedback--error .visual-feedback__icon {
+  background: hsl(0, 70%, 55%);
+  color: white;
+}
+
+.visual-feedback--warning {
+  border-color: hsl(35, 100%, 60%);
+}
+
+.visual-feedback--warning .visual-feedback__icon {
+  background: hsl(35, 100%, 60%);
+  color: hsl(240, 20%, 6%);
+}
+
+.visual-feedback--info {
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+.visual-feedback--info .visual-feedback__icon {
+  background: var(--accent-neon, hsl(180, 100%, 50%));
+  color: hsl(240, 20%, 6%);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .haptic-ripple {
+    display: none;
+  }
+  
+  .visual-feedback {
+    transition: none;
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .visual-feedback {
+    top: var(--space-md, 24px);
+    left: var(--space-sm, 16px);
+    right: var(--space-sm, 16px);
+    transform: none;
+    max-width: calc(100% - var(--space-lg, 40px));
+  }
+}

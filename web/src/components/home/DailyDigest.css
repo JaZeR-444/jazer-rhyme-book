@@ -1,0 +1,218 @@
+.daily-digest {
+  padding: var(--space-2xl) 0;
+}
+
+.daily-digest__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+}
+
+.daily-digest__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.daily-digest__title h2 {
+  font-size: var(--text-h2);
+  font-weight: var(--weight-bold);
+  margin: 0;
+}
+
+.daily-digest__date {
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-family: var(--font-mono);
+  margin: 0;
+  padding-left: calc(24px + var(--space-sm));
+}
+
+/* Daily Digest Grid */
+.daily-digest__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-lg);
+}
+
+/* Digest Card */
+.digest-card {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.digest-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-xl);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all var(--duration-short) var(--ease-out);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+}
+
+.digest-card__content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-medium) var(--ease-out);
+}
+
+.digest-card:hover .digest-card__content {
+  border-color: var(--accent-primary);
+  background: var(--surface-2);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.digest-card:hover .digest-card__content::before {
+  transform: scaleX(1);
+}
+
+/* Badge */
+.digest-card__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 6px 12px;
+  background: var(--accent-primary-glow);
+  color: var(--accent-primary);
+  border-radius: 20px;
+  font-size: var(--text-micro);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  align-self: flex-start;
+}
+
+.digest-card__badge--secondary {
+  background: rgba(236, 72, 153, 0.1);
+  color: #ec4899;
+}
+
+.digest-card__badge--trending {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+}
+
+/* Title */
+.digest-card__title {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.2;
+  min-height: 3em;
+}
+
+/* Description */
+.digest-card__description {
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  line-height: var(--leading-relaxed);
+  margin: 0;
+  flex: 1;
+}
+
+/* Meta */
+.digest-card__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-secondary);
+  font-size: var(--text-micro);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* CTA */
+.digest-card__cta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--accent-primary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-subtle);
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.digest-card:hover .digest-card__cta {
+  gap: var(--space-sm);
+}
+
+.digest-card__cta svg {
+  transition: transform var(--duration-short) var(--ease-out);
+}
+
+.digest-card:hover .digest-card__cta svg {
+  transform: translateX(4px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .daily-digest {
+    padding: var(--space-xl) 0;
+  }
+
+  .daily-digest__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .digest-card__content {
+    padding: var(--space-lg);
+  }
+
+  .digest-card__title {
+    font-size: var(--text-h4);
+    min-height: auto;
+  }
+
+  .daily-digest__date {
+    padding-left: 0;
+    margin-top: var(--space-xs);
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.digest-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.digest-card:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.digest-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.digest-card:nth-child(3) {
+  animation-delay: 0.2s;
+}

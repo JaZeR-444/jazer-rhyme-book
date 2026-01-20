@@ -1,0 +1,141 @@
+/**
+ * Glassmorphism 2.0 - Enhanced glass effects with:
+ * - Border glow gradients
+ * - Noise/grain overlay
+ * - Standardized backdrop-filter values
+ */
+
+.glass {
+  background: var(--overlay-glass, hsla(240, 15%, 16%, 0.6));
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--border-visible, hsla(0, 0%, 100%, 0.12));
+  position: relative;
+  overflow: hidden;
+}
+
+/* Border Glow Gradient */
+.glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    hsla(262, 70%, 55%, 0.3) 0%,
+    hsla(180, 100%, 50%, 0.2) 50%,
+    hsla(262, 70%, 55%, 0.1) 100%
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--duration-short, 300ms) ease;
+}
+
+.glass:hover::before {
+  opacity: 1;
+}
+
+/* Noise/Grain Overlay */
+.glass::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="300" height="300" filter="url(%23noise)" opacity="0.05"/></svg>');
+  background-size: 150px 150px;
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* Variants */
+.glass--subtle {
+  background: hsla(240, 15%, 16%, 0.4);
+  backdrop-filter: blur(8px) saturate(150%);
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+}
+
+.glass--heavy {
+  background: hsla(240, 15%, 16%, 0.8);
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-backdrop-filter: blur(20px) saturate(200%);
+}
+
+.glass--frosted {
+  background: hsla(240, 15%, 16%, 0.7);
+  backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
+  -webkit-backdrop-filter: blur(16px) saturate(180%) brightness(1.1);
+}
+
+/* Border Glow Color Variants */
+.glass--primary::before {
+  background: linear-gradient(
+    135deg,
+    hsla(262, 70%, 55%, 0.5) 0%,
+    hsla(262, 70%, 55%, 0.2) 100%
+  );
+}
+
+.glass--secondary::before {
+  background: linear-gradient(
+    135deg,
+    hsla(180, 100%, 50%, 0.5) 0%,
+    hsla(180, 100%, 50%, 0.2) 100%
+  );
+}
+
+.glass--warm::before {
+  background: linear-gradient(
+    135deg,
+    hsla(35, 100%, 60%, 0.5) 0%,
+    hsla(35, 100%, 60%, 0.2) 100%
+  );
+}
+
+/* No noise variant */
+.glass--no-noise::after {
+  display: none;
+}
+
+/* Animated border glow */
+.glass--animated::before {
+  animation: borderGlow 3s ease-in-out infinite;
+}
+
+@keyframes borderGlow {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Disable effects for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .glass::before,
+  .glass--animated::before {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Fallback for browsers without backdrop-filter support */
+@supports not (backdrop-filter: blur(12px)) {
+  .glass {
+    background: hsla(240, 15%, 16%, 0.95);
+  }
+  
+  .glass--subtle {
+    background: hsla(240, 15%, 16%, 0.9);
+  }
+  
+  .glass--heavy {
+    background: hsla(240, 15%, 16%, 0.98);
+  }
+}

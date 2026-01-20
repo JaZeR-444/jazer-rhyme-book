@@ -1,0 +1,126 @@
+.flow-analyzer {
+  padding: 1rem;
+  background: var(--bg-secondary, #1a1a1a);
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #333);
+}
+
+.flow-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg-tertiary, #111);
+  border-radius: 6px;
+  border: 1px solid var(--border-color, #333);
+}
+
+.stat-card svg {
+  color: var(--accent, #6366f1);
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #999);
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+}
+
+.cadence-breakdown {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.cadence-badge {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.cadence-badge.fast {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.cadence-badge.moderate {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.cadence-badge.slow {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.flow-patterns {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.flow-line {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #333);
+}
+
+.flow-line:last-child {
+  border-bottom: none;
+}
+
+.line-num {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #999);
+  min-width: 2rem;
+  text-align: right;
+}
+
+.stress-pattern {
+  flex: 1;
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #999);
+  letter-spacing: 0.1em;
+}
+
+.cadence-indicator {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  min-width: 4rem;
+  text-align: center;
+}
+
+.cadence-indicator.fast {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.cadence-indicator.moderate {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.cadence-indicator.slow {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}

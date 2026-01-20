@@ -1,0 +1,223 @@
+.galaxy-view {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a14 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.galaxy-header {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 10;
+}
+
+.galaxy-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.galaxy-subtitle {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.galaxy-controls {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 10;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.galaxy-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+.galaxy-search svg {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.galaxy-search input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  width: 200px;
+  font-size: 0.875rem;
+}
+
+.galaxy-search input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.galaxy-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.galaxy-btn {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.galaxy-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.galaxy-canvas {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.galaxy-tooltip {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 200px;
+  z-index: 20;
+  animation: fadeInUp 0.2s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.tooltip-word {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.tooltip-def {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.tooltip-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.galaxy-legend {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.legend-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.legend-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.legend-icon--star {
+  background: radial-gradient(circle, #667eea 0%, transparent 70%);
+  box-shadow: 0 0 10px #667eea;
+}
+
+.legend-icon--word {
+  background: #4ECDC4;
+}
+
+.legend-icon--orbit {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .galaxy-view {
+    height: 400px;
+  }
+
+  .galaxy-controls {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .galaxy-search input {
+    width: 150px;
+  }
+
+  .galaxy-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .galaxy-legend {
+    display: none;
+  }
+}

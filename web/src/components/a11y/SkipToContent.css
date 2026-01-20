@@ -1,0 +1,370 @@
+/* SkipToContent.css */
+
+/* Skip to content links - only visible when focused */
+.skip-to-content {
+  position: relative;
+  z-index: 9999;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--accent-primary);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: top 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--accent-primary);
+  z-index: 10000;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.skip-link:hover:focus {
+  background: var(--accent-primary-dark);
+  border-color: var(--accent-primary-dark);
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Screen reader only but focusable */
+.sr-only-focusable:not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.sr-only-focusable:focus {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 8px !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important;
+  background: var(--accent-primary) !important;
+  color: white !important;
+  border: 2px solid white !important;
+  border-radius: 4px !important;
+  z-index: 10000 !important;
+}
+
+/* Focus trap indicators */
+[data-focus-trap="active"] {
+  position: relative;
+}
+
+/* Keyboard navigation hints */
+.keyboard-hint-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.2s ease;
+}
+
+.keyboard-hint-toggle:hover {
+  background: var(--accent-primary-dark);
+  transform: scale(1.05);
+}
+
+.keyboard-hint-toggle:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.keyboard-hint {
+  position: fixed;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px var(--shadow-color);
+  padding: 0;
+  z-index: 1001;
+  max-width: 320px;
+  min-width: 280px;
+}
+
+.keyboard-hint--top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.keyboard-hint--top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.keyboard-hint--bottom-left {
+  bottom: 80px;
+  left: 20px;
+}
+
+.keyboard-hint--bottom-right {
+  bottom: 80px;
+  right: 20px;
+}
+
+.keyboard-hint-content {
+  position: relative;
+}
+
+.keyboard-hint-title {
+  margin: 0;
+  padding: 16px 16px 12px;
+  font-size: 1rem;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-secondary);
+}
+
+.keyboard-hint-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.keyboard-hint-close:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.keyboard-hint-close:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 1px;
+}
+
+.keyboard-hint-list {
+  padding: 12px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.keyboard-shortcut {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.85rem;
+}
+
+.keyboard-key {
+  padding: 2px 6px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-secondary);
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  min-width: 24px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.keyboard-description {
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.keyboard-hint-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* High contrast mode adjustments */
+@media (prefers-contrast: high) {
+  .skip-link {
+    border-width: 3px;
+  }
+  
+  .skip-link:focus {
+    outline-width: 3px;
+  }
+  
+  .keyboard-hint {
+    border-width: 2px;
+  }
+  
+  .keyboard-key {
+    border-width: 2px;
+  }
+}
+
+/* Reduced motion adjustments */
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
+  
+  .keyboard-hint-toggle {
+    transition: none;
+  }
+  
+  .keyboard-hint-toggle:hover {
+    transform: none;
+  }
+}
+
+/* Focus indicators for better visibility */
+@media (prefers-contrast: high) {
+  *:focus {
+    outline: 3px solid var(--accent-primary) !important;
+    outline-offset: 2px !important;
+  }
+}
+
+/* Custom focus styles for interactive elements */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Focus styles for custom interactive elements */
+[role="button"]:focus,
+[role="tab"]:focus,
+[role="menuitem"]:focus,
+[role="option"]:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Ensure focus is visible on dark backgrounds */
+.bg-dark *:focus,
+.dark-theme *:focus {
+  outline-color: white;
+}
+
+/* Skip focus on non-interactive decorative elements */
+[aria-hidden="true"],
+.decorative {
+  pointer-events: none;
+}
+
+/* Better focus visibility for cards and interactive areas */
+.card:focus,
+.word-card:focus,
+.collection-card:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--accent-primary)20;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .keyboard-hint-toggle {
+    bottom: 80px; /* Account for mobile bottom navigation */
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  
+  .keyboard-hint {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    bottom: 130px;
+  }
+  
+  .keyboard-hint--bottom-left,
+  .keyboard-hint--bottom-right {
+    left: 16px;
+    right: 16px;
+    bottom: 130px;
+  }
+  
+  .skip-link {
+    left: 16px;
+    right: 16px;
+    text-align: center;
+    top: -50px;
+  }
+  
+  .skip-link:focus {
+    top: 16px;
+  }
+}
+
+/* Touch target improvements for mobile */
+@media (max-width: 768px) {
+  button,
+  a,
+  [role="button"],
+  [tabindex] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .action-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Print styles - hide accessibility helpers */
+@media print {
+  .skip-to-content,
+  .keyboard-hint-toggle,
+  .keyboard-hint,
+  .sr-only-focusable {
+    display: none !important;
+  }
+}

@@ -2,7 +2,7 @@ export { Card, CardHeader, CardBody, CardFooter } from './Card';
 export { Button } from './Button';
 export { Badge } from './Badge';
 export { SearchBar } from './SearchBar';
-export { LoadingState, LoadingSpinner } from './LoadingState';
+export { LoadingState, LoadingSpinner, RouteLoading } from './LoadingState';
 export { EmptyState } from './EmptyState';
 export { MarkdownRenderer } from './MarkdownRenderer';
 export { Breadcrumbs } from './Breadcrumbs';
@@ -10,4 +10,3 @@ export { FavoriteButton } from './FavoriteButton';
 export { GenerativeArt } from './GenerativeArt';
 export { CopyButton } from './CopyButton';
 export { CompareSelect } from './CompareSelect';
-

@@ -17,7 +17,15 @@
   overflow: hidden;
 }
 
-/* Animated gradient background */
+/* Generative Art Background Layer */
+.hero__background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* Animated gradient background overlay */
 .hero::before {
   content: '';
   position: absolute;
@@ -31,6 +39,7 @@
   opacity: 0.3;
   pointer-events: none;
   animation: heroGlow 8s ease-in-out infinite alternate;
+  z-index: 0;
 }
 
 @keyframes heroGlow {

@@ -6,6 +6,9 @@
  * Dark-mode-first, neon as punctuation, high contrast.
  */
 
+/* Import glassmorphism system */
+@import './styles/glassmorphism.css';
+
 /* ============================================
    COLOR SYSTEM
    ============================================ */

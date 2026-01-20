@@ -1,15 +1,19 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Search as SearchIcon, Filter, X } from 'lucide-react';
+import { Search as SearchIcon, Filter, X, Info } from 'lucide-react';
 import Fuse from 'fuse.js';
 import { SearchBar, LoadingState, EmptyState, Badge, Button } from '../components/ui';
 import { EntityCard } from '../components/EntityCard';
+import { SearchHistory } from '../components/search/SearchHistory';
 import { Link } from 'react-router-dom';
 import { useSearchIndex } from '../lib/hooks';
+import { useSearchHistory } from '../lib/SearchHistoryContext';
+import { parseSearchQuery, applySearchFilters, applyWordFilters, describeSearchQuery } from '../lib/searchParser';
 import { domainNames } from '../lib/data/knowledgeHub';
 import './Search.css';
 
 export function Search() {
   const { searchIndex, loading } = useSearchIndex();
+  const { addToHistory } = useSearchHistory();
   const [query, setQuery] = useState('');
   const [typeFilter, setTypeFilter] = useState('all'); // 'all', 'entity', 'word'
   const [domainFilter, setDomainFilter] = useState([]);
@@ -17,6 +21,7 @@ export function Search() {
   const [eraFilter, setEraFilter] = useState('all');
   const [showFilters, setShowFilters] = useState(false);
   const [results, setResults] = useState([]);
+  const [parsedQuery, setParsedQuery] = useState(null);
 
   // Extract unique tags and eras from entities
   const availableTags = useMemo(() => {
@@ -56,35 +61,61 @@ export function Search() {
     });
   }, [searchIndex]);
 
-  // Perform search with filters
+  // Perform search with filters and advanced syntax
   useEffect(() => {
     if (!query || !entityFuse || !wordFuse) {
       setResults([]);
+      setParsedQuery(null);
       return;
     }
 
-    let entityResults = typeFilter !== 'word' ? entityFuse.search(query).map(r => r.item) : [];
-    const wordResults = typeFilter !== 'entity' ? wordFuse.search(query).map(r => r.item) : [];
+    // Parse the query for advanced syntax
+    const parsed = parseSearchQuery(query);
+    setParsedQuery(parsed);
 
-    // Apply domain filter
+    // Add to search history
+    addToHistory(query);
+
+    // Get base search results from Fuse
+    let entityResults = typeFilter !== 'word' ? entityFuse.search(query).map(r => r.item) : [];
+    let wordResults = typeFilter !== 'entity' ? wordFuse.search(query).map(r => r.item) : [];
+
+    // Apply advanced filters from parsed query
+    if (parsed.filters.domains.length > 0) {
+      entityResults = entityResults.filter(e => parsed.filters.domains.includes(e.domain));
+    }
+
+    if (parsed.filters.tags.length > 0) {
+      entityResults = entityResults.filter(e =>
+        e.tags && parsed.filters.tags.some(tag => e.tags.includes(tag))
+      );
+    }
+
+    if (parsed.filters.eras.length > 0) {
+      entityResults = entityResults.filter(e => parsed.filters.eras.includes(e.era));
+    }
+
+    if (parsed.filters.syllables !== null) {
+      wordResults = wordResults.filter(w => w.syllables === parsed.filters.syllables);
+    }
+
+    // Apply existing UI filters (backward compatibility)
     if (domainFilter.length > 0) {
       entityResults = entityResults.filter(e => domainFilter.includes(e.domain));
     }
 
-    // Apply tag filter
     if (tagFilter.length > 0) {
-      entityResults = entityResults.filter(e => 
+      entityResults = entityResults.filter(e =>
         e.tags && tagFilter.some(tag => e.tags.includes(tag))
       );
     }
 
-    // Apply era filter
     if (eraFilter !== 'all') {
       entityResults = entityResults.filter(e => e.era === eraFilter);
     }
 
     setResults([...entityResults, ...wordResults]);
-  }, [query, typeFilter, domainFilter, tagFilter, eraFilter, entityFuse, wordFuse]);
+  }, [query, typeFilter, domainFilter, tagFilter, eraFilter, entityFuse, wordFuse, addToHistory]);
 
   if (loading) {
     return <LoadingState message="Building search index..." />;
@@ -222,16 +253,51 @@ export function Search() {
       </div>
 
       {query === '' ? (
-        <div style={{ // Quick inline style for empty spacer to keep hero centered vertically if needed 
-            marginTop: '2rem' 
-        }}>
-           {/* Visual space or featured tags could go here */}
+        <div className="search-page__empty">
+          <SearchHistory onSelectQuery={setQuery} />
+
+          <div className="search-syntax-help">
+            <div className="syntax-help-header">
+              <Info size={18} />
+              <h3>Advanced Search Syntax</h3>
+            </div>
+            <div className="syntax-help-examples">
+              <div className="syntax-example">
+                <code>tag:boom-bap</code>
+                <span>Filter by tag</span>
+              </div>
+              <div className="syntax-example">
+                <code>era:1990s</code>
+                <span>Filter by era</span>
+              </div>
+              <div className="syntax-example">
+                <code>domain:music</code>
+                <span>Filter by domain</span>
+              </div>
+              <div className="syntax-example">
+                <code>syllables:3</code>
+                <span>Filter by syllable count</span>
+              </div>
+              <div className="syntax-example">
+                <code>"exact phrase"</code>
+                <span>Exact match search</span>
+              </div>
+            </div>
+          </div>
         </div>
       ) : results.length > 0 ? (
         <div className="search-page__results">
-          <p className="search-page__count">
-            Found {results.length} results for "{query}"
-          </p>
+          <div className="search-page__results-header">
+            <p className="search-page__count">
+              Found {results.length} results for "{query}"
+            </p>
+            {parsedQuery && (
+              <p className="search-page__query-description">
+                <Info size={14} />
+                {describeSearchQuery(parsedQuery)}
+              </p>
+            )}
+          </div>
 
           <div className="search-page__grid">
             {results.map((result, idx) => {
@@ -275,3 +341,6 @@ export function Search() {
     </div>
   );
 }
+
+
+export default Search;

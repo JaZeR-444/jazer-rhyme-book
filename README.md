@@ -592,20 +592,25 @@ jazer-rhyme-book/
 │   │       └── README.md                       # Auto-generated warning
 │   └── package.json
 │
-├── ⚙️ scripts/                                 # Build & validation tools
-│   ├── validate.js                             # JSON Schema validator
-│   ├── build-indexes.js                        # Index generator
-│   ├── prepare-web-data.js                     # Web build preparation
-│   └── dictionary-manager.js                   # Dictionary CLI tool
-│
-├── 🔧 src/99_SCRIPTS/                          # Core build scripts
-│   ├── prepare-hub.js                          # Unified build script (NEW)
-│   ├── archive-scripts.js                      # Archive legacy scripts (NEW)
-│   ├── sync-data.js                            # Data synchronization
-│   └── build-graph-data.js                     # Graph data builder
+├── ⚙️ src/scripts/                             # Organized Build & maintenance tools
+│   ├── build/                                  # Build and preparation scripts
+│   │   ├── prepare-hub.js                      # Unified build script
+│   │   ├── build-indexes.js                    # Index generator
+│   │   ├── validate.js                         # JSON Schema validator
+│   │   └── build-graph-data.js                 # Graph data builder
+│   ├── data/                                   # Data entry and expansion tools
+│   │   ├── auto_expand_dictionary.py           # Word bank automation
+│   │   └── add_..._words.py                    # Letter-specific expansion
+│   ├── maintenance/                            # Cleanup and migration tools
+│   │   ├── archive-scripts.js                  # Legacy script archiving
+│   │   ├── fix_data.js                         # Data repair utilities
+│   │   └── remove_words.js                     # Dictionary pruning
+│   └── utils/                                  # Helper scripts
+│       ├── copy_audio.js                       # Audio asset management
+│       └── generate_tree.py                    # Directory visualization
 │
 ├── 🤖 src/cli/                                 # CLI tools
-│   └── jazer-cli.js                            # Main CLI (NEW)
+│   └── jazer-cli.js                            # Main CLI (jazer command)
 │
 │
 ├── 📋 schemas/                                 # JSON Schema definitions

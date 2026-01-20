@@ -1,0 +1,201 @@
+.hover-card {
+  position: relative;
+  transition: transform var(--duration-short, 300ms) ease;
+}
+
+.hover-card--hovered {
+  transform: translateY(-2px);
+  z-index: 100;
+}
+
+.hover-card--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.hover-card__content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Overlay Container */
+.hover-card__overlay {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* Position Variants */
+.hover-card--center .hover-card__overlay {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-card--top .hover-card__overlay {
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hover-card--bottom .hover-card__overlay {
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Overlay Content */
+.hover-card__overlay-content {
+  background: hsla(240, 18%, 10%, 0.95);
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--border-visible, hsla(0, 0%, 100%, 0.12));
+  border-radius: 8px;
+  padding: var(--space-sm, 16px);
+  min-width: 200px;
+  max-width: 320px;
+  box-shadow: 
+    0 8px 32px hsla(0, 0%, 0%, 0.5),
+    0 0 0 1px hsla(262, 70%, 55%, 0.2),
+    inset 0 0 20px hsla(0, 0%, 0%, 0.3);
+  font-family: var(--font-mono, monospace);
+  font-size: var(--text-small, 0.875rem);
+  
+  /* Noise texture */
+  position: relative;
+}
+
+.hover-card__overlay-content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="300" height="300" filter="url(%23noise)" opacity="0.05"/></svg>');
+  background-size: 100px 100px;
+  opacity: 0.3;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Title */
+.hover-card__overlay-title {
+  font-weight: var(--weight-bold, 700);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+  margin-bottom: var(--space-xs, 8px);
+  padding-bottom: var(--space-xs, 8px);
+  border-bottom: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--text-small, 0.875rem);
+}
+
+/* List */
+.hover-card__overlay-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs, 8px);
+}
+
+.hover-card__overlay-item {
+  display: flex;
+  gap: var(--space-xs, 8px);
+  color: var(--text-primary, hsl(0, 0%, 95%));
+  line-height: 1.4;
+  will-change: transform, opacity;
+}
+
+.hover-card__overlay-label {
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+  font-weight: var(--weight-medium, 500);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.hover-card__overlay-value {
+  color: var(--text-primary, hsl(0, 0%, 95%));
+  flex: 1;
+}
+
+/* Footer */
+.hover-card__overlay-footer {
+  margin-top: var(--space-sm, 16px);
+  padding-top: var(--space-xs, 8px);
+  border-top: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  color: var(--text-muted, hsl(240, 10%, 40%));
+  font-size: var(--text-micro, 0.75rem);
+  font-style: italic;
+}
+
+/* Variant: Minimal */
+.hover-card--minimal .hover-card__overlay-content {
+  padding: var(--space-xs, 8px) var(--space-sm, 16px);
+  min-width: 160px;
+}
+
+.hover-card--minimal .hover-card__overlay-title {
+  font-size: var(--text-micro, 0.75rem);
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.hover-card--minimal .hover-card__overlay-item {
+  font-size: var(--text-micro, 0.75rem);
+}
+
+/* Variant: Detailed */
+.hover-card--detailed .hover-card__overlay-content {
+  padding: var(--space-md, 24px);
+  max-width: 400px;
+}
+
+.hover-card--detailed .hover-card__overlay-title {
+  font-size: var(--text-body, 1rem);
+}
+
+/* Scan Line Effect */
+.hover-card--hovered .hover-card__overlay-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--accent-neon, hsl(180, 100%, 50%)) 50%,
+    transparent 100%
+  );
+  animation: scanLine 2s linear infinite;
+}
+
+@keyframes scanLine {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(200px);
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .hover-card {
+    transition: none;
+  }
+  
+  .hover-card--hovered {
+    transform: none;
+  }
+  
+  .hover-card__overlay-content::before {
+    animation: none;
+  }
+}
+
+/* Mobile - Disable hover overlays on touch */
+@media (hover: none) and (pointer: coarse) {
+  .hover-card__overlay {
+    display: none;
+  }
+}

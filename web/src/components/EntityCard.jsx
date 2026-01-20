@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
 import { Badge, GenerativeArt } from './ui';
+import { EntityHoverCard } from './interactions';
+import { useFeedback } from './interactions';
 import { Pin, Heart } from 'lucide-react';
 import { useWorkspace } from '../lib/WorkspaceContext';
 import { useEntityLikes } from '../lib/EntityLikesContext';
+import { DraggableCard } from './workspace/DraggableCard';
 import './EntityCard.css';
 
 export function EntityCard({ entity, domain }) {
   const { isPinned, addItem, removeItem } = useWorkspace();
   const { isLiked, toggleLike } = useEntityLikes();
+  const { showFeedback } = useFeedback();
   const pinned = isPinned(entity.id, 'entity');
   const liked = isLiked(entity.id, domain);
 
@@ -17,6 +21,7 @@ export function EntityCard({ entity, domain }) {
     
     if (pinned) {
       removeItem(entity.id, 'entity');
+      showFeedback('info', `Removed ${entity.name} from workspace`);
     } else {
       addItem({
         id: entity.id,
@@ -25,6 +30,7 @@ export function EntityCard({ entity, domain }) {
         subtitle: entity.type,
         link: `/entities/${domain}/${entity.id}`
       });
+      showFeedback('success', `Added ${entity.name} to workspace!`);
     }
   };
 
@@ -32,13 +38,34 @@ export function EntityCard({ entity, domain }) {
     e.preventDefault();
     e.stopPropagation();
     toggleLike(entity.id, domain);
+    showFeedback(liked ? 'info' : 'success', liked ? 'Removed from favorites' : 'Added to favorites');
+  };
+
+  const dragItem = {
+    id: entity.id,
+    type: 'entity',
+    title: entity.name,
+    subtitle: entity.type,
+    link: `/entities/${domain}/${entity.id}`,
+    data: entity,
+    domain
   };
 
   return (
-    <Link
-      to={`/entities/${domain}/${entity.id}`}
-      className={`entity-card ${liked ? 'is-liked' : ''}`}
+    <DraggableCard item={dragItem}>
+      <EntityHoverCard
+      entity={{
+        name: entity.name,
+        domain: domain,
+        category: entity.type,
+        tags: entity.tags,
+        vibe: entity.vibe
+      }}
     >
+      <Link
+        to={`/entities/${domain}/${entity.id}`}
+        className={`entity-card ${liked ? 'is-liked' : ''}`}
+      >
       {/* Liked indicator - small heart on the card */}
       {liked && (
         <div className="entity-card__liked-badge">
@@ -99,6 +126,8 @@ export function EntityCard({ entity, domain }) {
       )}
       </div>
     </Link>
+    </EntityHoverCard>
+    </DraggableCard>
   );
 }
 

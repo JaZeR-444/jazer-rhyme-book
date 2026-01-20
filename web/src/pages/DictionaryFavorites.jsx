@@ -64,3 +64,6 @@ export function DictionaryFavorites() {
     </div>
   );
 }
+
+
+export default DictionaryFavorites;

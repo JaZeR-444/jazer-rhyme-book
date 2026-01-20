@@ -1,0 +1,59 @@
+.scanning-lines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.scanning-lines__line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    currentColor 50%,
+    transparent 100%
+  );
+  filter: blur(1px);
+  will-change: transform, opacity;
+}
+
+/* Intensity variants */
+.scanning-lines--subtle .scanning-lines__line {
+  opacity: 0.15;
+  height: 1px;
+}
+
+.scanning-lines--medium .scanning-lines__line {
+  opacity: 0.25;
+  height: 2px;
+}
+
+.scanning-lines--high .scanning-lines__line {
+  opacity: 0.4;
+  height: 3px;
+  box-shadow: 0 0 8px currentColor;
+}
+
+/* Color variants */
+.scanning-lines--primary {
+  color: var(--accent-primary, hsl(262, 70%, 55%));
+}
+
+.scanning-lines--secondary {
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+.scanning-lines--warm {
+  color: var(--accent-warm, hsl(35, 100%, 60%));
+}
+
+/* Disable for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .scanning-lines {
+    display: none;
+  }
+}

@@ -1,0 +1,409 @@
+/* PronunciationGuide.css */
+
+.pronunciation-guide {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.pronunciation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.pronunciation-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.tts-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.tts-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-secondary);
+  border-radius: 6px;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tts-btn:hover:not(:disabled) {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border-color: var(--border-primary);
+}
+
+.tts-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.tts-btn--play.playing {
+  background: var(--accent-primary);
+  color: white;
+  border-color: var(--accent-primary);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.tts-btn--mute.muted {
+  background: var(--error-color);
+  color: white;
+  border-color: var(--error-color);
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.pronunciation-display {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.phonetic-spelling,
+.ipa-notation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.phonetic-spelling label,
+.ipa-notation label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  min-width: 70px;
+}
+
+.phonetic-text,
+.ipa-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border-secondary);
+}
+
+.ipa-text {
+  font-size: 1.2rem;
+  color: var(--accent-primary);
+  font-weight: 500;
+}
+
+.syllable-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.syllable-breakdown label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.syllables-container {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.syllable-button {
+  padding: 6px 12px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-secondary);
+  border-radius: 20px;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.syllable-button:hover:not(:disabled) {
+  background: var(--accent-primary);
+  color: white;
+  border-color: var(--accent-primary);
+  transform: translateY(-1px);
+}
+
+.syllable-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.syllable-button:active {
+  transform: translateY(0);
+}
+
+.tts-settings {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-secondary);
+}
+
+.setting-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.setting-group label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  min-width: 80px;
+}
+
+.rate-slider {
+  flex: 1;
+  max-width: 120px;
+  height: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 2px;
+  outline: none;
+  appearance: none;
+}
+
+.rate-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rate-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.rate-value {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  min-width: 40px;
+  text-align: right;
+}
+
+.tts-unavailable {
+  margin-top: 12px;
+  padding: 8px;
+  background: var(--warning-bg);
+  border: 1px solid var(--warning-border);
+  border-radius: 6px;
+  color: var(--warning-text);
+  font-size: 0.85rem;
+}
+
+.tts-unavailable p {
+  margin: 0;
+}
+
+/* Pronunciation Comparison */
+
+.pronunciation-comparison {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.pronunciation-comparison h4 {
+  margin: 0 0 16px;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.comparison-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.comparison-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-secondary);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.word-name {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+/* Rhyme Pronunciation Group */
+
+.rhyme-pronunciation-group {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.rhyme-pronunciation-group h4 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.rhyme-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rhyme-item {
+  border: 1px solid var(--border-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.rhyme-word-btn {
+  width: 100%;
+  padding: 12px 16px;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.rhyme-word-btn:hover {
+  background: var(--bg-hover);
+}
+
+.rhyme-word-btn.expanded {
+  background: var(--accent-primary)10;
+}
+
+.word-text {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.phonetic-preview {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.expanded-pronunciation {
+  padding: 12px 16px;
+  border-top: 1px solid var(--border-secondary);
+  background: var(--bg-tertiary);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .pronunciation-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  
+  .tts-controls {
+    justify-content: center;
+  }
+  
+  .phonetic-spelling,
+  .ipa-notation {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+  
+  .setting-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .pronunciation-guide {
+    padding: 12px;
+  }
+  
+  .syllables-container {
+    gap: 4px;
+  }
+  
+  .syllable-button {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Dark mode adjustments */
+
+@media (prefers-color-scheme: dark) {
+  .phonetic-text,
+  .ipa-text {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* High contrast mode */
+
+@media (prefers-contrast: high) {
+  .tts-btn,
+  .syllable-button {
+    border-width: 2px;
+  }
+  
+  .phonetic-text,
+  .ipa-text {
+    border-width: 2px;
+  }
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .tts-btn--play.playing {
+    animation: none;
+  }
+  
+  .syllable-button:hover {
+    transform: none;
+  }
+  
+  .tts-btn,
+  .syllable-button {
+    transition: none;
+  }
+}

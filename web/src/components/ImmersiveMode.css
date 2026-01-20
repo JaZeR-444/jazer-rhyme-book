@@ -1,0 +1,368 @@
+.immersive-mode {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: background 0.8s ease;
+}
+
+/* Scanline Effect */
+.immersive-mode__scanlines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    transparent 1px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.1) 3px
+  );
+  animation: scanline 8s linear infinite;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100px); }
+}
+
+/* Floating Particles */
+.immersive-mode__particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--accent-color, #00FFFF);
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: float linear infinite;
+  box-shadow: 0 0 10px var(--accent-color, #00FFFF);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Top Control Bar */
+.immersive-mode__topbar {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.immersive-mode__vibe-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.vibe-icon {
+  font-size: 1.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.vibe-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.immersive-mode__controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.control-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.control-btn.active {
+  background: var(--accent-color);
+  color: #000;
+  border-color: var(--accent-color);
+}
+
+.control-btn.close-btn:hover {
+  background: rgba(255, 0, 0, 0.2);
+  border-color: #ff0044;
+  color: #ff0044;
+}
+
+/* Vibe Selector Panel */
+.immersive-mode__vibe-panel {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  padding: 1.5rem;
+  border-radius: 16px;
+  min-width: 500px;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.immersive-mode__vibe-panel h3 {
+  margin: 0 0 1rem;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.vibe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.vibe-card {
+  aspect-ratio: 1;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.vibe-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
+}
+
+.vibe-card:hover::before {
+  opacity: 0.5;
+}
+
+.vibe-card:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.vibe-card.active {
+  border-color: #00FFFF;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.vibe-card__icon {
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.vibe-card__name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* Main Content Area */
+.immersive-mode__content {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.immersive-editor {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  font-family: 'Inter', system-ui, sans-serif;
+  resize: none;
+  outline: none;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.immersive-editor:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 30px rgba(var(--accent-color), 0.2);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.immersive-editor::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+}
+
+/* Studio Player - Bottom */
+.immersive-mode__player {
+  position: relative;
+  z-index: 100;
+  padding: 1rem 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Ghost Assistant - Side */
+.immersive-mode__ghost {
+  position: fixed;
+  right: 0;
+  top: 80px;
+  bottom: 0;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 90;
+  overflow-y: auto;
+  animation: slideInRight 0.4s ease;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Ambient Glow */
+.immersive-mode__glow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+  animation: glowPulse 6s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.5; transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .immersive-mode__vibe-panel {
+    min-width: 90vw;
+    left: 5vw;
+    transform: none;
+  }
+
+  .vibe-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .immersive-editor {
+    font-size: 1.125rem;
+    padding: 1.5rem;
+  }
+
+  .immersive-mode__ghost {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    max-height: 40vh;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .immersive-mode__content {
+    padding: 1rem;
+  }
+}

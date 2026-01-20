@@ -1,3 +1,5 @@
+@import '../../styles/glassmorphism.css';
+
 .card {
   background: var(--surface-1);
   border: 1px solid var(--border-subtle);
@@ -6,10 +8,9 @@
   transition: all var(--duration-short) var(--ease-out);
 }
 
-.card--glass {
-  background: var(--overlay-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+/* Glass variant now uses standardized glassmorphism */
+.card.glass {
+  border-radius: 12px;
 }
 
 .card--elevated {
