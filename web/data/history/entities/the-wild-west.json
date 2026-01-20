@@ -1,0 +1,16 @@
+{
+  "id": "the-wild-west",
+  "type": "history",
+  "name": "The Wild West",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The frontier period of the American West, characterized by outlaws, lawmen, and expansion.",
+  "tags": ["grit", "classic", "americana", "rebellion"],
+  "angles": ["lawlessness", "ruggedness", "frontier justice"],
+  "bar_seeds": ["six shooter", "wanted poster", "tumbleweed streets"],
+  "key_dates": ["1865", "1895"],
+  "location": "Western United States",
+  "impact": "Shaped the American identity of individualism and grit.",
+  "major_figures": ["Billy the Kid", "Wyatt Earp", "Sitting Bull"],
+  "cultural_shift": "Romanticization of the outlaw and the rugged pioneer."
+}

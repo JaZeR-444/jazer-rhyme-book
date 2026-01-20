@@ -1,0 +1,17 @@
+{
+  "id": "market-cap",
+  "type": "business-economics",
+  "name": "Market Capitalization",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The total market value of a company's outstanding shares of stock.",
+  "tags": ["technical", "stock-market", "wealth", "metric"],
+  "angles": ["total-valuation", "market-dominance", "scale-of-success"],
+  "bar_seeds": ["trillion dollar cap", "market value high", "dominating the board"],
+  "related_ids": ["stock-market", "unicorn-company"],
+  "industry": "Finance",
+  "core_principle": "Determining company size through share price.",
+  "jargon": ["Outstanding shares", "Float", "Valuation"],
+  "key_metrics": ["Price per share", "Total shares"],
+  "archetypes": ["CEO", "Stock Analyst"]
+}

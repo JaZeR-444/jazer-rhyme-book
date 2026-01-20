@@ -1,0 +1,21 @@
+{
+  "id": "tame-impala",
+  "type": "music",
+  "name": "Tame Impala",
+  "aliases": ["Kevin Parker", "TI"],
+  "era": "2007-Present",
+  "tags": ["psychedelic", "electronic", "dreamy", "retro", "synth"],
+  "one_liner": "An Australian psychedelic project known for dreamy electronic sounds and retro influences.",
+  "angles": ["psychedelic electronica", "retro-futuristic", "dreamy soundscapes"],
+  "bar_seeds": ["currents", "lonerism", "innerspeaker", "the slow rush"],
+  "genre": ["Psychedelic Rock", "Electronic", "Synth Pop"],
+  "era_detail": "Started in 2007, major success in 2010s.",
+  "signature_songs": ["Elephant", "The Less I Know The Better", "Feels Like We Only Go Backwards"],
+  "sonic_descriptors": ["dreamy", "reverb-heavy", "retro"],
+  "influence_tree": ["Pink Floyd", "George Harrison"],
+  "aesthetic": "Psychedelic, retro, dreamy",
+  "related_ids": ["maccabees", "pond"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

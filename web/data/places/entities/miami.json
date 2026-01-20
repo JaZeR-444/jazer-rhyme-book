@@ -1,0 +1,17 @@
+{
+  "id": "miami",
+  "type": "places",
+  "name": "Miami",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A vibrant coastal city known for its Art Deco architecture, nightlife, and Latin influence.",
+  "tags": ["vibrant", "luxury", "beach", "latin"],
+  "angles": ["neon nights", "cocaine-cowboys heritage", "ocean drive style"],
+  "bar_seeds": ["magic city", "vice city", "south beach heat"],
+  "related_ids": ["art-deco", "neon"],
+  "place_type": "city",
+  "vibe": "Energetic, opulent, and tropical.",
+  "sensory_cues": ["Palm trees", "Neon lights", "Salt air", "Salsa music"],
+  "cultural_refs": ["Miami Vice", "Scarface", "Rick Ross"],
+  "bar_angles": ["Living in the sun", "The white sand hustle", "Fast cars and palm trees"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fate",
+  "type": "time-energy",
+  "name": "Fate",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The development of events beyond a person's control, regarded as determined by a supernatural power.",
+  "tags": ["esoteric", "fate", "philosophical-ideas", "classic"],
+  "angles": ["destiny", "determinism", "the script"],
+  "bar_seeds": ["written in stone", "sealed lips", "the weavers of the thread"],
+  "related_ids": ["determinism", "karma"],
+  "concept_type": "Metaphysical",
+  "perception": "A feeling of powerlessness mixed with purpose.",
+  "physics_basis": "N/A - Deterministic.",
+  "cultural_view": "Often seen as a tragic or heroic burden.",
+  "idioms": ["Meant to be", "Seal your fate", "The hand you're dealt"]
+}

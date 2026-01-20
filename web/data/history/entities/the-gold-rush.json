@@ -1,0 +1,17 @@
+{
+  "id": "the-gold-rush",
+  "type": "history",
+  "name": "The Gold Rush",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A rapid movement of people to a newly discovered goldfield, most famously in California in 1849.",
+  "tags": ["hustle", "greed", "grit", "history"],
+  "angles": ["fortune", "risk", "migration"],
+  "bar_seeds": ["panning for gold", "forty-niners", "mountain of wealth"],
+  "related_ids": ["the-wild-west"],
+  "key_dates": ["1848", "1855"],
+  "location": "California, USA",
+  "impact": "Led to rapid population growth and the economic development of the American West.",
+  "major_figures": ["James W. Marshall", "Leland Stanford"],
+  "cultural_shift": "The ultimate manifestation of the American Dream: hitting it big through risk and labor."
+}

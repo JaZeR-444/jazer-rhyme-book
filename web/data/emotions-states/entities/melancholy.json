@@ -1,0 +1,20 @@
+{
+  "id": "melancholy",
+  "type": "emotions-states",
+  "name": "Melancholy",
+  "aliases": ["The Blues", "Gloom", "Sorrow"],
+  "era": "Universal",
+  "tags": ["negative", "low-energy", "deep", "reflective"],
+  "one_liner": "A feeling of pensive sadness, typically with no obvious cause.",
+  "angles": ["the beauty in sadness", "rainy day reflection", "the weight of the past"],
+  "bar_seeds": ["gray skies inside", "shadow of the soul", "echoes of loss", "cold coffee"],
+  "intensity": "Moderate to High",
+  "physical_symptoms": ["Lethargy", "Heavy chest", "Slow movements", "Aching heart"],
+  "triggers": ["Loss", "Nostalgia", "Loneliness", "Existential reflection"],
+  "action_urge": "To withdraw, to reflect, to create",
+  "opposites": ["Euphoria", "Joy"],
+  "related_ids": ["lo-fi", "nihilism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lamborghini-aventador",
+  "type": "vehicles",
+  "name": "Lamborghini Aventador",
+  "aliases": ["Lambo", "Aventador"],
+  "era": "2010s-Present",
+  "tags": ["luxury-car", "speed", "status", "italian"],
+  "one_liner": "A mid-engine supercar that epitomizes aggressive design, extreme performance, and wealth.",
+  "angles": ["the ultimate flex", "aggressive geometry", "raw power"],
+  "bar_seeds": ["scissor doors", "v12 engine roar", "bull on the hood", "carbon fiber wings"],
+  "vehicle_type": "Supercar",
+  "engine_type": "6.5 L V12",
+  "top_speed": "217 mph",
+  "cultural_status": "Top-tier status symbol in hip-hop and business.",
+  "design_features": ["Scissor doors", "Sharp, geometric lines", "Mid-engine layout"],
+  "related_ids": ["luxury"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

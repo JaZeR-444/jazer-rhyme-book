@@ -1,0 +1,17 @@
+{
+  "id": "matrioshka-brain",
+  "type": "science-future",
+  "name": "Matrioshka Brain",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical megastructure capable of processing enormous amounts of data by consuming the entire power output of a star.",
+  "tags": ["futuristic", "technical", "massive", "energy"],
+  "angles": ["infinite computation", "solar computer", "computational peak"],
+  "bar_seeds": ["star into a server", "layers of logic", "thinking with the sun"],
+  "related_ids": ["dyson-sphere", "kardashev-scale"],
+  "field": "Futurism / Computing",
+  "hypothesis": "Computing power is limited only by the energy and matter available in a star system.",
+  "implications": ["Infinite virtual worlds", "Simulating entire universes", "Superintelligent habitats"],
+  "technologies": ["Dyson Shells", "Nano-computation"],
+  "ethical_concerns": ["Resource consumption", "Simulated life rights"]
+}

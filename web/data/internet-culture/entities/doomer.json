@@ -1,0 +1,18 @@
+{
+  "id": "doomer",
+  "type": "internet-culture",
+  "name": "Doomer",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A variation of the Wojak character representing a person (usually a young man) with a pessimistic, nihilistic worldview.",
+  "tags": ["melancholy", "nihilism", "wojak", "dark"],
+  "angles": ["blackpilled", "night-walks", "despair"],
+  "bar_seeds": ["black hoodie on", "cigarette in the dark", "nothing matters"],
+  "related_ids": ["wojak", "nihilism"],
+  "format": "Character Archetype",
+  "origin_platform": "4chan",
+  "meaning": "Exhaustion with modern life and a belief in the futility of effort.",
+  "remix_rules": ["Beanie and hoodie", "Dark circles under eyes", "Cigarette", "Listening to post-punk"],
+  "lifespan_risk": "High (Cultural resonance)",
+  "example_lines": ["Walking through the city at 3AM like a doomer", "Future looking dim, I'm just watching the screen fade"]
+}

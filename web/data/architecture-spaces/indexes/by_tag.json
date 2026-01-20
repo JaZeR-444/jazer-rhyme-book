@@ -1,0 +1,532 @@
+{
+  "classic": [
+    "amphitheater",
+    "art-nouveau-architecture",
+    "baroque-architecture",
+    "clock-tower",
+    "colosseum",
+    "diner",
+    "dojo",
+    "gothic-castle",
+    "lighthouse",
+    "pagoda",
+    "postmodern-architecture",
+    "victorian-manor"
+  ],
+  "public": [
+    "amphitheater",
+    "subway-station"
+  ],
+  "acoustic": [
+    "amphitheater"
+  ],
+  "history": [
+    "amphitheater",
+    "catacombs",
+    "clock-tower",
+    "colosseum",
+    "gothic-castle",
+    "pyramid",
+    "ziggurat"
+  ],
+  "vibrant": [
+    "arcade",
+    "art-nouveau-architecture",
+    "casino",
+    "favela",
+    "greenhouse",
+    "postmodern-architecture"
+  ],
+  "nostalgic": [
+    "arcade"
+  ],
+  "lo-fi": [
+    "arcade",
+    "the-backrooms"
+  ],
+  "community": [
+    "arcade",
+    "bodega",
+    "favela"
+  ],
+  "vintage": [
+    "art-deco",
+    "diner",
+    "mid-century-modern",
+    "victorian-manor"
+  ],
+  "luxury": [
+    "art-deco",
+    "baroque-architecture",
+    "casino",
+    "panic-room",
+    "penthouse"
+  ],
+  "aesthetic": [
+    "art-deco",
+    "greenhouse",
+    "loft",
+    "mid-century-modern",
+    "pagoda"
+  ],
+  "geometric": [
+    "art-deco",
+    "brutalist-revival",
+    "crystal-architecture",
+    "deconstructivism"
+  ],
+  "organic": [
+    "art-nouveau-architecture",
+    "bio-architecture",
+    "greenhouse",
+    "mid-century-modern",
+    "treehouse"
+  ],
+  "elegant": [
+    "art-nouveau-architecture"
+  ],
+  "opulence": [
+    "baroque-architecture"
+  ],
+  "dramatic": [
+    "baroque-architecture"
+  ],
+  "minimalist": [
+    "bauhaus",
+    "dojo",
+    "mid-century-modern"
+  ],
+  "innovative": [
+    "bauhaus",
+    "deconstructivism",
+    "laboratory"
+  ],
+  "modern": [
+    "bauhaus",
+    "penthouse",
+    "skyscraper"
+  ],
+  "technical": [
+    "bauhaus",
+    "laboratory",
+    "observatory",
+    "recording-studio",
+    "vault"
+  ],
+  "sustainable": [
+    "bio-architecture",
+    "vertical-forests"
+  ],
+  "nature-inspired": [
+    "bio-architecture"
+  ],
+  "living": [
+    "bio-architecture",
+    "vertical-forests"
+  ],
+  "ecological": [
+    "bio-architecture"
+  ],
+  "urban": [
+    "bodega",
+    "brutalist-housing",
+    "favela",
+    "kowloon-walled-city",
+    "loft",
+    "penthouse",
+    "prison",
+    "skyscraper",
+    "stadium",
+    "subway-station"
+  ],
+  "nyc": [
+    "bodega"
+  ],
+  "grit": [
+    "bodega",
+    "brutalist-housing",
+    "favela",
+    "kowloon-walled-city",
+    "subway-station",
+    "trap-house"
+  ],
+  "brutalist": [
+    "brutalist-housing"
+  ],
+  "industrial": [
+    "brutalist-housing",
+    "loft",
+    "subway-station",
+    "underground-bunker",
+    "vault"
+  ],
+  "concrete": [
+    "brutalist-revival"
+  ],
+  "monumental": [
+    "brutalist-revival"
+  ],
+  "raw": [
+    "brutalist-revival"
+  ],
+  "bold": [
+    "brutalist-revival"
+  ],
+  "vice": [
+    "casino"
+  ],
+  "disorienting": [
+    "casino"
+  ],
+  "dark": [
+    "catacombs",
+    "gothic-castle",
+    "panopticon"
+  ],
+  "underground": [
+    "catacombs",
+    "kowloon-walled-city",
+    "trap-house",
+    "underground-spaces"
+  ],
+  "fear": [
+    "catacombs",
+    "panic-room",
+    "the-backrooms"
+  ],
+  "religious": [
+    "cathedral",
+    "monastery"
+  ],
+  "gothic": [
+    "cathedral",
+    "gothic-castle",
+    "victorian-manor"
+  ],
+  "historic": [
+    "cathedral",
+    "library",
+    "ruin"
+  ],
+  "sacred": [
+    "cathedral",
+    "sanctuary"
+  ],
+  "time-energy": [
+    "clock-tower"
+  ],
+  "landmark": [
+    "clock-tower"
+  ],
+  "war": [
+    "colosseum",
+    "dojo"
+  ],
+  "massive": [
+    "colosseum",
+    "pyramid"
+  ],
+  "faceted": [
+    "crystal-architecture"
+  ],
+  "translucent": [
+    "crystal-architecture"
+  ],
+  "shiny": [
+    "crystal-architecture"
+  ],
+  "light": [
+    "crystal-architecture",
+    "floating-architecture"
+  ],
+  "digital": [
+    "cyber-architecture"
+  ],
+  "futuristic": [
+    "cyber-architecture"
+  ],
+  "smart": [
+    "cyber-architecture"
+  ],
+  "tech": [
+    "cyber-architecture"
+  ],
+  "neon": [
+    "cyber-architecture"
+  ],
+  "abstract": [
+    "deconstructivism"
+  ],
+  "chaos": [
+    "deconstructivism"
+  ],
+  "americana": [
+    "diner"
+  ],
+  "noir": [
+    "diner",
+    "lighthouse",
+    "victorian-manor"
+  ],
+  "spiritual": [
+    "dojo",
+    "pagoda",
+    "ziggurat"
+  ],
+  "floating": [
+    "floating-architecture"
+  ],
+  "water": [
+    "floating-architecture"
+  ],
+  "mobile": [
+    "floating-architecture",
+    "nomadic-architecture"
+  ],
+  "adaptive": [
+    "floating-architecture",
+    "nomadic-architecture"
+  ],
+  "nature": [
+    "greenhouse",
+    "houseboat",
+    "lighthouse",
+    "treehouse"
+  ],
+  "fluid": [
+    "houseboat"
+  ],
+  "escape": [
+    "houseboat",
+    "treehouse"
+  ],
+  "lifestyle": [
+    "houseboat"
+  ],
+  "cyberpunk": [
+    "kowloon-walled-city"
+  ],
+  "science": [
+    "laboratory",
+    "observatory"
+  ],
+  "sterile": [
+    "laboratory"
+  ],
+  "knowledge": [
+    "library"
+  ],
+  "intellectual": [
+    "library",
+    "observatory"
+  ],
+  "silent": [
+    "library",
+    "monastery"
+  ],
+  "isolation": [
+    "lighthouse",
+    "monastery",
+    "panic-room"
+  ],
+  "creative": [
+    "loft",
+    "recording-studio"
+  ],
+  "complex": [
+    "maze"
+  ],
+  "mystery": [
+    "maze",
+    "ruin"
+  ],
+  "mental": [
+    "maze"
+  ],
+  "trap": [
+    "maze",
+    "trap-house"
+  ],
+  "calming": [
+    "minimalist-zen-spaces"
+  ],
+  "simple": [
+    "minimalist-zen-spaces"
+  ],
+  "natural": [
+    "minimalist-zen-spaces"
+  ],
+  "tranquil": [
+    "minimalist-zen-spaces"
+  ],
+  "meditative": [
+    "minimalist-zen-spaces"
+  ],
+  "discipline": [
+    "monastery"
+  ],
+  "temporary": [
+    "nomadic-architecture"
+  ],
+  "flexible": [
+    "nomadic-architecture"
+  ],
+  "portable": [
+    "nomadic-architecture"
+  ],
+  "cosmic": [
+    "observatory"
+  ],
+  "asian": [
+    "pagoda"
+  ],
+  "security": [
+    "panic-room",
+    "vault"
+  ],
+  "philosophical-ideas": [
+    "panopticon"
+  ],
+  "control": [
+    "panopticon"
+  ],
+  "prison": [
+    "panopticon"
+  ],
+  "status": [
+    "penthouse"
+  ],
+  "eclectic": [
+    "postmodern-architecture"
+  ],
+  "humor": [
+    "postmodern-architecture"
+  ],
+  "confinement": [
+    "prison"
+  ],
+  "institutional": [
+    "prison"
+  ],
+  "punishment": [
+    "prison"
+  ],
+  "ancient": [
+    "pyramid",
+    "ziggurat"
+  ],
+  "legacy": [
+    "pyramid"
+  ],
+  "music": [
+    "recording-studio"
+  ],
+  "sanctuary": [
+    "recording-studio"
+  ],
+  "decay": [
+    "ruin"
+  ],
+  "melancholy": [
+    "ruin"
+  ],
+  "safe": [
+    "sanctuary"
+  ],
+  "private": [
+    "sanctuary"
+  ],
+  "peaceful": [
+    "sanctuary"
+  ],
+  "power": [
+    "skyscraper"
+  ],
+  "skyline": [
+    "skyscraper"
+  ],
+  "spectacle": [
+    "stadium"
+  ],
+  "grand": [
+    "stadium"
+  ],
+  "energy": [
+    "stadium"
+  ],
+  "victorian": [
+    "steampunk-architecture"
+  ],
+  "mechanical": [
+    "steampunk-architecture"
+  ],
+  "copper": [
+    "steampunk-architecture"
+  ],
+  "ornate": [
+    "steampunk-architecture"
+  ],
+  "retro-futuristic": [
+    "steampunk-architecture"
+  ],
+  "suburban": [
+    "strip-mall"
+  ],
+  "mundane": [
+    "strip-mall"
+  ],
+  "commercial": [
+    "strip-mall"
+  ],
+  "american": [
+    "strip-mall"
+  ],
+  "esoteric": [
+    "the-backrooms"
+  ],
+  "internet-culture": [
+    "the-backrooms"
+  ],
+  "streetwear": [
+    "trap-house"
+  ],
+  "youth": [
+    "treehouse"
+  ],
+  "survival": [
+    "underground-bunker"
+  ],
+  "defense": [
+    "underground-bunker"
+  ],
+  "hidden": [
+    "underground-bunker"
+  ],
+  "protected": [
+    "underground-spaces"
+  ],
+  "earthy": [
+    "underground-spaces"
+  ],
+  "intimate": [
+    "underground-spaces"
+  ],
+  "cozy": [
+    "underground-spaces"
+  ],
+  "wealth": [
+    "vault"
+  ],
+  "green": [
+    "vertical-forests"
+  ],
+  "vertical": [
+    "vertical-forests"
+  ],
+  "integrated": [
+    "vertical-forests"
+  ],
+  "tiered": [
+    "ziggurat"
+  ]
+}

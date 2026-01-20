@@ -1,0 +1,71 @@
+{
+  "id": "confidence",
+  "type": "emotions-states",
+  "name": "Confidence",
+  "aliases": [
+    "Self-assurance"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "mainstream",
+    "vibrant",
+    "classic"
+  ],
+  "one_liner": "A steady belief in one's ability to act and succeed.",
+  "angles": [
+    "calm certainty",
+    "no hesitation",
+    "own the room"
+  ],
+  "bar_seeds": [
+    "steady hands",
+    "walk in and own it",
+    "no doubt in the steps"
+  ],
+  "related_ids": [
+    "pride",
+    "hope"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Confidence",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "mastery",
+    "preparation",
+    "support"
+  ],
+  "sensations": [
+    "steady pulse",
+    "open chest",
+    "focused calm"
+  ],
+  "expressions": [
+    "direct eye contact",
+    "firm voice",
+    "relaxed stance"
+  ],
+  "opposites": [
+    "anxiety",
+    "doubt"
+  ],
+  "coping_tools": [
+    "practice",
+    "visualization",
+    "self-talk"
+  ],
+  "cultural_notes": [
+    "leadership",
+    "performance"
+  ],
+  "related_states": [
+    "assurance",
+    "flow"
+  ]
+}

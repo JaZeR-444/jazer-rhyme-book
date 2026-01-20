@@ -1,0 +1,16 @@
+{
+  "id": "altruism",
+  "type": "philosophy-ideas",
+  "name": "Altruism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The principle and moral practice of concern for the happiness of other human beings or other animals.",
+  "tags": ["positive", "ethics", "social", "peace"],
+  "angles": ["selflessness", "sacrifice", "community"],
+  "bar_seeds": ["giving it all away", "my brother's keeper", "no reward needed"],
+  "school_of_thought": "Moral Philosophy",
+  "core_question": "Can an act ever be truly selfless?",
+  "key_philosophers": ["Auguste Comte", "Peter Singer"],
+  "paradoxes": ["The Paradox of Altruism (Evolutionary)"],
+  "modern_application": "Effective Altruism, charity, community building."
+}

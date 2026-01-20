@@ -1,0 +1,17 @@
+{
+  "id": "bitterness",
+  "type": "emotions-states",
+  "name": "Bitterness",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deep-seated, long-lasting resentment or disillusionment.",
+  "tags": ["negative", "dark", "internal", "stasis"],
+  "angles": ["the-acid-within", "unresolved-past", "loss-of-faith"],
+  "bar_seeds": ["vinegar in the veins", "cold heart", "tasting the old lies"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Chronic tension", "Sour expression", "Lowered voice"],
+  "triggers": ["Reminders of past betrayal", "Continued failure", "Unmet justice"],
+  "action_urge": "To criticize, withdraw, or remain in a state of cynical observation.",
+  "opposites": ["Forgiveness", "Sweetness"],
+  "related_ids": ["resentment", "grief"]
+}

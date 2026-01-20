@@ -1,0 +1,18 @@
+{
+  "id": "quincy-jones",
+  "type": "people",
+  "name": "Quincy Jones",
+  "aliases": ["Q"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A titan of American music, whose work as a composer, producer, and arranger defined the sound of 20th-century pop culture.",
+  "tags": ["legacy", "vibrant", "music", "virtuoso"],
+  "angles": ["master-arranger", "thriller-architect", "cultural-bridge"],
+  "bar_seeds": ["thriller beat", "arrangement king", "check your ego at the door"],
+  "related_ids": ["michael-jordan"],
+  "known_for": ["Thriller production", "We Are the World", "The Color Purple score"],
+  "vibe": "Genius, connected, talkative",
+  "signature_items": ["Conducting baton", "Grammys", "Rings"],
+  "quotables_short": ["Check your ego at the door."],
+  "controversy_flags": ["Candid interviews"]
+}

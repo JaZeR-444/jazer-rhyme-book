@@ -1,0 +1,17 @@
+{
+  "id": "the-spanish-inquisition",
+  "type": "history",
+  "name": "The Spanish Inquisition",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A powerful office established within the Catholic Church to root out heresy, famous for its severity and paranoia.",
+  "tags": ["dark", "religious", "history", "classic"],
+  "angles": ["religious-terror", "the-hidden-enemy", "paranoia-state"],
+  "bar_seeds": ["no one expects the inquisition", "confession in the dark", "purifying the fire"],
+  "related_ids": ["purification", "dark"],
+  "key_dates": ["1478", "1834"],
+  "location": "Spain / Spanish Empire",
+  "impact": "Consolidated royal power and enforced religious homogeneity; remains a symbol of religious intolerance.",
+  "major_figures": ["Tomás de Torquemada"],
+  "cultural_shift": "Enforcement of a strict 'purity' of blood and faith."
+}

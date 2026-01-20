@@ -1,0 +1,52 @@
+{
+  "id": "luxury-handbags",
+  "type": "fashion",
+  "name": "Luxury Handbags",
+  "aliases": [
+    "Designer bags",
+    "It bag"
+  ],
+  "era": "20th Century-Present",
+  "tags": [
+    "luxury",
+    "status",
+    "accessory",
+    "investment"
+  ],
+  "one_liner": "High-end bags from luxury fashion houses that serve as both functional accessories and potent status symbols.",
+  "angles": [
+    "the waitlist status",
+    "investment you can wear",
+    "the ultimate accessory flex"
+  ],
+  "bar_seeds": [
+    "birkin bag",
+    "kelly bag",
+    "monogram clutch",
+    "leather smells like success"
+  ],
+  "item_type": "Accessory / Leather Goods",
+  "material": [
+    "Leather",
+    "Crocodile",
+    "Canvas",
+    "Suede"
+  ],
+  "cultural_significance": "Often used as a benchmark for wealth and entry into high-society circles.",
+  "fit": [
+    "Hand-held / Shoulder"
+  ],
+  "associated_brands": [
+    "Hermès",
+    "Louis Vuitton",
+    "Chanel",
+    "Gucci"
+  ],
+  "related_ids": [
+    "louis-vuitton",
+    "gucci"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dragon",
+  "type": "mythology-legend",
+  "name": "Dragon",
+  "aliases": ["Drake", "Wyrm"],
+  "era": "Global Mythology",
+  "tags": ["creature", "power", "greed", "wisdom", "elemental"],
+  "one_liner": "A legendary creature, often serpentine or reptilian, found in many cultures across the world.",
+  "angles": ["hoarding the gold", "the ultimate obstacle", "ancient power"],
+  "bar_seeds": ["breath of fire", "scaled skin", "dragon's hoard", "ancient roar"],
+  "origin_culture": "Global",
+  "deity_type": "Mythical Creature",
+  "powers": ["Flight", "Fire-breathing", "Superhuman strength", "Longevity"],
+  "symbols": ["Scales", "Fire", "Treasure"],
+  "modern_parallels": ["Formidable opponents", "Power-hungry figures"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

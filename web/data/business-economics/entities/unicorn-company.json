@@ -1,0 +1,56 @@
+{
+  "id": "unicorn-company",
+  "type": "business-economics",
+  "name": "Unicorn Company",
+  "aliases": [
+    "Unicorn"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "startup",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Privately held startup valued at one billion dollars or more.",
+  "angles": [
+    "valuation hype",
+    "private market giants",
+    "scale narrative"
+  ],
+  "bar_seeds": [
+    "unicorn status",
+    "valuation in the clouds",
+    "private market flex"
+  ],
+  "industry": "Startups/Venture",
+  "core_principle": "High growth and market potential drive outsized valuations.",
+  "jargon": [
+    "valuation",
+    "term sheet",
+    "cap table"
+  ],
+  "key_metrics": [
+    "valuation",
+    "revenue growth",
+    "market share"
+  ],
+  "archetypes": [
+    "founder",
+    "VC",
+    "late-stage investor"
+  ],
+  "related_ids": [
+    "startup",
+    "venture-capital"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unicorn_(finance)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

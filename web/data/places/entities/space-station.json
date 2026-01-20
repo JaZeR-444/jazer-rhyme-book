@@ -1,0 +1,20 @@
+{
+  "id": "space-station",
+  "type": "places",
+  "name": "Space Station",
+  "aliases": ["The Mental State"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Mental State. High altitude, zero gravity, total isolation/focus.",
+  "angles": [],
+  "bar_seeds": [],
+  "known_for": [],
+  "vibe": "Isolated, focused",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": [],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

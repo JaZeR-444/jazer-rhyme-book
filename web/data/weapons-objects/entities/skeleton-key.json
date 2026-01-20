@@ -1,0 +1,17 @@
+{
+  "id": "skeleton-key",
+  "type": "weapons-objects",
+  "name": "Skeleton Key",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A master key designed to open many different locks.",
+  "tags": ["esoteric", "symbolic-object", "logic"],
+  "angles": ["universality", "intrusion", "mastery"],
+  "bar_seeds": ["opens every door", "universal access", "master of the house"],
+  "related_ids": ["brass-key"],
+  "weapon_type": "Tool",
+  "range": "N/A",
+  "damage_type": "Access",
+  "symbolism": "Omnipotence, the ability to bypass any barrier, and secret knowledge.",
+  "famous_users": ["Master thieves", "Locksmiths"]
+}

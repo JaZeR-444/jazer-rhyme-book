@@ -1,0 +1,17 @@
+{
+  "id": "stone-island",
+  "type": "brand",
+  "name": "Stone Island",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An Italian luxury men's apparel brand known for its compass badge and advanced fabric research.",
+  "tags": ["streetwear", "technical", "utilitarian", "luxury"],
+  "angles": ["tech-wear", "hooligan", "fabric"],
+  "bar_seeds": ["get the badge in", "nylon metal", "ice jacket"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["Compass Badge", "Ice Jacket", "Nylon Metal"],
+  "status_signals": ["Compass badge on left arm", "Unique dyeing"],
+  "bar_angles": ["Football hooligan culture", "Material science", "Understated flex"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "timothee-chalamet",
+  "type": "people",
+  "name": "Timothée Chalamet",
+  "aliases": ["Timothée", "Timo", "Call Me By Your Name"],
+  "era": "2010s-Present",
+  "tags": ["actor", "french-american", "style-icon", "talented", "young"],
+  "one_liner": "A talented young actor known for sensitive performances and distinctive style.",
+  "angles": ["sensitive performances", "style icon", "young talent"],
+  "bar_seeds": ["call me by your name", "dune", "little women", "beautiful boy"],
+  "known_for": ["Call Me By Your Name", "Dune", "Little Women", "Beautiful Boy"],
+  "vibe": "Talented, stylish, and sensitive",
+  "signature_items": ["Unique style", "Red carpet moments", "Sensitive performances"],
+  "quotables_short": ["I don't want to be the next anything", "Style is very important to me"],
+  "controversy_flags": ["Young Hollywood", "Style choices"],
+  "related_ids": ["zendaya", "armie-hammer"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

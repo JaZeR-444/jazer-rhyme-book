@@ -1,0 +1,20 @@
+{
+  "id": "jeep",
+  "type": "brands",
+  "name": "Jeep",
+  "aliases": [],
+  "era": "Unknown",
+  "tags": ["Brands & Artifacts"],
+  "one_liner": "Rugged Utility. Often used as a comparison (\"You thought it was a Jeep, but it's a Jet\").",
+  "angles": [],
+  "bar_seeds": ["\"You thought it was a Jeep, but it's a Jet\""],
+  "known_for": [],
+  "vibe": "Rugged",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": [],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

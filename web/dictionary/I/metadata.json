@@ -1,0 +1,662 @@
+{
+  "ice": {
+    "s": 1,
+    "r": "ice",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "iceberg": {
+    "s": 3,
+    "r": "erg",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "icon": {
+    "s": 2,
+    "r": "con",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "iconic": {
+    "s": 3,
+    "r": "nic",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "idea": {
+    "s": 2,
+    "r": "dea",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "ideal": {
+    "s": 2,
+    "r": "eal",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "identify": {
+    "s": 4,
+    "r": "ify",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "ignite": {
+    "s": 2,
+    "r": "ite",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "ignition": {
+    "s": 3,
+    "r": "ion",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "illusion": {
+    "s": 3,
+    "r": "ion",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "illustrate": {
+    "s": 3,
+    "r": "ate",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "image": {
+    "s": 2,
+    "r": "age",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "imaginary": {
+    "s": 5,
+    "r": "ary",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "imbue": {
+    "s": 2,
+    "r": "bue",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "immersion": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "imminent": {
+    "s": 3,
+    "r": "ent",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "immortal": {
+    "s": 3,
+    "r": "tal",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "impact": {
+    "s": 2,
+    "r": "act",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "imperial": {
+    "s": 3,
+    "r": "ial",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "imperish": {
+    "s": 3,
+    "r": "ish",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "implement": {
+    "s": 3,
+    "r": "ent",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "importance": {
+    "s": 3,
+    "r": "nce",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "important": {
+    "s": 3,
+    "r": "ant",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "impress": {
+    "s": 2,
+    "r": "ess",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "imprint": {
+    "s": 2,
+    "r": "int",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "improve": {
+    "s": 2,
+    "r": "ove",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "inbound": {
+    "s": 2,
+    "r": "und",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "incentive": {
+    "s": 3,
+    "r": "ive",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "inception": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "include": {
+    "s": 2,
+    "r": "ude",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "inclusion": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "inclusive": {
+    "s": 3,
+    "r": "ive",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "income": {
+    "s": 2,
+    "r": "ome",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "increase": {
+    "s": 2,
+    "r": "ase",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "incredible": {
+    "s": 4,
+    "r": "ble",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "index": {
+    "s": 2,
+    "r": "dex",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "indicate": {
+    "s": 3,
+    "r": "ate",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "indicator": {
+    "s": 4,
+    "r": "tor",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "indie": {
+    "s": 2,
+    "r": "die",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "indigo": {
+    "s": 3,
+    "r": "igo",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "individual": {
+    "s": 4,
+    "r": "ual",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "induction": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "industry": {
+    "s": 3,
+    "r": "try",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "infinite": {
+    "s": 3,
+    "r": "ite",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "infinity": {
+    "s": 4,
+    "r": "ity",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "influence": {
+    "s": 2,
+    "r": "nce",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "initiate": {
+    "s": 3,
+    "r": "ate",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "initiative": {
+    "s": 4,
+    "r": "ive",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "inner": {
+    "s": 2,
+    "r": "ner",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "innovation": {
+    "s": 4,
+    "r": "ion",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "inside": {
+    "s": 2,
+    "r": "ide",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "insight": {
+    "s": 2,
+    "r": "ght",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "insightful": {
+    "s": 3,
+    "r": "ful",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "inspiration": {
+    "s": 4,
+    "r": "ion",
+    "l": 11,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "instinct": {
+    "s": 2,
+    "r": "nct",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "instruct": {
+    "s": 2,
+    "r": "uct",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "instrument": {
+    "s": 3,
+    "r": "ent",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "intact": {
+    "s": 2,
+    "r": "act",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "integrity": {
+    "s": 4,
+    "r": "ity",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "intellect": {
+    "s": 3,
+    "r": "ect",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "intense": {
+    "s": 2,
+    "r": "nse",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "intensity": {
+    "s": 4,
+    "r": "ity",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "interaction": {
+    "s": 4,
+    "r": "ion",
+    "l": 11,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "intercept": {
+    "s": 3,
+    "r": "ept",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "interest": {
+    "s": 3,
+    "r": "est",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "invention": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  }
+}

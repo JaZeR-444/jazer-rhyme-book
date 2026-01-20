@@ -1,0 +1,17 @@
+{
+  "id": "patreon",
+  "type": "media-platforms",
+  "name": "Patreon",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A membership platform that provides business tools for creators to run a subscription content service.",
+  "tags": ["community", "hustle", "creative", "support"],
+  "angles": ["support", "independence", "tiers"],
+  "bar_seeds": ["patron support", "exclusive tier", "paywall access"],
+  "related_ids": [],
+  "platform_type": "Membership",
+  "user_demographic": "Creators, Podcasters, Artists",
+  "content_format": ["Posts", "Audio", "Video"],
+  "algorithm_bias": "N/A (Direct support model)",
+  "slang": ["Patron", "Tier", "Pledge"]
+}

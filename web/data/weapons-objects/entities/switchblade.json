@@ -1,0 +1,17 @@
+{
+  "id": "switchblade",
+  "type": "weapons-objects",
+  "name": "Switchblade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A spring-loaded folding knife that snaps into action with a click.",
+  "tags": ["grit", "vintage", "blade", "rebellion"],
+  "angles": ["speed", "concealment", "tension"],
+  "bar_seeds": ["click of the button", "flick of the wrist", "stiletto point"],
+  "related_ids": ["butterfly-knife"],
+  "weapon_type": "Blade",
+  "range": "Melee",
+  "damage_type": "Piercing",
+  "symbolism": "Immediacy, street-level tension, and 1950s/60s delinquency.",
+  "famous_users": ["Greashers", "Street gangs"]
+}

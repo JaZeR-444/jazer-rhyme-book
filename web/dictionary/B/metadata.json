@@ -1,0 +1,662 @@
+{
+  "backbone": {
+    "s": 2,
+    "r": "one",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "backdrop": {
+    "s": 2,
+    "r": "rop",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "backlash": {
+    "s": 2,
+    "r": "ash",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "backup": {
+    "s": 2,
+    "r": "kup",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "balance": {
+    "s": 2,
+    "r": "nce",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "banner": {
+    "s": 2,
+    "r": "ner",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "baraka": {
+    "s": 3,
+    "r": "aka",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "barbaric": {
+    "s": 3,
+    "r": "ric",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "baroque": {
+    "s": 3,
+    "r": "que",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "barrage": {
+    "s": 2,
+    "r": "age",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "barriers": {
+    "s": 2,
+    "r": "ers",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bars": {
+    "s": 1,
+    "r": "ars",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bastion": {
+    "s": 2,
+    "r": "ion",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "battalion": {
+    "s": 3,
+    "r": "ion",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "battlefield": {
+    "s": 3,
+    "r": "eld",
+    "l": 11,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "battles": {
+    "s": 2,
+    "r": "les",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "beacon": {
+    "s": 2,
+    "r": "con",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bearings": {
+    "s": 2,
+    "r": "ngs",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "beat": {
+    "s": 1,
+    "r": "eat",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bedlam": {
+    "s": 2,
+    "r": "lam",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bedrock": {
+    "s": 2,
+    "r": "ock",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "behemoth": {
+    "s": 3,
+    "r": "oth",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "behold": {
+    "s": 2,
+    "r": "old",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "beneath": {
+    "s": 2,
+    "r": "ath",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "berserk": {
+    "s": 2,
+    "r": "erk",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "beware": {
+    "s": 2,
+    "r": "are",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "binary": {
+    "s": 3,
+    "r": "ary",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bind": {
+    "s": 1,
+    "r": "ind",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blackout": {
+    "s": 2,
+    "r": "out",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "blaster": {
+    "s": 2,
+    "r": "ter",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "blaze": {
+    "s": 1,
+    "r": "aze",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blessing": {
+    "s": 2,
+    "r": "ing",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "blind": {
+    "s": 1,
+    "r": "ind",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bling": {
+    "s": 1,
+    "r": "ing",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blink": {
+    "s": 1,
+    "r": "ink",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bliss": {
+    "s": 1,
+    "r": "iss",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blitz": {
+    "s": 1,
+    "r": "itz",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blizzard": {
+    "s": 2,
+    "r": "ard",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bloc": {
+    "s": 1,
+    "r": "loc",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "blueprint": {
+    "s": 2,
+    "r": "int",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "blur": {
+    "s": 1,
+    "r": "lur",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "boldface": {
+    "s": 2,
+    "r": "ace",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bolt": {
+    "s": 1,
+    "r": "olt",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bonus": {
+    "s": 2,
+    "r": "nus",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "boost": {
+    "s": 1,
+    "r": "ost",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "booster": {
+    "s": 2,
+    "r": "ter",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "boundary": {
+    "s": 3,
+    "r": "ary",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bounty": {
+    "s": 2,
+    "r": "nty",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bravado": {
+    "s": 3,
+    "r": "ado",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "brave": {
+    "s": 1,
+    "r": "ave",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bravura": {
+    "s": 3,
+    "r": "ura",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "brazen": {
+    "s": 2,
+    "r": "zen",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "breach": {
+    "s": 1,
+    "r": "ach",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "breadth": {
+    "s": 1,
+    "r": "dth",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "breakdown": {
+    "s": 2,
+    "r": "own",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "breakthrough": {
+    "s": 2,
+    "r": "ugh",
+    "l": 12,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "brink": {
+    "s": 1,
+    "r": "ink",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "brotherhood": {
+    "s": 3,
+    "r": "ood",
+    "l": 11,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "buffers": {
+    "s": 2,
+    "r": "ers",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "built": {
+    "s": 1,
+    "r": "ilt",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "bulldoze": {
+    "s": 2,
+    "r": "oze",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "burn": {
+    "s": 1,
+    "r": "urn",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "burst": {
+    "s": 1,
+    "r": "rst",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "buzzsaw": {
+    "s": 2,
+    "r": "saw",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "bypass": {
+    "s": 2,
+    "r": "ass",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "byword": {
+    "s": 2,
+    "r": "ord",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  }
+}

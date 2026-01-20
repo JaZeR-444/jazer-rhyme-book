@@ -1,0 +1,49 @@
+{
+  "id": "success-kid",
+  "type": "internet-culture",
+  "name": "Success Kid",
+  "aliases": [
+    "I hate sandcastles"
+  ],
+  "era": "2007-Present",
+  "tags": [
+    "classic",
+    "vibrant",
+    "nostalgic"
+  ],
+  "one_liner": "A toddler's fist pump used to celebrate small wins.",
+  "angles": [
+    "small victory",
+    "win energy",
+    "good news"
+  ],
+  "bar_seeds": [
+    "fist in the air",
+    "small win flex",
+    "yes moment"
+  ],
+  "related_ids": [
+    "bad-luck-brian",
+    "this-is-fine"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Success_Kid",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Flickr",
+  "meaning": "Used to celebrate success or good luck.",
+  "remix_rules": [
+    "Top text: setup, bottom text: win"
+  ],
+  "lifespan_risk": "Low (classic)",
+  "example_lines": [
+    "Uploaded the track / It actually posted"
+  ]
+}

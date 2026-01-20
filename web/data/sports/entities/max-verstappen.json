@@ -1,0 +1,19 @@
+{
+  "id": "max-verstappen",
+  "type": "sports",
+  "name": "Max Verstappen",
+  "aliases": ["Super Max"],
+  "era": "2010s-Present",
+  "tags": ["f1", "aggressive", "speed", "dominance"],
+  "one_liner": "The ruthless Dutch phenom who ended the Hamilton era and began a dominant reign of his own.",
+  "angles": ["raw speed", "clinical precision", "the new king"],
+  "bar_seeds": ["red bull racing", "number 1 on the car", "dutch lion"],
+  "team_size": "1 (Driving for a team)",
+  "key_skills": ["Aggressive overtaking", "Car control", "Focus"],
+  "equipment": ["F1 Car", "Helmet"],
+  "metaphors": ["The Dutch Lion"],
+  "legends": ["3x World Champion", "Record for wins in a season"],
+  "related_ids": ["lewis-hamilton"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

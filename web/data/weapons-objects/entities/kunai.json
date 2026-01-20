@@ -1,0 +1,17 @@
+{
+  "id": "kunai",
+  "type": "weapons-objects",
+  "name": "Kunai",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese tool originally used for farming, adapted into a weapon by ninjas.",
+  "tags": ["stealth", "war", "asian", "utility"],
+  "angles": ["climbing", "throwing", "ninja-tool"],
+  "bar_seeds": ["knife in the dark", "climbing the wall", "hidden steel"],
+  "related_ids": ["shuriken"],
+  "weapon_type": "Multi-purpose",
+  "range": "Thrown / Melee",
+  "damage_type": "Piercing",
+  "symbolism": "Improvisation, ninja utility, and anime popularity (Naruto).",
+  "famous_users": ["Ninjas", "Scorpion (Mortal Kombat)"]
+}

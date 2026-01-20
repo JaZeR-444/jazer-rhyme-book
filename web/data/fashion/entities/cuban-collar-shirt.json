@@ -1,0 +1,19 @@
+{
+  "id": "cuban-collar-shirt",
+  "type": "fashion",
+  "name": "Cuban Collar Shirt",
+  "aliases": ["Camp Collar", "Aloha Shirt"],
+  "era": "1950s-Present",
+  "tags": ["summer", "vibrant", "vintage", "relaxed"],
+  "one_liner": "A short-sleeved, button-down shirt with a flat, open collar, often featuring bold prints.",
+  "angles": ["tropical-vacation", "mid-century-cool", "summer-sophistication"],
+  "bar_seeds": ["open collar breeze", "palm tree print", "havana nights"],
+  "related_ids": ["miami", "resortwear"],
+  "item_type": "Tops",
+  "material": ["Rayon", "Viscose", "Linen", "Silk"],
+  "cultural_significance": "Iconic look of 1950s vacationers and modern 'resort-core' luxury.",
+  "fit": ["Boxy", "Relaxed"],
+  "associated_brands": ["Prada", "Casablanca", "Wacko Maria"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nina-simone",
+  "type": "people",
+  "name": "Nina Simone",
+  "aliases": ["High Priestess of Soul"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary singer, pianist, and civil rights activist whose music spanned classical, jazz, blues, and soul.",
+  "tags": ["soulful", "revolutionary", "virtuoso", "legacy"],
+  "angles": ["freedom", "uncompromising-art", "activism"],
+  "bar_seeds": ["mississippi goddam", "piano keys", "black is the color"],
+  "related_ids": ["civil-rights-movement"],
+  "known_for": ["Feeling Good", "Mississippi Goddam", "Civil Rights Activism"],
+  "vibe": "Powerful, regal, intense",
+  "signature_items": ["Piano", "Headwraps", "African jewelry"],
+  "quotables_short": ["I'll tell you what freedom is to me: no fear."],
+  "controversy_flags": ["Exile", "Radical activism"]
+}

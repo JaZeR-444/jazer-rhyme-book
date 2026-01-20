@@ -1,0 +1,20 @@
+{
+  "id": "neverland-place",
+  "type": "places",
+  "name": "Neverland",
+  "aliases": ["The Preservation of Youth"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Preservation of Youth.",
+  "angles": [],
+  "bar_seeds": [],
+  "known_for": [],
+  "vibe": "",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["peter-pan"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

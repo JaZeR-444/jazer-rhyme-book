@@ -1,0 +1,20 @@
+{
+  "id": "purification",
+  "type": "rituals-symbols",
+  "name": "Purification",
+  "aliases": ["Cleansing", "Baptism", "Ablution"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "spiritual", "cleansing", "renewal"],
+  "one_liner": "A ritual intended to remove spiritual or physical impurity.",
+  "angles": ["washing away the sins", "the clean slate", "renewal through water and fire"],
+  "bar_seeds": ["clean as holy water", "fire to the past", "washing off the grime", "pure spirit"],
+  "purpose": "To remove impurity and prepare for sacred work.",
+  "steps": ["Immersion", "Anointing", "Burning of incense"],
+  "objects_used": ["Water", "Fire", "Incense", "Oil"],
+  "participants": "The individual, a priest/practitioner",
+  "outcome": "Spiritual readiness, peace, renewal",
+  "related_ids": ["rituals-symbols"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tarot",
+  "type": "rituals-symbols",
+  "name": "Tarot",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deck of cards used for fortune-telling, divination, and psychological exploration.",
+  "tags": ["esoteric", "curation", "future", "art"],
+  "angles": ["fate", "archetypes", "revelation"],
+  "bar_seeds": ["the death card", "reading the spread", "fools and kings"],
+  "related_ids": ["omen"],
+  "purpose": "To gain insight into the past, present, or future.",
+  "steps": ["Shuffling the deck", "Laying out a spread", "Interpreting the imagery"],
+  "objects_used": ["Tarot deck", "Cloth", "Incense"],
+  "participants": "Reader, Querent",
+  "outcome": "Clarity, prediction, or self-reflection."
+}

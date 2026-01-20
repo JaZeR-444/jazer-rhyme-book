@@ -1,0 +1,17 @@
+{
+  "id": "kali",
+  "type": "mythology-legend",
+  "name": "Kali",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Hindu goddess of time, doomsday, and death, often associated with sexuality and violence.",
+  "tags": ["dark", "female-power", "mythology", "war"],
+  "angles": ["time", "wrath", "liberation"],
+  "bar_seeds": ["tongue out", "necklace of skulls", "dark mother"],
+  "related_ids": ["shiva"],
+  "origin_culture": "Hindu",
+  "deity_type": "Goddess",
+  "powers": ["Destruction of evil", "Time manipulation", "Combat"],
+  "symbols": ["Skulls", "Sword", "Severed Head"],
+  "modern_parallels": ["Femme Fatale", "Time", "Anarchy"]
+}

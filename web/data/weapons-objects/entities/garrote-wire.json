@@ -1,0 +1,17 @@
+{
+  "id": "garrote-wire",
+  "type": "weapons-objects",
+  "name": "Garrote Wire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A handheld ligature of chain, rope, scarf, wire or fishing line used to strangle a person.",
+  "tags": ["stealth", "noir", "crime", "dark"],
+  "angles": ["silence", "assassination", "up-close"],
+  "bar_seeds": ["piano wire", "silent choke", "from behind"],
+  "related_ids": ["dagger"],
+  "weapon_type": "Strangulation",
+  "range": "Grapple",
+  "damage_type": "Asphyxiation",
+  "symbolism": "Professional assassination, mafia hits, and cold-blooded murder.",
+  "famous_users": ["Hitman (Agent 47)", "The Godfather characters"]
+}

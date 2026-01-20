@@ -1,0 +1,18 @@
+{
+  "id": "ratio-meme",
+  "type": "internet-culture",
+  "name": "Ratio",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A social media phenomenon where a reply receives significantly more likes than the original post, signifying a public L.",
+  "tags": ["contemporary", "competitive", "technical", "social-media"],
+  "angles": ["dominance", "public-opinion", "humiliation"],
+  "bar_seeds": ["L + ratio", "more likes on the quote", "checking the numbers"],
+  "related_ids": [],
+  "format": "Text / Metric",
+  "origin_platform": "Twitter / X",
+  "meaning": "A quantitative proof of a bad take or an unpopular opinion.",
+  "remix_rules": ["Quote tweet with 'Ratio'", "Used for instant shut-downs", "Accompanied by 'L'"],
+  "lifespan_risk": "Low (Part of social media mechanics)",
+  "example_lines": ["He posted the take and got hit with the ratio", "My likes looking like a mountain, your post in the valley"]
+}

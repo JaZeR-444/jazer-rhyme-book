@@ -1,0 +1,17 @@
+{
+  "id": "cloud-rap-aesthetic",
+  "type": "aesthetics-visuals",
+  "name": "Cloud Rap Aesthetic",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A visual style closely tied to the subgenre of hip-hop, characterized by dreamlike, lo-fi, and vaporwave-adjacent imagery.",
+  "tags": ["lo-fi", "dream", "internet-culture", "mellow"],
+  "angles": ["sad-boys", "digital-haze", "melancholy"],
+  "bar_seeds": ["arizona iced tea", "white marble", "windows 95 clouds"],
+  "related_ids": ["vaporwave", "lo-fi"],
+  "visual_elements": ["Clouds", "Arizona Tea cans", "Japanese text", "Early internet graphics"],
+  "mood": "Dreamy, nostalgic, sad",
+  "associated_eras": ["2010s"],
+  "color_palette": ["Pale Blue", "Pink", "Marble White", "Tea Green"],
+  "fashion_staples": ["Bucket hats", "Oversized tees", "Polo Sport"]
+}

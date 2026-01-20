@@ -1,0 +1,58 @@
+{
+  "id": "la-la-land-2016",
+  "type": "cinema",
+  "name": "La La Land",
+  "aliases": [],
+  "era": "2016",
+  "tags": [
+    "cinematic",
+    "nostalgic",
+    "vibrant",
+    "classic"
+  ],
+  "one_liner": "Two artists fall in love while chasing dreams in Los Angeles.",
+  "angles": [
+    "dreamers in the city",
+    "love vs ambition",
+    "modern musical"
+  ],
+  "bar_seeds": [
+    "freeway dance",
+    "city lights duet",
+    "dreamers on the hill"
+  ],
+  "related_ids": [
+    "nostalgia",
+    "melancholy"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/La_La_Land",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "A jazz musician and an actress connect",
+    "Career paths pull them apart"
+  ],
+  "iconic_scenes": [
+    "Freeway dance",
+    "Planetarium dance"
+  ],
+  "visual_motifs": [
+    "City sunsets",
+    "Jazz club lights"
+  ],
+  "themes": [
+    "Dreams",
+    "Love",
+    "Sacrifice"
+  ],
+  "quotables_short": [
+    "Heres to the fools who dream"
+  ]
+}

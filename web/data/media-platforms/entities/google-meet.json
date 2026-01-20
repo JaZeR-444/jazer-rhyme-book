@@ -1,0 +1,17 @@
+{
+  "id": "google-meet",
+  "type": "media-platforms",
+  "name": "Google Meet",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A video-communication service developed by Google, integrated into the Workspace suite.",
+  "tags": ["utility", "business", "technical", "mainstream"],
+  "angles": ["professional-bridge", "browser-native", "corporate-standard"],
+  "bar_seeds": ["meeting link", "background blur", "unmute yourself"],
+  "related_ids": ["slack"],
+  "platform_type": "Video Communication",
+  "user_demographic": "Students, Remote Workers, Businesses",
+  "content_format": ["Video Call", "Presentation", "Whiteboard"],
+  "algorithm_bias": "N/A",
+  "slang": ["Meet", "Link in the invite", "Presenting"]
+}

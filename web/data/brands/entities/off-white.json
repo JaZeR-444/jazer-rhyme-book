@@ -1,0 +1,20 @@
+{
+  "id": "off-white",
+  "type": "brand",
+  "name": "Off-White",
+  "aliases": ["Pyrex Vision"],
+  "era": "2012-Present",
+  "tags": ["high-fashion", "streetwear", "industrial", "innovative"],
+  "one_liner": "The brainchild of Virgil Abloh that blurred the line between luxury and streetwear.",
+  "angles": ["industrial design", "the quotation marks", "deconstruction"],
+  "bar_seeds": ["zip ties", "virgil abloh", "quotation marks", "belt strap"],
+  "category": "Luxury Streetwear",
+  "price_tier": "High-end",
+  "signature_products": ["Industrial Belt", "Jordan 1 Collabs", "Graphic T-shirts"],
+  "status_signals": ["Plastic zip ties", "Diagonal stripes", "Cross arrows"],
+  "bar_angles": ["zip tie still on the kicks", "virgil did the design"],
+  "related_ids": ["kanye-west", "supreme"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

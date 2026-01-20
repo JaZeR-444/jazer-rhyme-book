@@ -1,0 +1,50 @@
+{
+  "id": "south-central-la",
+  "type": "place",
+  "name": "South Central Los Angeles",
+  "aliases": [
+    "South Central"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "los-angeles",
+    "west-coast",
+    "gang-culture",
+    "urban-drama"
+  ],
+  "one_liner": "A sprawling region of Los Angeles central to the West Coast hip-hop narrative and cinema.",
+  "angles": [
+    "surviving the block",
+    "the backyard boogie",
+    "helicopter spotlights"
+  ],
+  "bar_seeds": [
+    "south central madness",
+    "slapping in the streets",
+    "lowrider lane"
+  ],
+  "vibe": "Intense, sunny, community-focused, and war-torn",
+  "sensory_cues": [
+    "chopper overhead",
+    "ice cream truck music",
+    "palm tree shadows",
+    "hot asphalt"
+  ],
+  "cultural_refs": [
+    "Ice Cube",
+    "Boyz n the Hood",
+    "Menace II Society"
+  ],
+  "bar_angles": [
+    "south central resident",
+    "stuck in the madness of the south side"
+  ],
+  "related_ids": [
+    "boyz-n-the-hood-1991",
+    "menace-ii-society-1993"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

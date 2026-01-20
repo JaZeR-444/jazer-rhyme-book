@@ -1,0 +1,17 @@
+{
+  "id": "red-bull",
+  "type": "brand",
+  "name": "Red Bull",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An energy drink brand that transformed into a massive media and extreme sports empire.",
+  "tags": ["energetic", "vibrant", "sports", "media"],
+  "angles": ["gives-you-wings", "extreme-lifestyle", "content-machine"],
+  "bar_seeds": ["silver and blue can", "wings on my back", "stratosphere jump"],
+  "related_ids": ["formula-1-sport"],
+  "category": "Media / Beverage",
+  "price_tier": "Low-Mid",
+  "signature_products": ["Red Bull Energy Drink", "Red Bull Racing"],
+  "status_signals": ["Extreme sports sponsorship", "Ownership of F1 teams"],
+  "bar_angles": ["High energy lifestyle", "Flight mode", "Global dominance"]
+}

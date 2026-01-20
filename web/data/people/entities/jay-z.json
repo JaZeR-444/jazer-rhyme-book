@@ -1,0 +1,20 @@
+{
+  "id": "jay-z",
+  "type": "people",
+  "name": "Jay-Z",
+  "aliases": ["Hov", "Jigga", "Shawn Carter"],
+  "era": "1990s-Present",
+  "tags": ["business", "hustle", "legacy", "new-york", "legend"],
+  "one_liner": "From Marcy Projects to billionaire mogul, the blueprint for rap success.",
+  "angles": ["street hustler to boardroom executive", "consistency over decades", "black excellence"],
+  "bar_seeds": ["marcy projects", "roc-a-fella", "blueprint", "4:44 vulnerability"],
+  "known_for": ["Reasonable Doubt", "The Blueprint", "Roc Nation"],
+  "vibe": "Confident, calculated, executive",
+  "signature_items": ["Yankee hat", "All black everything", "Ace of Spades"],
+  "quotables_short": ["I'm not a businessman, I'm a business, man", "Allow me to re-introduce myself"],
+  "controversy_flags": ["Nas beef", "Unfinished business"],
+  "related_ids": ["kanye-west", "nas", "notorious-big"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

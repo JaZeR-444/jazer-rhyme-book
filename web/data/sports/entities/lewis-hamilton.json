@@ -1,0 +1,19 @@
+{
+  "id": "lewis-hamilton",
+  "type": "sports",
+  "name": "Lewis Hamilton",
+  "aliases": ["Billion Dollar Man"],
+  "era": "2000s-Present",
+  "tags": ["f1", "luxury", "speed", "activism"],
+  "one_liner": "A 7-time F1 World Champion and cultural icon who bridged the gap between racing, fashion, and social change.",
+  "angles": ["racing royalty", "still I rise", "speed and style"],
+  "bar_seeds": ["mercedes silver", "seven titles", "hamilton heat"],
+  "team_size": "1 (Driving for a team of 100s)",
+  "key_skills": ["Driving", "Wet weather mastery", "Consistency"],
+  "equipment": ["F1 Car", "Helmet"],
+  "metaphors": ["The GOAT of the track"],
+  "legends": ["7 World Championships", "Most wins in F1 history"],
+  "related_ids": [],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

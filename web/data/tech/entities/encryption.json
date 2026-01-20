@@ -1,0 +1,20 @@
+{
+  "id": "encryption",
+  "type": "tech",
+  "name": "Encryption",
+  "aliases": ["Cryptography", "Ciphers"],
+  "era": "Ancient-Present",
+  "tags": ["technical", "security", "privacy", "math"],
+  "one_liner": "The process of encoding information so that only authorized parties can access it.",
+  "angles": ["the locked box", "mathematical secrecy", "digital privacy rights"],
+  "bar_seeds": ["unbreakable code", "end to end", "public key private key"],
+  "related_ids": ["cybersecurity", "vpn"],
+  "category": "Security / Mathematics",
+  "what_it_is": "Transforming readable data into an unreadable format using algorithms and keys.",
+  "why_it_matters": "The foundation of all secure online communication and financial transactions.",
+  "risks": ["Loss of keys", "Quantum computer cracking", "Backdoor legislation"],
+  "metaphors": ["The digital vault", "A secret language", "Invisible shields"],
+  "keywords": ["AES", "RSA", "Public Key", "Hashing", "Symmetric"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

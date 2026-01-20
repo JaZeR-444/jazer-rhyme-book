@@ -1,0 +1,17 @@
+{
+  "id": "candlelight-ritual",
+  "type": "rituals-symbols",
+  "name": "Candlelight",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The use of candles to create atmosphere, focus during meditation, or symbolize hope and remembrance.",
+  "tags": ["ritual", "mellow", "spiritual", "aesthetic"],
+  "angles": ["flickering-focus", "lighting-the-dark", "ephemeral-flame"],
+  "bar_seeds": ["burning at both ends", "soft glow in the room", "flicker of hope"],
+  "related_ids": ["incense", "vigil"],
+  "purpose": "To create a sacred or focused atmosphere.",
+  "steps": ["Striking the match", "Lighting the wick", "Observing the flame"],
+  "objects_used": ["Wax candle", "Match / Lighter", "Candelabra"],
+  "participants": "Individual or Group",
+  "outcome": "Clarity of focus or atmospheric change."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "the-speed-of-light",
+  "type": "time-energy",
+  "name": "The Speed of Light",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The universal speed limit, roughly 300,000 kilometers per second.",
+  "tags": ["quantum", "speed", "technical", "futuristic"],
+  "angles": ["limit", "velocity", "warping"],
+  "bar_seeds": ["faster than sight", "c squared", "racing a beam"],
+  "related_ids": ["frequency", "infinity"],
+  "concept_type": "Physics",
+  "perception": "Instantaneous, blinding, and foundational.",
+  "physics_basis": "Constant 'c' in a vacuum.",
+  "cultural_view": "The ultimate benchmark for speed and technical perfection.",
+  "idioms": ["Light speed", "Gone in a blink", "Faster than a speeding bullet"]
+}

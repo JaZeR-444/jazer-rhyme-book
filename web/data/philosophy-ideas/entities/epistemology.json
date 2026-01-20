@@ -1,0 +1,16 @@
+{
+  "id": "epistemology",
+  "type": "philosophy-ideas",
+  "name": "Epistemology",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The branch of philosophy concerned with knowledge, belief, and the nature of truth.",
+  "tags": ["intellectual", "logic", "technical", "academic"],
+  "angles": ["justification", "belief", "skepticism"],
+  "bar_seeds": ["how do I know what I know", "justified true belief", "limits of understanding"],
+  "school_of_thought": "Core Philosophy",
+  "core_question": "What is knowledge, and how do we acquire it?",
+  "key_philosophers": ["Plato", "Immanuel Kant", "Bertrand Russell"],
+  "paradoxes": ["The Gettier Problem"],
+  "modern_application": "Data science, investigative journalism, legal testimony."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "amulet",
+  "type": "rituals-symbols",
+  "name": "Amulet",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An object whose most important characteristic is the power ascribed to it to protect its owner from danger or harm.",
+  "tags": ["protection", "artifact", "esoteric", "classic"],
+  "angles": ["warding", "luck", "carried power"],
+  "bar_seeds": ["hanging from the neck", "lucky charm", "warding off evil"],
+  "related_ids": ["totem"],
+  "purpose": "To protect the wearer and bring good fortune.",
+  "steps": ["Crafting from sacred material", "Blessing or charging", "Constant wearing"],
+  "objects_used": ["Gemstones", "Metal", "Parchment"],
+  "participants": "Craftsman, Wearer",
+  "outcome": "Safety and confidence."
+}

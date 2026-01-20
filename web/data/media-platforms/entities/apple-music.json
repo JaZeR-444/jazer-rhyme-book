@@ -1,0 +1,17 @@
+{
+  "id": "apple-music",
+  "type": "media-platforms",
+  "name": "Apple Music",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Apple's premium music streaming service, known for high audio quality and exclusive releases.",
+  "tags": ["luxury", "music", "technical", "mainstream"],
+  "angles": ["quality", "ecosystem", "exclusivity"],
+  "bar_seeds": ["spatial audio", "lossless quality", "playlist curation"],
+  "related_ids": ["spotify"],
+  "platform_type": "Audio Streaming",
+  "user_demographic": "Audiophiles, Apple Users",
+  "content_format": ["Audio", "Music Videos", "Radio"],
+  "algorithm_bias": "Favors curated playlists and album-oriented listening.",
+  "slang": ["Up Next", "Replay", "Spatial Audio"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "solipsism",
+  "type": "philosophy-ideas",
+  "name": "Solipsism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophical idea that only one's mind is sure to exist.",
+  "tags": ["esoteric", "internal", "logic", "existence"],
+  "angles": ["isolation", "uncertainty", "subjective reality"],
+  "bar_seeds": ["world in my head", "you're just a projection", "only one witness"],
+  "school_of_thought": "Epistemological Solipsism",
+  "core_question": "Does anything exist outside of my own consciousness?",
+  "key_philosophers": ["René Descartes (roots)", "George Berkeley"],
+  "paradoxes": ["The Egocentric Predicament"],
+  "modern_application": "Virtual reality, isolated social media bubbles, simulation theory."
+}

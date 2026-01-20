@@ -1,0 +1,18 @@
+{
+  "id": "righteous-fury",
+  "type": "emotions-states",
+  "name": "Righteous Fury",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An intense, focused anger derived from a perceived grave injustice or violation of moral principles.",
+  "tags": ["rage", "vibrant", "justice", "rebellion"],
+  "angles": ["the-avenger", "moral-fire", "unyielding-wrath"],
+  "bar_seeds": ["holy fire", "judgment coming", "voice like thunder"],
+  "related_ids": ["indignation", "rage"],
+  "intensity": "Ultra-High",
+  "physical_symptoms": ["Trembling", "Tunnel vision", "Explosive energy"],
+  "triggers": ["Witnessing cruelty", "Systemic injustice", "Personal betrayal"],
+  "action_urge": "To destroy the source of injustice or enforce a correction.",
+  "opposites": ["Mercy", "Indifference", "Pacifism"],
+  "related_ids": ["rage", "war"]
+}

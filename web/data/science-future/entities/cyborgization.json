@@ -1,0 +1,20 @@
+{
+  "id": "cyborgization",
+  "type": "science-future",
+  "name": "Cyborgization",
+  "aliases": ["Cybernetic Augmentation", "Augs"],
+  "era": "Present-Future",
+  "tags": ["tech", "future", "humanity", "biotech"],
+  "one_liner": "The process of integrating biological and artificial systems to enhance or restore human capabilities.",
+  "angles": ["more machine than man", "upgrading the soul", "the modular human"],
+  "bar_seeds": ["chrome limbs", "cybernetic eyes", "neural bridge", "hardware in the flesh"],
+  "field": "Cybernetics / Biomedical Engineering",
+  "hypothesis": "That human biological limits can be overcome through technology.",
+  "implications": ["Enhanced senses/strength", "Integration with digital systems", "Extended life"],
+  "technologies": ["Prosthetics", "Neural implants", "Exoskeletons"],
+  "ethical_concerns": ["Inequality (only rich can upgrade)", "Loss of 'humanity'", "Hacking of human systems"],
+  "related_ids": ["neuralink", "cyberpunk"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

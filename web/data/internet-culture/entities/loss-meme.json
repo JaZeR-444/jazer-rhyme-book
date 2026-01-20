@@ -1,0 +1,21 @@
+{
+  "id": "loss-meme",
+  "type": "internet-culture",
+  "name": "Loss",
+  "aliases": ["| || || |_"],
+  "era": "2008-Present",
+  "tags": ["meme", "minimalist", "webcomic", "abstract"],
+  "one_liner": "A minimalist four-panel representation of a dramatic webcomic strip about a miscarriage that became an abstract meme.",
+  "angles": ["abstraction of art", "the internet's ability to mock anything", "pattern recognition"],
+  "bar_seeds": ["is this loss?", "four lines in the sand", "hidden in plain sight"],
+  "format": "Minimalist graphic / Comic",
+  "origin_platform": "Ctrl+Alt+Del Webcomic",
+  "meaning": "References the 1 | 2 / 2 | L structure of the original comic.",
+  "remix_rules": ["Must follow the 1, 2, 2, L structure", "Often hidden in other images"],
+  "lifespan_risk": "Low (Transcended to abstract art)",
+  "example_lines": ["Is this loss?", "Seeing loss in the floor tiles"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

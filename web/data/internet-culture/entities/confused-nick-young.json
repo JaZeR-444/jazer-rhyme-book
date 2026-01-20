@@ -1,0 +1,18 @@
+{
+  "id": "confused-nick-young",
+  "type": "internet-culture",
+  "name": "Confused Nick Young",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A screenshot of NBA player Nick Young looking baffled, surrounded by question marks.",
+  "tags": ["contemporary", "sports", "athlete", "reaction"],
+  "angles": ["disbelief", "confusion", "questioning"],
+  "bar_seeds": ["question marks", "baffled look", "nick young face"],
+  "related_ids": ["blinking-white-guy"],
+  "format": "Reaction Image",
+  "origin_platform": "YouTube / Twitter",
+  "meaning": "The universal response to a baffling statement or action.",
+  "remix_rules": ["Question mark overlays", "High contrast", "Used when the logic doesn't add up"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["Looking at the contract like Nick Young in the screen", "Surrounded by question marks, what you saying?"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "allen-iverson",
+  "type": "sports",
+  "name": "Allen Iverson",
+  "aliases": ["The Answer", "AI"],
+  "era": "1990s-2000s",
+  "tags": ["basketball", "culture", "grit", "streetwear"],
+  "one_liner": "A cultural icon who brought street style to the NBA and redefined the point guard role with his 'crossover'.",
+  "angles": ["cultural impact", "heart over height", "the crossover"],
+  "bar_seeds": ["practice monologue", "step over ty lue", "cornrows"],
+  "team_size": "1 (Individual performance within 5)",
+  "key_skills": ["Crossover", "Speed", "Scoring"],
+  "equipment": ["Basketball", "Reebok Question", "Sleeve"],
+  "metaphors": ["The Answer"],
+  "legends": ["2001 MVP", "Scoring champion", "Fashion trendsetter"],
+  "related_ids": ["kobe-bryant"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

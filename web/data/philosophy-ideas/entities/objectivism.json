@@ -1,0 +1,16 @@
+{
+  "id": "objectivism",
+  "type": "philosophy-ideas",
+  "name": "Objectivism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A philosophical system that advocates for rational self-interest, individual rights, and laissez-faire capitalism.",
+  "tags": ["hustle", "logic", "business-economics", "power"],
+  "angles": ["selfishness as virtue", "the producer", "uncompromising reason"],
+  "bar_seeds": ["atlas shrugged", "living for myself", "rational greed"],
+  "school_of_thought": "Modern Individualism",
+  "core_question": "Is rational self-interest the highest moral purpose?",
+  "key_philosophers": ["Ayn Rand"],
+  "paradoxes": [],
+  "modern_application": "Libertarianism, silicon valley hustle culture, self-help."
+}

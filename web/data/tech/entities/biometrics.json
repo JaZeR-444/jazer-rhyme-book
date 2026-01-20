@@ -1,0 +1,20 @@
+{
+  "id": "biometrics",
+  "type": "tech",
+  "name": "Biometrics",
+  "aliases": ["Biometric Security"],
+  "era": "1990s-Present",
+  "tags": ["technical", "security", "identity", "biological"],
+  "one_liner": "Body measurements and calculations related to human characteristics.",
+  "angles": ["the body as password", "immutable identity", "surveillance state"],
+  "bar_seeds": ["scanning the iris", "fingerprint unlock", "face id vision"],
+  "related_ids": ["cybersecurity"],
+  "category": "Security / Biology",
+  "what_it_is": "Using unique biological traits (face, fingerprint, iris) for identification and access control.",
+  "why_it_matters": "Removes the need for passwords but makes identity theft more permanent.",
+  "risks": ["Privacy loss", "Data permanence (can't change your face)", "Spoofing"],
+  "metaphors": ["The biological key", "The digital signature of the soul", "Mirror lock"],
+  "keywords": ["Facial Recognition", "Fingerprint", "Iris Scan", "Authentication", "Privacy"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "canelo-alvarez",
+  "type": "sports",
+  "name": "Canelo Alvarez",
+  "aliases": ["Canelo", "Saul Alvarez"],
+  "era": "2010s-Present",
+  "tags": ["boxing", "grit", "mexican", "status"],
+  "one_liner": "Mexican boxing superstar and multiple-weight world champion known for his power and counter-punching.",
+  "angles": ["pound for pound king", "mexican heart", "body shots"],
+  "bar_seeds": ["canelo red", "guadalajara", "no boxing no life"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Body punching", "Head movement", "Counter-striking"],
+  "equipment": ["Boxing gloves (Winning/No Boxing No Life)"],
+  "metaphors": ["Cinnamon (Canelo)"],
+  "legends": ["Undisputed Super Middleweight Champion"],
+  "related_ids": ["floyd-mayweather"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

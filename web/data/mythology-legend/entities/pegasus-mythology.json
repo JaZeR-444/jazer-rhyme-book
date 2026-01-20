@@ -1,0 +1,17 @@
+{
+  "id": "pegasus-mythology",
+  "type": "mythology-legend",
+  "name": "Pegasus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The winged divine stallion, one of the most recognized creatures in Greek mythology.",
+  "tags": ["classic", "vibrant", "sky", "purity"],
+  "angles": ["flight", "inspiration", "divine-messenger"],
+  "bar_seeds": ["wings on the horse", "soaring above the mortals", "lightning mount"],
+  "related_ids": ["perseus"],
+  "origin_culture": "Greek",
+  "deity_type": "Mythical Creature / Stallion",
+  "powers": ["Flight", "Stamping out springs", "Divinity"],
+  "symbols": ["Wings", "White Horse", "Lightning"],
+  "modern_parallels": ["Logo branding (Mobil)", "Poetic inspiration", "Rare assets"]
+}

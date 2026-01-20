@@ -1,0 +1,302 @@
+{
+  "zany": {
+    "s": 2,
+    "r": "any",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zap": {
+    "s": 1,
+    "r": "zap",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zeal": {
+    "s": 1,
+    "r": "eal",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zen": {
+    "s": 1,
+    "r": "zen",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zenith": {
+    "s": 2,
+    "r": "ith",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zephyr": {
+    "s": 2,
+    "r": "hyr",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zeppelin": {
+    "s": 3,
+    "r": "lin",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zero": {
+    "s": 2,
+    "r": "ero",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zest": {
+    "s": 1,
+    "r": "est",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zestful": {
+    "s": 2,
+    "r": "ful",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zeta": {
+    "s": 2,
+    "r": "eta",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zig": {
+    "s": 1,
+    "r": "zig",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zigzag": {
+    "s": 2,
+    "r": "zag",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zine": {
+    "s": 1,
+    "r": "ine",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zing": {
+    "s": 1,
+    "r": "ing",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zinger": {
+    "s": 2,
+    "r": "ger",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zinnia": {
+    "s": 2,
+    "r": "nia",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zip": {
+    "s": 1,
+    "r": "zip",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zipline": {
+    "s": 2,
+    "r": "ine",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zipper": {
+    "s": 2,
+    "r": "per",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zircon": {
+    "s": 2,
+    "r": "con",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zither": {
+    "s": 2,
+    "r": "her",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zodiac": {
+    "s": 2,
+    "r": "iac",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zodiacal": {
+    "s": 3,
+    "r": "cal",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zoetrope": {
+    "s": 2,
+    "r": "ope",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zoetropic": {
+    "s": 3,
+    "r": "pic",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "zonal": {
+    "s": 2,
+    "r": "nal",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zone": {
+    "s": 1,
+    "r": "one",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zoo": {
+    "s": 1,
+    "r": "zoo",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "zoology": {
+    "s": 3,
+    "r": "ogy",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  }
+}

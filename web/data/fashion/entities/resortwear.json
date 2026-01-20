@@ -1,0 +1,56 @@
+{
+  "id": "resortwear",
+  "type": "fashion",
+  "name": "Resortwear",
+  "aliases": [
+    "Vacation wear"
+  ],
+  "era": "1920s-Present",
+  "tags": [
+    "pastel",
+    "vibrant",
+    "classic",
+    "trend"
+  ],
+  "one_liner": "Light, breezy outfits designed for warm climates and leisure.",
+  "angles": [
+    "vacation ease",
+    "coastal elegance",
+    "sunlit style"
+  ],
+  "bar_seeds": [
+    "linen in the breeze",
+    "poolside glow",
+    "sunset fit"
+  ],
+  "item_type": "Leisurewear",
+  "material": [
+    "Linen",
+    "Cotton",
+    "Silk"
+  ],
+  "cultural_significance": "Signals relaxed luxury and destination lifestyle.",
+  "fit": [
+    "Relaxed",
+    "Flowing"
+  ],
+  "associated_brands": [
+    "Gucci",
+    "Prada",
+    "Tommy Bahama"
+  ],
+  "related_ids": [
+    "bohemian-fashion",
+    "luxury-accessories"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Resort wear",
+      "url": "https://en.wikipedia.org/wiki/Resort_wear",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

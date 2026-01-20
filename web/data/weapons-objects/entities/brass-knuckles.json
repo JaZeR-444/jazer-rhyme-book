@@ -1,0 +1,20 @@
+{
+  "id": "brass-knuckles",
+  "type": "weapons-objects",
+  "name": "Brass Knuckles",
+  "aliases": ["Knuckle Dusters", "Knucks"],
+  "era": "Ancient-Present",
+  "tags": ["weapon", "street", "brawl", "brutal"],
+  "one_liner": "A simple but effective weapon designed to enhance the power of a punch.",
+  "angles": ["the dirty brawler", "street justice", "heavy-handed"],
+  "bar_seeds": ["brass knuckled fist", "weighted punches", "brawl in the alley", "cold metal on the hand"],
+  "weapon_type": "Melee Weapon",
+  "range": "Melee",
+  "damage_type": "Blunt Force",
+  "symbolism": "Street toughness, dirty fighting, and physical aggression.",
+  "famous_users": ["Street fighters", "Enforcers"],
+  "related_ids": ["lingo"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

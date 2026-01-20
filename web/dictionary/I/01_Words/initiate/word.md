@@ -1,0 +1,35 @@
+# WORD: Initiate
+
+## Meaning (plain):
+A forceful term evoking power, impact, or presence.
+
+## Rap meaning (how I'd say it):
+A punchy term for dominance, pressure, and presence.
+
+## Syllables:
+3 (approx.)
+
+## Part of speech:
+Verb
+
+## Synonyms:
+impact, pressure, drive, edge, authority, control
+
+## Antonyms:
+weakness, softness, surrender, silence
+
+## Rhyme ideas (end / slant / multi):
+END: state, fate, late / SLANT: gate, create, straight / MULTI: create a state, defy fate, never late
+
+## 3 bar-ready examples:
+1. Say Initiate with the vision, watch the crowd awake.
+2. Initiate in my cadence, heavy like a drumline.
+3. I move with Initiate, every step a headline.
+
+## 3 punchline angles:
+1. Force/weight contrast
+2. Power/control imagery
+3. Scale/impact flex
+
+## Tags:
+power, intensity, dominance, momentum

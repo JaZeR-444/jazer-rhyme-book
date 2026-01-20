@@ -1,0 +1,71 @@
+{
+  "id": "pride",
+  "type": "emotions-states",
+  "name": "Pride",
+  "aliases": [
+    "Self-respect"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "mainstream",
+    "vibrant",
+    "classic"
+  ],
+  "one_liner": "A confident satisfaction in oneself or one's achievements.",
+  "angles": [
+    "earned confidence",
+    "standing tall",
+    "quiet power"
+  ],
+  "bar_seeds": [
+    "chin up, shoulders back",
+    "earned this",
+    "banner in the wind"
+  ],
+  "related_ids": [
+    "hope",
+    "euphoria"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pride",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "achievement",
+    "recognition",
+    "self-respect"
+  ],
+  "sensations": [
+    "expansion",
+    "warmth",
+    "steady breath"
+  ],
+  "expressions": [
+    "upright posture",
+    "smile",
+    "calm voice"
+  ],
+  "opposites": [
+    "shame",
+    "guilt"
+  ],
+  "coping_tools": [
+    "affirmation",
+    "celebration",
+    "reflection"
+  ],
+  "cultural_notes": [
+    "honor",
+    "achievement rituals"
+  ],
+  "related_states": [
+    "confidence",
+    "contentment"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "boltzmann-brain",
+  "type": "science-future",
+  "name": "Boltzmann Brain",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A thought experiment suggesting that it is more likely for a single brain to spontaneously form in a void than for the entire universe to come into being as it has.",
+  "tags": ["esoteric", "quantum", "philosophical-ideas", "existence"],
+  "angles": ["statistical-madness", "hallucinated-reality", "the-ultimate-glitch"],
+  "bar_seeds": ["brain in the void", "one thought in the static", "flickering into life"],
+  "related_ids": ["solipsism", "entropy"],
+  "field": "Cosmology / Statistical Mechanics",
+  "hypothesis": "Fluctuations in a vacuum could create a conscious observer with false memories.",
+  "implications": ["Unreliability of memory", "Probability theory vs Reality", "Existence as a fleeting accident"],
+  "technologies": ["N/A (Theoretical)"],
+  "ethical_concerns": ["The nature of individual reality"]
+}

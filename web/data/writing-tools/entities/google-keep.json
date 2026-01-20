@@ -1,0 +1,18 @@
+{
+  "id": "google-keep",
+  "type": "writing-tool",
+  "name": "Google Keep",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A note-taking service that offers a visual, sticky-note interface for capturing quick ideas.",
+  "tags": ["tool", "utility", "cloud", "colorful"],
+  "angles": ["speed", "color-coding", "cloud"],
+  "bar_seeds": ["sticky note", "checklist", "pinned to the top"],
+  "related_ids": ["google-docs"],
+  "category": "Software / Web",
+  "what_it_does": "Captures ideas quickly as color-coded cards.",
+  "best_for": ["grocery lists", "fleeting ideas", "visual organization"],
+  "workflow_hooks": ["Color code by theme", "Voice memo to text"],
+  "pitfalls": ["Not good for long form", "Google privacy"],
+  "bar_angles": ["Sticky situation", "Pinned thought", "Cloud memory"]
+}

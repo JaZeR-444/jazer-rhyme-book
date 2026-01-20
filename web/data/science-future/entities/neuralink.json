@@ -1,0 +1,17 @@
+{
+  "id": "neuralink",
+  "type": "science-future",
+  "name": "Neuralink",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A neurotechnology company developing implantable brain-computer interfaces (BCIs).",
+  "tags": ["technical", "futuristic", "cyborgization", "innovative"],
+  "angles": ["merging with ai", "telepathic typing", "curing paralysis"],
+  "bar_seeds": ["chip in the brain", "thinking the text", "upload my thoughts"],
+  "related_ids": ["cyborgization", "artificial-general-intelligence"],
+  "field": "Neurotechnology",
+  "hypothesis": "High-bandwidth connection between the human brain and computers is possible and necessary.",
+  "implications": ["Telepathy", "Enhanced memory", "Direct AI integration"],
+  "technologies": ["Brain-Computer Interface", "Neural Lace"],
+  "ethical_concerns": ["Privacy of thoughts", "Hacking the human mind", "Inequality of augmentation"]
+}

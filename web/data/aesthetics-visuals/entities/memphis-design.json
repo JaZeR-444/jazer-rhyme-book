@@ -1,0 +1,17 @@
+{
+  "id": "memphis-design",
+  "type": "aesthetics-visuals",
+  "name": "Memphis Design",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An influential 1980s design movement characterized by clashing colors, geometric shapes, and bold patterns.",
+  "tags": ["80s", "vibrant", "geometric", "maximalist"],
+  "angles": ["chaos", "kitsch", "postmodern"],
+  "bar_seeds": ["squiggles and dots", "clashing colors", "saved by the bell vibes"],
+  "related_ids": ["maximalist"],
+  "visual_elements": ["Squiggles", "Triangles", "Confetti patterns", "Laminate"],
+  "mood": "Playful, energetic, eccentric",
+  "associated_eras": ["1980s"],
+  "color_palette": ["Hot Pink", "Teal", "Bright Yellow", "Electric Blue"],
+  "fashion_staples": ["Patterned shirts", "Bold earrings", "Plastic furniture"]
+}

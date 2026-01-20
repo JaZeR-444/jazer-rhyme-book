@@ -1,0 +1,17 @@
+{
+  "id": "tiffany-and-co",
+  "type": "brand",
+  "name": "Tiffany & Co.",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An American luxury jewelry retailer headquartered in New York City, famous for its blue box.",
+  "tags": ["luxury", "classic", "romance", "status"],
+  "angles": ["blue", "diamonds", "new-york"],
+  "bar_seeds": ["tiffany blue", "breakfast at tiffany's", "silver spoon"],
+  "related_ids": ["cartier"],
+  "category": "Jewelry",
+  "price_tier": "High",
+  "signature_products": ["Engagement Rings", "Silver Heart Tag", "Diamonds"],
+  "status_signals": ["The Robin's Egg Blue Box", "White ribbon"],
+  "bar_angles": ["Classic romance", "NYC luxury", "Diamond clarity"]
+}

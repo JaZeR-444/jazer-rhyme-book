@@ -1,0 +1,17 @@
+{
+  "id": "superintelligence",
+  "type": "science-future",
+  "name": "Superintelligence",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted human minds.",
+  "tags": ["technical", "futuristic", "singularity", "power"],
+  "angles": ["god-like machine", "unpredictable speed", "the last invention"],
+  "bar_seeds": ["beyond human thought", "infinite optimization", "solving the universe"],
+  "related_ids": ["artificial-general-intelligence", "singularity"],
+  "field": "Artificial Intelligence",
+  "hypothesis": "AI will eventually surpass human cognition across all domains.",
+  "implications": ["End of human labor", "Risk of human obsolescence", "Rapid scientific breakthroughs"],
+  "technologies": ["Recursive Self-Improvement", "Neuromorphic Computing"],
+  "ethical_concerns": ["Alignment problem", "Existential risk", "Loss of human control"]
+}

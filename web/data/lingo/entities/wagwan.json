@@ -1,0 +1,18 @@
+{
+  "id": "wagwan",
+  "type": "lingo",
+  "name": "Wagwan",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A greeting meaning 'What's going on?'.",
+  "tags": ["slang", "uk", "caribbean", "greeting"],
+  "angles": ["greeting", "connection", "culture"],
+  "bar_seeds": ["wagwan fam", "what's the move", "island roots"],
+  "related_ids": [],
+  "meaning": "What is going on / How are you.",
+  "usage": "Standard informal greeting.",
+  "origin": "Jamaican Patois",
+  "region": "Jamaica / UK / Toronto",
+  "example_lines": ["Wagwan my G", "Wagwan with you?"],
+  "do_not_use_if": ["You sound incredibly forced"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "beyonce-2",
+  "type": "people",
+  "name": "Solange Knowles",
+  "aliases": ["Solange", "Knowles"],
+  "era": "2002-Present",
+  "tags": ["singer", "activist", "artistic", "sister", "conscious"],
+  "one_liner": "A singer and artist known for artistic expression and conscious music.",
+  "angles": ["artistic expression", "conscious music", "visual artistry"],
+  "bar_seeds": ["a seat at the table", "when i get home", "solo journey", "artistic expression"],
+  "known_for": ["A Seat at the Table", "When I Get Home", "Visual albums", "Activism"],
+  "vibe": "Artistic, conscious, and expressive",
+  "signature_items": ["Artistic visuals", "Conscious lyrics", "Visual albums"],
+  "quotables_short": ["I'm not trying to be cool, I'm just trying to be me", "I want to be a voice for my generation"],
+  "controversy_flags": ["Artistic expression"],
+  "related_ids": ["beyonce", "jay-z"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

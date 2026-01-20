@@ -1,0 +1,47 @@
+{
+  "id": "good-friday-agreement-1998",
+  "type": "history",
+  "name": "Good Friday Agreement",
+  "aliases": [
+    "Belfast Agreement"
+  ],
+  "era": "1998",
+  "tags": [
+    "peace",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A peace agreement that helped end decades of conflict in Northern Ireland.",
+  "angles": [
+    "peace process",
+    "power sharing",
+    "end of the Troubles"
+  ],
+  "bar_seeds": [
+    "peace on paper",
+    "border calm",
+    "agreement at last"
+  ],
+  "key_dates": [
+    "1998-04-10"
+  ],
+  "location": "Northern Ireland",
+  "impact": "Reduced violence and established a new political framework.",
+  "major_figures": [
+    "David Trimble",
+    "John Hume"
+  ],
+  "cultural_shift": "Signaled a shift toward reconciliation and power-sharing.",
+  "related_ids": [],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Good_Friday_Agreement",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

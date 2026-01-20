@@ -1,0 +1,20 @@
+{
+  "id": "startup",
+  "type": "business-economics",
+  "name": "Startup",
+  "aliases": ["Growth Company", "New Venture"],
+  "era": "20th Century-Present",
+  "tags": ["business", "innovation", "growth", "high-risk"],
+  "one_liner": "A company in the early stages of operations, typically characterized by high risk and potential for rapid growth.",
+  "angles": ["disrupting the industry", "the garage to global journey", "burning cash for scale"],
+  "bar_seeds": ["garage founders", "scaling up", "disruption", "series a funding"],
+  "industry": "Tech / General",
+  "core_principle": "Rapid growth and innovation.",
+  "jargon": ["MVP (Minimum Viable Product)", "Pivot", "Runway", "Scalability"],
+  "key_metrics": ["User growth", "Churn rate", "Customer acquisition cost (CAC)"],
+  "archetypes": ["Founder", "Early employee", "Disrupter"],
+  "related_ids": ["venture-capital"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

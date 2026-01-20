@@ -1,0 +1,21 @@
+{
+  "id": "kendrick-lamar",
+  "type": "music",
+  "name": "Kendrick Lamar",
+  "aliases": ["K-Dot", "Kung Fu Kenny", "Kendrick Duckworth"],
+  "era": "2010s-Present",
+  "tags": ["lyrical", "conscious", "compton", "storyteller", "poet"],
+  "one_liner": "The Compton poet who elevated hip-hop with profound storytelling and social commentary.",
+  "angles": ["conscious rap", "lyrical complexity", "social commentary"],
+  "bar_seeds": ["DAMN.", "good kid, m.A.A.d city", "Humble", "Alright"],
+  "genre": ["Hip Hop", "Conscious Rap", "Jazz Rap"],
+  "era_detail": "Rise in early 2010s, critical acclaim in 2010s.",
+  "signature_songs": ["Humble", "Alright", "Swimming Pools"],
+  "sonic_descriptors": ["lyrical", "complex", "conscious"],
+  "influence_tree": ["Tupac", "Dr. Dre"],
+  "aesthetic": "Compton, jazz influences, conscious messaging",
+  "related_ids": ["dr-dre", "j-cole"],
+  "created_at": "2025-12-23T11:40:00Z",
+  "updated_at": "2025-12-23T11:40:00Z",
+  "sources": []
+}

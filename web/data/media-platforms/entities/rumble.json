@@ -1,0 +1,17 @@
+{
+  "id": "rumble",
+  "type": "media-platforms",
+  "name": "Rumble",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A video hosting platform positioned as a 'free speech' alternative to YouTube.",
+  "tags": ["rebellion", "political", "video", "alternative"],
+  "angles": ["uncensored", "independent-media", "parallel-economy"],
+  "bar_seeds": ["rumble room", "unfiltered truth", "shadowban protection"],
+  "related_ids": ["youtube"],
+  "platform_type": "Video Hosting",
+  "user_demographic": "Alternative Media, Political Commentators",
+  "content_format": ["Video", "Live Streams"],
+  "algorithm_bias": "Favors conservative and alternative news content.",
+  "slang": ["Rant", "Battle", "Unfiltered"]
+}

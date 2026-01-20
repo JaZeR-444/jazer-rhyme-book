@@ -1,0 +1,17 @@
+{
+  "id": "electricity",
+  "type": "time-energy",
+  "name": "Electricity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The set of physical phenomena associated with the presence and motion of matter that has a property of electric charge.",
+  "tags": ["technical", "industrial", "vibrant", "energy"],
+  "angles": ["spark", "current", "grid"],
+  "bar_seeds": ["high voltage", "current flowing", "static in the air"],
+  "related_ids": ["light-waves", "potential-energy"],
+  "concept_type": "Physics / Energy",
+  "perception": "Buzzing, energetic, and foundational to modern life.",
+  "physics_basis": "Movement of electrons.",
+  "cultural_view": "Represents life, ideas, and sudden shock.",
+  "idioms": ["Lighting a spark", "Short circuit", "Live wire"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vespa",
+  "type": "vehicles",
+  "name": "Vespa",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The classic Italian scooter synonymous with style and urban mobility.",
+  "tags": ["vintage", "classic", "minimalist", "culture"],
+  "angles": ["style", "romance", "agility"],
+  "bar_seeds": ["roman holiday", "scooter gang", "buzzing through traffic"],
+  "related_ids": [],
+  "vehicle_type": "Scooter",
+  "engine_type": "Single cylinder",
+  "top_speed": "40-70 mph",
+  "cultural_status": "An icon of Italian design and mod culture.",
+  "design_features": ["Step-through frame", "Enclosed engine", "Curved bodywork"]
+}

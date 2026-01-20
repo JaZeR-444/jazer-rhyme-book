@@ -1,0 +1,20 @@
+{
+  "id": "kim-kardashian",
+  "type": "people",
+  "name": "Kim Kardashian",
+  "aliases": ["Kim", "KK", "Kardashian", "SKKY"],
+  "era": "2000s-Present",
+  "tags": ["influence", "business", "reality", "style", "cultural"],
+  "one_liner": "The cultural icon who transformed from reality star to business mogul and legal advocate.",
+  "angles": ["reality to business", "shapewear mogul", "legal reform"],
+  "bar_seeds": ["SKIMS", "KKW", "Legal reform", "Paper magazine"],
+  "known_for": ["Keeping Up with the Kardashians", "SKIMS", "Kylie Cosmetics"],
+  "vibe": "Confident, strategic, trendsetting",
+  "signature_items": ["Contouring", "Minimalist fashion", "Shapewear"],
+  "quotables_short": ["I'm the one that's going to make you famous", "I've never been on a diet"],
+  "controversy_flags": ["Paper magazine cover", "Legal opinions"],
+  "related_ids": ["kanye-west", "kylie-jenner"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

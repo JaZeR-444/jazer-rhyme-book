@@ -1,0 +1,17 @@
+{
+  "id": "baba-yaga",
+  "type": "mythology-legend",
+  "name": "Baba Yaga",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An enigmatic and powerful witch in Slavic folklore who lives in a house standing on chicken legs.",
+  "tags": ["esoteric", "dark", "female-power", "classic"],
+  "angles": ["ambiguous-morality", "forest-dwelling", "wild-wisdom"],
+  "bar_seeds": ["chicken leg house", "mortar and pestle flight", "iron teeth"],
+  "related_ids": ["john-wick"],
+  "origin_culture": "Slavic / Russian",
+  "deity_type": "Witch / Supernatural Being",
+  "powers": ["Magic", "Flight", "Control of nature"],
+  "symbols": ["Chicken Legs", "Mortar and Pestle", "Hut"],
+  "modern_parallels": ["John Wick (nickname)", "Nature's indifference", "Crone archetype"]
+}

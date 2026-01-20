@@ -1,0 +1,21 @@
+{
+  "id": "hide-the-pain-harold",
+  "type": "internet-culture",
+  "name": "Hide the Pain Harold",
+  "aliases": ["Harold", "András Arató"],
+  "era": "2010s-Present",
+  "tags": ["meme", "stock-photo", "emotion", "relatable"],
+  "one_liner": "A stock photo model whose facial expression appears to be a man suppressing deep internal suffering while smiling.",
+  "angles": ["masking pain", "corporate gloom", "forced positivity"],
+  "bar_seeds": ["harold smile", "pain behind the eyes", "stock photo legend"],
+  "format": "Stock photo",
+  "origin_platform": "Faceplace / Reddit",
+  "meaning": "The struggle to remain positive while suffering.",
+  "remix_rules": ["Must feature András Arató's face", "Often placed in mundane or happy settings"],
+  "lifespan_risk": "Low",
+  "example_lines": ["Smiling like Harold at the meeting", "Hide the pain, keep moving"],
+  "related_ids": ["wojak"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

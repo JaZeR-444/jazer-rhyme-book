@@ -1,0 +1,17 @@
+{
+  "id": "the-vietnam-war",
+  "type": "history",
+  "name": "The Vietnam War",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A protracted conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, the United States.",
+  "tags": ["war", "grit", "rebellion", "history"],
+  "angles": ["jungle-warfare", "the-quagmire", "youth-protest"],
+  "bar_seeds": ["agent orange", "chopper blades", "fortunate son playing"],
+  "related_ids": ["apocalypse-now-1979", "full-metal-jacket-1987"],
+  "key_dates": ["1955", "1975"],
+  "location": "Vietnam / Southeast Asia",
+  "impact": "Caused massive casualties and deep social division in the US; reshaped military doctrine.",
+  "major_figures": ["Ho Chi Minh", "Lyndon B. Johnson", "Richard Nixon"],
+  "cultural_shift": "Total disillusionment with government authority and the birth of modern anti-war culture."
+}

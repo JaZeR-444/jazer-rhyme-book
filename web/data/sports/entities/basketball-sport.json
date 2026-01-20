@@ -1,0 +1,19 @@
+{
+  "id": "basketball-sport",
+  "type": "sports",
+  "name": "Basketball",
+  "aliases": ["Hoops", "The Rock"],
+  "era": "Modern Era",
+  "tags": ["basketball", "urban", "dynamic", "culture"],
+  "one_liner": "A high-paced team sport defined by rhythmic movement, verticality, and urban cultural roots.",
+  "angles": ["rhythm of the game", "street to elite", "above the rim"],
+  "bar_seeds": ["swish", "full court press", "three point line"],
+  "team_size": "5 vs 5",
+  "key_skills": ["Shooting", "Dribbling", "Jumping"],
+  "equipment": ["Basketball", "Hoop", "Sneakers"],
+  "metaphors": ["Life is a game of hoops", "Full court press on the goals"],
+  "legends": ["Jordan", "LeBron", "Kobe"],
+  "related_ids": ["michael-jordan", "lebron-james"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

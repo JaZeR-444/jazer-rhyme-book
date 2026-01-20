@@ -1,0 +1,21 @@
+{
+  "id": "rihanna",
+  "type": "music",
+  "name": "Rihanna",
+  "aliases": ["RiRi", "Robyn", "Bad Gal"],
+  "era": "2000s-Present",
+  "tags": ["barbadian", "pop", "r&b", "fashion", "entrepreneur"],
+  "one_liner": "The Barbadian artist who conquered pop music and built a beauty empire.",
+  "angles": ["island influence", "fashion mogul", "business acumen"],
+  "bar_seeds": ["Umbrella", "Diamonds", "BBW", "Fenty"],
+  "genre": ["Pop", "R&B", "Dancehall"],
+  "era_detail": "Debut in 2005, continued evolution across genres.",
+  "signature_songs": ["Umbrella", "Diamonds", "Work"],
+  "sonic_descriptors": ["catchy", "island-influenced", "versatile"],
+  "influence_tree": ["Pop royalty", "Caribbean music"],
+  "aesthetic": "Barbados, Fenty Beauty, bold fashion choices",
+  "related_ids": ["beyonce", "calvin-harris"],
+  "created_at": "2025-12-23T11:35:00Z",
+  "updated_at": "2025-12-23T11:35:00Z",
+  "sources": []
+}

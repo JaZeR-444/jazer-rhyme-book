@@ -1,0 +1,17 @@
+{
+  "id": "eudaimonia",
+  "type": "philosophy-ideas",
+  "name": "Eudaimonia",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An Ancient Greek word commonly translated as 'happiness' or 'flourishing', referring to the highest human good.",
+  "tags": ["positive", "classic", "ethics", "mellow"],
+  "angles": ["human-flourishing", "purposeful-joy", "the-well-lived-life"],
+  "bar_seeds": ["living to the peak", "soul's perfection", "flower in full bloom"],
+  "related_ids": ["virtue-ethics", "stoicism"],
+  "school_of_thought": "Aristotelianism / Virtue Ethics",
+  "core_question": "What does it mean to truly flourish as a human?",
+  "key_philosophers": ["Aristotle"],
+  "paradoxes": [],
+  "modern_application": "Positive psychology, self-improvement, life coaching."
+}

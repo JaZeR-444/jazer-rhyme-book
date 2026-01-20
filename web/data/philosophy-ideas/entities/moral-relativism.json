@@ -1,0 +1,17 @@
+{
+  "id": "moral-relativism",
+  "type": "philosophy-ideas",
+  "name": "Moral Relativism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The view that moral judgments are true or false only relative to some particular standpoint.",
+  "tags": ["intellectual", "logic", "abstract", "conflicted"],
+  "angles": ["no-absolute-truth", "cultural-context", "subjective-good"],
+  "bar_seeds": ["your truth ain't mine", "good and evil in the eye", "shifting scales"],
+  "related_ids": ["nihilism", "postmodernism"],
+  "school_of_thought": "Ethics",
+  "core_question": "Are there universal moral truths, or is it all relative?",
+  "key_philosophers": ["Protagoras", "Friedrich Nietzsche"],
+  "paradoxes": ["The Relativist's Paradox"],
+  "modern_application": "Multiculturalism, legal interpretation, international ethics."
+}

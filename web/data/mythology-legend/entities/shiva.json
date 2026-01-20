@@ -1,0 +1,17 @@
+{
+  "id": "shiva",
+  "type": "mythology-legend",
+  "name": "Shiva",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Destroyer within the Hindu trinity, responsible for the destruction of the universe to pave way for recreation.",
+  "tags": ["spiritual", "vibrant", "mythology", "cycle"],
+  "angles": ["destruction", "dance", "meditation"],
+  "bar_seeds": ["third eye open", "cosmic dance", "destroyer of worlds"],
+  "related_ids": [],
+  "origin_culture": "Hindu",
+  "deity_type": "God (Trimurti)",
+  "powers": ["Destruction", "Meditation", "Cosmic Dance (Tandava)"],
+  "symbols": ["Trident", "Third Eye", "Crescent Moon", "Snake"],
+  "modern_parallels": ["Nuclear Power", "Revolutionaries", "Minimalists"]
+}

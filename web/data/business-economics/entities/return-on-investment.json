@@ -1,0 +1,17 @@
+{
+  "id": "return-on-investment",
+  "type": "business-economics",
+  "name": "Return on Investment (ROI)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A performance measure used to evaluate the efficiency or profitability of an investment.",
+  "tags": ["logic", "technical", "wealth", "metric"],
+  "angles": ["value", "efficiency", "outcome"],
+  "bar_seeds": ["what's the ROI", "counting the returns", "bang for the buck"],
+  "related_ids": [],
+  "industry": "General Business",
+  "core_principle": "Maximizing profit relative to cost.",
+  "jargon": ["Yield", "Profitability", "Bottom line"],
+  "key_metrics": ["Percentage Return", "Payback Period"],
+  "archetypes": ["CFO", "Investor"]
+}

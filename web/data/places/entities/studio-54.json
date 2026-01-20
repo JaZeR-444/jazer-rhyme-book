@@ -1,0 +1,17 @@
+{
+  "id": "studio-54",
+  "type": "places",
+  "name": "Studio 54",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The legendary 1970s NYC nightclub that defined disco, decadence, and ultimate exclusivity.",
+  "tags": ["luxury", "vice", "vibrant", "classic"],
+  "angles": ["peak decadence", "the velvet rope", "disco fever"],
+  "bar_seeds": ["moon with a spoon", "velvet rope", "dancing with icons"],
+  "related_ids": ["disco-era", "andy-warhol"],
+  "place_type": "venue",
+  "vibe": "Hedonistic, exclusive, and glamorous.",
+  "sensory_cues": ["Disco ball sparkle", "Sweat and perfume", "Heavy bass", "Silver dust"],
+  "cultural_refs": ["Disco", "Bianca Jagger", "Nightlife legend"],
+  "bar_angles": ["The velvet rope", "Dancing on the edge", "Decadence in the dark"]
+}

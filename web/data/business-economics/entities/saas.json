@@ -1,0 +1,17 @@
+{
+  "id": "saas",
+  "type": "business-economics",
+  "name": "Software as a Service (SaaS)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.",
+  "tags": ["technical", "subscription", "business", "cloud"],
+  "angles": ["recurring-revenue", "cloud-dominance", "scalability"],
+  "bar_seeds": ["subscription model", "monthly recurring", "software in the cloud"],
+  "related_ids": ["subscription-business-model", "cloud-computing"],
+  "industry": "Technology",
+  "core_principle": "Centrally hosted subscription software.",
+  "jargon": ["MRR", "ARR", "Multitenancy"],
+  "key_metrics": ["Churn", "LTV", "NPS"],
+  "archetypes": ["SaaS Founder", "Cloud Architect"]
+}

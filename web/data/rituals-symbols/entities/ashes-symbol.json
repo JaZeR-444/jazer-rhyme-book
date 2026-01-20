@@ -1,0 +1,17 @@
+{
+  "id": "ashes-symbol",
+  "type": "rituals-symbols",
+  "name": "Ashes",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The powdery residue left after burning, symbolizing mourning, repentance, and resurrection.",
+  "tags": ["dark", "purification", "spiritual", "classic"],
+  "angles": ["rising-from-dust", "memento-mori", "total-erasure"],
+  "bar_seeds": ["ashes to ashes", "phoenix rising", "burnt bridges"],
+  "related_ids": ["phoenix", "decay"],
+  "purpose": "To signify the end of one state and the potential for rebirth.",
+  "steps": ["Combustion", "Collection", "Scattering or marking"],
+  "objects_used": ["Urn", "Cross mark", "Wind"],
+  "participants": "Mourner, Priest, Individual",
+  "outcome": "Closure or transformation."
+}

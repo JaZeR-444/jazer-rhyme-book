@@ -1,0 +1,18 @@
+{
+  "id": "blue-velvet-1986",
+  "type": "cinema",
+  "name": "Blue Velvet",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals.",
+  "tags": ["surreal", "noir", "grit", "aesthetic"],
+  "angles": ["suburban-darkness", "fetishistic-terror", "the-hidden-underworld"],
+  "bar_seeds": ["severed ear in the grass", "pabst blue ribbon", "candy colored clown"],
+  "related_ids": ["mulholland-drive-2001"],
+  "era": "1986",
+  "plot_hooks": ["Finding the ear", "Spying from the closet", "Meeting Frank Booth"],
+  "iconic_scenes": ["Frank Booth with the mask", "In Dreams lip sync", "Opening slow-motion fire truck"],
+  "visual_motifs": ["Blue velvet fabric", "Severed ear", "Red lips", "Perfect lawns"],
+  "themes": ["Loss of innocence", "Voyeurism", "The darkness beneath suburbia"],
+  "quotables_short": ["He's a candy-colored clown they call the sandman.", "Don't you look at me!"]
+}

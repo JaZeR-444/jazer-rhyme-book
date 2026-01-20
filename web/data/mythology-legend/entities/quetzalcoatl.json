@@ -1,0 +1,17 @@
+{
+  "id": "quetzalcoatl",
+  "type": "mythology-legend",
+  "name": "Quetzalcoatl",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Feathered Serpent, a creator deity of Aztec culture associated with wind, Venus, and learning.",
+  "tags": ["classic", "nature", "mythology", "ancient"],
+  "angles": ["duality", "creation", "knowledge"],
+  "bar_seeds": ["feathered serpent", "aztec gold", "wind blower"],
+  "related_ids": [],
+  "origin_culture": "Aztec",
+  "deity_type": "God",
+  "powers": ["Control of wind", "Creation of mankind", "Knowledge"],
+  "symbols": ["Feathers", "Snake", "Conch Shell"],
+  "modern_parallels": ["Professors", "Architects", "Storm Chasers"]
+}

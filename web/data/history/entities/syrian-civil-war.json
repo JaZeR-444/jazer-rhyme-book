@@ -1,0 +1,48 @@
+{
+  "id": "syrian-civil-war",
+  "type": "history",
+  "name": "Syrian Civil War",
+  "aliases": [],
+  "era": "2011-Present",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A prolonged conflict that began with protests and escalated into civil war.",
+  "angles": [
+    "proxy conflict",
+    "humanitarian crisis",
+    "regional instability"
+  ],
+  "bar_seeds": [
+    "cities in ruins",
+    "refugee roads",
+    "war without end"
+  ],
+  "key_dates": [
+    "2011 (uprising)",
+    "2015 (foreign intervention)"
+  ],
+  "location": "Syria",
+  "impact": "Mass displacement, geopolitical tension, and ongoing conflict.",
+  "major_figures": [
+    "Bashar al-Assad"
+  ],
+  "cultural_shift": "Global focus on refugees and humanitarian response intensified.",
+  "related_ids": [
+    "arab-spring",
+    "iraq-war"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

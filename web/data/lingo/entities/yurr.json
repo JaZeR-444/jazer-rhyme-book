@@ -1,0 +1,18 @@
+{
+  "id": "yurr",
+  "type": "lingo",
+  "name": "Yurr",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A greeting or confirmation, often yelled.",
+  "tags": ["slang", "nyc", "community", "vibrant"],
+  "angles": ["greeting", "energy", "confirmation"],
+  "bar_seeds": ["yurr heard", "yelling down the block", "what's good"],
+  "related_ids": [],
+  "meaning": "Yes, Hello, or I agree.",
+  "usage": "Greeting a friend from down the street.",
+  "origin": "New York City / Latin Caribbean",
+  "region": "NYC",
+  "example_lines": ["YURRRR!", "You coming through? Yurr."],
+  "do_not_use_if": ["You are in a library"]
+}

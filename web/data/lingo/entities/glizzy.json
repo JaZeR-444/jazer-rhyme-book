@@ -1,0 +1,21 @@
+{
+  "id": "glizzy",
+  "type": "lingo",
+  "name": "Glizzy",
+  "aliases": ["Glock"],
+  "era": "2010s-Present",
+  "tags": ["weapon", "food", "dmv", "slang"],
+  "one_liner": "A slang term for a Glock handgun, or more recently, a hot dog.",
+  "angles": ["the duality of the glizzy", "street protection", "internet humor"],
+  "bar_seeds": ["keep a glizzy", "glizzy gladiator", "extendo on the glizzy"],
+  "meaning": "1. A firearm (Glock). 2. A hot dog (Internet meme/DC slang).",
+  "usage": "In rap, it almost always refers to a gun. In memes, a hot dog.",
+  "origin": "Washington D.C. (DMV area)",
+  "region": "North America",
+  "example_lines": ["He got the glizzy on him"],
+  "do_not_use_if": ["In a strictly formal setting"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

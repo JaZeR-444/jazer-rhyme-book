@@ -1,0 +1,17 @@
+{
+  "id": "oni",
+  "type": "mythology-legend",
+  "name": "Oni",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A kind of yōkai, demon, ogre, or troll in Japanese folklore, known for strength and horns.",
+  "tags": ["dark", "war", "mythology", "aesthetic"],
+  "angles": ["strength", "brutality", "protection"],
+  "bar_seeds": ["red ogre blue ogre", "iron club", "horned mask"],
+  "related_ids": [],
+  "origin_culture": "Japanese",
+  "deity_type": "Demon / Ogre",
+  "powers": ["Super strength", "Durability", "Terror"],
+  "symbols": ["Kanabo (Iron Club)", "Horns", "Tiger Skin"],
+  "modern_parallels": ["Bodybuilders", "Gang Enforcers", "Rage"]
+}

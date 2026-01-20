@@ -1,0 +1,18 @@
+{
+  "id": "fountain-pen",
+  "type": "writing-tool",
+  "name": "Fountain Pen",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sophisticated writing instrument that uses liquid ink for a smooth, expressive line.",
+  "tags": ["tool", "classic", "luxury", "vintage", "craftsmanship"],
+  "angles": ["elegance", "flow", "signature"],
+  "bar_seeds": ["gold nib", "bottled ink", "cursive flow"],
+  "related_ids": [],
+  "category": "Physical",
+  "what_it_does": "Uses capillary action to feed ink to paper.",
+  "best_for": ["journaling", "signing contracts", "slow writing"],
+  "workflow_hooks": ["Choose a custom ink color", "Feel the paper texture"],
+  "pitfalls": ["Can leak", "Requires cleaning", "Expensive"],
+  "bar_angles": ["Liquid gold", "Permanent mark", "Executive decisions"]
+}

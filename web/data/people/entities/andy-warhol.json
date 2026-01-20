@@ -1,0 +1,17 @@
+{
+  "id": "andy-warhol",
+  "type": "people",
+  "name": "Andy Warhol",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The leading figure in the visual art movement known as pop art, exploring the relationship between artistic expression and celebrity culture.",
+  "tags": ["art", "pop", "innovative", "legacy"],
+  "angles": ["fame", "repetition", "commercialism"],
+  "bar_seeds": ["soup cans", "15 minutes of fame", "the factory"],
+  "related_ids": ["jean-michel-basquiat", "marilyn-monroe"],
+  "known_for": ["Pop Art", "Campbell's Soup Cans", "The Factory"],
+  "vibe": "Detached, observational, eccentric",
+  "signature_items": ["White wig", "Camera", "Turtleneck"],
+  "quotables_short": ["In the future, everyone will be world-famous for 15 minutes."],
+  "controversy_flags": []
+}

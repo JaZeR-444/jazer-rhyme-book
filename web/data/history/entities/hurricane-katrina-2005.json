@@ -1,0 +1,44 @@
+{
+  "id": "hurricane-katrina-2005",
+  "type": "history",
+  "name": "Hurricane Katrina",
+  "aliases": [],
+  "era": "2005",
+  "tags": [
+    "mainstream",
+    "legacy",
+    "contemporary",
+    "peace"
+  ],
+  "one_liner": "A devastating hurricane that severely impacted New Orleans and the Gulf Coast.",
+  "angles": [
+    "storm surge",
+    "infrastructure failure",
+    "recovery struggle"
+  ],
+  "bar_seeds": [
+    "levees broke",
+    "water in the streets",
+    "city underwater"
+  ],
+  "key_dates": [
+    "2005-08-29"
+  ],
+  "location": "United States (Gulf Coast)",
+  "impact": "Exposed infrastructure weaknesses and reshaped disaster policy.",
+  "major_figures": [
+    "George W. Bush"
+  ],
+  "cultural_shift": "Brought focus to inequality and disaster preparedness.",
+  "related_ids": [],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

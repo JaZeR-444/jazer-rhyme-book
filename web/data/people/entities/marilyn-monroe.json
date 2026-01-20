@@ -1,0 +1,17 @@
+{
+  "id": "marilyn-monroe",
+  "type": "people",
+  "name": "Marilyn Monroe",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ultimate Hollywood sex symbol, whose tragic life and glamorous image became a cultural touchstone.",
+  "tags": ["iconic", "vintage", "classic", "tragedy"],
+  "angles": ["beauty", "vulnerability", "fame"],
+  "bar_seeds": ["blonde bombshell", "white dress blowing up", "diamonds are a girl's best friend"],
+  "related_ids": ["andy-warhol"],
+  "known_for": ["Some Like It Hot", "Modeling", "JFK Happy Birthday"],
+  "vibe": "Glamorous, fragile, timeless",
+  "signature_items": ["Platinum blonde hair", "Red lipstick", "Beauty mark"],
+  "quotables_short": ["Imperfection is beauty", "Happy birthday Mr. President"],
+  "controversy_flags": ["Affair rumors", "Cause of death"]
+}

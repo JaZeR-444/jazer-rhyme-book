@@ -1,0 +1,17 @@
+{
+  "id": "slack",
+  "type": "media-platforms",
+  "name": "Slack",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A messaging app for business that connects people to the information they need.",
+  "tags": ["business-economics", "technical", "utility", "corporate"],
+  "angles": ["productivity", "communication", "work"],
+  "bar_seeds": ["slack notification sound", "huddle up", "general channel"],
+  "related_ids": ["discord"],
+  "platform_type": "Business Communication",
+  "user_demographic": "Corporate Teams, Startups",
+  "content_format": ["Messages", "Files", "Huddles"],
+  "algorithm_bias": "N/A",
+  "slang": ["Huddle", "Channel", "Ping"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "voice-memos",
+  "type": "writing-tool",
+  "name": "Voice Memos",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The quickest way to capture a melody or flow before it vanishes.",
+  "tags": ["tool", "minimalist", "technical"],
+  "angles": ["spontaneity", "capture", "raw"],
+  "bar_seeds": ["hit record", "mumbled flows", "3am idea"],
+  "related_ids": [],
+  "category": "Utility",
+  "what_it_does": "Records audio quickly on a mobile device.",
+  "best_for": ["capturing melodies", "recording flow ideas", "saving beats"],
+  "workflow_hooks": ["Hum a melody immediately", "Record a freestyle session"],
+  "pitfalls": ["Hard to organize", "Audio quality varies"],
+  "bar_angles": ["Raw capture", "Before the polish", "Lightning in a bottle"]
+}

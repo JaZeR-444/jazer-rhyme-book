@@ -1,0 +1,20 @@
+{
+  "id": "chicago",
+  "type": "places",
+  "name": "Chicago",
+  "aliases": ["The Windy City"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Windy City. Represents the \"North Wind,\" grit, and the sports DNA (Bulls/Jordan) that fuels the competitive drive.",
+  "angles": [],
+  "bar_seeds": [],
+  "known_for": ["Bulls", "Jordan"],
+  "vibe": "Grit, competitive",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["chicago-south-side"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

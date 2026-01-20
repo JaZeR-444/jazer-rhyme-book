@@ -1,0 +1,17 @@
+{
+  "id": "will-smith",
+  "type": "people",
+  "name": "Will Smith",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "One of the world's biggest movie stars, transitioning from a rapper to a box office king, now navigating a complicated legacy.",
+  "tags": ["iconic", "legacy", "cinematic", "mainstream"],
+  "angles": ["charisma", "family", "fall-from-grace"],
+  "bar_seeds": ["fresh prince", "men in black suit", "the slap"],
+  "related_ids": [],
+  "known_for": ["Fresh Prince", "Men in Black", "King Richard"],
+  "vibe": "Charismatic, trying too hard, legendary",
+  "signature_items": ["Suits", "Genie blue", "Oscar"],
+  "quotables_short": ["Welcome to Earth", "Keep my wife's name..."],
+  "controversy_flags": ["The Oscar Slap", "Scientology rumors"]
+}

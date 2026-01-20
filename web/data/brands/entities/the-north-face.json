@@ -1,0 +1,17 @@
+{
+  "id": "the-north-face",
+  "type": "brand",
+  "name": "The North Face",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An American outdoor recreation product company that became a staple of both hiking trails and city streets.",
+  "tags": ["utilitarian", "streetwear", "classic", "gorpcore"],
+  "angles": ["durability", "cold", "exploration"],
+  "bar_seeds": ["nuptse puffer", "never stop exploring", "winter ready"],
+  "related_ids": ["supreme"],
+  "category": "Outdoor",
+  "price_tier": "Mid",
+  "signature_products": ["Nuptse Jacket", "Denali Fleece"],
+  "status_signals": ["Half Dome logo", "700 fill embroidery"],
+  "bar_angles": ["Concrete jungle survival", "NY winter staple", "Gorpcore aesthetic"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "princess-mononoke-1997",
+  "type": "cinema",
+  "name": "Princess Mononoke",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony.",
+  "tags": ["anime", "nature", "war", "epic"],
+  "angles": ["man-vs-nature", "ambiguous-evil", "the-spirit-world"],
+  "bar_seeds": ["wolf girl", "iron town fire", "the night walker"],
+  "related_ids": ["ancient-greece", "solarpunk"],
+  "era": "1997",
+  "plot_hooks": ["The curse", "The iron works vs the forest", "The forest spirit's head"],
+  "iconic_scenes": ["San riding the wolf", "The night walker's transformation", "Beheading the god"],
+  "visual_motifs": ["Kodama spirits", "Red mask", "Blood and iron"],
+  "themes": ["Environmentalism", "Conflict", "Balance"],
+  "quotables_short": ["To see with eyes unclouded by hate.", "The forest is alive."]
+}

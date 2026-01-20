@@ -1,0 +1,18 @@
+{
+  "id": "keyboard-cat",
+  "type": "internet-culture",
+  "name": "Keyboard Cat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A video of a cat named Fatso 'playing' an upbeat tune on an electronic keyboard.",
+  "tags": ["classic", "vintage", "lo-fi", "cult-classic"],
+  "angles": ["fail-outro", "retro-vibe", "irony"],
+  "bar_seeds": ["play him off", "orange tabby", "blue shirt cat"],
+  "related_ids": ["nyan-cat"],
+  "format": "Video",
+  "origin_platform": "YouTube (archival)",
+  "meaning": "Used as a 'play off' for failures or embarrassing moments (Play him off, Keyboard Cat!).",
+  "remix_rules": ["Edit onto the end of fail videos", "Low-budget synth music", "70s aesthetic"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["You fell on your face, play him off with the keys", "Old school like the cat in the blue shirt"]
+}

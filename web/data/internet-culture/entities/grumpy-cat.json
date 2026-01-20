@@ -1,0 +1,18 @@
+{
+  "id": "grumpy-cat",
+  "type": "internet-culture",
+  "name": "Grumpy Cat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The internet's most famous feline, known for her permanently grumpy facial expression.",
+  "tags": ["classic", "mellow", "mainstream", "legacy"],
+  "angles": ["negativity", "relatability", "cynicism"],
+  "bar_seeds": ["I had fun once", "it was awful", "frown upside down"],
+  "related_ids": [],
+  "format": "Image Macro",
+  "origin_platform": "Reddit",
+  "meaning": "The ultimate avatar for cynicism, disappointment, and Monday morning vibes.",
+  "remix_rules": ["Top/bottom text", "Impact font", "Sarcastic captions"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["I'm feeling like Tardar Sauce, no smile on the face", "Grumpy Cat energy, I had fun and it sucked"]
+}

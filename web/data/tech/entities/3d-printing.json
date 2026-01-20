@@ -1,0 +1,19 @@
+{
+  "id": "3d-printing",
+  "type": "tech",
+  "name": "3D Printing",
+  "aliases": ["Additive Manufacturing"],
+  "era": "1980s-Present",
+  "tags": ["technical", "innovative", "manufacturing", "creative"],
+  "angles": ["on-demand reality", "complex geometry", "decentralized factory"],
+  "bar_seeds": ["printing the future", "layer by layer", "digital to physical"],
+  "related_ids": ["programmable-matter"],
+  "category": "Manufacturing",
+  "what_it_is": "The construction of a three-dimensional object from a CAD model or a digital 3D model.",
+  "why_it_matters": "Allows for rapid prototyping and the creation of objects impossible with traditional methods.",
+  "risks": ["Intellectual property theft", "Weapon manufacturing (ghost guns)", "Material waste"],
+  "metaphors": ["Digital alchemy", "The replicator", "Building from dust"],
+  "keywords": ["FDM", "Resin", "Filament", "Prototyping", "CAD"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

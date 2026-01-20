@@ -1,0 +1,59 @@
+{
+  "id": "mcdonalds",
+  "type": "brand",
+  "name": "McDonald's",
+  "aliases": [
+    "Micky D's",
+    "Golden Arches",
+    "Macca's"
+  ],
+  "era": "1940-Present",
+  "tags": [
+    "fast-food",
+    "global",
+    "iconic",
+    "accessible",
+    "consistency"
+  ],
+  "one_liner": "The fast-food giant that became a global symbol of American capitalism.",
+  "angles": [
+    "global reach",
+    "consistency",
+    "accessibility"
+  ],
+  "bar_seeds": [
+    "I'm lovin' it",
+    "Billions and billions served",
+    "Golden arches"
+  ],
+  "related_ids": [
+    "ray-kroc",
+    "burger-king"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "McDonald's official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Food Service",
+  "price_tier": "Affordable",
+  "signature_products": [
+    "Big Mac",
+    "French Fries",
+    "McNuggets"
+  ],
+  "status_signals": [
+    "Golden arches",
+    "Consistency"
+  ],
+  "bar_angles": [
+    "accessibility",
+    "consistency",
+    "global"
+  ]
+}

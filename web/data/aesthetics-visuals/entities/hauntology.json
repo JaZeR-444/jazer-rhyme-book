@@ -1,0 +1,17 @@
+{
+  "id": "hauntology",
+  "type": "aesthetics-visuals",
+  "name": "Hauntology",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic exploring the return or persistence of elements from the social or cultural past, like a ghost.",
+  "tags": ["esoteric", "lo-fi", "nostalgic", "abstract"],
+  "angles": ["ghostly", "analogue", "lost-futures"],
+  "bar_seeds": ["VHS static", "faded film", "ghosts of the future"],
+  "related_ids": ["lo-fi", "vaporwave"],
+  "visual_elements": ["VHS tapes", "Old TVs", "Brutalist concrete", "Faded photographs"],
+  "mood": "Eerie, nostalgic, melancholic",
+  "associated_eras": ["1970s", "1980s"],
+  "color_palette": ["Faded Brown", "Concrete Grey", "Mustard Yellow", "Static Blue"],
+  "fashion_staples": ["Vintage knits", "Old uniforms", "Thrifted coats", "Analogue watches"]
+}

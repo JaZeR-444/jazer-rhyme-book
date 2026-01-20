@@ -1,0 +1,16 @@
+{
+  "id": "the-stone-age",
+  "type": "history",
+  "name": "The Stone Age",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A broad prehistoric period during which stone was widely used to make tools with an edge, a point, or a percussion surface.",
+  "tags": ["ancient", "raw", "history", "origin"],
+  "angles": ["survival", "fire", "first-tools"],
+  "bar_seeds": ["cave paintings", "stone and flint", "mammoth hunt"],
+  "key_dates": ["3.4 Million Years Ago", "2000 BC"],
+  "location": "Global",
+  "impact": "The foundational stage of human technological and social development.",
+  "major_figures": [],
+  "cultural_shift": "The transition from nomadic foraging to settled agriculture (Neolithic Revolution)."
+}

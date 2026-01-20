@@ -1,0 +1,17 @@
+{
+  "id": "time-dilation",
+  "type": "science-future",
+  "name": "Time Dilation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The difference in the elapsed time as measured by two clocks, either due to a relative velocity between them or to a difference in gravitational potential between their locations.",
+  "tags": ["quantum", "gravity", "technical", "time-energy"],
+  "angles": ["slowing the clock", "interstellar lag", "gravity's weight on time"],
+  "bar_seeds": ["minute for me year for you", "event horizon slow down", "racing against time's bend"],
+  "related_ids": ["black-hole", "the-speed-of-light"],
+  "field": "General Relativity",
+  "hypothesis": "Time is relative, not absolute, and can be stretched by speed or mass.",
+  "implications": ["One-way time travel to the future", "Interstellar navigation challenges", "Aging differences"],
+  "technologies": ["Relativistic space travel"],
+  "ethical_concerns": ["Abandonment of relatives", "Psychological isolation"]
+}

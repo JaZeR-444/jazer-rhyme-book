@@ -1,0 +1,20 @@
+{
+  "id": "coronation",
+  "type": "rituals-symbols",
+  "name": "Coronation",
+  "aliases": ["Crowning", "Enthronement"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "power", "status", "royalty"],
+  "one_liner": "The act or ceremony of crowning a sovereign.",
+  "angles": ["the weight of the crown", "assuming the throne", "divine right of kings"],
+  "bar_seeds": ["gold on the brow", "throne room echo", "swearing the oath", "the heavy crown"],
+  "purpose": "To invest a monarch with regal power.",
+  "steps": ["The oath", "Anointing", "Investiture", "Crowning"],
+  "objects_used": ["Crown", "Scepter", "Throne", "Oil"],
+  "participants": "The monarch, religious leaders, the public",
+  "outcome": "Legitimate power, change in status",
+  "related_ids": ["history", "the-godfather-1972"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

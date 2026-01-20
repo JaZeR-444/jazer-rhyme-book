@@ -1,0 +1,21 @@
+{
+  "id": "billie-eilish-2",
+  "type": "music",
+  "name": "Phoebe Bridgers",
+  "aliases": ["Phoebe", "PB"],
+  "era": "2017-Present",
+  "tags": ["indie", "folk", "emotional", "intimate", "lyrical"],
+  "one_liner": "An indie folk artist known for emotionally raw and intimate songwriting.",
+  "angles": ["emotional storytelling", "indie folk", "intimate sound"],
+  "bar_seeds": ["stranger in the alps", "copycat killer", "punisher", "indigo"],
+  "genre": ["Indie Folk", "Alternative", "Indie Rock"],
+  "era_detail": "Rise in late 2010s, critical acclaim in 2020s.",
+  "signature_songs": ["Motion Sickness", "Kyoto", "I Know the End"],
+  "sonic_descriptors": ["intimate", "emotional", "folk-influenced"],
+  "influence_tree": ["Folk musicians", "Indie rock"],
+  "aesthetic": "Indie, emotional, intimate",
+  "related_ids": ["bon-iver", "fleet-foxes"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

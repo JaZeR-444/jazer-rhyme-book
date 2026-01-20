@@ -1,0 +1,18 @@
+{
+  "id": "mewing",
+  "type": "lingo",
+  "name": "Mewing",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A technique of tongue posture used to define the jawline, often signaled by a 'shhh' finger motion.",
+  "tags": ["slang", "looksmaxxing", "internet-culture", "aesthetic"],
+  "angles": ["silence", "appearance", "jawline"],
+  "bar_seeds": ["bye bye gesture", "jawline sharp", "can't talk I'm mewing"],
+  "related_ids": [],
+  "meaning": "Improving facial aesthetics; commonly used as a meme to dismiss someone ('I can't talk, I'm mewing').",
+  "usage": "To signify you are working on your looks or to rudely silence someone.",
+  "origin": "Dr. Mike Mew / Looksmaxxing community",
+  "region": "Global / Internet",
+  "example_lines": ["Finger to the lips, I'm mewing", "Sharp jaw, been mewing since day one"],
+  "do_not_use_if": ["You are having a serious conversation", "You don't know what it means"]
+}

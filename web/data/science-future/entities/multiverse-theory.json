@@ -1,0 +1,17 @@
+{
+  "id": "multiverse-theory",
+  "type": "science-future",
+  "name": "Multiverse Theory",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The hypothetical set of all possible universes, including the universe in which we live.",
+  "tags": ["quantum", "esoteric", "cinematic", "infinity"],
+  "angles": ["infinite versions", "alternate paths", "cosmic scale"],
+  "bar_seeds": ["another me in another life", "infinite roll of the dice", "splitting the timeline"],
+  "related_ids": ["the-future", "the-past"],
+  "field": "Cosmology / Theoretical Physics",
+  "hypothesis": "Our universe is just one of many, possibly infinite, universes with different physical constants or histories.",
+  "implications": ["Every possibility is realized", "Meaning of individual choice is diluted", "Infinity becomes literal"],
+  "technologies": ["N/A (Theoretical)"],
+  "ethical_concerns": ["Existential nihilism", "Moral responsibility across universes"]
+}

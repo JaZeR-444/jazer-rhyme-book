@@ -1,0 +1,17 @@
+{
+  "id": "toronto",
+  "type": "places",
+  "name": "Toronto",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Six, a diverse Canadian hub that became a dominant force in modern R&B and hip-hop.",
+  "tags": ["mellow", "urban", "modern", "cool"],
+  "angles": ["the 6ix", "winter nights", "emotional atmosphere"],
+  "bar_seeds": ["cn tower", "ovo sound", "cold in the north"],
+  "related_ids": ["drake", "the-weeknd"],
+  "place_type": "city",
+  "vibe": "Chilly, atmospheric, and ambitious.",
+  "sensory_cues": ["Cold air", "Grey skies", "Melodic bass", "CN Tower spike"],
+  "cultural_refs": ["Drake", "The Weeknd", "OVO"],
+  "bar_angles": ["Running through the 6", "Cold heart in the north", "Winter nights in the city"]
+}

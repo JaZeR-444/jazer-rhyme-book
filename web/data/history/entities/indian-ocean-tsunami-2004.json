@@ -1,0 +1,48 @@
+{
+  "id": "indian-ocean-tsunami-2004",
+  "type": "history",
+  "name": "Indian Ocean Tsunami",
+  "aliases": [
+    "2004 tsunami"
+  ],
+  "era": "2004",
+  "tags": [
+    "mainstream",
+    "legacy",
+    "peace",
+    "contemporary"
+  ],
+  "one_liner": "A massive tsunami caused widespread devastation across the Indian Ocean region.",
+  "angles": [
+    "wave of destruction",
+    "global aid response",
+    "coastal tragedy"
+  ],
+  "bar_seeds": [
+    "tide rose fast",
+    "coastline torn",
+    "aid from everywhere"
+  ],
+  "key_dates": [
+    "2004-12-26"
+  ],
+  "location": "Indian Ocean region",
+  "impact": "Caused significant loss of life and reshaped disaster response systems.",
+  "major_figures": [
+    "Kofi Annan"
+  ],
+  "cultural_shift": "Global humanitarian response became more coordinated.",
+  "related_ids": [
+    "fukushima-disaster-2011"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nuclear-energy",
+  "type": "time-energy",
+  "name": "Nuclear Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The energy released during nuclear fission or fusion, especially when used to generate electricity.",
+  "tags": ["technical", "explosive", "industrial", "power"],
+  "angles": ["atomic power", "unstable core", "clean but dangerous"],
+  "bar_seeds": ["nuclear winter", "splitting the atom", "meltdown mode"],
+  "related_ids": ["critical-mass", "half-life"],
+  "concept_type": "Energy / Physics",
+  "perception": "Immense, terrifying, and world-changing.",
+  "physics_basis": "Fission or fusion of atomic nuclei.",
+  "cultural_view": "Associated with both the progress of the atomic age and the fear of extinction.",
+  "idioms": ["Go nuclear", "Meltdown", "Core strength"]
+}

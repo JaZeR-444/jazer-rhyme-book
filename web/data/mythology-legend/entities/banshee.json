@@ -1,0 +1,17 @@
+{
+  "id": "banshee",
+  "type": "mythology-legend",
+  "name": "Banshee",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A female spirit in Irish folklore who heralds the death of a family member by screaming or wailing.",
+  "tags": ["dark", "omen", "classic", "fear"],
+  "angles": ["warning", "grief-personified", "terrifying-sound"],
+  "bar_seeds": ["wailing in the wind", "death's herald", "shattering glass"],
+  "related_ids": ["omen", "grim-reaper"],
+  "origin_culture": "Irish / Celtic",
+  "deity_type": "Spirit / Fairy",
+  "powers": ["Death prediction", "Sonic wail"],
+  "symbols": ["Comb", "Gray cloak", "Long hair"],
+  "modern_parallels": ["Sirens (alarm)", "Grief", "Horror movie tropes"]
+}

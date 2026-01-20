@@ -1,0 +1,60 @@
+{
+  "id": "everything-everywhere-all-at-once-2022",
+  "type": "cinema",
+  "name": "Everything Everywhere All at Once",
+  "aliases": [
+    "EEAAO"
+  ],
+  "era": "2022",
+  "tags": [
+    "cinematic",
+    "surreal",
+    "innovative",
+    "cult-classic"
+  ],
+  "one_liner": "An overwhelmed woman jumps across the multiverse to save her family.",
+  "angles": [
+    "multiverse chaos",
+    "family stakes",
+    "absurdism with heart"
+  ],
+  "bar_seeds": [
+    "bagel void",
+    "jumping lives",
+    "kindness in the chaos"
+  ],
+  "related_ids": [
+    "simulation-hypothesis",
+    "quantum-computing"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "Multiple lives collide",
+    "Family conflict becomes cosmic"
+  ],
+  "iconic_scenes": [
+    "Bagel void",
+    "Rock universe"
+  ],
+  "visual_motifs": [
+    "Multiverse jumps",
+    "Googly eyes"
+  ],
+  "themes": [
+    "Family",
+    "Choice",
+    "Meaning"
+  ],
+  "quotables_short": [
+    "Be kind"
+  ]
+}

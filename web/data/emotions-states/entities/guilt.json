@@ -1,0 +1,71 @@
+{
+  "id": "guilt",
+  "type": "emotions-states",
+  "name": "Guilt",
+  "aliases": [
+    "Remorse"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "dark",
+    "mellow",
+    "classic"
+  ],
+  "one_liner": "A heavy feeling tied to wrongdoing or harm.",
+  "angles": [
+    "weight on the chest",
+    "wish to undo",
+    "inner judgment"
+  ],
+  "bar_seeds": [
+    "ghost in the mirror",
+    "apology on repeat",
+    "echo of a mistake"
+  ],
+  "related_ids": [
+    "shame",
+    "melancholy"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guilt_(emotion)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "mistakes",
+    "harm",
+    "broken trust"
+  ],
+  "sensations": [
+    "heaviness",
+    "tight stomach",
+    "sighs"
+  ],
+  "expressions": [
+    "apologies",
+    "downcast gaze",
+    "quiet voice"
+  ],
+  "opposites": [
+    "relief",
+    "pride"
+  ],
+  "coping_tools": [
+    "repair",
+    "forgiveness",
+    "accountability"
+  ],
+  "cultural_notes": [
+    "atonement",
+    "confession"
+  ],
+  "related_states": [
+    "shame",
+    "regret"
+  ]
+}

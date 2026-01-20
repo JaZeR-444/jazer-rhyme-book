@@ -1,0 +1,17 @@
+{
+  "id": "balaclava",
+  "type": "weapons-objects",
+  "name": "Balaclava",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cloth headgear that conceals identity, leaving only the eyes as witnesses.",
+  "tags": ["grit", "underground", "drill", "symbolic-object"],
+  "angles": ["anonymity", "winter", "heist"],
+  "bar_seeds": ["knitted mask", "only the eyes", "ski mask season"],
+  "related_ids": [],
+  "weapon_type": "Apparel",
+  "range": "N/A",
+  "damage_type": "Psychological",
+  "symbolism": "Mystery, criminal intent, and the loss of individual identity in the collective.",
+  "famous_users": ["UK Drill artists", "Special forces"]
+}

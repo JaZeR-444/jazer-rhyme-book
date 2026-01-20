@@ -1,0 +1,18 @@
+{
+  "id": "2001-a-space-odyssey-1968",
+  "type": "cinema",
+  "name": "2001: A Space Odyssey",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mysterious monolith appears at dawn of man and again in the future, guiding humanity's evolution.",
+  "tags": ["sci-fi", "classic", "philosophical-ideas", "technical"],
+  "angles": ["evolution", "ai-gone-rogue", "silence"],
+  "bar_seeds": ["open the pod bay doors", "monolith", "star child"],
+  "related_ids": ["interstellar-2014"],
+  "era": "1968",
+  "plot_hooks": ["HAL 9000 malfunctioning", "Jupiter mission", "The dawn of man"],
+  "iconic_scenes": ["Bone match cut to spaceship", "HAL singing Daisy", "Stargate sequence"],
+  "visual_motifs": ["Red eye of HAL", "White rooms", "Black monolith"],
+  "themes": ["Artificial Intelligence", "Evolution", "Existentialism"],
+  "quotables_short": ["I'm sorry Dave, I'm afraid I can't do that.", "My God, it's full of stars!"]
+}

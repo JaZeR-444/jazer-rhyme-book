@@ -1,0 +1,20 @@
+{
+  "id": "cadillac",
+  "type": "brands",
+  "name": "Cadillac",
+  "aliases": [],
+  "era": "Unknown",
+  "tags": ["Brands & Artifacts"],
+  "one_liner": "Classic status (often used for the \"Cataracts\" wordplay).",
+  "angles": [],
+  "bar_seeds": ["\"Cataracts\" wordplay"],
+  "known_for": [],
+  "vibe": "Classic",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["cadillac-escalade", "cadillac-fleetwood"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lebron-james",
+  "type": "sports",
+  "name": "LeBron James",
+  "aliases": ["King James", "The Chosen One"],
+  "era": "2000s-Present",
+  "tags": ["basketball", "longevity", "king", "all-around"],
+  "one_liner": "A basketball powerhouse known for his extraordinary all-around game and unprecedented longevity at the highest level.",
+  "angles": ["the crown of longevity", "all-around dominance", "building a kingdom"],
+  "bar_seeds": ["king james", "chasedown block", "l-train", "chosen one"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Playmaking", "Power", "Longevity", "Basketball IQ"],
+  "equipment": ["Basketball", "LeBron shoes"],
+  "metaphors": ["The King"],
+  "legends": ["All-time leading scorer", "4 NBA Championships"],
+  "related_ids": ["michael-jordan", "kobe-bryant"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

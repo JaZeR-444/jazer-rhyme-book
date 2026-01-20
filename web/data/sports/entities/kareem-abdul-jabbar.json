@@ -1,0 +1,19 @@
+{
+  "id": "kareem-abdul-jabbar",
+  "type": "sports",
+  "name": "Kareem Abdul-Jabbar",
+  "aliases": ["Lew Alcindor", "Cap"],
+  "era": "1960s-1980s",
+  "tags": ["basketball", "longevity", "intellectual", "classic"],
+  "one_liner": "The master of the skyhook and a social activist, who retired as the NBA's all-time leading scorer.",
+  "angles": ["unstoppable-skyhook", "longevity-pioneer", "intellectual-athlete"],
+  "bar_seeds": ["skyhook unreachable", "six rings", "all time numbers"],
+  "related_ids": ["magic-johnson", "basketball-sport"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Skyhook", "Shot blocking", "IQ"],
+  "equipment": ["Goggles", "Basketball"],
+  "metaphors": ["The Skyhook"],
+  "legends": ["6x NBA Champion", "6x MVP", "NBA all-time leading scorer (held for 39 years)"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

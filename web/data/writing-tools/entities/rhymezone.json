@@ -1,0 +1,55 @@
+{
+  "id": "rhymezone",
+  "type": "writing-tool",
+  "name": "RhymeZone",
+  "aliases": [
+    "RZ"
+  ],
+  "era": "1996-Present",
+  "tags": [
+    "technical",
+    "lyrical",
+    "contemporary"
+  ],
+  "one_liner": "A rhyming dictionary and thesaurus for writers.",
+  "angles": [
+    "finding the perfect rhyme",
+    "expanding vocabulary",
+    "near-rhymes and slant rhymes"
+  ],
+  "bar_seeds": [
+    "Stuck on a line, hit RhymeZone for the spark",
+    "Searching for the slant, RZ in the dark"
+  ],
+  "related_ids": [
+    "thesaurus-com"
+  ],
+  "created_at": "2025-12-23T11:20:00Z",
+  "updated_at": "2025-12-23T11:20:00Z",
+  "sources": [
+    {
+      "title": "RhymeZone.com",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Reference Tool",
+  "what_it_does": "Provides rhymes, near rhymes, synonyms, and definitions.",
+  "best_for": [
+    "Songwriting",
+    "Poetry",
+    "Copywriting"
+  ],
+  "workflow_hooks": [
+    "Quick search during drafting"
+  ],
+  "pitfalls": [
+    "Over-reliance on perfect rhymes",
+    "Predictable word choices"
+  ],
+  "bar_angles": [
+    "technique",
+    "precision"
+  ]
+}

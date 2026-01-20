@@ -1,0 +1,52 @@
+{
+  "id": "rise-of-social-media-2004-2015",
+  "type": "history",
+  "name": "Rise of Social Media",
+  "aliases": [
+    "Social media boom"
+  ],
+  "era": "2004-2015",
+  "tags": [
+    "social-media",
+    "viral",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Rapid adoption of social platforms reshaped communication and culture.",
+  "angles": [
+    "platform explosion",
+    "always online",
+    "audience as power"
+  ],
+  "bar_seeds": [
+    "feed never ends",
+    "likes in the air",
+    "status updates"
+  ],
+  "key_dates": [
+    "2004 (Facebook launch)",
+    "2010 (Instagram launch)",
+    "2015 (platform maturity)"
+  ],
+  "location": "Global",
+  "impact": "Transformed media, politics, and personal identity online.",
+  "major_figures": [
+    "Mark Zuckerberg",
+    "Jack Dorsey"
+  ],
+  "cultural_shift": "Identity and influence became platform-driven.",
+  "related_ids": [
+    "facebook",
+    "instagram"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Social_media",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

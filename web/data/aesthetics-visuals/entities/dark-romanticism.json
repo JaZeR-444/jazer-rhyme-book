@@ -1,0 +1,20 @@
+{
+  "id": "dark-romanticism",
+  "type": "aesthetics-visuals",
+  "name": "Dark Romanticism",
+  "aliases": ["Gothic Romantic", "Romantic Gothic"],
+  "era": "1800s-Present",
+  "tags": ["melancholic", "beautiful", "haunting", "emotional", "literary"],
+  "one_liner": "A romantic aesthetic that embraces the beauty in melancholy, death, and the sublime.",
+  "angles": ["gothic beauty", "romantic melancholy", "sublime emotions"],
+  "bar_seeds": ["moonlight", "wilted roses", "old cemeteries", "gloomy poetry"],
+  "visual_elements": ["candlelight", "wilted flowers", "old books", "antique mirrors"],
+  "mood": "Haunting, beautiful, and emotionally intense",
+  "associated_eras": ["1800s", "Victorian", "Modern Day"],
+  "color_palette": ["deep purples", "midnight blues", "black", "dark reds"],
+  "fashion_staples": ["flowing fabrics", "dark jewelry", "vintage accessories", "lace"],
+  "related_ids": ["goth"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

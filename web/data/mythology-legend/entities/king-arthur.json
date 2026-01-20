@@ -1,0 +1,17 @@
+{
+  "id": "king-arthur",
+  "type": "mythology-legend",
+  "name": "King Arthur",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The legendary British leader who, according to medieval histories and romances, led the defense of Britain against Saxon invaders.",
+  "tags": ["classic", "legacy", "war", "leadership"],
+  "angles": ["destiny", "the-round-table", "fallen-king"],
+  "bar_seeds": ["sword in the stone", "camelot walls", "first among equals"],
+  "related_ids": ["merlin", "excalibur", "holy-grail"],
+  "origin_culture": "British / Celtic",
+  "deity_type": "Legendary King",
+  "powers": ["Leadership", "Wielder of Excalibur", "Divine right"],
+  "symbols": ["Excalibur", "Round Table", "Grail"],
+  "modern_parallels": ["Chosen One tropes", "Idealized Leadership", "National Identity"]
+}

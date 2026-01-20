@@ -1,0 +1,17 @@
+{
+  "id": "panopticon",
+  "type": "architecture-spaces",
+  "name": "Panopticon",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A circular prison design where a single guard can watch all inmates without them knowing if they are being watched.",
+  "tags": ["philosophical-ideas", "dark", "control", "prison"],
+  "angles": ["surveillance", "power", "paranoia"],
+  "bar_seeds": ["all seeing eye", "nowhere to hide", "prison of the mind"],
+  "related_ids": ["prison"],
+  "style": "Utilitarian / Conceptual",
+  "materials": ["Stone", "Glass", "Bars"],
+  "spatial_qualities": ["Circular", "Exposed", "Centralized"],
+  "function": "Surveillance / Control",
+  "famous_examples": ["Presidio Modelo", "Foucault's Metaphor"]
+}

@@ -1,0 +1,702 @@
+{
+  "machine": {
+    "s": 2,
+    "r": "ine",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "machinery": {
+    "s": 4,
+    "r": "ery",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "macros": {
+    "s": 2,
+    "r": "ros",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "made": {
+    "s": 1,
+    "r": "ade",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "madness": {
+    "s": 2,
+    "r": "ess",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "maestro": {
+    "s": 2,
+    "r": "tro",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "magenta": {
+    "s": 3,
+    "r": "nta",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "magical": {
+    "s": 3,
+    "r": "cal",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "magician": {
+    "s": 3,
+    "r": "ian",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "magnet": {
+    "s": 2,
+    "r": "net",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "magnetic": {
+    "s": 3,
+    "r": "tic",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mailbox": {
+    "s": 2,
+    "r": "box",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "main": {
+    "s": 1,
+    "r": "ain",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mainframe": {
+    "s": 2,
+    "r": "ame",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "maintainer": {
+    "s": 3,
+    "r": "ner",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "majestic": {
+    "s": 3,
+    "r": "tic",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "majesty": {
+    "s": 3,
+    "r": "sty",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "makes": {
+    "s": 1,
+    "r": "kes",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mall": {
+    "s": 1,
+    "r": "all",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mallet": {
+    "s": 2,
+    "r": "let",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "malware": {
+    "s": 2,
+    "r": "are",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mammalian": {
+    "s": 3,
+    "r": "ian",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mammoth": {
+    "s": 2,
+    "r": "oth",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mana": {
+    "s": 2,
+    "r": "ana",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "manifest": {
+    "s": 3,
+    "r": "est",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "manifold": {
+    "s": 3,
+    "r": "old",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "manner": {
+    "s": 2,
+    "r": "ner",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "manor": {
+    "s": 2,
+    "r": "nor",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mansion": {
+    "s": 2,
+    "r": "ion",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "manta": {
+    "s": 2,
+    "r": "nta",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mantra": {
+    "s": 2,
+    "r": "tra",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "manual": {
+    "s": 2,
+    "r": "ual",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "marathon": {
+    "s": 3,
+    "r": "hon",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "marine": {
+    "s": 2,
+    "r": "ine",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "markers": {
+    "s": 2,
+    "r": "ers",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "market": {
+    "s": 2,
+    "r": "ket",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mask": {
+    "s": 1,
+    "r": "ask",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "massage": {
+    "s": 2,
+    "r": "age",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "massive": {
+    "s": 2,
+    "r": "ive",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "material": {
+    "s": 3,
+    "r": "ial",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "matter": {
+    "s": 2,
+    "r": "ter",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "maybe": {
+    "s": 1,
+    "r": "ybe",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mayhem": {
+    "s": 2,
+    "r": "hem",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mayor": {
+    "s": 2,
+    "r": "yor",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "maze": {
+    "s": 1,
+    "r": "aze",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "meaningful": {
+    "s": 3,
+    "r": "ful",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "meanwhile": {
+    "s": 3,
+    "r": "ile",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "measure": {
+    "s": 2,
+    "r": "ure",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mechanic": {
+    "s": 3,
+    "r": "nic",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "medals": {
+    "s": 2,
+    "r": "als",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "media": {
+    "s": 2,
+    "r": "dia",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "meditate": {
+    "s": 3,
+    "r": "ate",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "meditation": {
+    "s": 4,
+    "r": "ion",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "melody": {
+    "s": 3,
+    "r": "ody",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "meltdown": {
+    "s": 2,
+    "r": "own",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "memoir": {
+    "s": 2,
+    "r": "oir",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "memory": {
+    "s": 3,
+    "r": "ory",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "menace": {
+    "s": 2,
+    "r": "ace",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mental": {
+    "s": 2,
+    "r": "tal",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "mentor": {
+    "s": 2,
+    "r": "tor",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "merge": {
+    "s": 1,
+    "r": "rge",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "message": {
+    "s": 2,
+    "r": "age",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "metaphor": {
+    "s": 3,
+    "r": "hor",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "midnight": {
+    "s": 2,
+    "r": "ght",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "milestone": {
+    "s": 3,
+    "r": "one",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "million": {
+    "s": 2,
+    "r": "ion",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mindset": {
+    "s": 2,
+    "r": "set",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mission": {
+    "s": 2,
+    "r": "ion",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "momentum": {
+    "s": 3,
+    "r": "tum",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "mountain": {
+    "s": 2,
+    "r": "ain",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  }
+}

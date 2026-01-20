@@ -1,0 +1,20 @@
+{
+  "id": "zendaya-2",
+  "type": "people",
+  "name": "Oscar Isaac",
+  "aliases": ["Oscar", "Isaac"],
+  "era": "2005-Present",
+  "tags": ["actor", "singer", "diverse", "talented", "dramatic"],
+  "one_liner": "A versatile actor known for dramatic roles and musical talents.",
+  "angles": ["versatile acting", "musical talents", "dramatic roles"],
+  "bar_seeds": ["ex machina", "inside llewyn davis", "dune", "moon knight"],
+  "known_for": ["Ex Machina", "Inside Llewyn Davis", "Dune", "Moon Knight"],
+  "vibe": "Talented, versatile, and dramatic",
+  "signature_items": ["Dramatic roles", "Musical talents", "Versatility"],
+  "quotables_short": ["I'm drawn to characters who are searching", "Acting is about truth"],
+  "controversy_flags": ["Intense roles"],
+  "related_ids": ["carey-mulligan", "adam-driver"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "notion",
+  "type": "writing-tool",
+  "name": "Notion",
+  "aliases": ["The All-in-One Workspace"],
+  "era": "2010s-Present",
+  "tags": ["productivity", "database", "all-in-one", "modern"],
+  "one_liner": "A highly customizable all-in-one workspace for notes, databases, and project management.",
+  "angles": ["everything in one place", "the database of life", "collaborative creative hub"],
+  "bar_seeds": ["notion database", "kanban board verses", "slash commands"],
+  "category": "Productivity / Collaboration",
+  "what_it_does": "Combines notes, tasks, wikis, and databases into a single interface.",
+  "best_for": ["Project management for albums", "Building structured databases", "Collaborative writing"],
+  "workflow_hooks": ["Using templates for song structures", "Linking to external resources"],
+  "pitfalls": ["Requires internet", "Can be overwhelming to set up", "Mobile app performance"],
+  "bar_angles": ["notion board looking clean", "verses in the database"],
+  "related_ids": ["evernote", "obsidian"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

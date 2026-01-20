@@ -1,0 +1,17 @@
+{
+  "id": "bluesky",
+  "type": "media-platforms",
+  "name": "BlueSky",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A decentralized social network built on the AT Protocol, initiated by Twitter co-founder Jack Dorsey.",
+  "tags": ["innovative", "technical", "clean", "alternative"],
+  "angles": ["skeuomorphic-twitter", "custom-algorithms", "invitation-only (formerly)"],
+  "bar_seeds": ["sky blue thoughts", "at protocol", "custom feed"],
+  "related_ids": ["twitter-x", "mastodon"],
+  "platform_type": "Social Networking (Decentralized)",
+  "user_demographic": "Journalists, Artists, Ex-Twitter Users",
+  "content_format": ["Short Text", "Images"],
+  "algorithm_bias": "User-selectable algorithms.",
+  "slang": ["Skeet", "The Sky", "AT Protocol"]
+}

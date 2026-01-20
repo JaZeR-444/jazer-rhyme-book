@@ -1,0 +1,17 @@
+{
+  "id": "the-great-filter",
+  "type": "science-future",
+  "name": "The Great Filter",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical barrier that prevents civilizations from becoming interstellar or lasting for long periods.",
+  "tags": ["philosophical-ideas", "dark", "existence", "fear"],
+  "angles": ["is it behind us or ahead", "loneliness in the cosmos", "extinction event"],
+  "bar_seeds": ["dead silence from the stars", "narrow path to the future", "hitting the wall"],
+  "related_ids": ["space-colonization", "artificial-general-intelligence"],
+  "field": "Cosmology / Fermi Paradox",
+  "hypothesis": "There is a stage in evolution that is extremely difficult to pass, explaining why we see no aliens.",
+  "implications": ["Humanity might be doomed", "Life is rare", "High risk of self-destruction"],
+  "technologies": ["N/A"],
+  "ethical_concerns": ["Existential risk management", "Direction of human progress"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cubism",
+  "type": "aesthetics-visuals",
+  "name": "Cubism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An avant-garde art movement that revolutionized European painting and sculpture, analyzing objects and reassembling them.",
+  "tags": ["abstract", "geometric", "innovative", "classic"],
+  "angles": ["fragmentation", "perspective", "geometry"],
+  "bar_seeds": ["picasso face", "shattered glass", "all angles at once"],
+  "related_ids": [],
+  "visual_elements": ["Geometric planes", "Collage", "Multiple viewpoints", "Fragmentation"],
+  "mood": "Intellectual, disjointed, analytical",
+  "associated_eras": ["1900s", "1910s"],
+  "color_palette": ["Ochre", "Grey", "Brown", "Muted Blue"],
+  "fashion_staples": ["Geometric patterns", "Asymmetric cuts", "Structured shapes"]
+}

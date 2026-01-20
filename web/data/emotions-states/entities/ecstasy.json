@@ -1,0 +1,17 @@
+{
+  "id": "ecstasy",
+  "type": "emotions-states",
+  "name": "Ecstasy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An overwhelming feeling of great happiness or joyful excitement; a state of being beyond oneself.",
+  "tags": ["euphoria", "vibrant", "spiritual", "transcendence"],
+  "angles": ["peak experience", "total bliss", "out of body"],
+  "bar_seeds": ["heaven on earth", "losing the floor", "pure light"],
+  "intensity": "Ultra-High",
+  "physical_symptoms": ["Body buzzing", "Tears of joy", "Inability to speak"],
+  "triggers": ["Spiritual epiphany", "Profound music", "True love"],
+  "action_urge": "To surrender to the feeling and celebrate.",
+  "opposites": ["Despair", "Agony"],
+  "related_ids": ["euphoria", "joy"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rage",
+  "type": "emotions-states",
+  "name": "Rage",
+  "aliases": ["Fury", "Anger", "Wrath"],
+  "era": "Universal",
+  "tags": ["negative", "high-energy", "destructive", "explosive"],
+  "one_liner": "Violent, uncontrollable anger.",
+  "angles": ["the red mist", "destructive fire", "uncontainable wrath"],
+  "bar_seeds": ["blood boiling", "seeing red", "volcanic eruption", "shattered glass"],
+  "intensity": "Extreme",
+  "physical_symptoms": ["Muscle tension", "Teeth grinding", "Face flushing", "Shaking"],
+  "triggers": ["Injustice", "Betrayal", "Frustration", "Threat"],
+  "action_urge": "To attack, to destroy, to confront",
+  "opposites": ["Zen", "Peace"],
+  "related_ids": ["weapons-objects"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

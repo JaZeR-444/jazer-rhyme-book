@@ -1,0 +1,56 @@
+{
+  "id": "hello-fresh",
+  "type": "brand",
+  "name": "HelloFresh",
+  "aliases": [
+    "Hello Fresh",
+    "Meal Kit"
+  ],
+  "era": "2011-Present",
+  "tags": [
+    "meal-kits",
+    "delivery",
+    "cooking",
+    "convenience",
+    "healthy"
+  ],
+  "one_liner": "A meal kit delivery service that brings ingredients and recipes to your door.",
+  "angles": [
+    "convenient cooking",
+    "meal delivery",
+    "healthy eating"
+  ],
+  "bar_seeds": [
+    "meal kit",
+    "cooking at home",
+    "ingredient delivery",
+    "recipe convenience"
+  ],
+  "visual_elements": [
+    "fresh ingredients",
+    "recipe cards",
+    "delivery boxes",
+    "home cooking"
+  ],
+  "mood": "Convenient, fresh, and homey",
+  "associated_eras": [
+    "2010s",
+    "Modern Day"
+  ],
+  "color_palette": [
+    "fresh green",
+    "appetizing colors",
+    "natural tones",
+    "clean white"
+  ],
+  "fashion_staples": [
+    "convenience-focused",
+    "fresh ingredients",
+    "home cooking",
+    "healthy eating"
+  ],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

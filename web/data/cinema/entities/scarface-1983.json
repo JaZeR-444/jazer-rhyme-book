@@ -1,0 +1,20 @@
+{
+  "id": "scarface-1983",
+  "type": "cinema",
+  "name": "Scarface",
+  "aliases": ["Tony Montana"],
+  "era": "1983",
+  "tags": ["crime", "classic", "miami", "immigrant", "rise-and-fall"],
+  "one_liner": "The definitive rise-and-fall tale of Tony Montana, a Cuban immigrant who becomes a Miami drug lord.",
+  "angles": ["the american dream gone wrong", "paranoia at the top", "excess and violence"],
+  "bar_seeds": ["say hello to my little friend", "the world is yours", "mountain of white", "tony in the bathtub"],
+  "plot_hooks": ["immigrant reaching for power", "betrayal of a best friend", "the downfall of an empire"],
+  "iconic_scenes": ["The chainsaw scene", "Tony's last stand", "The push it to the limit montage"],
+  "visual_motifs": ["Tropical shirts", "Mansion with 'The World is Yours' statue", "Cocaine mountains"],
+  "themes": ["Greed", "Ambition", "Isolation"],
+  "quotables_short": ["Say hello to my little friend", "I always tell the truth. Even when I lie."],
+  "related_ids": ["miami"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

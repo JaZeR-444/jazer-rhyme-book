@@ -1,0 +1,18 @@
+{
+  "id": "g-funk",
+  "type": "music",
+  "name": "G-Funk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of gangsta rap that emerged from the West Coast, characterized by high-pitched portamento synths and heavy funk samples.",
+  "tags": ["classic", "funk", "mellow", "gangster"],
+  "angles": ["lowrider-cruising", "sun-drenched-grit", "funky-rhythm"],
+  "bar_seeds": ["whining synth", "p-funk sample", "smooth operator"],
+  "related_ids": ["tupac-shakur", "lowrider", "chevrolet-impala-64"],
+  "genre": ["Hip Hop", "West Coast Rap"],
+  "era_detail": "Early 1990s",
+  "signature_songs": ["Nuthin' but a 'G' Thang", "Regulate", "Gin and Juice"],
+  "sonic_descriptors": ["Laid back grooves", "Melodic synths", "Deep basslines"],
+  "influence_tree": ["P-Funk", "Parliament-Funkadelic"],
+  "aesthetic": "California Sun and Dickies"
+}

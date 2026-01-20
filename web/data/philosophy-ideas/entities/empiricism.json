@@ -1,0 +1,16 @@
+{
+  "id": "empiricism",
+  "type": "philosophy-ideas",
+  "name": "Empiricism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theory that all knowledge is derived from sense-experience.",
+  "tags": ["scientific", "classic", "logic", "raw"],
+  "angles": ["evidence", "experience", "observation"],
+  "bar_seeds": ["believe what I see", "the evidence of the senses", "blank slate"],
+  "school_of_thought": "Foundational Science",
+  "core_question": "Is all knowledge learned through experience?",
+  "key_philosophers": ["John Locke", "David Hume"],
+  "paradoxes": ["The Problem of Induction"],
+  "modern_application": "Scientific method, data-driven decisions, journalism."
+}

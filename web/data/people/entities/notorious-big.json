@@ -1,0 +1,20 @@
+{
+  "id": "notorious-big",
+  "type": "people",
+  "name": "The Notorious B.I.G.",
+  "aliases": ["Biggie Smalls", "Big Poppa", "Frank White"],
+  "era": "1990s",
+  "tags": ["flow", "brooklyn", "storytelling", "legend", "mafioso"],
+  "one_liner": "The King of New York, known for his effortless flow and vivid storytelling.",
+  "angles": ["rags to riches", "party and bullshit", "live fast die young"],
+  "bar_seeds": ["juicy", "coogi sweater", "brooklyn stoop", "warning shots"],
+  "known_for": ["Ready to Die", "Life After Death"],
+  "vibe": "Charismatic, smooth, heavy",
+  "signature_items": ["Coogi sweater", "Versace shades", "Cane"],
+  "quotables_short": ["It was all a dream", "Mo money mo problems"],
+  "controversy_flags": ["East Coast vs West Coast"],
+  "related_ids": ["tupac-shakur", "jay-z", "diddy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

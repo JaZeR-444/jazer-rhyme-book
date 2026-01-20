@@ -1,0 +1,18 @@
+{
+  "id": "trade-offer",
+  "type": "internet-culture",
+  "name": "Trade Offer",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A TikTok format showing a person in a suit offering a deal with 'I receive' and 'You receive' columns.",
+  "tags": ["business-economics", "contemporary", "satirical", "hustle"],
+  "angles": ["negotiation", "scam", "value"],
+  "bar_seeds": ["I receive your soul", "you receive 5 minutes", "worst trade deal in history"],
+  "related_ids": ["stonks"],
+  "format": "Short-form Video / Image Macro",
+  "origin_platform": "TikTok",
+  "meaning": "Highlighting unfair deals, ironic exchanges, or desperate negotiations.",
+  "remix_rules": ["Split screen/columns", "Formal wear", "Aggressive eye contact"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Trade offer: I receive the beat, you receive the heat", "Looking like the businessman, what's the deal today?"]
+}

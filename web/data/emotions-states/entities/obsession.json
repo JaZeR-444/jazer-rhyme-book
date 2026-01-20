@@ -1,0 +1,17 @@
+{
+  "id": "obsession",
+  "type": "emotions-states",
+  "name": "Obsession",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An idea or thought that continually preoccupies or intrudes on a person's mind.",
+  "tags": ["obsession", "internal", "dark", "passion"],
+  "angles": ["fixation", "narrow vision", "unhealthy drive"],
+  "bar_seeds": ["one track mind", "can't see anything else", "eating me alive"],
+  "intensity": "Ultra-High",
+  "physical_symptoms": ["Hyper-focus", "Neglect of self-care", "Tension"],
+  "triggers": ["Unsolved problems", "Intense desire", "Competition"],
+  "action_urge": "To pursue the object of obsession to the exclusion of all else.",
+  "opposites": ["Indifference", "Balance"],
+  "related_ids": ["limerence", "burnout"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leviathan",
+  "type": "mythology-legend",
+  "name": "Leviathan",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A primordial sea monster from biblical theology, representing chaos and the abyss.",
+  "tags": ["dark", "nature", "mythology", "fear"],
+  "angles": ["chaos", "size", "depths"],
+  "bar_seeds": ["beast of the deep", "swallowing ships", "scale of the serpent"],
+  "related_ids": [],
+  "origin_culture": "Hebrew / Christian",
+  "deity_type": "Monster",
+  "powers": ["Indestructible scales", "Fire breath", "Size"],
+  "symbols": ["Sea Serpent", "Whale", "Abyss"],
+  "modern_parallels": ["Submarines", "Corporate Monopolies", "Godzilla"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "times-square",
+  "type": "places",
+  "name": "Times Square",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The crossroads of the world, a hyper-commercialized canyon of light and motion in NYC.",
+  "tags": ["urban", "vibrant", "neon", "nyc"],
+  "angles": ["sensory overload", "tourist heart", "the center of the web"],
+  "bar_seeds": ["brightest lights", "billboard glow", "midnight like midday"],
+  "related_ids": ["new-york-city-bronx", "skyscraper"],
+  "place_type": "landmark",
+  "vibe": "Overwhelming, frantic, and electric.",
+  "sensory_cues": ["Gigantic LED screens", "Crowd roar", "Sirens", "Hot dog stands"],
+  "cultural_refs": ["New Year's Eve", "Broadway", "Midnight Cowboy"],
+  "bar_angles": ["Drowned in the light", "Center of the universe", "Electric canyon"]
+}

@@ -1,0 +1,692 @@
+{
+  "label": {
+    "s": 2,
+    "r": "bel",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "ladder": {
+    "s": 2,
+    "r": "der",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lamps": {
+    "s": 1,
+    "r": "mps",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lance": {
+    "s": 1,
+    "r": "nce",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "land": {
+    "s": 1,
+    "r": "and",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "landmark": {
+    "s": 2,
+    "r": "ark",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "landmass": {
+    "s": 2,
+    "r": "ass",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "landscape": {
+    "s": 2,
+    "r": "ape",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lane": {
+    "s": 1,
+    "r": "ane",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lantern": {
+    "s": 2,
+    "r": "ern",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "laptops": {
+    "s": 2,
+    "r": "ops",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "large": {
+    "s": 1,
+    "r": "rge",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "laser": {
+    "s": 2,
+    "r": "ser",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "latch": {
+    "s": 1,
+    "r": "tch",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "latent": {
+    "s": 2,
+    "r": "ent",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "later": {
+    "s": 2,
+    "r": "ter",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lateral": {
+    "s": 3,
+    "r": "ral",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "latest": {
+    "s": 2,
+    "r": "est",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "latitude": {
+    "s": 3,
+    "r": "ude",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "launch": {
+    "s": 1,
+    "r": "nch",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "launcher": {
+    "s": 2,
+    "r": "her",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "laurels": {
+    "s": 2,
+    "r": "els",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lavish": {
+    "s": 2,
+    "r": "ish",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "law": {
+    "s": 1,
+    "r": "law",
+    "l": 3,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lawful": {
+    "s": 2,
+    "r": "ful",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "layout": {
+    "s": 2,
+    "r": "out",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "leaders": {
+    "s": 2,
+    "r": "ers",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "leads": {
+    "s": 1,
+    "r": "ads",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "legacy": {
+    "s": 3,
+    "r": "acy",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "legend": {
+    "s": 2,
+    "r": "end",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "legendary": {
+    "s": 4,
+    "r": "ary",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "legion": {
+    "s": 2,
+    "r": "ion",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "leisure": {
+    "s": 2,
+    "r": "ure",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "length": {
+    "s": 1,
+    "r": "gth",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "level": {
+    "s": 2,
+    "r": "vel",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "leverage": {
+    "s": 3,
+    "r": "age",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "levitate": {
+    "s": 3,
+    "r": "ate",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "liberate": {
+    "s": 3,
+    "r": "ate",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "liberty": {
+    "s": 3,
+    "r": "rty",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "life": {
+    "s": 1,
+    "r": "ife",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lifeline": {
+    "s": 3,
+    "r": "ine",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lifelong": {
+    "s": 3,
+    "r": "ong",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lifespan": {
+    "s": 3,
+    "r": "pan",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lifetime": {
+    "s": 3,
+    "r": "ime",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lift": {
+    "s": 1,
+    "r": "ift",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "light": {
+    "s": 1,
+    "r": "ght",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lightning": {
+    "s": 2,
+    "r": "ing",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "likewise": {
+    "s": 3,
+    "r": "ise",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "limestone": {
+    "s": 3,
+    "r": "one",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "limitation": {
+    "s": 4,
+    "r": "ion",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "limits": {
+    "s": 2,
+    "r": "its",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lineage": {
+    "s": 2,
+    "r": "age",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "liner": {
+    "s": 2,
+    "r": "ner",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lines": {
+    "s": 1,
+    "r": "nes",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "lineup": {
+    "s": 2,
+    "r": "eup",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "linkage": {
+    "s": 2,
+    "r": "age",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "listen": {
+    "s": 2,
+    "r": "ten",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "listener": {
+    "s": 3,
+    "r": "ner",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "living": {
+    "s": 2,
+    "r": "ing",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "locate": {
+    "s": 2,
+    "r": "ate",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "location": {
+    "s": 3,
+    "r": "ion",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lockdown": {
+    "s": 2,
+    "r": "own",
+    "l": 8,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "logic": {
+    "s": 2,
+    "r": "gic",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "logical": {
+    "s": 3,
+    "r": "cal",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "logo": {
+    "s": 2,
+    "r": "ogo",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "longevity": {
+    "s": 4,
+    "r": "ity",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  },
+  "longitude": {
+    "s": 3,
+    "r": "ude",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "lookout": {
+    "s": 2,
+    "r": "out",
+    "l": 7,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "loop": {
+    "s": 1,
+    "r": "oop",
+    "l": 4,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  }
+}

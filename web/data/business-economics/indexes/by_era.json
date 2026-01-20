@@ -1,0 +1,50 @@
+{
+  "2000s-Present": [
+    "attention-economy",
+    "data-economy",
+    "freemium-model",
+    "gig-economy",
+    "product-market-fit",
+    "subscription-business-model",
+    "unit-economics"
+  ],
+  "Modern Era": [
+    "bear-market",
+    "bull-market",
+    "compounding-interest",
+    "monopoly",
+    "stock-market"
+  ],
+  "1990s-Present": [
+    "burn-rate",
+    "network-effects",
+    "seed-funding",
+    "venture-debt"
+  ],
+  "2010s-Present": [
+    "creator-economy",
+    "growth-hacking",
+    "remote-work",
+    "unicorn-company"
+  ],
+  "2009-Present": [
+    "cryptocurrency"
+  ],
+  "20th Century-Present": [
+    "hedge-fund",
+    "startup",
+    "venture-capital"
+  ],
+  "1900s-Present": [
+    "inflation",
+    "initial-public-offering",
+    "mergers-and-acquisitions",
+    "supply-chain"
+  ],
+  "1980s-Present": [
+    "private-equity"
+  ],
+  "Ancient-Present": [
+    "real-estate"
+  ]
+}

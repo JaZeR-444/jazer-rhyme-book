@@ -1,0 +1,20 @@
+{
+  "id": "wonderland",
+  "type": "places",
+  "name": "Wonderland",
+  "aliases": ["The Imagination"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Imagination. Where physics don't apply.",
+  "angles": [],
+  "bar_seeds": [],
+  "known_for": [],
+  "vibe": "Surreal",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": [],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

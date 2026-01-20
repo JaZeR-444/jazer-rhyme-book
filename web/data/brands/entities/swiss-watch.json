@@ -1,0 +1,20 @@
+{
+  "id": "swiss-watch",
+  "type": "brands",
+  "name": "Swiss (Watch)",
+  "aliases": ["Swiss Timing"],
+  "era": "Unknown",
+  "tags": ["Brands & Artifacts"],
+  "one_liner": "Precision. \"Swiss timing\" means hitting the beat perfectly.",
+  "angles": [],
+  "bar_seeds": ["\"Swiss timing\""],
+  "known_for": [],
+  "vibe": "Precise",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": [],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

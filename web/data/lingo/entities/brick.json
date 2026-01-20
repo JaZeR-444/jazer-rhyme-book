@@ -1,0 +1,21 @@
+{
+  "id": "brick",
+  "type": "lingo",
+  "name": "Brick",
+  "aliases": ["Bird"],
+  "era": "1980s-Present",
+  "tags": ["hustle", "quantity", "cold", "street"],
+  "one_liner": "A kilogram of a drug (usually cocaine) or a slang term for extremely cold weather.",
+  "angles": ["the weight of the game", "freezing temperatures"],
+  "bar_seeds": ["moving bricks", "it's brick outside", "chopping up the brick"],
+  "meaning": "1. A kilogram-sized package. 2. Very cold weather (New York specific).",
+  "usage": "In trap music (quantity) or East Coast rap (weather).",
+  "origin": "New York City",
+  "region": "North America",
+  "example_lines": ["It's brick out in the Bronx", "He just sold a whole brick"],
+  "do_not_use_if": ["Referring to a construction material"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

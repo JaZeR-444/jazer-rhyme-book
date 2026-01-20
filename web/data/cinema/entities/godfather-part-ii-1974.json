@@ -1,0 +1,18 @@
+{
+  "id": "godfather-part-ii-1974",
+  "type": "cinema",
+  "name": "The Godfather Part II",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+  "tags": ["crime", "classic", "legacy", "empire"],
+  "angles": ["parallels-of-power", "the-price-of-the-crown", "immigrant-dream"],
+  "bar_seeds": ["it was you fredo", "keep enemies closer", "ellis island start"],
+  "related_ids": ["the-godfather-1972", "ancient-rome"],
+  "era": "1974",
+  "plot_hooks": ["Michael's senate hearing", "Vito's rise in NY", "The Cuba trip"],
+  "iconic_scenes": ["Fredo's kiss of death", "Vito killing Don Ciccio", "Michael alone at the end"],
+  "visual_motifs": ["Golden sepia (past)", "Cold blue (present)", "Lake Tahoe"],
+  "themes": ["Corruption of the American Dream", "Family vs Power", "Loneliness"],
+  "quotables_short": ["Keep your friends close, but your enemies closer.", "I knew it was you, Fredo."]
+}

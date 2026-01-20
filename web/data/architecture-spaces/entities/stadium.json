@@ -1,0 +1,20 @@
+{
+  "id": "stadium",
+  "type": "architecture-spaces",
+  "name": "Stadium",
+  "aliases": ["Arena", "Coliseum", "The Dome"],
+  "era": "Ancient-Present",
+  "tags": ["spectacle", "urban", "grand", "energy"],
+  "one_liner": "A large building or structure with tiers of seats for spectators at sporting events and other entertainments.",
+  "angles": ["modern day coliseum", "the roar of the crowd", "architectural spectacle"],
+  "bar_seeds": ["stadium lights", "thunder of the bleachers", "ocean of faces", "center stage"],
+  "style": "Modern / High-tech / Monumental",
+  "materials": ["Steel", "Concrete", "Turf", "Glass"],
+  "spatial_qualities": ["Vast", "Circular / Oval", "Acoustically intense"],
+  "function": "Entertainment / Sports / Gathering",
+  "famous_examples": ["The Colosseum", "Madison Square Garden", "Wembley Stadium"],
+  "related_ids": ["sports"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

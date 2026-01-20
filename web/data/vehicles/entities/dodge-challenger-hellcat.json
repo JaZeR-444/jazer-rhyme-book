@@ -1,0 +1,17 @@
+{
+  "id": "dodge-challenger-hellcat",
+  "type": "vehicles",
+  "name": "Dodge Challenger Hellcat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A modern muscle car defined by excessive horsepower and tire smoke.",
+  "tags": ["speed", "aggressive", "contemporary", "raw"],
+  "angles": ["power", "burnouts", "noise"],
+  "bar_seeds": ["red key", "supercharger whine", "707 horses"],
+  "related_ids": [],
+  "vehicle_type": "Muscle Car",
+  "engine_type": "Supercharged Hemi V8",
+  "top_speed": "199 mph",
+  "cultural_status": "The modern street king of sheer displacement and noise.",
+  "design_features": ["Air catcher headlamps", "Widebody kit", "Hood scoops"]
+}

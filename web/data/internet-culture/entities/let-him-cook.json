@@ -1,0 +1,18 @@
+{
+  "id": "let-him-cook",
+  "type": "internet-culture",
+  "name": "Let Him Cook",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A phrase used to call for patience while someone executes a potentially great (or disastrous) plan.",
+  "tags": ["contemporary", "slang", "technical", "hustle"],
+  "angles": ["process", "patience", "mastery"],
+  "bar_seeds": ["in the kitchen", "chef hat on", "don't interrupt the heat"],
+  "related_ids": [],
+  "format": "Catchphrase / Image Macro",
+  "origin_platform": "Twitter / X",
+  "meaning": "Allowing someone the space to perform their craft or reveal their strategy.",
+  "remix_rules": ["Wait for the result", "Chef imagery", "Used for both genuine and ironic support"],
+  "lifespan_risk": "Low (Integrated into vernacular)",
+  "example_lines": ["I'm at the stove, just let me cook", "The kitchen's smoking, let 'em cook until the beat drops"]
+}

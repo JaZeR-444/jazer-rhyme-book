@@ -1,0 +1,20 @@
+{
+  "id": "achilles",
+  "type": "mythology-legend",
+  "name": "Achilles",
+  "aliases": ["The Greatest Warrior"],
+  "era": "Ancient Greece",
+  "tags": ["warrior", "tragic", "greek", "hero", "strength"],
+  "one_liner": "The greatest Greek warrior of the Trojan War, known for his near-invulnerability and his tragic heel.",
+  "angles": ["the cost of glory", "unmatched skill with a hidden flaw", "destructive rage"],
+  "bar_seeds": ["achilles heel", "unstoppable spear", "trojan fire", "warrior's wrath"],
+  "origin_culture": "Greek",
+  "deity_type": "Demi-god / Hero",
+  "powers": ["Near-invulnerability", "God-like combat skill", "Extreme speed"],
+  "symbols": ["Spear", "Shield", "The Heel"],
+  "modern_parallels": ["Star athletes with 'glass' health", "Flawed geniuses"],
+  "related_ids": ["zeus"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

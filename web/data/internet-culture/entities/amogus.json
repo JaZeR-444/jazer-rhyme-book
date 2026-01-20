@@ -1,0 +1,18 @@
+{
+  "id": "amogus",
+  "type": "internet-culture",
+  "name": "Amogus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A distorted, ironic meme version of the game 'Among Us', focusing on seeing its characters in everyday objects.",
+  "tags": ["surreal", "gaming", "contemporary", "viral"],
+  "angles": ["sus", "impostor-syndrome", "pattern-recognition"],
+  "bar_seeds": ["that's a bit sus", "look like an impostor", "amogus eyes"],
+  "related_ids": ["imposter-syndrome"],
+  "format": "Visual / Slang",
+  "origin_platform": "Reddit / Discord",
+  "meaning": "Finding the 'Among Us' shape everywhere; a joke about being mentally broken by a viral game.",
+  "remix_rules": ["Red bean shape with visor", "High-pitched 'Amogus' sound", "Stonetoss comic edits"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Everything looking suspicious, Amogus in the hallway", "Caught you in the vent, acting like an impostor"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bittorrent",
+  "type": "media-platforms",
+  "name": "BitTorrent",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A communication protocol for peer-to-peer file sharing (P2P), which is used to distribute data and electronic files over the Internet.",
+  "tags": ["technical", "underground", "rebellion", "legacy"],
+  "angles": ["swarm-intelligence", "decentralized-sharing", "piracy-roots"],
+  "bar_seeds": ["seeding the file", "leeching bandwidth", "magnet link"],
+  "related_ids": ["napster", "limewire"],
+  "platform_type": "P2P Protocol",
+  "user_demographic": "Tech Savvy Users, Archivers, Piracy Circles",
+  "content_format": ["Files", "Metadata"],
+  "algorithm_bias": "Favors healthy swarms with many seeds.",
+  "slang": ["Seed", "Leech", "Tracker", "Magnet Link"]
+}

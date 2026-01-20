@@ -1,0 +1,65 @@
+{
+  "1980s-Present": [
+    "3d-printing",
+    "open-source"
+  ],
+  "2020s-Present": [
+    "5g",
+    "large-language-model",
+    "metaverse",
+    "nft",
+    "quantum-internet"
+  ],
+  "Ancient-Present": [
+    "algorithm",
+    "encryption"
+  ],
+  "1950s-Present": [
+    "artificial-intelligence",
+    "robotics"
+  ],
+  "2010s-Present": [
+    "augmented-reality",
+    "big-data",
+    "blockchain",
+    "cryptocurrency",
+    "deepfake",
+    "edge-computing",
+    "internet-of-things",
+    "iot",
+    "machine-learning",
+    "smart-home",
+    "smart-watch",
+    "virtual-reality",
+    "wearable-tech"
+  ],
+  "1990s-Present": [
+    "biometrics",
+    "cybersecurity",
+    "gpu",
+    "server-farm",
+    "vpn"
+  ],
+  "1970s-Present": [
+    "biotechnology",
+    "cpu",
+    "fiber-optics"
+  ],
+  "2000s-Present": [
+    "cloud-computing",
+    "dark-web",
+    "drone",
+    "smartphone",
+    "ssd"
+  ],
+  "2020s-Future": [
+    "neuralink",
+    "quantum-computing"
+  ],
+  "1960s-Present": [
+    "ram"
+  ],
+  "2010s-Present (Real-time)": [
+    "ray-tracing"
+  ]
+}

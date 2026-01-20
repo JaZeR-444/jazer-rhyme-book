@@ -1,0 +1,20 @@
+{
+  "id": "ancient-egypt",
+  "type": "history",
+  "name": "Ancient Egypt",
+  "aliases": ["Land of the Pharaohs"],
+  "era": "3100 BC - 30 BC",
+  "tags": ["ancient", "empire", "mythology", "africa"],
+  "one_liner": "One of the world's earliest and greatest civilizations, known for its pyramids, pharaohs, and longevity.",
+  "angles": ["eternal monuments", "life after death", "the gift of the nile"],
+  "bar_seeds": ["pyramid peaks", "pharaoh's curse", "hieroglyphic codes", "gold of the nile"],
+  "key_dates": ["2560 BC (Great Pyramid of Giza completed)", "1332 BC (Tutankhamun begins reign)"],
+  "location": "Northeast Africa",
+  "impact": "Advanced knowledge in architecture, mathematics, and medicine; influence on Greek and Roman culture.",
+  "major_figures": ["Tutankhamun", "Cleopatra", "Ramesses II"],
+  "cultural_shift": "Development of a highly structured religious and social hierarchy.",
+  "related_ids": ["mythology-legend"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

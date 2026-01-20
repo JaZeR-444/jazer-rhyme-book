@@ -1,0 +1,17 @@
+{
+  "id": "snapchat",
+  "type": "media-platforms",
+  "name": "Snapchat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A multimedia messaging app where pictures and messages are usually available for a short time before they become inaccessible.",
+  "tags": ["fleeting", "youth", "social-media", "privacy"],
+  "angles": ["ephemeral", "secrets", "filters"],
+  "bar_seeds": ["ghost mode", "streak alive", "screenshot notification"],
+  "related_ids": [],
+  "platform_type": "Messaging",
+  "user_demographic": "Gen Z, Millennials",
+  "content_format": ["Snaps", "Stories", "Filters"],
+  "algorithm_bias": "Favors personal connections and high-frequency interaction (Streaks).",
+  "slang": ["Snap", "Streak", "Bitmoji"]
+}

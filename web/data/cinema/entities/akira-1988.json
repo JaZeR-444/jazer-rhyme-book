@@ -1,0 +1,18 @@
+{
+  "id": "akira-1988",
+  "type": "cinema",
+  "name": "Akira",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath.",
+  "tags": ["anime", "cyberpunk", "grit", "technical"],
+  "angles": ["power", "corruption", "mutation"],
+  "bar_seeds": ["neo tokyo", "kaneda bike", "tetsuo screaming"],
+  "related_ids": ["blade-runner-2049"],
+  "era": "1988",
+  "plot_hooks": ["Biker gangs", "Psychic awakening", "Government conspiracy"],
+  "iconic_scenes": ["The bike slide", "Tetsuo's transformation", "Explosion of Tokyo"],
+  "visual_motifs": ["Red jacket", "Neon lights", "Flesh mutation"],
+  "themes": ["Nuclear fear", "Youth rebellion", "Transhumanism"],
+  "quotables_short": ["TETSUO!", "KANEDA!"]
+}

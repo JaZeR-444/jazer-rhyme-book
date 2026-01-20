@@ -1,0 +1,20 @@
+{
+  "id": "facebook",
+  "type": "media-platforms",
+  "name": "Facebook",
+  "aliases": ["The Social Network", "Meta"],
+  "era": "2000s-Present",
+  "tags": ["social-media", "networking", "legacy", "meta"],
+  "one_liner": "The world's largest social network, connecting billions of people globally.",
+  "angles": ["the digital family tree", "the dawn of the social era", "data and privacy at scale"],
+  "bar_seeds": ["friend request", "news feed", "poking in 2024", "group invite"],
+  "platform_type": "Social Networking",
+  "user_demographic": "Universal (broadening to older demographics)",
+  "content_format": ["Text", "Photos", "Video", "Events"],
+  "algorithm_bias": "Engagement, shared content from friends and family",
+  "slang": ["Friend", "Like", "Share", "Metaverse"],
+  "related_ids": ["instagram"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

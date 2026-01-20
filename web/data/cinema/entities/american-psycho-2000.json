@@ -1,0 +1,18 @@
+{
+  "id": "american-psycho-2000",
+  "type": "cinema",
+  "name": "American Psycho",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A wealthy New York City investment banking executive hides his alternate psychopathic ego from his co-workers.",
+  "tags": ["satire", "horror", "business-economics", "dark"],
+  "angles": ["materialism", "insanity", "status"],
+  "bar_seeds": ["business card subtle off white", "returning videotapes", "huey lewis"],
+  "related_ids": [],
+  "era": "2000",
+  "plot_hooks": ["Murders", "Business card envy", "Trying to confess"],
+  "iconic_scenes": ["Business card comparison", "Raincoat axe murder", "Morning routine"],
+  "visual_motifs": ["Clean surfaces", "Blood", "Suits"],
+  "themes": ["Capitalism", "Identity", "Emptiness"],
+  "quotables_short": ["I have to return some videotapes.", "Paul Allen's card."]
+}

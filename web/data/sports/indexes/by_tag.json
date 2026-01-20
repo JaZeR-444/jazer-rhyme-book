@@ -1,0 +1,480 @@
+{
+  "athlete": [
+    "aaron-judge",
+    "aaron-rodgers",
+    "connor-mcdavid",
+    "giannis-antetokounmpo",
+    "ja-morant",
+    "jayson-tatum",
+    "joe-burrow",
+    "joel-embiid",
+    "josh-allen",
+    "kevin-durant",
+    "lamar-jackson",
+    "luka-doncic",
+    "magic-johnson",
+    "mike-trout",
+    "mookie-betts",
+    "nikola-jokic",
+    "patrick-mahomes",
+    "roger-federer",
+    "shohei-ohtani",
+    "sidney-crosby",
+    "simone-biles",
+    "stephen-curry",
+    "travis-kelce",
+    "usain-bolt",
+    "wayne-gretzky"
+  ],
+  "championship": [
+    "aaron-judge",
+    "giannis-antetokounmpo",
+    "jayson-tatum",
+    "kevin-durant",
+    "mookie-betts",
+    "patrick-mahomes",
+    "roger-federer",
+    "sidney-crosby",
+    "simone-biles",
+    "stephen-curry",
+    "travis-kelce",
+    "usain-bolt",
+    "wayne-gretzky"
+  ],
+  "mainstream": [
+    "aaron-judge",
+    "aaron-rodgers",
+    "connor-mcdavid",
+    "giannis-antetokounmpo",
+    "ja-morant",
+    "jayson-tatum",
+    "joe-burrow",
+    "joel-embiid",
+    "josh-allen",
+    "kevin-durant",
+    "lamar-jackson",
+    "luka-doncic",
+    "mike-trout",
+    "mookie-betts",
+    "nikola-jokic",
+    "patrick-mahomes",
+    "roger-federer",
+    "shohei-ohtani",
+    "sidney-crosby",
+    "simone-biles",
+    "stephen-curry",
+    "travis-kelce",
+    "usain-bolt",
+    "wayne-gretzky"
+  ],
+  "contemporary": [
+    "aaron-judge",
+    "aaron-rodgers",
+    "connor-mcdavid",
+    "giannis-antetokounmpo",
+    "ja-morant",
+    "jayson-tatum",
+    "joe-burrow",
+    "joel-embiid",
+    "josh-allen",
+    "kevin-durant",
+    "lamar-jackson",
+    "luka-doncic",
+    "mike-trout",
+    "mookie-betts",
+    "nikola-jokic",
+    "patrick-mahomes",
+    "shohei-ohtani",
+    "sidney-crosby",
+    "stephen-curry",
+    "travis-kelce"
+  ],
+  "legacy": [
+    "aaron-judge",
+    "aaron-rodgers",
+    "bo-jackson",
+    "deion-sanders",
+    "diego-maradona",
+    "hakeem-olajuwon",
+    "joe-burrow",
+    "joe-montana",
+    "magic-johnson",
+    "michael-phelps",
+    "mike-trout",
+    "pele",
+    "roger-federer",
+    "shohei-ohtani",
+    "sidney-crosby",
+    "simone-biles",
+    "tony-hawk",
+    "usain-bolt",
+    "valentino-rossi",
+    "wayne-gretzky",
+    "wilt-chamberlain"
+  ],
+  "clutch": [
+    "aaron-rodgers",
+    "connor-mcdavid",
+    "ja-morant",
+    "jayson-tatum",
+    "joe-burrow",
+    "joe-montana",
+    "joel-embiid",
+    "josh-allen",
+    "kevin-durant",
+    "lamar-jackson",
+    "larry-bird",
+    "luka-doncic",
+    "mike-trout",
+    "mookie-betts",
+    "nikola-jokic",
+    "patrick-mahomes",
+    "roger-federer",
+    "simone-biles",
+    "stephen-curry",
+    "travis-kelce",
+    "usain-bolt"
+  ],
+  "basketball": [
+    "allen-iverson",
+    "anthony-edwards",
+    "basketball-sport",
+    "hakeem-olajuwon",
+    "kareem-abdul-jabbar",
+    "kobe-bryant",
+    "kyrie-irving",
+    "larry-bird",
+    "lebron-james",
+    "magic-johnson",
+    "michael-jordan",
+    "shaquille-oneal",
+    "victor-wembanyama",
+    "wilt-chamberlain"
+  ],
+  "culture": [
+    "allen-iverson",
+    "basketball-sport"
+  ],
+  "grit": [
+    "allen-iverson",
+    "american-football-sport",
+    "boxing-sport",
+    "canelo-alvarez",
+    "jon-jones",
+    "khabib-nurmagomedov",
+    "larry-bird"
+  ],
+  "streetwear": [
+    "allen-iverson"
+  ],
+  "football": [
+    "american-football-sport",
+    "bo-jackson",
+    "deion-sanders",
+    "joe-montana",
+    "tom-brady"
+  ],
+  "war": [
+    "american-football-sport"
+  ],
+  "americana": [
+    "american-football-sport"
+  ],
+  "mma": [
+    "anderson-silva",
+    "conor-mcgregor",
+    "jon-jones",
+    "khabib-nurmagomedov"
+  ],
+  "skill": [
+    "anderson-silva",
+    "hakeem-olajuwon",
+    "kyrie-irving",
+    "lionel-messi",
+    "ronaldinho"
+  ],
+  "technical": [
+    "anderson-silva",
+    "floyd-mayweather",
+    "formula-1-sport",
+    "golf-sport",
+    "hakeem-olajuwon",
+    "jon-jones",
+    "kyrie-irving",
+    "larry-bird",
+    "michael-phelps",
+    "novak-djokovic",
+    "victor-wembanyama"
+  ],
+  "virtuoso": [
+    "anderson-silva",
+    "zinedine-zidane"
+  ],
+  "vibrant": [
+    "anthony-edwards",
+    "conor-mcgregor",
+    "deion-sanders",
+    "diego-maradona",
+    "ja-morant",
+    "magic-johnson",
+    "manny-pacquiao",
+    "ronaldinho",
+    "soccer-sport",
+    "sugar-ray-leonard",
+    "tony-hawk",
+    "tyson-fury",
+    "usain-bolt",
+    "valentino-rossi"
+  ],
+  "aggressive": [
+    "anthony-edwards",
+    "giannis-antetokounmpo",
+    "joel-embiid",
+    "josh-allen",
+    "max-verstappen",
+    "mike-tyson"
+  ],
+  "aura": [
+    "anthony-edwards"
+  ],
+  "urban": [
+    "basketball-sport",
+    "skateboarding-sport"
+  ],
+  "dynamic": [
+    "basketball-sport",
+    "soccer-sport"
+  ],
+  "baseball": [
+    "bo-jackson",
+    "deion-sanders"
+  ],
+  "power": [
+    "bo-jackson",
+    "mike-tyson",
+    "serena-williams",
+    "shaquille-oneal"
+  ],
+  "boxing": [
+    "boxing-sport",
+    "canelo-alvarez",
+    "floyd-mayweather",
+    "manny-pacquiao",
+    "mike-tyson",
+    "muhammad-ali",
+    "sugar-ray-leonard",
+    "tyson-fury"
+  ],
+  "raw": [
+    "boxing-sport"
+  ],
+  "combat": [
+    "boxing-sport"
+  ],
+  "mexican": [
+    "canelo-alvarez"
+  ],
+  "status": [
+    "canelo-alvarez"
+  ],
+  "innovative": [
+    "connor-mcdavid",
+    "lamar-jackson",
+    "luka-doncic",
+    "nikola-jokic",
+    "shohei-ohtani",
+    "simone-biles"
+  ],
+  "hustle": [
+    "conor-mcgregor",
+    "floyd-mayweather"
+  ],
+  "rebellion": [
+    "conor-mcgregor",
+    "diego-maradona",
+    "skateboarding-sport"
+  ],
+  "soccer": [
+    "cristiano-ronaldo",
+    "diego-maradona",
+    "lionel-messi",
+    "pele",
+    "ronaldinho",
+    "soccer-sport",
+    "zinedine-zidane"
+  ],
+  "fitness": [
+    "cristiano-ronaldo"
+  ],
+  "prolific": [
+    "cristiano-ronaldo"
+  ],
+  "work-ethic": [
+    "cristiano-ronaldo"
+  ],
+  "luxury": [
+    "floyd-mayweather",
+    "formula-1-sport",
+    "golf-sport",
+    "lewis-hamilton"
+  ],
+  "f1": [
+    "formula-1-sport",
+    "lewis-hamilton",
+    "max-verstappen"
+  ],
+  "speed": [
+    "formula-1-sport",
+    "lewis-hamilton",
+    "max-verstappen",
+    "sugar-ray-leonard",
+    "valentino-rossi"
+  ],
+  "golf": [
+    "golf-sport",
+    "tiger-woods"
+  ],
+  "stoicism": [
+    "golf-sport",
+    "joe-montana",
+    "kelly-slater",
+    "khabib-nurmagomedov",
+    "novak-djokovic",
+    "zinedine-zidane"
+  ],
+  "dominance": [
+    "jon-jones",
+    "khabib-nurmagomedov",
+    "max-verstappen",
+    "michael-phelps",
+    "novak-djokovic",
+    "serena-williams",
+    "shaquille-oneal",
+    "wilt-chamberlain"
+  ],
+  "longevity": [
+    "kareem-abdul-jabbar",
+    "kelly-slater",
+    "lebron-james",
+    "tom-brady"
+  ],
+  "intellectual": [
+    "kareem-abdul-jabbar"
+  ],
+  "classic": [
+    "kareem-abdul-jabbar",
+    "roger-federer",
+    "sugar-ray-leonard",
+    "wayne-gretzky",
+    "wilt-chamberlain"
+  ],
+  "surfing": [
+    "kelly-slater"
+  ],
+  "nature": [
+    "kelly-slater"
+  ],
+  "mamba-mentality": [
+    "kobe-bryant"
+  ],
+  "lakers": [
+    "kobe-bryant"
+  ],
+  "legend": [
+    "kobe-bryant",
+    "lionel-messi",
+    "michael-jordan",
+    "muhammad-ali",
+    "serena-williams",
+    "tiger-woods"
+  ],
+  "esoteric": [
+    "kyrie-irving"
+  ],
+  "king": [
+    "lebron-james"
+  ],
+  "all-around": [
+    "lebron-james"
+  ],
+  "activism": [
+    "lewis-hamilton",
+    "muhammad-ali"
+  ],
+  "magic": [
+    "lionel-messi"
+  ],
+  "resilience": [
+    "manny-pacquiao",
+    "tyson-fury"
+  ],
+  "global": [
+    "manny-pacquiao",
+    "pele",
+    "soccer-sport"
+  ],
+  "competitive": [
+    "michael-jordan"
+  ],
+  "icon": [
+    "michael-jordan"
+  ],
+  "swimming": [
+    "michael-phelps"
+  ],
+  "heavyweight": [
+    "mike-tyson",
+    "muhammad-ali",
+    "tyson-fury"
+  ],
+  "tennis": [
+    "novak-djokovic",
+    "serena-williams"
+  ],
+  "iconic": [
+    "pele"
+  ],
+  "joy": [
+    "ronaldinho"
+  ],
+  "personality": [
+    "shaquille-oneal"
+  ],
+  "skate": [
+    "skateboarding-sport"
+  ],
+  "youth": [
+    "skateboarding-sport",
+    "tony-hawk"
+  ],
+  "focus": [
+    "tiger-woods"
+  ],
+  "comeback": [
+    "tiger-woods"
+  ],
+  "champion": [
+    "tom-brady"
+  ],
+  "quarterback": [
+    "tom-brady"
+  ],
+  "skateboarding": [
+    "tony-hawk"
+  ],
+  "motogp": [
+    "valentino-rossi"
+  ],
+  "futuristic": [
+    "victor-wembanyama"
+  ],
+  "alien": [
+    "victor-wembanyama"
+  ],
+  "dynasty": [
+    "wayne-gretzky"
+  ],
+  "elegant": [
+    "zinedine-zidane"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "simp",
+  "type": "lingo",
+  "name": "Simp",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Someone who does way too much for a person they like, usually with no reciprocation.",
+  "tags": ["slang", "romance", "negative", "internet-culture"],
+  "angles": ["desperation", "subservience", "loyalty"],
+  "bar_seeds": ["donating to the stream", "buying her dinner for nothing", "simp card revoked"],
+  "related_ids": [],
+  "meaning": "Sucker Idolizing Mediocre Pussy (backronym) or simpleton; overly desperate.",
+  "usage": "Mocking someone for being whipped or overly attentive.",
+  "origin": "West Coast Rap / Internet",
+  "region": "Global",
+  "example_lines": ["No simping in the chat", "Bought her a bag and she left, that's simp behavior"],
+  "do_not_use_if": ["Describing a healthy relationship", "Being respectful"]
+}

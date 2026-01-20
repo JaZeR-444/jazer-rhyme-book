@@ -1,0 +1,18 @@
+{
+  "id": "crash-out",
+  "type": "lingo",
+  "name": "Crash Out",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "To recklessly lose control, get arrested, or die over something often trivial.",
+  "tags": ["slang", "streetwear", "negative", "aggressive"],
+  "angles": ["recklessness", "violence", "loss"],
+  "bar_seeds": ["ready to crash out", "don't lose your life over pride", "crash dummy"],
+  "related_ids": [],
+  "meaning": "Throwing one's life away in a moment of anger.",
+  "usage": "Describing someone who is acting dangerously emotional.",
+  "origin": "US Street Culture (South/Midwest)",
+  "region": "US",
+  "example_lines": ["He crashed out over a spilled drink", "Don't make me crash out right now"],
+  "do_not_use_if": ["Describing a computer error"]
+}

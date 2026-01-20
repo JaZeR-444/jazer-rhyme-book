@@ -1,0 +1,18 @@
+{
+  "id": "se7en-1995",
+  "type": "cinema",
+  "name": "Se7en",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+  "tags": ["noir", "horror", "grit", "thriller"],
+  "angles": ["sins", "despair", "detective"],
+  "bar_seeds": ["what's in the box", "seven sins", "rainy city"],
+  "related_ids": [],
+  "era": "1995",
+  "plot_hooks": ["Finding the victims", "The library research", "The final delivery"],
+  "iconic_scenes": ["What's in the box?", "Sloth victim", "Lust interrogation"],
+  "visual_motifs": ["Constant rain", "Flashlights", "Notebooks"],
+  "themes": ["Moral decay", "Apathy", "Wrath"],
+  "quotables_short": ["What's in the box?!", "Detective..."]
+}

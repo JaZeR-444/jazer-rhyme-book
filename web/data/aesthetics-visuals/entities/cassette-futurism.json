@@ -1,0 +1,17 @@
+{
+  "id": "cassette-futurism",
+  "type": "aesthetics-visuals",
+  "name": "Cassette Futurism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic centered on 1970s and 1980s technology, specifically analogue computers, CRT monitors, and magnetic tape.",
+  "tags": ["retro", "technical", "analog", "industrial"],
+  "angles": ["lo-fi-tech", "tactile-buttons", "low-res-future"],
+  "bar_seeds": ["tape hiss", "crt flicker", "clunky buttons"],
+  "related_ids": ["cyberpunk", "lo-fi"],
+  "visual_elements": ["Magnetic tape", "Floppy disks", "Green monochrome screens", "Plastic casing"],
+  "mood": "Functional, nostalgic, industrial",
+  "associated_eras": ["1970s", "1980s"],
+  "color_palette": ["Beige", "Olive Drab", "CRT Green", "Dark Grey"],
+  "fashion_staples": ["Digital watches", "Walkmans", "Utility vests"]
+}

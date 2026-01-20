@@ -1,0 +1,18 @@
+{
+  "id": "trench-coat",
+  "type": "fashion",
+  "name": "Trench Coat",
+  "aliases": ["Mackintosh"],
+  "era": "1910s-Present",
+  "tags": ["classic", "noir", "luxury", "utilitarian"],
+  "one_liner": "A sophisticated waterproof coat with military origins, famous for its association with detectives and classic film stars.",
+  "angles": ["detective noir", "rain protection", "cinematic drape"],
+  "bar_seeds": ["epaulettes", "waist belt", "gabardine"],
+  "item_type": "Outerwear",
+  "material": ["Gabardine", "Cotton", "Leather"],
+  "cultural_significance": "Iconic garment of Humphrey Bogart and the archetype of the mysterious stranger.",
+  "fit": ["Long", "Relaxed", "Tailored"],
+  "associated_brands": ["Burberry", "Aquascutum"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

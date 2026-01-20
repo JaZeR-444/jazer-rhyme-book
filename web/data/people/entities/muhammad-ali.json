@@ -1,0 +1,17 @@
+{
+  "id": "muhammad-ali",
+  "type": "people",
+  "name": "Muhammad Ali",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Greatest of All Time, a boxer and activist who transcended sport with his charisma and conviction.",
+  "tags": ["sports", "rebellion", "legacy", "iconic"],
+  "angles": ["confidence", "protest", "poet"],
+  "bar_seeds": ["float like a butterfly", "rumble in the jungle", "i am the greatest"],
+  "related_ids": [],
+  "known_for": ["Boxing Champion", "Draft refusal", "Trash talk"],
+  "vibe": "Charismatic, principled, loud",
+  "signature_items": ["Boxing gloves", "White shorts", "The shuffle"],
+  "quotables_short": ["I shook up the world!", "Float like a butterfly..."],
+  "controversy_flags": ["Draft evasion (at the time)"]
+}

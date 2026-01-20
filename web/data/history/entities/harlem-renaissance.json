@@ -1,0 +1,20 @@
+{
+  "id": "harlem-renaissance",
+  "type": "history",
+  "name": "Harlem Renaissance",
+  "aliases": ["New Negro Movement"],
+  "era": "1920s-1930s",
+  "tags": ["culture", "art", "black-history", "new-york"],
+  "one_liner": "An intellectual and cultural revival of African American music, dance, art, fashion, literature, theater, and politics.",
+  "angles": ["the birth of modern black culture", "jazz in the air", "literary explosion"],
+  "bar_seeds": ["savoy ballroom", "cotton club nights", "langston hughes poems", "uptown evolution"],
+  "key_dates": ["1920 (Beginning of the movement)", "1935 (End of the peak era)"],
+  "location": "Harlem, New York City",
+  "impact": "Redefined how the world viewed African American culture and set the stage for the Civil Rights Movement.",
+  "major_figures": ["Langston Hughes", "Zora Neale Hurston", "Duke Ellington"],
+  "cultural_shift": "A profound sense of racial pride and self-expression through the arts.",
+  "related_ids": ["harlem"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

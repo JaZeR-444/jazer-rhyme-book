@@ -1,0 +1,17 @@
+{
+  "id": "perseus",
+  "type": "mythology-legend",
+  "name": "Perseus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The legendary founder of Mycenae and the slayer of Medusa.",
+  "tags": ["classic", "hero", "war", "mythology"],
+  "angles": ["slayer", "divine-aid", "founder"],
+  "bar_seeds": ["head of medusa", "winged sandals", "mirror shield"],
+  "related_ids": ["medusa", "zeus"],
+  "origin_culture": "Greek",
+  "deity_type": "Hero / Demigod",
+  "powers": ["Combat skill", "Cunning", "Divine favor"],
+  "symbols": ["Medusa's Head", "Harpe (Sword)", "Winged Sandals"],
+  "modern_parallels": ["Action heroes", "Monster hunters", "Clash of the Titans"]
+}

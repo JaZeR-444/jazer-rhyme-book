@@ -1,0 +1,58 @@
+{
+  "id": "parasite-2019",
+  "type": "cinema",
+  "name": "Parasite",
+  "aliases": [],
+  "era": "2019",
+  "tags": [
+    "cinematic",
+    "dark",
+    "storytelling",
+    "classic"
+  ],
+  "one_liner": "A poor family infiltrates a wealthy household with unforeseen consequences.",
+  "angles": [
+    "class tension",
+    "double lives",
+    "stairs and status"
+  ],
+  "bar_seeds": [
+    "basement secrets",
+    "rain on the roof",
+    "stairs tell the story"
+  ],
+  "related_ids": [
+    "real-estate",
+    "monopoly"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parasite_(film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "A family slides into a rich home",
+    "A hidden bunker changes everything"
+  ],
+  "iconic_scenes": [
+    "Basement reveal",
+    "Rainstorm night"
+  ],
+  "visual_motifs": [
+    "Staircases",
+    "Glass walls"
+  ],
+  "themes": [
+    "Class",
+    "Deception",
+    "Survival"
+  ],
+  "quotables_short": [
+    "So metaphorical"
+  ]
+}

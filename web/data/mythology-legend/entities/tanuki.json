@@ -1,0 +1,17 @@
+{
+  "id": "tanuki",
+  "type": "mythology-legend",
+  "name": "Tanuki",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Japanese raccoon dog, a legendary shapeshifting trickster known for its giant testicles and jolly nature.",
+  "tags": ["trickster", "vibrant", "asian", "nature"],
+  "angles": ["transformation", "wealth-bringing", "mischief"],
+  "bar_seeds": ["leaf on the head", "shape shifter", "belly drum"],
+  "related_ids": ["kitsune"],
+  "origin_culture": "Japanese",
+  "deity_type": "Yokai / Spirit",
+  "powers": ["Shapeshifting", "Illusion", "Good luck"],
+  "symbols": ["Sake bottle", "Promissory note", "Large belly"],
+  "modern_parallels": ["Tom Nook (Animal Crossing)", "Business mascots", "Playful deceivers"]
+}

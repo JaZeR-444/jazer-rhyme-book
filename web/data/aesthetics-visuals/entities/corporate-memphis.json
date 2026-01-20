@@ -1,0 +1,17 @@
+{
+  "id": "corporate-memphis",
+  "type": "aesthetics-visuals",
+  "name": "Corporate Memphis",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A flat, geometric illustration style popular in Big Tech branding, characterized by exaggerated proportions and bright colors.",
+  "tags": ["contemporary", "minimalist", "technical", "business"],
+  "angles": ["sanitized", "friendly", "tech-branding"],
+  "bar_seeds": ["flat characters", "noodle arms", "big tech blues"],
+  "related_ids": [],
+  "visual_elements": ["Flat vectors", "Geometric shapes", "Non-human skin tones", "Minimal shading"],
+  "mood": "Safe, corporate, friendly",
+  "associated_eras": ["2010s", "2020s"],
+  "color_palette": ["Royal Blue", "Bright Purple", "Teal", "Coral"],
+  "fashion_staples": ["Minimalist techwear", "Plain tees", "Smart casual", "Sneakers"]
+}

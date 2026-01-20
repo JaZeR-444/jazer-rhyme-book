@@ -1,0 +1,17 @@
+{
+  "id": "atompunk",
+  "type": "aesthetics-visuals",
+  "name": "Atompunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A retro-futuristic aesthetic based on the atomic age, the space race, and mid-century modernism.",
+  "tags": ["retro", "futuristic", "atomic", "vibrant"],
+  "angles": ["space-age", "nuclear-optimism", "jet-set"],
+  "bar_seeds": ["silver rocket", "nuclear family", "bubble glass"],
+  "related_ids": ["the-space-race", "mid-century-modern"],
+  "visual_elements": ["Chrome fins", "Bubble domes", "Atomic motifs", "Rayguns"],
+  "mood": "Optimistic, sleek, scientific",
+  "associated_eras": ["1945", "1965"],
+  "color_palette": ["Atomic Orange", "Sky Blue", "Chrome Silver", "Seafoam Green"],
+  "fashion_staples": ["Silver jumpsuits", "Skinny ties", "Cateye glasses"]
+}

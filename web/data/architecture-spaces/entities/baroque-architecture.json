@@ -1,0 +1,17 @@
+{
+  "id": "baroque-architecture",
+  "type": "architecture-spaces",
+  "name": "Baroque",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A highly decorative and theatrical style which appeared in Italy in the early 17th century.",
+  "tags": ["luxury", "classic", "opulence", "dramatic"],
+  "angles": ["grandeur", "divine-light", "excessive-ornament"],
+  "bar_seeds": ["gilded ceilings", "dramatic shadows", "marble and gold"],
+  "related_ids": ["versace", "the-louvre"],
+  "style": "Baroque",
+  "materials": ["Gold Leaf", "Marble", "Stucco", "Bronze"],
+  "spatial_qualities": ["Vast", "Dynamic", "Symmetrical"],
+  "function": "Religious / Palace",
+  "famous_examples": ["Palace of Versailles", "St. Peter's Basilica"]
+}

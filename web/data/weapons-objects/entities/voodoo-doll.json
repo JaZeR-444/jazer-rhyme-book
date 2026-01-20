@@ -1,0 +1,17 @@
+{
+  "id": "voodoo-doll",
+  "type": "weapons-objects",
+  "name": "Voodoo Doll",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An effigy into which pins are inserted, popularly believed to harm the person whom it represents.",
+  "tags": ["esoteric", "dark", "magic", "symbolic-object"],
+  "angles": ["control", "pain", "curse"],
+  "bar_seeds": ["pin in the heart", "controlling the puppet", "black magic"],
+  "related_ids": ["new-orleans"],
+  "weapon_type": "Magical",
+  "range": "Infinite",
+  "damage_type": "Psychological / Magical",
+  "symbolism": "Revenge, control over others, and misunderstood religious practices.",
+  "famous_users": ["Witch Doctors (Pop Culture)"]
+}

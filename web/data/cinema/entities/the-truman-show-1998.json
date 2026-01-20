@@ -1,0 +1,18 @@
+{
+  "id": "the-truman-show-1998",
+  "type": "cinema",
+  "name": "The Truman Show",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An insurance salesman discovers his whole life is actually a reality TV show.",
+  "tags": ["philosophical-ideas", "satire", "media-platforms", "classic"],
+  "angles": ["reality", "surveillance", "escape"],
+  "bar_seeds": ["good afternoon good evening", "exit door in the sky", "watching the world"],
+  "related_ids": ["the-matrix-1999"],
+  "era": "1998",
+  "plot_hooks": ["Spotting the glitches", "Trying to leave town", "Touching the sky"],
+  "iconic_scenes": ["Boat in the storm", "Bowing to the camera", "Spotlight falling"],
+  "visual_motifs": ["Fisheye lens", "Perfect suburbia", "The dome"],
+  "themes": ["Simulation theory", "Media manipulation", "Free will"],
+  "quotables_short": ["Good afternoon, good evening, and good night!", "Was nothing real?"]
+}

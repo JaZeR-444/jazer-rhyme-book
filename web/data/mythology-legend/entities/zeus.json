@@ -1,0 +1,20 @@
+{
+  "id": "zeus",
+  "type": "mythology-legend",
+  "name": "Zeus",
+  "aliases": ["jupiter", "king of gods", "thunderer"],
+  "era": "Ancient Greece",
+  "tags": ["deity", "power", "lightning", "greek", "ruler"],
+  "one_liner": "King of the Greek gods, ruler of Mount Olympus, and god of the sky and thunder.",
+  "angles": ["absolute power and corruption", "patriarchal authority", "wrath of nature"],
+  "bar_seeds": ["thunderbolts", "olympus high", "eagle's watch", "storm bringer"],
+  "origin_culture": "Greek",
+  "deity_type": "God of Sky and Thunder",
+  "powers": ["Lightning manipulation", "Shapeshifting", "Weather control"],
+  "symbols": ["Thunderbolt", "Eagle", "Bull", "Oak tree"],
+  "modern_parallels": ["CEOs", "Presidents", " Patriarchal figures"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

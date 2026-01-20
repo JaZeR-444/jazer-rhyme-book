@@ -1,0 +1,17 @@
+{
+  "id": "tidal-force",
+  "type": "time-energy",
+  "name": "Tidal Force",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The effect of the gravitational pull of one body on another, resulting in the regular rise and fall of sea levels.",
+  "tags": ["nature", "gravity", "cyclical", "power"],
+  "angles": ["lunar pull", "high tide low tide", "constant flow"],
+  "bar_seeds": ["moon pulling the water", "the tide turns", "unstoppable swell"],
+  "related_ids": ["gravity", "cyclical"],
+  "concept_type": "Physics / Natural",
+  "perception": "Predictable, powerful, and rhythmic.",
+  "physics_basis": "Gravitational gradient.",
+  "cultural_view": "Metaphor for the changing of fortunes and the power of the moon.",
+  "idioms": ["The tide is turning", "Caught in the drift", "Lunar cycle"]
+}

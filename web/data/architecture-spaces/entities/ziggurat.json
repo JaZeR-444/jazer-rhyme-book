@@ -1,0 +1,17 @@
+{
+  "id": "ziggurat",
+  "type": "architecture-spaces",
+  "name": "Ziggurat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A rectangular stepped tower, sometimes surmounted by a temple, characteristic of ancient Mesopotamia.",
+  "tags": ["ancient", "spiritual", "history", "tiered"],
+  "angles": ["stairway-to-heaven", "layered-power", "ancient-monolith"],
+  "bar_seeds": ["climbing the levels", "baked brick", "mesopotamian sun"],
+  "related_ids": ["pyramid"],
+  "style": "Mesopotamian",
+  "materials": ["Mud-brick", "Bitumen"],
+  "spatial_qualities": ["Tiered", "Symmetrical", "Imposing"],
+  "function": "Religious / Temple",
+  "famous_examples": ["Great Ziggurat of Ur", "Etemenanki"]
+}

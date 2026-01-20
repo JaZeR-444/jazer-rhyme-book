@@ -1,0 +1,42 @@
+{
+  "xenith": {
+    "s": 2,
+    "r": "ith",
+    "l": 6,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "xenos": {
+    "s": 2,
+    "r": "nos",
+    "l": 5,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "basic"
+  },
+  "xylophone": {
+    "s": 3,
+    "r": "one",
+    "l": 9,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "medium"
+  },
+  "xylophonic": {
+    "s": 4,
+    "r": "nic",
+    "l": 10,
+    "pos": "unknown",
+    "t": [],
+    "hr": false,
+    "he": false,
+    "c": "advanced"
+  }
+}

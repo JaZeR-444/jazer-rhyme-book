@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
-import { Database, BookOpen, Search, Code, FileText, Info, Menu, X, Edit3 } from 'lucide-react';
+import { Database, BookOpen, Search, Code, FileText, Info, Menu, X, Edit3, Settings } from 'lucide-react';
 import { useState } from 'react';
 import { Logo } from './common/Logo';
 import { WorkspaceDrawer } from './WorkspaceDrawer';
@@ -26,6 +26,7 @@ export function AppLayout() {
     { path: '/dictionary', label: 'Dictionary', icon: <BookOpen size={18} /> },
     { path: '/search', label: 'Search', icon: <Search size={18} /> },
     { path: '/studio', label: 'Studio', icon: <Edit3 size={18} /> },
+    { path: '/settings', label: 'Settings', icon: <Settings size={18} /> },
     { path: '/about', label: 'About', icon: <Info size={18} /> }
   ];
 

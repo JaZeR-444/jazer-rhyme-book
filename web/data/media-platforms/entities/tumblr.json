@@ -1,0 +1,17 @@
+{
+  "id": "tumblr",
+  "type": "media-platforms",
+  "name": "Tumblr",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A microblogging and social networking website known for its fandom culture and aesthetic blogs.",
+  "tags": ["underground", "aesthetic", "lo-fi", "culture"],
+  "angles": ["fandom", "anonymity", "curation"],
+  "bar_seeds": ["reblog", "aesthetic blog", "dashboard scrolling"],
+  "related_ids": [],
+  "platform_type": "Microblogging",
+  "user_demographic": "Millennials, Fandoms, Artists",
+  "content_format": ["Text", "GIFs", "Images"],
+  "algorithm_bias": "Chronological (mostly), favors niche communities and reblogs.",
+  "slang": ["Reblog", "Dash", "Ship"]
+}

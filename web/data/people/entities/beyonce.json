@@ -1,0 +1,20 @@
+{
+  "id": "beyonce",
+  "type": "people",
+  "name": "Beyoncé",
+  "aliases": ["Queen B", "Bey", "Destiny's Child"],
+  "era": "1990s-Present",
+  "tags": ["power", "feminism", "visual", "perfection", "black-excellence"],
+  "one_liner": "The ultimate entertainer who transformed from pop princess to cultural icon and business mogul.",
+  "angles": ["visual albums", "feminist anthem", "perfectionist"],
+  "bar_seeds": ["Lemonade", "Formation", "Single Ladies", "Black is King"],
+  "known_for": ["Single Ladies", "Lemonade", "Black is King", "Homecoming"],
+  "vibe": "Regal, powerful, fierce",
+  "signature_items": ["Form-fitting bodysuits", "Box braids", "Powerful vocals"],
+  "quotables_short": ["Who run the world? Girls!", "I slay"],
+  "controversy_flags": ["Super Bowl performance", "Political statements"],
+  "related_ids": ["jay-z", "solange"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

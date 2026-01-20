@@ -1,0 +1,17 @@
+{
+  "id": "rihanna-mogul",
+  "type": "people",
+  "name": "Rihanna",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Pop superstar turned billionaire business mogul, redefining beauty and fashion industries.",
+  "tags": ["luxury", "fashion", "business-economics", "iconic"],
+  "angles": ["boss", "style", "attitude"],
+  "bar_seeds": ["fenty beauty", "super bowl float", "bad gal"],
+  "related_ids": ["asap-rocky"],
+  "known_for": ["Fenty Beauty", "Music", "Fashion Icon"],
+  "vibe": "Unbothered, dominant, cool",
+  "signature_items": ["Red lip", "Pregnancy reveal outfit", "Wine glass"],
+  "quotables_short": ["Work work work", "Shine bright"],
+  "controversy_flags": []
+}

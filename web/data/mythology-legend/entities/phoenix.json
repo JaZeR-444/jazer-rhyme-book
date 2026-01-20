@@ -1,0 +1,20 @@
+{
+  "id": "phoenix",
+  "type": "mythology-legend",
+  "name": "Phoenix",
+  "aliases": ["The Firebird"],
+  "era": "Ancient Greece / various",
+  "tags": ["creature", "fire", "rebirth", "immortality"],
+  "one_liner": "A mythical bird that burns to ashes and is reborn from the remnants of its predecessor.",
+  "angles": ["rebirth from the struggle", "rising from the ashes", "eternal life"],
+  "bar_seeds": ["ash to flame", "reborn in fire", "golden wings", "eternal cycle"],
+  "origin_culture": "Greek / Global",
+  "deity_type": "Mythical Creature",
+  "powers": ["Rebirth", "Fire manipulation", "Longevity"],
+  "symbols": ["Fire", "Ashes", "Sun"],
+  "modern_parallels": ["Comeback stories", "Transformational growth"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

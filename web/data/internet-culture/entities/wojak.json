@@ -1,0 +1,21 @@
+{
+  "id": "wojak",
+  "type": "internet-culture",
+  "name": "Wojak",
+  "aliases": ["Feels Guy"],
+  "era": "2010s-Present",
+  "tags": ["meme", "emotion", "versatile", "illustration"],
+  "one_liner": "A simple, MS Paint-style drawing of a bald man used to express various emotions, especially sadness and loneliness.",
+  "angles": ["the everyman of the internet", "loneliness in the digital age", "doomer vs bloomer"],
+  "bar_seeds": ["that feels guy", "doomer wojak", "grey face crying"],
+  "format": "Illustration",
+  "origin_platform": "Vichan",
+  "meaning": "Expresses empathy or specific archetypal life experiences (Doomer, Coomer, etc.).",
+  "remix_rules": ["MS Paint style", "Highly modular", "Focus on facial expression"],
+  "lifespan_risk": "Low (Foundation of modern memes)",
+  "example_lines": ["That feeling when no gf wojak", "Wojak face in the rain"],
+  "related_ids": ["pepe-the-frog", "npc-meme"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

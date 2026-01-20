@@ -1,0 +1,18 @@
+{
+  "id": "sweatpants",
+  "type": "fashion",
+  "name": "Sweatpants",
+  "aliases": ["Joggers", "Track Pants"],
+  "era": "1920s-Present",
+  "tags": ["athleisure", "comfort", "casual", "streetwear"],
+  "one_liner": "The foundation of cozy-boy culture and relaxed athleticism.",
+  "angles": ["cozy boy aesthetic", "relaxed uniform", "casual movement"],
+  "bar_seeds": ["fleece joggers", "elastic cuff", "baggy sweats"],
+  "item_type": "Bottoms",
+  "material": ["Cotton Fleece", "Jersey"],
+  "cultural_significance": "Transitioned from pure sports utility to a global everyday staple.",
+  "fit": ["Baggy", "Relaxed", "Tapered"],
+  "associated_brands": ["Nike", "Champion", "Fear of God Essentials"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

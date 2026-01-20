@@ -1,0 +1,46 @@
+{
+  "id": "fast-fashion",
+  "type": "fashion",
+  "name": "Fast Fashion",
+  "aliases": [
+    "Disposable fashion"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "mass-market",
+    "retail",
+    "disposable",
+    "trend"
+  ],
+  "one_liner": "The rapid production of high volumes of clothing, based on the latest fashion trends and low prices.",
+  "angles": [
+    "the democratization of style",
+    "the cost of disposability",
+    "infinite trend cycle"
+  ],
+  "bar_seeds": [
+    "wear it once",
+    "cheap thrills",
+    "landfill fashion",
+    "the chase for the look"
+  ],
+  "item_type": "Mass-market Apparel",
+  "material": [
+    "Polyester",
+    "Cotton blends",
+    "Synthetic fibers"
+  ],
+  "cultural_significance": "Made fashion accessible to everyone but at a high environmental and ethical cost.",
+  "fit": [
+    "Standardized / Varying"
+  ],
+  "associated_brands": [
+    "Zara",
+    "H&M",
+    "Shein"
+  ],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

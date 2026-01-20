@@ -1,0 +1,17 @@
+{
+  "id": "bandcamp",
+  "type": "media-platforms",
+  "name": "Bandcamp",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An online music store and community that allows independent artists to sell directly to fans, known for its artist-friendly revenue model.",
+  "tags": ["underground", "community", "music", "hustle"],
+  "angles": ["supporting-the-artist", "digital-vinyl", "independent-spirit"],
+  "bar_seeds": ["bandcamp friday", "cassette release", "direct support"],
+  "related_ids": ["soundcloud"],
+  "platform_type": "Music Marketplace",
+  "user_demographic": "Indie Musicians, Collectors, Niche Fans",
+  "content_format": ["High-res Audio", "Physical Goods", "Vinyl"],
+  "algorithm_bias": "Minimal; favors direct searches and fan recommendations.",
+  "slang": ["Bandcamp Friday", "Wishlist", "Cassette"]
+}

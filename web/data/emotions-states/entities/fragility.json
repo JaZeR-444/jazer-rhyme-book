@@ -1,0 +1,18 @@
+{
+  "id": "fragility",
+  "type": "emotions-states",
+  "name": "Fragility",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A state of extreme delicacy, where one is easily broken, physically or emotionally.",
+  "tags": ["poetic", "raw", "delicate", "internal"],
+  "angles": ["glass-soul", "the-brink-of-collapse", "precious-weakness"],
+  "bar_seeds": ["walking on ice", "glass heart", "one touch and I'm dust"],
+  "related_ids": ["vulnerability", "glass"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Shaking hands", "Brittle movements", "Quiet voice"],
+  "triggers": ["Sudden stress", "Harsh criticism", "Exhaustion"],
+  "action_urge": "To seek shelter, isolation, or gentle care.",
+  "opposites": ["Resilience", "Toughness", "Durability"],
+  "related_ids": ["vulnerability", "fear"]
+}

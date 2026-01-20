@@ -1,0 +1,17 @@
+{
+  "id": "substack",
+  "type": "media-platforms",
+  "name": "Substack",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A newsletter platform that allows writers to send digital newsletters directly to their subscribers.",
+  "tags": ["intellectual", "minimalist", "hustle", "media"],
+  "angles": ["independence", "writing", "direct-to-consumer"],
+  "bar_seeds": ["in your inbox", "paid subscriber", "long-form thought"],
+  "related_ids": [],
+  "platform_type": "Newsletter",
+  "user_demographic": "Writers, Journalists, Intellectuals",
+  "content_format": ["Email", "Podcast", "Blog"],
+  "algorithm_bias": "Favors controversial or highly engaged writers.",
+  "slang": ["Stack", "Sub", "Newsletter"]
+}

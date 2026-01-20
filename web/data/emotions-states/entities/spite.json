@@ -1,0 +1,17 @@
+{
+  "id": "spite",
+  "type": "emotions-states",
+  "name": "Spite",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A desire to hurt, annoy, or offend someone, often at one's own expense.",
+  "tags": ["negative", "aggressive", "internal", "hustle"],
+  "angles": ["fuel-for-success", "petty-revenge", "poisonous-intent"],
+  "bar_seeds": ["doing it just to show you", "drinking the poison hoping you die", "winning out of anger"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Narrowed eyes", "Tight smile", "Tense posture"],
+  "triggers": ["Perceived insult", "Rejection", "Success of a rival"],
+  "action_urge": "To act in a way that harms the other person even if it's irrational.",
+  "opposites": ["Goodwill", "Generosity"],
+  "related_ids": ["resentment", "malice"]
+}

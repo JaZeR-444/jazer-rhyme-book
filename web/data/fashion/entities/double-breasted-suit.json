@@ -1,0 +1,18 @@
+{
+  "id": "double-breasted-suit",
+  "type": "fashion",
+  "name": "Double-Breasted Suit",
+  "aliases": ["DB Suit"],
+  "era": "1930s-Present",
+  "tags": ["classic", "power", "luxury", "tailoring"],
+  "one_liner": "A suit jacket with overlapping front flaps and two columns of buttons, conveying power and formality.",
+  "angles": ["power tailoring", "executive weight", "classic formality"],
+  "bar_seeds": ["six on two", "peak lapels", "executive suit"],
+  "item_type": "Suits",
+  "material": ["Wool", "Linen", "Silk Blend"],
+  "cultural_significance": "Associated with 80s Wall Street and high-end menswear traditions.",
+  "fit": ["Tailored", "Structured"],
+  "associated_brands": ["Giorgio Armani", "Tom Ford", "Ralph Lauren Purple Label"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "notepad-plus-plus",
+  "type": "writing-tool",
+  "name": "Notepad++",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A free source code editor and Notepad replacement that supports several languages.",
+  "tags": ["tool", "utility", "technical", "classic"],
+  "angles": ["utility", "open-source", "lightweight"],
+  "bar_seeds": ["plain text", "no formatting", "raw data"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_does": "Provides a lightweight text editing environment.",
+  "best_for": ["quick notes", "stripping formatting", "legacy files"],
+  "workflow_hooks": ["Paste to remove rich text", "Keep a running scratchpad"],
+  "pitfalls": ["Ugly interface", "Windows only"],
+  "bar_angles": ["Raw text", "No filter", "Basic blocks"]
+}

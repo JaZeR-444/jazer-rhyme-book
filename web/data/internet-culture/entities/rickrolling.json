@@ -1,0 +1,21 @@
+{
+  "id": "rickrolling",
+  "type": "internet-culture",
+  "name": "Rickrolling",
+  "aliases": ["Never Gonna Give You Up"],
+  "era": "2000s-Present",
+  "tags": ["meme", "bait-and-switch", "prank", "classic"],
+  "one_liner": "An iconic bait-and-switch prank involving a hidden link to Rick Astley's 'Never Gonna Give You Up'.",
+  "angles": ["digital deception", "harmless pranks", "the classic switch-up"],
+  "bar_seeds": ["hidden link", "never gonna give you up", "clicked the wrong jawn", "red hair dancing"],
+  "format": "Link/Video prank",
+  "origin_platform": "4chan",
+  "meaning": "Leading someone to an unexpected destination for comedic effect.",
+  "remix_rules": ["Must be unexpected", "Must feature the song"],
+  "lifespan_risk": "Low (Legendary status)",
+  "example_lines": ["Just got rickrolled in 2024", "Sending the link like a rickroll"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cerberus",
+  "type": "mythology-legend",
+  "name": "Cerberus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The three-headed hound that guards the gates of the Underworld to prevent the dead from leaving.",
+  "tags": ["dark", "mythology", "war", "security"],
+  "angles": ["guardianship", "loyalty", "fear"],
+  "bar_seeds": ["three heads barking", "gates of hell", "hound of hades"],
+  "related_ids": ["hades"],
+  "origin_culture": "Greek",
+  "deity_type": "Monster",
+  "powers": ["Multiple heads", "Venom", "Eternal vigilance"],
+  "symbols": ["Three Heads", "Chains", "Snake Tail"],
+  "modern_parallels": ["Security Systems", "Bouncers", "Firewalls"]
+}

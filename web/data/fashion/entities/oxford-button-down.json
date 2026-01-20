@@ -1,0 +1,19 @@
+{
+  "id": "oxford-button-down",
+  "type": "fashion",
+  "name": "Oxford Button-Down",
+  "aliases": ["OCBD"],
+  "era": "19th Century-Present",
+  "tags": ["classic", "preppy", "minimalist", "academic"],
+  "one_liner": "A staple of the Ivy League look, defined by its button-down collar and durable basket-weave fabric.",
+  "angles": ["collegiate-heritage", "versatile-formalism", "clean-cut-classic"],
+  "bar_seeds": ["buttoned up collar", "oxford weave", "ivy league style"],
+  "related_ids": ["preppy-fashion"],
+  "item_type": "Tops",
+  "material": ["Oxford Cloth", "Cotton"],
+  "cultural_significance": "A foundational piece of the 'Preppy' and 'Trad' aesthetics.",
+  "fit": ["Standard", "Slim"],
+  "associated_brands": ["Brooks Brothers", "Ralph Lauren", "Uniqlo"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

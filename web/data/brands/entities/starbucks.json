@@ -1,0 +1,59 @@
+{
+  "id": "starbucks",
+  "type": "brand",
+  "name": "Starbucks",
+  "aliases": [
+    "SBUX",
+    "Siren",
+    "Third Place"
+  ],
+  "era": "1971-Present",
+  "tags": [
+    "coffee",
+    "premium",
+    "lifestyle",
+    "ubiquitous",
+    "social"
+  ],
+  "one_liner": "The coffee chain that made specialty coffee mainstream and created a 'third place'.",
+  "angles": [
+    "premium coffee",
+    "lifestyle brand",
+    "social space"
+  ],
+  "bar_seeds": [
+    "Venti, non-fat, extra hot",
+    "Starbucks name game",
+    "Third place between home and work"
+  ],
+  "related_ids": [
+    "coffee",
+    "seattle"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Starbucks official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Food & Beverage",
+  "price_tier": "Premium",
+  "signature_products": [
+    "Frappuccino",
+    "Pumpkin Spice Latte",
+    "Venti"
+  ],
+  "status_signals": [
+    "Green siren",
+    "Premium pricing"
+  ],
+  "bar_angles": [
+    "lifestyle",
+    "social",
+    "premium"
+  ]
+}

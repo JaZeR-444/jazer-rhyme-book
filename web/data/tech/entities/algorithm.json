@@ -1,0 +1,20 @@
+{
+  "id": "algorithm",
+  "type": "tech",
+  "name": "Algorithm",
+  "aliases": ["Algo", "The Feed"],
+  "era": "Ancient-Present",
+  "tags": ["technical", "logic", "software", "social-media"],
+  "one_liner": "A finite sequence of rigorous instructions, typically used to solve a class of specific problems or to perform a computation.",
+  "angles": ["digital fate", "the invisible hand", "logical path"],
+  "bar_seeds": ["caught in the loop", "pleasing the algo", "mathematical ghost"],
+  "related_ids": ["big-data", "machine-learning"],
+  "category": "Logic / Software",
+  "what_it_is": "A set of rules or steps followed by a computer to accomplish a task.",
+  "why_it_matters": "Controls everything from what we see on social media to global stock market trades.",
+  "risks": ["Echo chambers", "Algorithmic bias", "Loss of human agency"],
+  "metaphors": ["A recipe", "The digital navigator", "The gears of the web"],
+  "keywords": ["Sorting", "Ranking", "Recursive", "Efficiency", "Logic"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

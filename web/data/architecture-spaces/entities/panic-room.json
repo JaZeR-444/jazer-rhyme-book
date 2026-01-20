@@ -1,0 +1,17 @@
+{
+  "id": "panic-room",
+  "type": "architecture-spaces",
+  "name": "Panic Room",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fortified room installed in a private residence to provide a safe shelter or hiding place in the event of an emergency.",
+  "tags": ["security", "fear", "luxury", "isolation"],
+  "angles": ["last-resort", "domestic-fortress", "paranoia"],
+  "bar_seeds": ["watching the screens", "bulletproof walls", "hiding from the world"],
+  "related_ids": ["underground-bunker", "vault"],
+  "style": "Modern / Concealed",
+  "materials": ["Reinforced Steel", "Kevlar", "Communication systems"],
+  "spatial_qualities": ["Small", "Secret", "Self-contained"],
+  "function": "Safety / Survival",
+  "famous_examples": ["Safe rooms in billionaire mansions"]
+}

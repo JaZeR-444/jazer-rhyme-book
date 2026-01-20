@@ -1,0 +1,51 @@
+{
+  "id": "vintage-sportswear",
+  "type": "fashion",
+  "name": "Vintage Sportswear",
+  "aliases": [
+    "90s Sportswear",
+    "Retro Athletic"
+  ],
+  "era": "1980s-1990s (Revival 2010s-Present)",
+  "tags": [
+    "sportswear",
+    "nostalgic",
+    "streetwear",
+    "retro"
+  ],
+  "one_liner": "Authentic athletic apparel from the 80s and 90s, characterized by bold colors, large logos, and nylon fabrics.",
+  "angles": [
+    "nostalgia for the athletic era",
+    "the comfort of the past",
+    "stadium style"
+  ],
+  "bar_seeds": [
+    "colorblock nylon",
+    "starter jacket vibes",
+    "baggy tracksuits",
+    "vintage team gear"
+  ],
+  "item_type": "Athletic Apparel",
+  "material": [
+    "Nylon",
+    "Cotton fleece",
+    "Polyester"
+  ],
+  "cultural_significance": "Highly influential in the development of modern streetwear and Hip-Hop fashion.",
+  "fit": [
+    "Oversized / Baggy"
+  ],
+  "associated_brands": [
+    "Nike",
+    "Adidas",
+    "Champion",
+    "Starter"
+  ],
+  "related_ids": [
+    "streetwear",
+    "adidas"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

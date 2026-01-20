@@ -1,0 +1,47 @@
+{
+  "id": "disaster-girl",
+  "type": "internet-culture",
+  "name": "Disaster Girl",
+  "aliases": [],
+  "era": "2005-Present",
+  "tags": [
+    "classic",
+    "satirical",
+    "nostalgic"
+  ],
+  "one_liner": "A girl smirking in front of a burning house, used for mischievous captions.",
+  "angles": [
+    "chaos behind the smile",
+    "mischief energy",
+    "calm in disaster"
+  ],
+  "bar_seeds": [
+    "fire in the background",
+    "smirk in the storm",
+    "chaos with a grin"
+  ],
+  "related_ids": [
+    "this-is-fine",
+    "bad-luck-brian"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Disaster_Girl",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Flickr",
+  "meaning": "Used to imply someone caused or enjoys the chaos.",
+  "remix_rules": [
+    "Add a caption describing the chaos"
+  ],
+  "lifespan_risk": "Low (classic image)",
+  "example_lines": [
+    "Me after deleting the wrong folder"
+  ]
+}

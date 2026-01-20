@@ -1,0 +1,55 @@
+{
+  "id": "pharrell-williams",
+  "type": "people",
+  "name": "Pharrell Williams",
+  "aliases": [
+    "Pharrell"
+  ],
+  "era": "1990s-2020s",
+  "tags": [
+    "innovative",
+    "mainstream",
+    "vibrant",
+    "legacy",
+    "contemporary"
+  ],
+  "one_liner": "Artist and producer known for chart-topping hits, fashion influence, and upbeat energy.",
+  "angles": [
+    "producer hitmaker",
+    "sunshine energy",
+    "style pioneer"
+  ],
+  "bar_seeds": [
+    "happy in the daylight",
+    "four-count groove",
+    "studio mastermind"
+  ],
+  "related_ids": [
+    "beyonce",
+    "kanye-west"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pharrell_Williams",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Music",
+    "Production",
+    "Fashion"
+  ],
+  "vibe": "Bright, creative, and collaborative",
+  "signature_items": [
+    "Wide-brim hats",
+    "Upbeat grooves"
+  ],
+  "quotables_short": [
+    "Happy"
+  ],
+  "controversy_flags": []
+}

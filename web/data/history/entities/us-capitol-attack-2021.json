@@ -1,0 +1,50 @@
+{
+  "id": "us-capitol-attack-2021",
+  "type": "history",
+  "name": "U.S. Capitol Attack",
+  "aliases": [
+    "January 6 attack"
+  ],
+  "era": "2021",
+  "tags": [
+    "political",
+    "mainstream",
+    "contemporary",
+    "legacy"
+  ],
+  "one_liner": "An attack on the U.S. Capitol during certification of the 2020 election.",
+  "angles": [
+    "democracy under strain",
+    "mob violence",
+    "political fracture"
+  ],
+  "bar_seeds": [
+    "capitol breached",
+    "democracy on edge",
+    "flags in the halls"
+  ],
+  "key_dates": [
+    "2021-01-06"
+  ],
+  "location": "United States",
+  "impact": "Triggered investigations, security changes, and political polarization.",
+  "major_figures": [
+    "Donald Trump",
+    "Mike Pence"
+  ],
+  "cultural_shift": "Public trust in institutions faced a major test.",
+  "related_ids": [
+    "brexit-2016-2020",
+    "black-lives-matter-movement"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

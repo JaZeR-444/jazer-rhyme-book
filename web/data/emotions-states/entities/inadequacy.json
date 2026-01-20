@@ -1,0 +1,18 @@
+{
+  "id": "inadequacy",
+  "type": "emotions-states",
+  "name": "Inadequacy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The feeling of not being good enough or lacking the necessary qualities for a task or life in general.",
+  "tags": ["anxiety", "negative", "internal", "hustle"],
+  "angles": ["feeling-small", "not-enough", "the-gap-between-aim-and-reach"],
+  "bar_seeds": ["not enough gold", "shadows of the greats", "missing the mark"],
+  "related_ids": ["imposter-syndrome", "shame"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Slumping shoulders", "Avoidance of mirrors", "Tightness in the throat"],
+  "triggers": ["Comparison to others", "Failure", "Public scrutiny"],
+  "action_urge": "To hide, withdraw, or over-compensate through extreme effort.",
+  "opposites": ["Confidence", "Sufficiency"],
+  "related_ids": ["shame", "envy"]
+}

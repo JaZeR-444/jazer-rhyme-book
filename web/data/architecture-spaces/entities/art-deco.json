@@ -1,0 +1,17 @@
+{
+  "id": "art-deco",
+  "type": "architecture-spaces",
+  "name": "Art Deco",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A style of visual arts and architecture characterized by geometric shapes, gold, and glamour.",
+  "tags": ["vintage", "luxury", "aesthetic", "geometric"],
+  "angles": ["glamour", "geometry", "jazz-age"],
+  "bar_seeds": ["gold plating", "geometric lines", "roaring twenties"],
+  "related_ids": [],
+  "style": "Art Deco",
+  "materials": ["Gold", "Chrome", "Marble"],
+  "spatial_qualities": ["Decorative", "Vertical", "Symmetrical"],
+  "function": "Aesthetic Style",
+  "famous_examples": ["Chrysler Building", "Empire State Building"]
+}

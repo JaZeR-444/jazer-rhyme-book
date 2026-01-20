@@ -1,0 +1,71 @@
+{
+  "id": "envy",
+  "type": "emotions-states",
+  "name": "Envy",
+  "aliases": [
+    "Jealousy"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "dark",
+    "grit",
+    "classic"
+  ],
+  "one_liner": "A painful desire for what someone else has.",
+  "angles": [
+    "comparison trap",
+    "green eye",
+    "hollow want"
+  ],
+  "bar_seeds": [
+    "watching from the fence",
+    "green in the glare",
+    "counting other wins"
+  ],
+  "related_ids": [
+    "shame",
+    "rage"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Envy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "comparison",
+    "status gaps",
+    "loss"
+  ],
+  "sensations": [
+    "tight chest",
+    "heat",
+    "restlessness"
+  ],
+  "expressions": [
+    "side-eye",
+    "silence",
+    "snide comments"
+  ],
+  "opposites": [
+    "gratitude",
+    "contentment"
+  ],
+  "coping_tools": [
+    "reframing",
+    "gratitude",
+    "goal setting"
+  ],
+  "cultural_notes": [
+    "status anxiety",
+    "keeping up"
+  ],
+  "related_states": [
+    "resentment",
+    "jealousy"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "uncut-gems-2019",
+  "type": "cinema",
+  "name": "Uncut Gems",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime.",
+  "tags": ["anxiety", "grit", "nyc", "contemporary"],
+  "angles": ["addictive-gambling", "diamond-district-hustle", "unrelenting-tension"],
+  "bar_seeds": ["black opal", "betting the house", "this is how I win"],
+  "related_ids": ["stack-of-cash", "casino"],
+  "era": "2019",
+  "plot_hooks": ["The opal from Ethiopia", "The Kevin Garnett bet", "The collectors at the door"],
+  "iconic_scenes": ["The door jam", "This is how I win", "The colonoscopy opening"],
+  "visual_motifs": ["Neon gems", "Security glass", "Sweat", "Busy streets"],
+  "themes": ["Addiction", "The Hustle", "Fate"],
+  "quotables_short": ["This is how I win.", "I made a bet."]
+}

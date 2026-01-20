@@ -1,0 +1,53 @@
+{
+  "id": "sneakerhead",
+  "type": "fashion",
+  "name": "Sneakerhead Culture",
+  "aliases": [
+    "Kicks",
+    "Sole searching"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "footwear",
+    "streetwear",
+    "collecting",
+    "hype"
+  ],
+  "one_liner": "A subculture centered around the collection, trading, and appreciation of limited-edition sneakers.",
+  "angles": [
+    "the high-stakes of the drop",
+    "walking on art",
+    "status in the soles"
+  ],
+  "bar_seeds": [
+    "deadstock",
+    "grails",
+    "checking the stitching",
+    "camp out for kicks"
+  ],
+  "item_type": "Culture / Footwear",
+  "material": [
+    "Leather",
+    "Suede",
+    "Rubber",
+    "Knit"
+  ],
+  "cultural_significance": "Transformed functional athletic wear into high-value cultural assets and status symbols.",
+  "fit": [
+    "Varies by model"
+  ],
+  "associated_brands": [
+    "Nike",
+    "Adidas",
+    "Jordan Brand",
+    "Yeezy"
+  ],
+  "related_ids": [
+    "adidas",
+    "nike",
+    "streetwear"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

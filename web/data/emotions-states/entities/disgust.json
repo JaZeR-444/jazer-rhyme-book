@@ -1,0 +1,17 @@
+{
+  "id": "disgust",
+  "type": "emotions-states",
+  "name": "Disgust",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A feeling of revulsion or strong disapproval aroused by something unpleasant or offensive.",
+  "tags": ["negative", "raw", "visceral", "moral"],
+  "angles": ["physical revulsion", "moral judgment", "rejection"],
+  "bar_seeds": ["sour face", "turning away", "stench of the fake"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Nausea", "Curled lip", "Withdrawal"],
+  "triggers": ["Bad odors", "Moral hypocrisy", "Gore"],
+  "action_urge": "To move away from or expel the offending object/idea.",
+  "opposites": ["Attraction", "Admiration"],
+  "related_ids": []
+}

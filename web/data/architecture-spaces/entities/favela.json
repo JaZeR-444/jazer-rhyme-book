@@ -1,0 +1,17 @@
+{
+  "id": "favela",
+  "type": "architecture-spaces",
+  "name": "Favela",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Brazilian shack or shanty town; a dense, informal urban settlement.",
+  "tags": ["urban", "grit", "community", "vibrant"],
+  "angles": ["density", "survival", "color"],
+  "bar_seeds": ["rio hills", "brick on brick", "labyrinth of streets"],
+  "related_ids": [],
+  "style": "Vernacular / Informal",
+  "materials": ["Brick", "Tin", "Concrete"],
+  "spatial_qualities": ["Dense", "Chaotic", "Vertical"],
+  "function": "Residential Community",
+  "famous_examples": ["Rocinha", "City of God"]
+}

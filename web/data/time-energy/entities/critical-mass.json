@@ -1,0 +1,17 @@
+{
+  "id": "critical-mass",
+  "type": "time-energy",
+  "name": "Critical Mass",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The minimum amount of fissile material needed to maintain a nuclear chain reaction; also used to describe a social tipping point.",
+  "tags": ["technical", "momentum", "explosive", "scientific"],
+  "angles": ["tipping point", "chain reaction", "sudden change"],
+  "bar_seeds": ["one more drop", "overflowing", "point of no return"],
+  "related_ids": ["momentum", "kinetic-energy"],
+  "concept_type": "Physics / Sociology",
+  "perception": "High tension, followed by an unstoppable surge.",
+  "physics_basis": "Nuclear fission sustainability.",
+  "cultural_view": "The moment an idea or movement becomes unstoppable.",
+  "idioms": ["The tipping point", "Breaking the dam", "Full speed ahead"]
+}

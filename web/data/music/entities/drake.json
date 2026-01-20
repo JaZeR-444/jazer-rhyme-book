@@ -1,0 +1,21 @@
+{
+  "id": "drake",
+  "type": "music",
+  "name": "Drake",
+  "aliases": ["Aubrey", "OVO", "Drizzy"],
+  "era": "2000s-Present",
+  "tags": ["canadian", "melodic", "chart-topping", "melodic-rap", "mainstream"],
+  "one_liner": "The Toronto artist who bridged hip-hop and R&B with his emotional, melodic approach.",
+  "angles": ["emotional vulnerability", "melodic rap", "chart dominance"],
+  "bar_seeds": ["Started from the bottom", "Hotline Bling", "OVO", "Views"],
+  "genre": ["Hip Hop", "R&B", "Pop"],
+  "era_detail": "Rise to fame in 2009, dominated 2010s.",
+  "signature_songs": ["Hotline Bling", "God's Plan", "Started From The Bottom"],
+  "sonic_descriptors": ["melodic", "emotional", "trap-influenced"],
+  "influence_tree": ["Lil Wayne", "Trey Songz"],
+  "aesthetic": "Toronto, October's Very Own, emotional storytelling",
+  "related_ids": ["nicki-minaj", "future"],
+  "created_at": "2025-12-23T11:35:00Z",
+  "updated_at": "2025-12-23T11:35:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dr-martens",
+  "type": "fashion",
+  "name": "Dr. Martens",
+  "aliases": ["Docs", "1460"],
+  "era": "1960s-Present",
+  "tags": ["punk-fashion", "grit", "rebellion", "classic"],
+  "one_liner": "Air-cushioned boots with yellow stitching that became the uniform of rebellion for generations of subcultures.",
+  "angles": ["punk grit", "industrial durability", "yellow stitching"],
+  "bar_seeds": ["eight eyelets", "bouncing soles", "scuffed toes"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Synthetic"],
+  "cultural_significance": "Adopted by skinheads, punks, and grunge fans as a symbol of anti-establishment.",
+  "fit": ["Chunky", "Relaxed"],
+  "associated_brands": ["Dr. Martens"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "miles-davis",
+  "type": "people",
+  "name": "Miles Davis",
+  "aliases": ["Prince of Darkness"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A central figure in jazz history, known for his constant stylistic evolution and 'cool' persona.",
+  "tags": ["jazz", "innovative", "cool", "legacy"],
+  "angles": ["reinvention", "minimalism", "the silent note"],
+  "bar_seeds": ["kind of blue", "bitches brew", "muted trumpet"],
+  "related_ids": ["sade", "radiohead"],
+  "known_for": ["Kind of Blue", "Cool Jazz", "Jazz Fusion"],
+  "vibe": "Cool, detached, visionary",
+  "signature_items": ["Harmon mute", "Trumpet", "Ferrari"],
+  "quotables_short": ["Don't play what's there, play what's not there."],
+  "controversy_flags": ["Drug use", "Temper"]
+}

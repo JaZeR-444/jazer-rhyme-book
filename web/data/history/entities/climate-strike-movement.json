@@ -1,0 +1,50 @@
+{
+  "id": "climate-strike-movement",
+  "type": "history",
+  "name": "Climate Strike Movement",
+  "aliases": [
+    "Fridays for Future"
+  ],
+  "era": "2018-Present",
+  "tags": [
+    "political",
+    "rebellion",
+    "contemporary",
+    "peace"
+  ],
+  "one_liner": "Global youth-led protests demanding climate action.",
+  "angles": [
+    "youth uprising",
+    "planet on the line",
+    "future at stake"
+  ],
+  "bar_seeds": [
+    "school out for the planet",
+    "signs in the street",
+    "future on the line"
+  ],
+  "key_dates": [
+    "2018 (school strikes begin)",
+    "2019 (global strikes)"
+  ],
+  "location": "Global",
+  "impact": "Amplified climate urgency and influenced policy conversations.",
+  "major_figures": [
+    "Greta Thunberg"
+  ],
+  "cultural_shift": "Climate activism became a defining youth movement.",
+  "related_ids": [
+    "paris-climate-agreement-2015",
+    "greta-thunberg"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/School_strike_for_climate",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

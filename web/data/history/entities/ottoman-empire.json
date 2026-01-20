@@ -1,0 +1,17 @@
+{
+  "id": "ottoman-empire",
+  "type": "history",
+  "name": "Ottoman Empire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A state that controlled much of Southeast Europe, Western Asia, and Northern Africa between the 14th and early 20th centuries.",
+  "tags": ["empire", "history", "luxury", "war"],
+  "angles": ["bridge-between-worlds", "caliphate-power", "the-sick-man-of-europe"],
+  "bar_seeds": ["constantinople fall", "janissary march", "golden horn"],
+  "related_ids": ["empire"],
+  "key_dates": ["1299", "1922"],
+  "location": "Turkey / Balkans / Middle East",
+  "impact": "The bridge between East and West; held the Caliphate for centuries.",
+  "major_figures": ["Osman I", "Suleiman the Magnificent", "Mehmed the Conqueror"],
+  "cultural_shift": "Synthesis of Byzantine, Persian, and Islamic cultural and political traditions."
+}

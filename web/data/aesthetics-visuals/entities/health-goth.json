@@ -1,0 +1,17 @@
+{
+  "id": "health-goth",
+  "type": "aesthetics-visuals",
+  "name": "Health Goth",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subculture and aesthetic that combines gothic fashion elements with high-performance sportswear and a focus on physical fitness.",
+  "tags": ["gothic", "sportswear", "minimalist", "technical"],
+  "angles": ["monochrome-fitness", "dystopian-athlete", "sterile-darkness"],
+  "bar_seeds": ["all black gym", "nike logo in the dark", "cyber workout"],
+  "related_ids": ["goth", "techwear"],
+  "visual_elements": ["Matte black", "Technical fabrics", "Nike/Adidas logos", "Medical motifs"],
+  "mood": "Disciplined, sterile, aggressive",
+  "associated_eras": ["2010s"],
+  "color_palette": ["Pitch Black", "Pure White", "Silver", "Charcoal"],
+  "fashion_staples": ["Compression gear", "Mesh tops", "Tactical sneakers"]
+}

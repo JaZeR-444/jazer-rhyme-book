@@ -1,0 +1,17 @@
+{
+  "id": "burberry",
+  "type": "brand",
+  "name": "Burberry",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A British luxury fashion house famous for its trench coats and distinct tartan pattern.",
+  "tags": ["luxury", "classic", "vintage", "legacy"],
+  "angles": ["heritage", "check", "london"],
+  "bar_seeds": ["burberry scarf", "trench coat rain", "checkered pattern"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["Trench Coat", "Cashmere Scarf"],
+  "status_signals": ["The Burberry Check", "Equestrian Knight logo"],
+  "bar_angles": ["British weather", "London streets", "Timeless pattern"]
+}

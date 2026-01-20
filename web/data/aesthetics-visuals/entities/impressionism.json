@@ -1,0 +1,17 @@
+{
+  "id": "impressionism",
+  "type": "aesthetics-visuals",
+  "name": "Impressionism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A 19th-century art movement characterized by relatively small, thin, yet visible brush strokes and open composition.",
+  "tags": ["classic", "nature", "organic", "soft"],
+  "angles": ["light", "movement", "blur"],
+  "bar_seeds": ["water lilies", "dappled light", "blurry vision"],
+  "related_ids": ["cottagecore"],
+  "visual_elements": ["Visible brushstrokes", "Light reflection", "Nature scenes", "Blur"],
+  "mood": "Peaceful, fleeting, atmospheric",
+  "associated_eras": ["19th Century"],
+  "color_palette": ["Pastel Blue", "Soft Green", "Lilac", "Sunlight Yellow"],
+  "fashion_staples": ["Floral dresses", "Straw hats", "Parasols"]
+}

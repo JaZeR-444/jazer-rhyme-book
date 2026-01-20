@@ -1,0 +1,17 @@
+{
+  "id": "travis-scott",
+  "type": "people",
+  "name": "Travis Scott",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Houston rapper and producer known for his chaotic energy, raging concerts, and massive brand deals.",
+  "tags": ["hype", "vibrant", "corporate", "rage"],
+  "angles": ["rager", "branding", "autotune"],
+  "bar_seeds": ["cactus jack", "astroworld", "jordan 1s"],
+  "related_ids": ["kanye-west", "drake"],
+  "known_for": ["Astroworld", "Sneakers", "Fortnite concert"],
+  "vibe": "Chaotic, psychedelic, commercial",
+  "signature_items": ["Braids", "Earth tones", "Nike collab"],
+  "quotables_short": ["It's lit!", "Straight up!"],
+  "controversy_flags": ["Astroworld Festival tragedy"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dagger",
+  "type": "weapons-objects",
+  "name": "Dagger",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A knife with a very sharp point and usually two sharp edges, designed for thrusting.",
+  "tags": ["stealth", "classic", "blade", "noir"],
+  "angles": ["betrayal", "concealment", "assassination"],
+  "bar_seeds": ["cloak and dagger", "backstab", "silent blade"],
+  "related_ids": ["switchblade"],
+  "weapon_type": "Blade",
+  "range": "Close-range",
+  "damage_type": "Piercing",
+  "symbolism": "Treachery (Caesar), stealth, and intimacy of violence.",
+  "famous_users": ["Assassins", "Brutus"]
+}

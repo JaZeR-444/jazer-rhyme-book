@@ -1,0 +1,20 @@
+{
+  "id": "the-matrix-world",
+  "type": "places",
+  "name": "The Matrix",
+  "aliases": ["The Illusion"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Illusion. \"Leaning back\" refers to dodging bullets/lies.",
+  "angles": [],
+  "bar_seeds": ["\"Leaning back\""] ,
+  "known_for": [],
+  "vibe": "Illusory",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["the-matrix"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

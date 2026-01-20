@@ -1,0 +1,17 @@
+{
+  "id": "taser",
+  "type": "weapons-objects",
+  "name": "Taser",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An electroshock weapon used to incapacitate people, allowing them to be approached and handled in an unresisting state.",
+  "tags": ["technical", "police", "control", "non-lethal"],
+  "angles": ["shock", "control", "voltage"],
+  "bar_seeds": ["50,000 volts", "ride the lightning", "stunned silence"],
+  "related_ids": [],
+  "weapon_type": "Non-Lethal",
+  "range": "Close-range",
+  "damage_type": "Electrical",
+  "symbolism": "State control, non-lethal submission, and sudden incapacitation.",
+  "famous_users": ["Police", "Security"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "utility-fashion",
+  "type": "fashion",
+  "name": "Utility Fashion",
+  "aliases": [
+    "Utilitarian style"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "technical",
+    "industrial",
+    "contemporary",
+    "trend"
+  ],
+  "one_liner": "Functional apparel with pockets, straps, and utility-driven design.",
+  "angles": [
+    "function over flash",
+    "pocket culture",
+    "practical edge"
+  ],
+  "bar_seeds": [
+    "pockets on pockets",
+    "strap flow",
+    "tool belt energy"
+  ],
+  "item_type": "Utility Apparel",
+  "material": [
+    "Nylon",
+    "Ripstop",
+    "Canvas"
+  ],
+  "cultural_significance": "Signals readiness and practicality in modern street style.",
+  "fit": [
+    "Relaxed",
+    "Layered"
+  ],
+  "associated_brands": [
+    "Nike ACG",
+    "Stone Island",
+    "Uniqlo"
+  ],
+  "related_ids": [
+    "workwear",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Utility clothing",
+      "url": "https://en.wikipedia.org/wiki/Utility_clothing",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ulysses",
+  "type": "writing-tool",
+  "name": "Ulysses",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A powerful writing app for Mac, iPad, and iPhone that focuses on focused writing and document management.",
+  "tags": ["tool", "technical", "professional", "focus"],
+  "angles": ["focus", "management", "exporting"],
+  "bar_seeds": ["library of texts", "markdown power", "goal setting"],
+  "related_ids": ["scrivener"],
+  "category": "Software",
+  "what_it_does": "Combines a distraction-free editor with a library to manage all writing projects.",
+  "best_for": ["novels", "blogs", "long-form essays"],
+  "workflow_hooks": ["Set daily word count goals", "Publish directly to WordPress"],
+  "pitfalls": ["Subscription model", "Markdown learning curve"],
+  "bar_angles": ["The odyssey of writing", "Structured thought", "Goal oriented"]
+}

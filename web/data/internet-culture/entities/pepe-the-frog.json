@@ -1,0 +1,21 @@
+{
+  "id": "pepe-the-frog",
+  "type": "internet-culture",
+  "name": "Pepe the Frog",
+  "aliases": ["Feels Good Man"],
+  "era": "2000s-Present",
+  "tags": ["meme", "controversial", "cartoon", "internet-icon"],
+  "one_liner": "A green anthropomorphic frog who became one of the most versatile and controversial memes in history.",
+  "angles": ["co-opting of symbols", "feels good man vs feels bad man", "internet subculture mascot"],
+  "bar_seeds": ["rare pepes", "feels good man", "green face in the crowd"],
+  "format": "Character illustration / Reaction image",
+  "origin_platform": "MySpace / 4chan",
+  "meaning": "A reaction image for various emotional states; later politically co-opted.",
+  "remix_rules": ["Varies wildly", "Often focuses on 'Rare' versions"],
+  "lifespan_risk": "Moderate (Due to controversy)",
+  "example_lines": ["Feeling like a rare pepe", "Feels good man"],
+  "related_ids": ["wojak"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

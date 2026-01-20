@@ -1,0 +1,17 @@
+{
+  "id": "leonardo-dicaprio",
+  "type": "people",
+  "name": "Leonardo DiCaprio",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A generational talent in acting, known for choosing intense roles and his environmental activism.",
+  "tags": ["iconic", "cinematic", "luxury", "activism"],
+  "angles": ["method-acting", "wealth", "environment"],
+  "bar_seeds": ["wolf of wall street", "titanic pose", "oscar chase"],
+  "related_ids": [],
+  "known_for": ["Titanic", "The Revenant", "Wolf of Wall Street"],
+  "vibe": "Intense, party-boy turned activist",
+  "signature_items": ["Vape pen", "Newsboy cap", "Model girlfriends"],
+  "quotables_short": ["I'm not leaving!", "King of the world!"],
+  "controversy_flags": ["Dating age gaps", "Private jet usage"]
+}

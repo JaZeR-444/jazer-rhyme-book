@@ -1,0 +1,52 @@
+{
+  "id": "virgil-abloh",
+  "type": "people",
+  "name": "Virgil Abloh",
+  "aliases": [],
+  "era": "2000s-2020s",
+  "tags": [
+    "high-fashion",
+    "streetwear",
+    "innovative",
+    "legacy",
+    "contemporary"
+  ],
+  "one_liner": "Designer who bridged streetwear and luxury fashion with bold, modern concepts.",
+  "angles": [
+    "streetwear to luxury",
+    "design system thinker",
+    "culture bridge"
+  ],
+  "bar_seeds": [
+    "off-white tape",
+    "quote marks",
+    "runway street"
+  ],
+  "related_ids": [
+    "kanye-west",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Virgil_Abloh",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Fashion",
+    "Design"
+  ],
+  "vibe": "Visionary, modern, and culture-driven",
+  "signature_items": [
+    "Off-White",
+    "Industrial motifs"
+  ],
+  "quotables_short": [
+    "3 percent rule"
+  ],
+  "controversy_flags": []
+}

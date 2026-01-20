@@ -1,0 +1,18 @@
+{
+  "id": "gatekeep",
+  "type": "lingo",
+  "name": "Gatekeep",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Withholding information or access to keep something exclusive.",
+  "tags": ["slang", "control", "internet-culture", "exclusive"],
+  "angles": ["control", "secrecy", "elitism"],
+  "bar_seeds": ["gatekeep gaslight girlboss", "not sharing the link", "kept it for myself"],
+  "related_ids": [],
+  "meaning": "Trying to keep a hobby, song, or style underground/secret.",
+  "usage": "Accusing someone of hiding info ('Stop gatekeeping the link').",
+  "origin": "Internet / Tumblr",
+  "region": "Global",
+  "example_lines": ["Don't gatekeep the sample", "I'm gatekeeping this spot forever"],
+  "do_not_use_if": ["You want to build a community"]
+}

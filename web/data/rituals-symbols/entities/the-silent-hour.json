@@ -1,0 +1,17 @@
+{
+  "id": "the-silent-hour",
+  "type": "rituals-symbols",
+  "name": "The Silent Hour",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A personal or communal ritual of total silence, often practiced at dawn or midnight for spiritual clarity.",
+  "tags": ["ritual", "mellow", "spiritual", "zen"],
+  "angles": ["inner-peace", "the-power-of-unspoken", "digital-detox"],
+  "bar_seeds": ["no words for sixty minutes", "hearing the heartbeat", "silence like thunder"],
+  "related_ids": ["solitude", "zen"],
+  "purpose": "To facilitate deep listening and internal focus.",
+  "steps": ["Removing noise sources", "Setting a timer", "Maintaining total silence"],
+  "objects_used": ["Timer", "Quiet room"],
+  "participants": "Individual or Group",
+  "outcome": "Mental clarity and emotional reset."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dot-com-bubble-burst-2000",
+  "type": "history",
+  "name": "Dot-com Bubble Burst",
+  "aliases": [
+    "Dot-com crash"
+  ],
+  "era": "2000-2002",
+  "tags": [
+    "crash",
+    "bear-market",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "The collapse of internet-era stock valuations after rapid speculation.",
+  "angles": [
+    "hype to crash",
+    "paper wealth gone",
+    "new tech reset"
+  ],
+  "bar_seeds": [
+    "ticker tumble",
+    "boom then bust",
+    "web dreams fade"
+  ],
+  "key_dates": [
+    "2000 (Nasdaq peak)",
+    "2002 (trough)"
+  ],
+  "location": "United States / Global",
+  "impact": "Reset tech valuations and reshaped investment approaches.",
+  "major_figures": [
+    "Alan Greenspan"
+  ],
+  "cultural_shift": "Skepticism toward tech hype grew after the crash.",
+  "related_ids": [
+    "stock-market",
+    "venture-capital"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

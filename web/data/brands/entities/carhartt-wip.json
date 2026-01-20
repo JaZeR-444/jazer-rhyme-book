@@ -1,0 +1,17 @@
+{
+  "id": "carhartt-wip",
+  "type": "brand",
+  "name": "Carhartt WIP",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The streetwear division of the American workwear brand, blending durability with skate culture.",
+  "tags": ["streetwear", "utilitarian", "classic", "grit"],
+  "angles": ["workwear", "toughness", "skate"],
+  "bar_seeds": ["canvas jacket", "golden C logo", "built to last"],
+  "related_ids": [],
+  "category": "Streetwear",
+  "price_tier": "Mid",
+  "signature_products": ["Detroit Jacket", "Double Knee Pants", "Beanies"],
+  "status_signals": ["Golden 'C' patch", "Faded canvas"],
+  "bar_angles": ["Blue collar aesthetic", "Skate park durability", "Rugged style"]
+}

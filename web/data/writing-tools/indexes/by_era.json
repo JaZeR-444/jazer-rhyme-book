@@ -1,0 +1,33 @@
+{
+  "2022-Present": [
+    "chatgpt"
+  ],
+  "2023-Present": [
+    "claude",
+    "gemini"
+  ],
+  "2000s-Present": [
+    "evernote",
+    "google-docs"
+  ],
+  "2010s-Present": [
+    "masterpiece-generator",
+    "notion",
+    "rap-pad"
+  ],
+  "2020-Present": [
+    "obsidian"
+  ],
+  "Ancient-Present": [
+    "physical-notebook"
+  ],
+  "Ancient-19th Century": [
+    "quill-and-ink"
+  ],
+  "1996-Present": [
+    "rhymezone"
+  ],
+  "Digital Era": [
+    "thesaurus-com"
+  ]
+}

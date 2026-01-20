@@ -1,0 +1,49 @@
+{
+  "id": "surprised-pikachu",
+  "type": "internet-culture",
+  "name": "Surprised Pikachu",
+  "aliases": [
+    "Pikachu face"
+  ],
+  "era": "2018-Present",
+  "tags": [
+    "vibrant",
+    "satirical",
+    "contemporary"
+  ],
+  "one_liner": "Pikachu's shocked face used to react to predictable outcomes.",
+  "angles": [
+    "fake surprise",
+    "obvious result",
+    "reaction face"
+  ],
+  "bar_seeds": [
+    "pikachu face",
+    "surprise on loop",
+    "who saw that coming"
+  ],
+  "related_ids": [
+    "doge",
+    "this-is-fine"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/surprised-pikachu",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Reaction Image",
+  "origin_platform": "Twitter/Reddit",
+  "meaning": "Used when an outcome is obvious but acted as surprising.",
+  "remix_rules": [
+    "Pair with a cause-and-effect caption"
+  ],
+  "lifespan_risk": "Low (reaction staple)",
+  "example_lines": [
+    "Skip rehearsal all week / surprise at the stage wobble"
+  ]
+}

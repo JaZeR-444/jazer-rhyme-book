@@ -1,0 +1,17 @@
+{
+  "id": "napster",
+  "type": "media-platforms",
+  "name": "Napster (Legacy)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The original peer-to-peer file sharing service that fundamentally changed the music industry.",
+  "tags": ["vintage", "music", "rebellion", "legacy"],
+  "angles": ["industry-disruptor", "the-end-of-the-cd", "legal-war"],
+  "bar_seeds": ["shawn fanning", "metallica lawsuit", "downloading the whole world"],
+  "related_ids": ["limewire", "bittorrent"],
+  "platform_type": "P2P (Legacy)",
+  "user_demographic": "Millennials (Formerly)",
+  "content_format": ["MP3s"],
+  "algorithm_bias": "Search-based directly on user library availability.",
+  "slang": ["P2P", "Rip", "Burn to CD"]
+}

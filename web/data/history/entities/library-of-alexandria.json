@@ -1,0 +1,17 @@
+{
+  "id": "library-of-alexandria",
+  "type": "history",
+  "name": "The Great Library of Alexandria",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "One of the largest and most significant libraries of the ancient world, dedicated to the Muses.",
+  "tags": ["intellectual", "ancient", "tragedy", "legacy"],
+  "angles": ["the-loss-of-knowledge", "universal-archive", "smoke-and-scrolls"],
+  "bar_seeds": ["all the books burning", "ancient data loss", "city of the wise"],
+  "related_ids": ["ancient-egypt", "ancient-greece"],
+  "key_dates": ["3rd Century BC (Founding)", "Various destructions (48 BC - 642 AD)"],
+  "location": "Alexandria, Egypt",
+  "impact": "Symbolizes the peak of ancient human knowledge and the tragedy of its irreversible loss.",
+  "major_figures": ["Ptolemy I Soter", "Hypatia"],
+  "cultural_shift": "The move from a centralized hub of global knowledge to fragmented, lost histories."
+}

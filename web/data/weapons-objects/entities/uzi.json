@@ -1,0 +1,17 @@
+{
+  "id": "uzi",
+  "type": "weapons-objects",
+  "name": "Uzi",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The compact Israeli submachine gun that became a 1980s cinematic and street icon.",
+  "tags": ["grit", "vintage", "90s", "industrial"],
+  "angles": ["fire-rate", "compact", "rebellion"],
+  "bar_seeds": ["folding stock", "spray and pray", "micro uzi"],
+  "related_ids": [],
+  "weapon_type": "Submachine Gun",
+  "range": "Close-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Rapid fire, urban warfare, and 80s/90s era dominance.",
+  "famous_users": ["Tony Montana", "90s New York rap scene"]
+}

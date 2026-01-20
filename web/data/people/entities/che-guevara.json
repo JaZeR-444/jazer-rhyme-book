@@ -1,0 +1,18 @@
+{
+  "id": "che-guevara",
+  "type": "people",
+  "name": "Che Guevara",
+  "aliases": ["El Che"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Argentine Marxist revolutionary who became a global icon of rebellion and counterculture.",
+  "tags": ["revolutionary", "rebellion", "legacy", "grit"],
+  "angles": ["guerrilla-warfare", "martyrdom", "anti-imperialism"],
+  "bar_seeds": ["beret with a star", "motorcycle diaries", "fighting in the jungle"],
+  "related_ids": ["marxism"],
+  "known_for": ["Cuban Revolution", "Guerrilla Warfare", "The iconic portrait"],
+  "vibe": "Idealistic, militant, iconic",
+  "signature_items": ["Black beret", "Cigar", "Military fatigues"],
+  "quotables_short": ["Hasta la victoria siempre.", "Be realistic, demand the impossible."],
+  "controversy_flags": ["Violence", "Executions", "Human rights concerns"]
+}

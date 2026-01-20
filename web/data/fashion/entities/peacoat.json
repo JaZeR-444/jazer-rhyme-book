@@ -1,0 +1,18 @@
+{
+  "id": "peacoat",
+  "type": "fashion",
+  "name": "Peacoat",
+  "aliases": ["Pilot Jacket"],
+  "era": "18th Century-Present",
+  "tags": ["classic", "nautical", "luxury", "winter"],
+  "one_liner": "A short, broad-lapeled overcoat of heavy wool, originally worn by sailors.",
+  "angles": ["maritime-tradition", "structured-warmth", "timeless-naval-style"],
+  "bar_seeds": ["heavy wool", "anchor buttons", "cold water navy"],
+  "item_type": "Outerwear",
+  "material": ["Melton Wool"],
+  "cultural_significance": "Iconic naval garment adopted by classic cinema and urban winter style.",
+  "fit": ["Tailored", "Boxy"],
+  "associated_brands": ["Schott NYC", "Burberry", "Sterlingwear of Boston"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

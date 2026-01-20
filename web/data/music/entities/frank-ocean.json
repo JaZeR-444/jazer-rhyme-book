@@ -1,0 +1,21 @@
+{
+  "id": "frank-ocean",
+  "type": "music",
+  "name": "Frank Ocean",
+  "aliases": ["Ocean", "Christopher Breaux"],
+  "era": "2010s-Present",
+  "tags": ["alternative", "r&b", "lyrical", "mysterious", "intimate"],
+  "one_liner": "The enigmatic artist who redefined alternative R&B with his intimate storytelling.",
+  "angles": ["lyrical depth", "mysterious persona", "alternative R&B"],
+  "bar_seeds": ["Blonde", "Channel Orange", "Nostalgia, Ultra", "Thinkin Bout You"],
+  "genre": ["Alternative R&B", "Indie", "Soul"],
+  "era_detail": "Rise with Odd Future, solo success in 2010s.",
+  "signature_songs": ["Thinkin Bout You", "Nikes", "Pyramids"],
+  "sonic_descriptors": ["intimate", "experimental", "lyrical"],
+  "influence_tree": ["Soul music", "Alternative hip-hop"],
+  "aesthetic": "Intimate, mysterious, artistic",
+  "related_ids": ["odd-future", "the-weeknd"],
+  "created_at": "2025-12-23T11:40:00Z",
+  "updated_at": "2025-12-23T11:40:00Z",
+  "sources": []
+}

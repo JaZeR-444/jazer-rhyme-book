@@ -1,0 +1,50 @@
+{
+  "id": "hong-kong-protests-2019",
+  "type": "history",
+  "name": "Hong Kong Protests",
+  "aliases": [
+    "2019-2020 Hong Kong protests"
+  ],
+  "era": "2019-2020",
+  "tags": [
+    "rebellion",
+    "political",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Mass protests against a proposed extradition law and broader governance issues.",
+  "angles": [
+    "street resistance",
+    "freedom demands",
+    "city in conflict"
+  ],
+  "bar_seeds": [
+    "umbrellas in the rain",
+    "streets in smoke",
+    "voices in the night"
+  ],
+  "key_dates": [
+    "2019 (protests begin)",
+    "2020 (national security law)"
+  ],
+  "location": "Hong Kong",
+  "impact": "Heightened tensions over autonomy and global political relations.",
+  "major_figures": [
+    "Carrie Lam"
+  ],
+  "cultural_shift": "Protest tactics and global attention reshaped civic activism.",
+  "related_ids": [
+    "arab-spring",
+    "black-lives-matter-movement"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

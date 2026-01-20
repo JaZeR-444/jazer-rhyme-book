@@ -1,0 +1,21 @@
+{
+  "id": "frank-ocean-2",
+  "type": "music",
+  "name": "SZA",
+  "aliases": ["Solána", "SZA"],
+  "era": "2012-Present",
+  "tags": ["rnb", "soul", "alternative", "vulnerable", "poetic"],
+  "one_liner": "An R&B artist known for vulnerable lyrics and genre-blending sounds.",
+  "angles": ["vulnerable R&B", "genre-blending", "poetic lyrics"],
+  "bar_seeds": ["ctrl", "good days", "love galore", "the weekend"],
+  "genre": ["R&B", "Alternative R&B", "Soul"],
+  "era_detail": "Rise in early 2010s, breakthrough in 2017.",
+  "signature_songs": ["Good Days", "The Weekend", "Drew Barrymore"],
+  "sonic_descriptors": ["soulful", "vulnerable", "genre-blending"],
+  "influence_tree": ["R&B legends", "Alternative music"],
+  "aesthetic": "Vulnerable, soulful, alternative",
+  "related_ids": ["kendrick-lamar", "frank-ocean"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

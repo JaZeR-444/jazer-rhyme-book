@@ -1,0 +1,17 @@
+{
+  "id": "pepsi",
+  "type": "brand",
+  "name": "Pepsi",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A global carbonated soft drink manufacturer, the primary rival to Coca-Cola and a major player in pop culture marketing.",
+  "tags": ["mainstream", "vibrant", "pop", "corporate"],
+  "angles": ["the-choice-of-a-new-generation", "cola-wars", "pop-stardom"],
+  "bar_seeds": ["blue and red globe", "pepsi challenge", "sugar rush"],
+  "related_ids": ["cocacola"],
+  "category": "Food & Beverage",
+  "price_tier": "Low",
+  "signature_products": ["Pepsi Cola", "Diet Pepsi", "Mountain Dew"],
+  "status_signals": ["Super Bowl Halftime Show sponsorship"],
+  "bar_angles": ["Second place hustle", "Pop culture fuel", "Cola wars"]
+}

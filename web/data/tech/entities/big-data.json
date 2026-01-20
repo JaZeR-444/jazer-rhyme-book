@@ -1,0 +1,21 @@
+{
+  "id": "big-data",
+  "type": "tech",
+  "name": "Big Data",
+  "aliases": ["Data science", "The ocean of data"],
+  "era": "2010s-Present",
+  "tags": ["data", "analytics", "scale", "insight"],
+  "one_liner": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations.",
+  "angles": ["information overload", "finding the needle in the haystack", "data as the new oil"],
+  "bar_seeds": ["terabytes of life", "mining for gold", "the cloud is full"],
+  "category": "Data Science",
+  "what_it_is": "Large, complex datasets that traditional data processing software is inadequate to handle.",
+  "why_it_matters": "Drives decision making in business, science, and government.",
+  "risks": ["Privacy invasion", "Misinterpretation", "Data breaches"],
+  "metaphors": ["A digital footprint as large as a city", "Mining the collective mind"],
+  "keywords": ["Analytics", "Volume", "Velocity", "Variety"],
+  "related_ids": ["machine-learning"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "baseball-bat",
+  "type": "weapons-objects",
+  "name": "Baseball Bat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sporting tool repurposed for heavy-duty blunt force.",
+  "tags": ["grit", "streetwear", "raw", "tool"],
+  "angles": ["swing", "impact", "wooden-vs-aluminum"],
+  "bar_seeds": ["Louisville Slugger", "crack of the wood", "batting practice"],
+  "related_ids": [],
+  "weapon_type": "Blunt",
+  "range": "Melee",
+  "damage_type": "Bludgeoning",
+  "symbolism": "Enforcement, direct consequences, and American grit.",
+  "famous_users": ["Negan", "Al Capone"]
+}

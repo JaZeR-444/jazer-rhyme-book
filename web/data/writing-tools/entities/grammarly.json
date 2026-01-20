@@ -1,0 +1,18 @@
+{
+  "id": "grammarly",
+  "type": "writing-tool",
+  "name": "Grammarly",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An AI-powered writing assistant that corrects grammar and tone in real-time.",
+  "tags": ["tool", "technical", "smart", "logic"],
+  "angles": ["correctness", "polish", "assistance"],
+  "bar_seeds": ["green underline", "tone detector", "perfect syntax"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_does": "Checks text for grammar, spelling, punctuation, and style errors.",
+  "best_for": ["emails", "proposals", "polishing lyrics"],
+  "workflow_hooks": ["Check tone before sending", "Fix typos instantly"],
+  "pitfalls": ["Can misunderstand slang", "Over-sanitizes voice"],
+  "bar_angles": ["Clean delivery", "Syntactic perfection", "Robot editor"]
+}

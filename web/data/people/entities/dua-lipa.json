@@ -1,0 +1,51 @@
+{
+  "id": "dua-lipa",
+  "type": "people",
+  "name": "Dua Lipa",
+  "aliases": [],
+  "era": "2010s-2020s",
+  "tags": [
+    "mainstream",
+    "vibrant",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Pop artist known for sleek vocals, club-ready hits, and global stage presence.",
+  "angles": [
+    "dance-floor anthem",
+    "cool confidence",
+    "global pop wave"
+  ],
+  "bar_seeds": [
+    "neon dance floor",
+    "midnight pulse",
+    "hook stays stuck"
+  ],
+  "related_ids": [
+    "taylor-swift",
+    "beyonce"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dua_Lipa",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Music",
+    "Pop performances"
+  ],
+  "vibe": "Cool, confident, and polished",
+  "signature_items": [
+    "Stage-ready fashion",
+    "Sleek visuals"
+  ],
+  "quotables_short": [
+    "New rules"
+  ],
+  "controversy_flags": []
+}

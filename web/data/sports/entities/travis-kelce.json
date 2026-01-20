@@ -1,0 +1,60 @@
+{
+  "id": "travis-kelce",
+  "type": "sports",
+  "name": "Travis Kelce",
+  "aliases": [
+    "Kelce"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "championship",
+    "athlete",
+    "mainstream",
+    "contemporary",
+    "clutch"
+  ],
+  "one_liner": "NFL tight end known for route precision, yards after catch, and playoff production.",
+  "angles": [
+    "route technician",
+    "middle of the field weapon",
+    "postseason monster"
+  ],
+  "bar_seeds": [
+    "seam route flash",
+    "first down chains",
+    "red zone hands"
+  ],
+  "team_size": "11 (American football)",
+  "key_skills": [
+    "Route running",
+    "Hands",
+    "Yards after catch"
+  ],
+  "equipment": [
+    "Helmet",
+    "Football",
+    "Shoulder pads"
+  ],
+  "metaphors": [
+    "chain mover",
+    "security blanket"
+  ],
+  "legends": [
+    "Super Bowl titles",
+    "Record-setting tight end seasons"
+  ],
+  "related_ids": [
+    "patrick-mahomes",
+    "tom-brady"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Travis_Kelce",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

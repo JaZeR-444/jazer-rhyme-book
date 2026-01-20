@@ -1,0 +1,17 @@
+{
+  "id": "the-information-age",
+  "type": "history",
+  "name": "The Information Age",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A historical period characterized by the rapid shift from traditional industry to an economy based on information technology.",
+  "tags": ["technical", "innovative", "futuristic", "contemporary"],
+  "angles": ["data-as-gold", "global-brain", "digital-shadows"],
+  "bar_seeds": ["silicon valley dreams", "infinite feed", "knowledge in the cloud"],
+  "related_ids": ["digital-revolution", "rise-of-social-media-2004-2015"],
+  "key_dates": ["Mid-20th Century", "Present"],
+  "location": "Global",
+  "impact": "Decentralized information, disrupted every major industry, and redefined social interaction.",
+  "major_figures": ["Tim Berners-Lee", "Steve Jobs", "Bill Gates"],
+  "cultural_shift": "The transition from physical scarcity to information abundance."
+}

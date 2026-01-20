@@ -1,0 +1,18 @@
+{
+  "id": "city-of-god-2002",
+  "type": "cinema",
+  "name": "City of God",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+  "tags": ["crime", "grit", "international", "classic"],
+  "angles": ["poverty", "choices", "violence"],
+  "bar_seeds": ["chasing the chicken", "lil ze", "rio favelas"],
+  "related_ids": ["favela"],
+  "era": "2002",
+  "plot_hooks": ["The Tender Trio", "Li'l Zé's rise", "The gang war"],
+  "iconic_scenes": ["Chicken chase opening", "The apartment shootout", "Kids with guns"],
+  "visual_motifs": ["Frenetic editing", "Golden lighting", "Dust"],
+  "themes": ["Cycle of violence", "Ambition", "Survival"],
+  "quotables_short": ["Dad is dead! I'm the boss now!", "Run, chicken, run!"]
+}

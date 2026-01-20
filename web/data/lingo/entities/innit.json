@@ -1,0 +1,18 @@
+{
+  "id": "innit",
+  "type": "lingo",
+  "name": "Innit",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Contraction of 'isn't it', used as a filler or to seek agreement.",
+  "tags": ["slang", "uk", "classic", "casual"],
+  "angles": ["agreement", "emphasis", "filler"],
+  "bar_seeds": ["bit mad innit", "bruv", "london streets"],
+  "related_ids": [],
+  "meaning": "Isn't it?",
+  "usage": "End of a sentence for emphasis. 'It's cold, innit?'",
+  "origin": "UK",
+  "region": "UK",
+  "example_lines": ["That's calm, innit", "Proper mental, innit"],
+  "do_not_use_if": ["You are doing a bad British accent"]
+}

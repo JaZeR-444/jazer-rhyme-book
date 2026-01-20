@@ -1,0 +1,21 @@
+{
+  "id": "the-weeknd",
+  "type": "music",
+  "name": "The Weeknd",
+  "aliases": ["Abel", "XO", "Weeknd"],
+  "era": "2010s-Present",
+  "tags": ["dark", "atmospheric", "r&b", "alternative", "vulnerable"],
+  "one_liner": "The Canadian artist who brought dark, atmospheric R&B to the mainstream.",
+  "angles": ["dark romance", "atmospheric production", "vulnerability"],
+  "bar_seeds": ["XO", "Red light district", "Blinding Lights", "After Hours"],
+  "genre": ["R&B", "Pop", "Alternative"],
+  "era_detail": "Rise in 2010s, mainstream success in 2010s-2020s.",
+  "signature_songs": ["Blinding Lights", "Can't Feel My Face", "Starboy"],
+  "sonic_descriptors": ["dark", "atmospheric", "melancholic"],
+  "influence_tree": ["80s pop", "dark R&B"],
+  "aesthetic": "Dark, nocturnal, mysterious",
+  "related_ids": ["drake", "frank-ocean"],
+  "created_at": "2025-12-23T11:40:00Z",
+  "updated_at": "2025-12-23T11:40:00Z",
+  "sources": []
+}

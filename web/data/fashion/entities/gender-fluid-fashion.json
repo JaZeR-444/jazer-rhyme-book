@@ -1,0 +1,65 @@
+{
+  "id": "gender-fluid-fashion",
+  "type": "fashion",
+  "name": "Gender-Fluid Fashion",
+  "aliases": [
+    "Genderless Fashion",
+    "Unisex Fashion",
+    "Non-Binary Style"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "inclusive",
+    "non-binary",
+    "progressive",
+    "expressive",
+    "boundary-breaking"
+  ],
+  "one_liner": "Fashion that transcends traditional gender boundaries and embraces individual expression.",
+  "angles": [
+    "gender expression",
+    "inclusivity",
+    "boundary breaking"
+  ],
+  "bar_seeds": [
+    "Fashion without boundaries",
+    "Gender-free style",
+    "Expressive clothing",
+    "Breaking norms"
+  ],
+  "item_type": "Gender-Inclusive Apparel",
+  "material": [
+    "Varies",
+    "Comfortable",
+    "Expressive"
+  ],
+  "cultural_significance": "Challenges traditional gender norms in clothing and promotes self-expression.",
+  "fit": [
+    "Varies"
+  ],
+  "associated_brands": [
+    "Telfar",
+    "Rad Hourani",
+    "Gender-free designers"
+  ],
+  "related_ids": [
+    "avant-garde",
+    "expressive"
+  ],
+  "created_at": "2025-12-23T12:45:00Z",
+  "updated_at": "2025-12-23T12:45:00Z",
+  "sources": [
+    {
+      "title": "Gender studies",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Fashion evolution",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

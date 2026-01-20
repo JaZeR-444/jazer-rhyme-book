@@ -1,0 +1,17 @@
+{
+  "id": "fasting",
+  "type": "rituals-symbols",
+  "name": "Fasting",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Willing abstinence or reduction from some or all food, drink, or both, for a period of time.",
+  "tags": ["ritual", "discipline", "purification", "grit"],
+  "angles": ["willpower", "clarity", "sacrifice"],
+  "bar_seeds": ["hungry for more", "clarity in the gut", "breaking the bread"],
+  "related_ids": ["purification", "stoicism"],
+  "purpose": "To gain spiritual clarity, practice self-discipline, or show devotion.",
+  "steps": ["Setting the duration", "Abstinence", "The first meal (breaking the fast)"],
+  "objects_used": ["Water (sometimes)", "Setting a timer"],
+  "participants": "Individual, Community",
+  "outcome": "Enhanced willpower and perceived spiritual purity."
+}

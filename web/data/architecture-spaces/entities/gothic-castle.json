@@ -1,0 +1,17 @@
+{
+  "id": "gothic-castle",
+  "type": "architecture-spaces",
+  "name": "Gothic Castle",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fortified structure with pointed arches and towering spires, often associated with horror and romance.",
+  "tags": ["gothic", "dark", "history", "classic"],
+  "angles": ["defense", "horror", "grandeur"],
+  "bar_seeds": ["gargoyles watching", "stone walls", "vampire lair"],
+  "related_ids": [],
+  "style": "Gothic",
+  "materials": ["Stone", "Iron", "Wood"],
+  "spatial_qualities": ["Vertical", "Dark", "Imposing"],
+  "function": "Defense / Residence",
+  "famous_examples": ["Dracula's Castle", "Neuschwanstein"]
+}

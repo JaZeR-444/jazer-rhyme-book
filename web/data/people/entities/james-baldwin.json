@@ -1,0 +1,17 @@
+{
+  "id": "james-baldwin",
+  "type": "people",
+  "name": "James Baldwin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A brilliant essayist, playwright, and novelist who became a vital voice in the civil rights movement.",
+  "tags": ["intellectual", "revolutionary", "poetic", "grit"],
+  "angles": ["uncomfortable-truth", "expatriate-vision", "eloquence"],
+  "bar_seeds": ["the fire next time", "giovanni's room", "witness to the fire"],
+  "related_ids": ["civil-rights-movement", "malcolm-x"],
+  "known_for": ["The Fire Next Time", "Notes of a Native Son", "Social Critique"],
+  "vibe": "Eloquently furious, brilliant, observant",
+  "signature_items": ["Cigarette", "Suit", "Expressive eyes"],
+  "quotables_short": ["To be black and conscious... is to be in a constant state of rage."],
+  "controversy_flags": ["FBI surveillance", "Expatriation to France"]
+}

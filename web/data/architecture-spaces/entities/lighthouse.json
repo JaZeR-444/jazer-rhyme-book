@@ -1,0 +1,17 @@
+{
+  "id": "lighthouse",
+  "type": "architecture-spaces",
+  "name": "Lighthouse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A tower with a bright light used to guide ships, symbolizing hope and isolation.",
+  "tags": ["classic", "isolation", "nature", "noir"],
+  "angles": ["guidance", "loneliness", "storm"],
+  "bar_seeds": ["beacon in the fog", "keeper of the light", "crashing waves"],
+  "related_ids": [],
+  "style": "Maritime",
+  "materials": ["Stone", "Glass", "Iron"],
+  "spatial_qualities": ["Vertical", "Isolated", "Circular"],
+  "function": "Navigation / Warning",
+  "famous_examples": ["Pharos of Alexandria", "Cape Hatteras"]
+}

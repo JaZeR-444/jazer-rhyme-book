@@ -1,0 +1,18 @@
+{
+  "id": "bussin",
+  "type": "lingo",
+  "name": "Bussin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Slang for something that is really good, typically food.",
+  "tags": ["slang", "positive", "vibrant", "contemporary"],
+  "angles": ["quality", "taste", "hype"],
+  "bar_seeds": ["food is bussin", "beat is bussin", "tasting luxury"],
+  "related_ids": ["slaps"],
+  "meaning": "Excellent, flavorful, or high-quality.",
+  "usage": "Usually for food but can be applied to music or clothes.",
+  "origin": "AAVE / TikTok popularity",
+  "region": "Global",
+  "example_lines": ["This burger is straight bussin", "That outfit is bussin, respectfully"],
+  "do_not_use_if": ["You are over 50 (high cringe risk)"]
+}

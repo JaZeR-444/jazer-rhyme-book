@@ -1,0 +1,16 @@
+{
+  "id": "dualism",
+  "type": "philosophy-ideas",
+  "name": "Dualism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theory that the mental and the physical are, in some sense, radically different kinds of things.",
+  "tags": ["esoteric", "abstract", "classic", "logic"],
+  "angles": ["mind vs body", "ghost in the machine", "separation"],
+  "bar_seeds": ["soul in a suit", "brain and spirit", "two worlds at once"],
+  "school_of_thought": "Philosophy of Mind",
+  "core_question": "Are mind and body separate?",
+  "key_philosophers": ["René Descartes", "Plato"],
+  "paradoxes": ["The Mind-Body Problem"],
+  "modern_application": "AI consciousness debate, neuroscience, virtual identity."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "playboi-carti",
+  "type": "people",
+  "name": "Playboi Carti",
+  "aliases": [
+    "Carti"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "mainstream",
+    "vibrant",
+    "contemporary",
+    "surreal",
+    "trap"
+  ],
+  "one_liner": "Rapper known for minimalist hooks, vamp aesthetic, and cult fandom.",
+  "angles": [
+    "vamp energy",
+    "minimalist delivery",
+    "cult following"
+  ],
+  "bar_seeds": [
+    "vamp at midnight",
+    "red lights",
+    "chant in the crowd"
+  ],
+  "related_ids": [
+    "lil-uzi-vert",
+    "drake"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Playboi_Carti",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Music",
+    "Stage aesthetic"
+  ],
+  "vibe": "Moody, underground, and hypnotic",
+  "signature_items": [
+    "Red lighting",
+    "Minimalist hooks"
+  ],
+  "quotables_short": [
+    "Whole lotta"
+  ],
+  "controversy_flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "plutocracy",
+  "type": "philosophy-ideas",
+  "name": "Plutocracy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A society that is ruled or controlled by people of great wealth or income.",
+  "tags": ["luxury", "power", "money", "dark"],
+  "angles": ["rule-by-the-rich", "gold-as-authority", "wealth-concentration"],
+  "bar_seeds": ["buying the law", "gold on the throne", "money is the message"],
+  "related_ids": ["business-economics", "monopoly"],
+  "school_of_thought": "Political Science",
+  "core_question": "Does wealth inevitably translate into political power?",
+  "key_philosophers": ["Aristotle (definitions)", "Noam Chomsky (critique)"],
+  "paradoxes": [],
+  "modern_application": "Lobbying, campaign finance, global billionaire influence."
+}

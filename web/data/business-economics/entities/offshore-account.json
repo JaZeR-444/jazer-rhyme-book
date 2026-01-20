@@ -1,0 +1,17 @@
+{
+  "id": "offshore-account",
+  "type": "business-economics",
+  "name": "Offshore Account",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A bank account located outside the depositor's country of residence, often used for tax advantages or privacy.",
+  "tags": ["wealth", "secrecy", "global", "technical"],
+  "angles": ["privacy", "tax-haven", "hidden"],
+  "bar_seeds": ["cayman islands", "swiss bank", "money overseas"],
+  "related_ids": ["tax-evasion"],
+  "industry": "Banking",
+  "core_principle": "Jurisdictional arbitrage.",
+  "jargon": ["Tax haven", "Shell company", "Bearer bonds"],
+  "key_metrics": ["Tax Rate", "Privacy Level"],
+  "archetypes": ["Billionaire", "Money Launderer"]
+}

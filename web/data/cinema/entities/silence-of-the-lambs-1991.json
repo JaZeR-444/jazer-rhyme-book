@@ -1,0 +1,18 @@
+{
+  "id": "silence-of-the-lambs-1991",
+  "type": "cinema",
+  "name": "The Silence of the Lambs",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+  "tags": ["thriller", "horror", "intellectual", "noir"],
+  "angles": ["psychological-manipulation", "quid-pro-quo", "the-gaze"],
+  "bar_seeds": ["nice Chianti", "clarice's scream", "moth in the throat"],
+  "related_ids": ["se7en-1995"],
+  "era": "1991",
+  "plot_hooks": ["Interrogating Lecter", "Buffalo Bill's cellar", "The elevator escape"],
+  "iconic_scenes": ["First meeting with Lecter", "It rubs the lotion on its skin", "Night vision chase"],
+  "visual_motifs": ["Death's-head hawkmoth", "Glass cell", "Night vision green"],
+  "themes": ["Predator vs Prey", "Identity", "Institutional sexism"],
+  "quotables_short": ["I'm having a friend for dinner.", "Quid pro quo, Clarice."]
+}

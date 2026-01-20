@@ -1,0 +1,20 @@
+{
+  "id": "real-estate",
+  "type": "business-economics",
+  "name": "Real Estate",
+  "aliases": ["Property", "Land"],
+  "era": "Ancient-Present",
+  "tags": ["investment", "wealth", "stability", "property"],
+  "one_liner": "Property consisting of land and the buildings on it, along with its natural resources.",
+  "angles": ["tangible wealth", "location, location, location", "the foundation of legacy"],
+  "bar_seeds": ["buying the block", "mortgage notes", "property tax", "gentrification waves"],
+  "industry": "Real Estate",
+  "core_principle": "Scarcity of land and rental yield.",
+  "jargon": ["Equity", "Appreciation", "Cash flow", "Portfolio", "Commercial vs Residential"],
+  "key_metrics": ["Cap rate", "Rental yield", "Occupancy rate"],
+  "archetypes": ["Landlord", "Developer", "Real estate agent"],
+  "related_ids": ["business-economics"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

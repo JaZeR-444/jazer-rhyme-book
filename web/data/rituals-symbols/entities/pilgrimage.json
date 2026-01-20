@@ -1,0 +1,17 @@
+{
+  "id": "pilgrimage",
+  "type": "rituals-symbols",
+  "name": "Pilgrimage",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A journey, often into an unknown or foreign place, where a person goes in search of new or expanded meaning about their self, others, nature, or a higher power.",
+  "tags": ["ritual", "journey", "spiritual", "classic"],
+  "angles": ["the long road", "sacred destination", "transformation through travel"],
+  "bar_seeds": ["walking the path", "mecca calling", "holy ground"],
+  "related_ids": ["sanctuary"],
+  "purpose": "To seek spiritual growth, penance, or direct contact with the sacred.",
+  "steps": ["Departure", "The physical journey", "Arrival at the site", "Return"],
+  "objects_used": ["Walking staff", "Map", "Sacred offerings"],
+  "participants": "Pilgrim",
+  "outcome": "Renewal, enlightenment, or fulfilled vow."
+}

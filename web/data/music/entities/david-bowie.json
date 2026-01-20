@@ -1,0 +1,18 @@
+{
+  "id": "david-bowie",
+  "type": "music",
+  "name": "David Bowie",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The chameleon of rock, constantly reinventing his persona and sound over five decades.",
+  "tags": ["innovative", "theatrical", "legacy", "art"],
+  "angles": ["reinvention", "persona", "space"],
+  "bar_seeds": ["ziggy stardust", "thin white duke", "major tom"],
+  "related_ids": [],
+  "genre": ["Glam Rock", "Pop", "Electronic", "Art Rock"],
+  "era_detail": "1960s - 2016",
+  "signature_songs": ["Space Oddity", "Heroes", "Life on Mars?"],
+  "sonic_descriptors": ["Theatrical vocals", "Saxophone", "Experimental production"],
+  "influence_tree": ["Velvet Underground", "Little Richard"],
+  "aesthetic": "Alien Superstar"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ibiza",
+  "type": "places",
+  "name": "Ibiza",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The white island, legendary for its world-class clubbing scene and Mediterranean beauty.",
+  "tags": ["vibrant", "luxury", "beach", "electronic"],
+  "angles": ["hedonism", "sunrise sets", "island escape"],
+  "bar_seeds": ["pacha nights", "white sand", "balearic beat"],
+  "related_ids": [],
+  "place_type": "city",
+  "vibe": "Euphoric, sun-drenched, and restless.",
+  "sensory_cues": ["Deep house", "Turquoise water", "Salt", "White villas"],
+  "cultural_refs": ["Clubbing Culture", "Avicii", "Summer vibes"],
+  "bar_angles": ["Party without an end", "Island high", "Living for the sunrise"]
+}

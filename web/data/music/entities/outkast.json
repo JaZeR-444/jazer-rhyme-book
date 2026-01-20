@@ -1,0 +1,21 @@
+{
+  "id": "outkast",
+  "type": "music",
+  "name": "OutKast",
+  "aliases": ["The ATLiens"],
+  "era": "1990s-2000s",
+  "tags": ["atlanta", "southern-rap", "eclectic", "funk", "classic"],
+  "one_liner": "The legendary duo from Atlanta that proved 'The South got something to say.'",
+  "angles": ["southern excellence", "experimental boundaries", "funk meets hip-hop"],
+  "bar_seeds": ["atliens", "stankonia", "cadillacs and smoke", "spottieottiedopaliscious"],
+  "genre": ["Southern Hip Hop", "Funk", "Neo Soul"],
+  "era_detail": "Formed in 1992, peaked in the early 2000s.",
+  "signature_songs": ["Ms. Jackson", "B.O.B.", "Hey Ya!"],
+  "sonic_descriptors": ["funky", "psychedelic", "melodic"],
+  "influence_tree": ["Parliament-Funkadelic", "Organized Noize"],
+  "aesthetic": "Afrofuturistic and flamboyant",
+  "related_ids": ["andre-3000"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

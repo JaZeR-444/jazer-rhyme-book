@@ -1,0 +1,19 @@
+{
+  "id": "formula-1-sport",
+  "type": "sports",
+  "name": "Formula 1",
+  "aliases": ["F1", "The Pinnacle of Motorsport"],
+  "era": "1950-Present",
+  "tags": ["f1", "technical", "luxury", "speed"],
+  "one_liner": "The highest class of international racing for open-wheel single-seater formula racing cars.",
+  "angles": ["engineering perfection", "extreme velocity", "global glamour"],
+  "bar_seeds": ["pit stop", "checkered flag", "monaco grand prix"],
+  "team_size": "2 Drivers per Constructor",
+  "key_skills": ["Reaction time", "Focus", "Technical knowledge"],
+  "equipment": ["F1 Car", "Helmet", "HANS device"],
+  "metaphors": ["Life in the fast lane", "Hitting the apex"],
+  "legends": ["Senna", "Schumacher", "Hamilton"],
+  "related_ids": ["lewis-hamilton", "max-verstappen"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

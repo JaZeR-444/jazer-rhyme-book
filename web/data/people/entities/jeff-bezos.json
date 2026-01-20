@@ -1,0 +1,53 @@
+{
+  "id": "jeff-bezos",
+  "type": "people",
+  "name": "Jeff Bezos",
+  "aliases": [],
+  "era": "1990s-2020s",
+  "tags": [
+    "mainstream",
+    "legacy",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Entrepreneur who built a global commerce empire and expanded into space ventures.",
+  "angles": [
+    "commerce empire",
+    "logistics scale",
+    "space ambition"
+  ],
+  "bar_seeds": [
+    "prime on the porch",
+    "warehouse kingdom",
+    "blue origin sky"
+  ],
+  "related_ids": [
+    "amazon",
+    "elon-musk"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Business",
+    "Technology"
+  ],
+  "vibe": "Driven, strategic, and expansive",
+  "signature_items": [
+    "Logistics focus",
+    "Space ambitions"
+  ],
+  "quotables_short": [
+    "Day one"
+  ],
+  "controversy_flags": [
+    "labor scrutiny"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "overwhelm",
+  "type": "emotions-states",
+  "name": "Overwhelm",
+  "aliases": [
+    "Overloaded"
+  ],
+  "era": "Modern",
+  "tags": [
+    "dark",
+    "contemporary",
+    "anxiety"
+  ],
+  "one_liner": "A state of being overloaded by demands, stimuli, or emotion.",
+  "angles": [
+    "too much at once",
+    "noise overload",
+    "pressure flood"
+  ],
+  "bar_seeds": [
+    "signals in my head",
+    "pressure on the chest",
+    "too many tabs open"
+  ],
+  "related_ids": [
+    "anxiety",
+    "burnout"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Psychology Today",
+      "url": "https://www.psychologytoday.com/us/basics/stress",
+      "type": "article",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "too many tasks",
+    "noise",
+    "uncertainty"
+  ],
+  "sensations": [
+    "tight chest",
+    "racing thoughts",
+    "fatigue"
+  ],
+  "expressions": [
+    "short responses",
+    "restlessness",
+    "avoidance"
+  ],
+  "opposites": [
+    "calm",
+    "clarity"
+  ],
+  "coping_tools": [
+    "prioritization",
+    "breathing",
+    "time-boxing"
+  ],
+  "cultural_notes": [
+    "always-on culture",
+    "information overload"
+  ],
+  "related_states": [
+    "stress",
+    "anxiety"
+  ]
+}

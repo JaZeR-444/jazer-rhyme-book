@@ -1,0 +1,17 @@
+{
+  "id": "ataraxia",
+  "type": "philosophy-ideas",
+  "name": "Ataraxia",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A state of serene calmness and imperturbability, the ultimate goal of Epicureanism and Stoicism.",
+  "tags": ["zen", "mellow", "classic", "logic"],
+  "angles": ["unshakable-peace", "freedom-from-worry", "the-inner-fortress"],
+  "bar_seeds": ["unbothered mind", "inner sanctuary", "eye of the storm"],
+  "related_ids": ["stoicism", "epicureanism", "zen"],
+  "school_of_thought": "Hellenistic Philosophy",
+  "core_question": "How can we achieve a state of total mental peace?",
+  "key_philosophers": ["Epicurus", "Sextus Empiricus"],
+  "paradoxes": [],
+  "modern_application": "Mindfulness, Stoic practice, stress management."
+}

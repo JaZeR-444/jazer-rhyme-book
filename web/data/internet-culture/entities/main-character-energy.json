@@ -1,0 +1,18 @@
+{
+  "id": "main-character-energy",
+  "type": "internet-culture",
+  "name": "Main Character Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The act of living life as if you are the protagonist of a movie, often with confidence and a touch of narcissism.",
+  "tags": ["main-character-energy", "contemporary", "cinematic", "pop"],
+  "angles": ["confidence", "narcissism", "aesthetic"],
+  "bar_seeds": ["walking in slow motion", "world is my backdrop", "camera's always on"],
+  "related_ids": ["villain-arc"],
+  "format": "Conceptual Meme",
+  "origin_platform": "TikTok / Instagram",
+  "meaning": "Embracing self-importance and curated confidence in one's personal narrative.",
+  "remix_rules": ["Cinematic filters", "Slow-motion walking", "Pop soundtrack"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["I don't play the side, I got that main character energy", "Walking through the rain like the credits about to roll"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tyson-fury",
+  "type": "sports",
+  "name": "Tyson Fury",
+  "aliases": ["The Gypsy King"],
+  "era": "2010s-Present",
+  "tags": ["boxing", "vibrant", "resilience", "heavyweight"],
+  "one_liner": "A charismatic heavyweight champion known for his size, boxing IQ, and incredible comeback story.",
+  "angles": ["rising from the canvas", "the gypsy king", "mental health advocate"],
+  "bar_seeds": ["gypsy king", "rising like undertaker", "lineal champ"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Movement", "IQ", "Resilience"],
+  "equipment": ["Boxing gloves"],
+  "metaphors": ["The Gypsy King"],
+  "legends": ["2x Heavyweight Champion", "Defeated Wladimir Klitschko"],
+  "related_ids": ["mike-tyson"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

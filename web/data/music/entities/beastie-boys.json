@@ -1,0 +1,21 @@
+{
+  "id": "beastie-boys",
+  "type": "music",
+  "name": "Beastie Boys",
+  "aliases": ["The Beasties"],
+  "era": "1980s-2000s",
+  "tags": ["new-york", "punk-rap", "innovators", "classic", "versatile"],
+  "one_liner": "The punk-rockers-turned-rappers who became hip-hop icons and master samplers.",
+  "angles": ["white rappers in a black genre", "musical evolution", "fight for your right"],
+  "bar_seeds": ["license to ill", "paul's boutique", "intergalactic", "brass monkey"],
+  "genre": ["Hip Hop", "Rap Rock"],
+  "era_detail": "Active 1981–2012.",
+  "signature_songs": ["Fight for Your Right", "Sabotage", "Intergalactic"],
+  "sonic_descriptors": ["energetic", "distorted", "dynamic"],
+  "influence_tree": ["Bad Brains", "Run-D.M.C."],
+  "aesthetic": "Streetwear and vintage gear",
+  "related_ids": ["run-dmc"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "rhyme-book",
+  "type": "writing-tool",
+  "name": "Rhyme Book",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The sacred physical artifact where a rapper's legacy is written.",
+  "tags": ["tool", "classic", "vintage", "artifact", "legacy"],
+  "angles": ["history", "tangibility", "ritual"],
+  "bar_seeds": ["black and white composition", "tattered pages", "ink stains"],
+  "related_ids": ["physical-notebook"],
+  "category": "Physical",
+  "what_it_does": "A physical notebook dedicated to writing lyrics.",
+  "best_for": ["drafting", "archives", "focus"],
+  "workflow_hooks": ["Carry it everywhere", "Date every entry"],
+  "pitfalls": ["Can get lost", "No Ctrl+Z"],
+  "bar_angles": ["Pages of history", "The written testimony", "Analog soul"]
+}

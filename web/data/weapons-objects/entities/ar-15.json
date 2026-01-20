@@ -1,0 +1,20 @@
+{
+  "id": "ar-15",
+  "type": "weapons-objects",
+  "name": "AR-15",
+  "aliases": ["Modern Sporting Rifle", "M4"],
+  "era": "1950s-Present",
+  "tags": ["weapon", "controversial", "usa", "tactical"],
+  "one_liner": "The modular and highly popular semi-automatic rifle platform in the United States.",
+  "angles": ["the modern infantry rifle", "customization at its peak", "the center of the debate"],
+  "bar_seeds": ["tactical rails", "ar heat", "customizing the kit", "rapid fire state of mind"],
+  "weapon_type": "Semi-automatic Rifle",
+  "range": "Effective up to 500m",
+  "damage_type": "Ballistic (5.56mm)",
+  "symbolism": "Modern warfare, tactical precision, and social controversy.",
+  "famous_users": ["Law enforcement", "Military civilians", "Competitive shooters"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

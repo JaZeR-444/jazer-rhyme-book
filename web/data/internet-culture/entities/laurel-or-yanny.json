@@ -1,0 +1,18 @@
+{
+  "id": "laurel-or-yanny",
+  "type": "internet-culture",
+  "name": "Laurel or Yanny",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An auditory illusion where people hear either the word 'Laurel' or 'Yanny' from the same audio clip.",
+  "tags": ["viral", "subjective", "perception", "audio"],
+  "angles": ["frequency", "brain-glitch", "divided-opinion"],
+  "bar_seeds": ["hearing yanny", "laurel in my ears", "the signal is split"],
+  "related_ids": ["the-dress-meme"],
+  "format": "Viral Audio",
+  "origin_platform": "Reddit / Twitter",
+  "meaning": "Similar to 'The Dress', it highlights how our biology shapes our interpretation of reality.",
+  "remix_rules": ["High/low frequency filtering", "Split screen reactions", "Paired with 'The Dress' commentary"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Same sound but different names, Laurel or Yanny?", "Frequency glitching, you hearing something I don't"]
+}

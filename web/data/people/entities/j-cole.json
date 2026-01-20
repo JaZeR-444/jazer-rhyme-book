@@ -1,0 +1,20 @@
+{
+  "id": "j-cole",
+  "type": "people",
+  "name": "J. Cole",
+  "aliases": ["Jermaine Cole", "The Therapist"],
+  "era": "2010s-Present",
+  "tags": ["relatable", "storytelling", "conscious", "north-carolina", "producer"],
+  "one_liner": "The relatable hero of rap, focusing on dreams, down-to-earth struggles, and integrity.",
+  "angles": ["middle child syndrome", "anti-fame", "dollar and a dream"],
+  "bar_seeds": ["forest hills drive", "platinum with no features", "dreamville"],
+  "known_for": ["2014 Forest Hills Drive", "The Off-Season", "Dreamville"],
+  "vibe": "Humble, soulful, wise",
+  "signature_items": ["Dreads", "Hoodies", "Basketball"],
+  "quotables_short": ["Love yours", "Cole World"],
+  "controversy_flags": ["Non-AME"],
+  "related_ids": ["kendrick-lamar", "jay-z"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

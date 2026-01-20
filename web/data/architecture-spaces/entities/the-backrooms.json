@@ -1,0 +1,17 @@
+{
+  "id": "the-backrooms",
+  "type": "architecture-spaces",
+  "name": "The Backrooms",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An infinite maze of randomly generated office rooms characterized by yellow wallpaper and buzzing lights.",
+  "tags": ["esoteric", "lo-fi", "internet-culture", "fear"],
+  "angles": ["liminality", "infinity", "madness"],
+  "bar_seeds": ["hum of the lights", "yellow wallpaper", "noclip out of reality"],
+  "related_ids": ["maze"],
+  "style": "Corporate Liminal",
+  "materials": ["Carpet", "Drywall", "Fluorescent Lights"],
+  "spatial_qualities": ["Repetitive", "Empty", "Unsettling"],
+  "function": "Labyrinth / Horror",
+  "famous_examples": ["Level 0"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cold-war",
+  "type": "history",
+  "name": "The Cold War",
+  "aliases": ["The Iron Curtain"],
+  "era": "1947-1991",
+  "tags": ["politics", "espionage", "war", "global"],
+  "one_liner": "A period of geopolitical tension between the Soviet Union and the United States and their respective allies.",
+  "angles": ["spies in the shadows", "the threat of nuclear winter", "ideological battle"],
+  "bar_seeds": ["iron curtain", "red scare", "doomsday clock", "spy vs spy"],
+  "key_dates": ["1961 (Berlin Wall built)", "1962 (Cuban Missile Crisis)", "1989 (Fall of the Berlin Wall)"],
+  "location": "Global",
+  "impact": "Division of the world into two blocs, space race, proxy wars in Korea and Vietnam.",
+  "major_figures": ["John F. Kennedy", "Mikhail Gorbachev", "Ronald Reagan"],
+  "cultural_shift": "Pervasive fear of nuclear war balanced by rapid technological and scientific advancement.",
+  "related_ids": ["world-war-ii"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

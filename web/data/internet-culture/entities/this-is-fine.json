@@ -1,0 +1,21 @@
+{
+  "id": "this-is-fine",
+  "type": "internet-culture",
+  "name": "This Is Fine",
+  "aliases": ["Gunshow Dog"],
+  "era": "2013-Present",
+  "tags": ["meme", "acceptance", "chaos", "relatable"],
+  "one_liner": "A dog sitting in a room engulfed in flames, calmly stating 'This is fine.'",
+  "angles": ["denial in the face of disaster", "acceptance of chaos", "modern burnout"],
+  "bar_seeds": ["room on fire", "this is fine", "coffee in the flames"],
+  "format": "Comic strip panel",
+  "origin_platform": "Gunshow Webcomic",
+  "meaning": "Acceptance of a disastrous situation or being in denial about it.",
+  "remix_rules": ["Must feature the dog and fire", "Often used as a reaction to systemic or personal failure"],
+  "lifespan_risk": "Low (Highly relatable in modern times)",
+  "example_lines": ["Everything is burning but this is fine", "The 'this is fine' dog of my life"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

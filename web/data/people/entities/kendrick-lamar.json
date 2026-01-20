@@ -1,0 +1,20 @@
+{
+  "id": "kendrick-lamar",
+  "type": "people",
+  "name": "Kendrick Lamar",
+  "aliases": ["K-Dot", "Kung Fu Kenny", "Oklama"],
+  "era": "2010s-Present",
+  "tags": ["lyrical", "compton", "storytelling", "conscious", "west-coast"],
+  "one_liner": "The distinct voice of a generation, blending intricate lyricism with conceptual storytelling.",
+  "angles": ["good kid mad city", "survivor's guilt", "black plight and power"],
+  "bar_seeds": ["swimming pools", "money trees", "damned if I do", "king kunta"],
+  "known_for": ["GKMC", "To Pimp a Butterfly", "DAMN."],
+  "vibe": "Introspective, aggressive, cinematic",
+  "signature_items": ["Crown of thorns", "Nike Cortez", "Cornrows"],
+  "quotables_short": ["Be humble, sit down", "We gon' be alright"],
+  "controversy_flags": ["Control verse"],
+  "related_ids": ["dr-dre", "j-cole", "tupac-shakur"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

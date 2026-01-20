@@ -1,0 +1,18 @@
+{
+  "id": "jaws-1975",
+  "type": "cinema",
+  "name": "Jaws",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "When a gigantic great white shark begins to menace the small island community of Amity, a police chief, a marine scientist and a grizzled fisherman set out to stop it.",
+  "tags": ["thriller", "classic", "nature", "fear"],
+  "angles": ["unseen-terror", "the-bigger-boat", "man-vs-nature"],
+  "bar_seeds": ["da-dum music", "yellow barrels", "shark in the water"],
+  "related_ids": ["leviathan"],
+  "era": "1975",
+  "plot_hooks": ["First attack", "Closing the beaches", "The hunt at sea"],
+  "iconic_scenes": ["Opening swim", "Indianapolis speech", "Smile you son of a..."],
+  "visual_motifs": ["Underwater POV", "Yellow barrels", "The Orca boat"],
+  "themes": ["Primal fear", "Corporate greed (beaches)", "Obsession"],
+  "quotables_short": ["You're gonna need a bigger boat.", "Smile, you son of a..."]
+}

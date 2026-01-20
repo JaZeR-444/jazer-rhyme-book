@@ -1,0 +1,17 @@
+{
+  "id": "gray-goo-risk",
+  "type": "science-future",
+  "name": "Gray Goo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical global catastrophic scenario involving molecular nanotechnology in which out-of-control self-replicating robots consume all biomass on Earth.",
+  "tags": ["dark", "nanotechnology", "fear", "decay"],
+  "angles": ["uncontrolled-replication", "total-consumption", "end-of-biology"],
+  "bar_seeds": ["the goo is coming", "turning the world to dust", "infinite appetite"],
+  "related_ids": ["nanobots", "entropy"],
+  "field": "Nanotechnology / Existential Risk",
+  "hypothesis": "Self-replicating nanobots could fail to stop, converting everything into more nanobots.",
+  "implications": ["Total extinction", "Earth as a featureless ball of dust", "Irreversible technological error"],
+  "technologies": ["Molecular Assemblers"],
+  "ethical_concerns": ["Precautionary principle in nanotech", "Weaponization risk"]
+}

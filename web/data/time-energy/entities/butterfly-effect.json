@@ -1,0 +1,17 @@
+{
+  "id": "butterfly-effect",
+  "type": "time-energy",
+  "name": "The Butterfly Effect",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The phenomenon whereby a small change at one place in a complex system can have large effects elsewhere.",
+  "tags": ["technical", "chaos", "scientific", "future"],
+  "angles": ["unintended consequences", "ripple effect", "tiny triggers"],
+  "bar_seeds": ["flapping wings", "tsunami from a whisper", "small spark big fire"],
+  "related_ids": ["temporal-paradox", "entropy"],
+  "concept_type": "Scientific (Chaos Theory)",
+  "perception": "Startling, complex, and interconnected.",
+  "physics_basis": "Sensitive dependence on initial conditions.",
+  "cultural_view": "A warning about the power of small actions and the complexity of history.",
+  "idioms": ["Ripple in the pond", "Snowball effect", "The small stuff matters"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "a-tribe-called-quest",
+  "type": "music",
+  "name": "A Tribe Called Quest",
+  "aliases": ["ATCQ", "Tribe"],
+  "era": "1990s",
+  "tags": ["jazz-rap", "queens", "conscious", "native-tongues", "classic"],
+  "one_liner": "Pioneers of jazz-rap and essential members of the Native Tongues collective.",
+  "angles": ["bohemian rap", "social consciousness", "low end theory"],
+  "bar_seeds": ["scenario", "check the rhyme", "bonita applebum", "midnight marauders"],
+  "genre": ["Alternative Hip Hop", "Jazz Rap"],
+  "era_detail": "Formed in 1985, dominated the early 90s.",
+  "signature_songs": ["Can I Kick It?", "Electric Relaxation", "Check the Rhime"],
+  "sonic_descriptors": ["jazzy", "smooth", "warm"],
+  "influence_tree": ["De La Soul", "Native Tongues"],
+  "aesthetic": "Bohemian and street-smart",
+  "related_ids": ["nas"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

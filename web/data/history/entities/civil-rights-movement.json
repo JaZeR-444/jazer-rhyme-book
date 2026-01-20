@@ -1,0 +1,20 @@
+{
+  "id": "civil-rights-movement",
+  "type": "history",
+  "name": "Civil Rights Movement",
+  "aliases": ["The Movement"],
+  "era": "1954-1968",
+  "tags": ["activism", "equality", "black-history", "usa"],
+  "one_liner": "A struggle by African Americans and their like-minded allies to end institutionalized racial discrimination and segregation.",
+  "angles": ["non-violent resistance", "the power of the collective", "marching for freedom"],
+  "bar_seeds": ["selma bridge", "bus boycott", "i have a dream", "sit-in struggle"],
+  "key_dates": ["1955 (Montgomery Bus Boycott)", "1963 (March on Washington)", "1964 (Civil Rights Act passed)"],
+  "location": "United States",
+  "impact": "End of legal segregation and major strides towards racial equality in the U.S.",
+  "major_figures": ["Martin Luther King Jr.", "Rosa Parks", "Malcolm X"],
+  "cultural_shift": "A global shift in the conversation surrounding human rights and racial justice.",
+  "related_ids": ["black-panther-party"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "signal",
+  "type": "media-platforms",
+  "name": "Signal",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cross-platform centralized encrypted messaging service known for its extreme focus on privacy.",
+  "tags": ["privacy", "technical", "security", "minimalist"],
+  "angles": ["unbreakable-secrecy", "edward-snowden-vibe", "digital-blackout"],
+  "bar_seeds": ["end to end", "disappearing messages", "ghost on the wire"],
+  "related_ids": ["whatsapp", "telegram"],
+  "platform_type": "Messaging",
+  "user_demographic": "Privacy Enthusiasts, Whistleblowers, Journalists",
+  "content_format": ["Text", "Voice", "Video", "Media"],
+  "algorithm_bias": "N/A (Direct communication only).",
+  "slang": ["E2EE", "Burner chat", "Signal check"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dreamcore",
+  "type": "aesthetics-visuals",
+  "name": "Dreamcore",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic centered on surreal, dream-like imagery, often using soft colors and nostalgic elements.",
+  "tags": ["surreal", "pastel", "nostalgic", "internet-culture"],
+  "angles": ["ethereal", "subconscious", "softness"],
+  "bar_seeds": ["clouds under feet", "faded memories", "sleeping awake"],
+  "related_ids": ["weirdcore", "vaporwave"],
+  "visual_elements": ["Clouds", "Endless hallways", "Soft lighting", "Pastels"],
+  "mood": "Peaceful, unsettling, ethereal",
+  "associated_eras": ["2010s", "2020s"],
+  "color_palette": ["Sky Blue", "Pale Pink", "White", "Lavender"],
+  "fashion_staples": ["Flowing garments", "Oversized knits", "Soft textures", "Whimsical accessories"]
+}

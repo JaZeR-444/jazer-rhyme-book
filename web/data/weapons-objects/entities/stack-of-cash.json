@@ -1,0 +1,17 @@
+{
+  "id": "stack-of-cash",
+  "type": "weapons-objects",
+  "name": "Stack of Cash",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A physical bundle of currency, the ultimate scoreboard and motivator.",
+  "tags": ["hustle", "luxury", "braggadocio", "symbolic-object"],
+  "angles": ["weight", "volume", "liquidity"],
+  "bar_seeds": ["rubber bands snapping", "blue strips", "tall as a toddler"],
+  "related_ids": ["gold-bar"],
+  "weapon_type": "Asset",
+  "range": "N/A",
+  "damage_type": "Economic",
+  "symbolism": "Tangible success, the fruits of labor (legal or illegal), and power.",
+  "famous_users": ["Bankroll Fresh", "Floyd Mayweather"]
+}

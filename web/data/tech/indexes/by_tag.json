@@ -1,0 +1,419 @@
+{
+  "technical": [
+    "3d-printing",
+    "algorithm",
+    "api-tech",
+    "autotune",
+    "biometrics",
+    "bitcrushing",
+    "blockchain",
+    "cpu",
+    "dark-web",
+    "deepfake",
+    "drone",
+    "encryption",
+    "fiber-optics",
+    "gpu",
+    "gui-tech",
+    "large-language-model",
+    "open-source",
+    "ram",
+    "ray-tracing",
+    "server-farm",
+    "smart-contracts",
+    "smart-home",
+    "smart-watch",
+    "ssd",
+    "vpn",
+    "wearable-tech"
+  ],
+  "innovative": [
+    "3d-printing",
+    "artificial-intelligence",
+    "biotechnology",
+    "cryptocurrency",
+    "large-language-model",
+    "open-source"
+  ],
+  "manufacturing": [
+    "3d-printing"
+  ],
+  "creative": [
+    "3d-printing"
+  ],
+  "fast": [
+    "5g"
+  ],
+  "connectivity": [
+    "5g",
+    "api-tech",
+    "internet-of-things"
+  ],
+  "wireless": [
+    "5g"
+  ],
+  "revolutionary": [
+    "5g",
+    "quantum-internet"
+  ],
+  "network": [
+    "5g"
+  ],
+  "logic": [
+    "algorithm",
+    "cpu",
+    "smart-contracts"
+  ],
+  "software": [
+    "algorithm",
+    "api-tech",
+    "large-language-model",
+    "vpn"
+  ],
+  "social-media": [
+    "algorithm"
+  ],
+  "systems": [
+    "api-tech"
+  ],
+  "futuristic": [
+    "artificial-intelligence",
+    "blockchain"
+  ],
+  "synthetic": [
+    "artificial-intelligence"
+  ],
+  "overlay": [
+    "augmented-reality"
+  ],
+  "enhanced": [
+    "augmented-reality"
+  ],
+  "interactive": [
+    "augmented-reality"
+  ],
+  "visual": [
+    "augmented-reality",
+    "gui-tech",
+    "ray-tracing"
+  ],
+  "immersive": [
+    "augmented-reality",
+    "metaverse",
+    "virtual-reality"
+  ],
+  "music": [
+    "autotune",
+    "bitcrushing"
+  ],
+  "pop": [
+    "autotune"
+  ],
+  "contemporary": [
+    "autotune"
+  ],
+  "data": [
+    "big-data",
+    "machine-learning"
+  ],
+  "analytics": [
+    "big-data"
+  ],
+  "scale": [
+    "big-data"
+  ],
+  "insight": [
+    "big-data"
+  ],
+  "security": [
+    "biometrics",
+    "cybersecurity",
+    "dark-web",
+    "encryption",
+    "vpn"
+  ],
+  "identity": [
+    "biometrics"
+  ],
+  "biological": [
+    "biometrics"
+  ],
+  "life-sciences": [
+    "biotechnology"
+  ],
+  "genetic": [
+    "biotechnology"
+  ],
+  "medical": [
+    "biotechnology"
+  ],
+  "controversial": [
+    "biotechnology",
+    "deepfake"
+  ],
+  "lo-fi": [
+    "bitcrushing"
+  ],
+  "glitch": [
+    "bitcrushing"
+  ],
+  "decentralized": [
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "infrastructure": [
+    "cloud-computing",
+    "server-farm"
+  ],
+  "internet": [
+    "cloud-computing"
+  ],
+  "storage": [
+    "cloud-computing"
+  ],
+  "computing": [
+    "cloud-computing",
+    "quantum-computing"
+  ],
+  "hardware": [
+    "cpu",
+    "fiber-optics",
+    "gpu",
+    "ram",
+    "ssd"
+  ],
+  "core": [
+    "cpu"
+  ],
+  "digital": [
+    "cryptocurrency",
+    "nft"
+  ],
+  "volatile": [
+    "cryptocurrency"
+  ],
+  "financial": [
+    "cryptocurrency"
+  ],
+  "hacking": [
+    "cybersecurity"
+  ],
+  "defense": [
+    "cybersecurity"
+  ],
+  "privacy": [
+    "cybersecurity",
+    "dark-web",
+    "encryption",
+    "vpn"
+  ],
+  "underground": [
+    "dark-web"
+  ],
+  "ai": [
+    "deepfake",
+    "gpu",
+    "large-language-model",
+    "machine-learning"
+  ],
+  "media": [
+    "deepfake"
+  ],
+  "gadget": [
+    "drone",
+    "smart-watch",
+    "wearable-tech"
+  ],
+  "aviation": [
+    "drone"
+  ],
+  "war": [
+    "drone"
+  ],
+  "distributed": [
+    "edge-computing"
+  ],
+  "efficient": [
+    "edge-computing"
+  ],
+  "local": [
+    "edge-computing"
+  ],
+  "reduced-latency": [
+    "edge-computing"
+  ],
+  "processing": [
+    "edge-computing"
+  ],
+  "math": [
+    "encryption"
+  ],
+  "speed": [
+    "fiber-optics",
+    "ram",
+    "ssd"
+  ],
+  "global": [
+    "fiber-optics"
+  ],
+  "gaming": [
+    "gpu",
+    "ray-tracing",
+    "virtual-reality"
+  ],
+  "minimalist": [
+    "gui-tech"
+  ],
+  "lifestyle": [
+    "gui-tech",
+    "smart-home",
+    "smart-watch"
+  ],
+  "automation": [
+    "internet-of-things",
+    "machine-learning",
+    "robotics"
+  ],
+  "smart-home": [
+    "internet-of-things"
+  ],
+  "sensors": [
+    "internet-of-things"
+  ],
+  "connected": [
+    "iot"
+  ],
+  "smart": [
+    "iot"
+  ],
+  "integrated": [
+    "iot"
+  ],
+  "automated": [
+    "iot"
+  ],
+  "networked": [
+    "iot"
+  ],
+  "algorithms": [
+    "machine-learning"
+  ],
+  "virtual": [
+    "metaverse"
+  ],
+  "future": [
+    "metaverse",
+    "neuralink",
+    "quantum-internet",
+    "virtual-reality"
+  ],
+  "social": [
+    "metaverse"
+  ],
+  "spatial": [
+    "metaverse"
+  ],
+  "biotech": [
+    "neuralink"
+  ],
+  "brain": [
+    "neuralink"
+  ],
+  "cybernetic": [
+    "neuralink"
+  ],
+  "collectible": [
+    "nft"
+  ],
+  "speculative": [
+    "nft"
+  ],
+  "blockchain": [
+    "nft",
+    "smart-contracts"
+  ],
+  "unique": [
+    "nft"
+  ],
+  "community": [
+    "open-source"
+  ],
+  "rebellion": [
+    "open-source"
+  ],
+  "physics": [
+    "quantum-computing"
+  ],
+  "next-gen": [
+    "quantum-computing"
+  ],
+  "cryptography": [
+    "quantum-computing"
+  ],
+  "quantum": [
+    "quantum-internet"
+  ],
+  "secure": [
+    "quantum-internet"
+  ],
+  "theoretical": [
+    "quantum-internet"
+  ],
+  "fleeting": [
+    "ram"
+  ],
+  "mechanical": [
+    "robotics"
+  ],
+  "intelligent": [
+    "robotics"
+  ],
+  "assistive": [
+    "robotics"
+  ],
+  "evolving": [
+    "robotics"
+  ],
+  "massive": [
+    "server-farm"
+  ],
+  "industrial": [
+    "server-farm"
+  ],
+  "business-economics": [
+    "smart-contracts"
+  ],
+  "iot": [
+    "smart-home"
+  ],
+  "architecture-spaces": [
+    "smart-home"
+  ],
+  "wearable": [
+    "smart-watch"
+  ],
+  "communication": [
+    "smartphone"
+  ],
+  "ubiquitous": [
+    "smartphone"
+  ],
+  "digital-life": [
+    "smartphone"
+  ],
+  "tech": [
+    "smartphone"
+  ],
+  "stable": [
+    "ssd"
+  ],
+  "simulation": [
+    "virtual-reality"
+  ],
+  "fashion": [
+    "wearable-tech"
+  ],
+  "cyborgization": [
+    "wearable-tech"
+  ]
+}

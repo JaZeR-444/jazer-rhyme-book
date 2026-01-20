@@ -1,0 +1,18 @@
+{
+  "id": "hyperpop",
+  "type": "music",
+  "name": "Hyperpop",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A maximalist and exaggerated take on pop music, blending electronic experimentation with catchy hooks.",
+  "tags": ["hyperpop", "vibrant", "digital", "contemporary"],
+  "angles": ["digital-chaos", "pop-deconstruction", "internet-energy"],
+  "bar_seeds": ["pitched up vocals", "clanging pots", "rainbow noise"],
+  "related_ids": ["glitchcore", "charli-xcx"],
+  "genre": ["Pop", "Electronic"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["Money Machine", "Vroom Vroom", "Faceshopping"],
+  "sonic_descriptors": ["Extreme pitch-shifting", "Heavy distortion", "Metallic textures", "Bubblegum hooks"],
+  "influence_tree": ["Bubblegum Pop", "J-Pop", "PC Music"],
+  "aesthetic": "Neon Glitch and Maximalism"
+}

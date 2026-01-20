@@ -1,0 +1,20 @@
+{
+  "id": "pluto",
+  "type": "places",
+  "name": "Pluto",
+  "aliases": ["The Outsider"],
+  "era": "Unknown",
+  "tags": ["Geographic & Spatial Entities"],
+  "one_liner": "The Outsider. Represents being far out, distant, and misunderstood but still orbiting.",
+  "angles": [],
+  "bar_seeds": [],
+  "known_for": [],
+  "vibe": "Distant, misunderstood",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": [],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

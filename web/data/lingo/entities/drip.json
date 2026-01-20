@@ -1,0 +1,21 @@
+{
+  "id": "drip",
+  "type": "lingo",
+  "name": "Drip",
+  "aliases": ["Sauce", "Swag"],
+  "era": "2010s-Present",
+  "tags": ["fashion", "luxury", "atlanta", "status"],
+  "one_liner": "A high-fashion look or overall style that is impressive and expensive.",
+  "angles": ["overflowing style", "designer gear", "icy aesthetic"],
+  "bar_seeds": ["dripping in designer", "too much drip", "drip or drown"],
+  "meaning": "Extreme style or fashion sense.",
+  "usage": "Used to describe someone's outfit or general presence.",
+  "origin": "Atlanta",
+  "region": "Global",
+  "example_lines": ["Look at the drip on him", "Drip too hard"],
+  "do_not_use_if": ["Referring to a leaky faucet"],
+  "related_ids": ["migos"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

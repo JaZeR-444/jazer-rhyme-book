@@ -1,0 +1,53 @@
+{
+  "id": "steve-jobs",
+  "type": "people",
+  "name": "Steve Jobs",
+  "aliases": [
+    "Jobs"
+  ],
+  "era": "1970s-2010s",
+  "tags": [
+    "innovative",
+    "minimalist",
+    "legacy"
+  ],
+  "one_liner": "Visionary co-founder of Apple Inc. and pioneer of the personal computer revolution.",
+  "angles": [
+    "minimalist design",
+    "the 'one more thing' reveal",
+    "reality distortion field"
+  ],
+  "bar_seeds": [
+    "Black turtleneck, minimalist when I'm designing the flow",
+    "One more thing, I'm just getting started"
+  ],
+  "related_ids": [
+    "iphone",
+    "macintosh"
+  ],
+  "created_at": "2025-12-23T10:05:00Z",
+  "updated_at": "2025-12-23T10:05:00Z",
+  "sources": [
+    {
+      "title": "Biography by Walter Isaacson",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Apple",
+    "Pixar"
+  ],
+  "vibe": "Perfectionist, sleek, revolutionary",
+  "signature_items": [
+    "Black turtleneck",
+    "iPhone"
+  ],
+  "quotables_short": [
+    "Stay hungry, stay foolish"
+  ],
+  "controversy_flags": [
+    "Management style"
+  ]
+}

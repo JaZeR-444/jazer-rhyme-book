@@ -1,0 +1,20 @@
+{
+  "id": "dark-boho",
+  "type": "aesthetics-visuals",
+  "name": "Dark Boho",
+  "aliases": ["Dark Bohemian", "Mystical Boho"],
+  "era": "2010s-Present",
+  "tags": ["mystical", "earthy", "gypsy", "spiritual", "alternative"],
+  "one_liner": "A bohemian aesthetic with darker, more mystical elements and earthy tones.",
+  "angles": ["mystical bohemia", "earthy darkness", "spiritual alternative"],
+  "bar_seeds": ["crystals", "tarot cards", "incense", "witchy herbs"],
+  "visual_elements": ["dried flowers", "crystals", "candles", "vintage textiles"],
+  "mood": "Mystical, earthy, and spiritual",
+  "associated_eras": ["1960s", "Modern Day"],
+  "color_palette": ["deep burgundy", "forest green", "charcoal", "burnt orange"],
+  "fashion_staples": ["layered jewelry", "flowing fabrics", "earthy tones", "vintage accessories"],
+  "related_ids": ["boho", "goth"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lo-fi-hip-hop-genre",
+  "type": "music",
+  "name": "Lo-Fi Hip Hop",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of hip-hop that features low-fidelity production, jazz samples, and a relaxed atmosphere, famously used for study/sleep.",
+  "tags": ["lo-fi", "mellow", "ambient", "internet-culture"],
+  "angles": ["background-vibe", "nostalgic-warmth", "digital-comfort"],
+  "bar_seeds": ["beats to study to", "crackle of the vinyl", "rainy window"],
+  "related_ids": ["lo-fi", "study-girl"],
+  "genre": ["Hip Hop", "Jazz Rap", "Ambient"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["Feather", "Luv(sic) Pt. 3", "Eternal Youth"],
+  "sonic_descriptors": ["Bit-crushing", "Jazz chords", "Slow tempo", "Environmental noise"],
+  "influence_tree": ["Nujabes", "J Dilla", "MF DOOM"],
+  "aesthetic": "Cozy and Melancholic"
+}

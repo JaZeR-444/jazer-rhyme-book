@@ -1,0 +1,20 @@
+{
+  "id": "kobe-bryant",
+  "type": "sports",
+  "name": "Kobe Bryant",
+  "aliases": ["Black Mamba", "Kobe"],
+  "era": "1990s-2010s",
+  "tags": ["basketball", "mamba-mentality", "lakers", "legend"],
+  "one_liner": "A global basketball icon known for his 'Mamba Mentality'—an unwavering commitment to hard work and excellence.",
+  "angles": ["the mamba mentality", "obsessive dedication", "the laker legacy"],
+  "bar_seeds": ["mamba mentality", "8 and 24", "shooting over double teams", "81 point game"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Scoring", "Work ethic", "Clutch shooting", "Footwork"],
+  "equipment": ["Basketball", "Mamba shoes"],
+  "metaphors": ["The Black Mamba"],
+  "legends": ["5 NBA Championships", "81 points in a game"],
+  "related_ids": ["michael-jordan", "lebron-james"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

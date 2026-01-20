@@ -1,0 +1,18 @@
+{
+  "id": "area-51-raid",
+  "type": "internet-culture",
+  "name": "Area 51 Raid",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A 2019 Facebook event titled 'Storm Area 51, They Can't Stop All of Us' that became a massive global meme.",
+  "tags": ["viral", "alien", "rebellion", "humor"],
+  "angles": ["collective-absurdity", "alien-secrets", "naruto-run"],
+  "bar_seeds": ["naruto run to the gate", "storming the base", "clapping alien cheeks"],
+  "related_ids": ["harambe-meme"],
+  "format": "Event / Conceptual Meme",
+  "origin_platform": "Facebook",
+  "meaning": "The power of the internet to coordinate massive, albeit ridiculous, real-world attention.",
+  "remix_rules": ["Naruto running", "Alien 'liberation' imagery", "Desert settings"],
+  "lifespan_risk": "Moderate (Moment in time)",
+  "example_lines": ["Running through the desert like I'm storming the base", "Alien tech in the bag, Area 51 vibes"]
+}

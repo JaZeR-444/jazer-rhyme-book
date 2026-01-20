@@ -1,0 +1,18 @@
+{
+  "id": "drive-2011",
+  "type": "cinema",
+  "name": "Drive",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself in trouble when he helps his neighbor.",
+  "tags": ["noir", "aesthetic", "action", "synthwave"],
+  "angles": ["cool", "silence", "violence"],
+  "bar_seeds": ["scorpion jacket", "real human being", "night drive"],
+  "related_ids": ["taxi-driver-1976"],
+  "era": "2011",
+  "plot_hooks": ["The heist", "Protecting Irene", "Elevator scene"],
+  "iconic_scenes": ["Opening getaway", "Elevator kiss/stomp", "Hammer scene"],
+  "visual_motifs": ["Neon lights", "Scorpion jacket", "Synthwave soundtrack"],
+  "themes": ["Heroism", "Identity", "Violence"],
+  "quotables_short": ["I drive.", "Real human being, and a real hero."]
+}

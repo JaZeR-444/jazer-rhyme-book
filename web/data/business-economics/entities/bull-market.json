@@ -1,0 +1,20 @@
+{
+  "id": "bull-market",
+  "type": "business-economics",
+  "name": "Bull Market",
+  "aliases": ["Upswing", "Market Rally"],
+  "era": "Modern Era",
+  "tags": ["finance", "economy", "growth", "optimism"],
+  "one_liner": "A financial market of a group of securities in which prices are rising or are expected to rise.",
+  "angles": ["riding the wave", "unbridled optimism", "charging ahead"],
+  "bar_seeds": ["charging bull", "green candles", "market euphoria", "making it rain"],
+  "industry": "Finance",
+  "core_principle": "Optimism and rising prices.",
+  "jargon": ["Rally", "Euphoria", "All-time highs"],
+  "key_metrics": ["Percentage gains from recent lows"],
+  "archetypes": ["Momentum trader", "Optimist"],
+  "related_ids": ["stock-market", "bear-market"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "virtual-reality",
+  "type": "tech",
+  "name": "Virtual Reality",
+  "aliases": ["VR", "The Metaverse"],
+  "era": "2010s-Present",
+  "tags": ["immersive", "gaming", "future", "simulation"],
+  "one_liner": "A computer-generated environment with scenes and objects that appear to be real.",
+  "angles": ["escaping reality", "digital avatars", "the simulation hypothesis"],
+  "bar_seeds": ["headset on", "virtual world", "lost in the matrix", "haptic feedback"],
+  "category": "Computing / Entertainment",
+  "what_it_is": "Immersive technology that simulates a physical presence in real or imagined worlds.",
+  "why_it_matters": "Changes how we perceive experience and presence.",
+  "risks": ["Motion sickness", "Disconnection from physical reality", "Privacy"],
+  "metaphors": ["The Holodeck", "A dream you can control"],
+  "keywords": ["Headset", "Immersion", "3D environment", "Oculus"],
+  "related_ids": ["the-matrix-1999"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

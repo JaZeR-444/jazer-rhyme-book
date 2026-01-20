@@ -1,0 +1,17 @@
+{
+  "id": "memphis",
+  "type": "places",
+  "name": "Memphis",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The home of the blues and the birthplace of the dark, aggressive Phonk sound.",
+  "tags": ["dark", "grit", "southern", "history"],
+  "angles": ["phonk roots", "river city", "unapologetic grit"],
+  "bar_seeds": ["beale street", "phonk beat", "darker side of the south"],
+  "related_ids": [],
+  "place_type": "city",
+  "vibe": "Raw, heavy, and haunted.",
+  "sensory_cues": ["Muddy water", "Distorted bass", "BBQ smoke", "Old brick"],
+  "cultural_refs": ["Three 6 Mafia", "Elvis Presley", "Phonk"],
+  "bar_angles": ["Darkness from the delta", "Hard hitting rhythm", "Southern ghost stories"]
+}

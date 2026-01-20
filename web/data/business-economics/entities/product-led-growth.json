@@ -1,0 +1,17 @@
+{
+  "id": "product-led-growth",
+  "type": "business-economics",
+  "name": "Product-Led Growth (PLG)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A business methodology in which user acquisition, expansion, conversion, and retention are all driven primarily by the product itself.",
+  "tags": ["strategy", "technical", "startup", "software"],
+  "angles": ["frictionless-entry", "viral-loops", "value-first"],
+  "bar_seeds": ["it sells itself", "looping the users", "unlocking the gate"],
+  "related_ids": ["freemium-model", "saas"],
+  "industry": "Software / Tech",
+  "core_principle": "The product is the primary marketing vehicle.",
+  "jargon": ["Viral loop", "Time to value", "Activation"],
+  "key_metrics": ["Product Qualified Leads (PQL)", "Expansion Revenue"],
+  "archetypes": ["Product Manager", "Growth Engineer"]
+}

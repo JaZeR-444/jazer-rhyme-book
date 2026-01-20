@@ -1,0 +1,58 @@
+{
+  "id": "coco-2017",
+  "type": "cinema",
+  "name": "Coco",
+  "aliases": [],
+  "era": "2017",
+  "tags": [
+    "cinematic",
+    "vibrant",
+    "nostalgic",
+    "classic"
+  ],
+  "one_liner": "A boy travels to the Land of the Dead to find his family's story.",
+  "angles": [
+    "music and memory",
+    "family legacy",
+    "spirit realm"
+  ],
+  "bar_seeds": [
+    "marigold bridge",
+    "remember me",
+    "family altar"
+  ],
+  "related_ids": [
+    "ceremony",
+    "vigil"
+  ],
+  "created_at": "2026-01-06T16:00:00Z",
+  "updated_at": "2026-01-06T16:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coco_(2017_film)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": [
+    "A boy enters a spirit world",
+    "Music reconnects a broken family"
+  ],
+  "iconic_scenes": [
+    "Marigold bridge",
+    "Remember Me performance"
+  ],
+  "visual_motifs": [
+    "Marigold petals",
+    "Skull face paint"
+  ],
+  "themes": [
+    "Family",
+    "Memory",
+    "Legacy"
+  ],
+  "quotables_short": [
+    "Remember me"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "limewire",
+  "type": "media-platforms",
+  "name": "Limewire (Legacy)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A free P2P file-sharing client for Gnutella, famous for being the primary source of music—and computer viruses—in the 2000s.",
+  "tags": ["vintage", "00s", "music", "chaos"],
+  "angles": ["digital-virus-roulette", "unlabeled-mp3s", "childhood-pc-doom"],
+  "bar_seeds": ["waiting 3 hours for one song", "mp3.exe", "green bar loading"],
+  "related_ids": ["napster", "bittorrent"],
+  "platform_type": "P2P (Legacy)",
+  "user_demographic": "Millennials, Gen Z (Early)",
+  "content_format": ["MP3", "Video", "Software"],
+  "algorithm_bias": "Search based.",
+  "slang": ["P2P", "Rip", "Virus"]
+}

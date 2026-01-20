@@ -1,0 +1,524 @@
+{
+  "war": [
+    "afghanistan-war",
+    "ancient-greece",
+    "ancient-rome",
+    "aztec-empire",
+    "bosnian-war-1992-1995",
+    "cold-war",
+    "fall-of-rome",
+    "fall-of-the-soviet-union-1991",
+    "french-revolution",
+    "global-war-on-terror",
+    "iraq-war",
+    "kosovo-war-1998-1999",
+    "october-revolution",
+    "ottoman-empire",
+    "russian-annexation-of-crimea-2014",
+    "russian-invasion-of-ukraine-2022",
+    "september-11-attacks-2001",
+    "syrian-civil-war",
+    "the-crusades",
+    "the-gulf-war",
+    "the-manhattan-project",
+    "the-mongol-empire",
+    "the-opium-wars",
+    "the-samurai-era",
+    "the-vietnam-war",
+    "the-vikings",
+    "world-war-ii"
+  ],
+  "political": [
+    "afghanistan-war",
+    "apartheid",
+    "arab-spring",
+    "black-lives-matter-movement",
+    "bosnian-war-1992-1995",
+    "brexit-2016-2020",
+    "climate-strike-movement",
+    "euro-currency-launch-1999-2002",
+    "european-migrant-crisis-2015",
+    "european-union-expansion-2004",
+    "fall-of-berlin-wall-1989",
+    "fall-of-the-soviet-union-1991",
+    "global-war-on-terror",
+    "good-friday-agreement-1998",
+    "hong-kong-protests-2019",
+    "iraq-war",
+    "kosovo-war-1998-1999",
+    "me-too-movement",
+    "nelson-mandela-release-1990",
+    "october-revolution",
+    "paris-climate-agreement-2015",
+    "russian-annexation-of-crimea-2014",
+    "russian-invasion-of-ukraine-2022",
+    "september-11-attacks-2001",
+    "syrian-civil-war",
+    "the-iron-curtain",
+    "tiananmen-square-protests-1989",
+    "us-capitol-attack-2021"
+  ],
+  "legacy": [
+    "afghanistan-war",
+    "ancient-greece",
+    "ancient-rome",
+    "arab-spring",
+    "beijing-olympics-2008",
+    "bosnian-war-1992-1995",
+    "brexit-2016-2020",
+    "covid-19-pandemic",
+    "dot-com-bubble-burst-2000",
+    "euro-currency-launch-1999-2002",
+    "european-migrant-crisis-2015",
+    "european-union-expansion-2004",
+    "fall-of-berlin-wall-1989",
+    "fall-of-rome",
+    "fall-of-the-soviet-union-1991",
+    "fukushima-disaster-2011",
+    "global-financial-crisis-2008",
+    "global-war-on-terror",
+    "good-friday-agreement-1998",
+    "haitian-revolution",
+    "hurricane-katrina-2005",
+    "indian-ocean-tsunami-2004",
+    "iraq-war",
+    "kosovo-war-1998-1999",
+    "library-of-alexandria",
+    "nelson-mandela-release-1990",
+    "paris-climate-agreement-2015",
+    "russian-annexation-of-crimea-2014",
+    "russian-invasion-of-ukraine-2022",
+    "september-11-attacks-2001",
+    "syrian-civil-war",
+    "the-renaissance",
+    "tiananmen-square-protests-1989",
+    "us-capitol-attack-2021",
+    "y2k-bug-2000"
+  ],
+  "mainstream": [
+    "afghanistan-war",
+    "arab-spring",
+    "beijing-olympics-2008",
+    "black-lives-matter-movement",
+    "bosnian-war-1992-1995",
+    "brexit-2016-2020",
+    "covid-19-pandemic",
+    "dot-com-bubble-burst-2000",
+    "euro-currency-launch-1999-2002",
+    "european-migrant-crisis-2015",
+    "european-union-expansion-2004",
+    "fall-of-berlin-wall-1989",
+    "fukushima-disaster-2011",
+    "global-financial-crisis-2008",
+    "global-war-on-terror",
+    "good-friday-agreement-1998",
+    "hong-kong-protests-2019",
+    "hurricane-katrina-2005",
+    "indian-ocean-tsunami-2004",
+    "iraq-war",
+    "kosovo-war-1998-1999",
+    "me-too-movement",
+    "nelson-mandela-release-1990",
+    "paris-climate-agreement-2015",
+    "rise-of-social-media-2004-2015",
+    "russian-invasion-of-ukraine-2022",
+    "september-11-attacks-2001",
+    "smartphone-revolution-2007",
+    "syrian-civil-war",
+    "tiananmen-square-protests-1989",
+    "us-capitol-attack-2021",
+    "y2k-bug-2000"
+  ],
+  "revolutionary": [
+    "american-revolution",
+    "haitian-revolution",
+    "october-revolution",
+    "the-enlightenment"
+  ],
+  "rebellion": [
+    "american-revolution",
+    "apartheid",
+    "black-lives-matter-movement",
+    "climate-strike-movement",
+    "haitian-revolution",
+    "hong-kong-protests-2019",
+    "me-too-movement",
+    "the-stonewall-riots",
+    "the-vietnam-war",
+    "the-wild-west",
+    "tiananmen-square-protests-1989"
+  ],
+  "history": [
+    "american-revolution",
+    "apartheid",
+    "aztec-empire",
+    "inca-empire",
+    "maya-civilization",
+    "meiji-restoration",
+    "october-revolution",
+    "ottoman-empire",
+    "salem-witch-trials",
+    "the-age-of-exploration",
+    "the-black-death",
+    "the-crusades",
+    "the-gilded-age",
+    "the-gold-rush",
+    "the-great-depression",
+    "the-gulf-war",
+    "the-iron-curtain",
+    "the-opium-wars",
+    "the-spanish-inquisition",
+    "the-stone-age",
+    "the-stonewall-riots",
+    "the-vietnam-war",
+    "victorian-era"
+  ],
+  "americana": [
+    "american-revolution",
+    "the-wild-west"
+  ],
+  "ancient": [
+    "ancient-egypt",
+    "aztec-empire",
+    "inca-empire",
+    "library-of-alexandria",
+    "maya-civilization",
+    "the-silk-road",
+    "the-stone-age"
+  ],
+  "empire": [
+    "ancient-egypt",
+    "ancient-rome",
+    "fall-of-rome",
+    "ottoman-empire",
+    "the-age-of-exploration",
+    "the-mongol-empire"
+  ],
+  "mythology": [
+    "ancient-egypt"
+  ],
+  "africa": [
+    "ancient-egypt"
+  ],
+  "classic": [
+    "ancient-greece",
+    "ancient-rome",
+    "prohibition-era",
+    "the-age-of-exploration",
+    "the-crusades",
+    "the-enlightenment",
+    "the-samurai-era",
+    "the-silk-road",
+    "the-spanish-inquisition",
+    "the-vikings",
+    "the-wild-west",
+    "victorian-era"
+  ],
+  "philosophical-ideas": [
+    "ancient-greece",
+    "the-enlightenment"
+  ],
+  "dark": [
+    "apartheid",
+    "chernobyl-disaster",
+    "salem-witch-trials",
+    "the-black-death",
+    "the-iron-curtain",
+    "the-manhattan-project",
+    "the-spanish-inquisition"
+  ],
+  "revolution": [
+    "arab-spring",
+    "black-panther-party",
+    "fall-of-the-soviet-union-1991",
+    "french-revolution"
+  ],
+  "ritual": [
+    "aztec-empire"
+  ],
+  "championship": [
+    "beijing-olympics-2008"
+  ],
+  "contemporary": [
+    "beijing-olympics-2008",
+    "black-lives-matter-movement",
+    "brexit-2016-2020",
+    "climate-strike-movement",
+    "covid-19-pandemic",
+    "digital-revolution",
+    "fukushima-disaster-2011",
+    "hong-kong-protests-2019",
+    "hurricane-katrina-2005",
+    "indian-ocean-tsunami-2004",
+    "me-too-movement",
+    "rise-of-social-media-2004-2015",
+    "russian-annexation-of-crimea-2014",
+    "smartphone-revolution-2007",
+    "the-information-age",
+    "us-capitol-attack-2021",
+    "y2k-bug-2000"
+  ],
+  "civil-rights": [
+    "black-panther-party"
+  ],
+  "politics": [
+    "black-panther-party",
+    "cold-war",
+    "french-revolution"
+  ],
+  "black-power": [
+    "black-panther-party"
+  ],
+  "technical": [
+    "chernobyl-disaster",
+    "digital-revolution",
+    "inca-empire",
+    "maya-civilization",
+    "meiji-restoration",
+    "smartphone-revolution-2007",
+    "the-gulf-war",
+    "the-information-age",
+    "the-manhattan-project",
+    "the-space-race",
+    "y2k-bug-2000"
+  ],
+  "industrial": [
+    "chernobyl-disaster",
+    "victorian-era"
+  ],
+  "decay": [
+    "chernobyl-disaster",
+    "the-black-death"
+  ],
+  "activism": [
+    "civil-rights-movement"
+  ],
+  "equality": [
+    "civil-rights-movement"
+  ],
+  "black-history": [
+    "civil-rights-movement",
+    "harlem-renaissance"
+  ],
+  "usa": [
+    "civil-rights-movement",
+    "moon-landing"
+  ],
+  "peace": [
+    "climate-strike-movement",
+    "covid-19-pandemic",
+    "euro-currency-launch-1999-2002",
+    "european-migrant-crisis-2015",
+    "european-union-expansion-2004",
+    "fall-of-berlin-wall-1989",
+    "fukushima-disaster-2011",
+    "good-friday-agreement-1998",
+    "hurricane-katrina-2005",
+    "indian-ocean-tsunami-2004",
+    "nelson-mandela-release-1990",
+    "paris-climate-agreement-2015"
+  ],
+  "espionage": [
+    "cold-war"
+  ],
+  "global": [
+    "cold-war",
+    "the-age-of-exploration",
+    "the-silk-road",
+    "the-space-race",
+    "world-war-ii"
+  ],
+  "innovative": [
+    "digital-revolution",
+    "meiji-restoration",
+    "smartphone-revolution-2007",
+    "the-information-age",
+    "the-renaissance"
+  ],
+  "futuristic": [
+    "digital-revolution",
+    "the-information-age",
+    "the-space-race"
+  ],
+  "music": [
+    "disco-era"
+  ],
+  "culture": [
+    "disco-era",
+    "harlem-renaissance",
+    "roaring-twenties"
+  ],
+  "nightlife": [
+    "disco-era"
+  ],
+  "excess": [
+    "disco-era",
+    "roaring-twenties"
+  ],
+  "crash": [
+    "dot-com-bubble-burst-2000",
+    "global-financial-crisis-2008",
+    "the-great-depression"
+  ],
+  "bear-market": [
+    "dot-com-bubble-burst-2000",
+    "global-financial-crisis-2008"
+  ],
+  "collapse": [
+    "fall-of-rome"
+  ],
+  "decadence": [
+    "fall-of-rome"
+  ],
+  "france": [
+    "french-revolution"
+  ],
+  "grit": [
+    "haitian-revolution",
+    "the-gilded-age",
+    "the-gold-rush",
+    "the-great-depression",
+    "the-mongol-empire",
+    "the-vietnam-war",
+    "the-vikings",
+    "the-wild-west"
+  ],
+  "art": [
+    "harlem-renaissance",
+    "the-renaissance"
+  ],
+  "new-york": [
+    "harlem-renaissance"
+  ],
+  "luxury": [
+    "inca-empire",
+    "ottoman-empire",
+    "the-gilded-age",
+    "the-silk-road"
+  ],
+  "innovation": [
+    "industrial-revolution"
+  ],
+  "industry": [
+    "industrial-revolution"
+  ],
+  "pollution": [
+    "industrial-revolution"
+  ],
+  "urbanization": [
+    "industrial-revolution"
+  ],
+  "capitalism": [
+    "industrial-revolution"
+  ],
+  "intellectual": [
+    "library-of-alexandria"
+  ],
+  "tragedy": [
+    "library-of-alexandria",
+    "the-black-death",
+    "world-war-ii"
+  ],
+  "nature": [
+    "maya-civilization"
+  ],
+  "asian": [
+    "meiji-restoration",
+    "the-samurai-era"
+  ],
+  "space": [
+    "moon-landing"
+  ],
+  "science": [
+    "moon-landing",
+    "the-manhattan-project",
+    "the-space-race"
+  ],
+  "achievement": [
+    "moon-landing"
+  ],
+  "crime": [
+    "prohibition-era"
+  ],
+  "vice": [
+    "prohibition-era",
+    "the-opium-wars"
+  ],
+  "noir": [
+    "prohibition-era"
+  ],
+  "social-media": [
+    "rise-of-social-media-2004-2015"
+  ],
+  "viral": [
+    "rise-of-social-media-2004-2015"
+  ],
+  "prosperity": [
+    "roaring-twenties"
+  ],
+  "jazz": [
+    "roaring-twenties"
+  ],
+  "hysteria": [
+    "salem-witch-trials"
+  ],
+  "religious": [
+    "salem-witch-trials",
+    "the-spanish-inquisition"
+  ],
+  "religion": [
+    "the-crusades"
+  ],
+  "logic": [
+    "the-enlightenment"
+  ],
+  "business-economics": [
+    "the-gilded-age",
+    "the-great-depression"
+  ],
+  "hustle": [
+    "the-gold-rush"
+  ],
+  "greed": [
+    "the-gold-rush"
+  ],
+  "modern": [
+    "the-gulf-war"
+  ],
+  "cold-war": [
+    "the-iron-curtain"
+  ],
+  "speed": [
+    "the-mongol-empire"
+  ],
+  "imperialism": [
+    "the-opium-wars"
+  ],
+  "renaissance": [
+    "the-renaissance"
+  ],
+  "honor": [
+    "the-samurai-era"
+  ],
+  "raw": [
+    "the-stone-age"
+  ],
+  "origin": [
+    "the-stone-age"
+  ],
+  "social": [
+    "the-stonewall-riots"
+  ],
+  "identity": [
+    "the-stonewall-riots"
+  ],
+  "relic": [
+    "the-vikings"
+  ],
+  "vintage": [
+    "victorian-era"
+  ],
+  "military": [
+    "world-war-ii"
+  ]
+}

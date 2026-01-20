@@ -1,0 +1,19 @@
+{
+  "id": "ram",
+  "type": "tech",
+  "name": "RAM",
+  "aliases": ["Memory", "System Memory"],
+  "era": "1960s-Present",
+  "tags": ["technical", "hardware", "speed", "fleeting"],
+  "angles": ["short term memory", "speed of access", "volatile power"],
+  "bar_seeds": ["keeping it in memory", "switching lanes fast", "volatile thoughts"],
+  "related_ids": [],
+  "category": "Hardware",
+  "what_it_is": "Random Access Memory; short-term storage for data currently being used.",
+  "why_it_matters": "Determines how many tasks a computer can handle at once and how fast it responds.",
+  "risks": ["Data loss upon power off", "Physical damage", "Bottlenecking"],
+  "metaphors": ["A messy desk", "Working memory", "The immediate present"],
+  "keywords": ["DDR5", "Latency", "Bandwidth", "Capacity", "Volatile"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

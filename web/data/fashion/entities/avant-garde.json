@@ -1,0 +1,47 @@
+{
+  "id": "avant-garde",
+  "type": "fashion",
+  "name": "Avant-Garde Fashion",
+  "aliases": [
+    "Experimental Fashion",
+    "Dark Wear"
+  ],
+  "era": "20th Century-Present",
+  "tags": [
+    "experimental",
+    "conceptual",
+    "high-fashion",
+    "dark"
+  ],
+  "one_liner": "Fashion that pushes the boundaries of structure, silhouette, and the definition of clothing itself.",
+  "angles": [
+    "clothing as sculpture",
+    "challenging the human form",
+    "the beauty in the bizarre"
+  ],
+  "bar_seeds": [
+    "deconstructed seams",
+    "unconventional drapes",
+    "monolithic shapes",
+    "experimental texture"
+  ],
+  "item_type": "High-end Apparel",
+  "material": [
+    "Varies (includes latex, metal, paper, and fine wool)"
+  ],
+  "cultural_significance": "Acts as the 'intellectual' wing of the fashion world, prioritizing concept over commerciality.",
+  "fit": [
+    "Exaggerated / Unconventional"
+  ],
+  "associated_brands": [
+    "Rick Owens",
+    "Comme des Garçons",
+    "Yohji Yamamoto"
+  ],
+  "related_ids": [
+    "balenciaga"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,25 @@
+{
+  "1990s-Present": [
+    "atlanta",
+    "chicago-south-side",
+    "detroit-8-mile"
+  ],
+  "1980s-Present": [
+    "brooklyn-bed-stuy",
+    "compton",
+    "marcy-houses",
+    "queensbridge",
+    "south-central-la"
+  ],
+  "1920s-Present": [
+    "harlem"
+  ],
+  "1970s-Present": [
+    "london-brixton",
+    "new-york-city-bronx",
+    "new-york-city-bronx"
+  ],
+  "Modern Era": [
+    "tokyo-shibuya"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "arthurs-fist",
+  "type": "internet-culture",
+  "name": "Arthur's Fist",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A close-up of Arthur Read's clenched fist, representing suppressed anger and frustration.",
+  "tags": ["classic", "grit", "raw", "nostalgic"],
+  "angles": ["frustration", "restraint", "anger"],
+  "bar_seeds": ["clenched fist", "yellow sweater", "trying to stay calm"],
+  "related_ids": [],
+  "format": "Reaction Image",
+  "origin_platform": "Twitter / Reddit",
+  "meaning": "Expressing intense but internal rage or a 'done with this' attitude.",
+  "remix_rules": ["Yellow sweater sleeve", "Focus on the hand", "Relatable frustration captions"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["Clenching the fist like Arthur in the yellow", "Internal rage, but I'm keeping it steady"]
+}

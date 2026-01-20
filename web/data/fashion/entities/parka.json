@@ -1,0 +1,18 @@
+{
+  "id": "parka",
+  "type": "fashion",
+  "name": "Parka",
+  "aliases": ["Anorak", "Fishtail Parka"],
+  "era": "Ancient-Present (Modern 1950s)",
+  "tags": ["winter", "mod", "utility", "gorpcore"],
+  "one_liner": "A large windproof jacket with a hood, often lined with fur or faux fur, designed for extreme cold.",
+  "angles": ["arctic-survival", "mod-subculture-staple", "utilitarian-volume"],
+  "bar_seeds": ["fishtail hem", "fur lined hood", "beating the blizzard"],
+  "item_type": "Outerwear",
+  "material": ["Nylon", "Cotton Canvas", "Fur"],
+  "cultural_significance": "Essential for Inuit survival; later adopted by the UK Mod subculture and indie rock fans.",
+  "fit": ["Oversized", "Long"],
+  "associated_brands": ["The North Face", "Alpha Industries", "Canada Goose"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

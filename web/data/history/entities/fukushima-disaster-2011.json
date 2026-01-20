@@ -1,0 +1,48 @@
+{
+  "id": "fukushima-disaster-2011",
+  "type": "history",
+  "name": "Fukushima Disaster",
+  "aliases": [
+    "Fukushima Daiichi disaster"
+  ],
+  "era": "2011",
+  "tags": [
+    "legacy",
+    "mainstream",
+    "contemporary",
+    "peace"
+  ],
+  "one_liner": "A massive earthquake and tsunami triggered a nuclear accident in Japan.",
+  "angles": [
+    "nature's force",
+    "nuclear fallout",
+    "resilience"
+  ],
+  "bar_seeds": [
+    "waves over the wall",
+    "reactor lights",
+    "silent fallout"
+  ],
+  "key_dates": [
+    "2011-03-11"
+  ],
+  "location": "Japan",
+  "impact": "Shifted global energy policy and heightened nuclear safety concerns.",
+  "major_figures": [
+    "Naoto Kan"
+  ],
+  "cultural_shift": "Public skepticism toward nuclear power increased.",
+  "related_ids": [
+    "the-future"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

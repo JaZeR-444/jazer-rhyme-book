@@ -1,0 +1,18 @@
+{
+  "id": "apocalypse-now-1979",
+  "type": "cinema",
+  "name": "Apocalypse Now",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+  "tags": ["war", "psychological", "classic", "dark"],
+  "angles": ["madness", "imperialism", "river"],
+  "bar_seeds": ["ride of the valkyries", "horror the horror", "smell of napalm"],
+  "related_ids": [],
+  "era": "1979",
+  "plot_hooks": ["The mission", "The boat journey", "Meeting Kurtz"],
+  "iconic_scenes": ["Helicopter attack", "I love the smell of napalm", "The horror..."],
+  "visual_motifs": ["Ceiling fans", "Jungle mist", "Orange smoke"],
+  "themes": ["Insanity", "Hypocrisy of war", "Darkness of human heart"],
+  "quotables_short": ["The horror... the horror.", "I love the smell of napalm in the morning."]
+}

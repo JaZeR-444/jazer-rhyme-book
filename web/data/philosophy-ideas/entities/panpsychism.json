@@ -1,0 +1,17 @@
+{
+  "id": "panpsychism",
+  "type": "philosophy-ideas",
+  "name": "Panpsychism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The view that mind or a mind-like aspect is a fundamental and ubiquitous feature of reality.",
+  "tags": ["esoteric", "abstract", "existence", "spiritual"],
+  "angles": ["consciousness-everywhere", "sentient-universe", "the-ghost-in-the-atom"],
+  "bar_seeds": ["the rocks are dreaming", "universe is awake", "everything is soul"],
+  "related_ids": ["dualism", "metaphysics"],
+  "school_of_thought": "Philosophy of Mind",
+  "core_question": "Is consciousness a fundamental property of matter?",
+  "key_philosophers": ["Galen Strawson", "David Chalmers (roots)", "Philip Goff"],
+  "paradoxes": ["The Combination Problem"],
+  "modern_application": "Theories of everything, artificial consciousness, ecological ethics."
+}

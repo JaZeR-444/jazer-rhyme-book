@@ -1,0 +1,17 @@
+{
+  "id": "dividends",
+  "type": "business-economics",
+  "name": "Dividends",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A distribution of profits by a corporation to its shareholders.",
+  "tags": ["wealth", "money", "hustle", "technical"],
+  "angles": ["recurring-payout", "shareholder-value", "passive-reward"],
+  "bar_seeds": ["quarterly check", "getting my cut", "dividends hitting the account"],
+  "related_ids": ["passive-income", "stock-market"],
+  "industry": "Finance",
+  "core_principle": "Profit sharing with owners.",
+  "jargon": ["Yield", "Ex-dividend date", "Payout ratio"],
+  "key_metrics": ["Dividend Yield", "Dividend Growth"],
+  "archetypes": ["Income Investor", "Shareholder"]
+}

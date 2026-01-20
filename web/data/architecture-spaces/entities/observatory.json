@@ -1,0 +1,17 @@
+{
+  "id": "observatory",
+  "type": "architecture-spaces",
+  "name": "Observatory",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A building containing a large telescope or other scientific equipment for studying the stars and the universe.",
+  "tags": ["technical", "science", "cosmic", "intellectual"],
+  "angles": ["stargazing", "celestial-connection", "lonely-watcher"],
+  "bar_seeds": ["gazing at the stars", "opening the dome", "light years away"],
+  "related_ids": ["the-space-race", "black-hole"],
+  "style": "Scientific / Functional",
+  "materials": ["Steel", "Glass", "Concrete"],
+  "spatial_qualities": ["Vertical", "Dome-shaped", "Isolated"],
+  "function": "Research / Observation",
+  "famous_examples": ["Griffith Observatory", "Mauna Kea"]
+}

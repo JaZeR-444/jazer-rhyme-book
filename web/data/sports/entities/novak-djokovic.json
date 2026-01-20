@@ -1,0 +1,19 @@
+{
+  "id": "novak-djokovic",
+  "type": "sports",
+  "name": "Novak Djokovic",
+  "aliases": ["Nole", "The Joker"],
+  "era": "2000s-Present",
+  "tags": ["tennis", "stoicism", "technical", "dominance"],
+  "one_liner": "The most successful male tennis player in history, known for his incredible return, defense, and mental toughness.",
+  "angles": ["mental giant", "the return king", "elasticity"],
+  "bar_seeds": ["24 slams", "sliding on the baseline", "dietary discipline"],
+  "team_size": "1 (Tennis)",
+  "key_skills": ["Return of serve", "Movement", "Endurance"],
+  "equipment": ["Tennis racket (Head)", "Asics shoes"],
+  "metaphors": ["The Human Wall"],
+  "legends": ["Most Grand Slam titles in men's tennis"],
+  "related_ids": ["roger-federer"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

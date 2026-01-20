@@ -1,0 +1,17 @@
+{
+  "id": "lab-grown-meat",
+  "type": "science-future",
+  "name": "Lab-Grown Meat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Meat produced by in vitro cultivation of animal cells, instead of from slaughtered animals.",
+  "tags": ["technical", "organic", "innovative", "ethical"],
+  "angles": ["meat-without-murder", "cellular-agriculture", "sterile-protein"],
+  "bar_seeds": ["cultivated steak", "zero kill", "muscle in the vat"],
+  "related_ids": ["biotechnology"],
+  "field": "Synthetic Biology / Food Science",
+  "hypothesis": "Real animal tissue can be grown sustainably from stem cells.",
+  "implications": ["End of factory farming", "Reduced methane emissions", "Design-your-own nutrition"],
+  "technologies": ["Bioreactors", "Stem Cell Culture", "3D Bioprinting"],
+  "ethical_concerns": ["Naturalness vs Artifice", "Economic impact on farmers", "Corporate control of protein"]
+}

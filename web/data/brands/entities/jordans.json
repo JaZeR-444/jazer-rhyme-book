@@ -1,0 +1,20 @@
+{
+  "id": "jordans",
+  "type": "brands",
+  "name": "Jordan (Jordans)",
+  "aliases": ["Jordans"],
+  "era": "Unknown",
+  "tags": ["Brands & Artifacts"],
+  "one_liner": "Iconic Style. \"Tip-toeing in my Jordans\" mixes stealth with classic sneaker culture.",
+  "angles": [],
+  "bar_seeds": ["\"Tip-toeing in my Jordans\""],
+  "known_for": [],
+  "vibe": "Stealthy, classic",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["michael-jordan", "jordan-brand"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

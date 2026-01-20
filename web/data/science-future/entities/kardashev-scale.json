@@ -1,0 +1,17 @@
+{
+  "id": "kardashev-scale",
+  "type": "science-future",
+  "name": "Kardashev Scale",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A method of measuring a civilization's level of technological advancement based on the amount of energy they are able to use.",
+  "tags": ["technical", "futuristic", "global", "energy"],
+  "angles": ["levels of power", "planetary to cosmic", "measuring progress"],
+  "bar_seeds": ["type one two three", "harvesting the sun", "galactic empire"],
+  "related_ids": ["dyson-sphere", "space-colonization"],
+  "field": "Futurism / Cosmology",
+  "hypothesis": "Civilizations can be categorized by their energy consumption: Planetary (I), Stellar (II), and Galactic (III).",
+  "implications": ["Vision for human future", "Search for extra-terrestrial signals", "Resource requirements"],
+  "technologies": ["Dyson Spheres", "Fusion", "Antimatter"],
+  "ethical_concerns": ["Environmental impact", "Galactic domination"]
+}

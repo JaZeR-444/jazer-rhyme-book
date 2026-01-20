@@ -1,0 +1,382 @@
+{
+  "pastel": [
+    "blue-hour"
+  ],
+  "noir": [
+    "blue-hour",
+    "witching-hour"
+  ],
+  "cinematic": [
+    "blue-hour",
+    "golden-hour"
+  ],
+  "fleeting": [
+    "blue-hour",
+    "deja-vu",
+    "golden-hour",
+    "jet-lag",
+    "the-present"
+  ],
+  "exhaustion": [
+    "burnout"
+  ],
+  "dark": [
+    "burnout",
+    "dark-energy",
+    "decay",
+    "entropy",
+    "event-horizon",
+    "heat-death",
+    "witching-hour"
+  ],
+  "hustle": [
+    "burnout"
+  ],
+  "anxiety": [
+    "burnout",
+    "jet-lag"
+  ],
+  "technical": [
+    "butterfly-effect",
+    "circadian-rhythm",
+    "critical-mass",
+    "dark-energy",
+    "electricity",
+    "event-horizon",
+    "flow-state",
+    "flow-state",
+    "gravity-force",
+    "half-life",
+    "jet-lag",
+    "kinetic-energy",
+    "light-waves",
+    "magnetism",
+    "nuclear-energy",
+    "perpetual-motion",
+    "quantum-leap",
+    "sound-waves",
+    "static",
+    "the-big-bang",
+    "the-speed-of-light",
+    "time-dilation",
+    "zero-point-energy"
+  ],
+  "chaos": [
+    "butterfly-effect"
+  ],
+  "scientific": [
+    "butterfly-effect",
+    "critical-mass",
+    "entropy",
+    "gravity-force",
+    "half-life",
+    "heat-death",
+    "light-waves",
+    "magnetism"
+  ],
+  "future": [
+    "butterfly-effect"
+  ],
+  "organic": [
+    "circadian-rhythm",
+    "decay"
+  ],
+  "cyclical": [
+    "circadian-rhythm",
+    "eternal-return",
+    "tidal-force"
+  ],
+  "stoicism": [
+    "circadian-rhythm"
+  ],
+  "momentum": [
+    "critical-mass",
+    "flow-state",
+    "kinetic-energy",
+    "perpetual-motion",
+    "quantum-leap",
+    "wind-energy"
+  ],
+  "explosive": [
+    "critical-mass",
+    "nuclear-energy",
+    "the-big-bang"
+  ],
+  "esoteric": [
+    "dark-energy",
+    "deja-vu",
+    "eternal-return",
+    "fate",
+    "synchronicity",
+    "witching-hour",
+    "zero-point-energy"
+  ],
+  "cosmic": [
+    "dark-energy",
+    "event-horizon"
+  ],
+  "grit": [
+    "decay",
+    "gravity-force",
+    "high-noon"
+  ],
+  "entropy": [
+    "decay",
+    "entropy",
+    "heat-death"
+  ],
+  "surreal": [
+    "deja-vu",
+    "synchronicity"
+  ],
+  "nostalgic": [
+    "deja-vu"
+  ],
+  "industrial": [
+    "electricity",
+    "nuclear-energy",
+    "static"
+  ],
+  "vibrant": [
+    "electricity",
+    "golden-hour",
+    "kinetic-energy",
+    "light-waves",
+    "solar-energy"
+  ],
+  "energy": [
+    "electricity",
+    "frequency",
+    "momentum",
+    "potential-energy",
+    "resonance",
+    "solar-energy",
+    "stasis",
+    "vibration",
+    "wind-energy",
+    "zero-point-energy"
+  ],
+  "quantum": [
+    "entropy",
+    "quantum-leap",
+    "synchronicity",
+    "temporal-paradox",
+    "the-big-bang",
+    "the-speed-of-light",
+    "time-dilation",
+    "zero-point-energy"
+  ],
+  "legacy": [
+    "era",
+    "karma",
+    "the-past"
+  ],
+  "history": [
+    "era"
+  ],
+  "classic": [
+    "era",
+    "fate",
+    "high-noon"
+  ],
+  "contemporary": [
+    "era"
+  ],
+  "eternal": [
+    "eternal-return",
+    "perpetual-motion"
+  ],
+  "philosophical-ideas": [
+    "eternal-return",
+    "fate",
+    "free-will",
+    "karma"
+  ],
+  "gravity": [
+    "event-horizon",
+    "tidal-force",
+    "time-dilation"
+  ],
+  "fate": [
+    "fate"
+  ],
+  "zen": [
+    "flow-state"
+  ],
+  "rebellion": [
+    "free-will"
+  ],
+  "logic": [
+    "free-will",
+    "temporal-paradox"
+  ],
+  "existence": [
+    "free-will",
+    "infinity",
+    "the-present"
+  ],
+  "audio": [
+    "frequency",
+    "resonance"
+  ],
+  "science": [
+    "frequency",
+    "potential-energy"
+  ],
+  "repetition": [
+    "frequency"
+  ],
+  "aesthetic": [
+    "golden-hour"
+  ],
+  "universal": [
+    "gravity-force",
+    "light-waves"
+  ],
+  "decay": [
+    "half-life"
+  ],
+  "time": [
+    "half-life",
+    "infinity",
+    "the-future",
+    "the-past",
+    "the-present"
+  ],
+  "finality": [
+    "heat-death"
+  ],
+  "western": [
+    "high-noon"
+  ],
+  "clutch": [
+    "high-noon"
+  ],
+  "math": [
+    "infinity"
+  ],
+  "vast": [
+    "infinity"
+  ],
+  "global": [
+    "jet-lag"
+  ],
+  "spiritual": [
+    "karma",
+    "vibration"
+  ],
+  "cause-effect": [
+    "karma"
+  ],
+  "speed": [
+    "kinetic-energy",
+    "the-speed-of-light"
+  ],
+  "invisible": [
+    "magnetism"
+  ],
+  "power": [
+    "magnetism",
+    "momentum",
+    "nuclear-energy",
+    "potential-energy",
+    "tidal-force"
+  ],
+  "movement": [
+    "momentum"
+  ],
+  "growth": [
+    "momentum"
+  ],
+  "impossible": [
+    "perpetual-motion"
+  ],
+  "anticipation": [
+    "potential-energy",
+    "the-future"
+  ],
+  "innovative": [
+    "quantum-leap"
+  ],
+  "connection": [
+    "resonance"
+  ],
+  "impact": [
+    "resonance"
+  ],
+  "nature": [
+    "solar-energy",
+    "tidal-force",
+    "wind-energy"
+  ],
+  "renewable": [
+    "solar-energy",
+    "wind-energy"
+  ],
+  "vibration": [
+    "sound-waves"
+  ],
+  "music": [
+    "sound-waves"
+  ],
+  "physical": [
+    "sound-waves"
+  ],
+  "stillness": [
+    "stasis"
+  ],
+  "balance": [
+    "stasis"
+  ],
+  "stagnation": [
+    "stasis"
+  ],
+  "lo-fi": [
+    "static"
+  ],
+  "stasis": [
+    "static"
+  ],
+  "meaning": [
+    "synchronicity"
+  ],
+  "sci-fi": [
+    "temporal-paradox"
+  ],
+  "abstract": [
+    "temporal-paradox"
+  ],
+  "origin": [
+    "the-big-bang"
+  ],
+  "potential": [
+    "the-future"
+  ],
+  "unknown": [
+    "the-future"
+  ],
+  "memory": [
+    "the-past"
+  ],
+  "foundation": [
+    "the-past"
+  ],
+  "focus": [
+    "the-present"
+  ],
+  "futuristic": [
+    "the-speed-of-light"
+  ],
+  "time-energy": [
+    "time-dilation"
+  ],
+  "sensory": [
+    "vibration"
+  ],
+  "feeling": [
+    "vibration"
+  ],
+  "omen": [
+    "witching-hour"
+  ]
+}

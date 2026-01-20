@@ -1,0 +1,19 @@
+{
+  "id": "kyrie-irving",
+  "type": "sports",
+  "name": "Kyrie Irving",
+  "aliases": ["Uncle Drew", "Kai"],
+  "era": "2010s-Present",
+  "tags": ["basketball", "technical", "esoteric", "skill"],
+  "one_liner": "Possesses arguably the greatest ball-handling skills in basketball history and a flair for the dramatic finish.",
+  "angles": ["the handles", "finishing at the rim", "philosophical athlete"],
+  "bar_seeds": ["uncle drew", "flat earth", "clutch shot 2016"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Ball handling", "Finishing", "Shot creation"],
+  "equipment": ["Basketball", "Nike Kyrie shoes"],
+  "metaphors": ["The Alchemist of the court"],
+  "legends": ["2016 NBA Champion", "All-Star MVP"],
+  "related_ids": ["lebron-james", "kevin-durant"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

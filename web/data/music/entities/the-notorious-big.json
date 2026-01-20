@@ -1,0 +1,18 @@
+{
+  "id": "the-notorious-big",
+  "type": "music",
+  "name": "The Notorious B.I.G.",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The King of New York, celebrated for his effortless flow and intricate storytelling.",
+  "tags": ["legacy", "flow", "storytelling", "luxury"],
+  "angles": ["smoothness", "brooklyn", "dominance"],
+  "bar_seeds": ["biggie smalls", "juicy", "coogi sweater"],
+  "related_ids": ["jay-z", "tupac-shakur"],
+  "genre": ["Hip Hop", "East Coast Hip Hop"],
+  "era_detail": "1990s",
+  "signature_songs": ["Juicy", "Hypnotize", "Big Poppa"],
+  "sonic_descriptors": ["Deep voice", "Laid back flow", "Funk samples"],
+  "influence_tree": ["Big Daddy Kane", "Heavy D"],
+  "aesthetic": "Opulent Street King"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "casino",
+  "type": "architecture-spaces",
+  "name": "Casino",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A facility for certain types of gambling, designed to disorient and keep players inside.",
+  "tags": ["luxury", "vice", "vibrant", "disorienting"],
+  "angles": ["luck", "time-loss", "neon"],
+  "bar_seeds": ["no clocks on the wall", "carpet patterns", "sound of slots"],
+  "related_ids": [],
+  "style": "Thematic / Windowless",
+  "materials": ["Carpet", "Gold", "Neon"],
+  "spatial_qualities": ["Windowless", "Maze-like", "Loud"],
+  "function": "Gambling / Entertainment",
+  "famous_examples": ["Bellagio", "Caesars Palace"]
+}

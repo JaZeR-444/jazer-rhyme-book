@@ -1,0 +1,17 @@
+{
+  "id": "toast",
+  "type": "rituals-symbols",
+  "name": "Toast",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A ritual in which a drink is taken as an expression of honor or goodwill.",
+  "tags": ["ritual", "celebration", "social", "classic"],
+  "angles": ["honor", "unity", "success"],
+  "bar_seeds": ["raise the glass", "clinking metal", "to the kings"],
+  "related_ids": ["ceremony", "libation"],
+  "purpose": "To honor a person, celebrate an achievement, or strengthen a bond.",
+  "steps": ["Raising glasses", "Making a short speech", "Clinking glasses and drinking"],
+  "objects_used": ["Glasses", "Wine", "Champagne", "Spirits"],
+  "participants": "Guests, Host, Honoree",
+  "outcome": "Social cohesion and recognized achievement."
+}

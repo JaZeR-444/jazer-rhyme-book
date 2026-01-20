@@ -1,0 +1,54 @@
+{
+  "id": "harlem",
+  "type": "place",
+  "name": "Harlem",
+  "aliases": [
+    "The Mecca",
+    "Uptown"
+  ],
+  "era": "1920s-Present",
+  "tags": [
+    "manhattan",
+    "new-york",
+    "renaissance",
+    "hustle",
+    "fashion"
+  ],
+  "one_liner": "The cultural mecca of Black America, known for its renaissance and its sharp, flashy street culture.",
+  "angles": [
+    "uptown luxury",
+    "the hustle capital",
+    "renaissance legacy"
+  ],
+  "bar_seeds": [
+    "harlem world",
+    "uptown anthem",
+    "125th street",
+    "apollo theater"
+  ],
+  "vibe": "Flashy, historic, confident, and soulful",
+  "sensory_cues": [
+    "rucker park games",
+    "apollo marquee",
+    "tailored suits",
+    "sounds of jazz and rap"
+  ],
+  "cultural_refs": [
+    "Cam'ron",
+    "ASAP Rocky",
+    "Big L",
+    "Paid in Full"
+  ],
+  "bar_angles": [
+    "harlem in the veins",
+    "flashy like a harlem king"
+  ],
+  "related_ids": [
+    "paid-in-full-2002",
+    "juice-1992"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

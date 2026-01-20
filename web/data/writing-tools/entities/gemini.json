@@ -1,0 +1,21 @@
+{
+  "id": "gemini",
+  "type": "writing-tool",
+  "name": "Gemini",
+  "aliases": ["Google Gemini", "Bard"],
+  "era": "2023-Present",
+  "tags": ["ai", "digital", "google", "integrated"],
+  "one_liner": "Google's multimodal AI, integrated into various search and productivity tools.",
+  "angles": ["connected intelligence", "multimodal creativity", "search-driven writing"],
+  "bar_seeds": ["gemini vision", "google's ghost in the machine", "connected flow"],
+  "category": "Artificial Intelligence",
+  "what_it_does": "A large language model with multimodal capabilities and Google search integration.",
+  "best_for": ["Researching topics", "Fact-checking", "Creative brainstorming"],
+  "workflow_hooks": ["Real-time data integration", "Summarizing articles for inspiration"],
+  "pitfalls": ["Inconsistent quality", "Privacy concerns"],
+  "bar_angles": ["scanning with the gemini", "google search in the brain"],
+  "related_ids": ["artificial-intelligence"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

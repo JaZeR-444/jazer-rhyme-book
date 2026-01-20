@@ -1,0 +1,19 @@
+{
+  "id": "beanie",
+  "type": "fashion",
+  "name": "Beanie",
+  "aliases": ["Skullcap", "Watch Cap"],
+  "era": "Ancient-Present",
+  "tags": ["winter", "streetwear", "casual", "utility"],
+  "one_liner": "A brimless cap, typically made of knitted wool, which hugs the head.",
+  "angles": ["winter-comfort", "skater-edge", "low-profile-style"],
+  "bar_seeds": ["folded cuff", "ribbed knit", "keeping the thoughts warm"],
+  "related_ids": ["streetwear"],
+  "item_type": "Accessories",
+  "material": ["Wool", "Acrylic", "Cashmere"],
+  "cultural_significance": "Utility for sailors and workers transitioned into a skate and hip-hop staple.",
+  "fit": ["Snug", "Slouchy"],
+  "associated_brands": ["Carhartt", "Supreme", "The North Face"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

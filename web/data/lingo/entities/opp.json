@@ -1,0 +1,21 @@
+{
+  "id": "opp",
+  "type": "lingo",
+  "name": "Opp",
+  "aliases": ["Opposition", "The Ops"],
+  "era": "2010s-Present",
+  "tags": ["street", "conflict", "drill", "chicago"],
+  "one_liner": "Short for 'opposition' or 'opponent'; refers to enemies or rivals.",
+  "angles": ["street rivalry", "paranoia", "us vs them"],
+  "bar_seeds": ["smoking on opps", "spot an opp", "avoiding the ops"],
+  "meaning": "An enemy, rival, or anyone standing in opposition to one's interests or safety.",
+  "usage": "Used frequently in drill music to refer to rival gang members.",
+  "origin": "Chicago street culture",
+  "region": "Global (Origin: Chicago)",
+  "example_lines": ["Too many opps in the city", "Watch for the ops"],
+  "do_not_use_if": ["Referring to a friendly competition"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

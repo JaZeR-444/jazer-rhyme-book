@@ -1,0 +1,18 @@
+{
+  "id": "sade",
+  "type": "music",
+  "name": "Sade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The epitome of cool, delivering smooth jazz-pop with an air of mysterious elegance.",
+  "tags": ["smooth", "luxury", "romantic", "classic"],
+  "angles": ["elegance", "mystery", "timelessness"],
+  "bar_seeds": ["smooth operator", "sweetest taboo", "diamond life"],
+  "related_ids": [],
+  "genre": ["Sophisti-pop", "R&B", "Jazz"],
+  "era_detail": "1980s - Present",
+  "signature_songs": ["Smooth Operator", "No Ordinary Love", "The Sweetest Taboo"],
+  "sonic_descriptors": ["Saxophone", "Soft vocals", "Clean production"],
+  "influence_tree": ["Nina Simone", "Astrud Gilberto"],
+  "aesthetic": "Effortless Chic"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tupac-shakur",
+  "type": "people",
+  "name": "Tupac Shakur",
+  "aliases": ["2Pac", "Makaveli"],
+  "era": "1990s",
+  "tags": ["revolutionary", "poet", "west-coast", "legend", "passionate"],
+  "one_liner": "The revolutionary heart of hip-hop, blending thug life with profound social commentary.",
+  "angles": ["thug angel", "political revolutionary", "paranoia"],
+  "bar_seeds": ["california love", "rose that grew from concrete", "hail mary", "thug life tattoo"],
+  "known_for": ["All Eyez on Me", "Me Against the World"],
+  "vibe": "Intense, volatile, soulful",
+  "signature_items": ["Bandana", "Nose ring", "Thug Life tattoo"],
+  "quotables_short": ["Keep ya head up", "I ain't a killer but don't push me"],
+  "controversy_flags": ["East Coast vs West Coast", "Legal troubles"],
+  "related_ids": ["notorious-big", "dr-dre", "snoop-dogg"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

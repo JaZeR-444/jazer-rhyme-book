@@ -1,0 +1,17 @@
+{
+  "id": "pinterest",
+  "type": "media-platforms",
+  "name": "Pinterest",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A visual discovery engine for finding ideas like recipes, home and style inspiration.",
+  "tags": ["aesthetic", "visual", "mellow", "lifestyle"],
+  "angles": ["inspiration", "curation", "moodboard"],
+  "bar_seeds": ["pin it", "moodboard life", "aesthetic curation"],
+  "related_ids": [],
+  "platform_type": "Visual Discovery",
+  "user_demographic": "Females, Creatives, Planners",
+  "content_format": ["Images", "Pins", "Boards"],
+  "algorithm_bias": "Favors visually appealing, high-resolution vertical images.",
+  "slang": ["Pin", "Board", "Aesthetic"]
+}

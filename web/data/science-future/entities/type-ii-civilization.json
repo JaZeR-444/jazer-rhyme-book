@@ -1,0 +1,17 @@
+{
+  "id": "type-ii-civilization",
+  "type": "science-future",
+  "name": "Type II Civilization",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A civilization that can harness the total energy output of its parent star.",
+  "tags": ["futuristic", "cosmic", "massive", "energy"],
+  "angles": ["star-power", "dyson-engineering", "immortal-civilization"],
+  "bar_seeds": ["wrapping the sun", "eternal energy", "moving the solar system"],
+  "related_ids": ["kardashev-scale", "dyson-sphere"],
+  "field": "Futurism",
+  "hypothesis": "Civilizations will eventually build structures to capture 100% of their star's output.",
+  "implications": ["Immense computational power", "Interstellar expansion", "Nigh-immortality of the species"],
+  "technologies": ["Dyson Spheres", "Star Lifting", "Advanced Robotics"],
+  "ethical_concerns": ["Ethics of planet-stripping", "Interstellar conflict"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "brogues",
+  "type": "fashion",
+  "name": "Brogues",
+  "aliases": ["Wingtips"],
+  "era": "19th Century-Present",
+  "tags": ["classic", "heritage", "ornate", "luxury"],
+  "one_liner": "A style of low-heeled shoe or boot characterized by multiple-piece, sturdy leather uppers with decorative perforations.",
+  "angles": ["perforated-ornament", "scottish-heritage", "country-gentleman"],
+  "bar_seeds": ["wingtip patterns", "brogue holes", "country road step"],
+  "related_ids": ["luxury-sneakers"],
+  "item_type": "Footwear",
+  "material": ["Leather", "Grain Leather"],
+  "cultural_significance": "Originally designed for walking in bogs; now a symbol of high-end traditional craftsmanship.",
+  "fit": ["Structured"],
+  "associated_brands": ["Tricker's", "Grenson", "Thom Browne"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

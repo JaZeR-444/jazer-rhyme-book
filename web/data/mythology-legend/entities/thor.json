@@ -1,0 +1,20 @@
+{
+  "id": "thor",
+  "type": "mythology-legend",
+  "name": "Thor",
+  "aliases": ["God of Thunder", "Son of Odin"],
+  "era": "Viking Age / Norse Mythology",
+  "tags": ["deity", "power", "lightning", "norse", "warrior"],
+  "one_liner": "The hammer-wielding Norse god associated with thunder, lightning, storms, and the protection of mankind.",
+  "angles": ["brute force with a noble heart", "the protector of the realm", "unstoppable power"],
+  "bar_seeds": ["mjolnir swing", "thunder roll", "asgardian steel", "storm calling"],
+  "origin_culture": "Norse",
+  "deity_type": "God of Thunder",
+  "powers": ["Weather control", "Superhuman strength", "Wielding Mjolnir"],
+  "symbols": ["Mjolnir (Hammer)", "Goats", "Iron gloves"],
+  "modern_parallels": ["Superheroes", "Powerful protectors"],
+  "related_ids": ["odin"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

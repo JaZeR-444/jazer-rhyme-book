@@ -1,0 +1,17 @@
+{
+  "id": "blue-ocean-strategy",
+  "type": "business-economics",
+  "name": "Blue Ocean Strategy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Creating a new market space where there are no competitors, rather than fighting in a 'red ocean' of rivals.",
+  "tags": ["strategy", "innovative", "business", "visionary"],
+  "angles": ["uncontested", "innovation", "peace"],
+  "bar_seeds": ["swimming alone", "no sharks here", "making the competition irrelevant"],
+  "related_ids": ["monopoly"],
+  "industry": "Strategy",
+  "core_principle": "Value innovation.",
+  "jargon": ["Value Curve", "Red Ocean", "Market Creating"],
+  "key_metrics": ["Market Share (100%)", "New Customers"],
+  "archetypes": ["Innovator", "Disruptor"]
+}

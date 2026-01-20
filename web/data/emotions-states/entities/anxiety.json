@@ -1,0 +1,20 @@
+{
+  "id": "anxiety",
+  "type": "emotions-states",
+  "name": "Anxiety",
+  "aliases": ["The Jitters", "Nerves", "Dread"],
+  "era": "Universal",
+  "tags": ["negative", "high-energy", "tense", "internal"],
+  "one_liner": "A feeling of worry, nervousness, or unease, typically about an imminent event or something with an uncertain outcome.",
+  "angles": ["the racing mind", "waiting for the drop", "internal static"],
+  "bar_seeds": ["shaking hands", "racing pulse", "walking on eggshells", "noise in the silence"],
+  "intensity": "Moderate to Extreme",
+  "physical_symptoms": ["Shortness of breath", "Sweating", "Nausea", "Tight throat"],
+  "triggers": ["Uncertainty", "Social pressure", "Performance", "Trauma"],
+  "action_urge": "To flee, to avoid, to hide",
+  "opposites": ["Zen", "Confidence"],
+  "related_ids": ["emotions-states"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

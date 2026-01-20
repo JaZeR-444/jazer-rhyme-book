@@ -1,0 +1,18 @@
+{
+  "id": "civ-slang",
+  "type": "lingo",
+  "name": "Civ",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Short for 'civilian', referring to someone not involved in street life or gang activity.",
+  "tags": ["slang", "grit", "social-status", "underground"],
+  "angles": ["outsider", "safety", "detachment"],
+  "bar_seeds": ["leave the civs alone", "don't act like a civ", "civilian life"],
+  "related_ids": ["npc-meme"],
+  "meaning": "Civilian / Non-combatant in street context.",
+  "usage": "To distinguish between people 'in the game' and regular citizens.",
+  "origin": "UK Drill / Chicago Drill",
+  "region": "Global Urban",
+  "example_lines": ["He's a civ, don't trip", "Stay in a civ's place"],
+  "do_not_use_if": ["Describing someone's profession unless they are actually an outsider to the scene"]
+}

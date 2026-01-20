@@ -1,0 +1,17 @@
+{
+  "id": "neo-noir",
+  "type": "aesthetics-visuals",
+  "name": "Neo-Noir",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A revival of film noir themes and visuals, characterized by high-contrast lighting, urban decay, and moral ambiguity.",
+  "tags": ["noir", "dark", "cinematic", "contemporary"],
+  "angles": ["shadows", "cynicism", "neon-light"],
+  "bar_seeds": ["rain on the asphalt", "venetian blind shadows", "femme fatale"],
+  "related_ids": ["cyberpunk"],
+  "visual_elements": ["Chiaroscuro lighting", "Wet streets", "Smoke", "Shadows"],
+  "mood": "Mysterious, cynical, tense",
+  "associated_eras": ["1970s", "1980s", "2020s"],
+  "color_palette": ["Pitch Black", "Electric Blue", "Deep Purple", "Crimson"],
+  "fashion_staples": ["Trench coats", "Suits", "Leather jackets", "Fedora (modernized)"]
+}

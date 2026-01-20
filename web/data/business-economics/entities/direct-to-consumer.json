@@ -1,0 +1,17 @@
+{
+  "id": "direct-to-consumer",
+  "type": "business-economics",
+  "name": "Direct-to-Consumer (DTC)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A business model where a brand sells its products directly to its customers, bypassing third-party retailers or wholesalers.",
+  "tags": ["marketing", "business", "hustle", "contemporary"],
+  "angles": ["cutting-the-middleman", "brand-control", "digital-first"],
+  "bar_seeds": ["straight to your door", "no middle man taking a cut", "my own store"],
+  "related_ids": ["shopify"],
+  "industry": "Retail / E-commerce",
+  "core_principle": "Owning the customer relationship.",
+  "jargon": ["Vertical brand", "Customer data", "Margin"],
+  "key_metrics": ["Gross Margin", "Conversion Rate", "AOV"],
+  "archetypes": ["E-commerce Founder", "DTC Marketer"]
+}

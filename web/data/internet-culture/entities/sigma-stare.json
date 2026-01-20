@@ -1,0 +1,18 @@
+{
+  "id": "sigma-stare",
+  "type": "internet-culture",
+  "name": "Sigma Stare",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A meme featuring intense, often unhinged stares from characters like Patrick Bateman, representing the 'Sigma' male archetype.",
+  "tags": ["hustle", "dark", "masculinity", "cinematic"],
+  "angles": ["unbothered", "internal-grind", "unhinged-focus"],
+  "bar_seeds": ["sigma male grindset", "looking in the mirror", "thousand yard stare"],
+  "related_ids": ["american-psycho-2000", "villain-arc"],
+  "format": "Video Edit / GIF",
+  "origin_platform": "TikTok / YouTube",
+  "meaning": "The pursuit of one's goals without regard for social approval; often used ironically.",
+  "remix_rules": ["Slow-motion zoom on face", "Phonk music soundtrack", "Rules for 'Sigma' behavior"],
+  "lifespan_risk": "Moderate-High",
+  "example_lines": ["Locked in with the Sigma stare", "I don't need friends, I need assets. Sigma mind."]
+}

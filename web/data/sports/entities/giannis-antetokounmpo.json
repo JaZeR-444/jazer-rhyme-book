@@ -1,0 +1,59 @@
+{
+  "id": "giannis-antetokounmpo",
+  "type": "sports",
+  "name": "Giannis Antetokounmpo",
+  "aliases": [
+    "Greek Freak"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "championship",
+    "athlete",
+    "aggressive",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NBA forward whose power, length, and speed make him a dominant two-way force.",
+  "angles": [
+    "freight-train drives",
+    "two-way domination",
+    "late-game finisher"
+  ],
+  "bar_seeds": [
+    "freak in the paint",
+    "Eurostep thunder",
+    "ring on the finger"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Rim pressure",
+    "Defense",
+    "Transition speed"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "freight train",
+    "storm at the rim"
+  ],
+  "legends": [
+    "NBA title run",
+    "Multiple MVPs"
+  ],
+  "related_ids": [
+    "lebron-james",
+    "michael-jordan"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giannis_Antetokounmpo",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

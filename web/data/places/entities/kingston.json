@@ -1,0 +1,17 @@
+{
+  "id": "kingston",
+  "type": "places",
+  "name": "Kingston",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The heartbeat of Jamaica and the global birthplace of reggae, dancehall, and soundsystem culture.",
+  "tags": ["rebellion", "vibrant", "caribbean", "history"],
+  "angles": ["soundsystem roots", "island grit", "cultural fire"],
+  "bar_seeds": ["trenchtown rock", "dub plates", "caribbean heat"],
+  "related_ids": ["wagwan"],
+  "place_type": "city",
+  "vibe": "Authentic, resilient, and musical.",
+  "sensory_cues": ["Bass bins rattling", "Jerk smoke", "Tropical heat", "Old paint"],
+  "cultural_refs": ["Bob Marley", "Dancehall", "Soundsystems"],
+  "bar_angles": ["The origin of the sound", "Island king", "Rhythm of the streets"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "blade-runner-1982",
+  "type": "cinema",
+  "name": "Blade Runner",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+  "tags": ["cyberpunk", "noir", "sci-fi", "classic"],
+  "angles": ["tears-in-rain", "replicant-identity", "dystopian-neon"],
+  "bar_seeds": ["tears in the rain", "more human than human", "retired replicant"],
+  "related_ids": ["blade-runner-2049", "cyberpunk"],
+  "era": "1982",
+  "plot_hooks": ["Hunting replicants", "Voight-Kampff test", "Meeting Tyrell"],
+  "iconic_scenes": ["Tears in rain monologue", "The eye reveal", "Pris in the toy room"],
+  "visual_motifs": ["Constant rain", "Neon signs", "Glowing eyes"],
+  "themes": ["What makes us human", "Environmental collapse", "Memory"],
+  "quotables_short": ["All those moments will be lost in time...", "More human than human is our motto."]
+}

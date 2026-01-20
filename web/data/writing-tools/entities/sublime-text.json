@@ -1,0 +1,18 @@
+{
+  "id": "sublime-text",
+  "type": "writing-tool",
+  "name": "Sublime Text",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sophisticated text editor for code, markup, and prose, known for its speed and slick user interface.",
+  "tags": ["tool", "technical", "minimalist", "speed"],
+  "angles": ["speed", "distraction-free", "customization"],
+  "bar_seeds": ["multiple cursors", "dark mode default", "syntax highlight"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_does": "Edits text efficiently with powerful search and replace features.",
+  "best_for": ["coding", "distraction-free writing", "technical lyrics"],
+  "workflow_hooks": ["Use distraction-free mode", "Multi-edit repeated choruses"],
+  "pitfalls": ["Aimed at coders", "Paid license"],
+  "bar_angles": ["Code of the street", "Syntax error", "Rapid fire"]
+}

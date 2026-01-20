@@ -1,0 +1,20 @@
+{
+  "id": "smart-home",
+  "type": "tech",
+  "name": "Smart Home",
+  "aliases": ["Home Automation", "Domotics"],
+  "era": "2010s-Present",
+  "tags": ["technical", "iot", "lifestyle", "architecture-spaces"],
+  "one_liner": "A residence equipped with technology that allows for the remote monitoring and management of systems and appliances.",
+  "angles": ["living in the machine", "automated comfort", "domestic surveillance"],
+  "bar_seeds": ["lights on voice command", "smart locks clicking", "connected walls"],
+  "related_ids": ["internet-of-things", "iot"],
+  "category": "IoT / Consumer Tech",
+  "what_it_is": "A system of internet-connected devices that automate and control home functions.",
+  "why_it_matters": "Changes the human relationship with their living space and energy consumption.",
+  "risks": ["Hacking of physical access", "Data harvesting", "System dependence"],
+  "metaphors": ["A living machine", "The responsive house", "Digital butler"],
+  "keywords": ["Zigbee", "Matter", "Automation", "Sensors", "Hub"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

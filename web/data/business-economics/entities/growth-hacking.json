@@ -1,0 +1,57 @@
+{
+  "id": "growth-hacking",
+  "type": "business-economics",
+  "name": "Growth Hacking",
+  "aliases": [
+    "Growth marketing"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "startup",
+    "contemporary",
+    "innovative",
+    "viral"
+  ],
+  "one_liner": "Data-driven marketing focused on rapid user growth through experiments.",
+  "angles": [
+    "experiment loops",
+    "viral acquisition",
+    "conversion wins"
+  ],
+  "bar_seeds": [
+    "A/B on the fly",
+    "viral loop locked",
+    "growth sprint"
+  ],
+  "industry": "Marketing/Tech",
+  "core_principle": "Iterative experiments optimize growth and retention.",
+  "jargon": [
+    "A/B test",
+    "activation",
+    "funnel"
+  ],
+  "key_metrics": [
+    "CAC",
+    "activation rate",
+    "viral coefficient"
+  ],
+  "archetypes": [
+    "growth lead",
+    "analyst",
+    "marketer"
+  ],
+  "related_ids": [
+    "startup",
+    "instagram"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Growth_hacking",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

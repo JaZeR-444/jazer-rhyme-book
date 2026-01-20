@@ -1,0 +1,17 @@
+{
+  "id": "hulu",
+  "type": "media-platforms",
+  "name": "Hulu",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A streaming service known for next-day TV episodes and a strong library of adult animation.",
+  "tags": ["entertainment", "mainstream", "pop", "cinematic"],
+  "angles": ["tv", "streaming", "variety"],
+  "bar_seeds": ["hulu and hang", "ad break", "live tv"],
+  "related_ids": ["netflix"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "TV Fans, Cord Cutters",
+  "content_format": ["TV Shows", "Movies", "Live TV"],
+  "algorithm_bias": "Favors network TV schedules and originals.",
+  "slang": ["Binge", "Live TV", "Bundle"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "y2k-fashion",
+  "type": "fashion",
+  "name": "Y2K Fashion",
+  "aliases": [
+    "2000s revival"
+  ],
+  "era": "1999-2005",
+  "tags": [
+    "00s",
+    "vibrant",
+    "trend",
+    "nostalgic"
+  ],
+  "one_liner": "Early-2000s style defined by bold colors, denim, and pop nostalgia.",
+  "angles": [
+    "millennium flash",
+    "pop star silhouettes",
+    "retro tech"
+  ],
+  "bar_seeds": [
+    "flip phone glow",
+    "low-rise swagger",
+    "chrome and denim"
+  ],
+  "item_type": "Trend Fashion",
+  "material": [
+    "Denim",
+    "Velour",
+    "Metallic"
+  ],
+  "cultural_significance": "A revived era of pop culture, music, and celebrity influence.",
+  "fit": [
+    "Low-rise",
+    "Fitted"
+  ],
+  "associated_brands": [
+    "Juicy Couture",
+    "Diesel",
+    "Adidas"
+  ],
+  "related_ids": [
+    "vintage-clothing",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "2000s in fashion",
+      "url": "https://en.wikipedia.org/wiki/2000s_in_fashion",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

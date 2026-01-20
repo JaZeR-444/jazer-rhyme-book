@@ -1,0 +1,20 @@
+{
+  "id": "juice-1992",
+  "type": "cinema",
+  "name": "Juice",
+  "aliases": ["Bishop", "Q"],
+  "era": "1992",
+  "tags": ["harlem", "crime", "betrayal", "classic", "power"],
+  "one_liner": "Four Harlem teens get caught up in a robbery that spirals out of control as one of them gains 'the juice.'",
+  "angles": ["the corrupting nature of power", "friendship turned deadly", "harlem streets"],
+  "bar_seeds": ["bishop's locker", "the juice", "elevator showdown"],
+  "plot_hooks": ["friends planning a heist", "a friend becoming a monster", "striving for respect"],
+  "iconic_scenes": ["The record store DJ battle", "The rooftop chase", "The elevator climax"],
+  "visual_motifs": ["Bishop's intense stare", "DJ turntables", "Luger handgun"],
+  "themes": ["Respect", "Power", "Loyalty"],
+  "quotables_short": ["You got the juice now", "I am the juice"],
+  "related_ids": ["tupac-shakur"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "recession",
+  "type": "business-economics",
+  "name": "Recession",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A business cycle contraction when there is a general decline in economic activity.",
+  "tags": ["dark", "cycle", "fear", "macro"],
+  "angles": ["decline", "struggle", "opportunity"],
+  "bar_seeds": ["market crash", "tightening the belt", "buying the dip"],
+  "related_ids": ["inflation", "bear-market"],
+  "industry": "Economics",
+  "core_principle": "Cyclical contraction.",
+  "jargon": ["GDP contraction", "Layoffs", "Stimulus"],
+  "key_metrics": ["GDP Growth (Negative)", "Unemployment Rate"],
+  "archetypes": ["Unemployed Worker", "Value Investor"]
+}

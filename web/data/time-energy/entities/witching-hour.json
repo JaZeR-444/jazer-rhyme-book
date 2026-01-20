@@ -1,0 +1,17 @@
+{
+  "id": "witching-hour",
+  "type": "time-energy",
+  "name": "Witching Hour",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A time of night associated with supernatural events, traditionally midnight or 3 AM.",
+  "tags": ["dark", "noir", "esoteric", "omen"],
+  "angles": ["silence", "supernatural", "isolation"],
+  "bar_seeds": ["3 AM thoughts", "ghosts in the room", "dead of night"],
+  "related_ids": ["the-past"],
+  "concept_type": "Mythological/Temporal",
+  "perception": "Eerie, quiet, and heavy with potential dread or revelation.",
+  "physics_basis": "N/A - Cultural/Folklore based.",
+  "cultural_view": "The time when the veil between worlds is thinnest.",
+  "idioms": ["Dead of night", "Small hours", "Graveyard shift"]
+}

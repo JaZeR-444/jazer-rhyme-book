@@ -1,0 +1,16 @@
+{
+  "id": "digital-revolution",
+  "type": "history",
+  "name": "Digital Revolution",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The shift from mechanical and analogue electronic technology to digital electronics which began in the late 20th century.",
+  "tags": ["technical", "innovative", "futuristic", "contemporary"],
+  "angles": ["connectivity", "information-age", "disruption"],
+  "bar_seeds": ["binary flow", "silicon chips", "world wide web"],
+  "key_dates": ["1980", "Present"],
+  "location": "Global",
+  "impact": "Completely transformed communication, business, and daily human life.",
+  "major_figures": ["Steve Jobs", "Bill Gates", "Tim Berners-Lee"],
+  "cultural_shift": "The transition from physical archives to the infinite digital cloud."
+}

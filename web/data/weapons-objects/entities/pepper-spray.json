@@ -1,0 +1,17 @@
+{
+  "id": "pepper-spray",
+  "type": "weapons-objects",
+  "name": "Pepper Spray",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A lachrymatory agent used in policing, riot control, crowd control, and self-defense.",
+  "tags": ["chemical", "defense", "control", "fear"],
+  "angles": ["blindness", "defense", "irritation"],
+  "bar_seeds": ["eyes burning", "cloud of pain", "backing away"],
+  "related_ids": [],
+  "weapon_type": "Chemical",
+  "range": "Close-range",
+  "damage_type": "Irritant",
+  "symbolism": "Self-defense, crowd suppression, and blinding pain.",
+  "famous_users": ["Riot Police", "Self-defense advocates"]
+}

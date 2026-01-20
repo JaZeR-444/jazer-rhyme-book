@@ -1,0 +1,17 @@
+{
+  "id": "seance",
+  "type": "rituals-symbols",
+  "name": "Seance",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A meeting at which people attempt to make contact with the dead, especially through the agency of a medium.",
+  "tags": ["ritual", "esoteric", "dark", "noir"],
+  "angles": ["communication", "the afterlife", "mystery"],
+  "bar_seeds": ["holding hands in the dark", "knocking on the wood", "calling from the other side"],
+  "related_ids": ["vigil", "omen"],
+  "purpose": "To communicate with spirits or the deceased.",
+  "steps": ["Gathering in a quiet dark space", "Forming a circle", "Invocation of the spirit"],
+  "objects_used": ["Ouija board", "Candles", "Crystal ball", "Table"],
+  "participants": "Medium, Sitters",
+  "outcome": "Messages from the deceased or spiritual manifestations."
+}

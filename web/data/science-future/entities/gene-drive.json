@@ -1,0 +1,17 @@
+{
+  "id": "gene-drive",
+  "type": "science-future",
+  "name": "Gene Drive",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A genetic engineering technology that can propagate a particular suite of genes throughout a population.",
+  "tags": ["technical", "genetic", "innovative", "power"],
+  "angles": ["engineering nature", "species control", "biological wildfire"],
+  "bar_seeds": ["rewriting the code", "changing the species", "no more malaria"],
+  "related_ids": ["genetic-engineering"],
+  "field": "Genetic Engineering",
+  "hypothesis": "Genes can be designed to force their own inheritance, bypassing natural selection.",
+  "implications": ["Eradication of diseases", "Elimination of invasive species", "Ecological imbalance"],
+  "technologies": ["CRISPR-Cas9"],
+  "ethical_concerns": ["Unintended ecological consequences", "Weaponization", "Playing god"]
+}

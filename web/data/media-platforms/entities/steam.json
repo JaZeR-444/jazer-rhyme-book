@@ -1,0 +1,17 @@
+{
+  "id": "steam",
+  "type": "media-platforms",
+  "name": "Steam",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The world's largest digital distribution platform for PC gaming, creating a massive social and economic ecosystem.",
+  "tags": ["gaming", "technical", "community", "business"],
+  "angles": ["digital-collection", "indie-powerhouse", "steam-sales"],
+  "bar_seeds": ["backlog of games", "steam deck", "trading cards"],
+  "related_ids": ["discord"],
+  "platform_type": "Gaming Distribution / Social",
+  "user_demographic": "PC Gamers, Developers, Collectors",
+  "content_format": ["Software", "Games", "Workshop Items"],
+  "algorithm_bias": "Favors high-engagement Indies and AAA blockbusters.",
+  "slang": ["Wishlist", "Valve", "Early Access"]
+}

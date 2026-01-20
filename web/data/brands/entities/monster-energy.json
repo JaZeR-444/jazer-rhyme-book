@@ -1,0 +1,17 @@
+{
+  "id": "monster-energy",
+  "type": "brand",
+  "name": "Monster Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A high-caffeine energy drink known for its 'claw' logo and association with gaming and alternative subcultures.",
+  "tags": ["energetic", "gaming", "grit", "aggressive"],
+  "angles": ["unleash-the-beast", "gamer-fuel", "motocross-culture"],
+  "bar_seeds": ["green claw marks", "black can", "jittery focus"],
+  "related_ids": [],
+  "category": "Food & Beverage",
+  "price_tier": "Low",
+  "signature_products": ["Monster Energy", "Monster Ultra"],
+  "status_signals": ["Claw logo sticker", "Gaming collaborations"],
+  "bar_angles": ["Midnight grind", "Aggressive energy", "Subcultural badge"]
+}

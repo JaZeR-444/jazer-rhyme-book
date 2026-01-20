@@ -1,0 +1,17 @@
+{
+  "id": "kinetic-energy",
+  "type": "time-energy",
+  "name": "Kinetic Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The energy an object possesses due to its motion.",
+  "tags": ["momentum", "technical", "speed", "vibrant"],
+  "angles": ["motion", "impact", "flow"],
+  "bar_seeds": ["force of the movement", "mass times velocity", "can't stop the slide"],
+  "related_ids": ["momentum", "potential-energy"],
+  "concept_type": "Physics",
+  "perception": "Active, powerful, and dangerous if interrupted.",
+  "physics_basis": "1/2mv^2.",
+  "cultural_view": "Symbolizes progress, action, and the power of doing.",
+  "idioms": ["Object in motion", "Live wire", "Full steam ahead"]
+}

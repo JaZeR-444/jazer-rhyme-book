@@ -1,0 +1,20 @@
+{
+  "id": "starlink",
+  "type": "tech",
+  "name": "Starlink",
+  "aliases": [],
+  "era": "Unknown",
+  "tags": ["Brands & Artifacts"],
+  "one_liner": "Next-Gen Connection. \"Shimmer\" represents high-speed, satellite-based communication from the sky.",
+  "angles": [],
+  "bar_seeds": ["\"Shimmer\""],
+  "known_for": [],
+  "vibe": "High-speed",
+  "signature_items": [],
+  "quotables_short": [],
+  "controversy_flags": [],
+  "related_ids": ["elon-musk", "spacex"],
+  "created_at": "2026-01-19T00:00:00Z",
+  "updated_at": "2026-01-19T00:00:00Z",
+  "sources": []
+}

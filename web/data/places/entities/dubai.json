@@ -1,0 +1,17 @@
+{
+  "id": "dubai",
+  "type": "places",
+  "name": "Dubai",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hyper-modern global city known for its extreme luxury, futuristic architecture, and gold.",
+  "tags": ["luxury", "futuristic", "status", "empire"],
+  "angles": ["peak opulence", "desert future", "unlimited scale"],
+  "bar_seeds": ["burj khalifa", "supercars in the sand", "gold standard"],
+  "related_ids": ["skyscraper"],
+  "place_type": "city",
+  "vibe": "Grand, sterile, and awe-inspiring.",
+  "sensory_cues": ["Burning sun", "Polished marble", "Air conditioning", "Gold"],
+  "cultural_refs": ["Billionaires", "Influencer Culture", "Mission Impossible"],
+  "bar_angles": ["Top of the world", "Building in the sand", "Future wealth"]
+}

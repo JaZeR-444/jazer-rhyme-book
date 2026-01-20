@@ -1,0 +1,52 @@
+{
+  "id": "doordash",
+  "type": "brand",
+  "name": "DoorDash",
+  "aliases": [],
+  "era": "2013-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "startup",
+    "hustle"
+  ],
+  "one_liner": "Delivery platform known for on-demand food and retail drop-offs.",
+  "angles": [
+    "late-night delivery",
+    "doorstep convenience",
+    "city logistics"
+  ],
+  "bar_seeds": [
+    "red bag on the steps",
+    "doorbell drop",
+    "midnight run"
+  ],
+  "related_ids": [
+    "startup",
+    "venture-capital"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DoorDash",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Delivery/Logistics",
+  "price_tier": "Mass Market",
+  "signature_products": [
+    "Food delivery",
+    "DashPass"
+  ],
+  "status_signals": [
+    "Red bag",
+    "Doorstep drop"
+  ],
+  "bar_angles": [
+    "late-night drop",
+    "on-demand"
+  ]
+}

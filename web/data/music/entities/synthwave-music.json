@@ -1,0 +1,18 @@
+{
+  "id": "synthwave-music",
+  "type": "music",
+  "name": "Synthwave",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A microgenre of electronic music based on the soundtracks and film scores of 1980s pop culture.",
+  "tags": ["synthwave", "retro", "vibrant", "electronic"],
+  "angles": ["80s-nostalgia", "nocturnal-drive", "analog-warmth"],
+  "bar_seeds": ["neon pulse", "analog synth", "midnight run"],
+  "related_ids": ["outrun", "drive-2011"],
+  "genre": ["Electronic", "Retro-future"],
+  "era_detail": "2000s - Present (Retro-1980s inspiration)",
+  "signature_songs": ["Nightcall", "Resonance", "Tech Noir"],
+  "sonic_descriptors": ["Arpeggios", "Gate reverb", "Analog oscillators", "Drum machines"],
+  "influence_tree": ["John Carpenter", "Vangelis", "Tangerine Dream"],
+  "aesthetic": "Neon and Chrome"
+}

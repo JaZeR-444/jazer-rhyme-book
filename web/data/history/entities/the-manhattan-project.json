@@ -1,0 +1,17 @@
+{
+  "id": "the-manhattan-project",
+  "type": "history",
+  "name": "The Manhattan Project",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The research and development undertaking during World War II that produced the first nuclear weapons.",
+  "tags": ["technical", "science", "war", "dark"],
+  "angles": ["the-atomic-birth", "destroyer-of-worlds", "secret-city"],
+  "bar_seeds": ["los alamos secret", "trinity test glow", "splitting the world"],
+  "related_ids": ["oppenheimer-2023", "nuclear-energy"],
+  "key_dates": ["1942", "1946"],
+  "location": "Los Alamos / Global",
+  "impact": "Forever changed the nature of war and human civilization; ushered in the Atomic Age.",
+  "major_figures": ["J. Robert Oppenheimer", "Leslie Groves", "Enrico Fermi"],
+  "cultural_shift": "The permanent shadow of total nuclear annihilation."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "golden-hour",
+  "type": "time-energy",
+  "name": "Golden Hour",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The period shortly after sunrise or before sunset when the light is redder and softer.",
+  "tags": ["vibrant", "fleeting", "cinematic", "aesthetic"],
+  "angles": ["lighting", "transition", "warmth"],
+  "bar_seeds": ["amber glow", "long shadows", "fading sun"],
+  "related_ids": ["the-present"],
+  "concept_type": "Temporal/Aesthetic",
+  "perception": "Warm, nostalgic, and visually perfecting.",
+  "physics_basis": "Atmospheric scattering of sunlight at low angles.",
+  "cultural_view": "The peak time for photography and romanticized reflection.",
+  "idioms": ["Magic hour", "Chasing the sun", "Evening glow"]
+}

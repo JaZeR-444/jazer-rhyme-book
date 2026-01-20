@@ -1,0 +1,20 @@
+{
+  "id": "compounding-interest",
+  "type": "business-economics",
+  "name": "Compounding Interest",
+  "aliases": ["Compound Growth", "The 8th Wonder of the World"],
+  "era": "Modern Era",
+  "tags": ["finance", "growth", "time", "wealth"],
+  "one_liner": "Interest calculated on the initial principal, which also includes all of the accumulated interest from previous periods.",
+  "angles": ["the snowball effect", "patience is a virtue", "exponential growth"],
+  "bar_seeds": ["snowball wealth", "interest on interest", "time in the market"],
+  "industry": "Finance",
+  "core_principle": "Exponential growth over time.",
+  "jargon": ["Principal", "APY", "Compounding frequency"],
+  "key_metrics": ["Rule of 72"],
+  "archetypes": ["Long-term investor", "Saver"],
+  "related_ids": ["time-energy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

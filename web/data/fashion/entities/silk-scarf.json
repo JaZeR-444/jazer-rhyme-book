@@ -1,0 +1,18 @@
+{
+  "id": "silk-scarf",
+  "type": "fashion",
+  "name": "Silk Scarf",
+  "aliases": ["Carré", "Silk Foulard"],
+  "era": "Ancient-Present",
+  "tags": ["luxury", "classic", "elegant", "vibrant"],
+  "one_liner": "A luxury accessory defined by intricate prints and smooth texture, representing high-class sophistication.",
+  "angles": ["fluid luxury", "printed heritage", "versatile wrap"],
+  "bar_seeds": ["silk tie", "hermes print", "babushka style"],
+  "item_type": "Accessories",
+  "material": ["Silk", "Satin"],
+  "cultural_significance": "A symbol of wealth and refined taste, famously used in equestrian and nautical motifs.",
+  "fit": ["Variable"],
+  "associated_brands": ["Hermès", "Gucci", "Casablanca"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

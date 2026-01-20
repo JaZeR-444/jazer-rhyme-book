@@ -1,0 +1,64 @@
+{
+  "id": "vintage-clothing",
+  "type": "fashion",
+  "name": "Vintage Clothing",
+  "aliases": [
+    "Vintage",
+    "Retro Wear",
+    "Thrifted Gems"
+  ],
+  "era": "1920s-1990s",
+  "tags": [
+    "nostalgic",
+    "unique",
+    "rare",
+    "authentic",
+    "character"
+  ],
+  "one_liner": "Genuine articles of clothing from past decades, valued for their authenticity and style.",
+  "angles": [
+    "nostalgia",
+    "rarity",
+    "authenticity"
+  ],
+  "bar_seeds": [
+    "Vintage cut",
+    "Authentic threads",
+    "Nostalgic style",
+    "Thrift store finds"
+  ],
+  "item_type": "Retro Apparel",
+  "material": [
+    "Varies by era",
+    "Quality construction",
+    "Durable fabrics"
+  ],
+  "cultural_significance": "Preserves fashion history and offers unique alternatives to modern clothing.",
+  "fit": [
+    "Varies by era"
+  ],
+  "associated_brands": [
+    "Original designers",
+    "Era-specific labels"
+  ],
+  "related_ids": [
+    "thrifting",
+    "vintage-sportswear"
+  ],
+  "created_at": "2025-12-23T12:45:00Z",
+  "updated_at": "2025-12-23T12:45:00Z",
+  "sources": [
+    {
+      "title": "Vintage culture",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Fashion history",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

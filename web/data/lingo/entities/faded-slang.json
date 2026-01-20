@@ -1,0 +1,18 @@
+{
+  "id": "faded-slang",
+  "type": "lingo",
+  "name": "Faded",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Being high on drugs or intoxicated by alcohol.",
+  "tags": ["slang", "vice", "mellow", "lifestyle"],
+  "angles": ["high", "drunk", "fading-out"],
+  "bar_seeds": ["getting faded", "faded in the club", "vision blurry"],
+  "related_ids": ["decay"],
+  "meaning": "Intoxicated.",
+  "usage": "Describing one's state of mind after consuming substances.",
+  "origin": "General Slang / AAVE",
+  "region": "Global",
+  "example_lines": ["We got way too faded last night", "Faded in the Uber"],
+  "do_not_use_if": ["You are describing a color losing intensity (unless punning)"]
+}

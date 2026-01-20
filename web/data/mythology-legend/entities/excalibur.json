@@ -1,0 +1,17 @@
+{
+  "id": "excalibur",
+  "type": "mythology-legend",
+  "name": "Excalibur",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The legendary sword of King Arthur, sometimes attributed with magical powers or associated with the rightful sovereignty of Britain.",
+  "tags": ["artifact", "classic", "power", "blade"],
+  "angles": ["the-chosen-blade", "divine-sovereignty", "lady-of-the-lake"],
+  "bar_seeds": ["pulling the steel", "water rising", "sword of kings"],
+  "related_ids": ["king-arthur"],
+  "origin_culture": "British / Celtic",
+  "deity_type": "Mythical Weapon",
+  "powers": ["Blinding light", "Invincibility (scabbard)", "Rightful rule"],
+  "symbols": ["Sword", "Lake", "Stone"],
+  "modern_parallels": ["Lightsabers", "Ultimate weapons", "The 'Silver Bullet'"]
+}

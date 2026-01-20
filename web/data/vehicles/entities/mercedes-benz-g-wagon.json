@@ -1,0 +1,20 @@
+{
+  "id": "mercedes-benz-g-wagon",
+  "type": "vehicles",
+  "name": "Mercedes-Benz G-Wagon",
+  "aliases": ["G-Class", "G-Wagon", "G63"],
+  "era": "1970s-Present",
+  "tags": ["luxury-car", "status", "off-road", "german"],
+  "one_liner": "A luxury SUV that combines military-grade durability with high-end status and performance.",
+  "angles": ["urban assault vehicle", "boxy but beautiful", "rugged luxury"],
+  "bar_seeds": ["matte black finish", "side exit exhausts", "boxy frame", "v8 biturbo"],
+  "vehicle_type": "Luxury SUV",
+  "engine_type": "4.0 L V8 Biturbo",
+  "top_speed": "137-149 mph",
+  "cultural_status": "Highly popular among celebrities and the wealthy for its imposing presence.",
+  "design_features": ["Boxy, military-inspired shape", "External door hinges", "Exposed spare tire"],
+  "related_ids": ["luxury"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

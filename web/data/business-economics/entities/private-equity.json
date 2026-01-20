@@ -1,0 +1,56 @@
+{
+  "id": "private-equity",
+  "type": "business-economics",
+  "name": "Private Equity",
+  "aliases": [
+    "PE"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "bull-market"
+  ],
+  "one_liner": "Investment funds that acquire and improve private companies.",
+  "angles": [
+    "buyout power",
+    "operational turnaround",
+    "capital leverage"
+  ],
+  "bar_seeds": [
+    "buyout play",
+    "leverage in the deal",
+    "operators in the boardroom"
+  ],
+  "industry": "Investment/Funds",
+  "core_principle": "Value creation through ownership and operational improvement.",
+  "jargon": [
+    "LBO",
+    "management fee",
+    "carried interest"
+  ],
+  "key_metrics": [
+    "IRR",
+    "MOIC",
+    "debt multiple"
+  ],
+  "archetypes": [
+    "fund manager",
+    "portfolio company",
+    "limited partner"
+  ],
+  "related_ids": [
+    "venture-capital",
+    "stock-market"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Private_equity",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

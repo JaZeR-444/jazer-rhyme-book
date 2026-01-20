@@ -1,0 +1,707 @@
+{
+  "manifest_name": "JAZER_WORDS",
+  "categories": [
+    {
+      "category_name": "Light & Signal",
+      "items": [
+        {
+          "word": "Beam",
+          "definition": "The central metaphor for the JaZeR brand. Represents a focused, coherent ray of light that cuts through \"static\" or darkness. It is directional and purposeful.",
+          "contrast": "vs. Darkness / Static.",
+          "sonic_texture": "Sharp, Laser-like, Bright.",
+          "usage": "A beam of color."
+        },
+        {
+          "word": "Signal",
+          "definition": "The clear message amidst the chaos. Represents truth, authenticity, and the core frequency of the artist. The opposite of \"noise.\"",
+          "contrast": "vs. Noise / Static.",
+          "sonic_texture": "Crisp, Digital, Resonant.",
+          "usage": "Signal not noise."
+        },
+        {
+          "word": "Glow",
+          "definition": "A warmer, ambient light. Often used to describe the feeling of home, the dashboard at night, or an internal state of peace.",
+          "contrast": "vs. Cold Neon / Shadows.",
+          "sonic_texture": "Warm, Soft, Atmospheric.",
+          "usage": "Dashboard glow."
+        },
+        {
+          "word": "Transmission",
+          "definition": "The act of sending the signal out. Implies a connection between the broadcaster (JaZeR) and the receiver (the listener/dreamer).",
+          "contrast": "vs. Silence / Blocked.",
+          "sonic_texture": "Glitchy, Electronic, Pulsing.",
+          "usage": "Receiving the transmission."
+        },
+        {
+          "word": "Prism",
+          "definition": "A tool for perspective. Represents taking a single idea (white light) and splitting it into its many beautiful parts (color). Seeing the full picture.",
+          "contrast": "vs. Monochromatic.",
+          "sonic_texture": "Shimmering, Multi-layered.",
+          "usage": "Prismatic vision."
+        },
+        {
+          "word": "Prismatic",
+          "definition": "The state of seeing multiple angles or colors at once.",
+          "contrast": "vs. Monochromatic.",
+          "sonic_texture": "Shimmering, Multi-layered.",
+          "usage": "Prismatic vision."
+        },
+        {
+          "word": "Flash",
+          "definition": "A sudden burst of insight, energy, or speed. Often associated with the \"Comet\" or a moment of realization.",
+          "contrast": "vs. Fade.",
+          "sonic_texture": "Quick, Bright, Staccato.",
+          "usage": "Quick flash."
+        },
+        {
+          "word": "Lucified",
+          "definition": "A JaZeR-specific term meaning \"light in the grit.\" It is clarity found within the struggle. It represents ownership of one's own vision.",
+          "contrast": "vs. Blinded / Drowned.",
+          "sonic_texture": "Gritty but Luminous.",
+          "usage": "Mind stay lucified."
+        },
+        {
+          "word": "Shine",
+          "definition": "Optimism as a fuel source. The act of performing at a high level. Linked to \"Vitamin D\" and \"Sunshine.\"",
+          "contrast": "vs. Dim / Dull.",
+          "sonic_texture": "Radiant, Uplifted.",
+          "usage": "My shine stays on."
+        },
+        {
+          "word": "Static",
+          "definition": "The antagonist. Represents confusion, doubt, hate, or distraction. The obstacle the Beam must cut through.",
+          "contrast": "vs. Signal / Beam.",
+          "sonic_texture": "Harsh, White Noise, Distorted.",
+          "usage": "Turn static to signal."
+        },
+        {
+          "word": "Frequency",
+          "definition": "The vibrational level of operation. A \"high frequency\" implies positivity and abundance; a \"low frequency\" implies drama.",
+          "contrast": "vs. Static / Low energy.",
+          "sonic_texture": "Harmonic, Stable.",
+          "usage": "High frequency."
+        },
+        {
+          "word": "Anamorphic",
+          "definition": "A cinematic term for a distorted or widescreen perspective. Represents seeing life in a grander, more epic format than the standard view.",
+          "contrast": "vs. Standard / Narrow.",
+          "sonic_texture": "Cinematic, Spacious.",
+          "usage": "Anamorphic when I morph."
+        },
+        {
+          "word": "Lucid",
+          "definition": "Being \"awake\" within the dream. Clear-headedness in a chaotic world. Control over one's own narrative.",
+          "contrast": "vs. Foggy / Asleep.",
+          "sonic_texture": "Transparent, Balanced.",
+          "usage": "Lucid phase."
+        },
+        {
+          "word": "Open-Wire",
+          "definition": "Raw, exposed connection. A mind that is unshielded and ready to receive cosmic or creative downloads.",
+          "contrast": "vs. Insulated / Closed.",
+          "sonic_texture": "Electric, High-tension.",
+          "usage": "My mind's open wire."
+        },
+        {
+          "word": "Chromatic",
+          "definition": "Moving through the color spectrum. High variety and vividness.",
+          "contrast": "vs. Gray.",
+          "sonic_texture": "Varied, Shifting.",
+          "usage": "Chromatic flow."
+        },
+        {
+          "word": "Particle",
+          "definition": "The smallest unit of the signal or energy.",
+          "contrast": "vs. Void.",
+          "sonic_texture": "Tiny, Granular.",
+          "usage": "Particle space time."
+        }
+      ]
+    },
+    {
+      "category_name": "Motion & Velocity",
+      "items": [
+        {
+          "word": "Glide",
+          "definition": "Effortless movement. Moving with grace rather than force. \"Gliding\" happens after the hard work of the climb.",
+          "contrast": "vs. Struggle / Stumble.",
+          "sonic_texture": "Smooth, Flowing.",
+          "usage": "Glide away from the gray."
+        },
+        {
+          "word": "Velocity",
+          "definition": "Speed with direction. It\u2019s not just moving fast; it\u2019s moving fast *towards* something.",
+          "contrast": "vs. Drift / Aimless.",
+          "sonic_texture": "Fast, Direct.",
+          "usage": "Infinite velocity."
+        },
+        {
+          "word": "Lift",
+          "definition": "Elevation. The physical sensation of rising above problems or \"the gray.\"",
+          "contrast": "vs. Sink / Heavy.",
+          "sonic_texture": "Uplifting, Airy.",
+          "usage": "Stairway to the healing."
+        },
+        {
+          "word": "Orbit",
+          "definition": "Destiny and gravitational pull. Moving around a central purpose.",
+          "contrast": "vs. Off-track.",
+          "sonic_texture": "Circular, Rhythmic.",
+          "usage": "Orbiting to destiny."
+        },
+        {
+          "word": "Jet",
+          "definition": "Speed and travel. Represents the \"JJ Jet Plane\" persona—high-altitude luxury and efficiency.",
+          "contrast": "vs. Grounded / Slow.",
+          "sonic_texture": "Powerful, Engine-hum.",
+          "usage": "JJ Jet Plane."
+        },
+        {
+          "word": "Train",
+          "definition": "Heavy, unstoppable momentum. The \"Freight Train\" that cannot be derailed. Represents grit and consistency.",
+          "contrast": "vs. Derailed / Stopped.",
+          "sonic_texture": "Rhythmic, Weighty.",
+          "usage": "Freight train can't be derailed."
+        },
+        {
+          "word": "Launch",
+          "definition": "The explosive start of a new chapter or idea.",
+          "contrast": "vs. Stall.",
+          "sonic_texture": "Sudden, Explosive.",
+          "usage": "Rocket ship blast."
+        },
+        {
+          "word": "Surge",
+          "definition": "A sudden intake of power or energy.",
+          "contrast": "vs. Drain.",
+          "sonic_texture": "Intense, Growing.",
+          "usage": "Surge of energy."
+        },
+        {
+          "word": "Pivot",
+          "definition": "The critical \"Turn\" moment in a JaZeR song. Changing direction intentionally to avoid a crash or to find a better route.",
+          "contrast": "vs. Crash / Static.",
+          "sonic_texture": "Shifting, Dynamic.",
+          "usage": "Watch the planetary motion when I pivot."
+        },
+        {
+          "word": "Pace",
+          "definition": "Controlled timing. Not rushing, not stalling. Moving at the speed of wisdom.",
+          "contrast": "vs. Rush / Hurry.",
+          "sonic_texture": "Steady, Metronomic.",
+          "usage": "Saving pace."
+        },
+        {
+          "word": "Zoom",
+          "definition": "Focused speed. Moving past obstacles so fast they blur.",
+          "contrast": "vs. Focus blur / Slow.",
+          "sonic_texture": "Rapid, Blurred.",
+          "usage": "Zoom out, fade to gray."
+        },
+        {
+          "word": "Elastic",
+          "definition": "Flexibility and range. The ability to stretch styles and flows without breaking. \"Mr. Elastic.\"",
+          "contrast": "vs. Brittle / Rigid.",
+          "sonic_texture": "Snappy, Flexible.",
+          "usage": "Mr. Elastic."
+        },
+        {
+          "word": "Albatrossing",
+          "definition": "Flying long distances without flapping wings (gliding). Also a golf reference (scoring -2 on a single hole), symbolizing a rare, high-skill victory.",
+          "contrast": "vs. Flapping / Low-skill.",
+          "sonic_texture": "Wide, Majestic.",
+          "usage": "Albatrossing in the sky."
+        },
+        {
+          "word": "Tip-Toe",
+          "definition": "Careful, stylish movement. Moving with precision and flair (often in Jordans) rather than stomping clumsily.",
+          "contrast": "vs. Stomp / Clumsy.",
+          "sonic_texture": "Light, Percussive.",
+          "usage": "Tip-toe in my Jordans."
+        },
+        {
+          "word": "Swerving",
+          "definition": "Controlled maneuvering through traffic or obstacles. Avoiding the \"crash\" while maintaining speed.",
+          "contrast": "vs. Head-on / Collision.",
+          "sonic_texture": "Side-to-side, Shifting.",
+          "usage": "Swerving lane to lane."
+        },
+        {
+          "word": "Zip",
+          "definition": "Quick, sharp movement. \"Zip in, zip out.\" Efficiency.",
+          "contrast": "vs. Lag / Stall.",
+          "sonic_texture": "Zipping, Sharp.",
+          "usage": "Zip in, zip out."
+        },
+        {
+          "word": "4D",
+          "definition": "Moving beyond standard dimensions. A slide or shift that bypasses normal space-time rules.",
+          "contrast": "vs. 3D / Flat.",
+          "sonic_texture": "Ethereal, Complex.",
+          "usage": "4D slide."
+        }
+      ]
+    },
+    {
+      "category_name": "Construction & Craft",
+      "items": [
+        {
+          "word": "Blueprint",
+          "definition": "The vision before the reality. The master plan that guides the work.",
+          "contrast": "vs. Random / Guesswork.",
+          "sonic_texture": "Clean, Structured.",
+          "usage": "Blueprint in my hand."
+        },
+        {
+          "word": "Bricks",
+          "definition": "The raw units of progress. \"Yellow bricks\" link to the path to Oz (mastery). Small daily wins.",
+          "contrast": "vs. Sand / Unstable.",
+          "sonic_texture": "Solid, Stacked.",
+          "usage": "Yellow bricks."
+        },
+        {
+          "word": "Pave",
+          "definition": "To create a road where there wasn't one. The act of being a pioneer or trailblazer.",
+          "contrast": "vs. Blocked / Overgrown.",
+          "sonic_texture": "Smooth, Rolling.",
+          "usage": "Pave the way."
+        },
+        {
+          "word": "Masonry",
+          "definition": "The expert trade of building with stone. Represents solidity, permanence, and skill.",
+          "contrast": "vs. Flimsy / Temporary.",
+          "sonic_texture": "Heavy, Percussive.",
+          "usage": "Masonry trade."
+        },
+        {
+          "word": "Architect",
+          "definition": "The designer of the life/song. The one with the vision.",
+          "contrast": "vs. Follower / User.",
+          "sonic_texture": "Intelligent, Broad.",
+          "usage": "I'm the architect."
+        },
+        {
+          "word": "Frame",
+          "definition": "The structure or perspective. \"Busting the frame\" means breaking out of limited thinking.",
+          "contrast": "vs. Boxed-in / Limited.",
+          "sonic_texture": "Rigid (to be broken).",
+          "usage": "Bust open the frame."
+        },
+        {
+          "word": "Foundation",
+          "definition": "The base level. Family, values, and core beliefs.",
+          "contrast": "vs. Surface / Shallow.",
+          "sonic_texture": "Deep, Earthy.",
+          "usage": "Feet still planted."
+        },
+        {
+          "word": "Scaffold",
+          "definition": "The temporary support structures used while growing.",
+          "contrast": "vs. Permanent / Finished.",
+          "sonic_texture": "Light, Skeletal.",
+          "usage": "Scaffolding in the glow."
+        },
+        {
+          "word": "Work",
+          "definition": "The grind. The discipline required to make the \"shine\" real.",
+          "contrast": "vs. Luck / Talent alone.",
+          "sonic_texture": "Persistent, Driving.",
+          "usage": "I just do the work."
+        },
+        {
+          "word": "Clay",
+          "definition": "Moldable potential. The raw energy (infinite energy) that can be shaped into anything.",
+          "contrast": "vs. Stone (pre-built).",
+          "sonic_texture": "Malleable, Earthy.",
+          "usage": "Clay will never fold."
+        },
+        {
+          "word": "Skillet",
+          "definition": "The place of heat and pressure. Where the \"cooking\" (creation) happens.",
+          "contrast": "vs. Cold / Raw.",
+          "sonic_texture": "Sizzling, Intense.",
+          "usage": "Hot on the skillet."
+        },
+        {
+          "word": "Extract",
+          "definition": "To pull out the negative (pain, plaque, fake) to make room for the truth. The \"Dentist\" methodology.",
+          "contrast": "vs. Inject / Add.",
+          "sonic_texture": "Sharp, Surgical.",
+          "usage": "Extract the pain."
+        },
+        {
+          "word": "Dig",
+          "definition": "To search deep within for strength or truth. Laying the groundwork before building up.",
+          "contrast": "vs. Surface-level.",
+          "sonic_texture": "Deep, Heavy.",
+          "usage": "Dig deep."
+        }
+      ]
+    },
+    {
+      "category_name": "Cosmic & Tech",
+      "items": [
+        {
+          "word": "Mainframe",
+          "definition": "The central nervous system of the mind or the universe. Accessing the \"Mainframe\" implies tapping into higher knowledge.",
+          "contrast": "vs. Peripheral / CPU.",
+          "sonic_texture": "Digital, Pulsing.",
+          "usage": "Busting mainframe."
+        },
+        {
+          "word": "Nodes",
+          "definition": "Connection points. The intersection of ideas, people, or energies.",
+          "contrast": "vs. Isolation / Gaps.",
+          "sonic_texture": "Point-like, Ticking.",
+          "usage": "Clearly divided in the nodes."
+        },
+        {
+          "word": "Strata",
+          "definition": "Layers of the atmosphere or reality. Rising through the \"strata\" means leveling up.",
+          "contrast": "vs. Bottom / Floor.",
+          "sonic_texture": "High-altitude, Airy.",
+          "usage": "Up in the strata."
+        },
+        {
+          "word": "Stratosphere",
+          "definition": "A specific high-altitude layer. Rare air where only the dedicated can breathe.",
+          "contrast": "vs. Surface.",
+          "sonic_texture": "Wide, Clear.",
+          "usage": "Stratosphere living."
+        },
+        {
+          "word": "Dimension",
+          "definition": "A higher plane of existence. \"New dimensional\" implies a shift in thinking that changes reality.",
+          "contrast": "vs. Flat / 2D.",
+          "sonic_texture": "Expansive, Warped.",
+          "usage": "New dimensional."
+        },
+        {
+          "word": "Update",
+          "definition": "Self-improvement. \"Software updating the flesh.\" Constant evolution.",
+          "contrast": "vs. Outdated / Obsolete.",
+          "sonic_texture": "Glitchy, Improving.",
+          "usage": "Software updating the flesh."
+        },
+        {
+          "word": "Code",
+          "definition": "The underlying rules of operation. \"On code\" means acting with integrity and consistency.",
+          "contrast": "vs. Random / Chaotic.",
+          "sonic_texture": "Digital, Ticking.",
+          "usage": "On code."
+        },
+        {
+          "word": "Circuitry",
+          "definition": "The internal flow of energy. Keeping the \"circuits\" clean means keeping the mind clear.",
+          "contrast": "vs. Short-circuit / Messy.",
+          "sonic_texture": "Flowing, Electronic.",
+          "usage": "Main circuitry talking."
+        },
+        {
+          "word": "Map",
+          "definition": "Guidance and destiny. \"Star map\" implies cosmic direction.",
+          "contrast": "vs. Lost / Unmapped.",
+          "sonic_texture": "Structured, Grid-like.",
+          "usage": "Star map."
+        },
+        {
+          "word": "Galaxy",
+          "definition": "The scope of the vision. Thinking bigger than the planet.",
+          "contrast": "vs. Local / Small.",
+          "sonic_texture": "Vast, Sparkling.",
+          "usage": "Stars linking."
+        },
+        {
+          "word": "Celestialating",
+          "definition": "The act of rising to a god-like, cosmic, or \"creator\" state.",
+          "contrast": "vs. Grounded / Terrestrial.",
+          "sonic_texture": "Divine, Shimmering.",
+          "usage": "I know I'm celestialating."
+        },
+        {
+          "word": "Vibrational",
+          "definition": "Relates to energy state. High vibration = positivity.",
+          "contrast": "vs. Static / Dull.",
+          "sonic_texture": "Resonant, Pulsing.",
+          "usage": "Vibrational state."
+        },
+        {
+          "word": "Throughput",
+          "definition": "The amount of work or energy that can be processed.",
+          "contrast": "vs. Bottleneck / Lag.",
+          "sonic_texture": "High-capacity, Rapid.",
+          "usage": "Throughput on max."
+        },
+        {
+          "word": "Latency",
+          "definition": "Delay. \"Zero latency\" means instant manifestation or reaction.",
+          "contrast": "vs. Lag / Wait.",
+          "sonic_texture": "Instant, Zero-gap.",
+          "usage": "Low latency mindset."
+        },
+        {
+          "word": "Flux",
+          "definition": "Constant change and energy flow. Being comfortable in the \"flux.\"",
+          "contrast": "vs. Stagnant / Static.",
+          "sonic_texture": "Shifting, Fluid.",
+          "usage": "Flux capacity."
+        },
+        {
+          "word": "Wormhole",
+          "definition": "A shortcut through space and time. Moving instantly from dream to reality.",
+          "contrast": "vs. Long route.",
+          "sonic_texture": "Warping, Vacuum.",
+          "usage": "Traveling wormhole."
+        },
+        {
+          "word": "Orbital Ring",
+          "definition": "The gravity field. Things \"gravitate\" towards the center (JaZeR).",
+          "contrast": "vs. Repulsion.",
+          "sonic_texture": "Circular, Hum.",
+          "usage": "Orbital ring gravity."
+        },
+        {
+          "word": "Overlays",
+          "definition": "Digital layers of information. Seeing the world with \"UI in the mind.\"",
+          "contrast": "vs. Raw sight / Unstructured.",
+          "sonic_texture": "Layered, HUD-like.",
+          "usage": "Models and popups."
+        },
+        {
+          "word": "DevOps",
+          "definition": "The nerdy, structural side of building. \"Dev quick.\"",
+          "contrast": "vs. User-end.",
+          "sonic_texture": "Ticking, Fast-typing.",
+          "usage": "Dev quick, DevOps."
+        }
+      ]
+    },
+    {
+      "category_name": "Identity & Mindset",
+      "items": [
+        {
+          "word": "Wizardry",
+          "definition": "Mastery over one's craft and reality. \"Wizard with a Capital Z.\" Magic that is earned through skill.",
+          "contrast": "vs. Luck / Muggle.",
+          "sonic_texture": "Mystical, Powerful.",
+          "usage": "Wizardry vibe."
+        },
+        {
+          "word": "Reckless",
+          "definition": "Boldness and bravery. \"Team Reckless\" moves without fear of failure.",
+          "contrast": "vs. Hesitant / Fearful.",
+          "sonic_texture": "Sharp, Fast.",
+          "usage": "Team Reckless."
+        },
+        {
+          "word": "Unkillable",
+          "definition": "Resilience. The ability to come back from any setback. A \"stain\" that cannot be removed.",
+          "contrast": "vs. Fragile / Erasable.",
+          "sonic_texture": "Tough, Persistent.",
+          "usage": "Unkillable, I'm a stain."
+        },
+        {
+          "word": "Intention",
+          "definition": "Purposeful action. Moving with a specific goal in mind. \"Divine intention.\"",
+          "contrast": "vs. Accident / Random.",
+          "sonic_texture": "Targeted, Direct.",
+          "usage": "Divine intention."
+        },
+        {
+          "word": "Mission",
+          "definition": "The overarching goal. The reason for being here.",
+          "contrast": "vs. Aimless.",
+          "sonic_texture": "Direct, Steady.",
+          "usage": "Man on a mission."
+        },
+        {
+          "word": "Spirit",
+          "definition": "The inner spark. The \"child spirit\" that keeps the wonder alive.",
+          "contrast": "vs. Bitter / Jaded.",
+          "sonic_texture": "Light, Bouncy.",
+          "usage": "Keep the kid in you."
+        },
+        {
+          "word": "Wisdom",
+          "definition": "Grounded instincts. \"Common sense\" escalated to a higher level.",
+          "contrast": "vs. Foolishness.",
+          "sonic_texture": "Resonant, Clear.",
+          "usage": "I know nothing."
+        },
+        {
+          "word": "Focus",
+          "definition": "Locking in. Excluding distractions to execute the mission.",
+          "contrast": "vs. Distracted / Blurred.",
+          "sonic_texture": "Narrow, Intense.",
+          "usage": "Mind on the shine state."
+        },
+        {
+          "word": "Peace",
+          "definition": "The ultimate goal. The \"loudest flex.\" Success without stress.",
+          "contrast": "vs. War / Chaos.",
+          "sonic_texture": "Soft, Wide.",
+          "usage": "The loudest flex is peace."
+        },
+        {
+          "word": "Sprout/Seed",
+          "definition": "Growth potential. Small beginnings that turn into \"money trees.\"",
+          "contrast": "vs. Barren / Dead.",
+          "sonic_texture": "Organic, Rising.",
+          "usage": "Watch a sprout right now."
+        },
+        {
+          "word": "Alchemy",
+          "definition": "The transformation of state. Turning \"pressure into power\" or \"pain into gold.\"",
+          "contrast": "vs. Stagnation.",
+          "sonic_texture": "Bubbling, Evolving.",
+          "usage": "Kitchen alchemy."
+        },
+        {
+          "word": "DNA",
+          "definition": "Inherent traits. \"Engraved in the veins.\" Success is biological/destined.",
+          "contrast": "vs. Learned / Artificial.",
+          "sonic_texture": "Biological, Deep.",
+          "usage": "Engraved in the veins."
+        },
+        {
+          "word": "Steeze",
+          "definition": "Style with ease. Natural charisma that cannot be taught.",
+          "contrast": "vs. Try-hard.",
+          "sonic_texture": "Smooth, Effortless.",
+          "usage": "Steeze in the walk."
+        },
+        {
+          "word": "Vernacular",
+          "definition": "Unique language and way of speaking. The \"JaZeR talk.\"",
+          "contrast": "vs. Generic.",
+          "sonic_texture": "Sharp, Distinct.",
+          "usage": "Vernacular sharp."
+        },
+        {
+          "word": "Wordsmith",
+          "definition": "Someone who treats language as a craft/trade. \"Wordsmith shift.\"",
+          "contrast": "vs. Generic rapper.",
+          "sonic_texture": "Intricate, Precise.",
+          "usage": "Wordsmith shift."
+        },
+        {
+          "word": "Linguistics",
+          "definition": "The technical craft of language. Using words with precision and \"heat.\"",
+          "contrast": "vs. Slurred / Unclear.",
+          "sonic_texture": "Articulate, Heated.",
+          "usage": "Verbal linguistics."
+        },
+        {
+          "word": "Conceal",
+          "definition": "The discipline of hiding one's power or moves until the timing is perfect.",
+          "contrast": "vs. Exposed / Early.",
+          "sonic_texture": "Quiet, Subdued.",
+          "usage": "Conceal it."
+        }
+      ]
+    },
+    {
+      "category_name": "Environment & Atmosphere",
+      "items": [
+        {
+          "word": "Sunshine",
+          "definition": "Optimism and fuel. \"Vitamin D.\" The source of energy for growth.",
+          "contrast": "vs. Shade / Night.",
+          "sonic_texture": "Bright, Radiant.",
+          "usage": "Everybody loves the sunshine."
+        },
+        {
+          "word": "Oz",
+          "definition": "The ultimate destination of mastery. A place of color and magic. \"Yellow bricks to Oz.\"",
+          "contrast": "vs. Kansas / Ordinary.",
+          "sonic_texture": "Technicolor, Magical.",
+          "usage": "Yellow bricks to Oz."
+        },
+        {
+          "word": "Streetlights",
+          "definition": "Urban guidance. The aesthetic of the \"Night Drive.\"",
+          "contrast": "vs. Total Darkness.",
+          "sonic_texture": "Flickering, Urban.",
+          "usage": "When the streetlights falling."
+        },
+        {
+          "word": "Tropics",
+          "definition": "Peace, luxury, and reward. A mental or physical destination of relaxation.",
+          "contrast": "vs. Cold / Gritty city.",
+          "sonic_texture": "Lush, Warm.",
+          "usage": "Tropics in the head."
+        },
+        {
+          "word": "Ozone",
+          "definition": "High altitude. Represents the edge of the world.",
+          "contrast": "vs. Sea-level.",
+          "sonic_texture": "Rare, Cold.",
+          "usage": "In the ozone."
+        },
+        {
+          "word": "Wonderland",
+          "definition": "The realm of imagination. Where the \"impossible\" happens.",
+          "contrast": "vs. Reality.",
+          "sonic_texture": "Bizarre, Playful.",
+          "usage": "Wonderland in my frame."
+        },
+        {
+          "word": "Arena",
+          "definition": "The stage of competition. Where the game is played.",
+          "contrast": "vs. Practice / Sideline.",
+          "sonic_texture": "Echoing, Grand.",
+          "usage": "Arena energy."
+        },
+        {
+          "word": "Tower",
+          "definition": "High perspective. Watching over the empire/creation.",
+          "contrast": "vs. Ground-level.",
+          "sonic_texture": "High, Commanding.",
+          "usage": "I'm in my tower."
+        },
+        {
+          "word": "Field",
+          "definition": "Open space and freedom. \"Dreaming in the field.\"",
+          "contrast": "vs. Cage / Office.",
+          "sonic_texture": "Wide, Natural.",
+          "usage": "Dreaming in the field."
+        },
+        {
+          "word": "Caribbean",
+          "definition": "Idealized relaxation. The \"dream\" half of \"Dreams & Reality.\"",
+          "contrast": "vs. Gritty reality.",
+          "sonic_texture": "Calypso, Soft.",
+          "usage": "In that field in the Caribbean."
+        },
+        {
+          "word": "Rat Race",
+          "definition": "The trap of ordinary, soulless work. The thing to escape via \"Paper Chase\" (freedom).",
+          "contrast": "vs. Freedom / Paper Chase.",
+          "sonic_texture": "Frantic, Noisy.",
+          "usage": "Escape the rat race."
+        },
+        {
+          "word": "Lava",
+          "definition": "Heat and pressure. The floor is lava, or the flow is hot like lava.",
+          "contrast": "vs. Ice / Stillness.",
+          "sonic_texture": "Thick, Hot.",
+          "usage": "Lava flow pressure."
+        },
+        {
+          "word": "Pollinate",
+          "definition": "The act of spreading growth, ideas, or vibes naturally. \"Flowers and bees.\"",
+          "contrast": "vs. Dying out / Isolation.",
+          "sonic_texture": "Gentle, Organic.",
+          "usage": "Pollinate the room."
+        },
+        {
+          "word": "Sunset",
+          "definition": "The time for reflection and \"riding\" into the next phase.",
+          "contrast": "vs. Noon / Sunrise.",
+          "sonic_texture": "Golden, Calm.",
+          "usage": "Sunset ride."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "luka-doncic",
+  "type": "sports",
+  "name": "Luka Doncic",
+  "aliases": [
+    "Luka Magic"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Playmaking NBA guard-forward known for pacing, craft, and step-back scoring.",
+  "angles": [
+    "slow-fast rhythm",
+    "crafty playmaker",
+    "late-game closer"
+  ],
+  "bar_seeds": [
+    "step-back dagger",
+    "chessboard vision",
+    "slow spin to the rim"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Playmaking",
+    "Shot creation",
+    "Pace control"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "floor general",
+    "tempo wizard"
+  ],
+  "legends": [
+    "Historic scoring nights",
+    "Young superstar rise"
+  ],
+  "related_ids": [
+    "jayson-tatum",
+    "nikola-jokic"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luka_Doncic",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

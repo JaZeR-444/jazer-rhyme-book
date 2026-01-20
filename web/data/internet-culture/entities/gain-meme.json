@@ -1,0 +1,18 @@
+{
+  "id": "gain-meme",
+  "type": "internet-culture",
+  "name": "Gain",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The inverse of the 'Loss' meme, representing progress, addition, or winning.",
+  "tags": ["abstract", "positive", "logic", "minimalist"],
+  "angles": ["victory", "addition", "the-other-side"],
+  "bar_seeds": ["found the piece", "completing the set", "is this gain?"],
+  "related_ids": ["loss-meme"],
+  "format": "Visual Logic",
+  "origin_platform": "Reddit",
+  "meaning": "Used to subvert the expectation of 'Loss'; a rare moment of internet positivity.",
+  "remix_rules": ["Four panel structure", "Subverting the 1 | 1 I | 1 1 | 1 _ pattern", "Adding rather than losing"],
+  "lifespan_risk": "Low (Niche derivative)",
+  "example_lines": ["Flipped the script, now it's Gain in the vision", "Found what I lost, adding to the pile"]
+}

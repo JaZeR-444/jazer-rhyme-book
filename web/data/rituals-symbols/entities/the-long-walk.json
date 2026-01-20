@@ -1,0 +1,17 @@
+{
+  "id": "the-long-walk",
+  "type": "rituals-symbols",
+  "name": "The Long Walk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A ritual of endurance or forced migration, representing the peak of physical and mental resilience.",
+  "tags": ["ritual", "grit", "endurance", "tragedy"],
+  "angles": ["one-step-at-a-time", "resilience-as-ritual", "the-trail-of-memory"],
+  "bar_seeds": ["miles in the boots", "unending road", "walking until I fall"],
+  "related_ids": ["pilgrimage", "resilience"],
+  "purpose": "To test limits, survive a transition, or commemorate a journey.",
+  "steps": ["The first step", "The wall of pain", "The final mile"],
+  "objects_used": ["Staff", "Boots", "The road"],
+  "participants": "Individual or Group",
+  "outcome": "Hardened resolve or physical failure."
+}

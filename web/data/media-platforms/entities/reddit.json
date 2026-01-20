@@ -1,0 +1,20 @@
+{
+  "id": "reddit",
+  "type": "media-platforms",
+  "name": "Reddit",
+  "aliases": ["The Front Page of the Internet"],
+  "era": "2000s-Present",
+  "tags": ["social-media", "community", "forum", "discussion"],
+  "one_liner": "A massive network of communities where people can dive into their interests, hobbies, and passions.",
+  "angles": ["the collective mind", "pseudo-anonymous discourse", "community-driven news"],
+  "bar_seeds": ["upvote and downvote", "subreddit rabbit hole", "karma count", "ama"],
+  "platform_type": "Social News / Forum",
+  "user_demographic": "Broad, interest-based",
+  "content_format": ["Text posts", "Images", "Links", "Video"],
+  "algorithm_bias": "User upvotes, recency, and community engagement",
+  "slang": ["Subreddit", "Karma", "OP", "Gold", "Narwhal Bacon"],
+  "related_ids": ["internet-culture"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "the-roots",
+  "type": "music",
+  "name": "The Roots",
+  "aliases": ["The Legendary Roots Crew"],
+  "era": "1990s-Present",
+  "tags": ["philadelphia", "live-band", "conscious", "jazz-rap", "legend"],
+  "one_liner": "Hip-hop's greatest live band, known for their masterful instrumentation and lyrical depth.",
+  "angles": ["organic hip-hop", "instrumental virtuosity", "the questlove groove"],
+  "bar_seeds": ["things fall apart", "black thought", "questlove", "you got me"],
+  "genre": ["Alternative Hip Hop", "Jazz Rap"],
+  "era_detail": "Formed in 1987 in Philadelphia.",
+  "signature_songs": ["You Got Me", "The Seed (2.0)"],
+  "sonic_descriptors": ["organic", "soulful", "crisp"],
+  "influence_tree": ["The Soulquarians"],
+  "aesthetic": "Soulful and sophisticated",
+  "related_ids": ["kendrick-lamar"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

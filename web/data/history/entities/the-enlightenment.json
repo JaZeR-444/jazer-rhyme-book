@@ -1,0 +1,16 @@
+{
+  "id": "the-enlightenment",
+  "type": "history",
+  "name": "The Enlightenment",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An intellectual and philosophical movement that dominated the world of ideas in Europe during the 17th and 18th centuries.",
+  "tags": ["philosophical-ideas", "classic", "logic", "revolutionary"],
+  "angles": ["reason", "individualism", "scientific-method"],
+  "bar_seeds": ["age of reason", "dare to know", "casting out shadows"],
+  "key_dates": ["1685", "1815"],
+  "location": "Europe",
+  "impact": "Provided the intellectual foundation for modern democracies and scientific inquiry.",
+  "major_figures": ["Voltaire", "John Locke", "Isaac Newton"],
+  "cultural_shift": "The move from divine right and religious dogma to reason and empiricism."
+}

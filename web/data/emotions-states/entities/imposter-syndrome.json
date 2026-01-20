@@ -1,0 +1,17 @@
+{
+  "id": "imposter-syndrome",
+  "type": "emotions-states",
+  "name": "Imposter Syndrome",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The psychological pattern in which an individual doubts their skills, talents, or accomplishments and has a persistent internalized fear of being exposed as a 'fraud'.",
+  "tags": ["anxiety", "internal", "hustle", "technical"],
+  "angles": ["fraudulence", "internal doubt", "the mask slipping"],
+  "bar_seeds": ["waiting for the tap on the shoulder", "faking the flow", "not supposed to be here"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Sweating", "Avoidance of eye contact", "Over-working"],
+  "triggers": ["Promotion", "Public praise", "Starting a new project"],
+  "action_urge": "To work harder to hide the perceived fraudulence or to withdraw.",
+  "opposites": ["Confidence", "Self-Assurance"],
+  "related_ids": ["anxiety", "shame"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bernie-mittens",
+  "type": "internet-culture",
+  "name": "Bernie Mittens",
+  "aliases": [
+    "Bernie in mittens"
+  ],
+  "era": "2021",
+  "tags": [
+    "viral",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Bernie Sanders seated in mittens at the 2021 inauguration, edited into scenes.",
+  "angles": [
+    "cozy cameo",
+    "everywhere at once",
+    "stoic chill"
+  ],
+  "bar_seeds": [
+    "mittens in the scene",
+    "sitting through it",
+    "cozy in the cold"
+  ],
+  "related_ids": [
+    "this-is-fine",
+    "rickrolling"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bernie_Sanders_inauguration_mittens_meme",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Twitter",
+  "meaning": "Used to insert a calm, relatable figure into various scenes.",
+  "remix_rules": [
+    "Place Bernie in a new setting"
+  ],
+  "lifespan_risk": "Medium (event-driven)",
+  "example_lines": [
+    "Bernie sitting at the studio session"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arcade",
+  "type": "architecture-spaces",
+  "name": "Arcade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A venue filled with coin-operated video games, a hub of youth culture in the 80s and 90s.",
+  "tags": ["vibrant", "nostalgic", "lo-fi", "community"],
+  "angles": ["neon", "sound", "competition"],
+  "bar_seeds": ["insert coin", "high score", "joystick clicking"],
+  "related_ids": [],
+  "style": "Commercial / Neon",
+  "materials": ["Plastic", "CRT Screens", "Carpet"],
+  "spatial_qualities": ["Dark", "Loud", "Crowded"],
+  "function": "Entertainment",
+  "famous_examples": ["Chuck E. Cheese", "Galloping Ghost"]
+}

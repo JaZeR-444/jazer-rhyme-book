@@ -1,0 +1,19 @@
+{
+  "id": "skateboarding-sport",
+  "type": "sports",
+  "name": "Skateboarding",
+  "aliases": ["Skating"],
+  "era": "1950s-Present",
+  "tags": ["skate", "rebellion", "youth", "urban"],
+  "one_liner": "An action sport involving riding and performing tricks using a skateboard, a cornerstone of street culture.",
+  "angles": ["skate-and-destroy", "urban-creativity", "sidewalk-surfing"],
+  "bar_seeds": ["kickflip over the gap", "concrete wave", "grinding the rail"],
+  "team_size": "Individual",
+  "key_skills": ["Balance", "Creativity", "Resilience"],
+  "equipment": ["Skateboard", "Grip tape", "Trucks", "Wheels"],
+  "metaphors": ["Landing the trick", "Getting back up", "The world is a skatepark"],
+  "legends": ["Tony Hawk", "Rodney Mullen", "Nyjah Huston"],
+  "related_ids": ["tony-hawk", "vans", "streetwear"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

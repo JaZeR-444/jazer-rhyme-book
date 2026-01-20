@@ -1,0 +1,59 @@
+{
+  "id": "jayson-tatum",
+  "type": "sports",
+  "name": "Jayson Tatum",
+  "aliases": [
+    "JT"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary",
+    "championship"
+  ],
+  "one_liner": "NBA forward known for smooth scoring, two-way impact, and big-game moments.",
+  "angles": [
+    "smooth scorer",
+    "two-way wing",
+    "big stage poise"
+  ],
+  "bar_seeds": [
+    "fadeaway clean",
+    "green room glow",
+    "late-game bucket"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Shot creation",
+    "Defense",
+    "Rebounding"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "silk and steel",
+    "calm closer"
+  ],
+  "legends": [
+    "Deep playoff runs",
+    "All-NBA selections"
+  ],
+  "related_ids": [
+    "lebron-james",
+    "kobe-bryant"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jayson_Tatum",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "red-light-district",
+  "type": "places",
+  "name": "Red Light District",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An area where prostitution and sex-oriented businesses are concentrated, most famously in Amsterdam.",
+  "tags": ["vice", "noir", "grit", "culture"],
+  "angles": ["neon windows", "forbidden desire", "the business of pleasure"],
+  "bar_seeds": ["red glow in the glass", "canals at night", "everything for a price"],
+  "related_ids": [],
+  "place_type": "district",
+  "vibe": "Provocative, commercial, and nocturnal.",
+  "sensory_cues": ["Red neon", "Reflections in canals", "Crowded alleys", "Smoke"],
+  "cultural_refs": ["Amsterdam", "Vice", "Nocturnal life"],
+  "bar_angles": ["Life in the red light", "Windows of the soul", "Night city hustle"]
+}

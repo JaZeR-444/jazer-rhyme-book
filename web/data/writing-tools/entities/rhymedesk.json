@@ -1,0 +1,18 @@
+{
+  "id": "rhymedesk",
+  "type": "writing-tool",
+  "name": "RhymeDesk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An online tool for songwriters that provides rhymes, synonyms, and syllable counting in a clean interface.",
+  "tags": ["tool", "technical", "utility", "lyrical"],
+  "angles": ["assistance", "flow", "structure"],
+  "bar_seeds": ["counting syllables", "perfect rhyme", "slant rhyme search"],
+  "related_ids": ["rhymezone"],
+  "category": "Software / Web",
+  "what_it_does": "Helps writers find the right word and structure their lines rhythmically.",
+  "best_for": ["polishing lyrics", "finding near rhymes", "writer's block"],
+  "workflow_hooks": ["Check syllable count per line", "Find rhymes by type"],
+  "pitfalls": ["Can feel mechanical", "Internet required"],
+  "bar_angles": ["Calculated flow", "Structured bars", "Digital co-writer"]
+}

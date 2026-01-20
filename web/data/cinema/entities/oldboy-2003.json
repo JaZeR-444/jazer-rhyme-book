@@ -1,0 +1,18 @@
+{
+  "id": "oldboy-2003",
+  "type": "cinema",
+  "name": "Oldboy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+  "tags": ["action", "thriller", "noir", "international"],
+  "angles": ["revenge", "trauma", "twist"],
+  "bar_seeds": ["corridor fight", "eating the octopus", "laugh and the world laughs with you"],
+  "related_ids": [],
+  "era": "2003",
+  "plot_hooks": ["The imprisonment", "The release", "The revelation"],
+  "iconic_scenes": ["Hallway hammer fight", "Eating live octopus", "Cutting the tongue"],
+  "visual_motifs": ["Purple umbrella", "Hammer", "Ants"],
+  "themes": ["Vengeance", "Incest taboo", "Memory"],
+  "quotables_short": ["Laugh, and the world laughs with you...", "Be it a rock or a grain of sand..."]
+}

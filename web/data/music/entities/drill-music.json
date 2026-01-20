@@ -1,0 +1,18 @@
+{
+  "id": "drill-music",
+  "type": "music",
+  "name": "Drill",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dark, violent, and nihilistic subgenre of hip-hop characterized by its aggressive lyrics and unique sliding basslines.",
+  "tags": ["drill", "dark", "aggressive", "grit"],
+  "angles": ["street-warfare", "nihilism", "sliding-bass"],
+  "bar_seeds": ["mask on", "opp block", "gliding on the beat"],
+  "related_ids": ["opp", "balaclava", "glock-17"],
+  "genre": ["Hip Hop", "Drill"],
+  "era_detail": "2010s - Present (Chicago, UK, NY waves)",
+  "signature_songs": ["Love Sosa", "Welcome to the Party", "Ambush"],
+  "sonic_descriptors": ["Staccato delivery", "Sliding 808s", "Dark orchestral samples"],
+  "influence_tree": ["Trap", "UK Garage (for UK Drill)"],
+  "aesthetic": "Tech Fleece and Masks"
+}

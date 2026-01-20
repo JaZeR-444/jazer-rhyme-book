@@ -1,0 +1,17 @@
+{
+  "id": "meritocracy-philosophy",
+  "type": "philosophy-ideas",
+  "name": "Meritocracy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A political system in which economic goods and/or political power are vested in individual people on the basis of talent, effort, and achievement.",
+  "tags": ["hustle", "logic", "fairness", "competitive"],
+  "angles": ["earning-the-spot", "level-playing-field", "the-trap-of-merit"],
+  "bar_seeds": ["best man wins", "paid in blood and sweat", "straight to the top"],
+  "related_ids": ["hustle", "social-contract"],
+  "school_of_thought": "Political Philosophy",
+  "core_question": "Can a perfectly fair system of merit actually exist?",
+  "key_philosophers": ["Michael Young (coined the term)", "Michael Sandel (critic)"],
+  "paradoxes": ["The Tyranny of Merit"],
+  "modern_application": "College admissions, job hiring, competitive sports culture."
+}

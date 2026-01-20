@@ -1,0 +1,352 @@
+{
+  "manifest_name": "JAZER_ENTITIES",
+  "categories": [
+    {
+      "category_name": "Cultural Figures & Icons",
+      "items": [
+        {
+          "name": "De Niro",
+          "symbolism": "The \"Cool Capitalist.\" Represents handling business with cinematic style and street-smart nuance.",
+          "key_reference": "\"Making Mo-nay De Niro,\" \"Ferret bros energy.\""
+        },
+        {
+          "name": "Michael Jordan (M.J.)",
+          "symbolism": "The ultimate standard of competitive dominance and aerial grace. Represents \"Chicago Energy\"—grit combined with flight.",
+          "key_reference": "\"M.J. in the motion,\" \"Balling right.\""
+        },
+        {
+          "name": "Mozart",
+          "symbolism": "The \"Prodigy.\" Used to elevate rap lyrics to the status of high classical art. Represents genius that flows effortlessly.",
+          "key_reference": "\"Turn bars like Mozart,\" \"Art in the arc.\""
+        },
+        {
+          "name": "Da Vinci",
+          "symbolism": "The \"polymath builder.\" Represents the duality of being both an artist (sketch) and an engineer (code/structure).",
+          "key_reference": "\"Da Vinci in the sketch.\""
+        },
+        {
+          "name": "Prince",
+          "symbolism": "Mystique and Ownership. Represents creative independence and owning your own masters/sound.",
+          "key_reference": "\"Prince in the mystique,\" \"Ownership in the sound.\""
+        },
+        {
+          "name": "Steve Jobs",
+          "symbolism": "The Visionary. Represents seeing the future before it happens and designing it with precision.",
+          "key_reference": "\"Apple-bite in the crown,\" \"Jobs in the vision.\""
+        },
+        {
+          "name": "Wayne (Lil Wayne)",
+          "symbolism": "The Evolution of Craft. Represents the shift from a \"hot rapper\" to a \"Martian/Wizard\" level of skill.",
+          "key_reference": "\"Swerve from Wayne to Wizard.\""
+        },
+        {
+          "name": "Allen Iverson",
+          "symbolism": "The Crossover. Represents disruption, changing the pace, and individualism against the establishment.",
+          "key_reference": "\"New pacing... crossing the lane.\""
+        },
+        {
+          "name": "Gretzky",
+          "symbolism": "Anticipation. Skating to where the puck is *going* to be (Due Time), not where it is.",
+          "key_reference": "\"Aim locked,\" \"Taking the shot.\""
+        },
+        {
+          "name": "Ada (Lovelace)",
+          "symbolism": "The First Coder. Represents the deep roots of the \"Mainframe\" and \"Logic\" themes in the tech-heavy tracks.",
+          "key_reference": "\"Ada in the logic.\""
+        },
+        {
+          "name": "Miles (Davis)",
+          "symbolism": \"The Type.\" Represents cool innovation and the ability to say more with fewer notes (signals).",
+          "key_reference": "\"Miles in the type.\""
+        },
+        {
+          "name": "Dalai Lama",
+          "symbolism": "Inner Strength. Represents the paradox of being \"calm\" while being \"strong\" and \"unbothered.\"",
+          "key_reference": "\"Dalai Lama calm.\""
+        },
+        {
+          "name": "Zeppelin (Led Zeppelin)",
+          "symbolism": "Classic Rock Elevation. Used to invoke the \"Stairway\" metaphor and the sheer size/scale of the sound.",
+          "key_reference": "\"Stairway to healing,\" \"Blimp energy.\""
+        },
+        {
+          "name": "James Bond / 007",
+          "symbolism": "Suave Execution. Represents getting the job done while looking impeccable. \"Word is Bond.\"",
+          "key_reference": "\"007,\" \"Double-O movement.\""
+        },
+        {
+          "name": "Don McLean",
+          "symbolism": "Americana storytelling and nostalgia.",
+          "key_reference": "\"American Pie,\" \"Apple Pie.\""
+        },
+        {
+          "name": "The Beatles",
+          "symbolism": "Psychedelic Whimsy. Represents the \"Strawberry Fields\" spirit of playfulness within the music.",
+          "key_reference": "\"Strawberry Field spirit.\""
+        }
+      ]
+    },
+    {
+      "category_name": "Fictional & Mythic Characters",
+      "items": [
+        {
+          "name": "The Wizard (of Oz)",
+          "symbolism": "The Architect of Reality. Not the \"man behind the curtain,\" but the **Wizard with a Capital Z**—true mastery and control over the \"Oz\" dominion.",
+          "context": "The ultimate goal of the \"Builder\" arc."
+        },
+        {
+          "name": "Dorothy's Crew (Lion, Tin Man, Scarecrow)",
+          "symbolism": "The Balanced Self. Represents the internal trinity of **Heart** (Lion), **Logic/Planning** (Tin Man), and **Vision** (Scarecrow).",
+          "key_reference": "*Drip Drop Dreams*."
+        },
+        {
+          "name": "Alice (in Wonderland)",
+          "symbolism": "The Perspective Shift. Used when the flow or beat changes size/shape (\"Eat me / Drink me\").",
+          "key_reference": "\"Alice in the switch-up.\""
+        },
+        {
+          "name": "Cheshire Cat",
+          "symbolism": "The Knowing Grin. Represents confidence in the unknown and fading in/out of the \"Gray.\"",
+          "key_reference": "\"Smile in the dark.\""
+        },
+        {
+          "name": "Peter Pan / Neverland",
+          "symbolism": "Eternal Youth. Represents the refusal to let the \"Child Spirit\" die, even while doing business.",
+          "key_reference": "\"Neverland in my chest.\""
+        },
+        {
+          "name": "Hercules",
+          "symbolism": "Moral Strength. Represents doing the right thing when it's heavy (\"Atlas\" energy).",
+          "key_reference": "\"Hercules morality.\""
+        },
+        {
+          "name": "Hades",
+          "symbolism": "The Schemer. Represents \"Disney Villain\" energy—shadowy figures plotting against the light.",
+          "key_reference": "\"Hades with the schemes.\""
+        },
+        {
+          "name": "Edward Scissorhands",
+          "symbolism": "Precision and Isolation. Represents being misunderstood but capable of creating beautiful, delicate art (trimming the hedges).",
+          "key_reference": "\"Precision,\" \"Clean cuts.\""
+        },
+        {
+          "name": "Jojo Rabbit",
+          "symbolism": "Innocence amidst War. Represents keeping a good heart (the rabbit) even when the world is harsh.",
+          "key_reference": "\"Youth and flight.\""
+        },
+        {
+          "name": "Buzz Lightyear",
+          "symbolism": "Infinite Ambition. Used for the \"Infinite and Beyond\" hook.",
+          "key_reference": "\"Falling with style,\" \"Beyond.\""
+        },
+        {
+          "name": "The Lorax",
+          "symbolism": "Growth and Protection. The guardian of the \"Money Trees\" and the seeds.",
+          "key_reference": "\"Speak for the trees,\" \"Money trees down on me.\""
+        },
+        {
+          "name": "Joker",
+          "symbolism": "Chaotic Resilience. Laughing through the stress/pain.",
+          "key_reference": "\"Laughing through the stress.\""
+        },
+        {
+          "name": "Tom (Tom & Jerry)",
+          "symbolism": "Relentless Pursuit. The energy of chasing the goal, even if you take hits.",
+          "key_reference": "\"Pursuit energy.\""
+        },
+        {
+          "name": "Thomas (The Tank Engine)",
+          "symbolism": "Reliable Motion. \"I think I can.\" The steady, chugging beat of the \"Freight Train.\"",
+          "key_reference": "\"Thomas in the motion.\""
+        },
+        {
+          "name": "Mr. Meeseeks (Rick & Morty)",
+          "symbolism": "Singular Purpose. Existing *only* to complete the task, then disappearing (dip quick).",
+          "key_reference": "\"Anamorphic,\" \"Do you seek me?\""
+        },
+        {
+          "name": "Mr. Elastic / Mr. Fantastic",
+          "symbolism": "Versatility. Stretching the flow, the cadence, or the reach without breaking.",
+          "key_reference": "\"Stretching past the limit.\""
+        },
+        {
+          "name": "Jack (and the Beanstalk)",
+          "symbolism": "Humble Beginnings. Starting with \"magic beans\" (seeds) and growing a massive outcome.",
+          "key_reference": "\"Jack doing dishes,\" \"Seeds in the ground.\""
+        },
+        {
+          "name": "Spidey (Spider-Man)",
+          "symbolism": "Instinct. The \"Spidey Sense\" that detects \"Static\" or \"Danger\" before it hits.",
+          "key_reference": "\"Spidey sense,\" \"Fourth dimension.\""
+        },
+        {
+          "name": "Pandora",
+          "symbolism": "The Container of Chaos. \"Pandora's Box\" is referenced as something JaZeR *refuses* to open, or locks away to protect his peace.",
+          "key_reference": "\"Throw away the key.\""
+        },
+        {
+          "name": "Lucy Diamond",
+          "symbolism": "The Muse. A reference to \"Lucy in the Sky with Diamonds\"—she brings \"supplies\" (inspiration) from the sky.",
+          "key_reference": "\"Lucy Diamond eyes.\""
+        },
+        {
+          "name": "Pac-Man",
+          "symbolism": "The Game. Navigating the maze and avoiding the \"ghosts\" (negative energy).",
+          "key_reference": "\"Pac-Man ghosts in the mind.\""
+        },
+        {
+          "name": "The Bees",
+          "symbolism": "The Workers. Represents the natural, busy energy of growth and pollination.",
+          "key_reference": "\"Flowers and bees.\""
+        }
+      ]
+    },
+    {
+      "category_name": "Geographic & Spatial Entities",
+      "items": [
+        {
+          "name": "Oz",
+          "significance": "The Ultimate Goal. Represents the place where the \"Yellow Bricks\" (work) lead. It is Technicolor, magical, and earned."
+        },
+        {
+          "name": "Chicago",
+          "significance": "The Windy City. Represents the \"North Wind,\" grit, and the sports DNA (Bulls/Jordan) that fuels the competitive drive."
+        },
+        {
+          "name": "Austin",
+          "significance": "The Base. Where the \"Swirl\" happens. The home ground."
+        },
+        {
+          "name": "The Factory",
+          "significance": "The Studio. Where raw pressure is processed into \"Cheese\" (Money/Product)."
+        },
+        {
+          "name": "Space Station",
+          "significance": "The Mental State. High altitude, zero gravity, total isolation/focus."
+        },
+        {
+          "name": "The Pacific",
+          "significance": "The Flow. Represents depth, vastness, and a current that cannot be stopped."
+        },
+        {
+          "name": "Maldives / Tropics / The Caribbean",
+          "significance": "The Reward. The \"Dream\" side of the ledger. Represents peace, luxury, and \"squishy\" sunshine energy."
+        },
+        {
+          "name": "Wonderland",
+          "significance": "The Imagination. Where physics don't apply."
+        },
+        {
+          "name": "Neverland",
+          "significance": "The Preservation of Youth."
+        },
+        {
+          "name": "Strawberry Fields",
+          "significance": "A mental space of nostalgia and freedom."
+        },
+        {
+          "name": "Augusta",
+          "significance": "Referenced as a starting point or marker for the \"Skyline.\""
+        },
+        {
+          "name": "The Nile",
+          "significance": "Timelessness. A flow that has sustained civilizations."
+        },
+        {
+          "name": "Pluto",
+          "significance": "The Outsider. Represents being far out, distant, and misunderstood but still orbiting."
+        },
+        {
+          "name": "The Matrix",
+          "significance": "The Illusion. \"Leaning back\" refers to dodging bullets/lies."
+        },
+        {
+          "name": "Dark Side of the Moon",
+          "significance": "The Unknown. Cruising where others can't see."
+        }
+      ]
+    },
+    {
+      "category_name": "Brands & Artifacts",
+      "items": [
+        {
+          "name": "Air Force Uno",
+          "meaning": "A personalized spin on \"Air Force One.\" It represents singular importance—JaZeR is the President of his own flight."
+        },
+        {
+          "name": "Ferragamo",
+          "meaning": "Tasteful Luxury. \"Stepping light\" implies moving with expensive grace."
+        },
+        {
+          "name": "Jordan (Jordans)",
+          "meaning": "Iconic Style. \"Tip-toeing in my Jordans\" mixes stealth with classic sneaker culture."
+        },
+        {
+          "name": "VW (Volkswagens / B-Dubs)",
+          "meaning": "Grounding. Represents engineering, reliability, and personal history."
+        },
+        {
+          "name": "Jeep",
+          "meaning": "Rugged Utility. Often used as a comparison (\"You thought it was a Jeep, but it's a Jet\")."
+        },
+        {
+          "name": "Cadillac",
+          "meaning": "Classic status (often used for the \"Cataracts\" wordplay)."
+        },
+        {
+          "name": "Fiji",
+          "meaning": "Purity. \"Alkaline mindset\"—clean, expensive, balanced water."
+        },
+        {
+          "name": "Tussie Pop",
+          "meaning": "Layers. \"How many licks to the center?\" Represents getting to the core truth."
+        },
+        {
+          "name": "Swisher House",
+          "meaning": "Southern Rap Culture. Refers to \"Chopped & Screwed\" slowed-down energy."
+        },
+        {
+          "name": "Seven Eleven",
+          "meaning": "Convenience/Availability. \"24/7\" grind."
+        },
+        {
+          "name": "Swiss (Watch)",
+          "meaning": "Precision. \"Swiss timing\" means hitting the beat perfectly."
+        },
+        {
+          "name": "Starlink",
+          "meaning": "Next-Gen Connection. \"Shimmer\" represents high-speed, satellite-based communication from the sky."
+        },
+        {
+          "name": "FL Studio",
+          "meaning": "The Canvas. The software where the \"shine\" is built."
+        },
+        {
+          "name": "Java",
+          "meaning": "Code. Used to contrast with \"Script\" or natural flow."
+        }
+      ]
+    },
+    {
+      "category_name": "The \"Team\" (Internal/Crew)",
+      "items": [
+        {
+          "name": "Team Reckless",
+          "description": "The collective identity of the crew. Brave, bold, and willing to take risks."
+        },
+        {
+          "name": "Zoo-op-a-ree",
+          "description": "A playful phonetic description of the chaotic \"clan\" or entourage gravitating around the artist."
+        },
+        {
+          "name": "K-Dog",
+          "description": "A specific crew member referenced as a pillar of strength (\"In the corner\")."
+        },
+        {
+          "name": "Kaber",
+          "description": "Referenced in *Dark Side Cruise*—part of the flight crew."
+        }
+      ]
+    }
+  ]
+}

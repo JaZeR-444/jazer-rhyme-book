@@ -1,0 +1,19 @@
+{
+  "id": "penny-loafers",
+  "type": "fashion",
+  "name": "Penny Loafers",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A specific type of loafer with a leather strap across the top, featuring a slit that was historically used to hold a penny.",
+  "tags": ["classic", "preppy", "academic", "vintage"],
+  "angles": ["collegiate-tradition", "functional-ornament", "timeless-prep"],
+  "bar_seeds": ["penny in the slot", "weejuns step", "campus classic"],
+  "related_ids": ["loafers", "preppy-fashion"],
+  "item_type": "Footwear",
+  "material": ["Corrected Grain Leather", "Box Calf"],
+  "cultural_significance": "Iconic piece of 1950s American student style.",
+  "fit": ["Standard"],
+  "associated_brands": ["G.H. Bass (Weejuns)", "Sebago"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

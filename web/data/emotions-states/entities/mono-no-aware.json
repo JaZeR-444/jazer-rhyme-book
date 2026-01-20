@@ -1,0 +1,17 @@
+{
+  "id": "mono-no-aware",
+  "type": "emotions-states",
+  "name": "Mono no aware",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese term for the awareness of impermanence, or transience of things, and both a transient gentle sadness at their passing.",
+  "tags": ["asian", "poetic", "melancholy", "fleeting"],
+  "angles": ["cherry-blossom-philosophy", "the-beauty-of-the-end", "quiet-acceptance"],
+  "bar_seeds": ["petals in the wind", "sunset over the city", "knowing it can't last"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Sighing", "Soft smile", "Mist in the eyes"],
+  "triggers": ["Changing seasons", "Falling leaves", "Aging", "End of a good day"],
+  "action_urge": "To observe and appreciate the passing moment.",
+  "opposites": ["Eternity", "Stasis"],
+  "related_ids": ["wabi-sabi", "nostalgia", "saudade"]
+}

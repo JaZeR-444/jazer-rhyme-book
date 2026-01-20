@@ -1,0 +1,21 @@
+{
+  "id": "adele",
+  "type": "music",
+  "name": "Adele",
+  "aliases": ["Adele Adkins", "Adele Laurie"],
+  "era": "2000s-Present",
+  "tags": ["powerful", "emotional", "vocalist", "british", "heartbreak"],
+  "one_liner": "The British powerhouse with an unmatched voice who became the voice of a generation.",
+  "angles": ["emotional depth", "powerful vocals", "heartbreak anthems"],
+  "bar_seeds": ["Hello", "Someone like you", "Rolling in the deep", "21 album"],
+  "genre": ["Pop", "Soul", "R&B"],
+  "era_detail": "Breakthrough in 2008, dominated 2010s.",
+  "signature_songs": ["Hello", "Someone Like You", "Rolling in the Deep"],
+  "sonic_descriptors": ["powerful", "emotional", "soulful"],
+  "influence_tree": ["Classic soul", "Modern pop"],
+  "aesthetic": "British, emotional, authentic",
+  "related_ids": ["whitney-houston", "lana-del-rey"],
+  "created_at": "2025-12-23T11:40:00Z",
+  "updated_at": "2025-12-23T11:40:00Z",
+  "sources": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "roll-safe",
+  "type": "internet-culture",
+  "name": "Roll Safe",
+  "aliases": [
+    "Think about it"
+  ],
+  "era": "2016-Present",
+  "tags": [
+    "satirical",
+    "vibrant",
+    "contemporary"
+  ],
+  "one_liner": "A man pointing at his head to show smug, flawed logic.",
+  "angles": [
+    "fake wisdom",
+    "smug logic",
+    "cheap hack"
+  ],
+  "bar_seeds": [
+    "tap the temple",
+    "clever but wrong",
+    "smart face"
+  ],
+  "related_ids": [
+    "stonks",
+    "two-buttons"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/roll-safe",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Reaction Image",
+  "origin_platform": "Twitter",
+  "meaning": "Used to mock pseudo-clever reasoning.",
+  "remix_rules": [
+    "Add a flawed 'smart' statement"
+  ],
+  "lifespan_risk": "Medium (template cycle)",
+  "example_lines": [
+    "Can't flop if you never drop"
+  ]
+}

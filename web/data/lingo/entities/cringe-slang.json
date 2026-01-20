@@ -1,0 +1,18 @@
+{
+  "id": "cringe-slang",
+  "type": "lingo",
+  "name": "Cringe",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Something that is embarrassing or uncomfortable to watch.",
+  "tags": ["slang", "negative", "social", "internet-culture"],
+  "angles": ["embarrassment", "second-hand-shame", "awkwardness"],
+  "bar_seeds": ["that's pure cringe", "cringing at the post", "don't be cringe"],
+  "related_ids": ["shame"],
+  "meaning": "Embarrassing / Uncomfortable.",
+  "usage": "Describing someone trying too hard or acting awkwardly.",
+  "origin": "Internet / Reddit culture",
+  "region": "Global",
+  "example_lines": ["That video was straight cringe", "Stop it, you're being cringe"],
+  "do_not_use_if": ["Something is actually cool"]
+}

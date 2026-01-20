@@ -1,0 +1,18 @@
+{
+  "id": "trainspotting-1996",
+  "type": "cinema",
+  "name": "Trainspotting",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+  "tags": ["grit", "raw", "90s", "international"],
+  "angles": ["choose-life", "heroin-chic", "scottish-rebellion"],
+  "bar_seeds": ["choose life", "worst toilet in scotland", "sinking into the carpet"],
+  "related_ids": ["requiem-for-a-dream-2000"],
+  "era": "1996",
+  "plot_hooks": ["The overdose", "The baby on the ceiling", "The big score in London"],
+  "iconic_scenes": ["Choose Life monologue", "The toilet dive", "Lust for Life opening run"],
+  "visual_motifs": ["Needles", "Dirty walls", "Bright orange posters"],
+  "themes": ["Addiction", "Friendship", "Nihilism"],
+  "quotables_short": ["Choose life.", "It's shite being Scottish!"]
+}

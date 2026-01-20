@@ -1,0 +1,21 @@
+{
+  "id": "evernote",
+  "type": "writing-tool",
+  "name": "Evernote",
+  "aliases": ["The Elephant"],
+  "era": "2000s-Present",
+  "tags": ["notes", "organization", "cross-platform", "classic"],
+  "one_liner": "A long-standing note-taking app designed for capturing and organizing everything from lyrics to voice memos.",
+  "angles": ["the digital second brain", "organization of chaos", "multi-device sync"],
+  "bar_seeds": ["evernote full of verses", "elephant memory", "syncing the flow"],
+  "category": "Productivity Software",
+  "what_it_does": "Allows users to create notes including text, drawings, photographs, and audio recordings.",
+  "best_for": ["Capturing ideas on the go", "Organizing diverse media", "Web clipping for inspiration"],
+  "workflow_hooks": ["Scanning handwritten notes", "Using tags for rhyme schemes"],
+  "pitfalls": ["Slower performance in recent years", "Price increases", "Bloated UI"],
+  "bar_angles": ["check the evernote files", "verses saved in the cloud"],
+  "related_ids": ["notion"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jazer-rhyme-book-dictionary",
+  "version": "1.0.0",
+  "description": "Dictionary management scripts for JaZeR Rhyme Book",
+  "main": "99_SCRIPTS/sync_from_disk.js",
+  "scripts": {
+    "sync": "node 99_SCRIPTS/sync_from_disk.js",
+    "manifest": "node 99_SCRIPTS/sync_manifest.js",
+    "distribute": "node 99_SCRIPTS/distribute_inbox.js",
+    "check": "node 99_SCRIPTS/check_sync.js",
+    "repair": "node 99_SCRIPTS/repair_dictionary.js",
+    "cleanup": "node 99_SCRIPTS/cleanup_folders.js"
+  },
+  "dependencies": {}
+}

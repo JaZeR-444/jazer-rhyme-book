@@ -1,0 +1,18 @@
+{
+  "id": "akai-mpc",
+  "type": "writing-tool",
+  "name": "Akai MPC",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Music Production Center, a sampler/sequencer that defined the sound of golden era hip-hop.",
+  "tags": ["tool", "hardware", "music", "classic"],
+  "angles": ["sampling", "groove", "tactile"],
+  "bar_seeds": ["hitting the pads", "mpc swing", "chopping the sample"],
+  "related_ids": ["sp-1200"],
+  "category": "Hardware",
+  "what_it_does": "Allows producers to sample vinyl, chop it up, and play it back rhythmically on pads.",
+  "best_for": ["boom bap", "finger drumming", "sampling"],
+  "workflow_hooks": ["Chop a soul sample", "Add swing to the drums"],
+  "pitfalls": ["Limited memory (older models)", "Floppy disks"],
+  "bar_angles": ["Pad performance", "Sample chop", "The 16 levels"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pragmatism",
+  "type": "philosophy-ideas",
+  "name": "Pragmatism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A philosophical tradition that considers words and thought as tools and instruments for prediction, problem solving, and action.",
+  "tags": ["logic", "technical", "hustle", "practical"],
+  "angles": ["what works", "utility", "adaptation"],
+  "bar_seeds": ["results over rules", "truth is what works", "practical magic"],
+  "school_of_thought": "American Pragmatism",
+  "core_question": "Does it work in practice?",
+  "key_philosophers": ["William James", "John Dewey", "Charles Sanders Peirce"],
+  "paradoxes": [],
+  "modern_application": "Business operations, political policy, self-improvement."
+}

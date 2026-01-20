@@ -1,0 +1,20 @@
+{
+  "id": "zen",
+  "type": "emotions-states",
+  "name": "Zen",
+  "aliases": ["Peace", "Calm", "Equanimity"],
+  "era": "Ancient-Present",
+  "tags": ["positive", "low-energy", "stable", "centered"],
+  "one_liner": "A state of calm attentiveness in which one's actions are guided by intuition rather than by conscious effort.",
+  "angles": ["the eye of the hurricane", "pure presence", "unshakeable focus"],
+  "bar_seeds": ["still water", "breathing light", "unmoved by the noise", "centered soul"],
+  "intensity": "Low to Moderate",
+  "physical_symptoms": ["Deep breathing", "Relaxed muscles", "Steady heart rate", "Clear vision"],
+  "triggers": ["Meditation", "Mastery", "Acceptance", "Nature"],
+  "action_urge": "To be, to flow, to observe",
+  "opposites": ["Anxiety", "Rage"],
+  "related_ids": ["stoicism", "philosophy-ideas"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

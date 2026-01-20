@@ -1,0 +1,18 @@
+{
+  "id": "psycho-1960",
+  "type": "cinema",
+  "name": "Psycho",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A phoenix secretary embezzles forty thousand dollars from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+  "tags": ["horror", "classic", "noir", "psychological"],
+  "angles": ["mother-obsession", "shower-scene", "unreliable-identity"],
+  "bar_seeds": ["bates motel", "mother's voice in the hall", "showering in the dark"],
+  "related_ids": [],
+  "era": "1960",
+  "plot_hooks": ["Embezzlement", "The motel stay", "The reveal"],
+  "iconic_scenes": ["Shower murder", "The cellar reveal", "Norman staring at the camera"],
+  "visual_motifs": ["Swirling drain", "Stuffed birds", "Knife shadow"],
+  "themes": ["Duality of man", "Voyeurism", "Mental illness"],
+  "quotables_short": ["A boy's best friend is his mother.", "We all go a little mad sometimes."]
+}

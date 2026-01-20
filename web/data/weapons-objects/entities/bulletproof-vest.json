@@ -1,0 +1,17 @@
+{
+  "id": "bulletproof-vest",
+  "type": "weapons-objects",
+  "name": "Bulletproof Vest",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Protective body armor that signifies both high-risk and survival.",
+  "tags": ["grit", "technical", "contemporary", "security"],
+  "angles": ["defense", "weight", "invincibility"],
+  "bar_seeds": ["Kevlar under the shirt", "strapped up", "protection from the streets"],
+  "related_ids": [],
+  "weapon_type": "Armor",
+  "range": "N/A",
+  "damage_type": "Mitigation",
+  "symbolism": "Preparation, survivalism, and the reality of constant threat.",
+  "famous_users": ["50 Cent", "Law enforcement"]
+}

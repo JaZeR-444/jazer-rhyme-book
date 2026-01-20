@@ -1,0 +1,17 @@
+{
+  "id": "mjolnir",
+  "type": "mythology-legend",
+  "name": "Mjölnir",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The hammer of Thor, a powerful weapon capable of leveling mountains and calling lightning.",
+  "tags": ["artifact", "classic", "power", "war"],
+  "angles": ["worthiness", "lightning-strike", "destructive-force"],
+  "bar_seeds": ["hammer throw", "worth the weight", "crushing the giants"],
+  "related_ids": ["thor"],
+  "origin_culture": "Norse",
+  "deity_type": "Mythical Weapon",
+  "powers": ["Lightning manipulation", "Returns to hand", "Infinite weight"],
+  "symbols": ["Hammer", "Lightning", "Goats"],
+  "modern_parallels": ["Marvel's Thor", "Ultimate power tool", "Symbol of protection"]
+}

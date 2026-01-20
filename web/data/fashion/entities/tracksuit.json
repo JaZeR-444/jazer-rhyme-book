@@ -1,0 +1,19 @@
+{
+  "id": "tracksuit",
+  "type": "fashion",
+  "name": "Tracksuit",
+  "aliases": ["Warm-up Suit", "Shell Suit"],
+  "era": "1960s-Present",
+  "tags": ["sportswear", "streetwear", "00s", "vibrant"],
+  "one_liner": "An article of clothing consisting of two parts: trousers and a jacket, usually with a front zipper.",
+  "angles": ["athletic-uniform", "street-dominance", "velour-luxury"],
+  "bar_seeds": ["three stripes", "velour set", "ready for the block"],
+  "related_ids": ["adidas", "grime-music"],
+  "item_type": "Suits / Sportswear",
+  "material": ["Polyester", "Velour", "Nylon"],
+  "cultural_significance": "A symbol of 80s breakdancing, 90s football hooligans, and 2000s 'bling' culture.",
+  "fit": ["Baggy", "Slim"],
+  "associated_brands": ["Adidas", "Nike", "Juicy Couture", "Needles"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plug-slang",
+  "type": "lingo",
+  "name": "Plug",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A connection who can provide something, usually illegal or exclusive.",
+  "tags": ["slang", "grit", "connection", "underground"],
+  "angles": ["source", "supply", "loyalty"],
+  "bar_seeds": ["call the plug", "connected to the source", "don't miss the plug"],
+  "related_ids": [],
+  "meaning": "Supplier / Source / Connection.",
+  "usage": "Referring to someone who has what you need (drugs, tickets, info).",
+  "origin": "Drug culture",
+  "region": "Global",
+  "example_lines": ["Met the plug in the back", "He's the plug for the new sneakers"],
+  "do_not_use_if": ["You are talking about a literal electrical plug"]
+}

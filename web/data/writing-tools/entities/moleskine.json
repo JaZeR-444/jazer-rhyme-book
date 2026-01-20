@@ -1,0 +1,18 @@
+{
+  "id": "moleskine",
+  "type": "writing-tool",
+  "name": "Moleskine",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The iconic black notebook used by artists and thinkers for centuries.",
+  "tags": ["tool", "classic", "minimalist", "brand", "culture"],
+  "angles": ["tradition", "portability", "quality"],
+  "bar_seeds": ["elastic band", "pocket in the back", "oilcloth cover"],
+  "related_ids": ["physical-notebook"],
+  "category": "Physical",
+  "what_it_does": "Provides a durable, portable surface for writing.",
+  "best_for": ["travel journals", "sketching", "daily carry"],
+  "workflow_hooks": ["Fill one every month", "Use the back pocket for receipts"],
+  "pitfalls": ["Paper can bleed through", "Pricey for a notebook"],
+  "bar_angles": ["Classic canvas", "Black book", "Traveler's companion"]
+}

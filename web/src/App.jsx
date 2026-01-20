@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AppLayout } from './components/AppLayout';
+import { UserPreferencesProvider } from './lib/UserPreferencesContext';
 import { BrowsingHistoryProvider } from './lib/BrowsingHistoryContext';
 import { FilterProvider } from './lib/FilterContext';
 import { FavoritesProvider } from './lib/FavoritesContext';
@@ -18,6 +19,7 @@ import { WordCompare } from './pages/WordCompare';
 import { Search } from './pages/Search';
 import { WritingStudio } from './pages/WritingStudio';
 import { About } from './pages/About';
+import { Settings } from './pages/Settings';
 import { NotFound } from './pages/NotFound';
 
 // Styles
@@ -27,12 +29,13 @@ import { WorkspaceProvider } from './lib/WorkspaceContext';
 
 function App() {
   return (
-    <BrowsingHistoryProvider>
-      <FilterProvider>
-        <FavoritesProvider>
-          <EntityLikesProvider>
-            <WorkspaceProvider>
-              <HashRouter>
+    <UserPreferencesProvider>
+      <BrowsingHistoryProvider>
+        <FilterProvider>
+          <FavoritesProvider>
+            <EntityLikesProvider>
+              <WorkspaceProvider>
+                <HashRouter>
                 <Routes>
                   <Route path="/" element={<AppLayout />}>
                     <Route index element={<Home />} />
@@ -55,17 +58,19 @@ function App() {
                     <Route path="search" element={<Search />} />
                     <Route path="studio" element={<WritingStudio />} />
                     <Route path="about" element={<About />} />
+                    <Route path="settings" element={<Settings />} />
 
                     {/* 404 */}
                     <Route path="*" element={<NotFound />} />
                   </Route>
                 </Routes>
-              </HashRouter>
-            </WorkspaceProvider>
-          </EntityLikesProvider>
-        </FavoritesProvider>
-      </FilterProvider>
-    </BrowsingHistoryProvider>
+                </HashRouter>
+              </WorkspaceProvider>
+            </EntityLikesProvider>
+          </FavoritesProvider>
+        </FilterProvider>
+      </BrowsingHistoryProvider>
+    </UserPreferencesProvider>
   );
 }
 

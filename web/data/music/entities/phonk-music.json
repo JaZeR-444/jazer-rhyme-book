@@ -1,0 +1,18 @@
+{
+  "id": "phonk-music",
+  "type": "music",
+  "name": "Phonk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of hip-hop and trap music directly inspired by 1990s Memphis rap, characterized by cowbells and lo-fi production.",
+  "tags": ["phonk", "dark", "lo-fi", "internet-culture"],
+  "angles": ["memphis-ghosts", "cowbell-rhythm", "distorted-drift"],
+  "bar_seeds": ["cowbell snap", "memphis tape", "drifting at night"],
+  "related_ids": ["memphis", "drift-2011"],
+  "genre": ["Hip Hop", "Electronic"],
+  "era_detail": "2010s - Present (Drift Phonk wave)",
+  "signature_songs": ["Sahara", "Murder in My Mind", "Gaza"],
+  "sonic_descriptors": ["Distorted vocals", "High cowbells", "Muddy mix", "Atmospheric pads"],
+  "influence_tree": ["Memphis Rap", "Three 6 Mafia", "Phonetic"],
+  "aesthetic": "Night Drifting and VHS"
+}

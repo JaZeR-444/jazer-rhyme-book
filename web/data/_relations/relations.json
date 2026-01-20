@@ -1,0 +1,4 @@
+{
+  "__comment": "Store CROSS-DOMAIN relations here. Intra-domain relations (e.g. cinema-to-cinema) remain in data/<domain>/relations/relations.json",
+  "relations": []
+}

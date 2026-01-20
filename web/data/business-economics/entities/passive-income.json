@@ -1,0 +1,17 @@
+{
+  "id": "passive-income",
+  "type": "business-economics",
+  "name": "Passive Income",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Earnings derived from a rental property, limited partnership, or other enterprise in which a person is not actively involved.",
+  "tags": ["hustle", "wealth", "freedom", "technical"],
+  "angles": ["sleep-money", "freedom", "setup"],
+  "bar_seeds": ["money while I sleep", "dividends hitting", "mailbox money"],
+  "related_ids": ["real-estate"],
+  "industry": "Finance",
+  "core_principle": "Disconnecting time from money.",
+  "jargon": ["Cash flow", "Dividends", "Royalties"],
+  "key_metrics": ["Monthly Recurring Revenue", "Yield"],
+  "archetypes": ["Landlord", "Investor"]
+}

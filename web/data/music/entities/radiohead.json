@@ -1,0 +1,18 @@
+{
+  "id": "radiohead",
+  "type": "music",
+  "name": "Radiohead",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An English rock band that consistently deconstructed their sound, moving from grunge to electronic abstraction.",
+  "tags": ["melancholy", "innovative", "technical", "esoteric"],
+  "angles": ["alienation", "technology", "evolution"],
+  "bar_seeds": ["paranoid android", "creep", "everything in its right place"],
+  "related_ids": [],
+  "genre": ["Art Rock", "Electronic", "Alternative"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Creep", "Karma Police", "Paranoid Android"],
+  "sonic_descriptors": ["Falsetto", "Modular synths", "Complex time signatures"],
+  "influence_tree": ["Pixies", "Aphex Twin", "Miles Davis"],
+  "aesthetic": "Dystopian Intellectual"
+}

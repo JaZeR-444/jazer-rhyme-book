@@ -1,0 +1,17 @@
+{
+  "id": "arcteryx",
+  "type": "brand",
+  "name": "Arc'teryx",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Canadian high-end outdoor equipment brand, currently the pinnacle of the 'Gorpcore' aesthetic.",
+  "tags": ["luxury", "technical", "gorpcore", "streetwear"],
+  "angles": ["performance-luxury", "waterproof-status", "skeletal-branding"],
+  "bar_seeds": ["gore-tex shell", "dead bird logo", "beating the rain"],
+  "related_ids": ["the-north-face", "gorpcore"],
+  "category": "Outdoor / Fashion",
+  "price_tier": "High",
+  "signature_products": ["Alpha SV Jacket", "Beta AR Jacket"],
+  "status_signals": ["Archaeopteryx fossil logo", "Taped seams"],
+  "bar_angles": ["Urban explorer", "Waterproof wealth", "Technical edge"]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "arab-spring",
+  "type": "history",
+  "name": "Arab Spring",
+  "aliases": [],
+  "era": "2010-2012",
+  "tags": [
+    "revolution",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A wave of protests and uprisings across the Middle East and North Africa.",
+  "angles": [
+    "street protests",
+    "regime change",
+    "youth uprising"
+  ],
+  "bar_seeds": [
+    "crowds in the square",
+    "voices for change",
+    "regimes fall"
+  ],
+  "key_dates": [
+    "2010 (Tunisia protests)",
+    "2011 (regional uprisings)"
+  ],
+  "location": "Middle East / North Africa",
+  "impact": "Toppled regimes, sparked conflicts, and reshaped regional politics.",
+  "major_figures": [
+    "Mohamed Bouazizi",
+    "Hosni Mubarak"
+  ],
+  "cultural_shift": "Social media and public dissent became central political forces.",
+  "related_ids": [
+    "civil-rights-movement"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arab_Spring",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

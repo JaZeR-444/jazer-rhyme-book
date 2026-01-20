@@ -1,0 +1,130 @@
+{
+  "manifest_name": "JAZER_PHRASES",
+  "categories": [
+    {
+      "category_name": "Identity Phrases",
+      "items": [
+        { "phrase": "My name is J-A-Z-E-R", "context": "The spelling chant" },
+        { "phrase": "It's a J-A-Z-E-R", "context": "The tag/producer mark" },
+        { "phrase": "Me, myself, and I", "context": "Reframed as the \"Divine Trinity\" / self-reliance" },
+        { "phrase": "Man on a mission", "context": "The constant state of being" },
+        { "phrase": "Wizard with a capital Z", "context": "The mastery claim" },
+        { "phrase": "I am the main thing", "context": "Focus declaration" },
+        { "phrase": "Beat is me", "context": "Total alignment with the music" },
+        { "phrase": "Good man with good intentions", "context": "Moral compass" },
+        { "phrase": "Angel on the fly", "context": "Mobile benevolence" },
+        { "phrase": "Dentist in this game", "context": "Extracting the negative/fake" },
+        { "phrase": "Alien smooth", "context": "Otherworldly cool" },
+        { "phrase": "Boss moves", "context": "Executive action" },
+        { "phrase": "Radio aura", "context": "Broadcasting presence" },
+        { "phrase": "Verbal linguistics", "context": "Skill descriptor" },
+        { "phrase": "I am a holographic", "context": "Multi-dimensional identity declaration" },
+        { "phrase": "Man with intention", "context": "Purposeful presence and action" }
+      ]
+    },
+    {
+      "category_name": "Motion Phrases",
+      "items": [
+        { "phrase": "Never gonna stop", "context": "The core vow of persistence" },
+        { "phrase": "Freight train can't be derailed", "context": "Unstoppable force" },
+        { "phrase": "No time to slow down", "context": "Urgency/Acceleration" },
+        { "phrase": "Can't slow down", "context": "Momentum declaration" },
+        { "phrase": "Glide away from the gray", "context": "Mood shifting from static to signal" },
+        { "phrase": "Turn the gray to glide", "context": "The active process of mood shifting" },
+        { "phrase": "Zoom out, fade to gray", "context": "Perspective shift" },
+        { "phrase": "Slide to the east / north / south / west", "context": "Global movement/Coverage" },
+        { "phrase": "One, two... when I fly", "context": "Mic check / takeoff" },
+        { "phrase": "One second on the clock", "context": "Crunch time execution" },
+        { "phrase": "Tip-toe in my Jordans", "context": "Stylized, careful movement" },
+        { "phrase": "Levitate time", "context": "Transcending pressure" },
+        { "phrase": "Double dash quick", "context": "Rapid exit/movement" },
+        { "phrase": "Wormhole grip", "context": "Tight control over travel" },
+        { "phrase": "Take flight tonight", "context": "Escape from negative places" },
+        { "phrase": "Ships be sinking", "context": "Recognizing failure elsewhere" },
+        { "phrase": "Surf away", "context": "Escaping the sinking ship" },
+        { "phrase": "Saving pace", "context": "Efficiency > Saving face" },
+        { "phrase": "4D slide", "context": "Dimensional movement" },
+        { "phrase": "Sunset ride", "context": "Reflective movement" },
+        { "phrase": "New time to shine", "context": "Fresh opportunity declaration" },
+        { "phrase": "Round two, round two", "context": "Comeback and renewal chant" },
+        { "phrase": "Elevate / to the top", "context": "Ascent and achievement" }
+      ]
+    },
+    {
+      "category_name": "Builder Phrases",
+      "items": [
+        { "phrase": "Pave the way", "context": "Creating the path where there wasn't one" },
+        { "phrase": "Yellow bricks that I lay", "context": "The daily work/steps to mastery" },
+        { "phrase": "Blueprint in my pocket", "context": "Preparedness/Vision" },
+        { "phrase": "Turning pressure into cake / cheese / power", "context": "Alchemy/Resilience" },
+        { "phrase": "Pressure make diamonds", "context": "The anthem engine" },
+        { "phrase": "Bust open the frame / Busting mainframe", "context": "Breaking limits" },
+        { "phrase": "Write this down... the plot, the blueprint", "context": "Instructional command" },
+        { "phrase": "Million in the vision", "context": "The scale of ambition" },
+        { "phrase": "Money trees down on me", "context": "Abundance manifestation" },
+        { "phrase": "Purple trick mark", "context": "Stamp of approval/completion" },
+        { "phrase": "Dig deep", "context": "Foundational command" },
+        { "phrase": "Check boxes ain't checking themselves off", "context": "Discipline reminder" },
+        { "phrase": "Write it with the pen and paper → spit it to the millions", "context": "Creation to distribution process" }
+      ]
+    },
+    {
+      "category_name": "Wisdom Phrases",
+      "items": [
+        { "phrase": "Light come in due time", "context": "Patience/Faith" },
+        { "phrase": "I know nothing", "context": "Socratic humility/Openness to learning" },
+        { "phrase": "Time's an illusion", "context": "Perspective shift" },
+        { "phrase": "Everything happens for a reason", "context": "Acceptance/Trust" },
+        { "phrase": "My way or the highway", "context": "Firm boundaries" },
+        { "phrase": "Common sense dimensions", "context": "Instincts/Higher thinking" },
+        { "phrase": "Static to Signal", "context": "The fundamental JaZeR transition" },
+        { "phrase": "It'll be alright / Better days", "context": "Reassurance mantra" },
+        { "phrase": "Business is business", "context": "Professional boundary" },
+        { "phrase": "Future is the now then", "context": "Time doctrine" },
+        { "phrase": "Back pocket power", "context": "Hidden reserve/strength" },
+        { "phrase": "Extract the pain", "context": "Healing/removal process" },
+        { "phrase": "Clarity's quiet", "context": "Peace over noise" },
+        { "phrase": "Math not magic", "context": "Logical patterns" },
+        { "phrase": "I raise my standards", "context": "Self-respect" },
+        { "phrase": "No space for the hate", "context": "Hard boundary" },
+        { "phrase": "Cut through the noise", "context": "Signal clarity" },
+        { "phrase": "Breathe... Reset", "context": "The centering mechanism" },
+        { "phrase": "Love over power", "context": "The ultimate choice" },
+        { "phrase": "Wrong building", "context": "Identifying the incorrect path" },
+        { "phrase": "Get the picture", "context": "Clarity command" },
+        { "phrase": "It's time to grow", "context": "Evolution mandate" },
+        { "phrase": "Bad decisions don't make you bad", "context": "Redemption philosophy" },
+        { "phrase": "It'll be clear in due time", "context": "Patience affirmation" }
+      ]
+    },
+    {
+      "category_name": "Vibe Phrases",
+      "items": [
+        { "phrase": "Everybody loves the sunshine", "context": "Optimism hook" },
+        { "phrase": "My shine stays on", "context": "Resilience hook" },
+        { "phrase": "Drip drop dreams", "context": "Flow state" },
+        { "phrase": "Crème de la crème", "context": "Top tier quality" },
+        { "phrase": "Give me danger", "context": "Fearlessness/Edge" },
+        { "phrase": "Milli milli bop", "context": "Rhythmic chant" },
+        { "phrase": "Top flow / Top row", "context": "High-level execution" },
+        { "phrase": "Gravitational force", "context": "Magnetic charisma" },
+        { "phrase": "Squishy & shiny", "context": "Solar texture" },
+        { "phrase": "SH to the INE", "context": "Shine spelling chant" },
+        { "phrase": "F-R-I not Y", "context": "Friday/Freedom mindset" },
+        { "phrase": "Mind on the shine state", "context": "Focus discipline" },
+        { "phrase": "Cash route", "context": "Prismatic success path" },
+        { "phrase": "More like this", "context": "Vibe check" }
+      ]
+    },
+    {
+      "category_name": "Additional Signature Phrases",
+      "items": [
+        { "phrase": "When the street lights fall", "context": "Nighttime transformation scene" },
+        { "phrase": "It's the mastery, it's the obsession — not talent", "context": "Work ethic thesis" },
+        { "phrase": "Make everything 3D", "context": "Vision enhancement command" },
+        { "phrase": "Slow mo like Neo with the Matrix", "context": "Awakened perspective shift" },
+        { "phrase": "Fade to gray → better place", "context": "Transformation journey" }
+      ]
+    }
+  ]
+}

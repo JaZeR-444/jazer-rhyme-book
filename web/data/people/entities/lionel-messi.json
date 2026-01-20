@@ -1,0 +1,17 @@
+{
+  "id": "lionel-messi",
+  "type": "people",
+  "name": "Lionel Messi",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Argentine football wizard often considered the greatest of all time, known for his dribbling and vision.",
+  "tags": ["sports", "iconic", "global", "technical"],
+  "angles": ["talent", "humility", "magic"],
+  "bar_seeds": ["world cup trophy", "number 10", "barcelona days"],
+  "related_ids": ["cristiano-ronaldo"],
+  "known_for": ["World Cup 2022", "Ballon d'Ors", "Barcelona"],
+  "vibe": "Quiet genius, magical",
+  "signature_items": ["Left foot", "Argentina jersey", "Golden Ball"],
+  "quotables_short": ["Que mira bobo?", "Ankara Messi"],
+  "controversy_flags": ["Tax evasion case"]
+}

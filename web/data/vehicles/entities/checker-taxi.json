@@ -1,0 +1,17 @@
+{
+  "id": "checker-taxi",
+  "type": "vehicles",
+  "name": "Checker Taxi",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The iconic yellow cab that defined New York City streets for decades.",
+  "tags": ["vintage", "classic", "urban", "utility"],
+  "angles": ["city-life", "transport", "nostalgia"],
+  "bar_seeds": ["yellow cab", "flag down a ride", "jump seats"],
+  "related_ids": [],
+  "vehicle_type": "Sedan",
+  "engine_type": "V8 / Inline-6",
+  "top_speed": "100 mph",
+  "cultural_status": "The universal symbol of NYC urban life.",
+  "design_features": ["Yellow paint", "Checkered stripe", "Jump seats"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cold-fusion",
+  "type": "science-future",
+  "name": "Cold Fusion",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothesized type of nuclear reaction that would occur at, or near, room temperature.",
+  "tags": ["innovative", "technical", "clean-energy", "hustle"],
+  "angles": ["infinite energy", "holy grail of science", "unlimited potential"],
+  "bar_seeds": ["sun in a bottle", "powering the world for pennies", "no more heat"],
+  "related_ids": ["potential-energy"],
+  "field": "Nuclear Physics",
+  "hypothesis": "Fusion can be achieved without the extreme heat of stars.",
+  "implications": ["End of energy crisis", "Rapid space exploration", "Post-scarcity economy"],
+  "technologies": ["LENR (Low Energy Nuclear Reactions)"],
+  "ethical_concerns": ["Economic disruption", "Proliferation of power"]
+}

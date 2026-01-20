@@ -1,0 +1,21 @@
+{
+  "id": "lady-gaga",
+  "type": "music",
+  "name": "Lady Gaga",
+  "aliases": ["Gaga", "Stefani", "Mother Monster"],
+  "era": "2000s-Present",
+  "tags": ["theatrical", "pop", "performance", "artistic", "fashion"],
+  "one_liner": "The theatrical pop artist who transformed music into performance art with bold fashion and storytelling.",
+  "angles": ["theatrical performance", "fashion statements", "artistic expression"],
+  "bar_seeds": ["Paparazzi", "Poker Face", "Bad Romance", "Born This Way"],
+  "genre": ["Pop", "Dance", "Rock"],
+  "era_detail": "Breakthrough in late 2000s, continued evolution.",
+  "signature_songs": ["Bad Romance", "Paparazzi", "Shallow"],
+  "sonic_descriptors": ["theatrical", "catchy", "artistic"],
+  "influence_tree": ["Pop icons", "Rock opera"],
+  "aesthetic": "Theatrical, bold fashion, artistic",
+  "related_ids": ["madonna", "cher"],
+  "created_at": "2025-12-23T11:40:00Z",
+  "updated_at": "2025-12-23T11:40:00Z",
+  "sources": []
+}

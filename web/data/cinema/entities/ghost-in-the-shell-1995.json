@@ -1,0 +1,18 @@
+{
+  "id": "ghost-in-the-shell-1995",
+  "type": "cinema",
+  "name": "Ghost in the Shell",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
+  "tags": ["anime", "cyberpunk", "philosophical-ideas", "noir"],
+  "angles": ["identity", "humanity", "technology"],
+  "bar_seeds": ["ghost in the machine", "thermal optics", "net diver"],
+  "related_ids": ["the-matrix-1999"],
+  "era": "1995",
+  "plot_hooks": ["Hunting the hacker", "Existential crisis", "Merging with AI"],
+  "iconic_scenes": ["Building dive", "Tank fight", "Market chase"],
+  "visual_motifs": ["Green digital rain code", "Cyborg assembly", "Reflections"],
+  "themes": ["What is a soul?", "Cybernetic ethics", "Memory"],
+  "quotables_short": ["The net is vast and infinite."]
+}

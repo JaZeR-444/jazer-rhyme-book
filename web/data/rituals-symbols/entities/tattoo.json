@@ -1,0 +1,17 @@
+{
+  "id": "tattoo",
+  "type": "rituals-symbols",
+  "name": "Tattoo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The permanent marking of the skin with ink, serving as a ritual of identity, trauma, or status.",
+  "tags": ["ritual", "grit", "identity", "art"],
+  "angles": ["permanence", "pain as payment", "marking the journey"],
+  "bar_seeds": ["ink in the skin", "needle vibration", "story on my arms"],
+  "related_ids": ["initiation"],
+  "purpose": "To signify belonging, commemorate events, or enhance aesthetic appeal permanently.",
+  "steps": ["Choosing the symbol", "The process of pain (inking)", "Healing and display"],
+  "objects_used": ["Needle", "Ink", "Skin"],
+  "participants": "Artist, Recipient",
+  "outcome": "Permanent transformation of physical identity."
+}

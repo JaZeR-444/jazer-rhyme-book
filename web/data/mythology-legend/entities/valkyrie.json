@@ -1,0 +1,17 @@
+{
+  "id": "valkyrie",
+  "type": "mythology-legend",
+  "name": "Valkyrie",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Warrior maidens in Norse mythology who choose who dies in battle and bring the worthy to Valhalla.",
+  "tags": ["war", "classic", "mythology", "female-power"],
+  "angles": ["selection", "battle", "honor"],
+  "bar_seeds": ["ride of the valkyries", "choosing the slain", "wings of war"],
+  "related_ids": ["odin", "thor"],
+  "origin_culture": "Norse",
+  "deity_type": "Spirit / Demi-goddess",
+  "powers": ["Flight", "Combat skill", "Choosing death"],
+  "symbols": ["Wings", "Spear", "Horse"],
+  "modern_parallels": ["Air Force", "Guardian Angels", "Elite Soldiers"]
+}

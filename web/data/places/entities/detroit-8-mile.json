@@ -1,0 +1,50 @@
+{
+  "id": "detroit-8-mile",
+  "type": "place",
+  "name": "8 Mile Road",
+  "aliases": [
+    "8 Mile"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "detroit",
+    "division",
+    "hardcore-rap",
+    "midwest"
+  ],
+  "one_liner": "The road serving as the boundary between the city of Detroit and its northern suburbs, immortalized by Eminem.",
+  "angles": [
+    "the dividing line",
+    "trailer park dreams",
+    "industrial decay"
+  ],
+  "bar_seeds": [
+    "crossing 8 mile",
+    "detroit grime",
+    "mom's spaghetti",
+    "mobile home life"
+  ],
+  "vibe": "Cold, industrial, desolate, and resilient",
+  "sensory_cues": [
+    "rusting factories",
+    "cracked pavement",
+    "gray skies",
+    "distant sirens"
+  ],
+  "cultural_refs": [
+    "Eminem",
+    "8 Mile movie",
+    "J Dilla"
+  ],
+  "bar_angles": [
+    "across the 8 mile line",
+    "detroit diesel in the veins"
+  ],
+  "related_ids": [
+    "eminem"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "landmark"
+}
