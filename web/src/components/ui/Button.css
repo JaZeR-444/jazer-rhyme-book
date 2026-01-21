@@ -88,3 +88,13 @@
   display: flex;
   align-items: center;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+
+  .btn--primary:hover:not(:disabled) {
+    transform: none;
+  }
+}

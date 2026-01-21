@@ -136,3 +136,13 @@
   text-align: center;
   font-style: italic;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .influence-card {
+    transition: none;
+  }
+
+  .influence-card:hover {
+    transform: none;
+  }
+}

@@ -1,6 +1,19 @@
+import PropTypes from 'prop-types';
 import { Button } from './Button';
 import './EmptyState.css';
 
+/**
+ * EmptyState - Reusable empty/diagnostic placeholder
+ *
+ * @param {Object} props
+ * @param {React.ReactNode} [props.icon] - Optional decorative icon
+ * @param {string} [props.title] - Title text
+ * @param {string} [props.description] - Supporting copy
+ * @param {function} [props.action] - Primary action handler
+ * @param {string} [props.actionLabel] - Primary action label
+ * @param {'default'|'diagnostic'} [props.variant] - Visual style
+ * @returns {JSX.Element}
+ */
 export function EmptyState({
   icon,
   title,
@@ -31,3 +44,12 @@ export function EmptyState({
     </div>
   );
 }
+
+EmptyState.propTypes = {
+  icon: PropTypes.node,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  action: PropTypes.func,
+  actionLabel: PropTypes.string,
+  variant: PropTypes.oneOf(['default', 'diagnostic'])
+};

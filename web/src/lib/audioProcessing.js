@@ -3,34 +3,59 @@
  * Handles beat upload, BPM detection, and audio playback features
  */
 
+const DB_NAME = 'JaZeRBeats';
+const STORE_NAME = 'beats';
+const DB_VERSION = 1;
+
+function setupBeatStore(db) {
+  if (!db.objectStoreNames.contains(STORE_NAME)) {
+    const store = db.createObjectStore(STORE_NAME, { keyPath: 'id', autoIncrement: true });
+    store.createIndex('bpm', 'bpm', { unique: false });
+    store.createIndex('mood', 'mood', { unique: false });
+    store.createIndex('dateAdded', 'dateAdded', { unique: false });
+  }
+}
+
+function migrateBeatDatabase(db, oldVersion) {
+  if (oldVersion < 1) {
+    setupBeatStore(db);
+  }
+}
+
 // Initialize IndexedDB for beat storage
 export async function initBeatDatabase() {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open('JaZeRBeats', 1);
+    let request;
+    try {
+      request = indexedDB.open(DB_NAME, DB_VERSION);
+    } catch (err) {
+      reject(err);
+      return;
+    }
     
     request.onupgradeneeded = (e) => {
       const db = e.target.result;
-      if (!db.objectStoreNames.contains('beats')) {
-        const store = db.createObjectStore('beats', { keyPath: 'id', autoIncrement: true });
-        store.createIndex('bpm', 'bpm', { unique: false });
-        store.createIndex('mood', 'mood', { unique: false });
-        store.createIndex('dateAdded', 'dateAdded', { unique: false });
-      }
+      migrateBeatDatabase(db, e.oldVersion);
     };
     
     request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error);
+    request.onerror = () => reject(request.error || new Error('Failed to open IndexedDB'));
+    request.onblocked = () => reject(new Error('IndexedDB upgrade blocked by another tab'));
   });
 }
 
-// Store beat in IndexedDB
+// Store or update beat in IndexedDB
 export async function storeBeat(beatData) {
   const db = await initBeatDatabase();
-  const transaction = db.transaction(['beats'], 'readwrite');
-  const store = transaction.objectStore('beats');
+  const transaction = db.transaction([STORE_NAME], 'readwrite');
+  const store = transaction.objectStore(STORE_NAME);
+
+  transaction.oncomplete = () => db.close();
+  transaction.onerror = () => db.close();
   
   return new Promise((resolve, reject) => {
-    const request = store.add(beatData);
+    // Use put to handle both add and update
+    const request = store.put(beatData);
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
   });
@@ -39,12 +64,28 @@ export async function storeBeat(beatData) {
 // Get all beats
 export async function getAllBeats() {
   const db = await initBeatDatabase();
-  const transaction = db.transaction(['beats'], 'readonly');
-  const store = transaction.objectStore('beats');
+  const transaction = db.transaction([STORE_NAME], 'readonly');
+  const store = transaction.objectStore(STORE_NAME);
+
+  transaction.oncomplete = () => db.close();
+  transaction.onerror = () => db.close();
   
   return new Promise((resolve, reject) => {
     const request = store.getAll();
-    request.onsuccess = () => resolve(request.result);
+    request.onsuccess = () => {
+      const beats = request.result;
+      // Convert Blobs to object URLs for playback
+      const beatsWithUrls = beats.map(beat => {
+        if (beat.audioBlob) {
+          beat.url = URL.createObjectURL(beat.audioBlob);
+        } else if (beat.audioData && typeof beat.audioData === 'string') {
+          // Fallback for legacy base64 data
+          beat.url = beat.audioData;
+        }
+        return beat;
+      });
+      resolve(beatsWithUrls);
+    };
     request.onerror = () => reject(request.error);
   });
 }
@@ -52,8 +93,11 @@ export async function getAllBeats() {
 // Delete beat
 export async function deleteBeat(id) {
   const db = await initBeatDatabase();
-  const transaction = db.transaction(['beats'], 'readwrite');
-  const store = transaction.objectStore('beats');
+  const transaction = db.transaction([STORE_NAME], 'readwrite');
+  const store = transaction.objectStore(STORE_NAME);
+
+  transaction.oncomplete = () => db.close();
+  transaction.onerror = () => db.close();
   
   return new Promise((resolve, reject) => {
     const request = store.delete(id);
@@ -63,8 +107,14 @@ export async function deleteBeat(id) {
 }
 
 // BPM Detection using Web Audio API
-export async function detectBPM(audioBuffer) {
+export async function detectBPM(audioBuffer, options = {}) {
   try {
+    const {
+      threshold = 0.7,
+      minDistanceSec = 0.3,
+      maxPeaks = 50,
+    } = options;
+
     const offlineContext = new OfflineAudioContext(
       1,
       audioBuffer.length,
@@ -83,7 +133,11 @@ export async function detectBPM(audioBuffer) {
     source.start(0);
     
     const filteredBuffer = await offlineContext.startRendering();
-    const peaks = findPeaks(filteredBuffer.getChannelData(0), audioBuffer.sampleRate);
+    const peaks = findPeaks(
+      filteredBuffer.getChannelData(0),
+      audioBuffer.sampleRate,
+      { threshold, minDistanceSec, maxPeaks }
+    );
     
     return calculateBPMFromPeaks(peaks, audioBuffer.sampleRate);
   } catch (err) {
@@ -92,10 +146,10 @@ export async function detectBPM(audioBuffer) {
   }
 }
 
-function findPeaks(data, sampleRate) {
+function findPeaks(data, sampleRate, options) {
+  const { threshold = 0.7, minDistanceSec = 0.3, maxPeaks = 50 } = options || {};
   const peaks = [];
-  const threshold = 0.7;
-  const minDistance = Math.floor(0.3 * sampleRate); // 0.3 seconds minimum between peaks
+  const minDistance = Math.floor(minDistanceSec * sampleRate);
   
   let lastPeak = -minDistance;
   
@@ -104,6 +158,8 @@ function findPeaks(data, sampleRate) {
       peaks.push(i);
       lastPeak = i;
     }
+
+    if (peaks.length >= maxPeaks) break;
   }
   
   return peaks;
@@ -129,7 +185,7 @@ function calculateBPMFromPeaks(peaks, sampleRate) {
 
 // Load audio file
 export async function loadAudioFile(file) {
-  const audioContext = new AudioContext();
+  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
   const arrayBuffer = await file.arrayBuffer();
   const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
   
@@ -141,9 +197,11 @@ export class BeatLooper {
   constructor(audioElement) {
     this.audio = audioElement;
     this.loopStart = 0;
-    this.loopEnd = audioElement.duration;
+    this.loopEnd = audioElement.duration || 0;
     this.enabled = false;
-    this.updateInterval = null;
+    this._bound = false;
+    this._onTimeUpdate = this._onTimeUpdate.bind(this);
+    this._onLoadedMetadata = this._onLoadedMetadata.bind(this);
   }
   
   setLoop(start, end) {
@@ -154,20 +212,31 @@ export class BeatLooper {
   }
   
   startMonitoring() {
-    if (this.updateInterval) return;
-    
-    this.updateInterval = setInterval(() => {
-      if (this.enabled && this.audio.currentTime >= this.loopEnd) {
-        this.audio.currentTime = this.loopStart;
-      }
-    }, 100);
+    if (this._bound) return;
+    this.audio.addEventListener('timeupdate', this._onTimeUpdate);
+    this.audio.addEventListener('loadedmetadata', this._onLoadedMetadata);
+    this._bound = true;
+  }
+
+  _onTimeUpdate() {
+    if (!this.enabled) return;
+    if (this.loopEnd > 0 && this.audio.currentTime >= this.loopEnd) {
+      this.audio.currentTime = this.loopStart;
+    }
+  }
+
+  _onLoadedMetadata() {
+    if (!this.loopEnd || Number.isNaN(this.loopEnd)) {
+      this.loopEnd = this.audio.duration || 0;
+    }
   }
   
   disable() {
     this.enabled = false;
-    if (this.updateInterval) {
-      clearInterval(this.updateInterval);
-      this.updateInterval = null;
+    if (this._bound) {
+      this.audio.removeEventListener('timeupdate', this._onTimeUpdate);
+      this.audio.removeEventListener('loadedmetadata', this._onLoadedMetadata);
+      this._bound = false;
     }
   }
   

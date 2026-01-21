@@ -101,3 +101,29 @@
   color: var(--text-secondary);
   line-height: var(--leading-relaxed);
 }
+
+.dictionary-empty {
+  text-align: center;
+  margin-top: var(--space-lg);
+  font-style: italic;
+}
+
+.dictionary-results-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-lg);
+}
+
+.dictionary-show-more {
+  background: var(--surface-2);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all var(--duration-short) var(--ease-out);
+}
+
+.dictionary-show-more:hover {
+  border-color: var(--accent-warm);
+}

@@ -1,17 +1,19 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Search as SearchIcon, Filter, X, Info } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
 import Fuse from 'fuse.js';
 import { SearchBar, LoadingState, EmptyState, Badge, Button } from '../components/ui';
 import { EntityCard } from '../components/EntityCard';
 import { SearchHistory } from '../components/search/SearchHistory';
 import { Link } from 'react-router-dom';
 import { useSearchIndex } from '../lib/hooks';
-import { useSearchHistory } from '../lib/SearchHistoryContext';
+import { useSearchHistory } from '../contexts/SearchHistoryContext';
 import { parseSearchQuery, applySearchFilters, applyWordFilters, describeSearchQuery } from '../lib/searchParser';
 import { domainNames } from '../lib/data/knowledgeHub';
 import './Search.css';
 
 export function Search() {
+  usePageTitle('Search');
   const { searchIndex, loading } = useSearchIndex();
   const { addToHistory } = useSearchHistory();
   const [query, setQuery] = useState('');
@@ -122,7 +124,7 @@ export function Search() {
   }
 
   return (
-    <div className="search-page">
+    <div className="search-page" role="main" aria-label="Search page - Find domains, entities, and words">
       <div className="search-page__header">
         <h1 className="search-page__title">Search Knowledge</h1>
         <p className="search-page__description">
@@ -138,7 +140,7 @@ export function Search() {
           autoFocus
         />
 
-        <div className="search-page__filters">
+        <div className="search-page__filters" aria-label="Search filters - Filter by result type">
           <Button
             variant={typeFilter === 'all' ? 'primary' : 'ghost'}
             size="sm"
@@ -172,7 +174,7 @@ export function Search() {
         </div>
 
         {showFilters && (
-          <div className="search-page__advanced-filters">
+          <div className="search-page__advanced-filters" aria-label="Advanced filters - Filter by domains, tags, and era">
             <div className="advanced-filter-section">
               <h3 className="advanced-filter-title">Domains</h3>
               <div className="filter-chips">
@@ -286,7 +288,7 @@ export function Search() {
           </div>
         </div>
       ) : results.length > 0 ? (
-        <div className="search-page__results">
+        <div className="search-page__results" aria-label={`Search results - Found ${results.length} ${results.length === 1 ? 'result' : 'results'}`}>
           <div className="search-page__results-header">
             <p className="search-page__count">
               Found {results.length} results for "{query}"

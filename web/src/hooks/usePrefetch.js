@@ -24,6 +24,11 @@ export function usePrefetch(url, options = {}) {
     }
 
     if (trigger === 'visible') {
+      if (typeof window === 'undefined' || !('IntersectionObserver' in window)) {
+        prefetchManager.prefetchOnHover(url);
+        return;
+      }
+
       observerRef.current = prefetchManager.prefetchOnVisible(element, url);
 
       return () => {
@@ -38,11 +43,15 @@ export function usePrefetch(url, options = {}) {
 }
 
 export function usePrefetchMultiple(urls, options = {}) {
-  useEffect(() => {
-    if (!options.enabled) return;
+  const { enabled = true } = options;
 
-    urls.forEach((url) => {
+  useEffect(() => {
+    if (!enabled) return;
+
+    const uniqueUrls = Array.from(new Set((urls || []).filter(Boolean)));
+
+    uniqueUrls.forEach((url) => {
       prefetchManager.prefetchOnHover(url);
     });
-  }, [urls, options.enabled]);
+  }, [urls, enabled]);
 }

@@ -1,7 +1,17 @@
 /**
  * RadioGroup Component
  * Custom styled radio buttons with vertical layout
+ *
+ * @param {Object} props
+ * @param {Array<string|{value:string,label:string}>} props.options - Available options
+ * @param {string} props.value - Current selection value
+ * @param {function} [props.onChange] - Change handler
+ * @param {string} [props.label] - Group label
+ * @param {string} [props.name] - Native radio name
+ * @returns {JSX.Element}
  */
+import PropTypes from 'prop-types';
+import { useId } from 'react';
 import './RadioGroup.css';
 
 export function RadioGroup({
@@ -11,9 +21,15 @@ export function RadioGroup({
   label,
   name
 }) {
+  const labelId = useId();
+
   return (
-    <div className="radio-group">
-      {label && <label className="radio-group__label">{label}</label>}
+    <div 
+      className="radio-group"
+      role="radiogroup"
+      aria-labelledby={label ? labelId : undefined}
+    >
+      {label && <label id={labelId} className="radio-group__label">{label}</label>}
 
       <div className="radio-group__options">
         {options.map(option => {
@@ -45,3 +61,19 @@ export function RadioGroup({
     </div>
   );
 }
+
+RadioGroup.propTypes = {
+  options: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.shape({
+        value: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired
+      })
+    ])
+  ).isRequired,
+  value: PropTypes.string,
+  onChange: PropTypes.func,
+  label: PropTypes.string,
+  name: PropTypes.string
+};

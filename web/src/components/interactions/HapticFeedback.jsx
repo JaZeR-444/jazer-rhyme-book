@@ -113,6 +113,15 @@ export function useHaptic(options = {}) {
 
 /**
  * HapticButton - Button with built-in haptic feedback
+ * 
+ * @param {Object} props - Component props
+ * @param {React.ReactNode} props.children - Button content
+ * @param {Function} [props.onClick] - Click handler
+ * @param {string} [props.hapticType='click'] - Haptic feedback type
+ * @param {boolean} [props.enableSound=false] - Enable sound feedback
+ * @param {string} [props.className=''] - Additional CSS classes
+ * @param {string} [props['aria-label']] - Accessible label (important for icon-only buttons)
+ * @param {Object} props...rest - All other button props (type, disabled, aria-*, etc.)
  */
 export function HapticButton({ 
   children, 

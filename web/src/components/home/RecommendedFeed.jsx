@@ -1,10 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, TrendingUp, Clock, Heart } from 'lucide-react';
-import { Card } from '../ui';
 import { EntityCard } from '../EntityCard';
-import { useBrowsingHistory } from '../../lib/BrowsingHistoryContext';
-import { useFavorites } from '../../lib/FavoritesContext';
+import { useBrowsingHistory } from '../../contexts/BrowsingHistoryContext';
+import { useFavorites } from '../../contexts/FavoritesContext';
 import { useSearchIndex } from '../../lib/hooks';
 import {
   getPersonalizedRecommendations,
@@ -17,15 +16,15 @@ export function RecommendedFeed() {
   const { history } = useBrowsingHistory();
   const { favorites } = useFavorites();
   const { searchIndex } = useSearchIndex();
-  const [recommendations, setRecommendations] = useState({
-    personalizedEntities: [],
-    personalizedWords: [],
-    contentBased: []
-  });
 
-  useEffect(() => {
+  // Memoize all recommendation logic to avoid heavy computations on every re-render
+  const recommendations = useMemo(() => {
     if (!searchIndex || !searchIndex.entities || !searchIndex.words) {
-      return;
+      return {
+        personalizedEntities: [],
+        personalizedWords: [],
+        contentBased: []
+      };
     }
 
     // Get personalized recommendations based on browsing history
@@ -51,11 +50,11 @@ export function RecommendedFeed() {
     const diversifiedEntities = diversifyRecommendations(personalized.entities, 0.4);
     const diversifiedContent = diversifyRecommendations(contentBased, 0.3);
 
-    setRecommendations({
+    return {
       personalizedEntities: diversifiedEntities,
       personalizedWords: personalized.words,
       contentBased: diversifiedContent
-    });
+    };
   }, [history, favorites, searchIndex]);
 
   // Don't show if user has no history or favorites
@@ -73,14 +72,14 @@ export function RecommendedFeed() {
   }
 
   return (
-    <div className="recommended-feed">
+    <div className="recommended-feed" role="region" aria-label="Personalized Recommendations">
       {/* History-Based Recommendations */}
       {recommendations.personalizedEntities.length > 0 && (
-        <section className="recommended-section">
+        <section className="recommended-section" aria-labelledby="browsing-heading">
           <div className="recommended-section__header">
             <div className="recommended-section__title">
-              <Clock size={20} />
-              <h2>Based on Your Browsing</h2>
+              <Clock size={20} aria-hidden="true" />
+              <h2 id="browsing-heading">Based on Your Browsing</h2>
             </div>
             <p className="recommended-section__subtitle">
               Entities similar to what you've explored
@@ -97,11 +96,11 @@ export function RecommendedFeed() {
 
       {/* Favorite-Based Words */}
       {recommendations.personalizedWords.length > 0 && (
-        <section className="recommended-section">
+        <section className="recommended-section" aria-labelledby="liked-words-heading">
           <div className="recommended-section__header">
             <div className="recommended-section__title">
-              <Sparkles size={20} />
-              <h2>Words You Might Like</h2>
+              <Sparkles size={20} aria-hidden="true" />
+              <h2 id="liked-words-heading">Words You Might Like</h2>
             </div>
             <p className="recommended-section__subtitle">
               Based on your word preferences
@@ -114,6 +113,7 @@ export function RecommendedFeed() {
                 key={word.name}
                 to={`/dictionary/${word.letter}/${word.name}`}
                 className="recommended-word-card"
+                aria-label={`Recommended word: ${word.name}`}
               >
                 <div className="recommended-word-card__content">
                   <span className="recommended-word-name">{word.name}</span>
@@ -138,11 +138,11 @@ export function RecommendedFeed() {
 
       {/* Content-Based Recommendations */}
       {recommendations.contentBased.length > 0 && (
-        <section className="recommended-section">
+        <section className="recommended-section" aria-labelledby="liked-content-heading">
           <div className="recommended-section__header">
             <div className="recommended-section__title">
-              <Heart size={20} />
-              <h2>Because You Liked</h2>
+              <Heart size={20} aria-hidden="true" />
+              <h2 id="liked-content-heading">Because You Liked</h2>
             </div>
             <p className="recommended-section__subtitle">
               Similar to your favorite words

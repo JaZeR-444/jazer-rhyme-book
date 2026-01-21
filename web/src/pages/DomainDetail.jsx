@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Filter, X, ChevronDown, ChevronRight } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { Breadcrumbs, SearchBar, LoadingState, EmptyState, Badge, Button, Card } from '../components/ui';
 import { EntityCard } from '../components/EntityCard';
 import { useDomainEntities, useDomainIndexes } from '../lib/hooks';
@@ -37,6 +38,7 @@ function FilterGroup({ title, items, selected, onToggle, expanded, onToggleExpan
 
 export function DomainDetail() {
   const { domainId } = useParams();
+  usePageTitle(domainId?.replace(/-/g, ' ') || 'Domain');
   const { entities, loading, error } = useDomainEntities(domainId);
   const { indexes } = useDomainIndexes(domainId);
   
@@ -123,7 +125,7 @@ export function DomainDetail() {
   if (error) return <EmptyState title="Error" description={error.message} />;
 
   return (
-    <div className="domain-detail">
+    <div className="domain-detail" role="main" aria-label={`${domainName} domain - Explore entities and knowledge`}>
       <div className="domain-detail__header">
         <Breadcrumbs items={[
           { label: 'Home', path: '/' },

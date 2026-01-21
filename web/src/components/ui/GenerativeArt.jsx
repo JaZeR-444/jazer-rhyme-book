@@ -1,5 +1,17 @@
+import PropTypes from 'prop-types';
 import { useRef, useEffect } from 'react';
 
+/**
+ * GenerativeArt - Animated canvas background seeded for repeatable visuals
+ *
+ * @param {Object} props
+ * @param {string|number} props.seed - Seed value for deterministic patterns
+ * @param {string|number} [props.width] - Canvas width
+ * @param {string|number} [props.height] - Canvas height
+ * @param {string} [props.className] - Additional class names
+ * @param {boolean} [props.animated] - Whether to animate frames
+ * @returns {JSX.Element}
+ */
 export function GenerativeArt({ seed, width = '100%', height = '100%', className = '', animated = true }) {
   const canvasRef = useRef(null);
   const requestRef = useRef(null);
@@ -141,3 +153,11 @@ export function GenerativeArt({ seed, width = '100%', height = '100%', className
     />
   );
 }
+
+GenerativeArt.propTypes = {
+  seed: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  animated: PropTypes.bool
+};

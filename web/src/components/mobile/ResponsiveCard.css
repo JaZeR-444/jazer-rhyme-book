@@ -70,3 +70,16 @@
     padding: 1rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .responsive-card {
+    transition: none;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .responsive-card {
+    transition: none !important;
+  }
+}

@@ -23,20 +23,28 @@ export function ProgressBar({ currentXP, level, showDetails = true }) {
     <div className="progress-bar-container">
       <div className="progress-header">
         <div className="level-badge">
-          <Award size={16} />
+          <Award size={16} aria-hidden="true" />
           <span className="level-number">Level {level}</span>
         </div>
         <div className="level-title">{levelTitle}</div>
         {showDetails && (
           <div className="xp-counter">
-            <Star size={14} />
+            <Star size={14} aria-hidden="true" />
             {currentXP} XP
           </div>
         )}
       </div>
 
       <div className="progress-bar-wrapper">
-        <div className="progress-bar-track">
+        <div 
+          className="progress-bar-track"
+          role="progressbar"
+          aria-valuenow={Math.round(progress)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuetext={`${Math.round(progress)}%`}
+          aria-label={`Level ${level} progress`}
+        >
           <div 
             className="progress-bar-fill" 
             style={{ width: `${progress}%` }}
@@ -48,7 +56,7 @@ export function ProgressBar({ currentXP, level, showDetails = true }) {
           <span>{progress}%</span>
           {showDetails && (
             <span className="points-to-next">
-              <TrendingUp size={12} />
+              <TrendingUp size={12} aria-hidden="true" />
               {pointsToNext} to next level
             </span>
           )}

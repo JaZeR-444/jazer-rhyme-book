@@ -60,3 +60,10 @@
     padding: 0 1rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .swipeable-card,
+  .swipeable-card__indicator {
+    transition: none;
+  }
+}

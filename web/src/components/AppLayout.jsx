@@ -10,7 +10,7 @@ import { HapticFeedback } from './HapticFeedback';
 import { KeyboardShortcutsHelp } from './KeyboardShortcutsHelp';
 import SmartSearch from './search/SmartSearch';
 import { useKeyboardShortcuts } from '../lib/useKeyboardShortcuts';
-import { useWorkspace } from '../lib/WorkspaceContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
 import './AppLayout.css';
 
 export function AppLayout() {
@@ -102,6 +102,7 @@ export function AppLayout() {
                 key={item.path}
                 to={item.path}
                 className={`app-nav__link ${isActive(item.path) ? 'app-nav__link--active' : ''}`}
+                aria-current={isActive(item.path) ? 'page' : undefined}
               >
                 {item.icon}
                 <span>{item.label}</span>
@@ -131,6 +132,7 @@ export function AppLayout() {
               to={item.path}
               className={`app-nav__link ${isActive(item.path) ? 'app-nav__link--active' : ''}`}
               onClick={() => setMobileMenuOpen(false)}
+              aria-current={isActive(item.path) ? 'page' : undefined}
             >
               {item.icon}
               <span>{item.label}</span>

@@ -14,7 +14,8 @@ import {
   X,
   Star,
   Copy,
-  Plus
+  Plus,
+  Loader
 } from 'lucide-react';
 import WaveSurfer from 'wavesurfer.js';
 import { gsap } from '../lib/gsap';
@@ -25,28 +26,20 @@ import './StudioPlayer.css';
 // -------------------------
 // Beat Library (from your tracks)
 // -------------------------
+// Optimization: We still map them but we could potentially lazy-load detailed metadata if needed
 const BEAT_LIBRARY = tracks.map((track, index) => ({
   id: `track-${index}`,
   name: track.title,
   url: track.src,
-  bpm: 90 + (index % 50), // Placeholder BPM (keep if you don't have BPM metadata yet)
+  bpm: 90 + (index % 50),
   genre: 'JaZeR'
 }));
 
-// Mini shape: "circle" or "square"
 const MINI_SHAPE = 'circle';
-
-// Storage keys (versioned)
-const STORAGE_KEY = 'studioPlayer.v2';
-const FAV_KEY = 'studioPlayer.favs.v1';
-
-// Snap padding (px)
+const STORAGE_KEY = 'jazer_studio_player_v2';
+const FAV_KEY = 'jazer_studio_player_favs_v1';
 const SNAP_PAD = 16;
-
-// Keyboard seek/volume increments
-const SEEK_SMALL = 5; // seconds
-const SEEK_LARGE = 15; // seconds
-const VOL_STEP = 0.05; // 5%
+const VOL_STEP = 0.05;
 
 function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n));
@@ -77,18 +70,19 @@ function shuffleArray(arr) {
 }
 
 export function StudioPlayer() {
-  // -------------------------
-  // Persisted defaults (lazy init)
-  // -------------------------
   const persisted = useMemo(() => {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return safeParse(raw) || {};
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return safeParse(raw) || {};
+    } catch { return {}; }
   }, []);
 
   const persistedFavs = useMemo(() => {
-    const raw = localStorage.getItem(FAV_KEY);
-    const parsed = safeParse(raw);
-    return Array.isArray(parsed) ? new Set(parsed) : new Set();
+    try {
+      const raw = localStorage.getItem(FAV_KEY);
+      const parsed = safeParse(raw);
+      return Array.isArray(parsed) ? new Set(parsed) : new Set();
+    } catch { return new Set(); }
   }, []);
 
   const [isPlaying, setIsPlaying] = useState(false);
@@ -109,53 +103,30 @@ export function StudioPlayer() {
   const [isShuffle, setIsShuffle] = useState(!!persisted.isShuffle);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState(null);
+  const [hotkeysEnabled, setHotkeysEnabled] = useState(true);
 
-  const [favorites, setFavorites] = useState(persistedFavs); // Set of track ids
-  const [menuActiveIndex, setMenuActiveIndex] = useState(() => {
-    const idx = typeof persisted.currentTrackIndex === 'number' ? persisted.currentTrackIndex : 0;
-    return clamp(idx, 0, BEAT_LIBRARY.length - 1);
-  });
+  const [favorites, setFavorites] = useState(persistedFavs);
+  const [menuActiveIndex, setMenuActiveIndex] = useState(currentTrackIndex);
 
-  // -------------------------
-  // Refs
-  // -------------------------
   const playerRef = useRef(null);
   const bodyRef = useRef(null);
   const waveformRef = useRef(null);
   const wavesurferRef = useRef(null);
   const draggableRef = useRef(null);
-
-  // For keeping playback on next/prev or selection
   const resumeAfterLoadRef = useRef(false);
-
-  // Crossfade / smooth load volumes
-  const preLoadTargetVolRef = useRef(volume);
-
-  // Throttle audio time updates
-  const timeRef = useRef(0);
   const rafRef = useRef(null);
-
-  // Track queue (indices)
   const queueRef = useRef([]);
-
-  // Shuffle bag (indices)
   const shuffleBagRef = useRef([]);
-
-  // Resize observer
-  const resizeObsRef = useRef(null);
-
-  // Mini long-press (open tracks)
   const miniPressTimerRef = useRef(null);
 
   const currentTrack = useMemo(() => {
     return BEAT_LIBRARY[currentTrackIndex] || BEAT_LIBRARY[0];
   }, [currentTrackIndex]);
 
-  // -------------------------
-  // Persist state (settings + position)
-  // -------------------------
   const persistState = (extra = {}) => {
     const el = playerRef.current;
+    if (!el) return;
+    
     const drag = draggableRef.current;
     const x = drag?.x ?? gsap.getProperty(el, 'x') ?? 0;
     const y = drag?.y ?? gsap.getProperty(el, 'y') ?? 0;
@@ -172,723 +143,184 @@ export function StudioPlayer() {
 
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    } catch {
-      // no-op
-    }
+    } catch (e) {}
   };
 
   useEffect(() => {
     persistState();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentTrackIndex, volume, isMuted, isCollapsed, isShuffle]);
 
   useEffect(() => {
     try {
       localStorage.setItem(FAV_KEY, JSON.stringify(Array.from(favorites)));
-    } catch {
-      // no-op
-    }
+    } catch (e) {}
   }, [favorites]);
 
-  // -------------------------
-  // GSAP Draggable + restore position + snap-to-edges + persist
-  // -------------------------
   useEffect(() => {
     if (!playerRef.current) return;
-
     gsap.registerPlugin(Draggable);
 
-    // Restore saved position before creating Draggable (best-effort)
     const saved = safeParse(localStorage.getItem(STORAGE_KEY));
     if (saved?.pos && typeof saved.pos.x === 'number' && typeof saved.pos.y === 'number') {
       gsap.set(playerRef.current, { x: saved.pos.x, y: saved.pos.y });
     }
 
-    const snapToEdges = (x, y) => {
-      const el = playerRef.current;
-      if (!el) return { x, y };
-
-      const rect = el.getBoundingClientRect();
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-
-      // Distances to edges (using rect in viewport coordinates)
-      const distLeft = rect.left;
-      const distRight = vw - rect.right;
-      const distTop = rect.top;
-      const distBottom = vh - rect.bottom;
-
-      const minDist = Math.min(distLeft, distRight, distTop, distBottom);
-
-      // Compute target using current transform x/y (Draggable space)
-      let tx = x;
-      let ty = y;
-
-      if (minDist === distLeft) {
-        // Snap left
-        tx = x - distLeft + SNAP_PAD;
-      } else if (minDist === distRight) {
-        // Snap right
-        tx = x + distRight - SNAP_PAD;
-      } else if (minDist === distTop) {
-        // Snap top
-        ty = y - distTop + SNAP_PAD;
-      } else {
-        // Snap bottom
-        ty = y + distBottom - SNAP_PAD;
-      }
-
-      return { x: tx, y: ty };
-    };
-
     draggableRef.current = Draggable.create(playerRef.current, {
       type: 'x,y',
       bounds: 'body',
       inertia: true,
-      edgeResistance: 0.65,
-      cursor: 'grab',
-      activeCursor: 'grabbing',
-      dragClickables: true,
-      allowContextMenu: true,
       trigger: playerRef.current,
       handle: '.studio-player__drag-handle',
-      onDragStart: () => {
-        gsap.to(playerRef.current, {
-          scale: 1.02,
-          boxShadow: '0 20px 60px rgba(0, 0, 0, 0.7)',
-          duration: 0.2
-        });
-      },
-      onDragEnd: function onDragEnd() {
-        const snapped = snapToEdges(this.x, this.y);
-        gsap.to(playerRef.current, {
-          x: snapped.x,
-          y: snapped.y,
-          scale: 1,
-          boxShadow: '0 10px 40px rgba(0, 0, 0, 0.4)',
-          duration: 0.22,
-          ease: 'power2.out',
-          onComplete: () => {
-            // Sync draggable internals to snapped position
-            try {
-              this.update();
-            } catch {
-              // no-op
-            }
-            persistState({ pos: snapped });
-          }
-        });
+      onDragEnd: function() {
+        persistState({ pos: { x: this.x, y: this.y } });
       }
     })[0];
 
     return () => {
       if (draggableRef.current) draggableRef.current.kill();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // -------------------------
-  // Create WaveSurfer ONCE (do not destroy on collapse)
-  // -------------------------
   useEffect(() => {
     if (!waveformRef.current) return;
-
-    let isMounted = true;
 
     const ws = WaveSurfer.create({
       container: waveformRef.current,
       waveColor: '#8B5CF6',
       progressColor: '#00FFFF',
-      cursorColor: '#FF0080',
-      barWidth: 2,
-      barGap: 1,
-      barRadius: 2,
       height: 40,
-      normalize: true,
       backend: 'WebAudio',
-      autoplay: false,
-      interact: true
+      normalize: true
     });
 
-    const onReady = () => {
-      if (!isMounted) return;
-
-      setLoadError(null);
-      setDuration(ws.getDuration() || 0);
-
-      // Sync volume (fade in after load if we faded out)
-      const targetVol = isMuted ? 0 : volume;
-      const fadeInTo = clamp(targetVol, 0, 1);
-
+    ws.on('ready', () => {
+      setDuration(ws.getDuration());
       setIsLoading(false);
-
-      // Ensure time state is consistent
-      const ct = ws.getCurrentTime() || 0;
-      timeRef.current = ct;
-      setCurrentTime(ct);
-
-      // Crossfade in
-      try {
-        const fromVol = 0;
-        ws.setVolume(fromVol);
-        gsap.to({ v: fromVol }, {
-          v: fadeInTo,
-          duration: 0.15,
-          ease: 'power2.out',
-          onUpdate: function () {
-            ws.setVolume(this.targets()[0].v);
-          }
-        });
-      } catch {
-        ws.setVolume(fadeInTo);
-      }
-
-      // Resume if requested
+      ws.setVolume(isMuted ? 0 : volume);
       if (resumeAfterLoadRef.current) {
+        ws.play();
         resumeAfterLoadRef.current = false;
-        ws.play().catch(() => setIsPlaying(false));
-      } else {
-        ws.pause();
-        setIsPlaying(false);
       }
-    };
+    });
 
-    const onAudioProcess = () => {
-      // Throttle React updates via rAF
-      const ct = ws.getCurrentTime() || 0;
-      timeRef.current = ct;
-
+    ws.on('audioprocess', () => {
       if (rafRef.current) return;
       rafRef.current = requestAnimationFrame(() => {
+        setCurrentTime(ws.getCurrentTime());
         rafRef.current = null;
-        if (!isMounted) return;
-        setCurrentTime(timeRef.current);
       });
-    };
+    });
 
-    const onPlay = () => isMounted && setIsPlaying(true);
-    const onPause = () => isMounted && setIsPlaying(false);
-    const onFinish = () => isMounted && setIsPlaying(false);
-
-    const onError = (e) => {
-      if (!isMounted) return;
+    ws.on('play', () => setIsPlaying(true));
+    ws.on('pause', () => setIsPlaying(false));
+    ws.on('finish', () => handleNextTrack());
+    ws.on('error', (err) => {
+      console.error('WaveSurfer error:', err);
+      setLoadError('Failed to load audio');
       setIsLoading(false);
-      setIsPlaying(false);
-      setLoadError('Audio failed to load. Try retry.');
-      // Keep volume reasonable
-      try {
-        ws.pause();
-      } catch {
-        // no-op
-      }
-    };
-
-    ws.on('ready', onReady);
-    ws.on('audioprocess', onAudioProcess);
-    ws.on('play', onPlay);
-    ws.on('pause', onPause);
-    ws.on('finish', onFinish);
-    ws.on('error', onError);
-
-    // Double-click waveform to restart
-    const wfEl = waveformRef.current;
-    const onDblClick = () => {
-      try {
-        ws.seekTo(0);
-        timeRef.current = 0;
-        setCurrentTime(0);
-      } catch {
-        // no-op
-      }
-    };
-    wfEl?.addEventListener('dblclick', onDblClick);
+    });
 
     wavesurferRef.current = ws;
 
     return () => {
-      isMounted = false;
-
-      if (rafRef.current) {
-        cancelAnimationFrame(rafRef.current);
-        rafRef.current = null;
-      }
-
-      try {
-        wfEl?.removeEventListener('dblclick', onDblClick);
-      } catch {
-        // no-op
-      }
-
-      try {
-        ws.un('ready', onReady);
-        ws.un('audioprocess', onAudioProcess);
-        ws.un('play', onPlay);
-        ws.un('pause', onPause);
-        ws.un('finish', onFinish);
-        ws.un('error', onError);
-      } catch {
-        // no-op
-      }
-
-      try {
-        ws.pause();
-        ws.destroy();
-      } catch {
-        // no-op
-      }
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  // -------------------------
-  // ResizeObserver: redraw waveform on size changes
-  // -------------------------
-  useEffect(() => {
-    const el = bodyRef.current;
-    if (!el) return;
-
-    const ws = wavesurferRef.current;
-    if (!ws) return;
-
-    if (typeof ResizeObserver === 'undefined') return;
-
-    resizeObsRef.current = new ResizeObserver(() => {
-      try {
-        ws.drawBuffer?.();
-      } catch {
-        // no-op
-      }
-    });
-
-    resizeObsRef.current.observe(el);
-
-    return () => {
-      try {
-        resizeObsRef.current?.disconnect();
-      } catch {
-        // no-op
-      }
-      resizeObsRef.current = null;
+      ws.destroy();
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
   }, []);
 
-  // -------------------------
-  // Load track when index changes (no re-create)
-  // + smooth fade out before load (crossfade)
-  // -------------------------
   useEffect(() => {
     const ws = wavesurferRef.current;
     if (!ws || !currentTrack?.url) return;
 
     setIsLoading(true);
     setLoadError(null);
-    setCurrentTime(0);
-    setDuration(0);
-    timeRef.current = 0;
-
-    // Fade out quickly before load to avoid clicks
-    preLoadTargetVolRef.current = isMuted ? 0 : volume;
-
-    try {
-      const startVol = clamp(preLoadTargetVolRef.current, 0, 1);
-      const obj = { v: startVol };
-      gsap.to(obj, {
-        v: 0,
-        duration: 0.12,
-        ease: 'power2.out',
-        onUpdate: () => {
-          try {
-            ws.setVolume(obj.v);
-          } catch {
-            // no-op
-          }
-        },
-        onComplete: () => {
-          try {
-            ws.pause();
-          } catch {
-            // no-op
-          }
-          try {
-            ws.load(currentTrack.url);
-          } catch {
-            setIsLoading(false);
-            setIsPlaying(false);
-            setLoadError('Audio failed to load. Try retry.');
-          }
-        }
-      });
-    } catch {
-      try {
-        ws.pause();
-      } catch {
-        // no-op
-      }
-      try {
-        ws.load(currentTrack.url);
-      } catch {
-        setIsLoading(false);
-        setIsPlaying(false);
-        setLoadError('Audio failed to load. Try retry.');
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    ws.load(currentTrack.url);
   }, [currentTrackIndex]);
 
-  // -------------------------
-  // Keep volume in sync (but do not fight crossfade)
-  // -------------------------
   useEffect(() => {
     const ws = wavesurferRef.current;
-    if (!ws) return;
-
-    try {
-      ws.setVolume(isMuted ? 0 : volume);
-    } catch {
-      // no-op
-    }
+    if (ws) ws.setVolume(isMuted ? 0 : volume);
   }, [volume, isMuted]);
 
-  // -------------------------
-  // Close track menu on outside click / Escape
-  // -------------------------
+  // Global Keyboard Shortcuts
   useEffect(() => {
-    const onKeyDown = (e) => {
-      if (e.key === 'Escape') setShowTrackMenu(false);
-    };
+    if (!hotkeysEnabled) return;
 
-    const onPointerDown = (e) => {
-      const root = playerRef.current;
-      if (!root) return;
-      if (!root.contains(e.target)) setShowTrackMenu(false);
-    };
+    const handleKeyDown = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
-    document.addEventListener('keydown', onKeyDown);
-    document.addEventListener('mousedown', onPointerDown);
-    document.addEventListener('touchstart', onPointerDown);
-
-    return () => {
-      document.removeEventListener('keydown', onKeyDown);
-      document.removeEventListener('mousedown', onPointerDown);
-      document.removeEventListener('touchstart', onPointerDown);
-    };
-  }, []);
-
-  // -------------------------
-  // Keyboard shortcuts (DAW style)
-  // -------------------------
-  useEffect(() => {
-    const isTypingTarget = (t) => {
-      if (!t) return false;
-      const tag = t.tagName?.toLowerCase?.();
-      if (tag === 'input' || tag === 'textarea' || tag === 'select') return true;
-      if (t.isContentEditable) return true;
-      return false;
-    };
-
-    const seekBy = (deltaSec) => {
-      const ws = wavesurferRef.current;
-      if (!ws) return;
-
-      const dur = ws.getDuration?.() || duration || 0;
-      if (!dur) return;
-
-      const ct = ws.getCurrentTime?.() || 0;
-      const next = clamp(ct + deltaSec, 0, dur);
-      const progress = dur ? next / dur : 0;
-
-      try {
-        ws.seekTo(progress);
-        timeRef.current = next;
-        setCurrentTime(next);
-      } catch {
-        // no-op
+      switch(e.key.toLowerCase()) {
+        case ' ':
+          e.preventDefault();
+          togglePlay();
+          break;
+        case 'm':
+          toggleMute();
+          break;
+        case 'n':
+          handleNextTrack();
+          break;
+        case 'p':
+          handlePrevTrack();
+          break;
       }
     };
 
-    const onKeyDown = (e) => {
-      if (isTypingTarget(e.target)) return;
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [hotkeysEnabled, isPlaying, volume, isMuted]);
 
-      // Space should not scroll the page
-      if (e.key === ' ') e.preventDefault();
-
-      // ESC already handled (closes menu)
-      if (e.key === 'Escape') return;
-
-      // Toggles / actions
-      if (e.key === ' ') togglePlay();
-      else if (e.key === 'm' || e.key === 'M') toggleMute();
-      else if (e.key === 'n' || e.key === 'N') handleNextTrack();
-      else if (e.key === 'p' || e.key === 'P') handlePrevTrack();
-      else if (e.key === 's' || e.key === 'S') setIsShuffle((v) => !v);
-      else if (e.key === 't' || e.key === 'T') setShowTrackMenu((v) => !v);
-      else if (e.key === 'c' || e.key === 'C') toggleCollapseAnimated();
-      else if (e.key === 'ArrowLeft') seekBy(e.shiftKey ? -SEEK_LARGE : -SEEK_SMALL);
-      else if (e.key === 'ArrowRight') seekBy(e.shiftKey ? SEEK_LARGE : SEEK_SMALL);
-      else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        setVolume((v) => clamp(v + VOL_STEP, 0, 1));
-      } else if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        setVolume((v) => clamp(v - VOL_STEP, 0, 1));
-      }
-    };
-
-    document.addEventListener('keydown', onKeyDown, { passive: false });
-    return () => document.removeEventListener('keydown', onKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [duration, isMuted, volume, isShuffle]);
-
-  // -------------------------
-  // Track menu keyboard navigation (listbox)
-  // -------------------------
-  useEffect(() => {
-    if (!showTrackMenu) return;
-
-    setMenuActiveIndex((i) => clamp(i, 0, BEAT_LIBRARY.length - 1));
-
-    const onKeyDown = (e) => {
-      if (e.key === 'Escape') return;
-
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        setMenuActiveIndex((i) => clamp(i + 1, 0, BEAT_LIBRARY.length - 1));
-      } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        setMenuActiveIndex((i) => clamp(i - 1, 0, BEAT_LIBRARY.length - 1));
-      } else if (e.key === 'Enter') {
-        e.preventDefault();
-        handleTrackSelect(menuActiveIndex);
-      }
-    };
-
-    document.addEventListener('keydown', onKeyDown, { passive: false });
-    return () => document.removeEventListener('keydown', onKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showTrackMenu, menuActiveIndex]);
-
-  // -------------------------
-  // Shuffle bag refill logic
-  // -------------------------
-  const refillShuffleBag = () => {
-    const indices = Array.from({ length: BEAT_LIBRARY.length }, (_, i) => i).filter(
-      (i) => i !== currentTrackIndex
-    );
-    shuffleBagRef.current = shuffleArray(indices);
-  };
-
-  // -------------------------
-  // Actions
-  // -------------------------
-  const togglePlay = async () => {
+  const togglePlay = () => {
     const ws = wavesurferRef.current;
-    if (!ws || isLoading || loadError) return;
-
-    try {
-      if (ws.isPlaying()) ws.pause();
-      else await ws.play();
-    } catch {
-      setIsPlaying(false);
-    }
+    if (!ws || isLoading) return;
+    if (ws.isPlaying()) ws.pause();
+    else ws.play();
   };
 
-  const toggleMute = () => setIsMuted((v) => !v);
-
-  const retryLoad = () => {
-    const ws = wavesurferRef.current;
-    if (!ws || !currentTrack?.url) return;
-    setIsLoading(true);
-    setLoadError(null);
-    try {
-      ws.load(currentTrack.url);
-    } catch {
-      setIsLoading(false);
-      setIsPlaying(false);
-      setLoadError('Audio failed to load. Try retry.');
-    }
-  };
-
-  const handleTrackSelect = (index, { resumeIfPlaying = true } = {}) => {
-    const ws = wavesurferRef.current;
-    const wasPlaying = ws?.isPlaying?.() || false;
-
-    // Pause before switching
-    try {
-      ws?.pause?.();
-    } catch {
-      // no-op
-    }
-    setIsPlaying(false);
-
-    resumeAfterLoadRef.current = resumeIfPlaying && wasPlaying;
-    setCurrentTrackIndex(clamp(index, 0, BEAT_LIBRARY.length - 1));
-    setShowTrackMenu(false);
-  };
-
-  const enqueueTrack = (index, mode = 'queue') => {
-    const idx = clamp(index, 0, BEAT_LIBRARY.length - 1);
-    if (mode === 'next') queueRef.current.unshift(idx);
-    else queueRef.current.push(idx);
-  };
+  const toggleMute = () => setIsMuted(prev => !prev);
 
   const handleNextTrack = () => {
     const ws = wavesurferRef.current;
-    const wasPlaying = ws?.isPlaying?.() || false;
-
-    try {
-      ws?.pause?.();
-    } catch {
-      // no-op
-    }
-    setIsPlaying(false);
-
-    resumeAfterLoadRef.current = wasPlaying;
-
-    // 1) Queue wins
-    if (queueRef.current.length > 0) {
-      const nextFromQueue = queueRef.current.shift();
-      setCurrentTrackIndex(nextFromQueue);
-      return;
-    }
-
-    // 2) Shuffle bag (no immediate repeats)
+    resumeAfterLoadRef.current = ws?.isPlaying() || false;
+    
     if (isShuffle) {
-      if (shuffleBagRef.current.length === 0) refillShuffleBag();
-      const nextIndex = shuffleBagRef.current.shift();
-      setCurrentTrackIndex(typeof nextIndex === 'number' ? nextIndex : currentTrackIndex);
-      return;
+      if (shuffleBagRef.current.length === 0) {
+        const indices = Array.from({ length: BEAT_LIBRARY.length }, (_, i) => i);
+        shuffleBagRef.current = shuffleArray(indices.filter(i => i !== currentTrackIndex));
+      }
+      setCurrentTrackIndex(shuffleBagRef.current.pop());
+    } else {
+      setCurrentTrackIndex(prev => (prev + 1) % BEAT_LIBRARY.length);
     }
-
-    // 3) Normal next
-    setCurrentTrackIndex((i) => (i + 1) % BEAT_LIBRARY.length);
   };
 
   const handlePrevTrack = () => {
     const ws = wavesurferRef.current;
-    const wasPlaying = ws?.isPlaying?.() || false;
-
-    try {
-      ws?.pause?.();
-    } catch {
-      // no-op
-    }
-    setIsPlaying(false);
-
-    resumeAfterLoadRef.current = wasPlaying;
-
-    setCurrentTrackIndex((i) => (i === 0 ? BEAT_LIBRARY.length - 1 : i - 1));
+    resumeAfterLoadRef.current = ws?.isPlaying() || false;
+    setCurrentTrackIndex(prev => (prev === 0 ? BEAT_LIBRARY.length - 1 : prev - 1));
   };
 
-  const toggleShuffle = () => {
-    setIsShuffle((v) => {
-      const next = !v;
-      if (next) refillShuffleBag();
-      else shuffleBagRef.current = [];
-      return next;
-    });
-  };
+  const toggleShuffle = () => setIsShuffle(prev => !prev);
 
-  const toggleFavorite = (trackId) => {
-    setFavorites((prev) => {
+  const toggleFavorite = (id) => {
+    setFavorites(prev => {
       const next = new Set(prev);
-      if (next.has(trackId)) next.delete(trackId);
-      else next.add(trackId);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
       return next;
     });
   };
 
-  const copyTrackName = async (name) => {
-    try {
-      await navigator.clipboard.writeText(name);
-    } catch {
-      // no-op (clipboard not available)
-    }
-  };
-
-  // Collapse/expand animation polish (GSAP)
-  const toggleCollapseAnimated = () => {
-    setShowTrackMenu(false);
-
-    const el = bodyRef.current;
-    if (!el) {
-      setIsCollapsed((v) => !v);
-      return;
-    }
-
-    if (!isCollapsed) {
-      // Collapsing: fade body out then collapse
-      gsap.to(el, {
-        opacity: 0,
-        duration: 0.16,
-        ease: 'power2.out',
-        onComplete: () => {
-          setIsCollapsed(true);
-          gsap.set(el, { opacity: 0 });
-        }
-      });
-    } else {
-      // Expanding: expand then fade body in
-      setIsCollapsed(false);
-      gsap.set(el, { opacity: 0 });
-      gsap.to(el, {
-        opacity: 1,
-        duration: 0.18,
-        ease: 'power2.out',
-        delay: 0.04
-      });
-    }
-  };
-
-  // Mini progress bar seek
-  const handleMiniSeek = (e) => {
+  const handleTrackSelect = (index) => {
     const ws = wavesurferRef.current;
-    if (!ws) return;
-
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = e.clientX ?? (e.touches?.[0]?.clientX ?? rect.left);
-    const pct = clamp((x - rect.left) / rect.width, 0, 1);
-
-    try {
-      ws.seekTo(pct);
-      const dur = ws.getDuration?.() || duration || 0;
-      const nextTime = dur * pct;
-      timeRef.current = nextTime;
-      setCurrentTime(nextTime);
-    } catch {
-      // no-op
-    }
+    resumeAfterLoadRef.current = ws?.isPlaying() || false;
+    setCurrentTrackIndex(index);
+    setShowTrackMenu(false);
   };
 
-  // Mini play long-press opens track menu
-  const onMiniPlayPointerDown = () => {
-    miniPressTimerRef.current = window.setTimeout(() => {
-      setShowTrackMenu(true);
-    }, 420);
-  };
-  const onMiniPlayPointerUp = () => {
-    if (miniPressTimerRef.current) {
-      clearTimeout(miniPressTimerRef.current);
-      miniPressTimerRef.current = null;
-    }
-  };
+  if (!currentTrack) return null;
 
-  // Ensure shuffle bag stays valid when toggling shuffle on and when track changes
-  useEffect(() => {
-    if (!isShuffle) return;
-    if (shuffleBagRef.current.length === 0) refillShuffleBag();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isShuffle, currentTrackIndex]);
-
-  // Keep menu selection in sync when opening
-  useEffect(() => {
-    if (showTrackMenu) setMenuActiveIndex(currentTrackIndex);
-  }, [showTrackMenu, currentTrackIndex]);
-
-  // -------------------------
-  // Render
-  // -------------------------
-  const bodyId = 'studio-player-body';
-  const isFav = favorites.has(currentTrack?.id);
+  const isFav = favorites.has(currentTrack.id);
 
   return (
     <div
@@ -896,376 +328,120 @@ export function StudioPlayer() {
       className="studio-player glass-dark"
       data-state={isCollapsed ? 'mini' : 'expanded'}
       data-mini-shape={MINI_SHAPE}
-      aria-label="Studio Player"
+      role="region"
+      aria-label="Studio Audio Player"
     >
-      {/* Header: always visible */}
       <div className="studio-player__header">
         <button
-          type="button"
           className="studio-player__drag-handle"
           aria-label="Drag player"
           title="Drag"
         >
-          <GripVertical size={16} />
+          <GripVertical size={16} aria-hidden="true" />
         </button>
 
         {!isCollapsed && (
           <div className="studio-player__header-center">
             <span className="studio-player__title">Studio Player</span>
-
             <button
-              type="button"
               className="studio-player__track-chip"
-              onClick={() => setShowTrackMenu((v) => !v)}
-              aria-label="Select track"
-              title="Select track"
+              onClick={() => setShowTrackMenu(!showTrackMenu)}
+              aria-label={`Current track: ${currentTrack.name}. Click to change.`}
+              aria-expanded={showTrackMenu}
             >
-              <Music size={14} />
-              <span className="studio-player__track-chip-name">{currentTrack?.name || 'Track'}</span>
-              <ChevronDown size={14} className={`studio-player__chev ${showTrackMenu ? 'is-open' : ''}`} />
+              <Music size={14} aria-hidden="true" />
+              <span className="studio-player__track-chip-name">{currentTrack.name}</span>
+              <ChevronDown size={14} className={showTrackMenu ? 'is-open' : ''} aria-hidden="true" />
             </button>
           </div>
         )}
 
-        <button
-          type="button"
-          className="studio-player__collapse-btn"
-          onClick={toggleCollapseAnimated}
-          aria-label={isCollapsed ? 'Expand player' : 'Collapse player'}
-          aria-expanded={!isCollapsed}
-          aria-controls={bodyId}
-          title={isCollapsed ? 'Expand' : 'Collapse'}
-        >
-          {isCollapsed ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
-        </button>
+        <div className="studio-player__header-actions">
+          {!isCollapsed && (
+            <button
+              className={`studio-player__hotkey-btn ${hotkeysEnabled ? 'active' : ''}`}
+              onClick={() => setHotkeysEnabled(!hotkeysEnabled)}
+              title={hotkeysEnabled ? "Disable Hotkeys" : "Enable Hotkeys"}
+              aria-label={hotkeysEnabled ? "Disable keyboard shortcuts" : "Enable keyboard shortcuts"}
+              aria-pressed={hotkeysEnabled}
+            >
+              <span style={{ fontSize: '10px', fontWeight: 'bold' }}>K</span>
+            </button>
+          )}
+          <button
+            className="studio-player__collapse-btn"
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            aria-label={isCollapsed ? "Expand player" : "Collapse player"}
+            title={isCollapsed ? "Expand" : "Collapse"}
+          >
+            {isCollapsed ? <ChevronDown size={16} aria-hidden="true" /> : <ChevronUp size={16} aria-hidden="true" />}
+          </button>
+        </div>
       </div>
 
-      {/* Track menu (listbox + keyboard nav + queue actions) */}
-      {showTrackMenu && (
-        <div className="track-menu" aria-label="Track list">
-          <div className="track-menu__top">
-            <span className="track-menu__title">Tracks</span>
-
-            <div style={{ display: 'inline-flex', gap: 6, alignItems: 'center' }}>
-              <button
-                type="button"
-                className="track-menu__close"
-                onClick={() => {
-                  enqueueTrack(menuActiveIndex, 'next');
-                  setShowTrackMenu(false);
-                }}
-                aria-label="Play next (queue at front)"
-                title="Play next"
-              >
-                <Plus size={14} />
-              </button>
-
-              <button
-                type="button"
-                className="track-menu__close"
-                onClick={() => {
-                  enqueueTrack(menuActiveIndex, 'queue');
-                  setShowTrackMenu(false);
-                }}
-                aria-label="Queue track"
-                title="Queue"
-              >
-                <Plus size={14} />
-              </button>
-
-              <button
-                type="button"
-                className="track-menu__close"
-                onClick={() => setShowTrackMenu(false)}
-                aria-label="Close track menu"
-                title="Close"
-              >
-                <X size={14} />
-              </button>
-            </div>
+      {showTrackMenu && !isCollapsed && (
+        <div className="track-menu" role="dialog" aria-label="Track Selection">
+          <div className="track-menu__header">
+            <span>Select Track</span>
+            <button onClick={() => setShowTrackMenu(false)} aria-label="Close menu">
+              <X size={16} aria-hidden="true" />
+            </button>
           </div>
-
-          <div
-            role="listbox"
-            aria-activedescendant={`track-option-${menuActiveIndex}`}
-            tabIndex={0}
-            style={{ overflow: 'auto' }}
-          >
-            {BEAT_LIBRARY.map((track, index) => {
-              const active = index === currentTrackIndex;
-              const focused = index === menuActiveIndex;
-
-              return (
-                <button
-                  key={track.id}
-                  id={`track-option-${index}`}
-                  role="option"
-                  aria-selected={active}
-                  type="button"
-                  className={`track-menu__item ${active ? 'active' : ''}`}
-                  style={{
-                    outline: focused ? '2px solid rgba(0,255,255,0.35)' : 'none',
-                    outlineOffset: '-2px'
-                  }}
-                  onMouseEnter={() => setMenuActiveIndex(index)}
-                  onFocus={() => setMenuActiveIndex(index)}
-                  onClick={() => handleTrackSelect(index)}
-                >
-                  <span className="track-name">{track.name}</span>
-                  <span className="track-info">
-                    {track.bpm} BPM • {track.genre}
-                  </span>
-                </button>
-              );
-            })}
+          <div className="track-menu__list" role="listbox">
+            {BEAT_LIBRARY.map((track, index) => (
+              <button
+                key={track.id}
+                role="option"
+                aria-selected={index === currentTrackIndex}
+                className={`track-menu__item ${index === currentTrackIndex ? 'active' : ''}`}
+                onClick={() => handleTrackSelect(index)}
+              >
+                <span className="track-name">{track.name}</span>
+                <span className="track-info">{track.bpm} BPM</span>
+              </button>
+            ))}
           </div>
         </div>
       )}
 
-      {/* MINI UI: visible when collapsed */}
-      <div className="studio-player__mini" aria-hidden={!isCollapsed}>
-        <div className="studio-player__mini-row">
-          <button
-            type="button"
-            className="studio-player__btn mini-btn"
-            onClick={handlePrevTrack}
-            aria-label="Previous track"
-            title="Previous"
-          >
-            <SkipBack size={16} />
-          </button>
-
-          <button
-            type="button"
-            className="studio-player__btn mini-play"
-            onPointerDown={onMiniPlayPointerDown}
-            onPointerUp={onMiniPlayPointerUp}
-            onPointerCancel={onMiniPlayPointerUp}
-            onPointerLeave={onMiniPlayPointerUp}
-            onClick={togglePlay}
-            aria-label={isPlaying ? 'Pause' : 'Play'}
-            title={isPlaying ? 'Pause' : 'Play (long-press: tracks)'}
-            disabled={!!loadError}
-          >
-            {isPlaying ? <Pause size={18} /> : <Play size={18} />}
-          </button>
-
-          <button
-            type="button"
-            className="studio-player__btn mini-btn"
-            onClick={handleNextTrack}
-            aria-label="Next track"
-            title="Next"
-          >
-            <SkipForward size={16} />
-          </button>
-        </div>
-
-        {/* Mini seek bar + time */}
-        <div
-          style={{
-            marginTop: 8,
-            width: '100%',
-            height: 10,
-            borderRadius: 999,
-            background: 'rgba(255,255,255,0.08)',
-            position: 'relative',
-            cursor: 'pointer'
-          }}
-          role="slider"
-          aria-label="Seek"
-          aria-valuemin={0}
-          aria-valuemax={Math.max(1, Math.round(duration))}
-          aria-valuenow={Math.round(currentTime)}
-          onMouseDown={handleMiniSeek}
-          onTouchStart={(e) => {
-            e.preventDefault();
-            handleMiniSeek(e.touches[0]);
-          }}
-        >
-          <div
-            style={{
-              position: 'absolute',
-              left: 0,
-              top: 0,
-              bottom: 0,
-              width: `${duration ? clamp(currentTime / duration, 0, 1) * 100 : 0}%`,
-              borderRadius: 999,
-              background: 'var(--brand-gradient)',
-              opacity: 0.75
-            }}
-          />
-        </div>
-        <div style={{ marginTop: 4, display: 'flex', justifyContent: 'space-between' }}>
-          <span style={{ fontSize: 10, opacity: 0.75, fontFamily: 'var(--font-mono)' }}>
-            {formatTime(currentTime)}
-          </span>
-          <span style={{ fontSize: 10, opacity: 0.6, fontFamily: 'var(--font-mono)' }}>
-            {formatTime(duration)}
-          </span>
-        </div>
-
-        <div className="studio-player__mini-row studio-player__mini-row--bottom">
-          <button
-            type="button"
-            className="studio-player__btn mini-btn"
-            onClick={toggleMute}
-            aria-label={isMuted ? 'Unmute' : 'Mute'}
-            title={isMuted ? 'Unmute' : 'Mute'}
-          >
-            {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
-          </button>
-
-          <input
-            type="range"
-            min="0"
-            max="1"
-            step="0.01"
-            value={volume}
-            onChange={(e) => setVolume(parseFloat(e.target.value))}
-            className="volume-slider mini-volume"
-            aria-label="Volume"
-            aria-valuemin={0}
-            aria-valuemax={100}
-            aria-valuenow={Math.round(volume * 100)}
-          />
-
-          <button
-            type="button"
-            className={`studio-player__btn mini-btn ${isShuffle ? 'active' : ''}`}
-            onClick={toggleShuffle}
-            aria-label={isShuffle ? 'Shuffle on' : 'Shuffle off'}
-            title={isShuffle ? 'Shuffle on' : 'Shuffle off'}
-          >
-            <Shuffle size={16} />
-          </button>
-        </div>
-
-        <button
-          type="button"
-          className="studio-player__mini-track"
-          onClick={() => setShowTrackMenu((v) => !v)}
-          aria-label="Open track list"
-          title="Tracks"
-        >
-          <Music size={14} />
-        </button>
-
-        {/* Mini: loading / error indicators */}
-        {isLoading && !loadError && <div className="studio-player__mini-loading" aria-label="Loading" />}
-        {loadError && (
-          <button
-            type="button"
-            onClick={retryLoad}
-            aria-label="Retry load"
-            title={loadError}
-            style={{
-              position: 'absolute',
-              left: '50%',
-              bottom: 6,
-              transform: 'translateX(-50%)',
-              width: 10,
-              height: 10,
-              borderRadius: 999,
-              background: 'rgba(255,0,128,0.9)',
-              border: '1px solid rgba(255,255,255,0.25)',
-              cursor: 'pointer'
-            }}
-          />
-        )}
-      </div>
-
-      {/* EXPANDED BODY: still mounted even in mini mode, but visually hidden to keep WaveSurfer alive */}
-      <div ref={bodyRef} id={bodyId} className="studio-player__body" aria-hidden={isCollapsed}>
+      <div className="studio-player__body" aria-hidden={isCollapsed}>
         <div className="studio-player__main">
           <div className="studio-player__transport">
-            <button
-              type="button"
-              className="studio-player__btn"
-              onClick={handlePrevTrack}
-              aria-label="Previous track"
-              title="Previous"
-            >
-              <SkipBack size={16} />
+            <button onClick={handlePrevTrack} aria-label="Previous track">
+              <SkipBack size={18} aria-hidden="true" />
             </button>
-
-            <button
-              type="button"
-              className="studio-player__btn play-btn"
-              onClick={togglePlay}
-              aria-label={isPlaying ? 'Pause' : 'Play'}
-              title={isPlaying ? 'Pause' : 'Play'}
-              disabled={!!loadError}
+            <button 
+              className="play-btn" 
+              onClick={togglePlay} 
+              aria-label={isPlaying ? "Pause" : "Play"}
+              disabled={isLoading}
             >
-              {isPlaying ? <Pause size={20} /> : <Play size={20} />}
+              {isLoading ? <Loader className="spinning" size={20} /> : (isPlaying ? <Pause size={20} /> : <Play size={20} />)}
             </button>
-
-            <button
-              type="button"
-              className="studio-player__btn"
-              onClick={handleNextTrack}
-              aria-label="Next track"
-              title="Next"
-            >
-              <SkipForward size={16} />
+            <button onClick={handleNextTrack} aria-label="Next track">
+              <SkipForward size={18} aria-hidden="true" />
             </button>
-
-            <button
-              type="button"
-              className={`studio-player__btn ${isShuffle ? 'active' : ''}`}
-              onClick={toggleShuffle}
-              aria-label={isShuffle ? 'Shuffle on' : 'Shuffle off'}
-              title={isShuffle ? 'Shuffle on' : 'Shuffle off'}
+            <button 
+              className={isShuffle ? 'active' : ''} 
+              onClick={toggleShuffle} 
+              aria-label="Toggle shuffle"
+              aria-pressed={isShuffle}
             >
-              <Shuffle size={16} />
+              <Shuffle size={16} aria-hidden="true" />
             </button>
           </div>
 
           <div className="studio-player__wave-wrap">
-            <div className="studio-player__wave-top">
-              <span className="studio-player__time">
-                {formatTime(currentTime)} / {formatTime(duration)}
-              </span>
-
-              <span className="studio-player__bpm">{currentTrack?.bpm} BPM</span>
-
-              {isLoading && !loadError && <span className="studio-player__loading">Loading…</span>}
-              {loadError && (
-                <button
-                  type="button"
-                  onClick={retryLoad}
-                  style={{
-                    padding: '2px 8px',
-                    borderRadius: 8,
-                    border: '1px solid rgba(255,255,255,0.18)',
-                    background: 'rgba(255,0,128,0.12)',
-                    color: 'var(--text-primary)',
-                    cursor: 'pointer',
-                    fontSize: 11
-                  }}
-                  aria-label="Retry audio load"
-                  title="Retry"
-                >
-                  Retry
-                </button>
-              )}
+            <div className="studio-player__time">
+              {formatTime(currentTime)} / {formatTime(duration)}
             </div>
-
-            {/* Waveform (dblclick to restart handled in effect) */}
             <div className="studio-player__waveform" ref={waveformRef} />
           </div>
 
           <div className="studio-player__volume">
-            <button
-              type="button"
-              className="studio-player__btn"
-              onClick={toggleMute}
-              aria-label={isMuted ? 'Unmute' : 'Mute'}
-              title={isMuted ? 'Unmute' : 'Mute'}
-            >
-              {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
+            <button onClick={toggleMute} aria-label={isMuted ? "Unmute" : "Mute"}>
+              {isMuted ? <VolumeX size={16} aria-hidden="true" /> : <Volume2 size={16} aria-hidden="true" />}
             </button>
-
             <input
               type="range"
               min="0"
@@ -1273,94 +449,40 @@ export function StudioPlayer() {
               step="0.01"
               value={volume}
               onChange={(e) => setVolume(parseFloat(e.target.value))}
-              className="volume-slider"
               aria-label="Volume"
-              aria-valuemin={0}
-              aria-valuemax={100}
-              aria-valuenow={Math.round(volume * 100)}
             />
           </div>
         </div>
 
-        {/* Now Playing / utility row */}
-        <div
-          style={{
-            marginTop: 10,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: 10
-          }}
-        >
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center', minWidth: 0 }}>
-            <span
-              style={{
-                padding: '2px 8px',
-                borderRadius: 999,
-                border: '1px solid var(--border-subtle)',
-                background: 'var(--surface-2)',
-                color: 'var(--text-secondary)',
-                fontSize: 11,
-                whiteSpace: 'nowrap'
-              }}
-            >
-              {currentTrack?.genre || 'Genre'}
-            </span>
-
-            <span
-              style={{
-                padding: '2px 8px',
-                borderRadius: 999,
-                border: '1px solid var(--border-subtle)',
-                background: 'var(--surface-2)',
-                color: 'var(--text-secondary)',
-                fontSize: 11,
-                whiteSpace: 'nowrap'
-              }}
-            >
-              Queue: {queueRef.current.length}
-            </span>
-
-            <span
-              style={{
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                whiteSpace: 'nowrap',
-                fontSize: 12,
-                color: 'var(--text-primary)',
-                fontWeight: 600
-              }}
-              title={currentTrack?.name}
-            >
-              {currentTrack?.name}
-            </span>
-          </div>
-
-          <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-            <button
-              type="button"
-              className={`studio-player__btn ${isFav ? 'active' : ''}`}
-              onClick={() => toggleFavorite(currentTrack?.id)}
-              aria-label={isFav ? 'Unfavorite track' : 'Favorite track'}
-              title={isFav ? 'Unfavorite' : 'Favorite'}
-            >
-              <Star size={16} />
-            </button>
-
-            <button
-              type="button"
-              className="studio-player__btn"
-              onClick={() => copyTrackName(currentTrack?.name || '')}
-              aria-label="Copy track name"
-              title="Copy track name"
-            >
-              <Copy size={16} />
-            </button>
+        <div className="studio-player__footer">
+          <button 
+            className={`fav-btn ${isFav ? 'active' : ''}`} 
+            onClick={() => toggleFavorite(currentTrack.id)}
+            aria-label={isFav ? "Remove from favorites" : "Add to favorites"}
+            aria-pressed={isFav}
+          >
+            <Star size={16} fill={isFav ? "currentColor" : "none"} aria-hidden="true" />
+          </button>
+          <div className="now-playing">
+            <span className="track-label">NOW PLAYING:</span>
+            <span className="track-name">{currentTrack.name}</span>
           </div>
         </div>
       </div>
 
-      <div className="studio-player__status-line" />
+      {isCollapsed && (
+        <div className="studio-player__mini">
+          <button onClick={togglePlay} aria-label={isPlaying ? "Pause" : "Play"}>
+            {isPlaying ? <Pause size={20} /> : <Play size={20} />}
+          </button>
+          <div className="mini-progress">
+            <div 
+              className="mini-progress-fill" 
+              style={{ width: `${(currentTime / duration) * 100}%` }} 
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

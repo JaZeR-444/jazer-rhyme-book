@@ -1,11 +1,16 @@
-/* Import into main entry point */
-@import '../components/Layout.css';
+/**
+ * Theme Utilities - LEGACY STYLES
+ * 
+ * Note: This file contains legacy utility classes.
+ * Consider consolidating these into component-specific CSS files.
+ * Layout.css import removed to avoid circular dependencies.
+ */
 
 h1, h2, h3 {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--text-main);
+  color: var(--text-primary);
   margin-bottom: 1rem;
 }
 
@@ -17,7 +22,7 @@ h1, h2, h3 {
 .glitch-text {
   font-size: 3rem;
   font-weight: 900;
-  color: var(--text-main);
+  color: var(--text-primary);
   position: relative;
 }
 
@@ -30,7 +35,7 @@ h1, h2, h3 {
 
 .card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-visible);
   padding: 20px;
   border-radius: 4px;
   backdrop-filter: blur(10px);
@@ -39,7 +44,7 @@ h1, h2, h3 {
 .stat {
   display: block;
   font-size: 2rem;
-  color: var(--accent);
+  color: var(--accent-primary);
   font-family: var(--font-mono);
   margin-top: 10px;
 }
@@ -53,8 +58,8 @@ h1, h2, h3 {
 
 .domain-card {
   height: 100px;
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
+  background: var(--surface-1);
+  border: 1px solid var(--border-visible);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,6 +69,12 @@ h1, h2, h3 {
 }
 
 .domain-card:hover {
-  border-color: var(--accent);
-  box-shadow: var(--glow);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 20px var(--accent-primary-glow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .domain-card {
+    transition: none;
+  }
 }

@@ -1,21 +1,23 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Pin, Sparkles, GitCompare, Copy, Check } from 'lucide-react';
-import { Breadcrumbs, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton, Badge } from '../components/ui';
+import { BookOpen, Pin, Sparkles, GitCompare, Copy, Check } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
+import { Breadcrumbs, BackButton, LoadingState, EmptyState, Card, MarkdownRenderer, FavoriteButton, Badge } from '../components/ui';
 import { ContinueExploring } from '../components/dictionary/ContinueExploring';
 import { SimilarWords } from '../components/dictionary/SimilarWords';
 import { useDictionaryWord, useDictionaryIndex } from '../lib/hooks';
-import { useWorkspace } from '../lib/WorkspaceContext';
-import { useBrowsingHistory } from '../lib/BrowsingHistoryContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
+import { useBrowsingHistory } from '../contexts/BrowsingHistoryContext';
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { findRhymes, getRhymeScheme } from '../lib/rhymeFinder';
 import './DictionaryWord.css';
 
 export function DictionaryWord() {
   const { letter, word } = useParams();
+  const safeWord = String(word || '').toLowerCase();
+  usePageTitle(safeWord);
   const navigate = useNavigate();
 
   const safeLetter = String(letter || '').toLowerCase();
-  const safeWord = String(word || '').toLowerCase();
 
   const { content, loading, error } = useDictionaryWord(safeLetter, safeWord);
   const { words: allWords } = useDictionaryIndex();
@@ -126,7 +128,7 @@ export function DictionaryWord() {
   }
 
   return (
-    <div className="dictionary-word">
+    <div className="dictionary-word" role="main" aria-label={`Dictionary - ${wordName} definition and details`}>
       <div className="dictionary-word__header">
         <Breadcrumbs
           items={[
@@ -138,9 +140,7 @@ export function DictionaryWord() {
         />
 
         <div className="dictionary-word__title-row">
-          <Link to={`/dictionary/${safeLetter.toUpperCase()}`} className="dictionary-word__back" aria-label="Back to letter">
-            <ArrowLeft size={24} aria-hidden="true" />
-          </Link>
+          <BackButton to={`/dictionary/${safeLetter.toUpperCase()}`} label="Back to Letter" />
 
           <div className="dictionary-word__title-group">
             <h1 className="dictionary-word__title">{wordName}</h1>

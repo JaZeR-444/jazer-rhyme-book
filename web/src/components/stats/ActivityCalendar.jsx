@@ -6,7 +6,7 @@
 import React, { useMemo } from 'react';
 import './ActivityCalendar.css';
 
-export default function ActivityCalendar({ activityData, daysToShow = 365 }) {
+export default function ActivityCalendar({ activityData = {}, daysToShow = 365 }) {
   const calendarData = useMemo(() => {
     const today = new Date();
     const weeks = [];
@@ -53,7 +53,9 @@ export default function ActivityCalendar({ activityData, daysToShow = 365 }) {
     return `${formatted}: ${day.count} ${day.count === 1 ? 'activity' : 'activities'}`;
   };
 
-  const maxCount = Math.max(...Object.values(activityData));
+  const values = Object.values(activityData);
+  const maxCount = values.length > 0 ? Math.max(...values) : 0;
+  const totalCount = values.reduce((sum, val) => sum + val, 0);
 
   return (
     <div className="activity-calendar">
@@ -91,7 +93,7 @@ export default function ActivityCalendar({ activityData, daysToShow = 365 }) {
 
       <div className="activity-calendar__summary">
         <p className="activity-calendar__summary-text">
-          <strong>{Object.values(activityData).reduce((sum, val) => sum + val, 0)}</strong> total
+          <strong>{totalCount}</strong> total
           activities in the last {daysToShow} days
         </p>
         <p className="activity-calendar__summary-text">

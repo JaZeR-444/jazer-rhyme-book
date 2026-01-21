@@ -247,3 +247,20 @@
     font-size: 12px;
   }
 }
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .domain-card-2,
+  .domain-card-2__pattern,
+  .domain-card-2__glow,
+  .domain-card-2__media-icon,
+  .domain-card-2__shine {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+  
+  .domain-card-2:hover {
+    transform: none !important;
+  }
+}

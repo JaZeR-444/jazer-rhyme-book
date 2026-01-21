@@ -14,7 +14,9 @@ const wordModules = import.meta.glob(
 
 // Debug: Log first path to understand format
 const firstPath = Object.keys(wordModules)[0];
-console.log('[Rap Dictionary] First path:', firstPath);
+if (import.meta.env.DEV) {
+  console.log('[Rap Dictionary] First path:', firstPath);
+}
 
 // Process into usable format
 const allWords = [];
@@ -57,23 +59,31 @@ for (const [path, content] of Object.entries(wordModules)) {
   // Clean up title
   title = title.charAt(0).toUpperCase() + title.slice(1).toLowerCase();
   
+  const extractSection = (label) => {
+    const labelIndex = lines.findIndex(l => l.toLowerCase().includes(label));
+    if (labelIndex === -1) return '';
+    const sectionLines = [];
+    for (let i = labelIndex + 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!line) {
+        if (sectionLines.length > 0) break;
+        continue;
+      }
+      if (/^#{1,6}\s/.test(line)) break;
+      sectionLines.push(line.replace(/^\*\s*/, ''));
+    }
+    return sectionLines.join(' ').trim();
+  };
+
   // Find meaning (plain) section
-  let definition = '';
-  const meaningIndex = lines.findIndex(l => l.toLowerCase().includes('meaning (plain)'));
-  if (meaningIndex !== -1 && lines[meaningIndex + 1]) {
-    definition = lines[meaningIndex + 1].trim();
-  }
+  const definition = extractSection('meaning (plain)');
   
   // Find part of speech
   const posLine = lines.find(l => l.toLowerCase().includes('part of speech'));
   const partOfSpeech = posLine ? posLine.split(':')[1]?.trim() || '' : '';
   
   // Find rap meaning
-  let rapMeaning = '';
-  const rapIndex = lines.findIndex(l => l.toLowerCase().includes('rap meaning'));
-  if (rapIndex !== -1 && lines[rapIndex + 1]) {
-    rapMeaning = lines[rapIndex + 1].trim();
-  }
+  const rapMeaning = extractSection('rap meaning');
   
   allWords.push({
     id: wordFolder,
@@ -114,11 +124,24 @@ export function searchWords(query, limit = 50) {
     .slice(0, limit);
 }
 
-// Get random words
-export function getRandomWords(count = 10) {
-  const shuffled = [...allWords].sort(() => Math.random() - 0.5);
+function mulberry32(seed) {
+  let t = seed >>> 0;
+  return () => {
+    t += 0x6D2B79F5;
+    let r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Get random words (optionally seeded)
+export function getRandomWords(count = 10, seed) {
+  const rng = typeof seed === 'number' ? mulberry32(seed) : Math.random;
+  const shuffled = [...allWords].sort(() => rng() - 0.5);
   return shuffled.slice(0, count);
 }
 
-console.log(`[Rap Dictionary] Loaded ${totalWords} words from ${letters.length} letters`);
-console.log(`[Rap Dictionary] Letters: ${letters.join(', ')}`);
+if (import.meta.env.DEV) {
+  console.log(`[Rap Dictionary] Loaded ${totalWords} words from ${letters.length} letters`);
+  console.log(`[Rap Dictionary] Letters: ${letters.join(', ')}`);
+}

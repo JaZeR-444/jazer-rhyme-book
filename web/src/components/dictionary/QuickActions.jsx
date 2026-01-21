@@ -4,8 +4,8 @@
  */
 import { useState } from 'react';
 import { Copy, Heart, Pin, Share2, Zap, Check } from 'lucide-react';
-import { useFavorites } from '../../lib/FavoritesContext';
-import { useWorkspace } from '../../lib/WorkspaceContext';
+import { useFavorites } from '../../contexts/FavoritesContext';
+import { useWorkspace } from '../../contexts/WorkspaceContext';
 import './QuickActions.css';
 
 export function QuickActions({

@@ -1,9 +1,10 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag, Link2, ExternalLink, Sparkles, Pin } from 'lucide-react';
-import { Breadcrumbs, LoadingState, EmptyState, Badge, Card, CopyButton } from '../components/ui';
+import { Calendar, Tag, Link2, ExternalLink, Sparkles, Pin } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
+import { Breadcrumbs, BackButton, LoadingState, EmptyState, Badge, Card, CopyButton } from '../components/ui';
 import { useEntity } from '../lib/hooks';
 import { findEntitiesByIds } from '../lib/data/knowledgeHub';
-import { useWorkspace } from '../lib/WorkspaceContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
 import { useKeyboardShortcuts } from '../lib/useKeyboardShortcuts';
 import { SimilarEntities } from '../components/SimilarEntities';
 import './EntityDetail.css';
@@ -11,6 +12,7 @@ import './EntityDetail.css';
 export function EntityDetail() {
   const { domainId, entityId } = useParams();
   const { entity, loading, error } = useEntity(domainId, entityId);
+  usePageTitle(entity?.name || 'Entity');
   const { addItem, isPinned } = useWorkspace();
 
   const domainName = domainId
@@ -61,7 +63,7 @@ export function EntityDetail() {
   }
 
   return (
-    <div className="entity-detail">
+    <div className="entity-detail" role="main" aria-label={`Entity - ${entity?.name || 'Details'}`}>
       <div className="entity-detail__header">
         <Breadcrumbs items={[
           { label: 'Home', path: '/' },
@@ -71,9 +73,7 @@ export function EntityDetail() {
         ]} />
 
         <div className="entity-detail__title-row">
-          <Link to={`/domains/${domainId}`} className="entity-detail__back">
-            <ArrowLeft size={24} />
-          </Link>
+          <BackButton to={`/domains/${domainId}`} label="Back to Domain" />
           <div className="entity-detail__title-content">
             <h1 className="entity-detail__title">{entity.name}</h1>
             {entity.aliases && entity.aliases.length > 0 && (

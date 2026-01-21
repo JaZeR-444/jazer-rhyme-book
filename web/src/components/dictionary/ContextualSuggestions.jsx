@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Lightbulb, RefreshCw, X, Eye, Tag, Shuffle } from 'lucide-react';
-import { useBrowsingHistory } from '../../lib/BrowsingHistoryContext';
+import { useBrowsingHistory } from '../../contexts/BrowsingHistoryContext';
 import { useDictionaryIndex } from '../../lib/hooks';
 import { findRhymes } from '../../lib/rhymeFinder';
 import './ContextualSuggestions.css';

@@ -1,7 +1,13 @@
 /**
  * MatchScoreBars Component
  * Visual representation of match confidence (1-5 bars)
+ *
+ * @param {Object} props
+ * @param {number} props.score - Current score value
+ * @param {number} [props.max=100] - Maximum possible score
+ * @returns {JSX.Element}
  */
+import PropTypes from 'prop-types';
 import './MatchScoreBars.css';
 
 export function MatchScoreBars({ score, max = 100 }) {
@@ -20,3 +26,8 @@ export function MatchScoreBars({ score, max = 100 }) {
     </div>
   );
 }
+
+MatchScoreBars.propTypes = {
+  score: PropTypes.number.isRequired,
+  max: PropTypes.number
+};

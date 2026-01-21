@@ -3,8 +3,11 @@
  * Mobile bottom sheet modal component
  */
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useId } from 'react';
+import PropTypes from 'prop-types';
 import { X } from 'lucide-react';
+import { createFocusTrap } from '../../lib/accessibility';
+import { useScrollLock } from '../../contexts/ScrollLockProvider';
 import './BottomSheet.css';
 
 export default function BottomSheet({ 
@@ -21,17 +24,26 @@ export default function BottomSheet({
   const sheetRef = useRef(null);
   const startY = useRef(0);
   const currentY = useRef(0);
+  const titleId = useId();
+  const { lock, unlock } = useScrollLock();
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      lock();
     } else {
-      document.body.style.overflow = '';
+      unlock();
     }
 
     return () => {
-      document.body.style.overflow = '';
+      if (isOpen) unlock();
     };
+  }, [isOpen, lock, unlock]);
+
+  useEffect(() => {
+    if (!isOpen || !sheetRef.current) return undefined;
+    const cleanup = createFocusTrap(sheetRef.current);
+    sheetRef.current.focus();
+    return cleanup;
   }, [isOpen]);
 
   const handleTouchStart = (e) => {
@@ -90,6 +102,8 @@ export default function BottomSheet({
         role="dialog"
         aria-modal="true"
         aria-label={title || 'Bottom sheet'}
+        aria-labelledby={title ? titleId : undefined}
+        tabIndex={-1}
       >
         {showHandle && (
           <div className="bottom-sheet__header">
@@ -99,7 +113,7 @@ export default function BottomSheet({
 
         {title && (
           <div className="bottom-sheet__title-bar">
-            <h2 className="bottom-sheet__title">{title}</h2>
+            <h2 className="bottom-sheet__title" id={titleId}>{title}</h2>
             <button 
               onClick={onClose}
               className="bottom-sheet__close"
@@ -117,3 +131,13 @@ export default function BottomSheet({
     </div>
   );
 }
+
+BottomSheet.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  children: PropTypes.node,
+  snapPoints: PropTypes.arrayOf(PropTypes.string),
+  initialSnap: PropTypes.number,
+  title: PropTypes.string,
+  showHandle: PropTypes.bool
+};

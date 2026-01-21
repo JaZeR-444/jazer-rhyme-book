@@ -1,22 +1,25 @@
 import { useState } from 'react';
-import { Settings as SettingsIcon, Palette, Layout, Filter, Download, Upload, RotateCcw, Check } from 'lucide-react';
-import { useUserPreferences } from '../lib/UserPreferencesContext';
-import { Card, Button } from '../components/ui';
+import { Settings as SettingsIcon, Palette, Layout, Filter, Download, Upload, RotateCcw, Check, Eye } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
+import { useUserPreferences } from '../contexts/UserPreferencesContext';
+import { Card, Button, AccessibilitySettings } from '../components/ui';
 import './Settings.css';
 
 export function Settings() {
+  usePageTitle('Settings');
   const {
     preferences,
     updateTheme,
     updateLayout,
     updateContent,
+    updateAudio,
     exportPreferences,
     importPreferences,
     resetToDefaults,
     colorSchemes,
   } = useUserPreferences();
 
-  const [activeTab, setActiveTab] = useState('theme'); // 'theme' | 'layout' | 'content'
+  const [activeTab, setActiveTab] = useState('theme'); // 'theme' | 'layout' | 'content' | 'accessibility'
   const [importError, setImportError] = useState(null);
   const [importSuccess, setImportSuccess] = useState(false);
 
@@ -42,7 +45,7 @@ export function Settings() {
   };
 
   return (
-    <div className="settings-page">
+    <div className="settings-page" role="main" aria-label="Settings - Customize your preferences and appearance">
       <div className="settings-page__header">
         <div className="settings-page__title-section">
           <SettingsIcon size={32} className="text-accent-primary" />
@@ -126,6 +129,13 @@ export function Settings() {
         >
           <Filter size={18} />
           <span>Content</span>
+        </button>
+        <button
+          className={`settings-tab ${activeTab === 'accessibility' ? 'active' : ''}`}
+          onClick={() => setActiveTab('accessibility')}
+        >
+          <Eye size={18} />
+          <span>Accessibility</span>
         </button>
       </div>
 
@@ -328,6 +338,21 @@ export function Settings() {
             </Card>
 
             <Card className="settings-card">
+              <h2 className="settings-card__title">Sound Effects</h2>
+              <p className="settings-card__description">
+                Toggle UI feedback sounds across the app
+              </p>
+              <label className="settings-checkbox">
+                <input
+                  type="checkbox"
+                  checked={preferences.audio.soundEnabled}
+                  onChange={(e) => updateAudio({ soundEnabled: e.target.checked })}
+                />
+                <span>Enable sound effects</span>
+              </label>
+            </Card>
+
+            <Card className="settings-card">
               <h2 className="settings-card__title">Default Syllable Filter</h2>
               <p className="settings-card__description">
                 Automatically filter dictionary words by syllable count
@@ -364,6 +389,12 @@ export function Settings() {
                 <option value="2020s">2020s</option>
               </select>
             </Card>
+          </div>
+        )}
+
+        {activeTab === 'accessibility' && (
+          <div className="settings-section fade-in">
+            <AccessibilitySettings />
           </div>
         )}
       </div>

@@ -13,7 +13,7 @@ const CHART_COLORS = [
   '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E9'
 ];
 
-export default function DomainStats({ 
+export function DomainStats({ 
   domainData, 
   entities = [],
   showCharts = true,
@@ -157,20 +157,20 @@ export default function DomainStats({
   }
 
   return (
-    <div className="domain-stats">
+    <div className="domain-stats" role="region" aria-label="Domain Statistics Dashboard">
       <div className="stats-header">
         <h3>
           {domainData ? `${domainData.name} Statistics` : 'Domain Statistics'}
         </h3>
         <div className="stats-summary">
-          <TrendingUp size={16} className="summary-icon" />
+          <TrendingUp size={16} className="summary-icon" aria-hidden="true" />
           <span>{stats.totalEntities} entities across {stats.eraDistribution.length} eras</span>
         </div>
       </div>
 
-      <div className="overview-stats">
-        <div className="overview-card">
-          <div className="overview-icon">
+      <div className="overview-stats" role="list" aria-label="Statistics Overview">
+        <div className="overview-card" role="listitem">
+          <div className="overview-icon" aria-hidden="true">
             <Hash size={24} />
           </div>
           <div className="overview-content">
@@ -179,8 +179,8 @@ export default function DomainStats({
           </div>
         </div>
 
-        <div className="overview-card">
-          <div className="overview-icon">
+        <div className="overview-card" role="listitem">
+          <div className="overview-icon" aria-hidden="true">
             <Tag size={24} />
           </div>
           <div className="overview-content">
@@ -189,8 +189,8 @@ export default function DomainStats({
           </div>
         </div>
 
-        <div className="overview-card">
-          <div className="overview-icon">
+        <div className="overview-card" role="listitem">
+          <div className="overview-icon" aria-hidden="true">
             <Calendar size={24} />
           </div>
           <div className="overview-content">
@@ -199,8 +199,8 @@ export default function DomainStats({
           </div>
         </div>
 
-        <div className="overview-card">
-          <div className="overview-icon">
+        <div className="overview-card" role="listitem">
+          <div className="overview-icon" aria-hidden="true">
             <Star size={24} />
           </div>
           <div className="overview-content">
@@ -214,12 +214,12 @@ export default function DomainStats({
         <div className="charts-section">
           {/* Tag Distribution Chart */}
           {stats.tagDistribution.length > 0 && (
-            <div className="chart-card">
+            <div className="chart-card" role="region" aria-label="Popular Tags Distribution">
               <h4>
-                <Tag size={16} />
+                <Tag size={16} aria-hidden="true" />
                 Popular Tags
               </h4>
-              <div className="bar-chart">
+              <div className="bar-chart" role="img" aria-label={`Bar chart showing ${stats.tagDistribution.length} popular tags`}>
                 {stats.tagDistribution.map(({ tag, count }, index) => {
                   const maxCount = stats.tagDistribution[0]?.count || 1;
                   const percentage = (count / maxCount) * 100;
@@ -234,6 +234,11 @@ export default function DomainStats({
                             width: `${percentage}%`,
                             backgroundColor: CHART_COLORS[index % CHART_COLORS.length]
                           }}
+                          role="progressbar"
+                          aria-valuenow={count}
+                          aria-valuemin={0}
+                          aria-valuemax={maxCount}
+                          aria-label={`${tag}: ${count} entities`}
                         ></div>
                       </div>
                       <span className="bar-value">{count}</span>
@@ -241,17 +246,35 @@ export default function DomainStats({
                   );
                 })}
               </div>
+              {/* Accessible data table */}
+              <table className="chart-data-table sr-only">
+                <caption>Tag distribution data</caption>
+                <thead>
+                  <tr>
+                    <th>Tag</th>
+                    <th>Count</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {stats.tagDistribution.map(({ tag, count }) => (
+                    <tr key={`table-${tag}`}>
+                      <td>{tag}</td>
+                      <td>{count}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           )}
 
           {/* Era Distribution Chart */}
           {stats.eraDistribution.length > 0 && (
-            <div className="chart-card">
+            <div className="chart-card" role="region" aria-label="Era Distribution">
               <h4>
-                <Clock size={16} />
+                <Clock size={16} aria-hidden="true" />
                 Era Distribution
               </h4>
-              <div className="pie-chart">
+              <div className="pie-chart" role="img" aria-label={`Distribution across ${stats.eraDistribution.length} eras`}>
                 {stats.eraDistribution.map(({ era, count }, index) => {
                   const percentage = (count / stats.totalEntities) * 100;
                   
@@ -260,6 +283,7 @@ export default function DomainStats({
                       <div 
                         className="pie-color"
                         style={{ backgroundColor: CHART_COLORS[index % CHART_COLORS.length] }}
+                        aria-hidden="true"
                       ></div>
                       <span className="pie-label">{era}</span>
                       <span className="pie-value">{count} ({percentage.toFixed(1)}%)</span>
@@ -267,6 +291,26 @@ export default function DomainStats({
                   );
                 })}
               </div>
+              {/* Accessible data table */}
+              <table className="chart-data-table sr-only">
+                <caption>Era distribution data</caption>
+                <thead>
+                  <tr>
+                    <th>Era</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {stats.eraDistribution.map(({ era, count }) => (
+                    <tr key={`table-${era}`}>
+                      <td>{era}</td>
+                      <td>{count}</td>
+                      <td>{((count / stats.totalEntities) * 100).toFixed(1)}%</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           )}
 

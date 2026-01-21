@@ -125,7 +125,7 @@
 
 .entity-pin-btn.is-pinned {
   color: var(--accent-secondary);
-  border-color: var(--accent-secondary-dim);
+  border-color: var(--accent-secondary-glow);
   background: rgba(0, 255, 255, 0.1);
 }
 
@@ -199,6 +199,21 @@
   font-size: var(--text-small);
   color: var(--text-secondary);
   font-family: var(--font-mono);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .entity-card,
+  .entity-card::after,
+  .entity-card__bg {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+  
+  .entity-card:hover {
+    transform: none !important;
+  }
 }
 
 /* Mobile Compact View */

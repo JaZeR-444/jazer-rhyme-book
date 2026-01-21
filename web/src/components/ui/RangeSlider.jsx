@@ -1,7 +1,17 @@
 /**
  * RangeSlider Component
  * Dual-handle slider for selecting numeric ranges
+ *
+ * @param {Object} props
+ * @param {number} [props.min=0] - Minimum allowed value
+ * @param {number} [props.max=100] - Maximum allowed value
+ * @param {[number,number]} [props.value] - Current range selection
+ * @param {function} [props.onChange] - Change handler
+ * @param {string} [props.label] - Label text
+ * @param {number} [props.step=1] - Step increment
+ * @returns {JSX.Element}
  */
+import PropTypes from 'prop-types';
 import { useState, useRef, useEffect } from 'react';
 import './RangeSlider.css';
 
@@ -67,6 +77,10 @@ export function RangeSlider({
           value={localValue[0]}
           onChange={handleMinChange}
           className="range-slider__input range-slider__input--min"
+          aria-label={`${label} minimum`}
+          aria-valuemin={min}
+          aria-valuemax={localValue[1]}
+          aria-valuenow={localValue[0]}
         />
 
         <input
@@ -77,8 +91,21 @@ export function RangeSlider({
           value={localValue[1]}
           onChange={handleMaxChange}
           className="range-slider__input range-slider__input--max"
+          aria-label={`${label} maximum`}
+          aria-valuemin={localValue[0]}
+          aria-valuemax={max}
+          aria-valuenow={localValue[1]}
         />
       </div>
     </div>
   );
 }
+
+RangeSlider.propTypes = {
+  min: PropTypes.number,
+  max: PropTypes.number,
+  value: PropTypes.arrayOf(PropTypes.number),
+  onChange: PropTypes.func,
+  label: PropTypes.string,
+  step: PropTypes.number
+};

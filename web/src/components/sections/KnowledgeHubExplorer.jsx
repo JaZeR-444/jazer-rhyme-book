@@ -3,7 +3,7 @@
  * Displays ALL real entities from data folders
  */
 
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { 
   entities, 
   domains, 
@@ -16,17 +16,31 @@ import './KnowledgeHubExplorer.css';
 
 export function KnowledgeHubExplorer({ id }) {
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const [activeDomain, setActiveDomain] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(50);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(searchQuery.trim()), 200);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    setVisibleCount(50);
+  }, [debouncedQuery, activeDomain]);
   
   const filteredEntities = useMemo(() => {
-    if (searchQuery) {
-      return searchEntities(searchQuery, { domain: activeDomain, limit: 100 });
+    if (debouncedQuery) {
+      return searchEntities(debouncedQuery, { domain: activeDomain, limit: 200 });
     }
     if (activeDomain) {
       return domains[activeDomain] || [];
     }
     return getRandomEntities(50);
-  }, [searchQuery, activeDomain]);
+  }, [debouncedQuery, activeDomain]);
+
+  const visibleEntities = filteredEntities.slice(0, visibleCount);
+  const hasMore = filteredEntities.length > visibleCount;
   
   return (
     <section id={id} className="hub-explorer section">
@@ -66,12 +80,13 @@ export function KnowledgeHubExplorer({ id }) {
       </div>
       
       <p className="results-count text-small text-secondary">
-        Showing {filteredEntities.length} {activeDomain ? `in ${activeDomain}` : 'entities'}
-        {searchQuery && ` matching "${searchQuery}"`}
+        Showing {Math.min(visibleEntities.length, filteredEntities.length)} of {filteredEntities.length}{' '}
+        {activeDomain ? `in ${activeDomain}` : 'entities'}
+        {debouncedQuery && ` matching "${debouncedQuery}"`}
       </p>
       
       <div className="entity-grid">
-        {filteredEntities.map((entity) => (
+        {visibleEntities.map((entity) => (
           <article key={entity.id} className="entity-card glass">
             <header className="entity-header">
               <h3 className="entity-name">{entity.name}</h3>
@@ -104,6 +119,24 @@ export function KnowledgeHubExplorer({ id }) {
           </article>
         ))}
       </div>
+
+      {filteredEntities.length === 0 && (
+        <div className="hub-empty text-small text-secondary">
+          No entities match your filters.
+        </div>
+      )}
+
+      {hasMore && (
+        <div className="hub-results-footer">
+          <button
+            type="button"
+            className="hub-show-more"
+            onClick={() => setVisibleCount((count) => count + 50)}
+          >
+            Show more
+          </button>
+        </div>
+      )}
     </section>
   );
 }

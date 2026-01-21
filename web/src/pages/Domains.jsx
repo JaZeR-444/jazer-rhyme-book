@@ -1,11 +1,13 @@
 import { Search as SearchIcon, Filter } from 'lucide-react';
 import { SearchBar, LoadingState, EmptyState } from '../components/ui';
+import { usePageTitle } from '../lib/usePageTitle';
 import { DomainGrid, DOMAIN_METADATA } from '../components/DomainGrid';
 import { useDomains } from '../lib/hooks';
 import { useState } from 'react';
 import './Domains.css';
 
 export function Domains() {
+  usePageTitle('Domains');
   const { domains, loading, error } = useDomains();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -34,7 +36,7 @@ export function Domains() {
   }
 
   return (
-    <div className="domains-page">
+    <div className="domains-page" role="main" aria-label="Domains - Explore knowledge categories">
       <div className="domains-page__header">
         <h1 className="domains-page__title">Knowledge Domains</h1>
         <p className="domains-page__description">

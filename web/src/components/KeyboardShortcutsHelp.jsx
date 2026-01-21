@@ -1,8 +1,20 @@
+import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { X, Keyboard } from 'lucide-react';
 import { SHORTCUTS, formatShortcut } from '../lib/useKeyboardShortcuts';
 import './KeyboardShortcutsHelp.css';
 
 export function KeyboardShortcutsHelp({ isOpen, onClose }) {
+  // Handle Escape key
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleEsc = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   const categories = {
@@ -12,46 +24,57 @@ export function KeyboardShortcutsHelp({ isOpen, onClose }) {
   };
 
   return (
-    <div className="shortcuts-modal">
-      <div className="shortcuts-overlay" onClick={onClose} />
+    <div className="shortcuts-modal" role="dialog" aria-modal="true" aria-labelledby="shortcuts-title">
+      <div className="shortcuts-overlay" onClick={onClose} role="presentation" />
       <div className="shortcuts-content">
         <div className="shortcuts-header">
-          <div className="shortcuts-title">
-            <Keyboard size={24} />
-            <h2>Keyboard Shortcuts</h2>
+          <div className="shortcuts-title-wrapper">
+            <Keyboard size={24} aria-hidden="true" />
+            <h2 id="shortcuts-title">Keyboard Shortcuts</h2>
           </div>
-          <button className="shortcuts-close" onClick={onClose}>
-            <X size={20} />
+          <button 
+            className="shortcuts-close" 
+            onClick={onClose}
+            aria-label="Close shortcuts help"
+          >
+            <X size={20} aria-hidden="true" />
           </button>
         </div>
 
         <div className="shortcuts-body">
           {Object.entries(categories).map(([category, shortcutKeys]) => (
-            <div key={category} className="shortcuts-category">
-              <h3 className="shortcuts-category-title">{category}</h3>
+            <section key={category} className="shortcuts-category" aria-labelledby={`cat-${category}`}>
+              <h3 id={`cat-${category}`} className="shortcuts-category-title">{category}</h3>
               <div className="shortcuts-list">
                 {shortcutKeys.map((key) => {
                   const shortcut = SHORTCUTS[key];
+                  if (!shortcut) return null;
+                  
                   return (
                     <div key={key} className="shortcuts-item">
                       <span className="shortcuts-description">
                         {shortcut.description}
                       </span>
-                      <kbd className="shortcuts-keys">
+                      <kbd className="shortcuts-keys" aria-label={`Keys: ${formatShortcut(shortcut.keys)}`}>
                         {formatShortcut(shortcut.keys)}
                       </kbd>
                     </div>
                   );
                 })}
               </div>
-            </div>
+            </section>
           ))}
         </div>
 
         <div className="shortcuts-footer">
-          <p>Press <kbd>?</kbd> to toggle this help panel</p>
+          <p>Press <kbd aria-hidden="true">?</kbd> to toggle this help panel</p>
         </div>
       </div>
     </div>
   );
 }
+
+KeyboardShortcutsHelp.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired
+};

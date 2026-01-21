@@ -1,0 +1,204 @@
+/* Accessibility Settings Component */
+
+.accessibility-settings {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.accessibility-settings__title {
+  font-size: var(--text-h2);
+  font-weight: var(--weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.accessibility-settings__options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* Accessibility Option */
+.accessibility-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--surface-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  transition: border-color var(--duration-short);
+}
+
+.accessibility-option:hover {
+  border-color: var(--border-visible);
+}
+
+.accessibility-option__info {
+  flex: 1;
+}
+
+.accessibility-option__label {
+  display: block;
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+  cursor: pointer;
+}
+
+.accessibility-option__description {
+  font-size: var(--text-small);
+  color: var(--text-secondary);
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+/* Toggle Button */
+.toggle-button {
+  position: relative;
+  width: 64px;
+  height: 32px;
+  background: var(--surface-2);
+  border: 2px solid var(--border-visible);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all var(--duration-short);
+  flex-shrink: 0;
+}
+
+.toggle-button:hover {
+  border-color: var(--accent-primary);
+}
+
+.toggle-button:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.toggle-button__slider {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 24px;
+  height: 24px;
+  background: var(--text-secondary);
+  border-radius: 50%;
+  transition: all var(--duration-short);
+}
+
+.toggle-button--active {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.toggle-button--active .toggle-button__slider {
+  transform: translateX(32px);
+  background: var(--text-primary);
+}
+
+.toggle-button__label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--text-micro);
+  font-weight: var(--weight-bold);
+  color: var(--text-primary);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.toggle-button--active .toggle-button__label {
+  opacity: 1;
+}
+
+/* Motion Toggle Button */
+.motion-toggle-button {
+  padding: var(--space-xs) var(--space-md);
+  background: var(--surface-2);
+  border: 2px solid var(--border-visible);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--duration-short);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.motion-toggle-button:hover {
+  background: var(--surface-3);
+  border-color: var(--accent-primary);
+}
+
+.motion-toggle-button:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Info Section */
+.accessibility-settings__info {
+  margin-top: var(--space-xl);
+  padding: var(--space-md);
+  background: var(--surface-1);
+  border-left: 3px solid var(--accent-secondary);
+  border-radius: 4px;
+}
+
+.info-text {
+  font-size: var(--text-small);
+  color: var(--text-secondary);
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+.info-text strong {
+  color: var(--text-primary);
+  font-weight: var(--weight-semibold);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .accessibility-settings {
+    padding: var(--space-md);
+  }
+
+  .accessibility-option {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-md);
+  }
+
+  .toggle-button,
+  .motion-toggle-button {
+    align-self: flex-end;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .accessibility-option,
+  .toggle-button,
+  .toggle-button__slider,
+  .motion-toggle-button {
+    transition: none;
+  }
+}
+
+/* High Contrast Mode Overrides */
+[data-theme="high-contrast"] .accessibility-option {
+  border-width: 2px;
+}
+
+[data-theme="high-contrast"] .toggle-button--active {
+  background: var(--accent-primary);
+}
+
+[data-theme="high-contrast"] .motion-toggle-button {
+  font-weight: var(--weight-bold);
+}

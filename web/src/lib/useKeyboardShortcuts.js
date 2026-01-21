@@ -24,6 +24,32 @@ export function useKeyboardShortcuts(shortcuts, enabled = true, options = {}) {
 
     const targetElement = target || window;
 
+    // Move handleSequence outside to avoid recreation
+    const handleSequence = (event, simpleKey, combo) => {
+      // Clear previous timeout
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+
+      // Add current key to sequence
+      sequenceRef.current.push(simpleKey);
+
+      // Set timeout to reset sequence
+      timeoutRef.current = setTimeout(() => {
+        sequenceRef.current = [];
+      }, sequenceTimeout);
+
+      // Check for sequence matches
+      const sequenceStr = sequenceRef.current.join('+');
+      
+      if (shortcuts[sequenceStr]) {
+        if (preventDefault) event.preventDefault();
+        shortcuts[sequenceStr](event);
+        sequenceRef.current = []; // Reset sequence after match
+        clearTimeout(timeoutRef.current);
+      }
+    };
+
     const handleKeyDown = (event) => {
       // Don't trigger shortcuts when typing in inputs (unless explicitly enabled)
       const targetEl = event.target;
@@ -73,31 +99,6 @@ export function useKeyboardShortcuts(shortcuts, enabled = true, options = {}) {
       }
     };
 
-    const handleSequence = (event, simpleKey, combo) => {
-      // Clear previous timeout
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
-
-      // Add current key to sequence
-      sequenceRef.current.push(simpleKey);
-
-      // Set timeout to reset sequence
-      timeoutRef.current = setTimeout(() => {
-        sequenceRef.current = [];
-      }, sequenceTimeout);
-
-      // Check for sequence matches
-      const sequenceStr = sequenceRef.current.join('+');
-      
-      if (shortcuts[sequenceStr]) {
-        if (preventDefault) event.preventDefault();
-        shortcuts[sequenceStr](event);
-        sequenceRef.current = []; // Reset sequence after match
-        clearTimeout(timeoutRef.current);
-      }
-    };
-
     const buildKeyCombo = (event) => {
       const parts = [];
       if (event.ctrlKey || event.metaKey) parts.push('ctrl');
@@ -118,48 +119,60 @@ export function useKeyboardShortcuts(shortcuts, enabled = true, options = {}) {
         clearTimeout(timeoutRef.current);
       }
     };
-  }, [shortcuts, enabled, preventDefault, capture, target, enableInInputs, sequence, sequenceTimeout]);
+  }, [shortcuts, enabled, preventDefault, capture, target, enableInInputs, sequence, sequenceTimeout, options.showFeedback]);
 }
 
 /**
  * Show visual feedback for keyboard shortcuts
+ * Ensures styles are only injected once
  */
 function showShortcutFeedback(shortcut) {
-  // Create temporary feedback element
-  const feedback = document.createElement('div');
-  feedback.className = 'keyboard-shortcut-feedback';
-  feedback.textContent = `Shortcut: ${shortcut}`;
-  feedback.style.cssText = `
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: var(--accent-primary, #007bff);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    z-index: 10000;
-    animation: slideIn 0.2s ease-out, fadeOut 0.3s ease-out 1.5s;
-    pointer-events: none;
-  `;
-
-  // Add CSS animation styles if they don't exist
+  // Ensure feedback styles are injected only once
   if (!document.getElementById('keyboard-feedback-styles')) {
     const style = document.createElement('style');
     style.id = 'keyboard-feedback-styles';
     style.textContent = `
+      .keyboard-shortcut-feedback {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: var(--accent-primary, #007bff);
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        z-index: 10000;
+        animation: slideIn 0.2s ease-out, fadeOut 0.3s ease-out 1.5s;
+        pointer-events: none;
+      }
+      
       @keyframes slideIn {
         from { transform: translateX(100%); opacity: 0; }
         to { transform: translateX(0); opacity: 1; }
       }
+      
       @keyframes fadeOut {
         from { opacity: 1; }
         to { opacity: 0; }
       }
+      
+      @media (prefers-reduced-motion: reduce) {
+        .keyboard-shortcut-feedback {
+          animation: none;
+          opacity: 1;
+        }
+      }
     `;
     document.head.appendChild(style);
   }
+
+  // Create temporary feedback element
+  const feedback = document.createElement('div');
+  feedback.className = 'keyboard-shortcut-feedback';
+  feedback.textContent = `Shortcut: ${shortcut}`;
+  feedback.setAttribute('role', 'status');
+  feedback.setAttribute('aria-live', 'polite');
 
   document.body.appendChild(feedback);
 
@@ -196,17 +209,29 @@ export const SHORTCUTS = {
 
 /**
  * Format keyboard shortcut for display
+ * 
+ * @param {string|string[]} keys - Shortcut keys
+ * @param {boolean} useUnicode - Use Unicode symbols (⌘/⌥/⇧) or ASCII fallbacks
+ * @returns {string} - Formatted shortcut string
  */
-export function formatShortcut(keys) {
+export function formatShortcut(keys, useUnicode = true) {
   if (!Array.isArray(keys)) keys = [keys];
 
   return keys[0]
     .split('+')
     .map(k => {
-      if (k === 'ctrl') return '⌘/Ctrl';
-      if (k === 'alt') return '⌥/Alt';
-      if (k === 'shift') return '⇧';
-      if (k === 'escape') return 'Esc';
+      if (useUnicode) {
+        if (k === 'ctrl') return '⌘/Ctrl';
+        if (k === 'alt') return '⌥/Alt';
+        if (k === 'shift') return '⇧';
+        if (k === 'escape') return 'Esc';
+      } else {
+        // ASCII-safe fallbacks
+        if (k === 'ctrl') return 'Ctrl';
+        if (k === 'alt') return 'Alt';
+        if (k === 'shift') return 'Shift';
+        if (k === 'escape') return 'Esc';
+      }
       return k.toUpperCase();
     })
     .join(' + ');

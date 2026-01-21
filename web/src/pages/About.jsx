@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { Card, Badge, Button, MarkdownRenderer } from '../components/ui';
 import { Database, Code, Cpu, ExternalLink, FileText, Search, Share2, Layers, Mail, Twitter, MessageCircle } from 'lucide-react';
 import './About.css';
@@ -58,6 +59,7 @@ Tags are centralized in \`_meta/tags.json\`. If you need a new tag, add it there
 `;
 
 export function About() {
+  usePageTitle('About');
   const [activeTab, setActiveTab] = useState('overview');
   const [activeLayer, setActiveLayer] = useState(null);
 
@@ -109,7 +111,7 @@ export function About() {
   const activeInfo = getActiveInfo();
 
   return (
-    <div className="about-page">
+    <div className="about-page" role="main" aria-label="About - Learn about JaZeR Rhyme Book architecture and contribution">
       <div className="about-page__header">
         <h1 className="about-page__title">The Mainframe</h1>
         <p className="about-page__tagline">
@@ -117,22 +119,37 @@ export function About() {
         </p>
       </div>
 
-      <div className="about-tabs">
+      <div className="about-tabs" role="tablist" aria-label="About sections">
         <button 
+          type="button"
           className={`about-tab ${activeTab === 'overview' ? 'active' : ''}`}
           onClick={() => setActiveTab('overview')}
+          role="tab"
+          aria-selected={activeTab === 'overview'}
+          aria-controls="panel-overview"
+          id="tab-overview"
         >
           Overview
         </button>
         <button 
+          type="button"
           className={`about-tab ${activeTab === 'architecture' ? 'active' : ''}`}
           onClick={() => setActiveTab('architecture')}
+          role="tab"
+          aria-selected={activeTab === 'architecture'}
+          aria-controls="panel-architecture"
+          id="tab-architecture"
         >
           Architecture
         </button>
         <button 
+          type="button"
           className={`about-tab ${activeTab === 'docs' ? 'active' : ''}`}
           onClick={() => setActiveTab('docs')}
+          role="tab"
+          aria-selected={activeTab === 'docs'}
+          aria-controls="panel-docs"
+          id="tab-docs"
         >
           Documentation
         </button>
@@ -140,7 +157,12 @@ export function About() {
 
       <div className="about-content">
         {activeTab === 'overview' && (
-          <div className="about-overview fade-in">
+          <div 
+            id="panel-overview"
+            className="about-overview fade-in"
+            role="tabpanel"
+            aria-labelledby="tab-overview"
+          >
             <div className="about-grid">
               <Card className="about-card">
                 <div className="about-accent" />
@@ -216,12 +238,17 @@ export function About() {
         )}
 
         {activeTab === 'architecture' && (
-          <div className="about-architecture fade-in">
+          <div 
+            id="panel-architecture"
+            className="about-architecture fade-in"
+            role="tabpanel"
+            aria-labelledby="tab-architecture"
+          >
             <div className="architecture-page">
               <div className="blueprint-grid">
                 <Card className="blueprint-diagram">
                   <div className="blueprint-svg-container">
-                    <svg viewBox="0 0 600 800" className="blueprint-svg">
+                    <svg viewBox="0 0 600 800" className="blueprint-svg" aria-label="System Architecture Blueprint">
                       <defs>
                         <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
                           <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0, 255, 255, 0.1)" strokeWidth="0.5"/>
@@ -250,8 +277,19 @@ export function About() {
                             transform={`translate(100, ${yPos})`}
                             onMouseEnter={() => setActiveLayer(layer.id)}
                             onMouseLeave={() => setActiveLayer(null)}
+                            onFocus={() => setActiveLayer(layer.id)}
+                            onBlur={() => setActiveLayer(null)}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter' || e.key === ' ') {
+                                setActiveLayer(isActive ? null : layer.id);
+                              }
+                            }}
                             className="blueprint-layer-group"
                             style={{ cursor: 'pointer' }}
+                            tabIndex={0}
+                            role="button"
+                            aria-label={`View details for ${layer.title}`}
+                            aria-expanded={isActive}
                           >
                             <rect x="0" y="0" width="400" height="100" rx="8" fill="rgba(10, 20, 30, 0.9)" 
                               stroke={isActive ? layer.color : 'var(--border-visible)'} strokeWidth={isActive ? 2 : 1}
@@ -290,7 +328,12 @@ export function About() {
         )}
 
         {activeTab === 'docs' && (
-          <div className="about-docs fade-in">
+          <div 
+            id="panel-docs"
+            className="about-docs fade-in"
+            role="tabpanel"
+            aria-labelledby="tab-docs"
+          >
             <div className="docs-page">
               <Card className="docs-card">
                 <div className="docs-content">

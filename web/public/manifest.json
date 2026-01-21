@@ -2,60 +2,28 @@
   "name": "JaZeR Rhyme Book",
   "short_name": "JaZeR",
   "description": "Ultimate rhyme dictionary and writing studio for lyricists and rappers",
-  "start_url": "/",
+  "start_url": "/jazer-rhyme-book/",
   "display": "standalone",
   "background_color": "#0a0a0a",
-  "theme_color": "#6366f1",
+  "theme_color": "#5D3FD3",
   "orientation": "portrait-primary",
-  "scope": "/",
+  "scope": "/jazer-rhyme-book/",
   "icons": [
     {
-      "src": "/icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
+      "src": "/jazer-rhyme-book/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "categories": [
@@ -69,11 +37,11 @@
       "name": "Dictionary",
       "short_name": "Dictionary",
       "description": "Browse the rhyme dictionary",
-      "url": "/dictionary",
+      "url": "/jazer-rhyme-book/dictionary",
       "icons": [
         {
-          "src": "/icon-192.png",
-          "sizes": "192x192"
+          "src": "/jazer-rhyme-book/icon.svg",
+          "sizes": "any"
         }
       ]
     },
@@ -81,11 +49,11 @@
       "name": "Writing Studio",
       "short_name": "Studio",
       "description": "Open the writing studio",
-      "url": "/studio",
+      "url": "/jazer-rhyme-book/studio",
       "icons": [
         {
-          "src": "/icon-192.png",
-          "sizes": "192x192"
+          "src": "/jazer-rhyme-book/icon.svg",
+          "sizes": "any"
         }
       ]
     },
@@ -93,27 +61,13 @@
       "name": "Domains",
       "short_name": "Domains",
       "description": "Explore knowledge domains",
-      "url": "/domains",
+      "url": "/jazer-rhyme-book/domains",
       "icons": [
         {
-          "src": "/icon-192.png",
-          "sizes": "192x192"
+          "src": "/jazer-rhyme-book/icon.svg",
+          "sizes": "any"
         }
       ]
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "/screenshots/home.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/screenshots/mobile-home.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow"
     }
   ],
   "related_applications": [],

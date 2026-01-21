@@ -1,6 +1,18 @@
+import PropTypes from 'prop-types';
 import { Search, X } from 'lucide-react';
 import './SearchBar.css';
 
+/**
+ * SearchBar - Minimal search input with clear affordance
+ *
+ * @param {Object} props
+ * @param {string} props.value - Current input value
+ * @param {function} props.onChange - Change handler
+ * @param {string} [props.placeholder] - Placeholder text
+ * @param {function} [props.onClear] - Optional clear handler
+ * @param {string} [props.className] - Additional class names
+ * @returns {JSX.Element}
+ */
 export function SearchBar({ value, onChange, placeholder = 'Search...', onClear, className = '' }) {
   return (
     <div className={`search-bar ${className}`}>
@@ -20,3 +32,11 @@ export function SearchBar({ value, onChange, placeholder = 'Search...', onClear,
     </div>
   );
 }
+
+SearchBar.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+  placeholder: PropTypes.string,
+  onClear: PropTypes.func,
+  className: PropTypes.string
+};

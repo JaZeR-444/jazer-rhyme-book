@@ -29,18 +29,9 @@ export function WorkspaceProvider({ children }) {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const [recentSearches, setRecentSearches] = useState(() => {
-    const saved = localStorage.getItem('jazer_recent_searches');
-    return saved ? JSON.parse(saved) : [];
-  });
-
   useEffect(() => {
     localStorage.setItem('jazer_workspace_items', JSON.stringify(items));
   }, [items]);
-
-  useEffect(() => {
-    localStorage.setItem('jazer_recent_searches', JSON.stringify(recentSearches));
-  }, [recentSearches]);
 
   useEffect(() => {
     localStorage.setItem('jazer_workspace_sections', JSON.stringify(sections));
@@ -119,19 +110,6 @@ export function WorkspaceProvider({ children }) {
     return items.some((i) => i.id === id && i.type === type);
   };
 
-  const addToRecent = (searchItem) => {
-    setRecentSearches((prev) => {
-      const filtered = prev.filter(
-        (item) => !(item.id === searchItem.id && item.type === searchItem.type)
-      );
-      return [searchItem, ...filtered].slice(0, 20);
-    });
-  };
-
-  const clearRecentSearches = () => {
-    setRecentSearches([]);
-  };
-
   const exportWorkspace = () => {
     let text = '# JaZeR Verse Board Export\n\n';
 
@@ -169,10 +147,7 @@ export function WorkspaceProvider({ children }) {
         isOpen,
         toggleWorkspace,
         isPinned,
-        exportWorkspace,
-        recentSearches,
-        addToRecent,
-        clearRecentSearches
+        exportWorkspace
       }}
     >
       {children}

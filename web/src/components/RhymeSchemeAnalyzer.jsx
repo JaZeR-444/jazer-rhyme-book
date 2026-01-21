@@ -25,7 +25,7 @@ export function RhymeSchemeAnalyzer({ text }) {
       const lastWord = words[words.length - 1]?.replace(/[^\w]/g, '');
 
       if (!lastWord) {
-        return { line, lastWord: '', scheme: null, syllables: 0 };
+        return { line, lastWord: '', phonetic: null, syllables: 0 };
       }
 
       const rhymeData = getRhymeScheme(lastWord);
@@ -39,8 +39,8 @@ export function RhymeSchemeAnalyzer({ text }) {
 
     // Determine rhyme scheme (AABB, ABAB, etc.)
     const schemeMap = {};
-    let currentScheme = 'A';
-    const scheme = analyzedLines.map((lineData, idx) => {
+    let nextCharCode = 65; // 'A'
+    const scheme = analyzedLines.map((lineData) => {
       if (!lineData.phonetic) return '-';
 
       // Check if this phonetic pattern already exists
@@ -51,9 +51,19 @@ export function RhymeSchemeAnalyzer({ text }) {
       if (existingScheme) {
         return existingScheme;
       } else {
-        schemeMap[currentScheme] = lineData.phonetic;
-        const assigned = currentScheme;
-        currentScheme = String.fromCharCode(currentScheme.charCodeAt(0) + 1);
+        // Handle alphabet overflow (A-Z, then AA, AB...)
+        let assigned;
+        if (nextCharCode <= 90) {
+          assigned = String.fromCharCode(nextCharCode);
+        } else {
+          // Fallback for extremely long complex schemes
+          const prefix = String.fromCharCode(64 + Math.floor((nextCharCode - 65) / 26));
+          const suffix = String.fromCharCode(65 + ((nextCharCode - 65) % 26));
+          assigned = prefix + suffix;
+        }
+        
+        schemeMap[assigned] = lineData.phonetic;
+        nextCharCode++;
         return assigned;
       }
     });
@@ -81,17 +91,17 @@ export function RhymeSchemeAnalyzer({ text }) {
   if (!analysis) {
     return (
       <Card className="rhyme-scheme-analyzer empty">
-        <Sparkles size={24} className="text-accent-secondary" />
+        <Sparkles size={24} className="text-accent-secondary" aria-hidden="true" />
         <p className="analyzer-hint">Write at least 2 lines to see rhyme scheme analysis</p>
       </Card>
     );
   }
 
   return (
-    <Card className="rhyme-scheme-analyzer">
+    <Card className="rhyme-scheme-analyzer" role="region" aria-label="Rhyme Scheme Analysis">
       <div className="analyzer-header">
         <div className="analyzer-title">
-          <TrendingUp size={20} />
+          <TrendingUp size={20} aria-hidden="true" />
           <h3>Rhyme Scheme Analysis</h3>
         </div>
         <div className="analyzer-pattern">
@@ -101,33 +111,37 @@ export function RhymeSchemeAnalyzer({ text }) {
       </div>
 
       <div className="analyzer-scheme">
-        <div className="scheme-visual">
+        <div className="scheme-visual" aria-label={`Rhyme scheme sequence: ${analysis.schemeString}`}>
           {analysis.scheme.map((letter, idx) => (
             <span
               key={idx}
               className={`scheme-letter ${letter === '-' ? 'none' : ''}`}
               data-letter={letter}
+              aria-hidden="true"
             >
               {letter}
             </span>
           ))}
         </div>
-        <div className="scheme-string">{analysis.schemeString}</div>
+        <div className="scheme-string" aria-hidden="true">{analysis.schemeString}</div>
       </div>
 
       <div className="analyzer-lines">
         {analysis.lines.map((lineData, idx) => (
           <div key={idx} className="analyzed-line">
-            <span className={`line-scheme ${analysis.scheme[idx] === '-' ? 'none' : ''}`}>
+            <span 
+              className={`line-scheme ${analysis.scheme[idx] === '-' ? 'none' : ''}`}
+              aria-label={`Rhyme group ${analysis.scheme[idx]}`}
+            >
               {analysis.scheme[idx]}
             </span>
             <div className="line-content">
               <span className="line-text">{lineData.line}</span>
               {lineData.lastWord && (
-                <span className="line-meta">
-                  <span className="line-word">{lineData.lastWord}</span>
-                  <span className="line-syllables">{lineData.syllables} syl</span>
-                </span>
+                <div className="line-meta">
+                  <span className="line-word" aria-label="End word">{lineData.lastWord}</span>
+                  <span className="line-syllables">{lineData.syllables} syllables</span>
+                </div>
               )}
             </div>
           </div>

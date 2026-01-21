@@ -2,6 +2,7 @@
  * Autocomplete Component
  * Smart search with suggestions, keyboard navigation, and search history
  */
+import PropTypes from 'prop-types';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Search, Clock, X } from 'lucide-react';
 import './Autocomplete.css';
@@ -10,6 +11,17 @@ const STORAGE_KEY = 'jazer-search-history';
 const MAX_HISTORY = 5;
 const DEBOUNCE_MS = 300;
 
+/**
+ * Autocomplete - Smart search with history and keyboard navigation
+ *
+ * @param {Object} props
+ * @param {string} props.value - Current input value
+ * @param {function} props.onChange - Change handler for the input
+ * @param {function} [props.onSelect] - Called when a result is selected
+ * @param {Array<{name:string,letter?:string,d?:string}>} props.searchIndex - Searchable data set
+ * @param {string} [props.placeholder] - Input placeholder text
+ * @returns {JSX.Element}
+ */
 export function Autocomplete({
   value,
   onChange,
@@ -278,3 +290,17 @@ export function Autocomplete({
     </div>
   );
 }
+
+Autocomplete.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+  onSelect: PropTypes.func,
+  searchIndex: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      letter: PropTypes.string,
+      d: PropTypes.string
+    })
+  ),
+  placeholder: PropTypes.string
+};

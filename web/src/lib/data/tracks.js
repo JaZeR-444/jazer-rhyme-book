@@ -2,510 +2,1145 @@
 export const tracks = [
   {
     "title": "2021",
-    "src": "/audio/2021.mp3"
+    "rawTitle": "2021",
+    "src": "/audio/2021.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "ALIVE",
-    "src": "/audio/ALIVE.mp3"
+    "rawTitle": "ALIVE",
+    "src": "/audio/ALIVE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "ALL HER FAULT",
-    "src": "/audio/ALL HER FAULT.mp3"
+    "rawTitle": "ALL HER FAULT",
+    "src": "/audio/ALL HER FAULT.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Amethyst",
-    "src": "/audio/Amethyst.mp3"
+    "rawTitle": "Amethyst",
+    "src": "/audio/Amethyst.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "BE FREE",
-    "src": "/audio/BE FREE.mp3"
+    "rawTitle": "BE FREE",
+    "src": "/audio/BE FREE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Beautiful Mess",
-    "src": "/audio/Beautiful Mess.mp3"
+    "rawTitle": "Beautiful Mess",
+    "src": "/audio/Beautiful Mess.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "BEEN QUIET TOO LONG",
-    "src": "/audio/BEEN QUIET TOO LONG.mp3"
+    "rawTitle": "BEEN QUIET TOO LONG",
+    "src": "/audio/BEEN QUIET TOO LONG.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Beloved",
-    "src": "/audio/Beloved.mp3"
+    "rawTitle": "Beloved",
+    "src": "/audio/Beloved.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Bentlize",
-    "src": "/audio/Bentlize.mp3"
+    "rawTitle": "Bentlize",
+    "src": "/audio/Bentlize.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Benzo",
-    "src": "/audio/Benzo.mp3"
+    "rawTitle": "Benzo",
+    "src": "/audio/Benzo.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Billionaire",
-    "src": "/audio/Billionaire.mp3"
+    "rawTitle": "Billionaire",
+    "src": "/audio/Billionaire.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "BUBBLE",
-    "src": "/audio/BUBBLE.mp3"
+    "rawTitle": "BUBBLE",
+    "src": "/audio/BUBBLE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "By My Lonely",
-    "src": "/audio/By My Lonely.mp3"
+    "rawTitle": "By My Lonely",
+    "src": "/audio/By My Lonely.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Chemistry",
-    "src": "/audio/Chemistry.mp3"
+    "rawTitle": "Chemistry",
+    "src": "/audio/Chemistry.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Circles",
-    "src": "/audio/Circles.mp3"
+    "rawTitle": "Circles",
+    "src": "/audio/Circles.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "close my eyes",
-    "src": "/audio/close my eyes.mp3"
+    "title": "Close My Eyes",
+    "rawTitle": "close my eyes",
+    "src": "/audio/close my eyes.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "Cold as ICE",
-    "src": "/audio/Cold as ICE.mp3"
+    "title": "Cold As ICE",
+    "rawTitle": "Cold as ICE",
+    "src": "/audio/Cold as ICE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Colors",
-    "src": "/audio/Colors.mp3"
+    "rawTitle": "Colors",
+    "src": "/audio/Colors.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Culture",
-    "src": "/audio/Culture.mp3"
+    "rawTitle": "Culture",
+    "src": "/audio/Culture.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Daily Dose",
-    "src": "/audio/Daily Dose.mp3"
+    "rawTitle": "Daily Dose",
+    "src": "/audio/Daily Dose.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "DARK THOUGHTS",
-    "src": "/audio/DARK THOUGHTS.mp3"
+    "rawTitle": "DARK THOUGHTS",
+    "src": "/audio/DARK THOUGHTS.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Delilah",
-    "src": "/audio/Delilah.mp3"
+    "rawTitle": "Delilah",
+    "src": "/audio/Delilah.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Detonate",
-    "src": "/audio/Detonate.mp3"
+    "rawTitle": "Detonate",
+    "src": "/audio/Detonate.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Diamonds",
-    "src": "/audio/Diamonds.mp3"
+    "rawTitle": "Diamonds",
+    "src": "/audio/Diamonds.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Digital Angel",
-    "src": "/audio/Digital Angel.mp3"
+    "rawTitle": "Digital Angel",
+    "src": "/audio/Digital Angel.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Diles",
-    "src": "/audio/Diles.mp3"
+    "rawTitle": "Diles",
+    "src": "/audio/Diles.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Distant Pain",
-    "src": "/audio/Distant Pain.mp3"
+    "rawTitle": "Distant Pain",
+    "src": "/audio/Distant Pain.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Distraction",
-    "src": "/audio/Distraction.mp3"
+    "rawTitle": "Distraction",
+    "src": "/audio/Distraction.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Dying Slow",
-    "src": "/audio/Dying Slow.mp3"
+    "rawTitle": "Dying Slow",
+    "src": "/audio/Dying Slow.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "El Patron",
-    "src": "/audio/El Patron.mp3"
+    "rawTitle": "El Patron",
+    "src": "/audio/El Patron.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Eyes Skies",
-    "src": "/audio/Eyes Skies.mp3"
+    "rawTitle": "Eyes Skies",
+    "src": "/audio/Eyes Skies.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Fading",
-    "src": "/audio/Fading.mp3"
+    "rawTitle": "Fading",
+    "src": "/audio/Fading.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "FAILURE'S NO OPTION",
-    "src": "/audio/FAILURE'S NO OPTION.mp3"
+    "rawTitle": "FAILURE'S NO OPTION",
+    "src": "/audio/FAILURE'S NO OPTION.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Falling",
-    "src": "/audio/Falling.mp3"
+    "rawTitle": "Falling",
+    "src": "/audio/Falling.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Far Away",
-    "src": "/audio/Far Away.mp3"
+    "rawTitle": "Far Away",
+    "src": "/audio/Far Away.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Flow Most Wanted",
-    "src": "/audio/Flow Most Wanted.mp3"
+    "rawTitle": "Flow Most Wanted",
+    "src": "/audio/Flow Most Wanted.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "From the Heart",
-    "src": "/audio/From the Heart.mp3"
+    "title": "From The Heart",
+    "rawTitle": "From the Heart",
+    "src": "/audio/From the Heart.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Frozen",
-    "src": "/audio/Frozen.mp3"
+    "rawTitle": "Frozen",
+    "src": "/audio/Frozen.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Gamble",
-    "src": "/audio/Gamble.mp3"
+    "rawTitle": "Gamble",
+    "src": "/audio/Gamble.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Get Goin'",
-    "src": "/audio/Get Goin'.mp3"
+    "rawTitle": "Get Goin'",
+    "src": "/audio/Get Goin'.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Ghost Ride",
-    "src": "/audio/Ghost Ride.mp3"
+    "rawTitle": "Ghost Ride",
+    "src": "/audio/Ghost Ride.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Ghosted",
-    "src": "/audio/Ghosted.mp3"
+    "rawTitle": "Ghosted",
+    "src": "/audio/Ghosted.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Goodbyes",
-    "src": "/audio/Goodbyes.mp3"
+    "rawTitle": "Goodbyes",
+    "src": "/audio/Goodbyes.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "GROOVE",
-    "src": "/audio/GROOVE.mp3"
+    "rawTitle": "GROOVE",
+    "src": "/audio/GROOVE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "Higher ceiling",
-    "src": "/audio/Higher ceiling.mp3"
+    "title": "Higher Ceiling",
+    "rawTitle": "Higher ceiling",
+    "src": "/audio/Higher ceiling.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Hitman",
-    "src": "/audio/Hitman.mp3"
+    "rawTitle": "Hitman",
+    "src": "/audio/Hitman.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Hold Me Tight",
-    "src": "/audio/Hold Me Tight.mp3"
+    "rawTitle": "Hold Me Tight",
+    "src": "/audio/Hold Me Tight.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Hold On",
-    "src": "/audio/Hold On.mp3"
+    "rawTitle": "Hold On",
+    "src": "/audio/Hold On.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Interlude",
-    "src": "/audio/Interlude.mp3"
+    "rawTitle": "Interlude",
+    "src": "/audio/Interlude.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Invincible",
-    "src": "/audio/Invincible.mp3"
+    "rawTitle": "Invincible",
+    "src": "/audio/Invincible.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "IT GETS BETTER",
-    "src": "/audio/IT GETS BETTER.mp3"
+    "rawTitle": "IT GETS BETTER",
+    "src": "/audio/IT GETS BETTER.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Jetlag",
-    "src": "/audio/Jetlag.mp3"
+    "rawTitle": "Jetlag",
+    "src": "/audio/Jetlag.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "kami",
-    "src": "/audio/kami.mp3"
+    "title": "Kami",
+    "rawTitle": "kami",
+    "src": "/audio/kami.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "KEEP MY HEAD HIGH",
-    "src": "/audio/KEEP MY HEAD HIGH.mp3"
+    "rawTitle": "KEEP MY HEAD HIGH",
+    "src": "/audio/KEEP MY HEAD HIGH.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Keep Your Head Up",
-    "src": "/audio/Keep Your Head Up.mp3"
+    "rawTitle": "Keep Your Head Up",
+    "src": "/audio/Keep Your Head Up.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Last Night",
-    "src": "/audio/Last Night.mp3"
+    "rawTitle": "Last Night",
+    "src": "/audio/Last Night.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Lately",
-    "src": "/audio/Lately.mp3"
+    "rawTitle": "Lately",
+    "src": "/audio/Lately.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Leave Me Now",
-    "src": "/audio/Leave Me Now.mp3"
+    "rawTitle": "Leave Me Now",
+    "src": "/audio/Leave Me Now.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Life Stylez",
-    "src": "/audio/Life Stylez.mp3"
+    "rawTitle": "Life Stylez",
+    "src": "/audio/Life Stylez.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Lifestyle Gift",
-    "src": "/audio/Lifestyle Gift.mp3"
+    "rawTitle": "Lifestyle Gift",
+    "src": "/audio/Lifestyle Gift.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Long Night",
-    "src": "/audio/Long Night.mp3"
+    "rawTitle": "Long Night",
+    "src": "/audio/Long Night.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Lost Voices",
-    "src": "/audio/Lost Voices.mp3"
+    "rawTitle": "Lost Voices",
+    "src": "/audio/Lost Voices.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "Love in Color",
-    "src": "/audio/Love in Color.mp3"
+    "title": "Love In Color",
+    "rawTitle": "Love in Color",
+    "src": "/audio/Love in Color.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Lover Boy",
-    "src": "/audio/Lover Boy.mp3"
+    "rawTitle": "Lover Boy",
+    "src": "/audio/Lover Boy.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Loving Eye",
-    "src": "/audio/Loving Eye.mp3"
+    "rawTitle": "Loving Eye",
+    "src": "/audio/Loving Eye.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Lowkey Flutey",
-    "src": "/audio/Lowkey Flutey.mp3"
+    "rawTitle": "Lowkey Flutey",
+    "src": "/audio/Lowkey Flutey.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Luna",
-    "src": "/audio/Luna.mp3"
+    "rawTitle": "Luna",
+    "src": "/audio/Luna.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Make Angels Cry",
-    "src": "/audio/Make Angels Cry.mp3"
+    "rawTitle": "Make Angels Cry",
+    "src": "/audio/Make Angels Cry.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Marseille",
-    "src": "/audio/Marseille.mp3"
+    "rawTitle": "Marseille",
+    "src": "/audio/Marseille.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "Message to 25",
-    "src": "/audio/Message to 25.mp3"
+    "title": "Message To 25",
+    "rawTitle": "Message to 25",
+    "src": "/audio/Message to 25.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Mosli",
-    "src": "/audio/Mosli.mp3"
+    "rawTitle": "Mosli",
+    "src": "/audio/Mosli.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "My Dreams",
-    "src": "/audio/My Dreams.mp3"
+    "rawTitle": "My Dreams",
+    "src": "/audio/My Dreams.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Never Let Up",
-    "src": "/audio/Never Let Up.mp3"
+    "rawTitle": "Never Let Up",
+    "src": "/audio/Never Let Up.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "New Creation",
-    "src": "/audio/New Creation.mp3"
+    "rawTitle": "New Creation",
+    "src": "/audio/New Creation.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "No Joke",
-    "src": "/audio/No Joke.mp3"
+    "rawTitle": "No Joke",
+    "src": "/audio/No Joke.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Not Again",
-    "src": "/audio/Not Again.mp3"
+    "rawTitle": "Not Again",
+    "src": "/audio/Not Again.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Nova",
-    "src": "/audio/Nova.mp3"
+    "rawTitle": "Nova",
+    "src": "/audio/Nova.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Numb",
-    "src": "/audio/Numb.mp3"
+    "rawTitle": "Numb",
+    "src": "/audio/Numb.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Off Safety",
-    "src": "/audio/Off Safety.mp3"
+    "rawTitle": "Off Safety",
+    "src": "/audio/Off Safety.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Old Money",
-    "src": "/audio/Old Money.mp3"
+    "rawTitle": "Old Money",
+    "src": "/audio/Old Money.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Olvido",
-    "src": "/audio/Olvido.mp3"
+    "rawTitle": "Olvido",
+    "src": "/audio/Olvido.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "PRBLMS",
-    "src": "/audio/PRBLMS.mp3"
+    "rawTitle": "PRBLMS",
+    "src": "/audio/PRBLMS.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Promises",
-    "src": "/audio/Promises.mp3"
+    "rawTitle": "Promises",
+    "src": "/audio/Promises.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "RAIN ON ME",
-    "src": "/audio/RAIN ON ME.mp3"
+    "rawTitle": "RAIN ON ME",
+    "src": "/audio/RAIN ON ME.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Rainy Days",
-    "src": "/audio/Rainy Days.mp3"
+    "rawTitle": "Rainy Days",
+    "src": "/audio/Rainy Days.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "REAPER",
-    "src": "/audio/REAPER.mp3"
+    "rawTitle": "REAPER",
+    "src": "/audio/REAPER.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Regret",
-    "src": "/audio/Regret.mp3"
+    "rawTitle": "Regret",
+    "src": "/audio/Regret.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Revival",
-    "src": "/audio/Revival.mp3"
+    "rawTitle": "Revival",
+    "src": "/audio/Revival.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Rhyme Adept",
-    "src": "/audio/Rhyme Adept.mp3"
+    "rawTitle": "Rhyme Adept",
+    "src": "/audio/Rhyme Adept.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Rich Spirit",
-    "src": "/audio/Rich Spirit.mp3"
+    "rawTitle": "Rich Spirit",
+    "src": "/audio/Rich Spirit.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Rituals",
-    "src": "/audio/Rituals.mp3"
+    "rawTitle": "Rituals",
+    "src": "/audio/Rituals.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Run It Up",
-    "src": "/audio/Run It Up.mp3"
+    "rawTitle": "Run It Up",
+    "src": "/audio/Run It Up.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Sacrifices",
-    "src": "/audio/Sacrifices.mp3"
+    "rawTitle": "Sacrifices",
+    "src": "/audio/Sacrifices.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Sad Life",
-    "src": "/audio/Sad Life.mp3"
+    "rawTitle": "Sad Life",
+    "src": "/audio/Sad Life.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Screaming",
-    "src": "/audio/Screaming.mp3"
+    "rawTitle": "Screaming",
+    "src": "/audio/Screaming.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Sensation",
-    "src": "/audio/Sensation.mp3"
+    "rawTitle": "Sensation",
+    "src": "/audio/Sensation.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Shifty",
-    "src": "/audio/Shifty.mp3"
+    "rawTitle": "Shifty",
+    "src": "/audio/Shifty.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Shimmer",
-    "src": "/audio/Shimmer.mp3"
+    "rawTitle": "Shimmer",
+    "src": "/audio/Shimmer.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Shoota",
-    "src": "/audio/Shoota.mp3"
+    "rawTitle": "Shoota",
+    "src": "/audio/Shoota.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Slink",
-    "src": "/audio/Slink.mp3"
+    "rawTitle": "Slink",
+    "src": "/audio/Slink.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "SLOW DOWN",
-    "src": "/audio/SLOW DOWN.mp3"
+    "rawTitle": "SLOW DOWN",
+    "src": "/audio/SLOW DOWN.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Smooth",
-    "src": "/audio/Smooth.mp3"
+    "rawTitle": "Smooth",
+    "src": "/audio/Smooth.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "SOLITUDE",
-    "src": "/audio/SOLITUDE.mp3"
+    "rawTitle": "SOLITUDE",
+    "src": "/audio/SOLITUDE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Sonder",
-    "src": "/audio/Sonder.mp3"
+    "rawTitle": "Sonder",
+    "src": "/audio/Sonder.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Sorrow",
-    "src": "/audio/Sorrow.mp3"
+    "rawTitle": "Sorrow",
+    "src": "/audio/Sorrow.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Staying Nowhere",
-    "src": "/audio/Staying Nowhere.mp3"
+    "rawTitle": "Staying Nowhere",
+    "src": "/audio/Staying Nowhere.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Steppin Out",
-    "src": "/audio/Steppin Out.mp3"
+    "rawTitle": "Steppin Out",
+    "src": "/audio/Steppin Out.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Stories Untold",
-    "src": "/audio/Stories Untold.mp3"
+    "rawTitle": "Stories Untold",
+    "src": "/audio/Stories Untold.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Straight Up",
-    "src": "/audio/Straight Up.mp3"
+    "rawTitle": "Straight Up",
+    "src": "/audio/Straight Up.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "THE CHOSEN ONE",
-    "src": "/audio/THE CHOSEN ONE.mp3"
+    "rawTitle": "THE CHOSEN ONE",
+    "src": "/audio/THE CHOSEN ONE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "THE MAN I WANT TO BE",
-    "src": "/audio/THE MAN I WANT TO BE.mp3"
+    "rawTitle": "THE MAN I WANT TO BE",
+    "src": "/audio/THE MAN I WANT TO BE.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "the Mob",
-    "src": "/audio/the Mob.mp3"
+    "title": "The Mob",
+    "rawTitle": "the Mob",
+    "src": "/audio/the Mob.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Trip",
-    "src": "/audio/Trip.mp3"
+    "rawTitle": "Trip",
+    "src": "/audio/Trip.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "Trust my Vision",
-    "src": "/audio/Trust my Vision.mp3"
+    "title": "Trust My Vision",
+    "rawTitle": "Trust my Vision",
+    "src": "/audio/Trust my Vision.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Trust",
-    "src": "/audio/Trust.mp3"
+    "rawTitle": "Trust",
+    "src": "/audio/Trust.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Truth Hurts",
-    "src": "/audio/Truth Hurts.mp3"
+    "rawTitle": "Truth Hurts",
+    "src": "/audio/Truth Hurts.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Truth",
-    "src": "/audio/Truth.mp3"
+    "rawTitle": "Truth",
+    "src": "/audio/Truth.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Tweaked Intellects",
-    "src": "/audio/Tweaked Intellects.mp3"
+    "rawTitle": "Tweaked Intellects",
+    "src": "/audio/Tweaked Intellects.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
-    "title": "United in Grief",
-    "src": "/audio/United in Grief.mp3"
+    "title": "United In Grief",
+    "rawTitle": "United in Grief",
+    "src": "/audio/United in Grief.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Universal",
-    "src": "/audio/Universal.mp3"
+    "rawTitle": "Universal",
+    "src": "/audio/Universal.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Upside Down",
-    "src": "/audio/Upside Down.mp3"
+    "rawTitle": "Upside Down",
+    "src": "/audio/Upside Down.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Vandolizm",
-    "src": "/audio/Vandolizm.mp3"
+    "rawTitle": "Vandolizm",
+    "src": "/audio/Vandolizm.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Visionary",
-    "src": "/audio/Visionary.mp3"
+    "rawTitle": "Visionary",
+    "src": "/audio/Visionary.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "WHITE LIES",
-    "src": "/audio/WHITE LIES.mp3"
+    "rawTitle": "WHITE LIES",
+    "src": "/audio/WHITE LIES.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Wild Child",
-    "src": "/audio/Wild Child.mp3"
+    "rawTitle": "Wild Child",
+    "src": "/audio/Wild Child.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "World Gone Crazy",
-    "src": "/audio/World Gone Crazy.mp3"
+    "rawTitle": "World Gone Crazy",
+    "src": "/audio/World Gone Crazy.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   },
   {
     "title": "Writers Block 3",
-    "src": "/audio/Writers Block 3.mp3"
+    "rawTitle": "Writers Block 3",
+    "src": "/audio/Writers Block 3.mp3",
+    "duration": null,
+    "bpm": null,
+    "mood": null,
+    "tags": []
   }
 ];

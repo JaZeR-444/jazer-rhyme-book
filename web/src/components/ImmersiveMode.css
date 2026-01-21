@@ -263,7 +263,7 @@
   color: rgba(255, 255, 255, 0.95);
   font-size: 1.25rem;
   line-height: 1.8;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: var(--font-sans, sans-serif);
   resize: none;
   outline: none;
   backdrop-filter: blur(10px);
@@ -303,18 +303,6 @@
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 90;
   overflow-y: auto;
-  animation: slideInRight 0.4s ease;
-}
-
-@keyframes slideInRight {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 /* Ambient Glow */
@@ -334,6 +322,23 @@
 @keyframes glowPulse {
   0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
   50% { opacity: 0.5; transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .immersive-mode__scanlines,
+  .immersive-mode__particles,
+  .particle,
+  .vibe-icon,
+  .immersive-mode__glow {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  .control-btn:hover,
+  .vibe-card:hover {
+    transform: none !important;
+  }
 }
 
 /* Responsive */

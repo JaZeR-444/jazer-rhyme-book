@@ -1,11 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
+import { createCompressionPlugin } from 'vite-plugin-compression'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-  plugins: [react()],
-  base: mode === 'production' ? '/jazer-rhyme-book/' : '/',
+  plugins: [
+    react(),
+    mode === 'production' && createCompressionPlugin({
+      ext: '.gz',
+      algorithm: 'gzip',
+      threshold: 1024, // Only compress files larger than 1KB
+      deleteOriginFile: false, // Keep original files too
+    })
+  ].filter(Boolean),
+  // Allow overriding base at deploy time via VITE_BASE (defaults to root)
+  base: process.env.VITE_BASE || '/',
   resolve: {
     alias: {
       // Allow importing from internal public data folders
@@ -35,7 +45,7 @@ export default defineConfig(({ mode }) => ({
     outDir: '../dist',
     emptyOutDir: true,
     // Target modern browsers for better optimization
-    target: 'esnext',
+    target: 'es2018',
     // Increase chunk size warning limit
     chunkSizeWarningLimit: 1000,
     // Enable CSS code splitting
@@ -91,5 +101,11 @@ export default defineConfig(({ mode }) => ({
       'wavesurfer.js',
       'gsap'
     ],
+    // Exclude files using glob patterns with aliases during dep scan
+    exclude: ['@data/**', '@dictionary/**'],
+  },
+  preview: {
+    port: 4173,
+    strictPort: true
   },
 }))

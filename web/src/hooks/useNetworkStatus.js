@@ -15,7 +15,17 @@ export function useNetworkStatus() {
     const { queueLength: length } = offlineManager.getStatus();
     setQueueLength(length);
 
-    return unsubscribe;
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
   }, []);
 
   return {
@@ -27,12 +37,12 @@ export function useNetworkStatus() {
 }
 
 export function NetworkStatusBanner() {
-  const { isOffline, queueLength } = useNetworkStatus();
+  const { isOnline, isOffline, queueLength } = useNetworkStatus();
 
   if (!isOffline && queueLength === 0) return null;
 
   return (
-    <div className="network-status-banner">
+    <div className="network-status-banner" aria-live="polite">
       {isOffline && (
         <div className="network-status-banner__offline">
           <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">

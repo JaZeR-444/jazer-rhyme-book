@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { Card } from '../components/ui';
 import { Database, FileText, Search, Share2, Layers, Cpu, ArrowDown } from 'lucide-react';
 import './Architecture.css';
 
 export function Architecture() {
+  usePageTitle('Architecture');
   const [activeLayer, setActiveLayer] = useState(null);
 
   const layers = [
@@ -54,7 +56,7 @@ export function Architecture() {
   const activeInfo = getActiveInfo();
 
   return (
-    <div className="architecture-page">
+    <div className="architecture-page" role="main" aria-label="Architecture - System schematic and technical overview">
       <div className="architecture-page__header">
         <h1 className="architecture-page__title">System Architecture</h1>
         <p className="architecture-page__subtitle">
@@ -175,3 +177,5 @@ export function Architecture() {
     </div>
   );
 }
+
+export default Architecture;

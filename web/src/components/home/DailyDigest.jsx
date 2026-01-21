@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, Star, TrendingUp, ArrowRight } from 'lucide-react';
 import { Card } from '../ui';
@@ -14,22 +14,10 @@ export function DailyDigest() {
     tag: null
   });
 
-  useEffect(() => {
-    if (!searchIndex || !searchIndex.entities || !searchIndex.words) {
-      return;
-    }
+  // Memoize trending tags to avoid recomputing on every render
+  const trendingTags = useMemo(() => {
+    if (!searchIndex || !searchIndex.entities) return [];
 
-    const today = new Date();
-
-    // Get daily word
-    const dailyWords = getDailyPicks(searchIndex.words, today);
-    const wordOfDay = dailyWords[0];
-
-    // Get daily entity
-    const dailyEntities = getDailyPicks(searchIndex.entities, today);
-    const entityOfDay = dailyEntities[0];
-
-    // Get trending tag (most common tag across all entities)
     const tagCounts = {};
     searchIndex.entities.forEach(entity => {
       if (entity.tags) {
@@ -39,20 +27,36 @@ export function DailyDigest() {
       }
     });
 
-    const sortedTags = Object.entries(tagCounts)
+    return Object.entries(tagCounts)
       .sort((a, b) => b[1] - a[1])
       .slice(0, 5);
+  }, [searchIndex]);
+
+  useEffect(() => {
+    if (!searchIndex || !searchIndex.entities || !searchIndex.words) {
+      return;
+    }
+
+    const today = new Date();
+
+    // Get daily word (deterministic based on date)
+    const dailyWords = getDailyPicks(searchIndex.words, today);
+    const wordOfDay = dailyWords[0];
+
+    // Get daily entity (deterministic based on date)
+    const dailyEntities = getDailyPicks(searchIndex.entities, today);
+    const entityOfDay = dailyEntities[0];
 
     // Pick one of the top 5 tags based on day of week
     const dayOfWeek = today.getDay();
-    const trendingTag = sortedTags.length > 0 ? sortedTags[dayOfWeek % sortedTags.length] : null;
+    const trendingTag = trendingTags.length > 0 ? trendingTags[dayOfWeek % trendingTags.length] : null;
 
     setDailyPicks({
       word: wordOfDay,
       entity: entityOfDay,
       tag: trendingTag ? { name: trendingTag[0], count: trendingTag[1] } : null
     });
-  }, [searchIndex]);
+  }, [searchIndex, trendingTags]);
 
   if (!dailyPicks.word && !dailyPicks.entity) {
     return null;
@@ -69,11 +73,11 @@ export function DailyDigest() {
   };
 
   return (
-    <div className="daily-digest">
+    <section className="daily-digest" aria-labelledby="digest-heading">
       <div className="daily-digest__header">
         <div className="daily-digest__title">
-          <Calendar size={24} />
-          <h2>Daily Digest</h2>
+          <Calendar size={24} aria-hidden="true" />
+          <h2 id="digest-heading">Daily Digest</h2>
         </div>
         <p className="daily-digest__date">{formatDate()}</p>
       </div>
@@ -84,10 +88,11 @@ export function DailyDigest() {
           <Link
             to={`/dictionary/${dailyPicks.word.letter}/${dailyPicks.word.name}`}
             className="digest-card"
+            aria-label={`Word of the Day: ${dailyPicks.word.name}`}
           >
             <Card className="digest-card__content" hover>
               <div className="digest-card__badge">
-                <Star size={16} />
+                <Star size={16} aria-hidden="true" />
                 <span>Word of the Day</span>
               </div>
 
@@ -104,12 +109,12 @@ export function DailyDigest() {
               {dailyPicks.word.syllables && (
                 <div className="digest-card__meta">
                   <span>{dailyPicks.word.syllables} syllables</span>
-                  <span>•</span>
+                  <span aria-hidden="true">•</span>
                   <span>Letter {dailyPicks.word.letter}</span>
                 </div>
               )}
 
-              <div className="digest-card__cta">
+              <div className="digest-card__cta" aria-hidden="true">
                 <span>Explore word</span>
                 <ArrowRight size={16} />
               </div>
@@ -122,10 +127,11 @@ export function DailyDigest() {
           <Link
             to={`/entities/${dailyPicks.entity.domain}/${dailyPicks.entity.id}`}
             className="digest-card"
+            aria-label={`Entity of the Day: ${dailyPicks.entity.name}`}
           >
             <Card className="digest-card__content" hover>
               <div className="digest-card__badge digest-card__badge--secondary">
-                <Star size={16} />
+                <Star size={16} aria-hidden="true" />
                 <span>Entity of the Day</span>
               </div>
 
@@ -143,13 +149,13 @@ export function DailyDigest() {
                 <span>{dailyPicks.entity.domain}</span>
                 {dailyPicks.entity.era && (
                   <>
-                    <span>•</span>
+                    <span aria-hidden="true">•</span>
                     <span>{dailyPicks.entity.era}</span>
                   </>
                 )}
               </div>
 
-              <div className="digest-card__cta">
+              <div className="digest-card__cta" aria-hidden="true">
                 <span>Explore entity</span>
                 <ArrowRight size={16} />
               </div>
@@ -162,10 +168,11 @@ export function DailyDigest() {
           <Link
             to={`/search?tag=${encodeURIComponent(dailyPicks.tag.name)}`}
             className="digest-card"
+            aria-label={`Trending Tag: #${dailyPicks.tag.name}`}
           >
             <Card className="digest-card__content" hover>
               <div className="digest-card__badge digest-card__badge--trending">
-                <TrendingUp size={16} />
+                <TrendingUp size={16} aria-hidden="true" />
                 <span>Trending This Week</span>
               </div>
 
@@ -179,7 +186,7 @@ export function DailyDigest() {
                 <span>{dailyPicks.tag.count} items</span>
               </div>
 
-              <div className="digest-card__cta">
+              <div className="digest-card__cta" aria-hidden="true">
                 <span>Browse tag</span>
                 <ArrowRight size={16} />
               </div>
@@ -187,6 +194,6 @@ export function DailyDigest() {
           </Link>
         )}
       </div>
-    </div>
+    </section>
   );
 }

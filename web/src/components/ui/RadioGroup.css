@@ -111,3 +111,12 @@
     padding: 1rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .radio-group__option,
+  .radio-group__radio,
+  .radio-group__radio-dot {
+    transition: none;
+    animation: none;
+  }
+}

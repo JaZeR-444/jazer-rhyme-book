@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { X, ChevronUp, ChevronDown, Pin, Trash2, ExternalLink, Download, Plus, Edit3, GripVertical, FolderPlus, Network } from 'lucide-react';
-import { useWorkspace } from '../lib/WorkspaceContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
 import { Link } from 'react-router-dom';
 import { Badge } from './ui';
 import { WorkspaceGraph } from './WorkspaceGraph';
@@ -27,6 +27,7 @@ export function WorkspaceDrawer() {
   const [showNewSection, setShowNewSection] = useState(false);
   const [newSectionName, setNewSectionName] = useState('');
   const [showGraph, setShowGraph] = useState(false);
+  const drawerContentId = 'workspace-drawer-content';
 
   if (items.length === 0 && !isOpen) return null;
 
@@ -59,11 +60,28 @@ export function WorkspaceDrawer() {
     }
   };
 
+  const handleClearAll = () => {
+    if (items.length === 0) return;
+    if (window.confirm('Clear all pinned items from the Verse Board?')) {
+      clearWorkspace();
+    }
+  };
+
+  const handleClearSection = (sectionId, sectionName) => {
+    if (window.confirm(`Clear all items in "${sectionName}"?`)) {
+      clearSection(sectionId);
+    }
+  };
+
   return (
     <div className={`workspace-drawer ${isOpen ? 'is-open' : ''}`}>
       <button
         className="workspace-drawer__toggle"
         onClick={toggleWorkspace}
+        aria-label={isOpen ? 'Close Verse Board' : 'Open Verse Board'}
+        aria-expanded={isOpen}
+        aria-controls={drawerContentId}
+        type="button"
       >
         <span className="workspace-drawer__label">
           <Pin size={14} className="workspace-pin-icon" />
@@ -75,7 +93,7 @@ export function WorkspaceDrawer() {
         {isOpen ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
       </button>
 
-      <DropZone className="workspace-drawer__content">
+      <DropZone className="workspace-drawer__content" id={drawerContentId}>
         <div className="workspace-drawer__header">
           <h3>Pinned Items</h3>
           <div className="workspace-drawer__actions">
@@ -84,6 +102,8 @@ export function WorkspaceDrawer() {
               onClick={() => setShowGraph(true)}
               disabled={items.length === 0}
               title="View Relationship Map"
+              aria-label="View relationship map"
+              type="button"
             >
               <Network size={14} />
             </button>
@@ -92,6 +112,8 @@ export function WorkspaceDrawer() {
               onClick={handleExport}
               disabled={items.length === 0}
               title="Export to Markdown"
+              aria-label="Export Verse Board to Markdown"
+              type="button"
             >
               <Download size={14} />
             </button>
@@ -99,13 +121,17 @@ export function WorkspaceDrawer() {
               className="workspace-drawer__action"
               onClick={() => setShowNewSection(!showNewSection)}
               title="Add Section"
+              aria-label="Add section"
+              type="button"
             >
               <FolderPlus size={14} />
             </button>
             <button
               className="workspace-drawer__clear"
-              onClick={clearWorkspace}
+              onClick={handleClearAll}
               disabled={items.length === 0}
+              aria-label="Clear all pinned items"
+              type="button"
             >
               Clear All
             </button>
@@ -122,8 +148,8 @@ export function WorkspaceDrawer() {
               onKeyDown={(e) => e.key === 'Enter' && handleAddSection()}
               autoFocus
             />
-            <button onClick={handleAddSection}>Add</button>
-            <button onClick={() => setShowNewSection(false)}>Cancel</button>
+            <button onClick={handleAddSection} type="button">Add</button>
+            <button onClick={() => setShowNewSection(false)} type="button">Cancel</button>
           </div>
         )}
 
@@ -147,8 +173,10 @@ export function WorkspaceDrawer() {
                     {section.id !== 'general' && (
                       <button
                         className="workspace-section__clear"
-                        onClick={() => clearSection(section.id)}
+                        onClick={() => handleClearSection(section.id, section.name)}
                         title="Clear Section"
+                        aria-label={`Clear ${section.name}`}
+                        type="button"
                       >
                         <Trash2 size={12} />
                       </button>
@@ -177,6 +205,7 @@ export function WorkspaceDrawer() {
                             className="workspace-item__section-select"
                             value={item.sectionId}
                             onChange={(e) => updateItemSection(item.id, item.type, e.target.value)}
+                            aria-label="Move item to section"
                           >
                             {sections.map((s) => (
                               <option key={s.id} value={s.id}>{s.name}</option>
@@ -192,8 +221,8 @@ export function WorkspaceDrawer() {
                                 placeholder="Add notes..."
                                 autoFocus
                               />
-                              <button onClick={() => saveNotes(item.id, item.type)}>Save</button>
-                              <button onClick={() => setEditingNotes(null)}>Cancel</button>
+                              <button onClick={() => saveNotes(item.id, item.type)} type="button">Save</button>
+                              <button onClick={() => setEditingNotes(null)} type="button">Cancel</button>
                             </div>
                           ) : (
                             <div className="workspace-item__notes">
@@ -203,6 +232,8 @@ export function WorkspaceDrawer() {
                                 <button
                                   className="workspace-item__add-notes"
                                   onClick={() => startEditingNotes(item)}
+                                  aria-label={`Add notes for ${item.title}`}
+                                  type="button"
                                 >
                                   <Plus size={12} /> Add notes
                                 </button>
@@ -211,13 +242,15 @@ export function WorkspaceDrawer() {
                           )}
                         </div>
                         <div className="workspace-item__actions">
-                          <Link to={item.link} className="workspace-action" title="View Details">
+                          <Link to={item.link} className="workspace-action" title="View Details" aria-label={`View ${item.title}`}>
                             <ExternalLink size={14} />
                           </Link>
                           <button
                             className="workspace-action"
                             onClick={() => startEditingNotes(item)}
                             title="Edit Notes"
+                            aria-label={`Edit notes for ${item.title}`}
+                            type="button"
                           >
                             <Edit3 size={14} />
                           </button>
@@ -225,6 +258,8 @@ export function WorkspaceDrawer() {
                             className="workspace-action workspace-action--danger"
                             onClick={() => removeItem(item.id, item.type)}
                             title="Remove Pin"
+                            aria-label={`Remove ${item.title} from Verse Board`}
+                            type="button"
                           >
                             <X size={14} />
                           </button>

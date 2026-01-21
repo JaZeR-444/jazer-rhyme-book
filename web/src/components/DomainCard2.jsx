@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { Database, Sparkles, Tag, Image as ImageIcon } from 'lucide-react';
 import { HoverCard, HoverCardOverlay } from './interactions';
 import { useState } from 'react';
@@ -258,5 +259,21 @@ export function DomainCard2({
     </HoverCard>
   );
 }
+
+DomainCard2.propTypes = {
+  domain: PropTypes.string.isRequired,
+  metadata: PropTypes.shape({
+    category: PropTypes.string,
+    description: PropTypes.string
+  }),
+  stats: PropTypes.object,
+  showPreview: PropTypes.bool
+};
+
+DomainCard2.defaultProps = {
+  metadata: {},
+  stats: {},
+  showPreview: true
+};
 
 export { DOMAIN_MEDIA, DOMAIN_ICONS };

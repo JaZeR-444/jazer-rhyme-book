@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
-import { X, Maximize2, Minimize2, Music, Lightbulb, Sparkles } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import PropTypes from 'prop-types';
+import { X, Maximize2, Music, Lightbulb, Sparkles } from 'lucide-react';
 import { StudioPlayer } from './StudioPlayer';
 import { GhostModule } from './GhostModule';
 import './ImmersiveMode.css';
@@ -53,6 +54,16 @@ export function ImmersiveMode({
   const [showVibeSelector, setShowVibeSelector] = useState(false);
   const [scanlineActive, setScanlineActive] = useState(true);
 
+  // Memoize particle positions to avoid visual jitter on re-renders
+  const particles = useMemo(() => {
+    return [...Array(20)].map((_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}%`,
+      delay: `${Math.random() * 10}s`,
+      duration: `${10 + Math.random() * 20}s`
+    }));
+  }, []);
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -63,6 +74,21 @@ export function ImmersiveMode({
       document.body.style.overflow = '';
     };
   }, [isOpen]);
+
+  // Handle keyboard shortcuts
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') onClose();
+      if (e.ctrlKey && e.key === 'm') setShowPlayer(prev => !prev);
+      if (e.ctrlKey && e.key === 'g') setShowGhost(prev => !prev);
+      if (e.ctrlKey && e.key === 'v') setShowVibeSelector(prev => !prev);
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -75,20 +101,23 @@ export function ImmersiveMode({
         background: vibe.background,
         '--accent-color': vibe.accent 
       }}
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Immersive Writing Mode: ${vibe.name}`}
     >
       {/* Animated Scanlines */}
-      {scanlineActive && <div className="immersive-mode__scanlines" />}
+      {scanlineActive && <div className="immersive-mode__scanlines" aria-hidden="true" />}
 
       {/* Floating Particles */}
-      <div className="immersive-mode__particles">
-        {[...Array(20)].map((_, i) => (
+      <div className="immersive-mode__particles" aria-hidden="true">
+        {particles.map((p) => (
           <div 
-            key={i} 
+            key={p.id} 
             className="particle" 
             style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 10}s`,
-              animationDuration: `${10 + Math.random() * 20}s`
+              left: p.left,
+              animationDelay: p.delay,
+              animationDuration: p.duration
             }}
           />
         ))}
@@ -97,7 +126,7 @@ export function ImmersiveMode({
       {/* Top Control Bar */}
       <div className="immersive-mode__topbar">
         <div className="immersive-mode__vibe-indicator">
-          <span className="vibe-icon">{vibe.icon}</span>
+          <span className="vibe-icon" aria-hidden="true">{vibe.icon}</span>
           <span className="vibe-name">{vibe.name}</span>
         </div>
 
@@ -105,41 +134,50 @@ export function ImmersiveMode({
           <button 
             className={`control-btn ${showVibeSelector ? 'active' : ''}`}
             onClick={() => setShowVibeSelector(!showVibeSelector)}
-            title="Change Vibe"
+            title="Change Vibe (Ctrl+V)"
+            aria-label="Change Vibe"
+            aria-pressed={showVibeSelector}
           >
-            <Lightbulb size={18} />
+            <Lightbulb size={18} aria-hidden="true" />
           </button>
           
           <button 
             className={`control-btn ${showPlayer ? 'active' : ''}`}
             onClick={() => setShowPlayer(!showPlayer)}
-            title="Toggle Music"
+            title="Toggle Music (Ctrl+M)"
+            aria-label="Toggle Music"
+            aria-pressed={showPlayer}
           >
-            <Music size={18} />
+            <Music size={18} aria-hidden="true" />
           </button>
 
           <button 
             className={`control-btn ${showGhost ? 'active' : ''}`}
             onClick={() => setShowGhost(!showGhost)}
-            title="Toggle Ghost Assistant"
+            title="Toggle Ghost Assistant (Ctrl+G)"
+            aria-label="Toggle Ghost Assistant"
+            aria-pressed={showGhost}
           >
-            <Sparkles size={18} />
+            <Sparkles size={18} aria-hidden="true" />
           </button>
 
           <button 
             className={`control-btn ${scanlineActive ? 'active' : ''}`}
             onClick={() => setScanlineActive(!scanlineActive)}
             title="Toggle Scanlines"
+            aria-label="Toggle Scanlines"
+            aria-pressed={scanlineActive}
           >
-            <Maximize2 size={18} />
+            <Maximize2 size={18} aria-hidden="true" />
           </button>
 
           <button 
             className="control-btn close-btn"
             onClick={onClose}
-            title="Exit Immersive Mode"
+            title="Exit Immersive Mode (Esc)"
+            aria-label="Exit Immersive Mode"
           >
-            <X size={20} />
+            <X size={20} aria-hidden="true" />
           </button>
         </div>
       </div>
@@ -148,10 +186,12 @@ export function ImmersiveMode({
       {showVibeSelector && (
         <div className="immersive-mode__vibe-panel glass-dark">
           <h3>Select Your Vibe</h3>
-          <div className="vibe-grid">
+          <div className="vibe-grid" role="radiogroup">
             {Object.entries(VIBE_PRESETS).map(([key, preset]) => (
               <button
                 key={key}
+                role="radio"
+                aria-checked={currentVibe === key}
                 className={`vibe-card ${currentVibe === key ? 'active' : ''}`}
                 onClick={() => {
                   setCurrentVibe(key);
@@ -159,7 +199,7 @@ export function ImmersiveMode({
                 }}
                 style={{ background: preset.background }}
               >
-                <span className="vibe-card__icon">{preset.icon}</span>
+                <span className="vibe-card__icon" aria-hidden="true">{preset.icon}</span>
                 <span className="vibe-card__name">{preset.name}</span>
               </button>
             ))}
@@ -176,6 +216,7 @@ export function ImmersiveMode({
           placeholder="Let your creativity flow..."
           autoFocus
           spellCheck="true"
+          aria-label="Lyrics editor"
         />
       </div>
 
@@ -206,7 +247,21 @@ export function ImmersiveMode({
           boxShadow: `0 0 200px 100px ${vibe.accent}33`,
           background: `radial-gradient(circle at 50% 50%, ${vibe.accent}15, transparent 70%)`
         }}
+        aria-hidden="true"
       />
     </div>
   );
 }
+
+ImmersiveMode.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  writingText: PropTypes.string,
+  onTextChange: PropTypes.func.isRequired,
+  currentLine: PropTypes.string,
+  currentWord: PropTypes.string,
+  dictionaryIndex: PropTypes.shape({
+    words: PropTypes.array
+  }),
+  onInsertRhyme: PropTypes.func.isRequired
+};

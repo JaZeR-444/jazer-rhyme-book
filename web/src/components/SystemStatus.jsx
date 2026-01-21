@@ -21,7 +21,7 @@ export function SystemStatus() {
       const minutes = Math.floor((uptimeMs % 3600000) / 60000).toString().padStart(2, '0');
       const seconds = Math.floor((uptimeMs % 60000) / 1000).toString().padStart(2, '0');
 
-      // Simulate fluctuating metrics
+      // These are simulated/estimated for UI flavor
       setMetrics(prev => ({
         ping: Math.floor(10 + Math.random() * 15),
         uptime: `${hours}:${minutes}:${seconds}`,
@@ -36,42 +36,42 @@ export function SystemStatus() {
   }, []);
 
   return (
-    <div className="system-status">
+    <div className="system-status" role="status" aria-live="off" title="System Performance (Estimated)">
       <div className="system-status__group">
-        <Activity size={12} className="system-status__icon pulse" />
+        <Activity size={12} className="system-status__icon pulse" aria-hidden="true" />
         <span className="system-status__label">EST_LATENCY:</span>
         <span className="system-status__value">{metrics.ping}ms</span>
       </div>
 
-      <div className="system-status__separator">|</div>
+      <div className="system-status__separator" aria-hidden="true">|</div>
 
       <div className="system-status__group">
-        <Wifi size={12} className="system-status__icon" />
+        <Wifi size={12} className="system-status__icon" aria-hidden="true" />
         <span className="system-status__label">NET_STATUS:</span>
-        <span className="system-status__value text-success">CONNECTED</span>
+        <span className="system-status__value text-success">SECURE</span>
       </div>
 
-      <div className="system-status__separator">|</div>
+      <div className="system-status__separator" aria-hidden="true">|</div>
 
       <div className="system-status__group">
-        <Cpu size={12} className="system-status__icon" />
-        <span className="system-status__label">MEM_USAGE:</span>
+        <Cpu size={12} className="system-status__icon" aria-hidden="true" />
+        <span className="system-status__label">MEM_EST:</span>
         <span className="system-status__value">{metrics.memory}</span>
       </div>
 
-      <div className="system-status__separator">|</div>
+      <div className="system-status__separator" aria-hidden="true">|</div>
 
       <div className="system-status__group">
-        <span className="system-status__label">UPTIME:</span>
+        <span className="system-status__label">SESSION_TIME:</span>
         <span className="system-status__value">{metrics.uptime}</span>
       </div>
 
-      <div className="system-status__separator">|</div>
+      <div className="system-status__separator" aria-hidden="true">|</div>
 
       <div className="system-status__group">
-        <Clock size={12} className="system-status__icon" />
+        <Clock size={12} className="system-status__icon" aria-hidden="true" />
         <span className="system-status__value">
-          {time.toLocaleTimeString('en-US', { hour12: false })} UTC
+          {time.toLocaleTimeString()}
         </span>
       </div>
     </div>

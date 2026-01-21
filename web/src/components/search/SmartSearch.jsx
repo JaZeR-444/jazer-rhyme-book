@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import { Search, X, Loader2, TrendingUp, Clock, Hash, Sparkles } from 'lucide-react';
 import { useDomains, useDictionaryIndex } from '../../lib/hooks';
-import { useWorkspace } from '../../lib/WorkspaceContext';
+import { useWorkspace } from '../../contexts/WorkspaceContext';
 import { Card, CardBody } from '../ui/Card';
 import './SmartSearch.css';
 
@@ -22,9 +23,13 @@ const SmartSearch = ({ onSelect, placeholder = "Search words, domains, entities.
 
   // Load all entities from knowledge-hub
   useEffect(() => {
+    const controller = new AbortController();
+    
     const loadEntities = async () => {
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/knowledge-hub.json`);
+        const response = await fetch(`${import.meta.env.BASE_URL}data/knowledge-hub.json`, {
+          signal: controller.signal
+        });
         if (response.ok) {
           const data = await response.json();
           const entities = [];
@@ -42,10 +47,16 @@ const SmartSearch = ({ onSelect, placeholder = "Search words, domains, entities.
           setAllEntities(entities);
         }
       } catch (error) {
-        console.warn('Failed to load entities:', error);
+        if (error.name !== 'AbortError') {
+          if (import.meta.env.DEV) {
+            console.warn('Failed to load entities:', error);
+          }
+        }
       }
     };
     loadEntities();
+    
+    return () => controller.abort();
   }, []);
 
   // Levenshtein distance for "Did you mean?" suggestions
@@ -140,7 +151,10 @@ const SmartSearch = ({ onSelect, placeholder = "Search words, domains, entities.
       setResults(searchResults);
       setSuggestions(generateSuggestions(searchQuery, searchResults));
     } catch (error) {
-      console.error('Search error:', error);
+      if (import.meta.env.DEV) {
+        console.error('Search error:', error);
+      }
+      setResults({ words: [], entities: [], domains: [] });
     } finally {
       setLoading(false);
     }
@@ -418,6 +432,11 @@ const SmartSearch = ({ onSelect, placeholder = "Search words, domains, entities.
       )}
     </div>
   );
+};
+
+SmartSearch.propTypes = {
+  onSelect: PropTypes.func,
+  placeholder: PropTypes.string
 };
 
 export default SmartSearch;

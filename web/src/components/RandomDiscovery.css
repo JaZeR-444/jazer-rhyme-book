@@ -3,7 +3,7 @@
   align-items: center;
   gap: var(--space-sm);
   padding: var(--space-md) var(--space-lg);
-  background: var(--gradient-primary);
+  background: var(--brand-gradient, linear-gradient(135deg, #8b5cf6 0%, #00ced1 100%));
   color: white;
   border: none;
   border-radius: 12px;
@@ -60,4 +60,19 @@
 
 .refresh-icon {
   transition: transform var(--duration-short);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .random-discovery,
+  .random-discovery::before,
+  .refresh-icon {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+  
+  .random-discovery:hover {
+    transform: none !important;
+  }
 }

@@ -1,22 +1,20 @@
 import { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import { 
-  Mic2, 
   Music, 
   Play, 
   Pause, 
   Volume2, 
-  Zap, 
-  Activity,
-  Layers
+  Zap
 } from 'lucide-react';
-import { getRhymeScheme, findRhymes, countSyllables as getSyllableCount } from '../lib/rhymeFinder';
+import { findRhymes, countSyllables as getSyllableCount } from '../lib/rhymeFinder';
 import './GhostModule.css';
 
 export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInsertRhyme }) {
   // --- Beat Player State ---
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
-  const audioRef = useRef(new Audio('/beats/lofi-loop.mp3')); // Placeholder path
+  const audioRef = useRef(new Audio('/audio/lofi-loop.mp3')); // Using /audio/ path which seems to exist
 
   // --- Rhyme Engine State ---
   const [rhymes, setRhymes] = useState({ perfect: [], near: [], assonance: [] });
@@ -31,12 +29,10 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
       setSyllableCount(0);
       return;
     }
-    // Simple word-based syllable counting for now
-    // Ideally we sum up syllables of each word
     const words = currentLine.trim().split(/\s+/);
     let count = 0;
     words.forEach(w => {
-      count += getSyllableCount(w); // ensure this function is exported from rhymeFinder
+      count += getSyllableCount(w);
     });
     setSyllableCount(count);
   }, [currentLine]);
@@ -52,10 +48,6 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
 
     setIsSearching(true);
     const timer = setTimeout(() => {
-      // Find rhymes
-      // We pass the entire dictionary word list
-      // Note: dictionaryIndex.words might be huge, so we should rely on findRhymes optimization
-      // Or pass a smaller set if possible. For now we assume typical dictionary size is OK for JS VM
       const results = findRhymes(currentWord, dictionaryIndex.words.map(w => w.name), {
         maxResults: 30,
         perfectOnly: false
@@ -63,7 +55,7 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
       
       setRhymes(results);
       setIsSearching(false);
-    }, 400); // 400ms debounce
+    }, 400);
 
     return () => clearTimeout(timer);
   }, [currentWord, dictionaryIndex]);
@@ -74,7 +66,6 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
     audio.loop = true;
     audio.volume = volume;
     
-    // Cleanup
     return () => {
       audio.pause();
     };
@@ -90,29 +81,38 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
     if (isPlaying) {
       audioRef.current.pause();
     } else {
-      // In a real app, we'd handle loading user beats here
-      // For now, let's assume a default beat or just fail gracefully without crashing
       audioRef.current.play().catch(e => console.log("Audio play failed (maybe no source):", e));
     }
     setIsPlaying(!isPlaying);
   };
 
+  // Deterministic bar height based on index to avoid jitter
+  const getBarHeight = (i) => {
+    const pattern = [60, 40, 80, 50, 70, 30, 90, 45, 65, 55, 75, 35, 85, 40, 60, 50];
+    return pattern[i % pattern.length];
+  };
+
   return (
-    <div className="ghost-module glass-panel">
+    <div className="ghost-module glass-panel" role="complementary" aria-label="Ghost Assistant">
       <div className="ghost-module__header">
-        <Zap size={16} /> Ghost Assistant
+        <Zap size={16} aria-hidden="true" /> Ghost Assistant
       </div>
 
       {/* Syllable Counter */}
       <div className="ghost-syllables">
         <div className="syllable-count-display">
-          <span className="syllable-number">{syllableCount}</span>
-          <span className="syllable-label">Syllables (Line)</span>
+          <span className="syllable-number" aria-label={`${syllableCount} syllables in current line`}>
+            {syllableCount}
+          </span>
+          <span className="syllable-label">Syllables</span>
         </div>
-        <div className="syllable-history">
-          {/* Visual bar visualization could go here */}
-          {[...Array(Math.min(syllableCount, 16))].map((_, i) => (
-             <div key={i} className="syllable-bar active" style={{ height: `${Math.random() * 60 + 40}%` }}></div>
+        <div className="syllable-history" aria-hidden="true">
+          {[...Array(16)].map((_, i) => (
+             <div 
+               key={i} 
+               className={`syllable-bar ${i < syllableCount ? 'active' : ''}`} 
+               style={{ height: `${getBarHeight(i)}%` }}
+             ></div>
           ))}
         </div>
       </div>
@@ -136,10 +136,15 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
                   <h4>Perfect</h4>
                   <div className="rhyme-chips">
                     {rhymes.perfect.map(r => (
-                      <div key={r.word} className="rhyme-chip" onClick={() => onInsertRhyme(r.word)}>
+                      <button 
+                        key={r.word} 
+                        className="rhyme-chip" 
+                        onClick={() => onInsertRhyme(r.word)}
+                        aria-label={`Insert ${r.word}, ${r.syllables} syllables`}
+                      >
                         {r.word}
                         <span className="syllable-dot">• {r.syllables}</span>
-                      </div>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -150,9 +155,14 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
                   <h4>Near</h4>
                   <div className="rhyme-chips">
                     {rhymes.near.map(r => (
-                      <div key={r.word} className="rhyme-chip" onClick={() => onInsertRhyme(r.word)}>
+                      <button 
+                        key={r.word} 
+                        className="rhyme-chip" 
+                        onClick={() => onInsertRhyme(r.word)}
+                        aria-label={`Insert ${r.word}`}
+                      >
                         {r.word}
-                      </div>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -169,18 +179,19 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
       {/* Beat Player */}
       <div className="ghost-beat-player">
          <div className="beat-controls">
-           <button className="beat-btn" title="Upload Beat (Simulated)">
-             <Music size={16} />
+           <button className="beat-btn" aria-label="Beat options" title="Beat options">
+             <Music size={16} aria-hidden="true" />
            </button>
            <button 
              className={`beat-btn beat-btn--large ${isPlaying ? 'is-playing' : ''}`}
              onClick={togglePlay}
+             aria-label={isPlaying ? "Pause beat" : "Play beat"}
            >
-             {isPlaying ? <Pause size={24} /> : <Play size={24} className="ml-1" />}
+             {isPlaying ? <Pause size={24} aria-hidden="true" /> : <Play size={24} className="ml-1" aria-hidden="true" />}
            </button>
-           <div className="beat-volume relative group">
-             <button className="beat-btn">
-               <Volume2 size={16} />
+           <div className="beat-volume">
+             <button className="beat-btn" aria-label="Volume">
+               <Volume2 size={16} aria-hidden="true" />
              </button>
            </div>
          </div>
@@ -192,11 +203,23 @@ export function GhostModule({ currentLine, currentWord, dictionaryIndex, onInser
            value={volume}
            onChange={(e) => setVolume(parseFloat(e.target.value))}
            className="volume-slider" 
+           aria-label="Volume control"
          />
-         <div className="beat-upload-label">
+         <div className="beat-upload-label" aria-hidden="true">
            Default Low-Fi Loop
          </div>
       </div>
     </div>
   );
 }
+
+GhostModule.propTypes = {
+  currentLine: PropTypes.string,
+  currentWord: PropTypes.string,
+  dictionaryIndex: PropTypes.shape({
+    words: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string.isRequired
+    }))
+  }),
+  onInsertRhyme: PropTypes.func.isRequired
+};

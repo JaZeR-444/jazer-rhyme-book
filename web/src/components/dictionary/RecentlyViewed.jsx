@@ -4,7 +4,7 @@
  */
 import { Link } from 'react-router-dom';
 import { Clock, ArrowRight } from 'lucide-react';
-import { useBrowsingHistory } from '../../lib/BrowsingHistoryContext';
+import { useBrowsingHistory } from '../../contexts/BrowsingHistoryContext';
 import './RecentlyViewed.css';
 
 export function RecentlyViewed({ limit = 10 }) {

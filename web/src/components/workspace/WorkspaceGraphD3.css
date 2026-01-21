@@ -85,6 +85,14 @@
   color: var(--text-secondary, hsl(240, 10%, 60%));
   cursor: pointer;
   transition: all var(--duration-short, 300ms);
+  outline: none;
+}
+
+.workspace-graph-d3-controls button:focus-visible {
+  outline: 2px solid var(--accent-neon, hsl(180, 100%, 50%));
+  outline-offset: 2px;
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+  background: hsla(180, 100%, 50%, 0.1);
 }
 
 .workspace-graph-d3-controls button:hover {
@@ -105,6 +113,14 @@
   color: var(--text-secondary, hsl(240, 10%, 60%));
   cursor: pointer;
   transition: all var(--duration-short, 300ms);
+  outline: none;
+}
+
+.workspace-graph-d3-close:focus-visible {
+  outline: 2px solid hsl(0, 100%, 50%);
+  outline-offset: 2px;
+  border-color: hsl(0, 100%, 50%);
+  background: hsla(0, 100%, 50%, 0.1);
 }
 
 .workspace-graph-d3-close:hover {

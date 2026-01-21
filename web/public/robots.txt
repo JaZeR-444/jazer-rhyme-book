@@ -1,0 +1,15 @@
+# JaZeR Rhyme Book - Robots.txt
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
+
+# Disallow admin/internal paths (if any in future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap location (generate with build process)
+Sitemap: https://jazer-444.github.io/jazer-rhyme-book/sitemap.xml

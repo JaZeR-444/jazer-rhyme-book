@@ -5,6 +5,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { BarChart3, TrendingUp, Award, Clock } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { analytics } from '../lib/analytics';
 import ActivityCalendar from '../components/stats/ActivityCalendar';
 import DomainChart from '../components/stats/DomainChart';
@@ -12,6 +13,7 @@ import ShareCard from '../components/stats/ShareCard';
 import './Stats.css';
 
 export default function Stats() {
+  usePageTitle('Statistics');
   const [stats, setStats] = useState(null);
   const [activityData, setActivityData] = useState({});
   const [domainData, setDomainData] = useState([]);
@@ -45,7 +47,7 @@ export default function Stats() {
   }
 
   return (
-    <div className="stats-page">
+    <div className="stats-page" role="main" aria-label="Statistics - View your activity and analytics">
       <header className="stats-page__header">
         <div className="stats-page__header-content">
           <h1 className="stats-page__title">Your Statistics</h1>

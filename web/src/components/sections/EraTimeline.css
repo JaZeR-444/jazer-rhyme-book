@@ -123,3 +123,29 @@
 .project-title {
   font-weight: var(--weight-medium);
 }
+
+@media (max-width: 768px) {
+  .era-nav {
+    position: sticky;
+    top: auto;
+    bottom: var(--space-md);
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    flex-direction: row;
+    padding: 6px 10px;
+    background: var(--overlay-glass, hsla(240, 15%, 16%, 0.6));
+    border: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+    border-radius: 999px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .era-dot {
+    transition: none;
+  }
+
+  .era-dot:hover {
+    transform: none;
+  }
+}

@@ -99,3 +99,24 @@
     padding: 1.1rem 2.2rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .touch-friendly-btn {
+    transition: none;
+  }
+
+  .touch-friendly-btn:active {
+    transform: none;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .touch-friendly-btn {
+    transition: none !important;
+  }
+
+  .touch-friendly-btn:active {
+    transform: none !important;
+  }
+}

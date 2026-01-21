@@ -2,12 +2,12 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: var(--bg-secondary, #1a1a1a);
-  border: 2px solid var(--accent, #6366f1);
+  background: var(--surface-1, #1a1a1a);
+  border: 2px solid var(--accent-primary, #8b5cf6);
   border-radius: 12px;
   padding: 1.5rem;
   max-width: 400px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px var(--accent-primary-glow, rgba(139, 92, 246, 0.3));
   z-index: 10000;
   animation: slideIn 0.3s ease-out;
 }
@@ -47,11 +47,11 @@
   justify-content: center;
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, var(--accent, #6366f1) 0%, #8b5cf6 100%);
+  background: var(--brand-gradient, linear-gradient(135deg, #8b5cf6 0%, #00ced1 100%));
   border-radius: 16px;
   margin: 0 auto 1rem;
   color: white;
-  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 8px 24px var(--accent-primary-glow, rgba(139, 92, 246, 0.4));
 }
 
 .prompt-content {
@@ -88,7 +88,7 @@
 }
 
 .ios-instructions {
-  background: rgba(99, 102, 241, 0.1);
+  background: var(--accent-primary-glow, rgba(139, 92, 246, 0.1));
   border-radius: 8px;
   padding: 1rem;
   text-align: left;
@@ -98,7 +98,7 @@
   margin: 0 0 0.75rem 0;
   font-size: 0.875rem;
   font-weight: 600;
-  color: var(--accent, #6366f1);
+  color: var(--accent-primary, #8b5cf6);
 }
 
 .ios-instructions ol {
@@ -134,24 +134,35 @@
 
 .btn-secondary {
   background: transparent;
-  border: 1px solid var(--border-color, #333);
+  border: 1px solid var(--border-visible, rgba(255, 255, 255, 0.1));
   color: var(--text-secondary, #999);
 }
 
 .btn-secondary:hover {
-  border-color: var(--accent, #6366f1);
-  color: var(--accent, #6366f1);
+  border-color: var(--accent-primary, #8b5cf6);
+  color: var(--accent-primary, #8b5cf6);
 }
 
 .btn-primary {
-  background: var(--accent, #6366f1);
+  background: var(--accent-primary, #8b5cf6);
   border: none;
   color: white;
 }
 
 .btn-primary:hover {
-  background: var(--accent-hover, #4f46e5);
+  background: var(--accent-secondary, #00ced1);
   transform: translateY(-2px);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .install-prompt {
+    animation: none !important;
+  }
+  
+  .btn-primary:hover {
+    transform: none !important;
+  }
 }
 
 @media (max-width: 768px) {

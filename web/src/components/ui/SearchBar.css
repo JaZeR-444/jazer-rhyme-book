@@ -84,3 +84,12 @@
   background: var(--surface-3);
   color: var(--accent-secondary);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .search-bar,
+  .search-bar__icon,
+  .search-bar__clear,
+  .search-bar::after {
+    transition: none;
+  }
+}

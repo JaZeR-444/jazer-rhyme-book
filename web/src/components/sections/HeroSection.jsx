@@ -26,6 +26,10 @@ export function HeroSection({ id }) {
   const scrollIndicatorRef = useRef(null);
   
   useGSAPContext(() => {
+    const reduceMotion = typeof window !== 'undefined' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) return;
+
     const tl = gsap.timeline({ defaults: { ease: easing.dramatic } });
     
     // Logo entrance

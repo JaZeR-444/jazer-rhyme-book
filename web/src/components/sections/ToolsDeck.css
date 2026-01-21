@@ -85,3 +85,13 @@
   padding-top: var(--space-xs);
   border-top: 1px solid var(--border-subtle);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .tool-card {
+    transition: none;
+  }
+
+  .tool-card:hover {
+    transform: none;
+  }
+}

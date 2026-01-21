@@ -10,6 +10,7 @@ export const SwipeableCard = ({
   onSwipeDown,
   threshold = 100,
   className = "",
+  ariaLabel,
   ...props 
 }) => {
   const [isDragging, setIsDragging] = useState(false);
@@ -50,6 +51,8 @@ export const SwipeableCard = ({
       onDragEnd={handleDragEnd}
       style={{ x, y, rotate, opacity }}
       whileTap={{ scale: 0.98 }}
+      role="group"
+      aria-label={ariaLabel || "Swipeable card"}
       {...props}
     >
       {children}

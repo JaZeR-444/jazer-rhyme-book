@@ -24,6 +24,102 @@
 
 .content-page__content {
   padding: var(--space-xl);
+  color: var(--text-primary);
+  line-height: var(--leading-relaxed);
+}
+
+.content-page__content h1,
+.content-page__content h2,
+.content-page__content h3,
+.content-page__content h4,
+.content-page__content h5,
+.content-page__content h6 {
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+}
+
+.content-page__content h1:first-child,
+.content-page__content h2:first-child,
+.content-page__content h3:first-child {
+  margin-top: 0;
+}
+
+.content-page__content h1 { font-size: var(--text-h1); }
+.content-page__content h2 { font-size: var(--text-h2); color: var(--accent-secondary); }
+.content-page__content h3 { font-size: var(--text-h3); color: var(--accent-secondary); }
+.content-page__content h4 { font-size: var(--text-body); color: var(--text-primary); }
+
+.content-page__content p {
+  margin-bottom: var(--space-md);
+  color: var(--text-secondary);
+}
+
+.content-page__content a {
+  color: var(--accent-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all var(--duration-micro) var(--ease-out);
+}
+
+.content-page__content a:hover {
+  border-bottom-color: var(--accent-secondary);
+  color: var(--accent-neon);
+}
+
+.content-page__content ul,
+.content-page__content ol {
+  margin-bottom: var(--space-md);
+  padding-left: var(--space-lg);
+}
+
+.content-page__content li {
+  margin-bottom: var(--space-sm);
+}
+
+.content-page__content blockquote {
+  margin: var(--space-lg) 0;
+  padding: var(--space-lg);
+  border-radius: 12px;
+  background: var(--surface-2);
+  border-left: 4px solid var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.content-page__content code {
+  background: var(--surface-2);
+  color: var(--accent-warm);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  border: 1px solid var(--border-subtle);
+}
+
+.content-page__content pre {
+  margin: var(--space-lg) 0;
+  border-radius: 12px;
+  overflow-x: auto;
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+}
+
+.content-page__content pre code {
+  background: transparent;
+  padding: var(--space-md);
+  display: block;
+  color: var(--text-primary);
+  border: none;
+}
+
+.content-page__content hr {
+  border: none;
+  height: 2px;
+  background: var(--brand-gradient);
+  margin: var(--space-xl) 0;
+  border-radius: 2px;
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {

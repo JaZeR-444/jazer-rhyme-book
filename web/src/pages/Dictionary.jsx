@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { usePageTitle } from '../lib/usePageTitle';
 import { BookOpen, Heart, Filter, Sparkles, RefreshCw } from 'lucide-react';
 import { LoadingState, EmptyState } from '../components/ui';
 import { Autocomplete } from '../components/ui/Autocomplete';
@@ -8,11 +9,12 @@ import { RecentlyViewed } from '../components/dictionary/RecentlyViewed';
 import { WordOfDay } from '../components/dictionary/WordOfDay';
 import { ContextualSuggestions } from '../components/dictionary/ContextualSuggestions';
 import { useDictionaryLetters, useSearchIndex } from '../lib/hooks';
-import { useFavorites } from '../lib/FavoritesContext';
-import { getRhymeScheme } from '../lib/rhymeFinder';
+import { useFavorites } from '../contexts/FavoritesContext';
+import { analyzeDictionarySearch } from '../lib/analyzeDictionarySearch';
 import './Dictionary.css';
 
 export function Dictionary() {
+  usePageTitle('Dictionary');
   const navigate = useNavigate();
   const { letters, loading, error } = useDictionaryLetters();
   const { favoritesCount } = useFavorites();
@@ -22,6 +24,8 @@ export function Dictionary() {
   const [semanticResults, setSemanticResults] = useState([]);
   const [syllableFilter, setSyllableFilter] = useState(null); // null, '1', '2', '3+'
   const [isSpinning, setIsSpinning] = useState(false);
+
+  const [lastSurpriseIndex, setLastSurpriseIndex] = useState(null);
 
   // Debounced search handler
   useEffect(() => {
@@ -52,7 +56,16 @@ export function Dictionary() {
     setIsSpinning(true);
 
     setTimeout(() => {
-      const randomIndex = Math.floor(Math.random() * searchIndex.words.length);
+      let randomIndex;
+      let attempts = 0;
+      
+      // Try to find a new word different from the last one
+      do {
+        randomIndex = Math.floor(Math.random() * searchIndex.words.length);
+        attempts++;
+      } while (randomIndex === lastSurpriseIndex && attempts < 5);
+
+      setLastSurpriseIndex(randomIndex);
       const randomWord = searchIndex.words[randomIndex];
 
       if (randomWord && randomWord.letter && randomWord.name) {
@@ -77,8 +90,8 @@ export function Dictionary() {
   }
 
   return (
-    <div className="dictionary-page">
-      <div className="dictionary-hero">
+    <div className="dictionary-page" role="main" aria-label="Dictionary - Browse and search hip-hop terminology">
+      <div className="dictionary-hero" aria-label="Dictionary header and search">
         <div className="dictionary-hero__content">
           <h1 className="dictionary-page__title">
             <span className="text-gradient">Rap Dictionary</span>
@@ -107,32 +120,40 @@ export function Dictionary() {
           {/* Quick Filters Bar */}
           <div className="dictionary-quick-filters">
             <div className="quick-filters-header">
-              <Filter size={16} />
+              <Filter size={16} aria-hidden="true" />
               <span>Quick Filters</span>
             </div>
-            <div className="quick-filters-buttons">
+            <div className="quick-filters-buttons" role="group" aria-label="Syllable count filters">
               <button
+                type="button"
                 className={`filter-chip ${syllableFilter === '1' ? 'active' : ''}`}
                 onClick={() => setSyllableFilter(syllableFilter === '1' ? null : '1')}
+                aria-pressed={syllableFilter === '1'}
               >
                 1 Syllable
               </button>
               <button
+                type="button"
                 className={`filter-chip ${syllableFilter === '2' ? 'active' : ''}`}
                 onClick={() => setSyllableFilter(syllableFilter === '2' ? null : '2')}
+                aria-pressed={syllableFilter === '2'}
               >
                 2 Syllables
               </button>
               <button
+                type="button"
                 className={`filter-chip ${syllableFilter === '3+' ? 'active' : ''}`}
                 onClick={() => setSyllableFilter(syllableFilter === '3+' ? null : '3+')}
+                aria-pressed={syllableFilter === '3+'}
               >
                 3+ Syllables
               </button>
               {syllableFilter && (
                 <button
+                  type="button"
                   className="filter-chip clear"
                   onClick={() => setSyllableFilter(null)}
+                  aria-label="Clear filters"
                 >
                   Clear Filter
                 </button>
@@ -142,20 +163,21 @@ export function Dictionary() {
 
           {/* Surprise Me Button */}
           <button
+            type="button"
             className={`dictionary-surprise-btn ${isSpinning ? 'spinning' : ''}`}
             onClick={handleSurpriseMe}
             disabled={isSpinning || !searchIndex}
           >
-            <Sparkles size={18} />
+            <Sparkles size={18} aria-hidden="true" />
             <span>Surprise Me</span>
-            <RefreshCw size={14} className="refresh-icon" />
+            <RefreshCw size={14} className="refresh-icon" aria-hidden="true" />
           </button>
         </div>
       </div>
 
       {/* Semantic Search Results */}
       {searchQuery && (
-        <section className="dictionary-search-results">
+        <section className="dictionary-search-results" aria-label="Search results for words matching your query">
           <div className="section-header">
             <h3 className="section-title">
               {semanticResults.length > 0 ? 'Recommended Words' : 'No matches found'}
@@ -194,17 +216,21 @@ export function Dictionary() {
       {!searchQuery && (
         <>
           {/* Word of the Day */}
-          <section className="dictionary-featured">
+          <section className="dictionary-featured" aria-label="Featured word of the day">
             <WordOfDay />
           </section>
 
           {/* Recently Viewed */}
-          <RecentlyViewed limit={10} />
+          <section aria-label="Recently viewed words - Words you've recently looked up">
+            <RecentlyViewed limit={10} />
+          </section>
 
           {/* Contextual Suggestions */}
-          <ContextualSuggestions limit={6} />
+          <section aria-label="Contextual suggestions - Words recommended based on your activity">
+            <ContextualSuggestions limit={6} />
+          </section>
 
-          <section className="dictionary-grid-section">
+          <section className="dictionary-grid-section" aria-label="Browse by letter - Find words starting with a specific letter">
             <h3 className="section-title">Browse by Letter</h3>
             <div className="dictionary-page__letters">
               {letters.map(letter => (
@@ -227,98 +253,5 @@ export function Dictionary() {
     </div>
   );
 }
-
-// Reusing logic from ConceptRecommender but tuned for search
-function analyzeDictionarySearch(text, index, syllableFilter = null) {
-  try {
-    if (!text || !index) return [];
-
-    if (!index || !index.words) return [];
-    
-    // 1. Tokenize
-    const stopWords = new Set(['the', 'and', 'a', 'an', 'in', 'on', 'at', 'for', 'to', 'of', 'is', 'are', 'was', 'were', 'it', 'that', 'this', 'force']);
-    const tokens = text.toLowerCase()
-      .replace(/[^\w\s]/g, '')
-      .split(/\s+/)
-      .filter(t => t.length > 2 && !stopWords.has(t));
-    
-    const uniqueTokens = [...new Set(tokens)];
-    const results = [];
-    const seenIds = new Set();
-  
-    index.words.forEach(word => {
-      try {
-        if (seenIds.has(word.name)) return;
-        let score = 0;
-        let matchedKeyword = null;
-    
-        // Direct name match
-        const nameLower = (word.name || '').toLowerCase();
-        if (uniqueTokens.includes(nameLower) || nameLower.includes(text.toLowerCase())) {
-            score += 10;
-            matchedKeyword = 'Direct Match';
-        }
-    
-        // Definition match
-        if (word.d) {
-            const defLower = word.d.toLowerCase();
-            const matches = uniqueTokens.filter(t => defLower.includes(t));
-            if (matches.length > 0) {
-                score += matches.length * 3;
-                matchedKeyword = matchedKeyword || `Matches: "${matches[0]}"`;
-            }
-        }
-    
-        // Rap Definition match
-        if (word.rd) {
-            const rdLower = word.rd.toLowerCase();
-            const matches = uniqueTokens.filter(t => rdLower.includes(t));
-            if (matches.length > 0) {
-                score += matches.length * 4;
-                matchedKeyword = matchedKeyword || `Matches rap context: "${matches[0]}"`;
-            }
-        }
-        
-        // Synonyms match
-        if (word.syn && Array.isArray(word.syn)) {
-            word.syn.forEach(syn => {
-                if (uniqueTokens.includes(syn.toLowerCase())) {
-                    score += 5;
-                    matchedKeyword = matchedKeyword || `Synonym: "${syn}"`;
-                }
-            });
-        }
-    
-        if (score > 0) {
-            // Apply syllable filter if active
-            if (syllableFilter) {
-                const wordSyllables = word.syllables || getRhymeScheme(word.name).syllables;
-
-                if (syllableFilter === '1' && wordSyllables !== 1) return;
-                if (syllableFilter === '2' && wordSyllables !== 2) return;
-                if (syllableFilter === '3+' && wordSyllables < 3) return;
-            }
-
-            results.push({
-                name: word.name,
-                link: `/dictionary/${word.letter}/${word.name}`,
-                matchedKeyword,
-                score,
-                notes: word.rd || word.d || ''
-            });
-            seenIds.add(word.name);
-        }
-      } catch (innerErr) {
-        // Skip problem word
-      }
-    });
-  
-    return results.sort((a, b) => b.score - a.score).slice(0, 20);
-  } catch (err) {
-    console.error('Search analysis failed:', err);
-    return [];
-  }
-}
-
 
 export default Dictionary;

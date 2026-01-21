@@ -8,6 +8,10 @@
  * - expo.out → Snappy, precise interactions
  * 
  * CONSTRAINT: Never use linear for UI motion.
+ * 
+ * USAGE:
+ *   import { easing, timing } from '../lib/gsap/easing';
+ *   gsap.to(element, { duration: timing.short, ease: easing.snap });
  */
 
 export const easing = {
@@ -58,3 +62,41 @@ export const stagger = {
   relaxed: 0.15, // Readable sequence
   dramatic: 0.2, // Emphasized entrance
 };
+
+/**
+ * Helper function to apply motion preset
+ * 
+ * @param {string} preset - Preset name ('exit', 'entrance', 'snap', 'smooth')
+ * @returns {Object} - GSAP animation config
+ * 
+ * @example
+ *   gsap.to(element, { ...motionPreset('entrance'), x: 100 });
+ */
+export function motionPreset(preset) {
+  const presets = {
+    exit: { duration: timing.short, ease: easing.out },
+    entrance: { duration: timing.medium, ease: easing.dramatic },
+    snap: { duration: timing.micro, ease: easing.snap },
+    smooth: { duration: timing.short, ease: easing.smooth },
+    default: { duration: timing.short, ease: easing.default },
+  };
+
+  return presets[preset] || presets.default;
+}
+
+/**
+ * Apply reduced motion preferences
+ * 
+ * @param {Object} config - GSAP animation config
+ * @returns {Object} - Modified config if reduced motion preferred
+ * 
+ * @example
+ *   gsap.to(element, withMotionPreference({ duration: 0.5, x: 100 }));
+ */
+export function withMotionPreference(config) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return { ...config, duration: 0, ease: 'none' };
+  }
+  return config;
+}
+

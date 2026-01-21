@@ -1,4 +1,5 @@
 import { DomainCard2 } from './DomainCard2';
+import PropTypes from 'prop-types';
 import './DomainGrid.css';
 
 // Domain metadata with descriptions and categories
@@ -29,33 +30,6 @@ const DOMAIN_METADATA = {
   'media-platforms': { category: 'Technology', description: 'Social networks and content platforms' }
 };
 
-const DOMAIN_ICONS = {
-  music: '🎵',
-  lingo: '💬',
-  people: '👥',
-  places: '📍',
-  tech: '💻',
-  cinema: '🎬',
-  fashion: '👕',
-  brands: '🏢',
-  'internet-culture': '🌐',
-  'writing-tools': '✍️',
-  history: '📜',
-  sports: '⚽',
-  vehicles: '🚗',
-  'weapons-objects': '⚔️',
-  'philosophy-ideas': '💭',
-  'emotions-states': '😤',
-  'aesthetics-visuals': '🎨',
-  'business-economics': '💼',
-  'science-future': '🚀',
-  'mythology-legend': '🔮',
-  'architecture-spaces': '🏛️',
-  'rituals-symbols': '🎭',
-  'time-energy': '⏰',
-  'media-platforms': '📱'
-};
-
 export function DomainGrid({ domains, stats = {} }) {
   return (
     <div className="domain-grid">
@@ -75,6 +49,15 @@ export function DomainGrid({ domains, stats = {} }) {
     </div>
   );
 }
+
+DomainGrid.propTypes = {
+  domains: PropTypes.arrayOf(PropTypes.string).isRequired,
+  stats: PropTypes.object
+};
+
+DomainGrid.defaultProps = {
+  stats: {}
+};
 
 // Export metadata for use in filtering
 export { DOMAIN_METADATA };

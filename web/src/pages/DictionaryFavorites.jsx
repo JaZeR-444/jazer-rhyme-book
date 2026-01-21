@@ -4,19 +4,21 @@
  */
 import { Link } from 'react-router-dom';
 import { Heart, ArrowLeft } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { Breadcrumbs, EmptyState } from '../components/ui';
 import { FavoriteButton } from '../components/ui/FavoriteButton';
-import { useFavorites } from '../lib/FavoritesContext';
+import { useFavorites } from '../contexts/FavoritesContext';
 import './DictionaryFavorites.css';
 
 export function DictionaryFavorites() {
+  usePageTitle('Favorites');
   const { favorites, favoritesCount } = useFavorites();
 
   const safeFavorites = Array.isArray(favorites) ? favorites : [];
   const sortedFavorites = [...safeFavorites].sort((a, b) => (b?.addedAt || 0) - (a?.addedAt || 0));
 
   return (
-    <div className="dictionary-favorites">
+    <div className="dictionary-favorites" role="main" aria-label="Dictionary favorites - Your saved words">
       <div className="dictionary-favorites__header">
         <Breadcrumbs
           items={[

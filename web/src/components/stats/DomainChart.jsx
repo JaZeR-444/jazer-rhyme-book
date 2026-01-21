@@ -6,7 +6,7 @@
 import React, { useMemo } from 'react';
 import './DomainChart.css';
 
-export default function DomainChart({ domainData }) {
+export default function DomainChart({ domainData = [] }) {
   const total = useMemo(() => {
     return domainData.reduce((sum, d) => sum + d.count, 0);
   }, [domainData]);
@@ -20,6 +20,20 @@ export default function DomainChart({ domainData }) {
     '#ef4444', '#8b5cf6', '#f59e0b', '#10b981', '#ec4899',
   ];
 
+  if (domainData.length === 0) {
+    return (
+      <div className="domain-chart">
+        <div className="domain-chart__header">
+          <h3 className="domain-chart__title">Domain Distribution</h3>
+          <p className="domain-chart__subtitle">No data available yet</p>
+        </div>
+        <div className="domain-chart__empty">
+          <p>Explore different domains to see your stats here.</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="domain-chart">
       <div className="domain-chart__header">
@@ -29,7 +43,7 @@ export default function DomainChart({ domainData }) {
 
       <div className="domain-chart__list">
         {sortedData.map(({ domain, count }, index) => {
-          const percentage = ((count / total) * 100).toFixed(1);
+          const percentage = total > 0 ? ((count / total) * 100).toFixed(1) : '0.0';
           
           return (
             <div key={domain} className="domain-chart__item">

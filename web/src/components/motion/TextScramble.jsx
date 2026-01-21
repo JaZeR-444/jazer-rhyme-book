@@ -15,6 +15,7 @@ export function TextScramble({
 }) {
   const textRef = useRef(null);
   const originalTextRef = useRef('');
+  const ariaLabel = typeof children === 'string' ? children : undefined;
 
   useEffect(() => {
     if (!textRef.current) return;
@@ -60,7 +61,13 @@ export function TextScramble({
   }, [children, duration, delay, chars]);
 
   return (
-    <Component ref={textRef} className={`text-scramble ${className}`}>
+    <Component
+      ref={textRef}
+      className={`text-scramble ${className}`}
+      role="text"
+      aria-label={ariaLabel}
+      aria-live="off"
+    >
       {children}
     </Component>
   );

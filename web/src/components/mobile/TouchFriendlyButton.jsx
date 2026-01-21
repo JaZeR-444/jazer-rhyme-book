@@ -10,6 +10,7 @@ export const TouchFriendlyButton = ({
   onClick,
   disabled = false,
   className = "",
+  ariaLabel,
   ...props 
 }) => {
   return (
@@ -17,6 +18,7 @@ export const TouchFriendlyButton = ({
       className={`touch-friendly-btn touch-friendly-btn--${variant} touch-friendly-btn--${size} ${className}`}
       onClick={onClick}
       disabled={disabled}
+      aria-label={ariaLabel || (typeof children === "string" ? children : undefined)}
       whileTap={{ scale: disabled ? 1 : 0.95 }}
       whileHover={{ scale: disabled ? 1 : 1.05 }}
       transition={{ duration: 0.1 }}

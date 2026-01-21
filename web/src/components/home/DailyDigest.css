@@ -64,7 +64,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--gradient-primary);
+  background: var(--brand-gradient, linear-gradient(135deg, #8b5cf6 0%, #00ced1 100%));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--duration-medium) var(--ease-out);
@@ -87,8 +87,8 @@
   align-items: center;
   gap: var(--space-xs);
   padding: 6px 12px;
-  background: var(--accent-primary-glow);
-  color: var(--accent-primary);
+  background: var(--accent-primary-glow, rgba(139, 92, 246, 0.2));
+  color: var(--accent-primary, #8b5cf6);
   border-radius: 20px;
   font-size: var(--text-micro);
   font-weight: var(--weight-semibold);
@@ -143,7 +143,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-xs);
-  color: var(--accent-primary);
+  color: var(--accent-primary, #8b5cf6);
   font-size: var(--text-small);
   font-weight: var(--weight-semibold);
   padding-top: var(--space-md);
@@ -202,7 +202,7 @@
 }
 
 .digest-card {
-  animation: fadeInUp 0.6s ease-out;
+  animation: fadeInUp 0.6s ease-out both;
 }
 
 .digest-card:nth-child(1) {
@@ -215,4 +215,22 @@
 
 .digest-card:nth-child(3) {
   animation-delay: 0.2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .digest-card {
+    animation: none !important;
+  }
+
+  .digest-card__content,
+  .digest-card__content::before,
+  .digest-card__cta,
+  .digest-card__cta svg {
+    transition: none !important;
+  }
+
+  .digest-card:hover .digest-card__content,
+  .digest-card:hover .digest-card__cta svg {
+    transform: none !important;
+  }
 }

@@ -3,7 +3,7 @@
  * Animated heart button for favoriting words
  */
 import { Heart } from 'lucide-react';
-import { useFavorites } from '../../lib/FavoritesContext';
+import { useFavorites } from '../../contexts/FavoritesContext';
 import PropTypes from 'prop-types';
 import './FavoriteButton.css';
 

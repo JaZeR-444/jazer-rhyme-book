@@ -1,4 +1,5 @@
 import { Card, MarkdownRenderer } from '../components/ui';
+import { usePageTitle } from '../lib/usePageTitle';
 import './Docs.css';
 
 const docsContent = `
@@ -54,8 +55,9 @@ Tags are centralized in \`_meta/tags.json\`. If you need a new tag, add it there
 `;
 
 export function Docs() {
+  usePageTitle('Documentation');
   return (
-    <div className="docs-page">
+    <div className="docs-page" role="main" aria-label="Documentation - Operator's manual and contribution guide">
       <div className="docs-page__header">
         <h1 className="docs-page__title">Documentation</h1>
         <p className="docs-page__subtitle">
@@ -70,3 +72,5 @@ export function Docs() {
     </div>
   );
 }
+
+export default Docs;

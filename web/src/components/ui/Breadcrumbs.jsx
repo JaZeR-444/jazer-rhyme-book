@@ -1,7 +1,8 @@
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { ChevronDown, Clock, Home, BookOpen, Database, Search, Edit3, X, ArrowRight } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import { useBrowsingHistory } from '../../lib/BrowsingHistoryContext';
+import { useBrowsingHistory } from '../../contexts/BrowsingHistoryContext';
 import './Breadcrumbs.css';
 
 const PAGE_ICONS = {
@@ -20,6 +21,13 @@ function formatTimeAgo(timestamp) {
   return `${Math.floor(seconds / 86400)}d ago`;
 }
 
+/**
+ * Breadcrumbs - Renders a breadcrumb trail with history dropdown
+ *
+ * @param {Object} props
+ * @param {{label:string,path:string}[]} props.items - Ordered breadcrumb segments
+ * @returns {JSX.Element}
+ */
 export function Breadcrumbs({ items }) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState('all');
@@ -209,3 +217,12 @@ export function Breadcrumbs({ items }) {
     </div>
   );
 }
+
+Breadcrumbs.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      path: PropTypes.string.isRequired
+    })
+  ).isRequired
+};

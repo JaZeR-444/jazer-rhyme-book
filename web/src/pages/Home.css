@@ -471,3 +471,33 @@
     font-size: var(--text-small);
   }
 }
+
+/* ============================================
+   REDUCED MOTION SUPPORT
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable all animations */
+  .hero::before,
+  .hero__logo .hero-logo-img,
+  .feature-card,
+  .feature-card__icon {
+    animation: none !important;
+  }
+  
+  /* Remove transforms */
+  .hero::before {
+    transform: none;
+  }
+  
+  /* Disable transitions */
+  .feature-card,
+  .cta__card {
+    transition: none;
+  }
+  
+  /* Keep hover states but remove animations */
+  .feature-card:hover,
+  .cta__card:hover {
+    transform: none;
+  }
+}

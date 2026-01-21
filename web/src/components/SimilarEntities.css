@@ -119,3 +119,12 @@
   flex-wrap: wrap;
   gap: 4px;
 }
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .similar-entity-card,
+  .similar-entity-card::before {
+    transition: none !important;
+    transform: none !important;
+  }
+}

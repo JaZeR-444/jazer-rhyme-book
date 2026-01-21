@@ -26,7 +26,7 @@
 }
 
 .smart-search__icon {
-  color: var(--neon-cyan);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
   flex-shrink: 0;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .smart-search__loader {
-  color: var(--neon-cyan);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
   animation: spin 1s linear infinite;
   flex-shrink: 0;
 }
@@ -67,7 +67,7 @@
 }
 
 .smart-search__clear:hover {
-  color: var(--neon-pink);
+  color: hsl(330, 100%, 60%);
 }
 
 .smart-search__results {
@@ -101,7 +101,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  color: var(--neon-cyan);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -157,17 +157,17 @@
 
 .smart-search__result-icon--word {
   background: rgba(0, 242, 254, 0.15);
-  color: var(--neon-cyan);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
 }
 
 .smart-search__result-icon--entity {
   background: rgba(255, 0, 255, 0.15);
-  color: var(--neon-pink);
+  color: hsl(330, 100%, 60%);
 }
 
 .smart-search__result-icon--domain {
   background: rgba(186, 85, 211, 0.15);
-  color: var(--neon-purple);
+  color: var(--accent-purple, hsl(270, 80%, 60%));
 }
 
 .smart-search__result-content {
@@ -195,7 +195,7 @@
 .smart-search__result-type {
   padding: 0.25rem 0.5rem;
   background: rgba(0, 242, 254, 0.2);
-  color: var(--neon-cyan);
+  color: var(--accent-neon, hsl(180, 100%, 50%));
   border-radius: 4px;
   font-size: 0.7rem;
   font-weight: 600;
@@ -222,7 +222,7 @@
   background: rgba(186, 85, 211, 0.15);
   border: 1px solid rgba(186, 85, 211, 0.3);
   border-radius: 6px;
-  color: var(--neon-purple);
+  color: var(--accent-purple, hsl(270, 80%, 60%));
   font-size: 0.85rem;
   font-weight: 500;
   cursor: pointer;
@@ -231,7 +231,7 @@
 
 .smart-search__suggestion:hover {
   background: rgba(186, 85, 211, 0.25);
-  border-color: var(--neon-purple);
+  border-color: var(--accent-purple, hsl(270, 80%, 60%));
   transform: translateY(-2px);
 }
 
@@ -307,5 +307,22 @@
 
   .smart-search__result-meta {
     font-size: 0.75rem;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .smart-search__loader,
+  .smart-search__results,
+  .smart-search__result-item,
+  .smart-search__suggestion {
+    animation: none;
+    transition: none;
+  }
+  
+  .smart-search__result-item:hover,
+  .smart-search__result-item--selected,
+  .smart-search__suggestion:hover {
+    transform: none;
   }
 }

@@ -6,7 +6,14 @@ import { useNavigate } from 'react-router-dom';
  * Implements swipe-to-go-back and long-press gestures
  */
 
-export const useSwipeNavigation = (enabled = true) => {
+export const useSwipeNavigation = (options = {}) => {
+  const {
+    enabled = true,
+    edgeThreshold = 50,
+    swipeThreshold = 100,
+    maxVerticalDelta = 50,
+    ignoreSelectors = ['input', 'textarea', 'select', '[contenteditable="true"]', '[data-gesture-ignore="true"]'],
+  } = options;
   const navigate = useNavigate();
   const touchStartRef = useRef({ x: 0, y: 0, time: 0 });
   const isSwiping = useRef(false);
@@ -14,7 +21,20 @@ export const useSwipeNavigation = (enabled = true) => {
   useEffect(() => {
     if (!enabled) return;
 
+    const isIgnoredTarget = (target) => {
+      if (!target || !target.closest) return false;
+      return ignoreSelectors.some((selector) => target.closest(selector));
+    };
+
+    const isInHorizontalScroller = (target) => {
+      if (!target || !target.closest) return false;
+      const scroller = target.closest('[data-horizontal-scroll="true"], .horizontal-scroll, .scroll-x');
+      if (!scroller) return false;
+      return scroller.scrollWidth > scroller.clientWidth;
+    };
+
     const handleTouchStart = (e) => {
+      if (isIgnoredTarget(e.target) || isInHorizontalScroller(e.target)) return;
       const touch = e.touches[0];
       touchStartRef.current = {
         x: touch.clientX,
@@ -25,6 +45,7 @@ export const useSwipeNavigation = (enabled = true) => {
     };
 
     const handleTouchMove = (e) => {
+      if (isIgnoredTarget(e.target) || isInHorizontalScroller(e.target)) return;
       if (isSwiping.current) return;
 
       const touch = e.touches[0];
@@ -33,9 +54,9 @@ export const useSwipeNavigation = (enabled = true) => {
 
       // Detect horizontal swipe from left edge (go back gesture)
       if (
-        touchStartRef.current.x < 50 && // Started near left edge
-        deltaX > 100 && // Swipe right
-        Math.abs(deltaY) < 50 // Mostly horizontal
+        touchStartRef.current.x < edgeThreshold && // Started near left edge
+        deltaX > swipeThreshold && // Swipe right
+        Math.abs(deltaY) < maxVerticalDelta // Mostly horizontal
       ) {
         isSwiping.current = true;
         navigate(-1);
@@ -46,16 +67,22 @@ export const useSwipeNavigation = (enabled = true) => {
       isSwiping.current = false;
     };
 
+    const handleTouchCancel = () => {
+      isSwiping.current = false;
+    };
+
     document.addEventListener('touchstart', handleTouchStart, { passive: true });
     document.addEventListener('touchmove', handleTouchMove, { passive: true });
     document.addEventListener('touchend', handleTouchEnd, { passive: true });
+    document.addEventListener('touchcancel', handleTouchCancel, { passive: true });
 
     return () => {
       document.removeEventListener('touchstart', handleTouchStart);
       document.removeEventListener('touchmove', handleTouchMove);
       document.removeEventListener('touchend', handleTouchEnd);
+      document.removeEventListener('touchcancel', handleTouchCancel);
     };
-  }, [enabled, navigate]);
+  }, [enabled, navigate, edgeThreshold, swipeThreshold, maxVerticalDelta, ignoreSelectors]);
 };
 
 export const useLongPress = (callback, duration = 500) => {
@@ -86,6 +113,7 @@ export const useLongPress = (callback, duration = 500) => {
     onMouseLeave: clear,
     onTouchStart: start,
     onTouchEnd: clear,
+    onTouchCancel: clear,
   };
 };
 
@@ -121,14 +149,21 @@ export const useSwipeActions = (onSwipeLeft, onSwipeRight, threshold = 75) => {
     }
   };
 
+  const handleTouchCancel = () => {
+    touchStart.current = { x: 0, y: 0 };
+    touchEnd.current = { x: 0, y: 0 };
+  };
+
   return {
     onTouchStart: handleTouchStart,
     onTouchMove: handleTouchMove,
     onTouchEnd: handleTouchEnd,
+    onTouchCancel: handleTouchCancel,
   };
 };
 
 // Pull to refresh gesture
+// Usage: attach to the root scroll container so preventDefault can work.
 export const usePullToRefresh = (onRefresh, threshold = 80) => {
   const startY = useRef(0);
   const currentY = useRef(0);
@@ -170,5 +205,6 @@ export const usePullToRefresh = (onRefresh, threshold = 80) => {
     onTouchStart: handleTouchStart,
     onTouchMove: handleTouchMove,
     onTouchEnd: handleTouchEnd,
+    onTouchCancel: handleTouchEnd,
   };
 };

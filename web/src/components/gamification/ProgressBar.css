@@ -120,6 +120,15 @@
   color: var(--accent, #6366f1);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .level-badge svg,
+  .progress-bar-glow,
+  .progress-bar-fill {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   .progress-header {
     flex-wrap: wrap;
@@ -129,5 +138,16 @@
     order: 3;
     flex-basis: 100%;
     margin-top: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .level-badge svg,
+  .progress-bar-glow {
+    animation: none;
+  }
+
+  .progress-bar-fill {
+    transition: none;
   }
 }

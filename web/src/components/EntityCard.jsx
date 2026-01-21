@@ -1,13 +1,30 @@
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { Badge, GenerativeArt } from './ui';
 import { EntityHoverCard } from './interactions';
 import { useFeedback } from './interactions';
 import { Pin, Heart } from 'lucide-react';
-import { useWorkspace } from '../lib/WorkspaceContext';
-import { useEntityLikes } from '../lib/EntityLikesContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
+import { useEntityLikes } from '../contexts/EntityLikesContext';
 import { DraggableCard } from './workspace/DraggableCard';
+import { memo } from 'react';
 import './EntityCard.css';
 
+// Memoize GenerativeArt to avoid expensive re-renders in lists
+const MemoizedArt = memo(GenerativeArt);
+
+/**
+ * EntityCard - Displays a single entity with generative art, metadata, and actions
+ *
+ * @param {Object} props - Component props
+ * @param {Object} props.entity - Entity data object
+ * @param {string} props.entity.id - Unique entity identifier
+ * @param {string} props.entity.name - Entity display name
+ * @param {string} props.entity.type - Entity type/category
+ * @param {string} [props.entity.one_liner] - Brief description
+ * @param {string} props.domain - Domain ID the entity belongs to
+ * @returns {JSX.Element} Entity card with preview, actions, and generative art
+ */
 export function EntityCard({ entity, domain }) {
   const { isPinned, addItem, removeItem } = useWorkspace();
   const { isLiked, toggleLike } = useEntityLikes();
@@ -74,7 +91,7 @@ export function EntityCard({ entity, domain }) {
       )}
       
       <div className="entity-card__bg">
-         <GenerativeArt seed={entity.id} />
+         <MemoizedArt seed={entity.id} />
       </div>
       <div className="entity-card__content">
       <div className="entity-card__header">
@@ -84,6 +101,7 @@ export function EntityCard({ entity, domain }) {
             className={`entity-like-btn ${liked ? 'is-liked' : ''}`}
             onClick={handleLike}
             title={liked ? "Remove like" : "Like this entity"}
+            aria-label={liked ? "Remove from favorites" : "Add to favorites"}
           >
             <Heart size={14} fill={liked ? "currentColor" : "none"} />
           </button>
@@ -91,6 +109,7 @@ export function EntityCard({ entity, domain }) {
             className={`entity-pin-btn ${pinned ? 'is-pinned' : ''}`}
             onClick={handlePin}
             title={pinned ? "Remove from Verse Board" : "Pin to Verse Board"}
+            aria-label={pinned ? "Remove from workspace" : "Add to workspace"}
           >
             <Pin size={14} fill={pinned ? "currentColor" : "none"} />
           </button>
@@ -130,4 +149,16 @@ export function EntityCard({ entity, domain }) {
     </DraggableCard>
   );
 }
+
+EntityCard.propTypes = {
+  entity: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    one_liner: PropTypes.string,
+    era: PropTypes.string,
+    tags: PropTypes.arrayOf(PropTypes.string),
+  }).isRequired,
+  domain: PropTypes.string.isRequired,
+};
 

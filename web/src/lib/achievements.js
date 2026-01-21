@@ -113,6 +113,24 @@ export const ACHIEVEMENTS = {
   }
 };
 
+const SCHEMA_VERSION = 1;
+
+function getDefaultState() {
+  return {
+    version: SCHEMA_VERSION,
+    wordsViewed: 0,
+    domainsVisited: new Set(),
+    studioSessions: 0,
+    wordsWritten: 0,
+    streakDays: 0,
+    lastVisit: null,
+    favoriteCount: 0,
+    rhymeSearches: 0,
+    unlocked: [],
+    totalPoints: 0
+  };
+}
+
 export class AchievementTracker {
   constructor() {
     this.progress = this.loadProgress();
@@ -124,30 +142,55 @@ export class AchievementTracker {
     if (saved) {
       try {
         const data = JSON.parse(saved);
-        data.domainsVisited = new Set(data.domainsVisited || []);
-        return data;
+        return this.migrate(data);
       } catch (e) {
         console.error('Failed to load achievements:', e);
       }
     }
     
-    return {
-      wordsViewed: 0,
-      domainsVisited: new Set(),
-      studioSessions: 0,
-      wordsWritten: 0,
-      streakDays: 0,
-      lastVisit: null,
-      favoriteCount: 0,
-      rhymeSearches: 0,
-      unlocked: [],
-      totalPoints: 0
-    };
+    return getDefaultState();
+  }
+
+  migrate(data) {
+    const defaultState = getDefaultState();
+
+    // Handle legacy data (no version)
+    if (data.version === undefined) {
+      data.version = 0;
+    }
+
+    // Migration logic
+    if (data.version < SCHEMA_VERSION) {
+      // Version 0 -> 1 (Add version, validate fields)
+      if (data.version === 0) {
+        data.version = 1;
+        // Ensure all default fields exist
+        Object.keys(defaultState).forEach(key => {
+            if (key !== 'domainsVisited' && data[key] === undefined) {
+                 data[key] = defaultState[key];
+            }
+        });
+      }
+    }
+
+    // Validate/Sanitize
+    data.domainsVisited = new Set(Array.isArray(data.domainsVisited) ? data.domainsVisited : []);
+    data.wordsViewed = Number(data.wordsViewed) || 0;
+    data.studioSessions = Number(data.studioSessions) || 0;
+    data.wordsWritten = Number(data.wordsWritten) || 0;
+    data.streakDays = Number(data.streakDays) || 0;
+    data.favoriteCount = Number(data.favoriteCount) || 0;
+    data.rhymeSearches = Number(data.rhymeSearches) || 0;
+    data.totalPoints = Number(data.totalPoints) || 0;
+    if (!Array.isArray(data.unlocked)) data.unlocked = [];
+
+    return data;
   }
   
   saveProgress() {
     const toSave = {
       ...this.progress,
+      version: SCHEMA_VERSION,
       domainsVisited: Array.from(this.progress.domainsVisited)
     };
     localStorage.setItem('jazer_achievements', JSON.stringify(toSave));

@@ -6,7 +6,7 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 
 const FilterContext = createContext(null);
 
-const STORAGE_KEY = 'jazer-dictionary-filters';
+const STORAGE_KEY = 'jazer_dictionary_filters';
 
 const DEFAULT_FILTERS = {
   syllableRange: [1, 8],

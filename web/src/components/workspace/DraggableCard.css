@@ -1,11 +1,158 @@
+/**
+ * DraggableCard.css
+ * Styling for draggable cards with accessibility and visual feedback
+ */
+
+/* Base Card Styling */
 .draggable-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm, 12px);
+  padding: var(--space-md, 16px);
+  background: hsla(240, 18%, 10%, 0.5);
+  border: 1px solid var(--border-subtle, hsla(0, 0%, 100%, 0.06));
+  border-radius: var(--radius-md, 12px);
+  cursor: grab;
+  transition: all var(--duration-short, 300ms);
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  backdrop-filter: blur(8px);
+}
+
+/* Focus Visible for Keyboard Users */
+.draggable-card:focus-visible {
+  outline: 2px solid var(--accent-neon, hsl(180, 100%, 50%));
+  outline-offset: 2px;
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+/* Hover State */
+.draggable-card:hover:not(.is-disabled) {
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+  background: hsla(240, 18%, 10%, 0.7);
+  box-shadow: 0 4px 16px hsla(180, 100%, 50%, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Active/Dragging State */
+.draggable-card:active:not(.is-disabled) {
+  cursor: grabbing;
+  transform: scale(0.98);
+}
+
+/* Dragging Visual Feedback */
+.draggable-card.is-dragging {
+  opacity: 0.6;
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px hsla(180, 100%, 50%, 0.25);
+  background: hsla(180, 100%, 50%, 0.1);
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+/* Keyboard Drag State */
+.draggable-card.is-keyboard-drag {
+  outline: 2px dashed var(--accent-neon, hsl(180, 100%, 50%));
+  outline-offset: 2px;
+  background: hsla(180, 100%, 50%, 0.08);
+  box-shadow: inset 0 0 0 2px var(--accent-neon, hsl(180, 100%, 50%));
+}
+
+/* Disabled State */
+.draggable-card.is-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Handle Styling */
+.draggable-card__handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+  background: transparent;
+  border-radius: 6px;
+  transition: all var(--duration-short, 300ms);
   cursor: grab;
 }
 
-.draggable-card:active {
-  cursor: grabbing;
+.draggable-card:hover .draggable-card__handle:not(.is-disabled) {
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+  background: hsla(180, 100%, 50%, 0.1);
 }
 
-.draggable-card.is-disabled {
-  cursor: default;
+.draggable-card:active .draggable-card__handle:not(.is-disabled) {
+  cursor: grabbing;
+  color: var(--accent-neon, hsl(180, 100%, 50%));
+  background: hsla(180, 100%, 50%, 0.15);
+}
+
+/* Content Area */
+.draggable-card__content {
+  flex: 1;
+  min-width: 0;
+  color: var(--text-primary, hsl(0, 0%, 95%));
+}
+
+/* Animations */
+@keyframes dragPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 hsla(180, 100%, 50%, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px hsla(180, 100%, 50%, 0);
+  }
+}
+
+.draggable-card.is-dragging {
+  animation: dragPulse 1.5s ease-out infinite;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .draggable-card {
+    transition: none;
+  }
+
+  .draggable-card__handle {
+    transition: none;
+  }
+
+  .draggable-card:hover {
+    transform: none;
+  }
+
+  .draggable-card:active {
+    transform: none;
+  }
+
+  .draggable-card.is-dragging {
+    animation: none;
+  }
+}
+
+/* Mobile/Touch Devices */
+@media (max-width: 768px) {
+  .draggable-card {
+    padding: var(--space-md, 12px);
+    gap: var(--space-xs, 8px);
+  }
+
+  .draggable-card__handle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Tablet Sizing */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .draggable-card {
+    padding: var(--space-md, 14px);
+  }
 }

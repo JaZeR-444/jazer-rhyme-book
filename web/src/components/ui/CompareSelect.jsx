@@ -1,7 +1,19 @@
+import PropTypes from 'prop-types';
 import { useState, useMemo } from 'react';
 import { Search, X, Check } from 'lucide-react';
 import './CompareSelect.css';
 
+/**
+ * CompareSelect - Picker for selecting a word to compare
+ *
+ * @param {Object} props
+ * @param {Array<{name:string,letter:string,d?:string}>} props.words - Available words
+ * @param {{name:string,letter:string}|null} props.selectedWord - Currently selected word
+ * @param {function} props.onSelect - Callback when a word is chosen or cleared
+ * @param {string} [props.placeholder] - Placeholder copy
+ * @param {string} [props.label] - Visible label text
+ * @returns {JSX.Element}
+ */
 export function CompareSelect({
   words,
   selectedWord,
@@ -113,3 +125,20 @@ export function CompareSelect({
     </div>
   );
 }
+
+CompareSelect.propTypes = {
+  words: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      letter: PropTypes.string,
+      d: PropTypes.string
+    })
+  ).isRequired,
+  selectedWord: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    letter: PropTypes.string
+  }),
+  onSelect: PropTypes.func.isRequired,
+  placeholder: PropTypes.string,
+  label: PropTypes.string
+};

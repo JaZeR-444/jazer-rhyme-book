@@ -119,3 +119,25 @@
     padding: 1rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .compact-card {
+    transition: none;
+  }
+
+  .compact-card:hover,
+  .compact-card:active {
+    transform: none;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .compact-card {
+    transition: none !important;
+  }
+
+  .compact-card:hover {
+    transform: none !important;
+  }
+}

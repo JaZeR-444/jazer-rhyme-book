@@ -10,14 +10,15 @@ import {
   Layers,
   SlidersHorizontal
 } from 'lucide-react';
-import { Breadcrumbs, EmptyState, FavoriteButton, Badge } from '../components/ui';
+import { usePageTitle } from '../lib/usePageTitle';
+import { Breadcrumbs, EmptyState, FavoriteButton, Badge, DictionaryNav } from '../components/ui';
 import { Autocomplete } from '../components/ui/Autocomplete';
 import { VirtualWordGrid } from '../components/ui/VirtualWordGrid';
 import { SkeletonGrid } from '../components/ui/SkeletonCard';
 import { FilterPanel } from '../components/dictionary/FilterPanel';
 import { useDictionaryWords } from '../lib/hooks';
-import { useFavorites } from '../lib/FavoritesContext';
-import { useFilters } from '../lib/FilterContext';
+import { useFavorites } from '../contexts/FavoritesContext';
+import { useFilters } from '../contexts/FilterContext';
 import { useState, useMemo } from 'react';
 import './DictionaryLetter.css';
 
@@ -37,9 +38,9 @@ const VIEW_MODES = [
 
 export function DictionaryLetter() {
   const { letter } = useParams();
-  const navigate = useNavigate();
-
   const safeLetter = String(letter || '').toUpperCase();
+  usePageTitle(`Dictionary - ${safeLetter}`);
+  const navigate = useNavigate();
   const { words, loading, error } = useDictionaryWords(safeLetter);
   const { getFavoritesForLetter, isFavorite } = useFavorites();
   const { filters } = useFilters();
@@ -222,7 +223,8 @@ export function DictionaryLetter() {
   }
 
   return (
-    <div className="dictionary-letter">
+    <div className="dictionary-letter" role="main" aria-label={`Dictionary - Browse words starting with ${safeLetter}`}>
+      <DictionaryNav />
       <div className="dictionary-letter__header">
         <Breadcrumbs
           items={[

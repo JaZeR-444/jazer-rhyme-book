@@ -62,7 +62,7 @@ export function SearchResults({ results, query, onSelectResult }) {
             <div className="search-results__list">
               {categorized.words.map((word, index) => (
                 <ResultItem
-                  key={word.id || index}
+                  key={word.id || word.word || `word-${index}`}
                   result={word}
                   type="word"
                   onClick={() => onSelectResult?.(word)}
@@ -84,7 +84,7 @@ export function SearchResults({ results, query, onSelectResult }) {
             <div className="search-results__list">
               {categorized.entities.map((entity, index) => (
                 <ResultItem
-                  key={entity.id || index}
+                  key={entity.id || entity.name || `entity-${index}`}
                   result={entity}
                   type="entity"
                   onClick={() => onSelectResult?.(entity)}
@@ -106,7 +106,7 @@ export function SearchResults({ results, query, onSelectResult }) {
             <div className="search-results__list">
               {categorized.domains.map((domain, index) => (
                 <ResultItem
-                  key={domain.id || index}
+                  key={domain.id || domain.name || `domain-${index}`}
                   result={domain}
                   type="domain"
                   onClick={() => onSelectResult?.(domain)}

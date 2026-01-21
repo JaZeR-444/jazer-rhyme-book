@@ -72,6 +72,13 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer::after {
+    animation: none;
+    display: none;
+  }
+}
+
 /* SkeletonGrid Layout */
 .skeleton-grid {
   display: grid;

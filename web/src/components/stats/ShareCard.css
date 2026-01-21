@@ -14,7 +14,7 @@
 }
 
 .share-card__content {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--brand-gradient, linear-gradient(135deg, #667eea 0%, #764ba2 100%));
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 1rem;
@@ -43,7 +43,7 @@
 .share-card__heading {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
+  color: #fff; /* Always white on brand gradient */
   margin: 0 0 0.5rem 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

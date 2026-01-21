@@ -78,7 +78,7 @@
 
 .workspace-drawer__header h3 {
   margin: 0;
-  font-size: var(--text-h5);
+  font-size: var(--text-h4);
   background: var(--brand-gradient);
   -webkit-background-clip: text;
   background-clip: text;
@@ -125,7 +125,7 @@
 }
 
 .workspace-drawer__clear:hover:not(:disabled) {
-  color: var(--accent-alert);
+  color: var(--accent-warm);
   text-decoration: underline;
 }
 
@@ -165,26 +165,6 @@
   font-style: italic;
   border: 1px dashed var(--border-subtle);
   border-radius: 12px;
-}
-
-/* Item Card */
-.workspace-item {
-  flex: 0 0 200px;
-  background: var(--surface-2);
-  border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-  padding: var(--space-md);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: all var(--duration-short);
-  position: relative;
-}
-
-.workspace-item:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent-primary-glow);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .workspace-item__type {
@@ -247,7 +227,7 @@
 
 .workspace-action--danger:hover {
   background: rgba(255, 69, 58, 0.1);
-  color: var(--accent-alert);
+  color: var(--accent-warm);
 }
 
 /* New Section Input */
@@ -334,7 +314,7 @@
 
 .workspace-section__header h4 {
   margin: 0;
-  font-size: var(--text-base);
+  font-size: var(--text-body);
   font-weight: var(--weight-semibold);
   color: var(--text-primary);
   flex: 1;
@@ -354,7 +334,7 @@
 
 .workspace-section__clear:hover {
   background: rgba(255, 69, 58, 0.1);
-  color: var(--accent-alert);
+  color: var(--accent-warm);
 }
 
 /* Section Items */
@@ -390,6 +370,12 @@
   gap: var(--space-sm);
   transition: all var(--duration-short);
   position: relative;
+}
+
+.workspace-item:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary-glow);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .workspace-item__drag {

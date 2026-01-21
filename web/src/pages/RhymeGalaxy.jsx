@@ -7,6 +7,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Info } from 'lucide-react';
+import { usePageTitle } from '../lib/usePageTitle';
 import { useDictionaryIndex } from '../lib/hooks';
 import { GalaxyView } from '../components/discovery';
 import { LoadingState } from '../components/ui';
@@ -14,6 +15,7 @@ import { useNavigate } from 'react-router-dom';
 import './RhymeGalaxy.css';
 
 export function RhymeGalaxy() {
+  usePageTitle('Rhyme Galaxy');
   const navigate = useNavigate();
   const { words, loading, error } = useDictionaryIndex();
 
@@ -36,7 +38,7 @@ export function RhymeGalaxy() {
   }
 
   return (
-    <div className="rhyme-galaxy">
+    <div className="rhyme-galaxy" role="main" aria-label="Rhyme Galaxy - Explore rhyme relationships in galaxy view">
       <div className="rhyme-galaxy__header">
         <Link to="/dictionary" className="rhyme-galaxy__back">
           <ArrowLeft size={20} />

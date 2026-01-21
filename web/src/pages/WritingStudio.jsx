@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { usePageTitle } from '../lib/usePageTitle';
 import {
   Download,
   FolderPlus,
@@ -20,10 +21,13 @@ import {
   Maximize
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useWorkspace } from '../lib/WorkspaceContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
+import { useUserPreferences } from '../contexts/UserPreferencesContext';
 import { useSearchIndex } from '../lib/hooks';
+import { exportWorkspaceAsMarkdown, exportAsText, exportAsJSON } from '../lib/exportUtils';
 import { Badge } from '../components/ui';
 import { WorkspaceGraph } from '../components/WorkspaceGraph';
+import { DraggableCard, DropZone } from '../components/workspace';
 import { ConceptRecommender } from '../components/ConceptRecommender';
 import { GhostModule } from '../components/GhostModule';
 import { RhymeSchemeAnalyzer } from '../components/RhymeSchemeAnalyzer';
@@ -31,6 +35,8 @@ import { ImmersiveMode } from '../components/ImmersiveMode';
 import './WritingStudio.css';
 
 export function WritingStudio() {
+  usePageTitle('Writing Studio');
+  const { preferences } = useUserPreferences();
   const {
     items,
     sections,
@@ -60,15 +66,17 @@ export function WritingStudio() {
     return localStorage.getItem('jazer_writing_studio_text') || '';
   });
   const [copySuccess, setCopySuccess] = useState(false);
+  const [copyError, setCopyError] = useState(null);
   const textareaRef = useRef(null);
 
   // Auto-save writing text
   useEffect(() => {
+    const frequency = preferences?.layout?.autoSaveFrequency ?? 500;
     const timer = setTimeout(() => {
       localStorage.setItem('jazer_writing_studio_text', writingText);
-    }, 500);
+    }, frequency);
     return () => clearTimeout(timer);
-  }, [writingText]);
+  }, [writingText, preferences?.layout?.autoSaveFrequency]);
 
   const wordCount = writingText.trim().split(/\s+/).filter(Boolean).length;
   const charCount = writingText.length;
@@ -76,58 +84,37 @@ export function WritingStudio() {
 
   const handleExport = () => {
     const text = exportWorkspace();
-    const blob = new Blob([text], { type: 'text/markdown' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `verse-board-${Date.now()}.md`;
-    a.click();
-    URL.revokeObjectURL(url);
+    exportWorkspaceAsMarkdown(text);
   };
 
   const handleExportWriting = () => {
-    const blob = new Blob([writingText], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `writing-${Date.now()}.txt`;
-    a.click();
-    URL.revokeObjectURL(url);
+    exportAsText(writingText);
   };
 
   const handleExportJSON = () => {
-    const exportData = {
-      content: writingText,
-      metadata: {
-        wordCount,
-        lineCount,
-        charCount,
-        timestamp: new Date().toISOString(),
-        references: items.map(item => ({
-          title: item.title,
-          type: item.type,
-          section: item.sectionId,
-          notes: item.notes
-        }))
-      }
-    };
-
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `writing-${Date.now()}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+    exportAsJSON(writingText, {
+      wordCount,
+      lineCount,
+      charCount,
+      references: items.map(item => ({
+        title: item.title,
+        type: item.type,
+        section: item.sectionId,
+        notes: item.notes
+      }))
+    });
   };
 
   const handleCopyToClipboard = async () => {
     try {
+      setCopyError(null);
       await navigator.clipboard.writeText(writingText);
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);
     } catch (err) {
       console.error('Failed to copy:', err);
+      setCopyError('Failed to copy to clipboard');
+      setTimeout(() => setCopyError(null), 3000);
     }
   };
 
@@ -146,6 +133,13 @@ export function WritingStudio() {
       addSection(newSectionName.trim());
       setNewSectionName('');
       setShowNewSection(false);
+    }
+  };
+
+  const handleItemDrop = (data) => {
+    const { id, type, dropZoneId } = data;
+    if (id && type && dropZoneId) {
+      updateItemSection(id, type, dropZoneId);
     }
   };
 
@@ -245,7 +239,11 @@ export function WritingStudio() {
 
   return (
     <>
-      <div className={`writing-studio ${showGhost ? 'with-ghost' : ''}`}>
+      <div
+        className={`writing-studio ${showGhost ? 'with-ghost' : ''}`}
+        role="main"
+        aria-label="Writing Studio - Create and analyze lyrics"
+      >
         <div className="writing-studio__header">
           <div className="writing-studio__title">
             <Edit3 size={24} />
@@ -255,19 +253,24 @@ export function WritingStudio() {
             <span className="stat"><strong>{wordCount}</strong> words</span>
             <span className="stat"><strong>{lineCount}</strong> lines</span>
             <button 
+              type="button"
               className="btn-immersive"
               onClick={() => setImmersiveModeOpen(true)}
               title="Enter Immersive Mode"
+              aria-label="Enter Immersive Mode"
             >
-              <Maximize size={14} />
+              <Maximize size={14} aria-hidden="true" />
               <span>Immersive</span>
             </button>
             <button 
+              type="button"
               className={`btn-ghost-toggle ${showGhost ? 'active' : ''}`}
               onClick={() => setShowGhost(!showGhost)}
               title="Toggle Ghost Assistant"
+              aria-label={showGhost ? "Disable Ghost Assistant" : "Enable Ghost Assistant"}
+              aria-pressed={showGhost}
             >
-              <Zap size={14} className={showGhost ? 'text-accent' : ''} />
+              <Zap size={14} className={showGhost ? 'text-accent' : ''} aria-hidden="true" />
             </button>
         </div>
       </div>
@@ -280,48 +283,59 @@ export function WritingStudio() {
         />
 
         {/* Left Sidebar - Workspace Items */}
-        <aside className={`writing-studio__sidebar ${sidebarOpen ? 'is-open' : ''}`}>
+        <aside className={`writing-studio__sidebar ${sidebarOpen ? 'is-open' : ''}`} aria-label="Reference board - Pinned words and entities for writing">
            {/* ... existing sidebar code ... */}
            <div className="sidebar__header">
             <h2>Reference Board</h2>
             <div className="sidebar__actions">
               <button
+                type="button"
                 className="sidebar__action"
                 onClick={() => setShowRecommender(true)}
                 title="Get Recommendations"
+                aria-label="Get Recommendations"
               >
-                <Sparkles size={14} className="text-accent" />
+                <Sparkles size={14} className="text-accent" aria-hidden="true" />
               </button>
               <button
+                type="button"
                 className="sidebar__action"
                 onClick={() => setShowGraph(true)}
                 disabled={items.length === 0}
                 title="View Relationship Map"
+                aria-label="View Relationship Map"
               >
-                <Network size={14} />
+                <Network size={14} aria-hidden="true" />
               </button>
               <button
+                type="button"
                 className="sidebar__action"
                 onClick={handleExport}
                 disabled={items.length === 0}
                 title="Export References"
+                aria-label="Export References"
               >
-                <Download size={14} />
+                <Download size={14} aria-hidden="true" />
               </button>
               <button
+                type="button"
                 className="sidebar__action"
                 onClick={() => setShowNewSection(!showNewSection)}
                 title="Add Section"
+                aria-label="Add Section"
+                aria-expanded={showNewSection}
               >
-                <FolderPlus size={14} />
+                <FolderPlus size={14} aria-hidden="true" />
               </button>
               <button
+                type="button"
                 className="sidebar__action sidebar__action--danger"
                 onClick={clearWorkspace}
                 disabled={items.length === 0}
                 title="Clear All"
+                aria-label="Clear All"
               >
-                <Trash2 size={14} />
+                <Trash2 size={14} aria-hidden="true" />
               </button>
             </div>
           </div>
@@ -373,23 +387,34 @@ export function WritingStudio() {
                         )}
                       </div>
 
-                      <div className="sidebar-section__items">
+                      <DropZone
+                        id={section.id}
+                        acceptTypes={['card', 'entity', 'word']}
+                        onDrop={handleItemDrop}
+                        className="sidebar-section__items"
+                        label={`Drop zone for ${section.name}`}
+                      >
                         {sectionItems.map((item) => (
-                          <div key={`${item.type}-${item.id}`} className="sidebar-item">
-                            <div className="sidebar-item__drag">
-                              <GripVertical size={12} />
-                            </div>
+                          <DraggableCard
+                            key={`${item.type}-${item.id}`}
+                            id={item.id}
+                            type={item.type}
+                            label={item.title}
+                            className="sidebar-item"
+                          >
                             <div className="sidebar-item__main">
                               <div className="sidebar-item__header">
                                 <Link to={item.link} className="sidebar-item__title">
                                   {item.title}
                                 </Link>
                                 <button
+                                  type="button"
                                   className="sidebar-item__copy"
                                   onClick={() => copyToEditor(item.title)}
                                   title="Insert into editor"
+                                  aria-label={`Insert ${item.title} into editor`}
                                 >
-                                  <Copy size={12} />
+                                  <Copy size={12} aria-hidden="true" />
                                 </button>
                               </div>
                               {item.subtitle && (
@@ -400,6 +425,7 @@ export function WritingStudio() {
                                 className="sidebar-item__section-select"
                                 value={item.sectionId}
                                 onChange={(e) => updateItemSection(item.id, item.type, e.target.value)}
+                                aria-label="Change section"
                               >
                                 {sections.map((s) => (
                                   <option key={s.id} value={s.id}>{s.name}</option>
@@ -413,9 +439,10 @@ export function WritingStudio() {
                                     onChange={(e) => setNotesText(e.target.value)}
                                     placeholder="Add notes..."
                                     autoFocus
+                                    aria-label="Edit notes"
                                   />
-                                  <button onClick={() => saveNotes(item.id, item.type)}>Save</button>
-                                  <button onClick={() => setEditingNotes(null)}>Cancel</button>
+                                  <button type="button" onClick={() => saveNotes(item.id, item.type)}>Save</button>
+                                  <button type="button" onClick={() => setEditingNotes(null)}>Cancel</button>
                                 </div>
                               ) : (
                                 <div className="sidebar-item__notes">
@@ -423,30 +450,34 @@ export function WritingStudio() {
                                     <p onClick={() => startEditingNotes(item)}>{item.notes}</p>
                                   ) : (
                                     <button
+                                      type="button"
                                       className="sidebar-item__add-notes"
                                       onClick={() => startEditingNotes(item)}
+                                      aria-label="Add notes"
                                     >
-                                      <Plus size={10} /> notes
+                                      <Plus size={10} aria-hidden="true" /> notes
                                     </button>
                                   )}
                                 </div>
                               )}
                             </div>
                             <div className="sidebar-item__actions">
-                              <Link to={item.link} className="sidebar-action" title="View Details">
-                                <ExternalLink size={12} />
+                              <Link to={item.link} className="sidebar-action" title="View Details" aria-label="View Details">
+                                <ExternalLink size={12} aria-hidden="true" />
                               </Link>
                               <button
+                                type="button"
                                 className="sidebar-action sidebar-action--danger"
                                 onClick={() => removeItem(item.id, item.type)}
                                 title="Remove"
+                                aria-label="Remove from workspace"
                               >
-                                <X size={12} />
+                                <X size={12} aria-hidden="true" />
                               </button>
                             </div>
-                          </div>
+                          </DraggableCard>
                         ))}
-                      </div>
+                      </DropZone>
                     </div>
                   );
                 })}
@@ -456,36 +487,43 @@ export function WritingStudio() {
         </aside>
 
         {/* Main Editor Area */}
-        <main className="writing-studio__main">
+        <main className="writing-studio__main" aria-label="Text editor for writing lyrics and verses">
           <div className="editor__toolbar">
             <button
+              type="button"
               className="editor__button"
               onClick={handleExportWriting}
               disabled={!writingText.trim()}
               title="Export as TXT"
+              aria-label="Export writing as text file"
             >
-              <Download size={16} />
+              <Download size={16} aria-hidden="true" />
               Export TXT
             </button>
             <button
+              type="button"
               className="editor__button"
               onClick={handleExportJSON}
               disabled={!writingText.trim()}
               title="Export as JSON"
+              aria-label="Export writing and metadata as JSON"
             >
-              <FileJson size={16} />
+              <FileJson size={16} aria-hidden="true" />
               Export JSON
             </button>
             <button
-              className="editor__button"
+              type="button"
+              className={`editor__button ${copySuccess ? 'success' : ''} ${copyError ? 'error' : ''}`}
               onClick={handleCopyToClipboard}
               disabled={!writingText.trim()}
               title="Copy to Clipboard"
+              aria-label="Copy writing to clipboard"
             >
-              {copySuccess ? <Check size={16} /> : <Copy size={16} />}
-              {copySuccess ? 'Copied!' : 'Copy'}
+              {copySuccess ? <Check size={16} aria-hidden="true" /> : <Copy size={16} aria-hidden="true" />}
+              {copySuccess ? 'Copied!' : (copyError ? 'Error!' : 'Copy')}
             </button>
             <button
+              type="button"
               className="editor__button"
               onClick={() => {
                 if (confirm('Clear all writing? This cannot be undone.')) {
@@ -494,10 +532,12 @@ export function WritingStudio() {
               }}
               disabled={!writingText.trim()}
               title="Clear Writing"
+              aria-label="Clear all writing"
             >
-              <FileText size={16} />
+              <FileText size={16} aria-hidden="true" />
               Clear
             </button>
+            {copyError && <span className="editor__toolbar-error" role="alert">{copyError}</span>}
           </div>
 
           <textarea

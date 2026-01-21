@@ -8,11 +8,13 @@
 
 // Use Vite alias to access parent directory data
 // The @data alias is configured in vite.config.js
-const entityModules = import.meta.glob('@data/*/entities/*.json', { eager: true });
+// Vite requires globs to start with "/" or "./"
+const entityModules = import.meta.glob('/@data/*/entities/*.json', { eager: true });
 
 // Process into usable format
 const allEntities = [];
 const domainMap = {};
+const entitySearchIndex = [];
 
 for (const [path, module] of Object.entries(entityModules)) {
   // Extract domain from path like "@data/music/entities/kendrick-lamar.json"
@@ -21,15 +23,13 @@ for (const [path, module] of Object.entries(entityModules)) {
   const dataIndex = pathParts.findIndex(p => p === '@data' || p.includes('data'));
   const domain = pathParts[dataIndex + 1] || pathParts[1]; // Gets "music"
   
-  const entity = module.default || module;
+  const rawEntity = module.default || module;
   
   // Skip if no data
-  if (!entity || !entity.id) continue;
+  if (!rawEntity || !rawEntity.id) continue;
   
-  // Add domain to entity if not present
-  if (!entity.domain) {
-    entity.domain = domain;
-  }
+  // Normalize entity without mutating module data
+  const entity = rawEntity.domain ? { ...rawEntity } : { ...rawEntity, domain };
   
   // Add to domain map
   if (!domainMap[domain]) {
@@ -37,6 +37,19 @@ for (const [path, module] of Object.entries(entityModules)) {
   }
   domainMap[domain].push(entity);
   allEntities.push(entity);
+
+  const searchable = [
+    entity.name,
+    (entity.aliases || []).join(' '),
+    (entity.tags || []).join(' '),
+    entity.one_liner,
+    entity.id
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  entitySearchIndex.push({ entity, search: searchable });
 }
 
 // Export organized data
@@ -58,24 +71,16 @@ export function searchEntities(query, options = {}) {
   const { domain = null, limit = 50 } = options;
   const q = query.toLowerCase();
   
-  let results = allEntities;
+  let results = entitySearchIndex;
   
   // Filter by domain if specified
   if (domain) {
-    results = results.filter(e => e.domain === domain);
+    results = results.filter(({ entity }) => entity.domain === domain);
   }
   
-  // Search in name, aliases, tags, one_liner
-  results = results.filter(e => {
-    const name = (e.name || '').toLowerCase();
-    const aliases = (e.aliases || []).join(' ').toLowerCase();
-    const tags = (e.tags || []).join(' ').toLowerCase();
-    const oneLiner = (e.one_liner || '').toLowerCase();
-    
-    return name.includes(q) || aliases.includes(q) || tags.includes(q) || oneLiner.includes(q);
-  });
+  results = results.filter(({ search }) => search.includes(q));
   
-  return results.slice(0, limit);
+  return results.slice(0, limit).map(({ entity }) => entity);
 }
 
 // Get entity by ID
@@ -113,4 +118,6 @@ export function getAllEntities() {
   }));
 }
 
-console.log(`[Knowledge Hub] Loaded ${stats.totalEntities} entities from ${stats.totalDomains} domains`);
+if (import.meta.env.DEV) {
+  console.log(`[Knowledge Hub] Loaded ${stats.totalEntities} entities from ${stats.totalDomains} domains`);
+}

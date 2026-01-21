@@ -5,26 +5,34 @@
 
 const CACHE_NAME = 'jazer-rhyme-book-v1';
 const OFFLINE_URL = '/offline.html';
+const IS_DEV = false; // Set via build process if needed
 
 // Assets to cache immediately on install
 const PRECACHE_URLS = [
   '/',
   '/index.html',
   '/offline.html',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/manifest.json'
+  '/manifest.json',
+  '/icon.svg',
+  '/logo.svg'
 ];
 
 // Install event - precache essential assets
 self.addEventListener('install', (event) => {
-  console.log('[ServiceWorker] Install');
+  if (IS_DEV) console.log('[ServiceWorker] Install');
   
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
-        console.log('[ServiceWorker] Precaching app shell');
-        return cache.addAll(PRECACHE_URLS);
+        if (IS_DEV) console.log('[ServiceWorker] Precaching app shell');
+        // Try to cache, but don't fail if some files are missing
+        return Promise.allSettled(
+          PRECACHE_URLS.map(url => 
+            cache.add(url).catch(err => {
+              if (IS_DEV) console.warn(`[ServiceWorker] Failed to cache ${url}:`, err);
+            })
+          )
+        );
       })
       .then(() => self.skipWaiting())
   );
@@ -32,14 +40,14 @@ self.addEventListener('install', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
-  console.log('[ServiceWorker] Activate');
+  if (IS_DEV) console.log('[ServiceWorker] Activate');
   
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
-            console.log('[ServiceWorker] Removing old cache:', cacheName);
+            if (IS_DEV) console.log('[ServiceWorker] Removing old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })

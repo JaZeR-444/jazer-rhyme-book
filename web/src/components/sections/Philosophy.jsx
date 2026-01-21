@@ -10,7 +10,7 @@
  * - Progressive disclosure of chapters
  */
 
-import { useRef } from 'react';
+import { useMemo, useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAPContext } from '../motion/useGSAPContext';
 import { philosophy } from '../../lib/data/philosophy';
@@ -19,8 +19,14 @@ import './Philosophy.css';
 
 export function Philosophy({ id }) {
   const sectionRef = useRef(null);
+  const reduceMotion = useMemo(() => (
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ), []);
   
   useGSAPContext(() => {
+    if (reduceMotion) return;
+
     // Header entrance
     gsap.fromTo(
       '.philosophy-header',

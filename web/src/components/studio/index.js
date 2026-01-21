@@ -8,3 +8,5 @@ export { ShareDialog } from './ShareDialog';
 export { ExportDialog } from './ExportDialog';
 export { FeedbackPanel } from './FeedbackPanel';
 export { TemplatesLibrary } from './TemplatesLibrary';
+export { BeatLibraryManager } from './BeatLibraryManager';
+export { BeatUploader } from './BeatUploader';

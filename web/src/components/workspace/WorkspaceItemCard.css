@@ -114,6 +114,13 @@
   cursor: pointer;
   transition: all var(--duration-short, 300ms);
   text-decoration: none;
+  outline: none;
+}
+
+.workspace-item-card__action:focus-visible {
+  outline: 2px solid var(--accent-neon, hsl(180, 100%, 50%));
+  outline-offset: 2px;
+  border-color: var(--accent-neon, hsl(180, 100%, 50%));
 }
 
 .workspace-item-card__action:hover {

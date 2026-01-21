@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, Command, X, ArrowRight, BookOpen, Database, Code, FileText, Info, Activity } from 'lucide-react';
+import { Search, Command, X, ArrowRight, BookOpen, Database, Code, FileText, Info, Activity, BarChart3, Zap } from 'lucide-react';
 import Fuse from 'fuse.js';
 import { useSearchIndex } from '../lib/hooks';
 import './CommandPalette.css';
@@ -8,11 +8,13 @@ import './CommandPalette.css';
 export function CommandPalette() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [results, setResults] = useState([]);
   
   const navigate = useNavigate();
   const inputRef = useRef(null);
+  const modalRef = useRef(null);
   const { searchIndex } = useSearchIndex();
 
   // Static navigation items
@@ -21,8 +23,11 @@ export function CommandPalette() {
     { type: 'nav', name: 'Domains', path: '/domains', icon: <Database /> },
     { type: 'nav', name: 'Dictionary', path: '/dictionary', icon: <BookOpen /> },
     { type: 'nav', name: 'Search', path: '/search', icon: <Search /> },
-    { type: 'nav', name: 'Architecture', path: '/about', icon: <Code /> },
-    { type: 'nav', name: 'Documentation', path: '/about', icon: <FileText /> },
+    { type: 'nav', name: 'Studio', path: '/studio', icon: <Activity /> },
+    { type: 'nav', name: 'Architecture', path: '/architecture', icon: <Zap /> },
+    { type: 'nav', name: 'Docs', path: '/docs', icon: <FileText /> },
+    { type: 'nav', name: 'Statistics', path: '/stats', icon: <BarChart3 /> },
+    { type: 'nav', name: 'Settings', path: '/settings', icon: <Code /> },
     { type: 'nav', name: 'About', path: '/about', icon: <Info /> }
   ], []);
 
@@ -30,8 +35,7 @@ export function CommandPalette() {
   const systemCommands = useMemo(() => [
     { type: 'cmd', name: 'Toggle Studio Mode', action: 'toggle_audio', icon: <Activity /> },
     { type: 'cmd', name: 'Clear Workspace', action: 'clear_workspace', icon: <X /> },
-    { type: 'cmd', name: 'System Reboot (Reload)', action: 'reload', icon: <Command /> },
-    { type: 'cmd', name: 'Switch Theme', action: 'theme', icon: <Command /> }
+    { type: 'cmd', name: 'System Reboot (Reload)', action: 'reload', icon: <Command /> }
   ], []);
 
   // Initialize Fuse
@@ -76,29 +80,41 @@ export function CommandPalette() {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 100);
       setQuery('');
+      setDebouncedQuery('');
       setSelectedIndex(0);
     }
   }, [isOpen]);
 
-  // Search logic
+  // Debounce query input
   useEffect(() => {
-    if (!fuses && query) return;
+    const timer = setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 150);
+    
+    return () => clearTimeout(timer);
+  }, [query]);
 
-    if (!query) {
+  // Search logic (using debounced query)
+  useEffect(() => {
+    if (!fuses && debouncedQuery) return;
+
+    if (!debouncedQuery) {
       setResults(navItems.slice(0, 5));
       return;
     }
 
-    const navResults = fuses.nav.search(query).map(r => ({ ...r.item, type: 'nav' }));
-    const entityResults = fuses.entities ? fuses.entities.search(query).map(r => ({ ...r.item, type: 'entity' })).slice(0, 5) : [];
-    const wordResults = fuses.words ? fuses.words.search(query).map(r => ({ ...r.item, type: 'word' })).slice(0, 5) : [];
+    const navResults = fuses.nav.search(debouncedQuery).map(r => ({ ...r.item, type: 'nav' }));
+    const entityResults = fuses.entities ? fuses.entities.search(debouncedQuery).map(r => ({ ...r.item, type: 'entity' })).slice(0, 5) : [];
+    const wordResults = fuses.words ? fuses.words.search(debouncedQuery).map(r => ({ ...r.item, type: 'word' })).slice(0, 5) : [];
 
     setResults([...navResults, ...entityResults, ...wordResults].slice(0, 10));
     setSelectedIndex(0);
-  }, [query, fuses, navItems]);
+  }, [debouncedQuery, fuses, navItems]);
 
   // Keyboard navigation logic
   const handleKeyDown = (e) => {
+    if (results.length === 0) return;
+    
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       setSelectedIndex(prev => (prev + 1) % results.length);
@@ -138,11 +154,20 @@ export function CommandPalette() {
   if (!isOpen) return null;
 
   return (
-    <div className="cmd-overlay" onClick={() => setIsOpen(false)}>
-      <div className="cmd-modal" onClick={e => e.stopPropagation()}>
+    <div className="cmd-overlay" onClick={() => setIsOpen(false)} role="dialog" aria-modal="true" aria-labelledby="cmd-title">
+      <div 
+        ref={modalRef}
+        className="cmd-modal" 
+        onClick={e => e.stopPropagation()}
+        role="search"
+      >
         <div className="cmd-header">
-          <Search className="cmd-icon" size={20} />
+          <Search className="cmd-icon" size={20} aria-hidden="true" />
+          <label htmlFor="cmd-search" className="sr-only" id="cmd-title">
+            Command Palette Search
+          </label>
           <input
+            id="cmd-search"
             ref={inputRef}
             type="text"
             className="cmd-input"
@@ -150,16 +175,26 @@ export function CommandPalette() {
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
+            aria-autocomplete="list"
+            aria-controls="cmd-results-list"
+            aria-activedescendant={results.length > 0 ? `cmd-item-${selectedIndex}` : undefined}
           />
-          <button className="cmd-close" onClick={() => setIsOpen(false)}>
+          <button 
+            className="cmd-close" 
+            onClick={() => setIsOpen(false)}
+            aria-label="Close command palette"
+          >
             <div className="cmd-shortcut">ESC</div>
           </button>
         </div>
         
-        <div className="cmd-results">
+        <div className="cmd-results" id="cmd-results-list" role="listbox">
           {results.length > 0 ? results.map((item, index) => (
             <div
               key={index}
+              id={`cmd-item-${index}`}
+              role="option"
+              aria-selected={index === selectedIndex}
               className={`cmd-item ${index === selectedIndex ? 'selected' : ''}`}
               onClick={() => handleSelect(item)}
               onMouseEnter={() => setSelectedIndex(index)}

@@ -130,3 +130,14 @@
   color: var(--accent-neon);
   animation: none; /* Handled by GSAP */
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-logo-image {
+    transition: none;
+    filter: drop-shadow(0 0 30px rgba(0, 255, 255, 0.3));
+  }
+
+  .hero-logo-image:hover {
+    filter: drop-shadow(0 0 30px rgba(0, 255, 255, 0.3));
+  }
+}

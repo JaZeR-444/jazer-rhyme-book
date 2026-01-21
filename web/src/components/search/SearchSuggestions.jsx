@@ -109,24 +109,40 @@ export function SearchSuggestions({
 
 /**
  * Helper: Calculate Levenshtein distance for typo detection
+ * Optimized with early termination and dictionary limits
  */
-export function getDidYouMean(query, dictionary) {
+export function getDidYouMean(query, dictionary, maxResults = 3) {
   if (!query || query.length < 2) return [];
+  if (!dictionary || dictionary.length === 0) return [];
 
   const maxDistance = Math.floor(query.length / 3); // Allow 1 typo per 3 chars
   const suggestions = [];
+  const queryLower = query.toLowerCase();
+  
+  // Limit dictionary size for performance
+  const limitedDict = dictionary.slice(0, 5000);
 
-  for (const word of dictionary) {
-    const distance = levenshteinDistance(query.toLowerCase(), word.toLowerCase());
+  for (const word of limitedDict) {
+    const wordLower = word.toLowerCase();
+    
+    // Skip if too different in length
+    if (Math.abs(wordLower.length - queryLower.length) > maxDistance * 2) {
+      continue;
+    }
+    
+    const distance = levenshteinDistance(queryLower, wordLower);
     if (distance > 0 && distance <= maxDistance) {
       suggestions.push({ word, distance });
+      
+      // Early exit if we have enough good suggestions
+      if (suggestions.length >= maxResults * 3) break;
     }
   }
 
-  // Sort by distance and return top 3
+  // Sort by distance and return top results
   return suggestions
     .sort((a, b) => a.distance - b.distance)
-    .slice(0, 3)
+    .slice(0, maxResults)
     .map(s => s.word);
 }
 

@@ -179,7 +179,7 @@
 }
 
 .filter-chip.active {
-  background: var(--gradient-primary);
+  background: var(--brand-gradient);
   border-color: transparent;
   color: #fff;
   box-shadow: 0 10px 26px -18px rgba(139, 92, 246, 0.5);
@@ -187,12 +187,12 @@
 
 .filter-chip.clear {
   background: var(--surface-2);
-  border-color: var(--accent-danger);
-  color: var(--accent-danger);
+  border-color: var(--accent-warm); /* Was accent-danger, assuming warm is close enough or use error color */
+  color: var(--accent-warm);
 }
 
 .filter-chip.clear:hover {
-  background: var(--accent-danger);
+  background: var(--accent-warm);
   color: #fff;
 }
 
@@ -203,7 +203,7 @@
   gap: var(--space-sm);
   margin-top: var(--space-md);
   padding: var(--space-sm) var(--space-lg);
-  background: var(--gradient-secondary);
+  background: var(--brand-gradient); /* Was gradient-secondary */
   color: #fff;
   border: none;
   border-radius: 999px;
@@ -220,6 +220,58 @@
   box-shadow: 0 16px 34px -18px rgba(0, 255, 255, 0.5);
 }
 
+/* ... (rest of the file remains mostly the same, skipping to semantic match color) ... */
+
+.semantic-card__match {
+  font-size: 0.75rem;
+  color: var(--accent-neon); /* Was accent-tertiary */
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+/* ... (end of file) ... */
+
+@media (prefers-reduced-motion: reduce) {
+  .dictionary-card,
+  .dictionary-search-input,
+  .dictionary-page__favorites-btn,
+  .filter-chip,
+  .dictionary-surprise-btn,
+  .featured-card,
+  .featured-link,
+  .letter-card,
+  .letter-card__label,
+  .letter-card__bg,
+  .letter-card::before,
+  .semantic-card {
+    transition: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .dictionary-card:hover,
+  .dictionary-page__favorites-btn:hover,
+  .filter-chip:hover,
+  .dictionary-surprise-btn:hover:not(:disabled),
+  .featured-card:hover,
+  .letter-card:hover,
+  .semantic-card:hover {
+    transform: none !important;
+  }
+  
+  .letter-card__label {
+    opacity: 1;
+    transform: none;
+  }
+}
 .dictionary-surprise-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
@@ -538,7 +590,7 @@
 
 .semantic-card__match {
   font-size: 0.75rem;
-  color: var(--accent-tertiary);
+  color: var(--accent-neon);
   margin-bottom: 1rem;
   font-weight: 600;
   text-transform: uppercase;

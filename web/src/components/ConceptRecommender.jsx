@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import PropTypes from 'prop-types';
 import { X, Sparkles, Plus, Loader, Info } from 'lucide-react';
 import { Button } from './ui';
 import { useSearchIndex } from '../lib/hooks';
@@ -259,3 +260,9 @@ function analyzeConcept(text, index) {
     .sort((a, b) => b.score - a.score)
     .slice(0, 30); // Top 30
 }
+
+ConceptRecommender.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  onAddToBoard: PropTypes.func.isRequired
+};

@@ -141,3 +141,17 @@
     height: 24px;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .range-slider__input::-webkit-slider-thumb,
+  .range-slider__input::-moz-range-thumb {
+    transition: none;
+  }
+
+  .range-slider__input::-webkit-slider-thumb:hover,
+  .range-slider__input::-webkit-slider-thumb:active,
+  .range-slider__input::-moz-range-thumb:hover,
+  .range-slider__input::-moz-range-thumb:active {
+    transform: none;
+  }
+}

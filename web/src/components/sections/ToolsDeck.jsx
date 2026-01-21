@@ -10,7 +10,7 @@
  * - Category filtering (optional future enhancement)
  */
 
-import { useRef } from 'react';
+import { useMemo, useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAPContext } from '../motion/useGSAPContext';
 import { toolCategories } from '../../lib/data/tools';
@@ -19,8 +19,14 @@ import './ToolsDeck.css';
 
 export function ToolsDeck({ id }) {
   const sectionRef = useRef(null);
+  const reduceMotion = useMemo(() => (
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ), []);
   
   useGSAPContext(() => {
+    if (reduceMotion) return;
+
     // Stagger tool cards entrance
     gsap.fromTo(
       '.tool-card',

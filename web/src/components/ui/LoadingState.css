@@ -90,3 +90,11 @@
     display: inline-flex;
     align-items: center;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .mainframe-loader__bar,
+  .mainframe-loader__scan,
+  .loading-state__message::after {
+    animation: none;
+  }
+}

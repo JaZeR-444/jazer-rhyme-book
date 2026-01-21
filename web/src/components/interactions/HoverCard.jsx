@@ -13,11 +13,13 @@ export function HoverCard({
   variant = 'default', // 'default' | 'minimal' | 'detailed'
   position = 'center', // 'center' | 'top' | 'bottom'
   disabled = false,
+  ariaLabel,
   ...props
 }) {
   const [isHovered, setIsHovered] = useState(false);
   const overlayRef = useRef(null);
   const cardRef = useRef(null);
+  const tooltipId = useRef(`hover-card-${Math.random().toString(36).substr(2, 9)}`).current;
 
   useEffect(() => {
     if (!overlayRef.current) return;
@@ -84,6 +86,7 @@ export function HoverCard({
       className={classes}
       onMouseEnter={() => !disabled && setIsHovered(true)}
       onMouseLeave={() => !disabled && setIsHovered(false)}
+      aria-describedby={overlay ? tooltipId : undefined}
       {...props}
     >
       <div className="hover-card__content">
@@ -93,8 +96,11 @@ export function HoverCard({
       {overlay && (
         <div 
           ref={overlayRef}
+          id={tooltipId}
           className="hover-card__overlay"
+          role="tooltip"
           aria-hidden={!isHovered}
+          aria-label={ariaLabel || 'Additional information'}
         >
           {typeof overlay === 'function' ? overlay({ isHovered }) : overlay}
         </div>

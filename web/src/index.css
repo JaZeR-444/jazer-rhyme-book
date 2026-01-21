@@ -6,8 +6,9 @@
  * Dark-mode-first, neon as punctuation, high contrast.
  */
 
-/* Import glassmorphism system */
+/* Import shared style systems */
 @import './styles/glassmorphism.css';
+@import './styles/theme.css';
 
 /* ============================================
    COLOR SYSTEM
@@ -50,6 +51,11 @@
   --border-visible: hsla(0, 0%, 100%, 0.12);
   --overlay-dark: hsla(240, 20%, 6%, 0.8);
   --overlay-glass: hsla(240, 15%, 16%, 0.6);
+  --surface-overlay: hsla(240, 18%, 10%, 0.8);
+
+  /* Glass Effects */
+  --glass-dark: hsla(240, 15%, 8%, 0.8);
+  --glass-border: hsla(0, 0%, 100%, 0.15);
 
   /* ============================================
      TYPOGRAPHY SYSTEM
@@ -68,6 +74,7 @@
   --text-body: 1.125rem;
   --text-small: 0.875rem;
   --text-micro: 0.75rem;
+  --text-tiny: 0.625rem;
 
   /* Line Heights */
   --leading-tight: 1.1;
@@ -107,6 +114,15 @@
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
   --ease-snap: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ============================================
+     BORDER RADIUS
+     ============================================ */
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
 
   /* ============================================
      LAYOUT TOKENS
@@ -153,7 +169,11 @@ body {
   color: var(--text-primary);
   background-color: var(--surface-0);
   overflow-x: hidden;
-  padding-bottom: 80px; /* Safe zone for persistent footer/drawer */
+}
+
+/* Conditional bottom padding for persistent navigation */
+.has-bottom-nav {
+  padding-bottom: 80px;
 }
 
 /* ============================================
@@ -288,19 +308,8 @@ body {
    GLASSMORPHISM UTILITIES
    ============================================ */
 
-.glass {
-  background: var(--overlay-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-}
-
-.glass-dark {
-  background: var(--overlay-dark);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
+/* Glass utilities are defined in styles/glassmorphism.css */
+/* Import that file for comprehensive glassmorphism effects */
 
 /* ============================================
    NEON GLOW UTILITIES
@@ -313,4 +322,33 @@ body {
 .text-glow-neon {
   text-shadow: 0 0 10px var(--accent-neon-glow),
     0 0 20px var(--accent-neon-glow);
+}
+
+/* ============================================
+   SKIP LINK UTILITY
+   ============================================ */
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--surface-0, #000);
+  color: var(--text-primary, #fff);
+  padding: var(--space-sm, 8px);
+  text-decoration: none;
+  z-index: 10000;
+  transition: top var(--duration-short, 0.2s);
+  font-weight: var(--weight-semibold, 600);
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
 }

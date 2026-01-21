@@ -14,13 +14,15 @@ export default function ShareCard({ stats }) {
     try {
       // Simple canvas-based screenshot
       const card = cardRef.current;
-      if (!card) return;
+      if (!card) throw new Error('Card element not found');
 
-      // You can integrate html-to-image library here for better results
-      // For now, prompt user to screenshot manually
-      alert('Right-click the card and select "Save image as..." to download');
+      // Check if html-to-image is available (it would need to be installed)
+      // For now, we provide a helpful message if standard download isn't available
+      console.warn('Download requires html-to-image library or similar implementation.');
+      alert('To download: Right-click the card image and select "Save image as..." (Automatic download coming soon)');
     } catch (error) {
       console.error('Failed to download card:', error);
+      alert('Could not initiate download. Please try taking a screenshot instead.');
     }
   };
 
@@ -32,15 +34,19 @@ export default function ShareCard({ stats }) {
     };
 
     try {
-      if (navigator.share) {
+      if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
         await navigator.share(shareData);
       } else {
         // Fallback: copy to clipboard
-        await navigator.clipboard.writeText(shareData.text + '\n' + shareData.url);
+        await navigator.clipboard.writeText(`${shareData.text}\n${shareData.url}`);
         alert('Stats copied to clipboard!');
       }
     } catch (error) {
       console.error('Error sharing:', error);
+      // Don't alert if user cancelled share
+      if (error.name !== 'AbortError') {
+        alert('Sharing failed. Try copying the URL manually.');
+      }
     }
   };
 

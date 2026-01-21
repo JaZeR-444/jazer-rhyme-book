@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { usePageTitle } from '../lib/usePageTitle';
 import { ArrowLeft, GitCompare, Share2, Copy, Check } from 'lucide-react';
 import { useDictionaryIndex } from '../lib/hooks';
 import { CompareSelect } from '../components/ui/CompareSelect';
@@ -8,6 +9,7 @@ import { VibeRadarChart } from '../components/discovery';
 import './WordCompare.css';
 
 export function WordCompare() {
+  usePageTitle('Compare Words');
   const navigate = useNavigate();
   const { words, loading, error } = useDictionaryIndex();
   const [word1, setWord1] = useState(null);
@@ -62,7 +64,7 @@ Compared using JaZeR Rhyme Book`;
   }
 
   return (
-    <div className="word-compare">
+    <div className="word-compare" role="main" aria-label="Compare words - Analyze and contrast dictionary entries">
       <div className="word-compare__header">
         <Link to="/dictionary" className="word-compare__back">
           <ArrowLeft size={20} />

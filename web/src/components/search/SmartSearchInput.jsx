@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import { Search, X, Loader } from 'lucide-react';
 import './SmartSearchInput.css';
 
@@ -64,16 +65,22 @@ export function SmartSearchInput({
     inputRef.current?.focus();
   };
 
-  // Keyboard shortcuts
+  // Keyboard shortcuts (scoped to component when mounted)
   useEffect(() => {
     const handleKeyDown = (e) => {
-      // Ctrl+K or Cmd+K to focus
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-        e.preventDefault();
-        inputRef.current?.focus();
+      // Only handle shortcuts when input is not already focused
+      // This prevents conflicts with CommandPalette
+      if (!isFocused && (e.ctrlKey || e.metaKey) && e.key === 'k') {
+        // Check if target is not already an input element
+        const isInputElement = e.target instanceof HTMLInputElement || 
+                              e.target instanceof HTMLTextAreaElement;
+        if (!isInputElement && inputRef.current) {
+          e.preventDefault();
+          inputRef.current.focus();
+        }
       }
       
-      // Escape to clear
+      // Escape to clear (only when focused)
       if (e.key === 'Escape' && isFocused) {
         handleClear();
       }

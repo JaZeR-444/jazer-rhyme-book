@@ -1,0 +1,61 @@
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs, 8px);
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--text-secondary, hsl(240, 10%, 60%));
+  text-decoration: none;
+  font-size: var(--text-small, 0.875rem);
+  font-weight: var(--weight-medium, 500);
+  cursor: pointer;
+  transition: all var(--duration-short, 300ms) var(--ease-smooth, cubic-bezier(0.4, 0, 0.2, 1));
+  user-select: none;
+}
+
+.back-button:hover {
+  color: var(--accent-primary, #8B5CF6);
+  background: hsla(250, 95%, 65%, 0.1);
+  transform: translateX(-4px);
+}
+
+.back-button--outline {
+  border-color: var(--border-visible, hsla(0, 0%, 100%, 0.12));
+}
+
+.back-button--solid {
+  background: hsla(0, 0%, 100%, 0.05);
+  border-color: var(--border-visible, hsla(0, 0%, 100%, 0.12));
+}
+
+.back-button--neon {
+  color: var(--accent-neon, #00FFFF);
+  text-shadow: 0 0 8px hsla(180, 100%, 50%, 0.4);
+}
+
+.back-button--neon:hover {
+  background: hsla(180, 100%, 50%, 0.1);
+  border-color: var(--accent-neon, #00FFFF);
+  box-shadow: 0 0 12px hsla(180, 100%, 50%, 0.2);
+}
+
+.back-button__label {
+  letter-spacing: 0.02em;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .back-button:hover {
+    transform: none;
+  }
+}
+
+/* Mobile Tappability */
+@media (max-width: 768px) {
+  .back-button {
+    padding: 12px 16px;
+    min-height: 44px; /* WCAG Target Size */
+  }
+}

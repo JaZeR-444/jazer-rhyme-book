@@ -76,7 +76,13 @@ export function BootSequence({ onComplete, skipable = true }) {
   };
 
   return (
-    <div ref={containerRef} className="boot-sequence">
+    <div
+      ref={containerRef}
+      className="boot-sequence"
+      role="dialog"
+      aria-modal="true"
+      aria-label="System boot sequence"
+    >
       <div className="boot-sequence__container">
         <div className="boot-sequence__header">
           <div className="boot-sequence__logo">
@@ -87,7 +93,7 @@ export function BootSequence({ onComplete, skipable = true }) {
           <div className="boot-sequence__subtitle">Master Flow Knowledge Hub v2.1.0</div>
         </div>
 
-        <div className="boot-sequence__terminal">
+        <div className="boot-sequence__terminal" role="status" aria-live="polite">
           {logs.map((log, index) => (
             <div 
               key={index} 

@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Search } from "lucide-react";
+import { createFocusTrap } from "../../lib/accessibility";
+import { useScrollLock } from "../../contexts/ScrollLockProvider";
 import "./MobileHeader.css";
 
 export function MobileHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const menuRef = useRef(null);
+  const { lock, unlock } = useScrollLock();
 
   const toggleMenu = () => setIsMenuOpen((v) => !v);
   const closeMenu = () => setIsMenuOpen(false);
@@ -18,15 +22,16 @@ export function MobileHeader() {
 
   // Lock body scroll while menu is open
   useEffect(() => {
-    if (!isMenuOpen) return;
-
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
+    if (isMenuOpen) {
+      lock();
+    } else {
+      unlock();
+    }
 
     return () => {
-      document.body.style.overflow = prevOverflow;
+      if (isMenuOpen) unlock();
     };
-  }, [isMenuOpen]);
+  }, [isMenuOpen, lock, unlock]);
 
   // Close on Escape
   useEffect(() => {
@@ -38,6 +43,13 @@ export function MobileHeader() {
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    if (!isMenuOpen || !menuRef.current) return undefined;
+    const cleanup = createFocusTrap(menuRef.current);
+    menuRef.current.focus();
+    return cleanup;
   }, [isMenuOpen]);
 
   return (
@@ -71,21 +83,58 @@ export function MobileHeader() {
       )}
 
       {/* Mobile Menu Overlay */}
-      <div className={`mobile-menu-overlay ${isMenuOpen ? "active" : ""}`}>
-        <nav id="mobile-menu" className="mobile-menu" aria-label="Mobile menu">
-          <Link to="/" className="mobile-menu-item" onClick={closeMenu}>
+      <div
+        className={`mobile-menu-overlay ${isMenuOpen ? "active" : ""}`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile menu"
+        aria-hidden={!isMenuOpen}
+      >
+        <nav
+          id="mobile-menu"
+          className="mobile-menu"
+          aria-label="Mobile menu"
+          ref={menuRef}
+          tabIndex={-1}
+        >
+          <Link
+            to="/"
+            className="mobile-menu-item"
+            onClick={closeMenu}
+            aria-current={location.pathname === "/" ? "page" : undefined}
+          >
             Home
           </Link>
-          <Link to="/dictionary" className="mobile-menu-item" onClick={closeMenu}>
+          <Link
+            to="/dictionary"
+            className="mobile-menu-item"
+            onClick={closeMenu}
+            aria-current={location.pathname.startsWith("/dictionary") ? "page" : undefined}
+          >
             Dictionary
           </Link>
-          <Link to="/domains" className="mobile-menu-item" onClick={closeMenu}>
+          <Link
+            to="/domains"
+            className="mobile-menu-item"
+            onClick={closeMenu}
+            aria-current={location.pathname.startsWith("/domains") ? "page" : undefined}
+          >
             Domains
           </Link>
-          <Link to="/studio" className="mobile-menu-item" onClick={closeMenu}>
+          <Link
+            to="/studio"
+            className="mobile-menu-item"
+            onClick={closeMenu}
+            aria-current={location.pathname.startsWith("/studio") ? "page" : undefined}
+          >
             Studio
           </Link>
-          <Link to="/search" className="mobile-menu-item" onClick={closeMenu}>
+          <Link
+            to="/search"
+            className="mobile-menu-item"
+            onClick={closeMenu}
+            aria-current={location.pathname.startsWith("/search") ? "page" : undefined}
+          >
             Search
           </Link>
         </nav>

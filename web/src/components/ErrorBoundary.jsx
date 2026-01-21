@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './ErrorBoundary.css';
 
 /**
@@ -22,7 +23,7 @@ export class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     // Log error to console in development
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       try {
         console.error('Error caught by boundary:', String(error?.message || error));
         if (errorInfo?.componentStack) {
@@ -45,20 +46,18 @@ export class ErrorBoundary extends React.Component {
 
   logErrorToService = (error, errorInfo) => {
     // Implement error tracking service integration here
-    // Example: Sentry.captureException(error, { extra: errorInfo });
     
-    // For now, log to localStorage for debugging
+    // For now, log to localStorage for debugging (max 10 entries)
     try {
       const errorLog = {
         timestamp: new Date().toISOString(),
-        message: String(error?.message || error || 'Unknown error'),
-        stack: String(error?.stack || ''),
-        componentStack: String(errorInfo?.componentStack || ''),
-        userAgent: navigator.userAgent,
-        url: window.location.href
+        message: String(error?.message || error || 'Unknown error').slice(0, 500),
+        stack: String(error?.stack || '').slice(0, 1000),
+        componentStack: String(errorInfo?.componentStack || '').slice(0, 1000),
+        url: window.location.href.slice(0, 200)
       };
 
-      const existingLogs = JSON.parse(localStorage.getItem('errorLogs') || '[]');
+      const existingLogs = JSON.parse(localStorage.getItem('jazer_error_logs') || '[]');
       existingLogs.push(errorLog);
       
       // Keep only last 10 errors
@@ -66,9 +65,9 @@ export class ErrorBoundary extends React.Component {
         existingLogs.shift();
       }
 
-      localStorage.setItem('errorLogs', JSON.stringify(existingLogs));
+      localStorage.setItem('jazer_error_logs', JSON.stringify(existingLogs));
     } catch (e) {
-      // Silently fail
+      // Silently fail (e.g. storage full)
     }
   };
 
@@ -85,7 +84,8 @@ export class ErrorBoundary extends React.Component {
   };
 
   handleGoHome = () => {
-    window.location.href = '/';
+    // Use hash-routing aware navigation if needed, or standard home
+    window.location.href = window.location.pathname + (window.location.hash ? '#/' : '');
   };
 
   render() {
@@ -105,17 +105,17 @@ export class ErrorBoundary extends React.Component {
 
       // Default error UI
       return (
-        <div className={`error-boundary error-boundary--${level}`}>
+        <div className={`error-boundary error-boundary--${level}`} role="alert" aria-live="assertive">
           <div className="error-boundary__content">
-            <div className="error-boundary__icon">⚠️</div>
-            <h1 className="error-boundary__title">Oops! Something went wrong</h1>
+            <div className="error-boundary__icon" aria-hidden="true">⚠️</div>
+            <h1 className="error-boundary__title">Oops! System Error</h1>
             <p className="error-boundary__message">
-              We apologize for the inconvenience. An unexpected error occurred.
+              The mainframe encountered an unexpected exception during processing.
             </p>
 
-            {process.env.NODE_ENV === 'development' && error && (
+            {import.meta.env.DEV && error && (
               <details className="error-boundary__details">
-                <summary>Error Details (Development Only)</summary>
+                <summary>Diagnostic Data (Dev Only)</summary>
                 <pre className="error-boundary__stack">
                   <strong>Error:</strong> {error.toString()}
                   {'\n\n'}
@@ -138,7 +138,7 @@ export class ErrorBoundary extends React.Component {
                   className="error-boundary__button error-boundary__button--primary"
                   onClick={this.handleReset}
                 >
-                  Try Again
+                  Attempt Recovery
                 </button>
               )}
               
@@ -146,22 +146,20 @@ export class ErrorBoundary extends React.Component {
                 className="error-boundary__button error-boundary__button--secondary"
                 onClick={this.handleReload}
               >
-                Reload Page
+                Reboot Session
               </button>
 
-              {level === 'route' && (
-                <button 
-                  className="error-boundary__button error-boundary__button--tertiary"
-                  onClick={this.handleGoHome}
-                >
-                  Go to Home
-                </button>
-              )}
+              <button 
+                className="error-boundary__button error-boundary__button--tertiary"
+                onClick={this.handleGoHome}
+              >
+                Return to Base
+              </button>
             </div>
 
             {errorCount >= 3 && (
               <p className="error-boundary__warning">
-                Multiple errors detected. Please try reloading the page or clearing your browser cache.
+                Critical instability detected. Please clear browser cache or contact support if the issue persists.
               </p>
             )}
           </div>
@@ -173,6 +171,19 @@ export class ErrorBoundary extends React.Component {
   }
 }
 
+ErrorBoundary.propTypes = {
+  children: PropTypes.node.isRequired,
+  fallback: PropTypes.node,
+  onError: PropTypes.func,
+  showDetails: PropTypes.bool
+};
+
+ErrorBoundary.defaultProps = {
+  fallback: null,
+  onError: null,
+  showDetails: false
+};
+
 // Functional wrapper for easy use
 export const withErrorBoundary = (Component, errorBoundaryProps = {}) => {
   return (props) => (
@@ -182,5 +193,4 @@ export const withErrorBoundary = (Component, errorBoundaryProps = {}) => {
   );
 };
 
-// Default export
 export default ErrorBoundary;

@@ -10,7 +10,7 @@
  * - Era dots indicate current position
  */
 
-import { useRef, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAPContext } from '../motion/useGSAPContext';
@@ -20,9 +20,17 @@ import './EraTimeline.css';
 
 export function EraTimeline({ id }) {
   const sectionRef = useRef(null);
+  const cardRefs = useRef([]);
   const [activeEraIndex, setActiveEraIndex] = useState(0);
+  const reduceMotion = useMemo(() => (
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ), []);
   
   useGSAPContext(() => {
+    if (reduceMotion) return;
+    gsap.registerPlugin(ScrollTrigger);
+
     const eraCards = gsap.utils.toArray('.era-card');
     
     eraCards.forEach((card, index) => {
@@ -57,6 +65,12 @@ export function EraTimeline({ id }) {
       );
     });
   }, { scope: sectionRef });
+
+  const handleEraNavClick = (index) => {
+    const target = cardRefs.current[index];
+    if (!target) return;
+    target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+  };
   
   return (
     <section id={id} ref={sectionRef} className="era-timeline">
@@ -69,16 +83,20 @@ export function EraTimeline({ id }) {
             style={{ '--era-color': era.color }}
             aria-label={`${era.name} era`}
             aria-current={index === activeEraIndex ? 'true' : undefined}
+            onClick={() => handleEraNavClick(index)}
           />
         ))}
       </nav>
       
       {/* Era Cards */}
-      {eras.map((era) => (
+      {eras.map((era, index) => (
         <article
           key={era.id}
           className="era-card section"
           style={{ '--era-color': era.color }}
+          ref={(el) => {
+            cardRefs.current[index] = el;
+          }}
         >
           <div className="era-background" aria-hidden="true">
             <div 

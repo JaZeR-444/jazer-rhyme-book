@@ -8,7 +8,7 @@
  * DATA SOURCE: src/lib/data/knowledgeHub.js (curated from data/music, data/people)
  */
 
-import { useRef } from 'react';
+import { useMemo, useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAPContext } from '../motion/useGSAPContext';
 import { featuredInfluences, hubStats } from '../../lib/data/knowledgeHub';
@@ -17,8 +17,14 @@ import './InfluencesGrid.css';
 
 export function InfluencesGrid({ id }) {
   const sectionRef = useRef(null);
+  const reduceMotion = useMemo(() => (
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ), []);
   
   useGSAPContext(() => {
+    if (reduceMotion) return;
+
     // Stats entrance
     gsap.fromTo(
       '.hub-stats',

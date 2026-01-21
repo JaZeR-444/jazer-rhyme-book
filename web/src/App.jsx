@@ -8,14 +8,15 @@ import { ScanningLines } from './components/motion/ScanningLines';
 import { MobileNavigation } from './components/mobile/MobileNavigation';
 
 import { FeedbackProvider } from './components/interactions';
-import { UserPreferencesProvider } from './lib/UserPreferencesContext';
-import { SearchHistoryProvider } from './lib/SearchHistoryContext';
-import { BrowsingHistoryProvider } from './lib/BrowsingHistoryContext';
-import { FilterProvider } from './lib/FilterContext';
-import { FavoritesProvider } from './lib/FavoritesContext';
-import { EntityLikesProvider } from './lib/EntityLikesContext';
-import { WorkspaceProvider } from './lib/WorkspaceContext';
-// import { DndContextProvider } from './contexts/DndContext'; // Use or remove
+import { UserPreferencesProvider } from './contexts/UserPreferencesContext';
+import { SearchHistoryProvider } from './contexts/SearchHistoryContext';
+import { BrowsingHistoryProvider } from './contexts/BrowsingHistoryContext';
+import { FilterProvider } from './contexts/FilterContext';
+import { FavoritesProvider } from './contexts/FavoritesContext';
+import { EntityLikesProvider } from './contexts/EntityLikesContext';
+import { WorkspaceProvider } from './contexts/WorkspaceContext';
+import { ScrollLockProvider } from './contexts/ScrollLockProvider';
+import { DragDropProvider } from './contexts/DragDropProvider';
 
 import { initializeSEO } from './lib/seoHelpers';
 import performanceMonitor from './lib/performanceMonitor';
@@ -38,6 +39,9 @@ const RhymeGalaxy = lazy(() => import('./pages/RhymeGalaxy'));
 const Search = lazy(() => import('./pages/Search'));
 const WritingStudio = lazy(() => import('./pages/WritingStudio'));
 const About = lazy(() => import('./pages/About'));
+const Architecture = lazy(() => import('./pages/Architecture'));
+const Docs = lazy(() => import('./pages/Docs'));
+const Stats = lazy(() => import('./pages/Stats'));
 const Settings = lazy(() => import('./pages/Settings'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
@@ -51,10 +55,11 @@ function AppProviders({ children }) {
               <FavoritesProvider>
                 <EntityLikesProvider>
                   <WorkspaceProvider>
-                    {/* If you want DnD globally, wrap here */}
-                    {/* <DndContextProvider> */}
-                    {children}
-                    {/* </DndContextProvider> */}
+                    <ScrollLockProvider>
+                      <DragDropProvider>
+                        {children}
+                      </DragDropProvider>
+                    </ScrollLockProvider>
                   </WorkspaceProvider>
                 </EntityLikesProvider>
               </FavoritesProvider>
@@ -71,6 +76,7 @@ function App() {
     initializeSEO();
     performanceMonitor.mark('app-init');
     addSkipLink();
+    document.body.classList.add('has-bottom-nav');
   }, []);
 
   return (
@@ -94,7 +100,7 @@ function App() {
                   <Route path="entities/:domainId/:entityId" element={<EntityDetail />} />
 
                   {/* Dictionary */}
-                  <Route path="dictionary" element={<Dictionary />} />
+                  <Route path="dictionary" element={<ErrorBoundary level="page"><Dictionary /></ErrorBoundary>} />
                   <Route path="dictionary/favorites" element={<DictionaryFavorites />} />
                   <Route path="dictionary/compare" element={<WordCompare />} />
                   <Route path="dictionary/galaxy" element={<RhymeGalaxy />} />
@@ -102,9 +108,12 @@ function App() {
                   <Route path="dictionary/:letter/:word" element={<DictionaryWord />} />
 
                   {/* Other Pages */}
-                  <Route path="search" element={<Search />} />
-                  <Route path="studio" element={<WritingStudio />} />
+                  <Route path="search" element={<ErrorBoundary level="page"><Search /></ErrorBoundary>} />
+                  <Route path="studio" element={<ErrorBoundary level="page"><WritingStudio /></ErrorBoundary>} />
                   <Route path="about" element={<About />} />
+                  <Route path="architecture" element={<Architecture />} />
+                  <Route path="docs" element={<Docs />} />
+                  <Route path="stats" element={<Stats />} />
                   <Route path="settings" element={<Settings />} />
 
                   {/* 404 */}

@@ -8,12 +8,27 @@ export function CompactCard({
   icon, 
   onClick, 
   badge,
-  className = "" 
+  className = "",
+  ariaLabel
 }) {
+  const isInteractive = typeof onClick === "function";
+
+  const handleKeyDown = (event) => {
+    if (!isInteractive) return;
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      onClick(event);
+    }
+  };
+
   return (
     <motion.div
       className={`compact-card ${className}`}
       onClick={onClick}
+      onKeyDown={handleKeyDown}
+      role={isInteractive ? "button" : "group"}
+      aria-label={ariaLabel || title}
+      tabIndex={isInteractive ? 0 : undefined}
       whileTap={{ scale: 0.95 }}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}

@@ -6,7 +6,7 @@ import { X, RotateCcw } from 'lucide-react';
 import { RangeSlider } from '../ui/RangeSlider';
 import { MultiSelect } from '../ui/MultiSelect';
 import { RadioGroup } from '../ui/RadioGroup';
-import { useFilters } from '../../lib/FilterContext';
+import { useFilters } from '../../contexts/FilterContext';
 import './FilterPanel.css';
 
 export function FilterPanel({

@@ -156,11 +156,41 @@
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .achievement-unlock,
+  .achievement-glow,
+  .achievement-icon-large,
+  .sparkle-1,
+  .sparkle-2 {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   .achievement-unlock {
     top: 1rem;
     right: 1rem;
     left: 1rem;
     min-width: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .achievement-unlock {
+    transition: none;
+    transform: none;
+  }
+
+  .achievement-unlock.visible {
+    transform: none;
+  }
+
+  .achievement-glow,
+  .achievement-icon-large,
+  .sparkle-1,
+  .sparkle-2 {
+    animation: none;
   }
 }

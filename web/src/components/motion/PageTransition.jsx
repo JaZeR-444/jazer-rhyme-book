@@ -1,4 +1,5 @@
 import { useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import { gsap } from '../../lib/gsap';
 import './PageTransition.css';
@@ -23,8 +24,19 @@ export function PageTransition({ children, type = 'fade' }) {
 
     const container = containerRef.current;
     
+    // Check for reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     // Exit animation
     const exitAnimation = () => {
+      if (prefersReducedMotion) {
+        return gsap.to(container, {
+          opacity: 0,
+          duration: 0.1,
+          ease: 'none'
+        });
+      }
+
       switch (type) {
         case 'slide':
           return gsap.to(container, {
@@ -75,6 +87,17 @@ export function PageTransition({ children, type = 'fade' }) {
 
     // Enter animation
     const enterAnimation = () => {
+      if (prefersReducedMotion) {
+        return gsap.fromTo(container,
+          { opacity: 0 },
+          { 
+            opacity: 1, 
+            duration: 0.1,
+            ease: 'none'
+          }
+        );
+      }
+
       switch (type) {
         case 'slide':
           return gsap.fromTo(container,
@@ -138,11 +161,21 @@ export function PageTransition({ children, type = 'fade' }) {
   }, [location.pathname, type]);
 
   return (
-    <div ref={containerRef} className="page-transition">
+    <div
+      ref={containerRef}
+      className="page-transition"
+      role="region"
+      aria-label="Page content"
+    >
       {children}
     </div>
   );
 }
+
+PageTransition.propTypes = {
+  children: PropTypes.node.isRequired,
+  type: PropTypes.oneOf(['fade', 'slide', 'glitch', 'scale'])
+};
 
 /**
  * withPageTransition - HOC to wrap pages with transition

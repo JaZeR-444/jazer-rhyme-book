@@ -1,6 +1,20 @@
 import { createContext, useContext, useState, useEffect } from 'react';
+import { soundManager } from '../lib/SoundManager';
 
 const UserPreferencesContext = createContext();
+
+const SOUND_STORAGE_KEY = 'jazer_sound_enabled';
+
+const getDefaultSoundPreference = () => {
+  if (typeof window === 'undefined') return true;
+  try {
+    const stored = localStorage.getItem(SOUND_STORAGE_KEY);
+    if (stored === null) return true;
+    return stored === 'true';
+  } catch {
+    return true;
+  }
+};
 
 // Default preferences
 const DEFAULT_PREFERENCES = {
@@ -9,6 +23,8 @@ const DEFAULT_PREFERENCES = {
     accentColor: null, // Custom hex color, null = use scheme default
     fontSize: 'medium', // 'small' | 'medium' | 'large'
     fontFamily: 'sans', // 'sans' | 'serif' | 'mono'
+    highContrast: false, // Enable WCAG AAA high contrast mode
+    reducedMotion: null, // null = auto-detect, true/false = override
   },
   layout: {
     gridDensity: 'comfortable', // 'compact' | 'comfortable' | 'spacious'
@@ -21,7 +37,10 @@ const DEFAULT_PREFERENCES = {
     defaultSyllableFilter: null, // null | '1' | '2' | '3+'
     preferredDomains: [], // Array of domain names
     preferredEra: null, // null | '1970s' | '1980s' | etc.
-  }
+  },
+  audio: {
+    soundEnabled: getDefaultSoundPreference(),
+  },
 };
 
 // Color scheme definitions
@@ -96,6 +115,7 @@ export function UserPreferencesProvider({ children }) {
           theme: { ...DEFAULT_PREFERENCES.theme, ...parsed.theme },
           layout: { ...DEFAULT_PREFERENCES.layout, ...parsed.layout },
           content: { ...DEFAULT_PREFERENCES.content, ...parsed.content },
+          audio: { ...DEFAULT_PREFERENCES.audio, ...parsed.audio },
         };
       } catch (err) {
         console.error('Failed to parse user preferences:', err);
@@ -116,8 +136,26 @@ export function UserPreferencesProvider({ children }) {
     applyPreferencesToDOM(preferences);
   }, []);
 
+  useEffect(() => {
+    soundManager.setEnabled(preferences.audio.soundEnabled);
+  }, [preferences.audio.soundEnabled]);
+
   const applyPreferencesToDOM = (prefs) => {
     const root = document.documentElement;
+
+    // Apply high contrast mode
+    if (prefs.theme.highContrast) {
+      root.setAttribute('data-theme', 'high-contrast');
+    } else {
+      root.removeAttribute('data-theme');
+    }
+
+    // Apply reduced motion override
+    if (prefs.theme.reducedMotion !== null) {
+      root.setAttribute('data-motion', prefs.theme.reducedMotion ? 'reduced' : 'normal');
+    } else {
+      root.removeAttribute('data-motion');
+    }
 
     // Apply color scheme
     const scheme = COLOR_SCHEMES[prefs.theme.colorScheme] || COLOR_SCHEMES.purple;
@@ -171,6 +209,13 @@ export function UserPreferencesProvider({ children }) {
     }));
   };
 
+  const updateAudio = (updates) => {
+    setPreferences(prev => ({
+      ...prev,
+      audio: { ...prev.audio, ...updates }
+    }));
+  };
+
   const exportPreferences = () => {
     const dataStr = JSON.stringify(preferences, null, 2);
     const blob = new Blob([dataStr], { type: 'application/json' });
@@ -194,6 +239,7 @@ export function UserPreferencesProvider({ children }) {
               theme: { ...DEFAULT_PREFERENCES.theme, ...imported.theme },
               layout: { ...DEFAULT_PREFERENCES.layout, ...imported.layout },
               content: { ...DEFAULT_PREFERENCES.content, ...imported.content },
+              audio: { ...DEFAULT_PREFERENCES.audio, ...imported.audio },
             });
             resolve();
           } else {
@@ -212,14 +258,33 @@ export function UserPreferencesProvider({ children }) {
     setPreferences(DEFAULT_PREFERENCES);
   };
 
+  const toggleHighContrast = () => {
+    updateTheme({ highContrast: !preferences.theme.highContrast });
+  };
+
+  const toggleReducedMotion = () => {
+    const current = preferences.theme.reducedMotion;
+    // Cycle: null -> true -> false -> null
+    if (current === null) {
+      updateTheme({ reducedMotion: true });
+    } else if (current === true) {
+      updateTheme({ reducedMotion: false });
+    } else {
+      updateTheme({ reducedMotion: null });
+    }
+  };
+
   const value = {
     preferences,
     updateTheme,
     updateLayout,
     updateContent,
+    updateAudio,
     exportPreferences,
     importPreferences,
     resetToDefaults,
+    toggleHighContrast,
+    toggleReducedMotion,
     colorSchemes: COLOR_SCHEMES,
   };
 

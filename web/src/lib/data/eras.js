@@ -1,7 +1,7 @@
 /**
  * Era Data Configuration
  * ======================
- * 
+ *
  * Defines the musical eras for the timeline section.
  * Each era represents a distinct creative phase with:
  * - Identity: name, years, sonic signature
@@ -9,6 +9,41 @@
  * - Content: key projects, influences, tools
  */
 
+/**
+ * @typedef {Object} EraProject
+ * @property {string} id
+ * @property {string} title
+ * @property {string} type
+ */
+
+/**
+ * @typedef {Object} Era
+ * @property {string} id
+ * @property {string} name
+ * @property {number} yearStart
+ * @property {number|null} yearEnd
+ * @property {string} sonicSignature
+ * @property {string} description
+ * @property {string} color
+ * @property {string} colorToken
+ * @property {EraProject[]} projects
+ * @property {string[]} tools
+ * @property {string[]} influences
+ */
+
+const ERA_COLORS = {
+  genesis: 'hsl(200, 80%, 50%)',
+  evolution: 'hsl(160, 70%, 45%)',
+  current: 'hsl(280, 70%, 55%)',
+};
+
+const ERA_COLOR_TOKENS = {
+  genesis: '--era-genesis',
+  evolution: '--era-evolution',
+  current: '--era-current',
+};
+
+/** @type {Era[]} */
 export const eras = [
   {
     id: 'genesis',
@@ -17,7 +52,8 @@ export const eras = [
     yearEnd: 2020,
     sonicSignature: 'Raw Energy',
     description: 'The beginning. Learning the craft, finding the sound, building foundations.',
-    color: 'hsl(200, 80%, 50%)',
+    color: ERA_COLORS.genesis,
+    colorToken: ERA_COLOR_TOKENS.genesis,
     projects: [
       { id: 'project-001', title: 'First Steps', type: 'EP' },
       { id: 'project-002', title: 'Early Experiments', type: 'Singles' },
@@ -32,7 +68,8 @@ export const eras = [
     yearEnd: 2023,
     sonicSignature: 'Refined Chaos',
     description: 'Growth phase. Developing signature techniques, expanding sonic palette.',
-    color: 'hsl(160, 70%, 45%)',
+    color: ERA_COLORS.evolution,
+    colorToken: ERA_COLOR_TOKENS.evolution,
     projects: [
       { id: 'project-003', title: 'Breakthrough', type: 'Album' },
       { id: 'project-004', title: 'Collaborations', type: 'Features' },
@@ -47,7 +84,8 @@ export const eras = [
     yearEnd: null, // Ongoing
     sonicSignature: 'System Mastery',
     description: 'Current era. Full creative control, distinctive voice, expanding horizons.',
-    color: 'hsl(280, 70%, 55%)',
+    color: ERA_COLORS.current,
+    colorToken: ERA_COLOR_TOKENS.current,
     projects: [
       { id: 'project-005', title: 'Master Flow', type: 'Album' },
       { id: 'project-006', title: 'Live Experience', type: 'Performance' },
@@ -56,6 +94,20 @@ export const eras = [
     influences: ['System Thinking', 'Live Performance'],
   },
 ];
+
+function validateEras(data) {
+  if (!import.meta.env.DEV) return;
+  data.forEach((era) => {
+    if (!era.id || !era.name) {
+      console.warn('[eras] Missing required fields:', era);
+    }
+    if (era.yearStart && era.yearEnd && era.yearEnd < era.yearStart) {
+      console.warn('[eras] yearEnd before yearStart:', era);
+    }
+  });
+}
+
+validateEras(eras);
 
 /**
  * Get era by ID

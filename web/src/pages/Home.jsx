@@ -11,12 +11,14 @@ import { DailyDigest } from '../components/home/DailyDigest';
 import { RecommendedFeed } from '../components/home/RecommendedFeed';
 import { Autocomplete } from '../components/ui/Autocomplete';
 import { useDomains, useDictionaryLetters, useSearchIndex } from '../lib/hooks';
-import { useState, useRef } from 'react';
+import { usePageTitle } from '../lib/usePageTitle';
+import { useState, useRef, useMemo } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap, ScrollTrigger } from '../lib/gsap';
 import './Home.css';
 
 export function Home() {
+  usePageTitle('Home');
   const navigate = useNavigate();
   const { domains } = useDomains();
   const { letters } = useDictionaryLetters();
@@ -25,7 +27,57 @@ export function Home() {
   const heroRef = useRef();
   const featuresRef = useRef();
 
+  // Combine search data: words, domains, and entities
+  const combinedSearchData = useMemo(() => {
+    const data = [];
+    
+    // Add dictionary words
+    if (searchIndex?.words) {
+      data.push(...searchIndex.words);
+    }
+    
+    // Add domains
+    if (domains) {
+      domains.forEach(domain => {
+        data.push({
+          id: domain.id,
+          name: domain.name,
+          type: 'domain',
+          link: `/domains/${domain.id}`,
+          description: domain.description || ''
+        });
+        
+        // Add entities from this domain
+        if (domain.entities) {
+          domain.entities.forEach(entity => {
+            data.push({
+              id: entity.id,
+              name: entity.name,
+              type: 'entity',
+              link: `/domains/${domain.id}/entities/${entity.id}`,
+              description: entity.description || '',
+              domain: domain.name
+            });
+          });
+        }
+      });
+    }
+    
+    return data;
+  }, [searchIndex, domains]);
+
   useGSAP(() => {
+    // Check for reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    if (prefersReducedMotion) {
+      // Skip animations if user prefers reduced motion
+      gsap.set(heroRef.current.querySelector('.hero__logo'), { opacity: 1, scale: 1 });
+      gsap.set(heroRef.current.querySelectorAll('.hero__title, .hero__subtitle, .hero__actions'), { opacity: 1, y: 0 });
+      gsap.set(featuresRef.current.querySelectorAll('.feature-card'), { opacity: 1, y: 0 });
+      return;
+    }
+
     // Logo entrance animation
     gsap.from(heroRef.current.querySelector('.hero__logo'), {
       opacity: 0,
@@ -59,7 +111,7 @@ export function Home() {
   }, []);
 
   return (
-    <div className="home">
+    <div className="home" role="main" aria-label="Home page">
       {/* Hero Section */}
       <section className="hero" ref={heroRef}>
         {/* Generative Art Background */}
@@ -90,8 +142,9 @@ export function Home() {
               value={searchQuery}
               onChange={setSearchQuery}
               onSelect={(result) => navigate(result.link)}
-              searchIndex={searchIndex?.words || []}
+              searchIndex={combinedSearchData}
               placeholder="Search dictionary, domains, or entities..."
+              aria-label="Search across dictionary, domains, and entities"
             />
           </div>
 

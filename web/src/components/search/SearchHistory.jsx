@@ -1,5 +1,5 @@
 import { History, X, TrendingUp, Clock } from 'lucide-react';
-import { useSearchHistory } from '../../lib/SearchHistoryContext';
+import { useSearchHistory } from '../../contexts/SearchHistoryContext';
 import { Card } from '../ui';
 import './SearchHistory.css';
 
@@ -23,6 +23,12 @@ export function SearchHistory({ onSelectQuery, showTrending = true }) {
   const handleRemove = (e, query) => {
     e.stopPropagation();
     removeFromHistory(query);
+  };
+
+  const handleClearHistory = () => {
+    if (window.confirm('Clear all search history?')) {
+      clearHistory();
+    }
   };
 
   const formatTimestamp = (timestamp) => {
@@ -54,7 +60,7 @@ export function SearchHistory({ onSelectQuery, showTrending = true }) {
             </div>
             <button
               className="search-history-clear"
-              onClick={clearHistory}
+              onClick={handleClearHistory}
               title="Clear all history"
             >
               Clear
@@ -63,24 +69,29 @@ export function SearchHistory({ onSelectQuery, showTrending = true }) {
 
           <div className="search-history-list">
             {recentSearches.map((item, idx) => (
-              <button
+              <div
                 key={`${item.query}-${idx}`}
-                className="search-history-item"
-                onClick={() => handleQueryClick(item.query)}
+                className="search-history-item-wrapper"
               >
-                <History size={14} className="search-history-icon" />
-                <span className="search-history-query">{item.query}</span>
-                <span className="search-history-time">
-                  {formatTimestamp(item.timestamp)}
-                </span>
+                <button
+                  className="search-history-item"
+                  onClick={() => handleQueryClick(item.query)}
+                >
+                  <History size={14} className="search-history-icon" />
+                  <span className="search-history-query">{item.query}</span>
+                  <span className="search-history-time">
+                    {formatTimestamp(item.timestamp)}
+                  </span>
+                </button>
                 <button
                   className="search-history-remove"
                   onClick={(e) => handleRemove(e, item.query)}
                   title="Remove from history"
+                  aria-label="Remove from history"
                 >
                   <X size={14} />
                 </button>
-              </button>
+              </div>
             ))}
           </div>
         </Card>

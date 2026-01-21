@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import { Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { getAllEntities } from '../lib/data/knowledgeHub';
@@ -6,19 +6,17 @@ import { Badge, Card } from './ui';
 import './SimilarEntities.css';
 
 export function SimilarEntities({ currentEntity, currentDomain, maxResults = 6 }) {
-  const [similar, setSimilar] = useState([]);
-
-  useEffect(() => {
-    if (!currentEntity || !currentEntity.tags) return;
+  const similar = useMemo(() => {
+    if (!currentEntity || !currentEntity.tags) return [];
 
     const allEntities = getAllEntities();
     const currentTags = new Set(currentEntity.tags);
 
     // Calculate similarity score for each entity
-    const scored = allEntities
+    return allEntities
       .filter(({ entity }) => entity.id !== currentEntity.id) // Exclude current entity
       .map(({ entity, domain }) => {
-        if (!entity.tags) return { entity, domain, score: 0 };
+        if (!entity.tags) return { entity, domain, score: 0, sharedTags: [] };
 
         // Count shared tags
         const sharedTags = entity.tags.filter(tag => currentTags.has(tag));
@@ -29,8 +27,6 @@ export function SimilarEntities({ currentEntity, currentDomain, maxResults = 6 }
       .filter(item => item.score > 0) // Only include entities with at least 1 shared tag
       .sort((a, b) => b.score - a.score) // Sort by score descending
       .slice(0, maxResults);
-
-    setSimilar(scored);
   }, [currentEntity, maxResults]);
 
   if (similar.length === 0) {
@@ -40,7 +36,7 @@ export function SimilarEntities({ currentEntity, currentDomain, maxResults = 6 }
   return (
     <Card className="similar-entities">
       <div className="similar-entities__header">
-        <Sparkles size={20} />
+        <Sparkles size={20} aria-hidden="true" />
         <h3>Similar Entities</h3>
         <span className="similar-entities__count">{similar.length} found</span>
       </div>

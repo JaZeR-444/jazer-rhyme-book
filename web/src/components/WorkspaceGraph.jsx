@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { X, Maximize2 } from 'lucide-react';
-import { useWorkspace } from '../lib/WorkspaceContext';
+import { useWorkspace } from '../contexts/WorkspaceContext';
 import { findEntitiesByIds } from '../lib/data/knowledgeHub';
 import './WorkspaceGraph.css';
 
@@ -9,6 +9,8 @@ export function WorkspaceGraph({ isOpen, onClose }) {
   const { items } = useWorkspace();
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
   const graphRef = useRef();
+  const canvasRef = useRef(null);
+  const [canvasSize, setCanvasSize] = useState({ width: 800, height: 500 });
 
   useEffect(() => {
     if (!isOpen || items.length === 0) return;
@@ -29,38 +31,43 @@ export function WorkspaceGraph({ isOpen, onClose }) {
     const nodeIds = new Set(nodes.map(n => n.id));
 
     entityItems.forEach(item => {
-      // Parse domainId from link if available
-      const linkParts = item.link?.split('/');
-      const domainId = linkParts && linkParts.length >= 3 ? linkParts[2] : null;
-
-      if (domainId) {
-        // Try to load the entity to get related_ids
-        try {
-          const entityData = findEntitiesByIds([item.id]);
-          if (entityData && entityData.length > 0) {
-            const entity = entityData[0].entity;
-            if (entity.related_ids) {
-              entity.related_ids.forEach(relatedId => {
-                // Only create link if the related entity is also in workspace
-                if (nodeIds.has(relatedId)) {
-                  links.push({
-                    source: item.id,
-                    target: relatedId,
-                    value: 2
-                  });
-                }
+      // Try to load the entity to get related_ids
+      const entityData = findEntitiesByIds([item.id]);
+      if (entityData && entityData.length > 0) {
+        const entity = entityData[0].entity;
+        if (entity.related_ids) {
+          entity.related_ids.forEach(relatedId => {
+            // Only create link if the related entity is also in workspace
+            if (nodeIds.has(relatedId)) {
+              links.push({
+                source: item.id,
+                target: relatedId,
+                value: 2
               });
             }
-          }
-        } catch (error) {
-          // Skip if entity can't be loaded
-          console.warn('Could not load entity:', item.id);
+          });
         }
       }
     });
 
     setGraphData({ nodes, links });
   }, [items, isOpen]);
+
+  useEffect(() => {
+    if (!isOpen || !canvasRef.current) return undefined;
+
+    const updateSize = () => {
+      const rect = canvasRef.current.getBoundingClientRect();
+      const width = Math.max(320, Math.floor(rect.width));
+      const height = Math.max(240, Math.floor(rect.height));
+      setCanvasSize({ width, height });
+    };
+
+    updateSize();
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(canvasRef.current);
+    return () => observer.disconnect();
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -89,7 +96,7 @@ export function WorkspaceGraph({ isOpen, onClose }) {
           </button>
         </div>
 
-        <div className="workspace-graph-canvas">
+        <div className="workspace-graph-canvas" ref={canvasRef}>
           {graphData.nodes.length > 0 ? (
             <ForceGraph2D
               ref={graphRef}
@@ -100,11 +107,8 @@ export function WorkspaceGraph({ isOpen, onClose }) {
               linkWidth={2}
               linkColor={() => 'rgba(255, 255, 255, 0.2)'}
               backgroundColor="#0a0a0a"
-              width={800}
-              height={500}
-              onNodeClick={(node) => {
-                console.log('Clicked node:', node);
-              }}
+              width={canvasSize.width}
+              height={canvasSize.height}
             />
           ) : (
             <div className="workspace-graph-empty">
