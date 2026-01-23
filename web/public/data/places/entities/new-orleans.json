@@ -1,0 +1,17 @@
+{
+  "id": "new-orleans",
+  "type": "places",
+  "name": "New Orleans",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Big Easy, a cultural melting pot known for jazz, creole cuisine, and high-energy bounce music.",
+  "tags": ["soulful", "vibrant", "history", "southern"],
+  "angles": ["voodoo and spirits", "mardi gras", "the second line"],
+  "bar_seeds": ["bourbon street", "nola heart", "bounce to the beat"],
+  "related_ids": [],
+  "place_type": "city",
+  "vibe": "Soulful, festive, and ancient.",
+  "sensory_cues": ["Trumpets blaring", "Jasmine scent", "Humidity", "Wrought iron balconies"],
+  "cultural_refs": ["Lil Wayne", "Louis Armstrong", "Mardi Gras"],
+  "bar_angles": ["Rising from the swamp", "Jazz in the veins", "Voodoo magic"]
+}

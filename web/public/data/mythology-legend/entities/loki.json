@@ -1,0 +1,17 @@
+{
+  "id": "loki",
+  "type": "mythology-legend",
+  "name": "Loki",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Norse trickster god, a shapeshifter who brings both aid and chaos to the gods.",
+  "tags": ["esoteric", "innovative", "rebellion", "mythology"],
+  "angles": ["trickster", "chaos", "shapeshifting"],
+  "bar_seeds": ["snake in the grass", "shapeshifter flow", "father of monsters"],
+  "related_ids": ["thor", "odin"],
+  "origin_culture": "Norse",
+  "deity_type": "God / Giant",
+  "powers": ["Shapeshifting", "Illusion", "Cunning intelligence"],
+  "symbols": ["Snake", "Mistletoe", "Fire"],
+  "modern_parallels": ["The Joker", "Hackers", "Chaos Agents"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "poseidon",
+  "type": "mythology-legend",
+  "name": "Poseidon",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The temperamental Greek god of the sea, storms, earthquakes, and horses.",
+  "tags": ["classic", "vibrant", "nature", "mythology"],
+  "angles": ["ocean", "wrath", "storms"],
+  "bar_seeds": ["trident strike", "storm bringer", "king of the tides"],
+  "related_ids": ["zeus", "hades"],
+  "origin_culture": "Greek",
+  "deity_type": "God",
+  "powers": ["Control of water", "Earthquakes", "Creating horses"],
+  "symbols": ["Trident", "Dolphin", "Horse"],
+  "modern_parallels": ["Aquaman", "Naval Power", "Tsunamis"]
+}

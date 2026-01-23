@@ -1,0 +1,17 @@
+{
+  "id": "prime-video",
+  "type": "media-platforms",
+  "name": "Prime Video",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Amazon's streaming platform, part of the Prime ecosystem, known for massive budget originals and a vast library.",
+  "tags": ["mainstream", "cinematic", "corporate", "utility"],
+  "angles": ["the-jeff-bezos-budget", "integrated-ecosystem", "original-power"],
+  "bar_seeds": ["prime originals", "the boys energy", "rent or buy"],
+  "related_ids": ["netflix", "hulu"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "Prime Members, Families, Genre Fans (Sci-Fi/Action)",
+  "content_format": ["Movies", "Series", "Rentals"],
+  "algorithm_bias": "Favors Amazon Originals and high-viewership Hollywood titles.",
+  "slang": ["Prime Day", "Original", "Channel"]
+}

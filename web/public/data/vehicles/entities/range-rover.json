@@ -1,0 +1,20 @@
+{
+  "id": "range-rover",
+  "type": "vehicles",
+  "name": "Range Rover",
+  "aliases": ["Range", "Rover"],
+  "era": "1970s-Present",
+  "tags": ["luxury-car", "status", "british", "off-road"],
+  "one_liner": "The definitive luxury SUV, combining British elegance with serious off-road capability.",
+  "angles": ["high-class utility", "the king of the suburb", "rugged sophistication"],
+  "bar_seeds": ["black range", "riding in the rover", "tinted windows", "luxury off-road"],
+  "vehicle_type": "Luxury SUV",
+  "engine_type": "V6 or V8 Supercharged",
+  "top_speed": "130-155 mph",
+  "cultural_status": "A staple of high-end suburban and celebrity lifestyle.",
+  "design_features": ["Floating roof", "Clamshell hood", "Split tailgate"],
+  "related_ids": ["luxury"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

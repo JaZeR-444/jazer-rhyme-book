@@ -1,0 +1,18 @@
+{
+  "id": "its-wednesday-my-dudes",
+  "type": "internet-culture",
+  "name": "It's Wednesday My Dudes",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A weekly celebratory meme featuring a Budgett's frog and a distinctive scream.",
+  "tags": ["classic", "vibrant", "community", "culture"],
+  "angles": ["routine", "celebration", "screaming"],
+  "bar_seeds": ["it is wednesday", "my dudes", "frog scream"],
+  "related_ids": ["dat-boi"],
+  "format": "Video / Image",
+  "origin_platform": "Vine / Reddit",
+  "meaning": "A ritualistic marking of the midweek; a small moment of internet unity.",
+  "remix_rules": ["Goggles", "High-pitched scream", "Frog imagery"],
+  "lifespan_risk": "Moderate (Weekly recurrence)",
+  "example_lines": ["Clock hit midnight, it's wednesday my dudes", "Halfway through the week, screaming like the budgett's"]
+}

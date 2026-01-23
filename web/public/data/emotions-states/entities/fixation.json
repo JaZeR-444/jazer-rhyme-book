@@ -1,0 +1,18 @@
+{
+  "id": "fixation",
+  "type": "emotions-states",
+  "name": "Fixation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An obsessive interest in or feeling about someone or something.",
+  "tags": ["obsession", "internal", "technical", "logic"],
+  "angles": ["locked-in", "narrow-focus", "mental-loop"],
+  "bar_seeds": ["can't look away", "the only goal", "blind to the rest"],
+  "related_ids": ["obsession", "limerence"],
+  "intensity": "High",
+  "physical_symptoms": ["Hyper-arousal", "Ignoring hunger/sleep", "Dilated pupils"],
+  "triggers": ["Specific goals", "Intense competition", "Unresolved trauma"],
+  "action_urge": "To constantly analyze or interact with the object of interest.",
+  "opposites": ["Distraction", "Fluidity", "Openness"],
+  "related_ids": ["obsession", "technical"]
+}

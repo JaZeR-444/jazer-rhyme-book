@@ -1,0 +1,16 @@
+{
+  "id": "maya-civilization",
+  "type": "history",
+  "name": "Maya Civilization",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Mesoamerican civilization noted for its logosyllabic script, highly sophisticated mathematics, and astronomical system.",
+  "tags": ["ancient", "technical", "history", "nature"],
+  "angles": ["calendars", "jungles", "precision"],
+  "bar_seeds": ["calendar end", "temple in the clouds", "golden sun"],
+  "key_dates": ["2000 BC", "1697 AD"],
+  "location": "Mesoamerica (Mexico / Guatemala)",
+  "impact": "Unparalleled advances in astronomy and mathematics in the pre-Columbian Americas.",
+  "major_figures": ["Pakal the Great"],
+  "cultural_shift": "Sophisticated urban planning and monumental architecture in a jungle environment."
+}

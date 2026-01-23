@@ -1,0 +1,17 @@
+{
+  "id": "threads",
+  "type": "media-platforms",
+  "name": "Threads",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Instagram's text-based conversation app, launched as a direct competitor to Twitter/X.",
+  "tags": ["mainstream", "social-media", "corporate", "clean"],
+  "angles": ["meta-ecosystem", "polite-social", "integrated-reach"],
+  "bar_seeds": ["threaded together", "ig connected", "sanitized stream"],
+  "related_ids": ["instagram", "twitter-x"],
+  "platform_type": "Social Networking",
+  "user_demographic": "Instagram Users, Brands, Mainstream Audience",
+  "content_format": ["Text", "Photos", "Video"],
+  "algorithm_bias": "Paired with Instagram interests; favors engagement and positive interaction.",
+  "slang": ["Thread", "Repost", "IG Link"]
+}

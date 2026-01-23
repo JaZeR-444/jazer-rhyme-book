@@ -1,0 +1,56 @@
+{
+  "id": "normcore",
+  "type": "fashion",
+  "name": "Normcore",
+  "aliases": [
+    "Anti-fashion"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "minimalist",
+    "mainstream",
+    "classic",
+    "contemporary"
+  ],
+  "one_liner": "Deliberately plain, everyday clothing as a style statement.",
+  "angles": [
+    "blending in",
+    "quiet uniform",
+    "anti-hype"
+  ],
+  "bar_seeds": [
+    "plain tee flex",
+    "dad shoes cool",
+    "neutral on purpose"
+  ],
+  "item_type": "Casual Basics",
+  "material": [
+    "Cotton",
+    "Denim",
+    "Fleece"
+  ],
+  "cultural_significance": "Pushes back against loud trends by embracing simplicity.",
+  "fit": [
+    "Relaxed",
+    "Classic"
+  ],
+  "associated_brands": [
+    "Uniqlo",
+    "Levi's",
+    "Gap"
+  ],
+  "related_ids": [
+    "minimal-sneaker",
+    "preppy-fashion"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Normcore",
+      "url": "https://en.wikipedia.org/wiki/Normcore",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "deconstructivism",
+  "type": "architecture-spaces",
+  "name": "Deconstructivism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A postmodern architectural movement characterized by the fragmentation of the constructed building.",
+  "tags": ["abstract", "innovative", "geometric", "chaos"],
+  "angles": ["controlled-chaos", "fragmentation", "disorientation"],
+  "bar_seeds": ["shattering the box", "twisting steel", "no right angles"],
+  "related_ids": ["cubism", "glitch-art"],
+  "style": "Deconstructivism",
+  "materials": ["Titanium", "Glass", "Steel", "Zinc"],
+  "spatial_qualities": ["Disjointed", "Skewed", "Unpredictable"],
+  "function": "Monument / Institution",
+  "famous_examples": ["Guggenheim Museum Bilbao", "Jewish Museum Berlin"]
+}

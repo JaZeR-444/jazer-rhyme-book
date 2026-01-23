@@ -1,0 +1,20 @@
+{
+  "id": "cathedral",
+  "type": "architecture-spaces",
+  "name": "Cathedral",
+  "aliases": ["Basilica", "Duomo"],
+  "era": "Medieval-Present",
+  "tags": ["religious", "gothic", "historic", "sacred"],
+  "one_liner": "A large and important church building, often characterized by grand architecture and religious significance.",
+  "angles": ["divine architecture", "the weight of the sacred", "echoes of eternity"],
+  "bar_seeds": ["stained glass light", "vaulted ceilings", "stone cold silence", "organ pipes"],
+  "style": "Gothic / Romanesque / Renaissance",
+  "materials": ["Stone", "Stained glass", "Wood", "Lead"],
+  "spatial_qualities": ["Awe-inspiring height", "Acoustics", "Symmetry"],
+  "function": "Religious / Community",
+  "famous_examples": ["Notre-Dame de Paris", "St. Peter's Basilica", "Cologne Cathedral"],
+  "related_ids": ["rituals-symbols"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

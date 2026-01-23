@@ -1,0 +1,21 @@
+{
+  "id": "finesse",
+  "type": "lingo",
+  "name": "Finesse",
+  "aliases": ["Scheme"],
+  "era": "2010s-Present",
+  "tags": ["hustle", "skill", "manipulation"],
+  "one_liner": "To skillfully manipulate a person or situation for personal gain.",
+  "angles": ["the art of the deal", "outsmarting the competition", "smooth operator"],
+  "bar_seeds": ["finessing the plug", "finesse kid", "smooth finesse"],
+  "meaning": "To get something through cleverness or deceit rather than force.",
+  "usage": "Commonly used in trap lyrics regarding street business.",
+  "origin": "General English, repurposed in AAVE",
+  "region": "Global",
+  "example_lines": ["I just finessed a new deal", "He got finessed"],
+  "do_not_use_if": ["Referring to delicate artistic technique (unless ironic)"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

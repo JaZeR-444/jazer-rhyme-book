@@ -1,0 +1,49 @@
+{
+  "id": "socially-awkward-penguin",
+  "type": "internet-culture",
+  "name": "Socially Awkward Penguin",
+  "aliases": [
+    "Awkward penguin"
+  ],
+  "era": "2009-Present",
+  "tags": [
+    "classic",
+    "satirical",
+    "nostalgic"
+  ],
+  "one_liner": "An image macro used to caption social missteps and awkward moments.",
+  "angles": [
+    "awkward moment",
+    "social misstep",
+    "cringe memory"
+  ],
+  "bar_seeds": [
+    "awkward silence",
+    "wrong move",
+    "cringe replay"
+  ],
+  "related_ids": [
+    "bad-luck-brian",
+    "success-kid"
+  ],
+  "created_at": "2026-01-06T18:00:00Z",
+  "updated_at": "2026-01-06T18:00:00Z",
+  "sources": [
+    {
+      "title": "Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/socially-awkward-penguin",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "format": "Image Macro",
+  "origin_platform": "Reddit",
+  "meaning": "Used to describe awkward social situations.",
+  "remix_rules": [
+    "Top text: setup, bottom text: awkward outcome"
+  ],
+  "lifespan_risk": "Low (classic)",
+  "example_lines": [
+    "Wave back at someone / They were waving behind me"
+  ]
+}

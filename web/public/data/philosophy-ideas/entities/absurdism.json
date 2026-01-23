@@ -1,0 +1,20 @@
+{
+  "id": "absurdism",
+  "type": "philosophy-ideas",
+  "name": "Absurdism",
+  "aliases": ["The Myth of Sisyphus"],
+  "era": "20th Century",
+  "tags": ["existence", "irony", "meaning", "struggle"],
+  "one_liner": "The conflict between humans searching for meaning and the 'silent', meaningless universe.",
+  "angles": ["rolling the boulder", "the cosmic joke", "rebelling against the absurd"],
+  "bar_seeds": ["sisyphus smiling", "the absurd hero", "laughing at the void", "meaningless struggle"],
+  "school_of_thought": "Absurdism",
+  "core_question": "Should one commit suicide in a meaningless universe?",
+  "key_philosophers": ["Albert Camus"],
+  "paradoxes": ["The more we search for meaning, the more absurd the world seems."],
+  "modern_application": "Heavily present in surreal humor, 'internet humor', and literature of the absurd.",
+  "related_ids": ["existentialism", "nihilism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

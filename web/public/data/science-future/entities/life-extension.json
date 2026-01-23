@@ -1,0 +1,20 @@
+{
+  "id": "life-extension",
+  "type": "science-future",
+  "name": "Life Extension",
+  "aliases": ["Anti-aging", "Immortality", "Longevity"],
+  "era": "Present-Future",
+  "tags": ["biotech", "future", "longevity", "ethics"],
+  "one_liner": "The study of slowing down or reversing the processes of aging to extend both the maximum and average lifespan.",
+  "angles": ["cheating death", "the eternal life", "the weight of living forever"],
+  "bar_seeds": ["stopping the clock", "immortal cell", "centuries of memory", "the end of the end"],
+  "field": "Geroscience / Biotechnology",
+  "hypothesis": "Aging is a biological process that can be managed or cured.",
+  "implications": ["Radical demographic shifts", "Accumulated wealth/knowledge", "Overpopulation concerns"],
+  "technologies": ["Senolytics", "Telomere extension", "Organ printing"],
+  "ethical_concerns": ["Fair access", "The meaning of life without death", "Generational stagnation"],
+  "related_ids": ["science-future"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

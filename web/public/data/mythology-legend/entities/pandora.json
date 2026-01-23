@@ -1,0 +1,20 @@
+{
+  "id": "pandora",
+  "type": "mythology-legend",
+  "name": "Pandora",
+  "aliases": ["The First Woman"],
+  "era": "Ancient Greece",
+  "tags": ["cautionary", "greek", "curiosity", "humanity"],
+  "one_liner": "The first human woman in Greek mythology, famous for opening a jar (or box) that released all evils into the world.",
+  "angles": ["forbidden curiosity", "releasing the chaos", "hope remains"],
+  "bar_seeds": ["pandora's box", "releasing the demons", "last thing left is hope"],
+  "origin_culture": "Greek",
+  "deity_type": "Mortal",
+  "powers": ["Curiosity"],
+  "symbols": ["The Box (Jar)", "Hope"],
+  "modern_parallels": ["Unintended consequences of tech", "Opening a can of worms"],
+  "related_ids": ["zeus"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

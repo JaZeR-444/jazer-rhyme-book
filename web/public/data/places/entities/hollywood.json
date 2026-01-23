@@ -1,0 +1,17 @@
+{
+  "id": "hollywood",
+  "type": "places",
+  "name": "Hollywood",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The global center of the film industry, representing fame, dreams, and the darker side of the limelight.",
+  "tags": ["cinema", "luxury", "status", "classic"],
+  "angles": ["broken dreams", "glitz and glamour", "golden age"],
+  "bar_seeds": ["hollywood sign", "walk of fame", "city of stars"],
+  "related_ids": ["leonardo-dicaprio", "marilyn-monroe"],
+  "place_type": "district",
+  "vibe": "Ambitious, artificial, and legendary.",
+  "sensory_cues": ["Palm trees", "Camera flashes", "Concrete stars", "Traffic hum"],
+  "cultural_refs": ["Movies", "Celebrity Culture", "The Hollywood Sign"],
+  "bar_angles": ["Chasing the silver screen", "Fame's cold shadow", "Lights, camera, action"]
+}

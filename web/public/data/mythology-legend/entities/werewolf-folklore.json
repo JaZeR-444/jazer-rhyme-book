@@ -1,0 +1,17 @@
+{
+  "id": "werewolf-folklore",
+  "type": "mythology-legend",
+  "name": "Werewolf",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A human with the ability to shapeshift into a wolf, either purposely or after being placed under a curse.",
+  "tags": ["dark", "raw", "nature", "transformation"],
+  "angles": ["the-beast-within", "lunar-cycle", "uncontrollable-rage"],
+  "bar_seeds": ["howling at the moon", "silver bullet", "ripping the suit"],
+  "related_ids": ["oni", "rage"],
+  "origin_culture": "European / Universal",
+  "deity_type": "Mythical Creature / Lycanthrope",
+  "powers": ["Shapeshifting", "Animalistic strength", "Regeneration"],
+  "symbols": ["Full Moon", "Wolf", "Silver"],
+  "modern_parallels": ["Inner demons", "Puberty metaphors", "Bipolar disorder (metaphorical)"]
+}

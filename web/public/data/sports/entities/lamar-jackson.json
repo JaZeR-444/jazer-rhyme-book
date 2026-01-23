@@ -1,0 +1,60 @@
+{
+  "id": "lamar-jackson",
+  "type": "sports",
+  "name": "Lamar Jackson",
+  "aliases": [
+    "Lamar"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "innovative",
+    "clutch",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NFL quarterback known for dynamic rushing, speed, and improvisational playmaking.",
+  "angles": [
+    "dual-threat chaos",
+    "speed at quarterback",
+    "improvised brilliance"
+  ],
+  "bar_seeds": [
+    "ankle breakers",
+    "rush past the edge",
+    "MVP run"
+  ],
+  "team_size": "11 (American football)",
+  "key_skills": [
+    "Rushing",
+    "Improvisation",
+    "Speed"
+  ],
+  "equipment": [
+    "Helmet",
+    "Football",
+    "Shoulder pads"
+  ],
+  "metaphors": [
+    "video-game quarterback",
+    "blur in the backfield"
+  ],
+  "legends": [
+    "League MVP",
+    "Record-setting rushing QB"
+  ],
+  "related_ids": [
+    "patrick-mahomes",
+    "tom-brady"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

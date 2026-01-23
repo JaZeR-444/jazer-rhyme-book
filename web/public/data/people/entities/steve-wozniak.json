@@ -1,0 +1,18 @@
+{
+  "id": "steve-wozniak",
+  "type": "people",
+  "name": "Steve Wozniak",
+  "aliases": ["The Woz"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The engineering genius behind the first Apple computers, known for his technical brilliance and playful spirit.",
+  "tags": ["technical", "innovative", "legacy", "tech"],
+  "angles": ["engineering-pure", "hacker-roots", "silent-architect"],
+  "bar_seeds": ["apple 1", "soldering iron", "the wizard of woz"],
+  "related_ids": ["apple", "steve-jobs"],
+  "known_for": ["Apple I", "Apple II", "Homebrew Computer Club"],
+  "vibe": "Brilliant, humble, playful",
+  "signature_items": ["Soldering iron", "Calculators", "Nixie watch"],
+  "quotables_short": ["Never trust a computer you can't throw out a window."],
+  "controversy_flags": []
+}

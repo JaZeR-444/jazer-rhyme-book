@@ -1,0 +1,18 @@
+{
+  "id": "future",
+  "type": "music",
+  "name": "Future",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pioneer of modern trap music, blending toxicity with vulnerability through Auto-Tune.",
+  "tags": ["trap", "dark", "hustle", "influential"],
+  "angles": ["toxicity", "melody", "consistency"],
+  "bar_seeds": ["dirty sprite", "mask off", "codeine crazy"],
+  "related_ids": ["drake"],
+  "genre": ["Trap", "Hip Hop", "R&B"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["Mask Off", "Codeine Crazy", "March Madness"],
+  "sonic_descriptors": ["Mumbled vocals", "Heavy Auto-Tune", "Dark synths"],
+  "influence_tree": ["T-Pain", "Dungeon Family"],
+  "aesthetic": "Toxic King"
+}

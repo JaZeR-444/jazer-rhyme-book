@@ -1,0 +1,20 @@
+{
+  "id": "stock-market",
+  "type": "business-economics",
+  "name": "Stock Market",
+  "aliases": ["The Market", "Wall Street", "Equities"],
+  "era": "Modern Era",
+  "tags": ["finance", "investment", "wealth", "volatility"],
+  "one_liner": "The public market for the trading of company stock and derivatives at an agreed price.",
+  "angles": ["the pulse of the economy", "gambling for the suit-and-tie", "wealth creation and destruction"],
+  "bar_seeds": ["ticker tape", "market crash", "buying the dip", "wall street wolves"],
+  "industry": "Finance",
+  "core_principle": "Capital allocation and fractional ownership.",
+  "jargon": ["Bull market", "Bear market", "Dividend", "IPO", "Market cap"],
+  "key_metrics": ["S&P 500", "Dow Jones", "P/E Ratio"],
+  "archetypes": ["Day trader", "Investment banker", "Retail investor"],
+  "related_ids": ["business-economics"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

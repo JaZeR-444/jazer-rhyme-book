@@ -1,0 +1,20 @@
+{
+  "id": "french-revolution",
+  "type": "history",
+  "name": "French Revolution",
+  "aliases": ["The Revolution"],
+  "era": "1789-1799",
+  "tags": ["revolution", "politics", "war", "france"],
+  "one_liner": "A period of radical social and political upheaval in France that fundamentally changed the course of modern history.",
+  "angles": ["off with their heads", "liberty or death", "the fall of the monarchy"],
+  "bar_seeds": ["guillotine sharp", "storming the bastille", "reign of terror", "marie antoinette's cake"],
+  "key_dates": ["July 14, 1789 (Bastille Day)", "January 21, 1793 (Execution of Louis XVI)"],
+  "location": "France",
+  "impact": "End of absolute monarchy, rise of nationalism, and the spread of liberal ideas.",
+  "major_figures": ["Napoleon Bonaparte", "Robespierre", "Marie Antoinette"],
+  "cultural_shift": "From feudalism and monarchy to democracy and secularism.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

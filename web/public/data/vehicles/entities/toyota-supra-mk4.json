@@ -1,0 +1,17 @@
+{
+  "id": "toyota-supra-mk4",
+  "type": "vehicles",
+  "name": "Toyota Supra MK4",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The 90s JDM legend, famous for its bulletproof 2JZ engine and massive tuning potential.",
+  "tags": ["speed", "technical", "90s", "cult-classic"],
+  "angles": ["tuning", "street-racing", "durability"],
+  "bar_seeds": ["2JZ engine", "orange supra", "ten second car"],
+  "related_ids": [],
+  "vehicle_type": "Sports Car",
+  "engine_type": "Inline-6 (2JZ-GTE)",
+  "top_speed": "155 mph (Stock)",
+  "cultural_status": "Street racing icon made immortal by Fast & Furious.",
+  "design_features": ["Large rear wing", "Round taillights", "Driver-centric cockpit"]
+}

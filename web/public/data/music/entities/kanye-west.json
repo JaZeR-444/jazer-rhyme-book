@@ -1,0 +1,18 @@
+{
+  "id": "kanye-west",
+  "type": "music",
+  "name": "Kanye West",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A polarizing visionary who reshaped hip-hop's sound multiple times, from soul samples to industrial minimalism.",
+  "tags": ["innovative", "controversial", "luxury", "vibrant"],
+  "angles": ["production", "ego", "transformation"],
+  "bar_seeds": ["dropout bear", "pink polo", "yeezy season"],
+  "related_ids": ["jay-z"],
+  "genre": ["Hip Hop", "Pop", "Gospel", "Industrial"],
+  "era_detail": "2000s - Present",
+  "signature_songs": ["Runaway", "Stronger", "Jesus Walks"],
+  "sonic_descriptors": ["Soul samples", "Auto-tune distortion", "Synthesizers", "Choirs"],
+  "influence_tree": ["Chicago House", "Soul Music", "Minimalism"],
+  "aesthetic": "Maximalist to Brutalist"
+}

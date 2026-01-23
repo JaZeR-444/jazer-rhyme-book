@@ -1,0 +1,17 @@
+{
+  "id": "frida-kahlo",
+  "type": "people",
+  "name": "Frida Kahlo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico.",
+  "tags": ["art", "pain", "legacy", "iconic"],
+  "angles": ["identity", "suffering", "surrealism"],
+  "bar_seeds": ["unibrow", "blue house", "painting through pain"],
+  "related_ids": [],
+  "known_for": ["Self-portraits", "Surrealism", "Feminist icon"],
+  "vibe": "Resilient, colorful, intense",
+  "signature_items": ["Unibrow", "Flower crown", "Traditional dress"],
+  "quotables_short": ["Feet, what do I need you for when I have wings to fly?"],
+  "controversy_flags": []
+}

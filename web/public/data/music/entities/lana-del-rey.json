@@ -1,0 +1,21 @@
+{
+  "id": "lana-del-rey",
+  "type": "music",
+  "name": "Lana Del Rey",
+  "aliases": ["LDR", "Lana"],
+  "era": "2011-Present",
+  "tags": ["dream-pop", "hollywood", "melancholic", "cinematic", "nostalgic"],
+  "one_liner": "An artist known for cinematic, nostalgic music with Hollywood glamour and melancholic themes.",
+  "angles": ["cinematic pop", "hollywood nostalgia", "melancholic beauty"],
+  "bar_seeds": ["video games", "born to die", "norman f", "lust for life"],
+  "genre": ["Dream Pop", "Alternative", "Cinematic Pop"],
+  "era_detail": "Rose to fame in 2011, consistent throughout 2010s.",
+  "signature_songs": ["Video Games", "Born to Die", "West Coast"],
+  "sonic_descriptors": ["cinematic", "melancholic", "nostalgic"],
+  "influence_tree": ["Nina Simone", "The Beach Boys"],
+  "aesthetic": "Hollywood glamour, nostalgic, cinematic",
+  "related_ids": ["grace-stanton", "baeble"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

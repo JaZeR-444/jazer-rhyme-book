@@ -1,0 +1,17 @@
+{
+  "id": "zero-sum-game",
+  "type": "business-economics",
+  "name": "Zero-Sum Game",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A situation in which one person's gain is equivalent to another's loss, so the net change in wealth or benefit is zero.",
+  "tags": ["competition", "logic", "dark", "war"],
+  "angles": ["competition", "winner-takes-all", "ruthlessness"],
+  "bar_seeds": ["win or lose", "taking your plate", "no participation trophies"],
+  "related_ids": ["monopoly"],
+  "industry": "Game Theory / Economics",
+  "core_principle": "Fixed pie.",
+  "jargon": ["Winner takes all", "Cutthroat", "Market share"],
+  "key_metrics": ["Market Share", "Win Rate"],
+  "archetypes": ["Competitor", "Predator"]
+}

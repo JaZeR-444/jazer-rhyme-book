@@ -1,0 +1,17 @@
+{
+  "id": "gravity-force",
+  "type": "time-energy",
+  "name": "Gravity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The natural phenomenon by which all things with mass or energy are brought toward one another.",
+  "tags": ["technical", "scientific", "universal", "grit"],
+  "angles": ["the downward pull", "weight of existence", "attraction"],
+  "bar_seeds": ["grounded by mass", "falling forever", "center of gravity"],
+  "related_ids": ["black-hole", "time-dilation"],
+  "concept_type": "Physics",
+  "perception": "Heavy, constant, and inescapable.",
+  "physics_basis": "Spacetime curvature / General Relativity.",
+  "cultural_view": "Represents the 'real world', limitations, and fundamental connection.",
+  "idioms": ["Weight of the world", "Grounding force", "What goes up must come down"]
+}

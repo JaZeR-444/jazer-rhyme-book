@@ -1,0 +1,17 @@
+{
+  "id": "saudade",
+  "type": "emotions-states",
+  "name": "Saudade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deep emotional state of nostalgic or profound melancholic longing for an absent something or someone.",
+  "tags": ["nostalgia", "melancholy", "international", "poetic"],
+  "angles": ["the love that remains", "missing what never was", "faded memories"],
+  "bar_seeds": ["echoes of a ghost", "hollow chest", "longing for the home I never had"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Aching chest", "Lump in the throat", "Heavy eyes"],
+  "triggers": ["Faded photographs", "Old scents", "Certain melodies"],
+  "action_urge": "To dwell in memory and internalize loss.",
+  "opposites": ["Presence", "Forgetfulness"],
+  "related_ids": ["nostalgia", "melancholy"]
+}

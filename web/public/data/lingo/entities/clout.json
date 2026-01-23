@@ -1,0 +1,21 @@
+{
+  "id": "clout",
+  "type": "lingo",
+  "name": "Clout",
+  "aliases": ["Influence"],
+  "era": "2010s-Present",
+  "tags": ["social-media", "status", "internet-culture"],
+  "one_liner": "Influence, power, or social standing, especially on social media.",
+  "angles": ["chasing the high", "fake influence", "clout demons"],
+  "bar_seeds": ["clout chasing", "all for the clout", "heavy clout"],
+  "meaning": "Social influence or following.",
+  "usage": "Describing people who do things purely for attention or fame.",
+  "origin": "General English, popularized in hip-hop/internet culture",
+  "region": "Global",
+  "example_lines": ["He's just doing it for the clout"],
+  "do_not_use_if": ["Referring to physical force (old usage)"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

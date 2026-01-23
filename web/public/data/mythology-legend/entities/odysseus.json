@@ -1,0 +1,17 @@
+{
+  "id": "odysseus",
+  "type": "mythology-legend",
+  "name": "Odysseus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The clever and resilient hero of Homer's 'Odyssey', known for his ten-year journey home from the Trojan War.",
+  "tags": ["classic", "journey", "intellectual", "resilience"],
+  "angles": ["the-long-road", "cunning-intelligence", "nostalgia-for-home"],
+  "bar_seeds": ["ten years at sea", "trojan horse", "ithaca waiting"],
+  "related_ids": ["sirens", "cyclops"],
+  "origin_culture": "Greek",
+  "deity_type": "Hero / King",
+  "powers": ["Extreme intelligence", "Archery", "Endurance"],
+  "symbols": ["Bow", "Ship", "The Sea"],
+  "modern_parallels": ["Wanderers", "Survivors", "Strategists"]
+}

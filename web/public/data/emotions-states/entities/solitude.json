@@ -1,0 +1,17 @@
+{
+  "id": "solitude",
+  "type": "emotions-states",
+  "name": "Solitude",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The state of being alone without being lonely; a positive and constructive isolation.",
+  "tags": ["mellow", "positive", "isolation", "zen"],
+  "angles": ["inner peace", "creative focus", "sanctuary"],
+  "bar_seeds": ["alone with my thoughts", "silence is golden", "crowd of one"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Even breathing", "Lowered heart rate", "Focused gaze"],
+  "triggers": ["Meditation", "Walking in nature", "Deep work"],
+  "action_urge": "To reflect, create, or recharge.",
+  "opposites": ["Loneliness", "Socializing"],
+  "related_ids": ["zen", "loneliness"]
+}

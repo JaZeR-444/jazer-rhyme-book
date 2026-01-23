@@ -1,0 +1,18 @@
+{
+  "id": "a-clockwork-orange-1971",
+  "type": "cinema",
+  "name": "A Clockwork Orange",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "In a future Britain, Alex DeLarge, a charismatic and Beethoven-loving teenager, leads a group of thugs on a rampage of ultra-violence before being caught and subjected to a state-sponsored aversion therapy.",
+  "tags": ["dystopia", "dark", "rebellion", "classic"],
+  "angles": ["ultra-violence", "forced-morality", "nadsat-lingo"],
+  "bar_seeds": ["milk bar", "singing in the rain", "eyelids pinned open"],
+  "related_ids": ["rebellion", "violence"],
+  "era": "1971",
+  "plot_hooks": ["Ultra-violence nights", "The Ludovico technique", "The victim's revenge"],
+  "iconic_scenes": ["The Korova Milk Bar", "Singing in the Rain assault", "The eye-pinning therapy"],
+  "visual_motifs": ["Bowler hats", "False eyelashes", "Brutalist architecture"],
+  "themes": ["Free will vs Social control", "Nature of evil", "State power"],
+  "quotables_short": ["Viddy well, little brother. Viddy well.", "I was cured, all right!"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rap-pad",
+  "type": "writing-tool",
+  "name": "RapPad",
+  "aliases": ["RapPad.co"],
+  "era": "2010s-Present",
+  "tags": ["rap", "online-community", "rhymes", "niche"],
+  "one_liner": "An online platform specifically designed for rappers to write, share, and get feedback on their lyrics.",
+  "angles": ["community of writers", "specialized rap tools", "the digital cypher"],
+  "bar_seeds": ["rappad draft", "winning the battle on the pad", "online cypher"],
+  "category": "Niche Writing Platform",
+  "what_it_does": "Offers a specialized text editor for rappers with rhyme dictionaries and a community forum.",
+  "best_for": ["Writing rap verses", "Finding rhymes", "Getting feedback"],
+  "workflow_hooks": ["Using the built-in rhyme finder", "Joining lyrical battles"],
+  "pitfalls": ["Dated UI", "Varying community quality"],
+  "bar_angles": ["wrote it on the rappad", "pad looking like a battle zone"],
+  "related_ids": ["rhymezone"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

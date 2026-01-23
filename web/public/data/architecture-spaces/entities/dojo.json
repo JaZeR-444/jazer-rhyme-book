@@ -1,0 +1,17 @@
+{
+  "id": "dojo",
+  "type": "architecture-spaces",
+  "name": "Dojo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hall or space for immersive learning or meditation, traditionally in Japanese martial arts.",
+  "tags": ["classic", "spiritual", "minimalist", "war"],
+  "angles": ["discipline", "focus", "respect"],
+  "bar_seeds": ["bow before entering", "tatami mats", "training arc"],
+  "related_ids": ["monastery"],
+  "style": "Traditional Japanese",
+  "materials": ["Wood", "Tatami", "Paper"],
+  "spatial_qualities": ["Open", "Quiet", "Symmetrical"],
+  "function": "Training / Meditation",
+  "famous_examples": ["Kodokan", "Shaolin Temple (similar function)"]
+}

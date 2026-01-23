@@ -1,0 +1,18 @@
+{
+  "id": "wordhippo",
+  "type": "writing-tool",
+  "name": "WordHippo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An all-in-one word tool that finds synonyms, antonyms, rhymes, and context.",
+  "tags": ["tool", "technical", "utility", "creative"],
+  "angles": ["versatility", "alternatives", "expansion"],
+  "bar_seeds": ["another word for", "opposite of", "rhymes with"],
+  "related_ids": ["rhymezone"],
+  "category": "Reference",
+  "what_it_does": "Offers a comprehensive suite of word-finding tools.",
+  "best_for": ["finding the perfect word", "breaking writer's block", "rhyming"],
+  "workflow_hooks": ["Find a stronger verb", "Find a rhyme that makes sense"],
+  "pitfalls": ["Can lead to forced vocabulary", "Generic interface"],
+  "bar_angles": ["Word smith", "Infinite options", "Vocabulary expansion"]
+}

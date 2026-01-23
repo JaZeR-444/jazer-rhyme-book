@@ -1,0 +1,17 @@
+{
+  "id": "solar-energy",
+  "type": "time-energy",
+  "name": "Solar Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Radiant light and heat from the Sun that is harnessed using a range of technologies.",
+  "tags": ["nature", "vibrant", "renewable", "energy"],
+  "angles": ["harnessing the sun", "clean-future", "eternal source"],
+  "bar_seeds": ["soaking up the rays", "solar panel shine", "sun power"],
+  "related_ids": ["solarpunk", "golden-hour"],
+  "concept_type": "Energy / Natural",
+  "perception": "Bright, hopeful, and abundant.",
+  "physics_basis": "Photovoltaic effect / Thermal radiation.",
+  "cultural_view": "Symbol of sustainability and the optimistic future.",
+  "idioms": ["Place in the sun", "Ray of hope", "Charging up"]
+}

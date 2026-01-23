@@ -1,0 +1,18 @@
+{
+  "id": "remarkable-tablet",
+  "type": "writing-tool",
+  "name": "reMarkable Tablet",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An E-ink tablet designed to replace notebooks and printed documents, focusing on a paper-like feel.",
+  "tags": ["tool", "technical", "minimalist", "focus"],
+  "angles": ["paper-feel", "distraction-free", "digital-analog"],
+  "bar_seeds": ["digital ink", "paper feel", "no notifications"],
+  "related_ids": ["physical-notebook"],
+  "category": "Hardware",
+  "what_it_does": "Provides a digital writing experience that feels like paper without apps or distractions.",
+  "best_for": ["focused drafting", "reading scripts", "annotating"],
+  "workflow_hooks": ["Write by hand, convert to text", "Read without glare"],
+  "pitfalls": ["Expensive", "No backlight", "Limited functionality"],
+  "bar_angles": ["Electronic paper", "Focus mode", "Rewriting the code"]
+}

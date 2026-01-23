@@ -1,0 +1,17 @@
+{
+  "id": "bo-staff",
+  "type": "weapons-objects",
+  "name": "Bo Staff",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A long staff used in Japanese martial arts, emphasizing leverage and reach.",
+  "tags": ["war", "classic", "discipline", "asian"],
+  "angles": ["reach", "balance", "simplicity"],
+  "bar_seeds": ["spinning the wood", "long reach", "monk warrior"],
+  "related_ids": ["sun-wukong"],
+  "weapon_type": "Blunt",
+  "range": "Medium-range",
+  "damage_type": "Bludgeoning",
+  "symbolism": "Non-lethal mastery, monk-like discipline, and defensive capability.",
+  "famous_users": ["Donatello (TMNT)", "Shaolin Monks"]
+}

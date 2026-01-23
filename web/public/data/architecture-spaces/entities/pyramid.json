@@ -1,0 +1,17 @@
+{
+  "id": "pyramid",
+  "type": "architecture-spaces",
+  "name": "Pyramid",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A monumental structure with a square base and four sloping triangular sides, synonymous with ancient power and eternity.",
+  "tags": ["ancient", "legacy", "history", "massive"],
+  "angles": ["eternal-tomb", "celestial-alignment", "geometric-perfection"],
+  "bar_seeds": ["golden capstone", "reaching for the sun", "eternal weight"],
+  "related_ids": ["ancient-egypt", "maya-civilization"],
+  "style": "Ancient Monumental",
+  "materials": ["Limestone", "Granite", "Sandstone"],
+  "spatial_qualities": ["Solid", "Imposing", "Hierarchical"],
+  "function": "Tomb / Temple",
+  "famous_examples": ["Great Pyramid of Giza", "Temple of Kukulcan"]
+}

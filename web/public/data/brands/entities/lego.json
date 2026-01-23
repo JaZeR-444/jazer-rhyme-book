@@ -1,0 +1,17 @@
+{
+  "id": "lego",
+  "type": "brand",
+  "name": "LEGO",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Danish toy company famous for its interlocking plastic bricks, fostering creativity across generations.",
+  "tags": ["creative", "classic", "play", "geometric"],
+  "angles": ["building-blocks", "infinite-creativity", "modular-world"],
+  "bar_seeds": ["brick by brick", "stepped on a lego", "master builder"],
+  "related_ids": [],
+  "category": "Toys / Entertainment",
+  "price_tier": "Mid-High",
+  "signature_products": ["Lego Bricks", "Lego Technic", "Lego Star Wars"],
+  "status_signals": ["Intricate display sets", "Massive collections"],
+  "bar_angles": ["Building the foundation", "Modular mind", "Everything is awesome"]
+}

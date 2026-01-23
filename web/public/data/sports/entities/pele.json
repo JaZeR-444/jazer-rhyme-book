@@ -1,0 +1,19 @@
+{
+  "id": "pele",
+  "type": "sports",
+  "name": "Pelé",
+  "aliases": ["O Rei (The King)"],
+  "era": "1950s-1970s",
+  "tags": ["soccer", "legacy", "global", "iconic"],
+  "one_liner": "The global ambassador of football and the only player to win three World Cups.",
+  "angles": ["the-beautiful-game", "brazilian-magic", "eternal-legacy"],
+  "bar_seeds": ["number 10", "brazilian gold", "king of the field"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Scoring", "Creativity", "Balance"],
+  "equipment": ["Soccer ball", "Cleats"],
+  "metaphors": ["The King"],
+  "legends": ["3 World Cups", "1281 Goals (credited)"],
+  "related_ids": ["rio-de-janeiro", "soccer"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

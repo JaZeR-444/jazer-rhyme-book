@@ -1,0 +1,20 @@
+{
+  "id": "nihilism",
+  "type": "philosophy-ideas",
+  "name": "Nihilism",
+  "aliases": ["The Void"],
+  "era": "19th Century-Present",
+  "tags": ["logic", "existence", "dark", "absent-meaning"],
+  "one_liner": "The philosophical belief that life is without objective meaning, purpose, or intrinsic value.",
+  "angles": ["nothing matters", "the freedom of the void", "the scream into the dark"],
+  "bar_seeds": ["meaningless world", "void staring back", "zero point of value", "dust to dust"],
+  "school_of_thought": "Existential Nihilism",
+  "core_question": "Does anything actually matter?",
+  "key_philosophers": ["Friedrich Nietzsche (often associated)", "Ivan Turgenev"],
+  "paradoxes": ["Optimistic Nihilism (if nothing matters, we are free to choose what matters to us)"],
+  "modern_application": "Found in pessimistic art, dark comedy, and certain strands of counter-culture.",
+  "related_ids": ["existentialism", "absurdism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

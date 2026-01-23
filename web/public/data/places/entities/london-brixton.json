@@ -1,0 +1,50 @@
+{
+  "id": "london-brixton",
+  "type": "place",
+  "name": "Brixton",
+  "aliases": [
+    "Brix",
+    "SW9"
+  ],
+  "era": "1970s-Present",
+  "tags": [
+    "london",
+    "uk-drill",
+    "caribbean-culture",
+    "gentrification"
+  ],
+  "one_liner": "A vibrant district in South London known for its rich Caribbean heritage and as a hub for UK rap and drill.",
+  "angles": [
+    "cultural melting pot",
+    "resistance and rebellion",
+    "the sound of the uk streets"
+  ],
+  "bar_seeds": [
+    "brixton market",
+    "electric avenue",
+    "sw9 sirens"
+  ],
+  "vibe": "Energetic, multicultural, tense, and colorful",
+  "sensory_cues": [
+    "smell of jerk chicken",
+    "underground bass",
+    "crowded markets",
+    "red double-decker buses"
+  ],
+  "cultural_refs": [
+    "Dave",
+    "Giggs",
+    "Electric Avenue song"
+  ],
+  "bar_angles": [
+    "straight out of brixton",
+    "bass thumping in the sw9"
+  ],
+  "related_ids": [
+    "sliding"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

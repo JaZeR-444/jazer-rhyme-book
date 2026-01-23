@@ -1,0 +1,18 @@
+{
+  "id": "onenote",
+  "type": "writing-tool",
+  "name": "OneNote",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A digital note-taking app that mimics a physical binder with tabs and infinite canvas pages.",
+  "tags": ["tool", "technical", "business", "organization"],
+  "angles": ["structure", "collection", "flexibility"],
+  "bar_seeds": ["digital binder", "infinite page", "clipping the web"],
+  "related_ids": ["evernote"],
+  "category": "Software",
+  "what_it_does": "Organizes notes into notebooks, sections, and pages.",
+  "best_for": ["research", "world building", "messy brainstorming"],
+  "workflow_hooks": ["Paste research images directly", "Draw on the canvas"],
+  "pitfalls": ["Clunky interface", "Sync issues"],
+  "bar_angles": ["Infinite canvas", "Organized chaos", "Microsoft mind"]
+}

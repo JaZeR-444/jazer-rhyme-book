@@ -1,0 +1,16 @@
+{
+  "id": "the-renaissance",
+  "type": "history",
+  "name": "The Renaissance",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A fervent period of European cultural, artistic, political, and economic 'rebirth' following the Middle Ages.",
+  "tags": ["renaissance", "art", "innovative", "legacy"],
+  "angles": ["rebirth", "humanism", "genius"],
+  "bar_seeds": ["da vinci code", "florence flow", "rebirth of the cool"],
+  "key_dates": ["14th Century", "17th Century"],
+  "location": "Europe, starting in Italy",
+  "impact": "Revolutionized art, science, and the way humans viewed themselves.",
+  "major_figures": ["Leonardo da Vinci", "Michelangelo", "Galileo"],
+  "cultural_shift": "Shift from religious focus to humanism and scientific inquiry."
+}

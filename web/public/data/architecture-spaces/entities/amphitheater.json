@@ -1,0 +1,17 @@
+{
+  "id": "amphitheater",
+  "type": "architecture-spaces",
+  "name": "Amphitheater",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An open-air venue used for entertainment, performances, and sports, characterized by its semi-circular or elliptical shape.",
+  "tags": ["classic", "public", "acoustic", "history"],
+  "angles": ["echoing-grandeur", "unity-of-voice", "democratic-space"],
+  "bar_seeds": ["voice in the bowl", "echo of the ancients", "thousands in the seats"],
+  "related_ids": ["colosseum", "stadium"],
+  "style": "Classical Greek / Roman",
+  "materials": ["Stone", "Marble", "Earth"],
+  "spatial_qualities": ["Elliptical", "Acoustic-focused", "Open"],
+  "function": "Performance / Gathering",
+  "famous_examples": ["Epidaurus Theater", "Red Rocks"]
+}

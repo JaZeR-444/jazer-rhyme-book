@@ -1,0 +1,17 @@
+{
+  "id": "genuflection",
+  "type": "rituals-symbols",
+  "name": "Genuflection",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The act of bending at least one knee to the ground, typically in worship or as a sign of respect.",
+  "tags": ["ritual", "respect", "submission", "classic"],
+  "angles": ["submission", "honor", "devotion"],
+  "bar_seeds": ["bend the knee", "humility in the presence", "kneeling for the king"],
+  "related_ids": ["initiation"],
+  "purpose": "To show profound respect, humility, or submission.",
+  "steps": ["Bending the knee", "Maintaining silence", "Rising with permission"],
+  "objects_used": ["Knees"],
+  "participants": "Subject, Superior or Deity",
+  "outcome": "Demonstrated loyalty and acknowledged hierarchy."
+}

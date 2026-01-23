@@ -1,0 +1,18 @@
+{
+  "id": "field-notes",
+  "type": "writing-tool",
+  "name": "Field Notes",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Durable, pocket-sized memo books inspired by American agricultural heritage.",
+  "tags": ["tool", "utility", "americana", "minimalist"],
+  "angles": ["portability", "utility", "observation"],
+  "bar_seeds": ["writing in the cornfield", "pocket ledger", "recording the crop"],
+  "related_ids": ["physical-notebook"],
+  "category": "Physical",
+  "what_it_does": "Fits in a back pocket for immediate idea capture anywhere.",
+  "best_for": ["on-the-go lyrics", "observation", "to-do lists"],
+  "workflow_hooks": ["Keep in back pocket always", "Fill one every week"],
+  "pitfalls": ["Small pages", "Not waterproof (unless Expedition edition)"],
+  "bar_angles": ["Field reporter", "Notes from the road", "Pocket wisdom"]
+}

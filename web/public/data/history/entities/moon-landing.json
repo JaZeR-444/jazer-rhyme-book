@@ -1,0 +1,20 @@
+{
+  "id": "moon-landing",
+  "type": "history",
+  "name": "Moon Landing",
+  "aliases": ["Apollo 11"],
+  "era": "1969",
+  "tags": ["space", "science", "usa", "achievement"],
+  "one_liner": "The historic mission in which humans first stepped foot on the lunar surface.",
+  "angles": ["one giant leap for mankind", "conquering the final frontier", "technological peak"],
+  "bar_seeds": ["eagle has landed", "lunar dust", "flags on the moon", "small step"],
+  "key_dates": ["July 20, 1969"],
+  "location": "The Moon / Global",
+  "impact": "Demonstrated human technological capability and marked the peak of the Space Race.",
+  "major_figures": ["Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+  "cultural_shift": "A shift in global perspective, seeing Earth as a single, fragile unit from space.",
+  "related_ids": ["cold-war"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

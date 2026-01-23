@@ -1,0 +1,17 @@
+{
+  "id": "ferrari",
+  "type": "brand",
+  "name": "Ferrari",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The most famous sports car manufacturer in the world, synonymous with speed, red, and racing heritage.",
+  "tags": ["luxury", "speed", "classic", "status"],
+  "angles": ["red", "racing", "passion"],
+  "bar_seeds": ["prancing horse", "rosso corsa", "scuderia shields"],
+  "related_ids": [],
+  "category": "Automotive",
+  "price_tier": "High",
+  "signature_products": ["F40", "LaFerrari", "Testarossa"],
+  "status_signals": ["The yellow shield", "The distinct engine sound"],
+  "bar_angles": ["Life in the fast lane", "Red paint job", "Italian engineering"]
+}

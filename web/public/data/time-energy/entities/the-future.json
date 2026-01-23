@@ -1,0 +1,20 @@
+{
+  "id": "the-future",
+  "type": "time-energy",
+  "name": "The Future",
+  "aliases": ["Tomorrow", "The Beyond", "Destiny"],
+  "era": "Approaching",
+  "tags": ["time", "anticipation", "potential", "unknown"],
+  "one_liner": "The time that is to come; the time after the present.",
+  "angles": ["the unwritten book", "the approaching storm", "visions of tomorrow"],
+  "bar_seeds": ["looking ahead", "writing the future", "beyond the horizon", "future shock"],
+  "concept_type": "Temporal State",
+  "perception": "Anticipation, anxiety, or hope.",
+  "physics_basis": "The region of spacetime ahead of the present moment.",
+  "cultural_view": "Associated with progress, technological advancement, and destiny.",
+  "idioms": ["The best is yet to come", "Future is bright", "Back to the future"],
+  "related_ids": ["science-future", "hope"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

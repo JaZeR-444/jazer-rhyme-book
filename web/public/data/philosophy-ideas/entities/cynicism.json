@@ -1,0 +1,16 @@
+{
+  "id": "cynicism",
+  "type": "philosophy-ideas",
+  "name": "Cynicism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ancient Greek school of philosophy that practiced living in accordance with nature and rejected social conventions.",
+  "tags": ["rebellion", "grit", "raw", "nature"],
+  "angles": ["anti-establishment", "minimalism", "shamelessness"],
+  "bar_seeds": ["diogenes in a tub", "barking at the fake", "no need for your gold"],
+  "school_of_thought": "Hellenistic Philosophy",
+  "core_question": "Can true happiness be found by rejecting societal luxury and artifice?",
+  "key_philosophers": ["Diogenes", "Antisthenes"],
+  "paradoxes": [],
+  "modern_application": "Punk culture, extreme minimalism, skepticism."
+}

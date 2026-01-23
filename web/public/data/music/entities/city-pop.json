@@ -1,0 +1,18 @@
+{
+  "id": "city-pop",
+  "type": "music",
+  "name": "City Pop",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A smooth, sophisticated style of Japanese pop music from the late 70s and 80s, influenced by Western funk and jazz.",
+  "tags": ["asian", "luxury", "smooth", "retro"],
+  "angles": ["metropolitan-cool", "neon-sunsets", "urban-escapism"],
+  "bar_seeds": ["stay with me", "plastic love", "midnight skyline"],
+  "related_ids": ["synthwave-music", "tokyo-shibuya"],
+  "genre": ["Pop", "Funk", "Jazz-Fusion"],
+  "era_detail": "1970s - 1980s",
+  "signature_songs": ["Plastic Love", "Stay With Me", "4:00 AM"],
+  "sonic_descriptors": ["Clean slap bass", "Lush horns", "Sophisticated chords", "Drum machines"],
+  "influence_tree": ["Steely Dan", "Earth, Wind & Fire"],
+  "aesthetic": "80s Tokyo Glamour"
+}

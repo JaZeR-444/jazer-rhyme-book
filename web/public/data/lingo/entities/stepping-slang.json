@@ -1,0 +1,18 @@
+{
+  "id": "stepping-slang",
+  "type": "lingo",
+  "name": "Stepping",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Moving with aggressive intent or taking action against an opponent.",
+  "tags": ["slang", "aggressive", "grit", "action"],
+  "angles": ["confrontation", "movement", "loyalty"],
+  "bar_seeds": ["big steppers", "stepping on toes", "ready to step"],
+  "related_ids": ["sliding", "crash-out"],
+  "meaning": "Aggressively pursuing or confronting someone.",
+  "usage": "Describing proactive or dangerous movement.",
+  "origin": "Southern US / AAVE",
+  "region": "US / Global",
+  "example_lines": ["We stepping tonight", "I'm a big stepper, check the floor"],
+  "do_not_use_if": ["You are just taking a casual walk"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "poison-ring",
+  "type": "weapons-objects",
+  "name": "Poison Ring",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A ring with a container under the bezel or inside the band that can be used to hold poison.",
+  "tags": ["stealth", "luxury", "history", "deception"],
+  "angles": ["betrayal", "hidden-danger", "royalty"],
+  "bar_seeds": ["kiss the ring", "cyanide secret", "toast to death"],
+  "related_ids": ["toast"],
+  "weapon_type": "Chemical",
+  "range": "Touch",
+  "damage_type": "Poison",
+  "symbolism": "Court intrigue, feminine lethality, and treacherous luxury.",
+  "famous_users": ["Lucrezia Borgia", "Spies"]
+}

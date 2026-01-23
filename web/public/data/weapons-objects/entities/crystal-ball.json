@@ -1,0 +1,17 @@
+{
+  "id": "crystal-ball",
+  "type": "weapons-objects",
+  "name": "Crystal Ball",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A crystal or glass ball and common fortune telling object.",
+  "tags": ["esoteric", "future", "glass", "symbolic-object"],
+  "angles": ["foresight", "mystery", "clarity"],
+  "bar_seeds": ["seeing the future", "cloudy vision", "gazng into the glass"],
+  "related_ids": ["tarot", "seance"],
+  "weapon_type": "Divination Tool",
+  "range": "N/A",
+  "damage_type": "Information",
+  "symbolism": "The unknown future, mysticism, and the desire to know fate.",
+  "famous_users": ["Fortune Tellers", "The Wicked Witch"]
+}

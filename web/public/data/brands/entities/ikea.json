@@ -1,0 +1,17 @@
+{
+  "id": "ikea",
+  "type": "brand",
+  "name": "IKEA",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Swedish-founded Dutch-based multinational group that designs and sells ready-to-assemble furniture and home accessories.",
+  "tags": ["minimalist", "design", "mass-market", "lifestyle"],
+  "angles": ["swedish-minimalism", "flat-pack-puzzle", "the-blue-box"],
+  "bar_seeds": ["allen wrench", "billy bookcase", "swedish meatballs"],
+  "related_ids": ["minimalist"],
+  "category": "Home / Design",
+  "price_tier": "Low-Mid",
+  "signature_products": ["Billy Bookcase", "Kallax", "Poäng Chair", "Frakta Bag"],
+  "status_signals": ["Minimalist interior", "FRAKTA blue bag fashion"],
+  "bar_angles": ["Assembling the life", "Minimalist maze", "The blue and yellow giant"]
+}

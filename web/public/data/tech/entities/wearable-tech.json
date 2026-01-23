@@ -1,0 +1,19 @@
+{
+  "id": "wearable-tech",
+  "type": "tech",
+  "name": "Wearable Tech",
+  "aliases": ["Wearables"],
+  "era": "2010s-Present",
+  "tags": ["technical", "fashion", "gadget", "cyborgization"],
+  "angles": ["technology as skin", "biological data", "functional style"],
+  "bar_seeds": ["counting my pulse", "glass on the eyes", "haptic skin"],
+  "related_ids": ["cyborgization", "smart-watch"],
+  "category": "Consumer Electronics / Fashion",
+  "what_it_is": "Electronic devices that can be worn on the body as accessories or implants.",
+  "why_it_matters": "The first step toward true human-machine symbiosis.",
+  "risks": ["Constant surveillance", "Distraction", "Physical discomfort"],
+  "metaphors": ["External organs", "Data armor", "The second skin"],
+  "keywords": ["Haptics", "Sensors", "Augmentation", "Health-tech", "AR-glasses"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

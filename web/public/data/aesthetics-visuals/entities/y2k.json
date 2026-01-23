@@ -1,0 +1,20 @@
+{
+  "id": "y2k",
+  "type": "aesthetics-visuals",
+  "name": "Y2K",
+  "aliases": ["Millennium Aesthetic"],
+  "era": "1990s-2000s",
+  "tags": ["futuristic", "pop-culture", "tech", "optimistic"],
+  "one_liner": "The futuristic, tech-obsessed aesthetic of the late 90s and early 2000s.",
+  "angles": ["millennium bug optimism", "digital shiny surfaces", "pop stardom"],
+  "bar_seeds": ["chrome surfaces", "translucent tech", "baggy denim", "cyber pop"],
+  "visual_elements": ["metallic fabrics", "blobby plastic", "wide-angle lens", "matrix-style code"],
+  "mood": "Energetic, futuristic, and slightly kitsch",
+  "associated_eras": ["1998-2003"],
+  "color_palette": ["silver", "neon blue", "hot pink", "white"],
+  "fashion_staples": ["velour tracksuits", "shield sunglasses", "low-rise jeans"],
+  "related_ids": ["cyberpunk"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "compass",
+  "type": "weapons-objects",
+  "name": "Compass",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An instrument containing a magnetized pointer that shows the direction of magnetic north.",
+  "tags": ["technical", "organic", "symbolic-object", "legacy"],
+  "angles": ["direction", "guidance", "alignment"],
+  "bar_seeds": ["true north", "magnetic pull", "lost without a needle"],
+  "related_ids": [],
+  "weapon_type": "Navigation",
+  "range": "Global",
+  "damage_type": "Information",
+  "symbolism": "Moral clarity, finding one's way, and steadfastness in purpose.",
+  "famous_users": ["Explorers", "Mariners"]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "slack",
+  "type": "brand",
+  "name": "Slack",
+  "aliases": [],
+  "era": "2013-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "startup",
+    "innovative",
+    "technical"
+  ],
+  "one_liner": "Work messaging platform known for channel-based collaboration.",
+  "angles": [
+    "channel culture",
+    "work chat",
+    "async coordination"
+  ],
+  "bar_seeds": [
+    "ping in the channel",
+    "emoji reactions",
+    "status set"
+  ],
+  "related_ids": [
+    "notion",
+    "discord"
+  ],
+  "created_at": "2026-01-06T15:00:00Z",
+  "updated_at": "2026-01-06T15:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Slack_(software)",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Collaboration/Software",
+  "price_tier": "Freemium to Subscription",
+  "signature_products": [
+    "Channels",
+    "Huddles",
+    "Integrations"
+  ],
+  "status_signals": [
+    "Workspace culture",
+    "Team coordination"
+  ],
+  "bar_angles": [
+    "team sync",
+    "chat flow"
+  ]
+}

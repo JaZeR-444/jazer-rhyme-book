@@ -1,0 +1,19 @@
+{
+  "id": "drone",
+  "type": "tech",
+  "name": "Drone",
+  "aliases": ["UAV", "Quadcopter"],
+  "era": "2000s-Present",
+  "tags": ["technical", "gadget", "aviation", "war"],
+  "angles": ["eye in the sky", "remote power", "delivery from above"],
+  "bar_seeds": ["buzzing overhead", "propeller wind", "birds-eye view"],
+  "related_ids": [],
+  "category": "Aviation / Robotics",
+  "what_it_is": "Unmanned Aerial Vehicle; an aircraft without a human pilot aboard.",
+  "why_it_matters": "Revolutionized aerial photography, logistics, and modern warfare.",
+  "risks": ["Privacy intrusion", "Collisions", "Autonomous weaponry"],
+  "metaphors": ["Mechanical bird", "Ghost pilot", "Flying eye"],
+  "keywords": ["FPV", "Quadcopter", "Payload", "Telemetry", "Autonomous"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

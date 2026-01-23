@@ -1,0 +1,17 @@
+{
+  "id": "sega",
+  "type": "brand",
+  "name": "Sega",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary video game company, once Nintendo's greatest rival, now a major software publisher.",
+  "tags": ["gaming", "retro", "90s", "vibrant"],
+  "angles": ["blue-blur", "the-underdog-rival", "arcade-heritage"],
+  "bar_seeds": ["sonic speed", "sega genesis", "arcade classics"],
+  "related_ids": ["nintendo", "sonic-the-hedgehog"],
+  "category": "Gaming",
+  "price_tier": "Mid",
+  "signature_products": ["Sonic the Hedgehog", "Genesis (Mega Drive)", "Dreamcast"],
+  "status_signals": ["The 'Sega!' startup sound", "Blue hedgehog"],
+  "bar_angles": ["90s speed", "Alternative gaming", "Sonic flow"]
+}

@@ -1,0 +1,366 @@
+{
+  "luxury": [
+    "apple-music",
+    "tidal"
+  ],
+  "music": [
+    "apple-music",
+    "bandcamp",
+    "deezer",
+    "limewire",
+    "myspace-legacy",
+    "napster",
+    "soundcloud",
+    "spotify",
+    "tidal"
+  ],
+  "technical": [
+    "apple-music",
+    "bittorrent",
+    "bluesky",
+    "deezer",
+    "google-meet",
+    "linkedin",
+    "mastodon",
+    "medium",
+    "playstation-network",
+    "signal",
+    "slack",
+    "steam",
+    "telegram",
+    "tidal",
+    "vimeo"
+  ],
+  "mainstream": [
+    "apple-music",
+    "deezer",
+    "google-meet",
+    "hbo-max",
+    "hulu",
+    "linkedin",
+    "paramount-plus",
+    "playstation-network",
+    "prime-video",
+    "threads",
+    "whatsapp"
+  ],
+  "underground": [
+    "bandcamp",
+    "bittorrent",
+    "soundcloud",
+    "telegram",
+    "tumblr"
+  ],
+  "community": [
+    "bandcamp",
+    "crunchyroll",
+    "discord",
+    "letterboxd",
+    "mastodon",
+    "medium",
+    "patreon",
+    "playstation-network",
+    "reddit",
+    "soundcloud",
+    "steam",
+    "twitch"
+  ],
+  "hustle": [
+    "bandcamp",
+    "clubhouse",
+    "kick",
+    "linkedin",
+    "onlyfans",
+    "patreon",
+    "substack"
+  ],
+  "rebellion": [
+    "bittorrent",
+    "napster",
+    "rumble"
+  ],
+  "legacy": [
+    "bittorrent",
+    "facebook",
+    "napster",
+    "paramount-plus"
+  ],
+  "innovative": [
+    "bluesky"
+  ],
+  "clean": [
+    "bluesky",
+    "threads"
+  ],
+  "alternative": [
+    "bluesky",
+    "rumble"
+  ],
+  "audio": [
+    "clubhouse",
+    "spotify"
+  ],
+  "exclusive": [
+    "clubhouse"
+  ],
+  "fleeting": [
+    "clubhouse",
+    "snapchat",
+    "vine-legacy"
+  ],
+  "anime": [
+    "crunchyroll"
+  ],
+  "asian": [
+    "crunchyroll"
+  ],
+  "vibrant": [
+    "crunchyroll"
+  ],
+  "global": [
+    "deezer",
+    "telegram",
+    "whatsapp"
+  ],
+  "social-media": [
+    "discord",
+    "facebook",
+    "instagram",
+    "reddit",
+    "snapchat",
+    "threads",
+    "tiktok",
+    "twitter-x"
+  ],
+  "chat": [
+    "discord"
+  ],
+  "gaming": [
+    "discord",
+    "kick",
+    "playstation-network",
+    "steam",
+    "twitch"
+  ],
+  "entertainment": [
+    "disney-plus",
+    "hulu",
+    "netflix",
+    "youtube"
+  ],
+  "family": [
+    "disney-plus"
+  ],
+  "cinematic": [
+    "disney-plus",
+    "hbo-max",
+    "hulu",
+    "paramount-plus",
+    "prime-video",
+    "vimeo"
+  ],
+  "franchise": [
+    "disney-plus"
+  ],
+  "networking": [
+    "facebook"
+  ],
+  "meta": [
+    "facebook",
+    "instagram"
+  ],
+  "utility": [
+    "google-meet",
+    "prime-video",
+    "skype",
+    "slack",
+    "whatsapp"
+  ],
+  "business": [
+    "google-meet",
+    "skype",
+    "steam"
+  ],
+  "prestige": [
+    "hbo-max"
+  ],
+  "classic": [
+    "hbo-max",
+    "skype"
+  ],
+  "pop": [
+    "hulu"
+  ],
+  "visuals": [
+    "instagram"
+  ],
+  "influence": [
+    "instagram"
+  ],
+  "streaming": [
+    "kick",
+    "netflix",
+    "spotify",
+    "twitch"
+  ],
+  "controversial": [
+    "kick",
+    "onlyfans"
+  ],
+  "cinema": [
+    "letterboxd"
+  ],
+  "critic": [
+    "letterboxd"
+  ],
+  "aesthetic": [
+    "letterboxd",
+    "pinterest",
+    "tumblr"
+  ],
+  "vintage": [
+    "limewire",
+    "myspace-legacy",
+    "napster",
+    "skype",
+    "vine-legacy"
+  ],
+  "00s": [
+    "limewire",
+    "myspace-legacy"
+  ],
+  "chaos": [
+    "limewire"
+  ],
+  "business-economics": [
+    "linkedin",
+    "slack"
+  ],
+  "privacy": [
+    "mastodon",
+    "signal",
+    "snapchat",
+    "telegram"
+  ],
+  "decentralized": [
+    "mastodon"
+  ],
+  "intellectual": [
+    "medium",
+    "substack"
+  ],
+  "blogging": [
+    "medium"
+  ],
+  "culture": [
+    "myspace-legacy",
+    "tumblr",
+    "vine-legacy"
+  ],
+  "video": [
+    "netflix",
+    "rumble",
+    "youtube"
+  ],
+  "original-content": [
+    "netflix"
+  ],
+  "adult": [
+    "onlyfans"
+  ],
+  "creator-economy": [
+    "onlyfans"
+  ],
+  "sports": [
+    "paramount-plus"
+  ],
+  "creative": [
+    "patreon"
+  ],
+  "support": [
+    "patreon"
+  ],
+  "visual": [
+    "pinterest"
+  ],
+  "mellow": [
+    "pinterest"
+  ],
+  "lifestyle": [
+    "pinterest"
+  ],
+  "corporate": [
+    "prime-video",
+    "slack",
+    "threads"
+  ],
+  "forum": [
+    "reddit"
+  ],
+  "discussion": [
+    "reddit"
+  ],
+  "political": [
+    "rumble"
+  ],
+  "security": [
+    "signal"
+  ],
+  "minimalist": [
+    "signal",
+    "substack"
+  ],
+  "youth": [
+    "snapchat"
+  ],
+  "lo-fi": [
+    "soundcloud",
+    "tumblr"
+  ],
+  "podcasts": [
+    "spotify"
+  ],
+  "media": [
+    "substack"
+  ],
+  "status": [
+    "tidal"
+  ],
+  "short-form-video": [
+    "tiktok"
+  ],
+  "viral": [
+    "tiktok",
+    "vine-legacy"
+  ],
+  "gen-z": [
+    "tiktok"
+  ],
+  "live": [
+    "twitch"
+  ],
+  "microblogging": [
+    "twitter-x"
+  ],
+  "news": [
+    "twitter-x"
+  ],
+  "controversy": [
+    "twitter-x"
+  ],
+  "art": [
+    "vimeo"
+  ],
+  "niche": [
+    "vimeo"
+  ],
+  "communication": [
+    "whatsapp"
+  ],
+  "education": [
+    "youtube"
+  ],
+  "google": [
+    "youtube"
+  ]
+}

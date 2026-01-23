@@ -1,0 +1,20 @@
+{
+  "id": "sacrifice",
+  "type": "rituals-symbols",
+  "name": "Sacrifice",
+  "aliases": ["Offering", "Oblation"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "commitment", "loss", "sacred"],
+  "one_liner": "The act of giving up something valued for the sake of something else regarded as more important or worthy.",
+  "angles": ["the cost of power", "blood for the gods", "giving up the self"],
+  "bar_seeds": ["sacrificial lamb", "altar of ambition", "giving it all up", "blood on the stone"],
+  "purpose": "To appease, honor, or petition a higher power or goal.",
+  "steps": ["Selection of offering", "Consecration", "Offering/Destruction"],
+  "objects_used": ["Food", "Wealth", "Symbolic objects", "Blood (historical)"],
+  "participants": "The practitioner, the recipient (deity/goal)",
+  "outcome": "Favored status, achieved goal, spiritual debt paid",
+  "related_ids": ["mythology-legend"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

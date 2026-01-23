@@ -1,0 +1,17 @@
+{
+  "id": "recording-studio",
+  "type": "architecture-spaces",
+  "name": "Recording Studio",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A specialized facility for sound recording, mixing, and audio production.",
+  "tags": ["creative", "technical", "music", "sanctuary"],
+  "angles": ["acoustics", "isolation", "creation"],
+  "bar_seeds": ["vocal booth", "soundproof glass", "mixing board"],
+  "related_ids": [],
+  "style": "Acoustic / Technical",
+  "materials": ["Foam", "Wood", "Fabric"],
+  "spatial_qualities": ["Soundproof", "Dark", "Focused"],
+  "function": "Music Production",
+  "famous_examples": ["Abbey Road", "Electric Lady"]
+}

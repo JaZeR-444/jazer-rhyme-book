@@ -1,0 +1,20 @@
+{
+  "id": "desert-eagle",
+  "type": "weapons-objects",
+  "name": "Desert Eagle",
+  "aliases": ["Deagle", "Hand Cannon"],
+  "era": "1980s-Present",
+  "tags": ["weapon", "power", "aggressive", "status"],
+  "one_liner": "A large-framed, semi-automatic pistol known for its massive stopping power and imposing presence.",
+  "angles": ["unnecessary power", "the hand cannon", "movie star of the gun world"],
+  "bar_seeds": ["deagle kickback", "hand cannon in the stash", "fifty cal heat", "chrome deagle"],
+  "weapon_type": "Semi-automatic Pistol",
+  "range": "Effective up to 200m",
+  "damage_type": "Ballistic (.50 AE / .44 Mag)",
+  "symbolism": "Overwhelming power, status, and intimidation.",
+  "famous_users": ["Action movie heroes", "Video game characters"],
+  "related_ids": ["cinema"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

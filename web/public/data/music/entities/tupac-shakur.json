@@ -1,0 +1,18 @@
+{
+  "id": "tupac-shakur",
+  "type": "music",
+  "name": "Tupac Shakur",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A poet, actor, and revolutionary whose raw lyricism and charisma defined West Coast hip-hop.",
+  "tags": ["legacy", "poetic", "revolutionary", "gangster"],
+  "angles": ["duality", "passion", "activism"],
+  "bar_seeds": ["thug life", "california love", "all eyez on me"],
+  "related_ids": ["the-notorious-big"],
+  "genre": ["Hip Hop", "Gangsta Rap"],
+  "era_detail": "1990s",
+  "signature_songs": ["Changes", "Dear Mama", "California Love"],
+  "sonic_descriptors": ["Passionate delivery", "G-Funk beats", "Storytelling"],
+  "influence_tree": ["Public Enemy", "Ice Cube"],
+  "aesthetic": "Bandana and Tattoos"
+}

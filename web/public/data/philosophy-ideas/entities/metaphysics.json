@@ -1,0 +1,16 @@
+{
+  "id": "metaphysics",
+  "type": "philosophy-ideas",
+  "name": "Metaphysics",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The branch of philosophy that examines the fundamental nature of reality, including the relationship between mind and matter.",
+  "tags": ["esoteric", "abstract", "classic", "existence"],
+  "angles": ["reality", "being", "causality"],
+  "bar_seeds": ["beyond the physical", "the fabric of being", "first principles"],
+  "school_of_thought": "Core Philosophy",
+  "core_question": "What is the ultimate nature of reality?",
+  "key_philosophers": ["Aristotle", "Martin Heidegger"],
+  "paradoxes": ["Zeno's Paradoxes"],
+  "modern_application": "Quantum physics interpretation, science fiction, religious studies."
+}

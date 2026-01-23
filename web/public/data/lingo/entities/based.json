@@ -1,0 +1,18 @@
+{
+  "id": "based",
+  "type": "lingo",
+  "name": "Based",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Being yourself and not caring what others think; agreeing with a controversial opinion.",
+  "tags": ["slang", "positive", "internet-culture", "legacy"],
+  "angles": ["authenticity", "confidence", "controversy"],
+  "bar_seeds": ["thank you based god", "lil b", "based take"],
+  "related_ids": [],
+  "meaning": "Cool, authentic, or agreeing with a bold stance.",
+  "usage": "Reacting to a good opinion ('Based').",
+  "origin": "Lil B (The BasedGod)",
+  "region": "Internet",
+  "example_lines": ["Unbelievably based", "Based and redpilled (context dependent)"],
+  "do_not_use_if": ["You don't understand the political context sometimes attached"]
+}

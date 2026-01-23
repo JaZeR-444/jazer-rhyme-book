@@ -1,0 +1,49 @@
+{
+  "id": "y2k-bug-2000",
+  "type": "history",
+  "name": "Y2K Bug",
+  "aliases": [
+    "Millennium bug"
+  ],
+  "era": "1999-2000",
+  "tags": [
+    "technical",
+    "mainstream",
+    "legacy",
+    "contemporary"
+  ],
+  "one_liner": "A widespread fear that computer systems would fail at the year 2000.",
+  "angles": [
+    "millennium glitch",
+    "systems risk",
+    "global preparedness"
+  ],
+  "bar_seeds": [
+    "midnight code fear",
+    "millennium tick",
+    "systems on edge"
+  ],
+  "key_dates": [
+    "1999-12-31",
+    "2000-01-01"
+  ],
+  "location": "Global",
+  "impact": "Prompted massive updates to legacy systems and risk planning.",
+  "major_figures": [
+    "John Koskinen"
+  ],
+  "cultural_shift": "Technology dependence became widely recognized.",
+  "related_ids": [
+    "dot-com-bubble-burst-2000"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

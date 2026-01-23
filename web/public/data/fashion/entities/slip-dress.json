@@ -1,0 +1,18 @@
+{
+  "id": "slip-dress",
+  "type": "fashion",
+  "name": "Slip Dress",
+  "aliases": ["Camisole Dress"],
+  "era": "1920s-Present",
+  "tags": ["90s", "minimalist", "sleek", "feminine"],
+  "one_liner": "A dress closely resembling an underslip, defined by spaghetti straps and fluid fabric.",
+  "angles": ["effortless minimalism", "lingerie-as-outerwear", "90s grunge mix"],
+  "bar_seeds": ["silk slip", "spaghetti straps", "faint satin sheen"],
+  "item_type": "Dresses",
+  "material": ["Silk", "Satin", "Rayon"],
+  "cultural_significance": "Iconic 90s piece associated with Kate Moss and the minimalism movement.",
+  "fit": ["Slim", "Fluid"],
+  "associated_brands": ["Calvin Klein", "Celine", "Zimmermann"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

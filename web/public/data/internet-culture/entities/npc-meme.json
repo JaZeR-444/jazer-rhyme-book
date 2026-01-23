@@ -1,0 +1,21 @@
+{
+  "id": "npc-meme",
+  "type": "internet-culture",
+  "name": "NPC Meme",
+  "aliases": ["Non-Player Character"],
+  "era": "2018-Present",
+  "tags": ["meme", "political", "gaming", "social-commentary"],
+  "one_liner": "A meme depicting people who do not think for themselves as 'Non-Player Characters' with a grey Wojak-like face.",
+  "angles": ["lack of autonomy", "programmed responses", "social conformity"],
+  "bar_seeds": ["grey face npc", "running the script", "no inner monologue"],
+  "format": "Character illustration",
+  "origin_platform": "4chan",
+  "meaning": "People who lack critical thinking or follow a 'program'.",
+  "remix_rules": ["Must have the grey face", "Must feature repetitive or programmed dialogue"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Another npc in the comments", "He's just following the script"],
+  "related_ids": ["wojak"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zeal",
+  "type": "emotions-states",
+  "name": "Zeal",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Great energy or enthusiasm in pursuit of a cause or an objective.",
+  "tags": ["energetic", "passion", "positive", "hustle"],
+  "angles": ["intensity", "devotion", "fire"],
+  "bar_seeds": ["burning for the goal", "unwavering focus", "the fire inside"],
+  "intensity": "High",
+  "physical_symptoms": ["Rapid speech", "High energy", "Dilated pupils"],
+  "triggers": ["Inspiration", "Shared purpose", "Success"],
+  "action_urge": "To take immediate and vigorous action.",
+  "opposites": ["Ennui", "Apathy"],
+  "related_ids": ["joy", "momentum"]
+}

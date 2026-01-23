@@ -1,0 +1,56 @@
+{
+  "id": "gorpcore",
+  "type": "fashion",
+  "name": "Gorpcore",
+  "aliases": [
+    "Hiker chic"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "trend",
+    "streetwear",
+    "organic",
+    "contemporary"
+  ],
+  "one_liner": "Outdoor gear styled as everyday fashion.",
+  "angles": [
+    "trail to city",
+    "functional layers",
+    "utility aesthetic"
+  ],
+  "bar_seeds": [
+    "fleece on the block",
+    "trail gear in town",
+    "mountain fit"
+  ],
+  "item_type": "Outdoor/Streetwear",
+  "material": [
+    "Fleece",
+    "Nylon",
+    "Canvas"
+  ],
+  "cultural_significance": "Turns hiking essentials into street-ready statements.",
+  "fit": [
+    "Relaxed",
+    "Layered"
+  ],
+  "associated_brands": [
+    "Patagonia",
+    "The North Face",
+    "Arc'teryx"
+  ],
+  "related_ids": [
+    "athleisure",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Gorpcore",
+      "url": "https://en.wikipedia.org/wiki/Gorpcore",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

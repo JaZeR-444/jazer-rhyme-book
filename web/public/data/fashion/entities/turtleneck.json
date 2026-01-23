@@ -1,0 +1,18 @@
+{
+  "id": "turtleneck",
+  "type": "fashion",
+  "name": "Turtleneck",
+  "aliases": ["Roll Neck", "Polo Neck"],
+  "era": "19th Century-Present",
+  "tags": ["academic", "classic", "minimalist", "sleek"],
+  "one_liner": "A high-necked garment that conveys intelligence, creative focus, and effortless sophistication.",
+  "angles": ["intellectual chic", "sleek layering", "the uniform of the genius"],
+  "bar_seeds": ["black roll neck", "steve jobs vibe", "sleek and neck-high"],
+  "item_type": "Tops",
+  "material": ["Wool", "Cashmere", "Cotton"],
+  "cultural_significance": "Favored by philosophers, artists, and tech visionaries.",
+  "fit": ["Slim", "Snug"],
+  "associated_brands": ["Uniqlo", "Loro Piana", "Issey Miyake"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

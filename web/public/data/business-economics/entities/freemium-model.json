@@ -1,0 +1,57 @@
+{
+  "id": "freemium-model",
+  "type": "business-economics",
+  "name": "Freemium Model",
+  "aliases": [
+    "Freemium"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "innovative"
+  ],
+  "one_liner": "Business model offering a free tier with paid upgrades for premium features.",
+  "angles": [
+    "free to paid",
+    "upsell ladder",
+    "conversion funnel"
+  ],
+  "bar_seeds": [
+    "free taste then premium",
+    "upgrade on the hook",
+    "unlock the pro"
+  ],
+  "industry": "Software/Media",
+  "core_principle": "Large free user base converts to paying customers.",
+  "jargon": [
+    "conversion",
+    "paywall",
+    "upsell"
+  ],
+  "key_metrics": [
+    "conversion rate",
+    "ARPU",
+    "retention"
+  ],
+  "archetypes": [
+    "free user",
+    "subscriber",
+    "power user"
+  ],
+  "related_ids": [
+    "spotify",
+    "notion",
+    "slack"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Freemium",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

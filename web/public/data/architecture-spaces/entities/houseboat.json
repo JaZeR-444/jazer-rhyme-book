@@ -1,0 +1,17 @@
+{
+  "id": "houseboat",
+  "type": "architecture-spaces",
+  "name": "Houseboat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A boat that has been designed or modified to be used primarily as a human dwelling.",
+  "tags": ["nature", "fluid", "escape", "lifestyle"],
+  "angles": ["aquatic-freedom", "drifting-life", "unmoored"],
+  "bar_seeds": ["living on the river", "rocked by the tide", "floating home"],
+  "related_ids": ["tidal-force"],
+  "style": "Maritime / Floating",
+  "materials": ["Wood", "Steel", "Fiberglass"],
+  "spatial_qualities": ["Compact", "Linear", "Unstable"],
+  "function": "Residential",
+  "famous_examples": ["Sausalito Houseboats", "London Canal Boats"]
+}

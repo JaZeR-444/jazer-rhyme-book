@@ -1,0 +1,16 @@
+{
+  "id": "the-mongol-empire",
+  "type": "history",
+  "name": "The Mongol Empire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The largest contiguous land empire in history, founded by Genghis Khan and known for its nomadic warfare.",
+  "tags": ["empire", "war", "speed", "grit"],
+  "angles": ["nomadic power", "pax mongolica", "unstoppable tide"],
+  "bar_seeds": ["genghis khan", "golden horde", "conquering the steppe"],
+  "key_dates": ["1206", "1368"],
+  "location": "Central Asia, spreading to Europe and East Asia",
+  "impact": "Facilitated trade and cultural exchange across Eurasia via the Silk Road.",
+  "major_figures": ["Genghis Khan", "Kublai Khan"],
+  "cultural_shift": "Integration of diverse cultures under nomadic rule; merit-based promotion."
+}

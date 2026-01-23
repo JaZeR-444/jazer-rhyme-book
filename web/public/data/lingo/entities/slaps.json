@@ -1,0 +1,18 @@
+{
+  "id": "slaps",
+  "type": "lingo",
+  "name": "Slaps",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Describing music (or food) that is excellent and hits hard.",
+  "tags": ["slang", "positive", "music", "vibrant"],
+  "angles": ["impact", "quality", "bass"],
+  "bar_seeds": ["this beat slaps", "slapping in the trunk", "goes hard"],
+  "related_ids": ["bop"],
+  "meaning": "It's good / It hits hard.",
+  "usage": "Complimenting a song's bass or overall vibe.",
+  "origin": "Bay Area Hip Hop",
+  "region": "West Coast / Global",
+  "example_lines": ["This beat slaps so hard", "Grandma's cooking slaps"],
+  "do_not_use_if": ["Describing a sad acoustic ballad"]
+}

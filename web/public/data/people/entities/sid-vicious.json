@@ -1,0 +1,18 @@
+{
+  "id": "sid-vicious",
+  "type": "people",
+  "name": "Sid Vicious",
+  "aliases": ["John Simon Ritchie"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The chaotic icon of punk rock, whose image and attitude far surpassed his musical ability.",
+  "tags": ["punk-fashion", "rebellion", "aggressive", "dark"],
+  "angles": ["pure-anarchy", "nihilism", "self-destruction"],
+  "bar_seeds": ["lock and chain", "leather jacket", "my way"],
+  "related_ids": ["punk-rock", "punk-fashion"],
+  "known_for": ["Sex Pistols", "Punk Iconography", "My Way cover"],
+  "vibe": "Violent, chaotic, nihilistic",
+  "signature_items": ["Rabbit padlock chain", "Leather jacket", "Battered bass"],
+  "quotables_short": ["I did it my way."],
+  "controversy_flags": ["Violence", "Murder allegation", "Drug overdose"]
+}

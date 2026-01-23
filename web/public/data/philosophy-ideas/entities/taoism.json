@@ -1,0 +1,16 @@
+{
+  "id": "taoism",
+  "type": "philosophy-ideas",
+  "name": "Taoism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A philosophical and religious tradition that emphasizes living in harmony with the 'Tao' (the Way).",
+  "tags": ["spiritual", "mellow", "asian", "zen"],
+  "angles": ["effortless action", "balance", "nature's flow"],
+  "bar_seeds": ["the way that can be named", "flowing like water", "yin and yang"],
+  "school_of_thought": "Chinese Philosophy",
+  "core_question": "How can one live in harmony with the natural order of the universe?",
+  "key_philosophers": ["Laozi", "Zhuangzi"],
+  "paradoxes": ["Wu Wei (Non-action as action)"],
+  "modern_application": "Stress management, martial arts, creative flow states."
+}

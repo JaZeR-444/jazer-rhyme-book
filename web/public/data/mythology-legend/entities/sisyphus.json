@@ -1,0 +1,17 @@
+{
+  "id": "sisyphus",
+  "type": "mythology-legend",
+  "name": "Sisyphus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A king punished by Zeus to roll a boulder up a hill for eternity, only for it to roll back down.",
+  "tags": ["philosophical-ideas", "grit", "dark", "mythology"],
+  "angles": ["absurdism", "futility", "struggle"],
+  "bar_seeds": ["rolling the rock", "eternal struggle", "happy sisyphus"],
+  "related_ids": [],
+  "origin_culture": "Greek",
+  "deity_type": "Human (King)",
+  "powers": ["Cunning (formerly)", "Eternal endurance"],
+  "symbols": ["Boulder", "Hill"],
+  "modern_parallels": ["The 9-to-5 Grind", "Existentialism", "Looping"]
+}

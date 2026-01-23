@@ -1,0 +1,20 @@
+{
+  "id": "deepfake",
+  "type": "tech",
+  "name": "Deepfake",
+  "aliases": ["Synthetic Media", "Face Swap"],
+  "era": "2010s-Present",
+  "tags": ["technical", "ai", "controversial", "media"],
+  "one_liner": "Synthetic media in which a person in an existing image or video is replaced with someone else's likeness using AI.",
+  "angles": ["the death of truth", "digital mask", "unreliable witness"],
+  "bar_seeds": ["words I never said", "phantom in the screen", "pixelated lies"],
+  "related_ids": ["artificial-intelligence"],
+  "category": "AI / Media",
+  "what_it_is": "Media created using deep learning to convincingly manipulate human likeness.",
+  "why_it_matters": "Poses extreme challenges to information verification, law, and personal privacy.",
+  "risks": ["Misinformation", "Identity theft", "Non-consensual content", "Political instability"],
+  "metaphors": ["Digital ventriloquism", "A mirror that lies", "Hollow skins"],
+  "keywords": ["GANs", "Autoencoders", "Neural Networks", "Likeness", "Verification"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

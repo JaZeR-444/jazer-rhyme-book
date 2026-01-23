@@ -1,0 +1,20 @@
+{
+  "id": "library",
+  "type": "architecture-spaces",
+  "name": "Library",
+  "aliases": ["The Stacks", "Archive"],
+  "era": "Ancient-Present",
+  "tags": ["knowledge", "intellectual", "silent", "historic"],
+  "one_liner": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for people to read, borrow, or refer to.",
+  "angles": ["temple of knowledge", "whispered secrets", "the smell of old paper"],
+  "bar_seeds": ["dusty stacks", "silent halls", "leather-bound wisdom", "infinite pages"],
+  "style": "Classical / Modern / Grand",
+  "materials": ["Wood shelving", "Paper", "Stone", "Soft lighting"],
+  "spatial_qualities": ["Vast", "Silent", "Organized"],
+  "function": "Education / Preservation / Research",
+  "famous_examples": ["Library of Alexandria", "New York Public Library", "Bodleian Library"],
+  "related_ids": ["writing-tools", "philosophy-ideas"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "labyrinth-ritual",
+  "type": "rituals-symbols",
+  "name": "Labyrinth",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A complex path used for walking meditation and as a symbol of the spiritual journey to one's center.",
+  "tags": ["ritual", "classic", "spiritual", "journey"],
+  "angles": ["one-way-in", "the-center-of-self", "twisting-path"],
+  "bar_seeds": ["walking the maze", "lost in the center", "finding the way back"],
+  "related_ids": ["maze", "minotaur"],
+  "purpose": "To facilitate contemplative prayer or walking meditation.",
+  "steps": ["Entering the path", "Following the turns", "Reaching the center", "Returning"],
+  "objects_used": ["Stone path", "Finger labyrinth", "Canvas floor"],
+  "participants": "Individual",
+  "outcome": "Spiritual insight and mental calmness."
+}

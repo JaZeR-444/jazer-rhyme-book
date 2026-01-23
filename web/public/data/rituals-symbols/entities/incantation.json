@@ -1,0 +1,17 @@
+{
+  "id": "incantation",
+  "type": "rituals-symbols",
+  "name": "Incantation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A series of words said as a magic spell or charm.",
+  "tags": ["ritual", "esoteric", "speech", "power"],
+  "angles": ["voice power", "ancient tongue", "manifestation"],
+  "bar_seeds": ["muttering the code", "words that change reality", "ancient whisper"],
+  "related_ids": ["omen"],
+  "purpose": "To invoke magic or produce a supernatural effect through speech.",
+  "steps": ["Recitation of specific phrases", "Correct intonation and rhythm", "Focused intent"],
+  "objects_used": ["Staff", "Wand", "Grimoire"],
+  "participants": "Sorcerer, Priest, or Practitioner",
+  "outcome": "Supernatural change or protection."
+}

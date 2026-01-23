@@ -1,0 +1,53 @@
+{
+  "id": "robert-downey-jr",
+  "type": "people",
+  "name": "Robert Downey Jr.",
+  "aliases": [
+    "RDJ"
+  ],
+  "era": "1980s-2020s",
+  "tags": [
+    "cinematic",
+    "legacy",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Actor known for sharp wit, blockbuster roles, and a major career resurgence.",
+  "angles": [
+    "witty lead",
+    "blockbuster magnet",
+    "comeback story"
+  ],
+  "bar_seeds": [
+    "tech genius swagger",
+    "armored glow",
+    "sharp suit"
+  ],
+  "related_ids": [
+    "chris-hemsworth",
+    "tom-holland"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Downey_Jr.",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Acting",
+    "Blockbuster franchises"
+  ],
+  "vibe": "Sharp, charismatic, and witty",
+  "signature_items": [
+    "Sleek suits",
+    "Quips"
+  ],
+  "quotables_short": [
+    "I am Iron Man"
+  ],
+  "controversy_flags": []
+}

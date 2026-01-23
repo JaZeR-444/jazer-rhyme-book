@@ -1,0 +1,17 @@
+{
+  "id": "zara",
+  "type": "brand",
+  "name": "Zara",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Spanish multi-national retail clothing chain, the flagship of the Inditex group and a pioneer of 'fast fashion'.",
+  "tags": ["fast-fashion", "contemporary", "mainstream", "style"],
+  "angles": ["trend-speed", "runway-for-less", "instant-gratification"],
+  "bar_seeds": ["looks like designer", "weekly drops", "high street hero"],
+  "related_ids": ["fashion"],
+  "category": "Fashion",
+  "price_tier": "Mid",
+  "signature_products": ["Suits", "Outerwear", "Fragrances"],
+  "status_signals": ["Latest runway look (affordable)", "Minimalist store vibe"],
+  "bar_angles": ["Dressed like a millionaire on a budget", "The speed of the trend", "Style at scale"]
+}

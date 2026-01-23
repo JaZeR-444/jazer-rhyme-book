@@ -1,0 +1,17 @@
+{
+  "id": "pop-art",
+  "type": "aesthetics-visuals",
+  "name": "Pop Art",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An art movement that challenged fine art traditions by including imagery from popular and mass culture.",
+  "tags": ["vibrant", "pop", "commercial", "iconic"],
+  "angles": ["commercialism", "repetition", "celebrity"],
+  "bar_seeds": ["soup cans", "comic strip dots", "15 minutes"],
+  "related_ids": ["andy-warhol"],
+  "visual_elements": ["Ben-Day dots", "Bright colors", "Celebrity faces", "Ad imagery"],
+  "mood": "Ironic, playful, bold",
+  "associated_eras": ["1950s", "1960s"],
+  "color_palette": ["Primary Red", "Yellow", "Cyan", "Neon"],
+  "fashion_staples": ["Graphic mini dresses", "Bold prints", "Plastic accessories"]
+}

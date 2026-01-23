@@ -1,0 +1,60 @@
+{
+  "id": "netflix",
+  "type": "brand",
+  "name": "Netflix",
+  "aliases": [
+    "NFLX",
+    "Binge King",
+    "Stream Giant"
+  ],
+  "era": "1997-Present",
+  "tags": [
+    "streaming",
+    "entertainment",
+    "binge",
+    "original",
+    "disruptive"
+  ],
+  "one_liner": "The streaming pioneer that revolutionized how we consume entertainment.",
+  "angles": [
+    "binge watching",
+    "original content",
+    "disruption"
+  ],
+  "bar_seeds": [
+    "Netflix and chill",
+    "Binge mode",
+    "Original series"
+  ],
+  "related_ids": [
+    "streaming",
+    "hulu",
+    "disney"
+  ],
+  "created_at": "2025-12-23T12:30:00Z",
+  "updated_at": "2025-12-23T12:30:00Z",
+  "sources": [
+    {
+      "title": "Netflix official site",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Entertainment/Streaming",
+  "price_tier": "Mid-Range",
+  "signature_products": [
+    "Original series",
+    "Binge model",
+    "Recommendation algorithm"
+  ],
+  "status_signals": [
+    "Red 'N'",
+    "Binge content"
+  ],
+  "bar_angles": [
+    "convenience",
+    "original",
+    "binge"
+  ]
+}

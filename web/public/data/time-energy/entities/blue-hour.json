@@ -1,0 +1,17 @@
+{
+  "id": "blue-hour",
+  "type": "time-energy",
+  "name": "Blue Hour",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The twilight period when the sun is far below the horizon and the sky takes on a deep blue hue.",
+  "tags": ["pastel", "noir", "cinematic", "fleeting"],
+  "angles": ["twilight", "coldness", "tranquility"],
+  "bar_seeds": ["deep blue sky", "city lights coming on", "between day and night"],
+  "related_ids": ["golden-hour"],
+  "concept_type": "Temporal/Aesthetic",
+  "perception": "Cool, quiet, and deeply atmospheric.",
+  "physics_basis": "Chappuis absorption of sunlight by the ozone layer.",
+  "cultural_view": "A time of introspection and transition; the 'l'heure bleue'.",
+  "idioms": ["Between worlds", "The deep blue", "Dusk's first breath"]
+}

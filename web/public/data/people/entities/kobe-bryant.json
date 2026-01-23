@@ -1,0 +1,17 @@
+{
+  "id": "kobe-bryant",
+  "type": "people",
+  "name": "Kobe Bryant",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Lakers legend known for his 'Mamba Mentality', obsessive work ethic, and scoring prowess.",
+  "tags": ["sports", "legacy", "grit", "iconic"],
+  "angles": ["work-ethic", "obsession", "clutch"],
+  "bar_seeds": ["mamba mentality", "8 and 24", "fadeaway jumper"],
+  "related_ids": ["michael-jordan", "lebron-james"],
+  "known_for": ["5 Championships", "81 Point Game", "Oscar win"],
+  "vibe": "Ruthless, intellectual, dedicated",
+  "signature_items": ["Purple and gold", "Nike Kobes", "Arm sleeve"],
+  "quotables_short": ["Job's not finished.", "Mamba out."],
+  "controversy_flags": ["2003 Case"]
+}

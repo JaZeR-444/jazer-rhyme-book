@@ -1,0 +1,17 @@
+{
+  "id": "the-veiling",
+  "type": "rituals-symbols",
+  "name": "The Veiling",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ritual act of covering the head or body to signify modesty, mystery, or sacredness.",
+  "tags": ["ritual", "classic", "secret", "spiritual"],
+  "angles": ["hidden-truth", "sacred-mystery", "modesty-power"],
+  "bar_seeds": ["behind the curtain", "veiled vision", "protected soul"],
+  "related_ids": ["anonymity"],
+  "purpose": "To protect, separate from the profane, or signify religious devotion.",
+  "steps": ["Draping the fabric", "Securing the veil", "Entering the sacred space"],
+  "objects_used": ["Silk", "Cotton", "Lace"],
+  "participants": "Practitioner, Bride, Mourner",
+  "outcome": "Created mystery or demonstrated humility."
+}

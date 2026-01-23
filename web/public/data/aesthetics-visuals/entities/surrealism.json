@@ -1,0 +1,17 @@
+{
+  "id": "surrealism",
+  "type": "aesthetics-visuals",
+  "name": "Surrealism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cultural movement that sought to release the creative potential of the unconscious mind.",
+  "tags": ["surreal", "dream", "abstract", "classic"],
+  "angles": ["dreams", "subconscious", "melting"],
+  "bar_seeds": ["melting clocks", "apple face", "dream logic"],
+  "related_ids": ["dreamcore"],
+  "visual_elements": ["Melting objects", "Floating islands", "Impossible geometry", "Eyes"],
+  "mood": "Dreamlike, bizarre, unsettling",
+  "associated_eras": ["1920s", "1930s"],
+  "color_palette": ["Dreamy Blue", "Desert Orange", "Blood Red", "Sky"],
+  "fashion_staples": ["Trompe-l'œil", "Lobster dress", "Eye jewelry"]
+}

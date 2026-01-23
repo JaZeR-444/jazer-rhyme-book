@@ -1,0 +1,20 @@
+{
+  "id": "michael-jordan",
+  "type": "sports",
+  "name": "Michael Jordan",
+  "aliases": ["MJ", "Air Jordan", "The GOAT"],
+  "era": "1980s-2000s",
+  "tags": ["basketball", "legend", "competitive", "icon"],
+  "one_liner": "Arguably the greatest basketball player of all time, known for his unmatched competitiveness and global influence.",
+  "angles": ["the standard of excellence", "killer instinct", "building a brand"],
+  "bar_seeds": ["jumpman logo", "6 rings", "flu game", "tongue out dunk"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Scoring", "Defense", "Clutch performance", "Leadership"],
+  "equipment": ["Basketball", "Air Jordans"],
+  "metaphors": ["The GOAT", "Flying through the air"],
+  "legends": ["6 NBA Championships", "5 MVPs"],
+  "related_ids": ["nike", "kobe-bryant", "lebron-james"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

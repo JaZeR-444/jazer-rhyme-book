@@ -1,0 +1,21 @@
+{
+  "id": "migos",
+  "type": "music",
+  "name": "Migos",
+  "aliases": ["The Three Amigos"],
+  "era": "2010s-2020s",
+  "tags": ["trap", "atlanta", "triplet-flow", "ad-libs", "modern"],
+  "one_liner": "The Atlanta trio that popularized the triplet flow and redefined modern trap ad-libs.",
+  "angles": ["family ties", "trap house luxury", "the culture"],
+  "bar_seeds": ["bad and boujee", "quavo voice", "raindrop drop top"],
+  "genre": ["Trap"],
+  "era_detail": "Rose to prominence in 2013 with Versace.",
+  "signature_songs": ["Bad and Boujee", "Versace", "Stir Fry"],
+  "sonic_descriptors": ["staccato", "energetic", "heavy bass"],
+  "influence_tree": ["Gucci Mane", "Three 6 Mafia"],
+  "aesthetic": "High-fashion trap luxury",
+  "related_ids": ["drake", "kanye-west"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

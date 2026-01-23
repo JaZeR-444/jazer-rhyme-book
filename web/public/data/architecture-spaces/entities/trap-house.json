@@ -1,0 +1,17 @@
+{
+  "id": "trap-house",
+  "type": "architecture-spaces",
+  "name": "Trap House",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A location used for the production and distribution of drugs, central to trap music mythology.",
+  "tags": ["grit", "underground", "streetwear", "trap"],
+  "angles": ["hustle", "danger", "community"],
+  "bar_seeds": ["bando", "boards on the windows", "cooking in the kitchen"],
+  "related_ids": [],
+  "style": "Dilapidated Residential",
+  "materials": ["Wood", "Concrete", "Drywall"],
+  "spatial_qualities": ["Claustrophobic", "Dark", "Chaotic"],
+  "function": "Illicit Business",
+  "famous_examples": ["The Bando", "1017 Brick Squad HQ"]
+}

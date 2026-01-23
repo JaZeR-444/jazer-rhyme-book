@@ -1,0 +1,20 @@
+{
+  "id": "api-tech",
+  "type": "tech",
+  "name": "API",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A set of definitions and protocols for building and integrating application software.",
+  "tags": ["technical", "software", "connectivity", "systems"],
+  "angles": ["digital-bridge", "request-and-response", "the-hidden-handshake"],
+  "bar_seeds": ["connecting the dots", "sending the key", "endpoint reached"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_is": "Application Programming Interface; allows two applications to talk to each other.",
+  "why_it_matters": "Enables the modern interconnected web (e.g., logging in with Google).",
+  "risks": ["Rate limiting", "Data leaks", "Breaking changes"],
+  "metaphors": ["A waiter taking an order", "Universal adapter", "The translator"],
+  "keywords": ["REST", "JSON", "Endpoint", "Key", "Authentication"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

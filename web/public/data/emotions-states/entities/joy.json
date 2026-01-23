@@ -1,0 +1,72 @@
+{
+  "id": "joy",
+  "type": "emotions-states",
+  "name": "Joy",
+  "aliases": [
+    "Delight"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "vibrant",
+    "mainstream",
+    "classic"
+  ],
+  "one_liner": "A bright emotional state marked by happiness, energy, and uplift.",
+  "angles": [
+    "lightness and lift",
+    "smiles in the room",
+    "pure uplift"
+  ],
+  "bar_seeds": [
+    "sunrise in my chest",
+    "laughs in the air",
+    "golden hour feeling"
+  ],
+  "related_ids": [
+    "euphoria",
+    "hope"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "celebration",
+    "connection",
+    "achievement"
+  ],
+  "sensations": [
+    "warmth",
+    "lightness",
+    "energy"
+  ],
+  "expressions": [
+    "laughter",
+    "smiles",
+    "open posture"
+  ],
+  "opposites": [
+    "melancholy",
+    "shame"
+  ],
+  "coping_tools": [
+    "gratitude",
+    "play",
+    "music"
+  ],
+  "cultural_notes": [
+    "celebrations",
+    "rituals",
+    "community"
+  ],
+  "related_states": [
+    "euphoria",
+    "contentment"
+  ]
+}

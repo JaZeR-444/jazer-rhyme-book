@@ -1,0 +1,60 @@
+{
+  "id": "shohei-ohtani",
+  "type": "sports",
+  "name": "Shohei Ohtani",
+  "aliases": [
+    "Shotime"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "innovative",
+    "mainstream",
+    "contemporary",
+    "legacy"
+  ],
+  "one_liner": "Two-way baseball star who excels as both an elite pitcher and power hitter.",
+  "angles": [
+    "two-way unicorn",
+    "global icon",
+    "power and precision"
+  ],
+  "bar_seeds": [
+    "splitter bite",
+    "moonshot swing",
+    "two-way legend"
+  ],
+  "team_size": "9 (Baseball)",
+  "key_skills": [
+    "Pitching",
+    "Power hitting",
+    "Speed"
+  ],
+  "equipment": [
+    "Bat",
+    "Glove",
+    "Baseball"
+  ],
+  "metaphors": [
+    "two-way unicorn",
+    "dual threat"
+  ],
+  "legends": [
+    "Two-way MVP seasons",
+    "Record-setting power"
+  ],
+  "related_ids": [
+    "mike-trout",
+    "aaron-judge"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

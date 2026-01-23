@@ -1,0 +1,20 @@
+{
+  "id": "tiger-woods",
+  "type": "sports",
+  "name": "Tiger Woods",
+  "aliases": ["Tiger"],
+  "era": "1990s-Present",
+  "tags": ["golf", "focus", "legend", "comeback"],
+  "one_liner": "The golfer who revolutionized the sport with his athleticism, focus, and dominance.",
+  "angles": ["laser focus", "the comeback kid", "changing the game"],
+  "bar_seeds": ["tiger woods focus", "red shirt on sunday", "the fist pump", "masters green"],
+  "team_size": "1 (Golf)",
+  "key_skills": ["Putting", "Mental focus", "Driving power", "Precision"],
+  "equipment": ["Golf clubs", "Golf ball"],
+  "metaphors": ["Tiger on the prowl", "The Sunday Red"],
+  "legends": ["15 Major Championships"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

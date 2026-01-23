@@ -1,0 +1,50 @@
+{
+  "id": "haute-couture",
+  "type": "fashion",
+  "name": "Haute Couture",
+  "aliases": [
+    "High Fashion",
+    "Couture"
+  ],
+  "era": "19th Century-Present",
+  "tags": [
+    "luxury",
+    "handmade",
+    "exclusive",
+    "french"
+  ],
+  "one_liner": "The creation of exclusive custom-fitted high-end fashion, handmade from start to finish.",
+  "angles": [
+    "the peak of artistic fashion",
+    "unreachable luxury",
+    "one of one craftsmanship"
+  ],
+  "bar_seeds": [
+    "handmade stitching",
+    "couture cut",
+    "runway ready",
+    "paris fashion week"
+  ],
+  "item_type": "Luxury Apparel",
+  "material": [
+    "Silk",
+    "Velvet",
+    "Exotic skins",
+    "Fine wool"
+  ],
+  "cultural_significance": "The laboratory of fashion where new ideas and techniques are born.",
+  "fit": [
+    "Custom-tailored (Perfect)"
+  ],
+  "associated_brands": [
+    "Chanel",
+    "Dior",
+    "Schiaparelli"
+  ],
+  "related_ids": [
+    "luxury"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

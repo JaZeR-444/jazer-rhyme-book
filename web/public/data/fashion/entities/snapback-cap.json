@@ -1,0 +1,19 @@
+{
+  "id": "snapback-cap",
+  "type": "fashion",
+  "name": "Snapback Cap",
+  "aliases": ["Snapback"],
+  "era": "1950s-Present (Modern peak 90s/2010s)",
+  "tags": ["streetwear", "90s", "vibrant", "sports"],
+  "one_liner": "A flat-brimmed baseball cap with an adjustable plastic strap at the back.",
+  "angles": ["team-pride", "streetwear-billboard", "retro-90s-style"],
+  "bar_seeds": ["flat brim", "plastic snap", "green underbrim"],
+  "related_ids": ["streetwear", "bucket-hat"],
+  "item_type": "Accessories",
+  "material": ["Wool", "Acrylic", "Polyester"],
+  "cultural_significance": "Defining headwear of 90s hip-hop and the early 2010s streetwear resurgence.",
+  "fit": ["Adjustable", "Flat-brim"],
+  "associated_brands": ["New Era", "Mitchell & Ness", "Starter"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

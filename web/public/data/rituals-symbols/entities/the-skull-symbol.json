@@ -1,0 +1,17 @@
+{
+  "id": "the-skull-symbol",
+  "type": "rituals-symbols",
+  "name": "The Skull",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A universal symbol of mortality, used in 'Memento Mori' art to remind viewers of the transience of life.",
+  "tags": ["dark", "history", "classic", "legacy"],
+  "angles": ["memento-mori", "mortality", "danger-warning"],
+  "bar_seeds": ["bone white", "grinning at the end", "yorick's head"],
+  "related_ids": ["decay", "grim-reaper"],
+  "purpose": "To serve as a reminder of death or a warning of danger.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Human or Animal Skull", "Artistic depictions"],
+  "participants": "Philosophers, Artists, Pirates",
+  "outcome": "Humility before death or intimidation of enemies."
+}

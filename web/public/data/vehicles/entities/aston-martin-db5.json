@@ -1,0 +1,17 @@
+{
+  "id": "aston-martin-db5",
+  "type": "vehicles",
+  "name": "Aston Martin DB5",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The most famous car in the world, forever linked to James Bond.",
+  "tags": ["classic", "luxury", "vintage", "iconic"],
+  "angles": ["elegance", "spy-tech", "british"],
+  "bar_seeds": ["ejector seat", "silver birch", "shaken not stirred"],
+  "related_ids": [],
+  "vehicle_type": "Grand Tourer",
+  "engine_type": "Inline-6",
+  "top_speed": "145 mph",
+  "cultural_status": "The eternal symbol of cinematic espionage and British class.",
+  "design_features": ["Slatted grille", "Wire wheels", "Hidden gadgets"]
+}

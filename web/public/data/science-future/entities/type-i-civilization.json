@@ -1,0 +1,17 @@
+{
+  "id": "type-i-civilization",
+  "type": "science-future",
+  "name": "Type I Civilization",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A civilization that can use and store all of the energy available on its home planet.",
+  "tags": ["futuristic", "global", "technical", "energy"],
+  "angles": ["planetary-mastery", "weather-control", "unified-world"],
+  "bar_seeds": ["controlling the storm", "harvesting the core", "level one power"],
+  "related_ids": ["kardashev-scale", "solar-energy"],
+  "field": "Futurism",
+  "hypothesis": "Humanity's next major milestone in energy consumption and technological scale.",
+  "implications": ["End of environmental resource limits", "World government (likely)", "Total planetary communication"],
+  "technologies": ["Global Fusion", "Geoengineering", "High-efficiency Renewables"],
+  "ethical_concerns": ["Totalitarian control", "Ecological tampering"]
+}

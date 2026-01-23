@@ -1,0 +1,20 @@
+{
+  "id": "stoicism",
+  "type": "philosophy-ideas",
+  "name": "Stoicism",
+  "aliases": ["The Stoa"],
+  "era": "Ancient-Present",
+  "tags": ["wisdom", "logic", "endurance", "ethics"],
+  "one_liner": "A school of Hellenistic philosophy that teaches the development of self-control and fortitude as a means of overcoming destructive emotions.",
+  "angles": ["mastery over the mind", "living in accordance with nature", "the unshakeable calm"],
+  "bar_seeds": ["unmoved by the storm", "stoic silence", "virtue is the only good", "control the controllable"],
+  "school_of_thought": "Virtue Ethics",
+  "core_question": "How can we live a good, happy life in an unpredictable world?",
+  "key_philosophers": ["Marcus Aurelius", "Seneca", "Epictetus"],
+  "paradoxes": ["The Stoic Archer (focus on the aim, not the result)"],
+  "modern_application": "Highly popular in self-help, executive coaching, and mental resilience training.",
+  "related_ids": ["logic"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

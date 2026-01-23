@@ -1,0 +1,17 @@
+{
+  "id": "nikola-tesla",
+  "type": "people",
+  "name": "Nikola Tesla",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The futuristic inventor whose work on AC electricity and wireless transmission was decades ahead of his time.",
+  "tags": ["innovative", "technical", "legacy", "futuristic"],
+  "angles": ["genius", "mad-scientist", "electricity"],
+  "bar_seeds": ["tesla coil", "wireless energy", "pigeon love"],
+  "related_ids": ["elon-musk"],
+  "known_for": ["AC Current", "Radio", "Tesla Coil"],
+  "vibe": "Eccentric genius, overlooked",
+  "signature_items": ["Mustache", "Coils", "Pigeons"],
+  "quotables_short": ["The present is theirs; the future... is mine."],
+  "controversy_flags": ["Obsessive behavior", "Died penniless"]
+}

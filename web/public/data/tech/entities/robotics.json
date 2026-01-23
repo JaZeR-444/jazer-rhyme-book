@@ -1,0 +1,67 @@
+{
+  "id": "robotics",
+  "type": "tech",
+  "name": "Robotics",
+  "aliases": [
+    "Robots",
+    "Automation",
+    "Mechatronics"
+  ],
+  "era": "1950s-Present",
+  "tags": [
+    "automation",
+    "mechanical",
+    "intelligent",
+    "assistive",
+    "evolving"
+  ],
+  "one_liner": "The branch of technology that deals with the design, construction, and operation of robots.",
+  "angles": [
+    "automation",
+    "human-robot interaction",
+    "industrial"
+  ],
+  "bar_seeds": [
+    "Mechanical precision, robotic flow",
+    "Automation in motion"
+  ],
+  "related_ids": [
+    "ai",
+    "automation",
+    "manufacturing"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": [
+    {
+      "title": "Industrial automation",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Research institutions",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Mechatronics",
+  "what_it_is": "Technology combining mechanical engineering, electrical engineering, and computer science.",
+  "why_it_matters": "Automates tasks and extends human capabilities.",
+  "risks": [
+    "Job displacement",
+    "Safety concerns",
+    "Ethical implications"
+  ],
+  "metaphors": [
+    "Mechanical assistants",
+    "Automated workers"
+  ],
+  "keywords": [
+    "Automation",
+    "Mechanical",
+    "Intelligent",
+    "Actuators"
+  ]
+}

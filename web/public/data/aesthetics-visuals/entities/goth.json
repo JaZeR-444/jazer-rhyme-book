@@ -1,0 +1,20 @@
+{
+  "id": "goth",
+  "type": "aesthetics-visuals",
+  "name": "Goth",
+  "aliases": ["Gothic"],
+  "era": "1980s-Present",
+  "tags": ["dark", "alternative", "melancholy", "mystery"],
+  "one_liner": "An aesthetic celebrating darkness, melancholy, and the macabre, rooted in 80s post-punk culture.",
+  "angles": ["beauty in the darkness", "alternative identity", "romanticizing mortality"],
+  "bar_seeds": ["black lace", "pale skin", "tombstone shadows", "cemetery gates"],
+  "visual_elements": ["dark lace", "crosses", "vampiric imagery", "industrial architecture"],
+  "mood": "Brooding, mysterious, and melancholic",
+  "associated_eras": ["1980s", "Present"],
+  "color_palette": ["black", "deep red", "purple", "silver"],
+  "fashion_staples": ["leather jackets", "combat boots", "corsets", "heavy eyeliner"],
+  "related_ids": ["dark-academia"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

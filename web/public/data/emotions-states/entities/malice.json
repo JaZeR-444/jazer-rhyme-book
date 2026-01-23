@@ -1,0 +1,17 @@
+{
+  "id": "malice",
+  "type": "emotions-states",
+  "name": "Malice",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The intention or desire to do evil; ill will.",
+  "tags": ["dark", "negative", "rage", "aggressive"],
+  "angles": ["calculated harm", "dark intent", "cruelty"],
+  "bar_seeds": ["poison in the well", "smile with a blade", "watching the light go out"],
+  "intensity": "High",
+  "physical_symptoms": ["Cold skin", "Fixed stare", "Tight jaw"],
+  "triggers": ["Perceived betrayal", "Hatred", "Competition"],
+  "action_urge": "To cause physical, emotional, or social harm.",
+  "opposites": ["Benevolence", "Kindness"],
+  "related_ids": ["rage", "resentment"]
+}

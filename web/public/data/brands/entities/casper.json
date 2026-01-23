@@ -1,0 +1,56 @@
+{
+  "id": "casper",
+  "type": "brand",
+  "name": "Casper",
+  "aliases": [
+    "Casper Sleep",
+    "Casper Mattress"
+  ],
+  "era": "2014-Present",
+  "tags": [
+    "sleep",
+    "mattress",
+    "direct-to-consumer",
+    "foam",
+    "comfort"
+  ],
+  "one_liner": "A mattress company that popularized direct-to-consumer foam mattress sales.",
+  "angles": [
+    "sleep technology",
+    "direct-to-consumer",
+    "foam innovation"
+  ],
+  "bar_seeds": [
+    "mattress-in-a-box",
+    "sleep science",
+    "foam comfort",
+    "direct sales"
+  ],
+  "visual_elements": [
+    "minimalist design",
+    "blue and white",
+    "sleep imagery",
+    "foam visualization"
+  ],
+  "mood": "Restful, minimalist, and comfortable",
+  "associated_eras": [
+    "2010s",
+    "Modern Day"
+  ],
+  "color_palette": [
+    "casper white",
+    "sky blue",
+    "clean grays",
+    "restful tones"
+  ],
+  "fashion_staples": [
+    "sleep-focused",
+    "comfort-first",
+    "minimalist design",
+    "restful colors"
+  ],
+  "related_ids": [],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

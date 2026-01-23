@@ -1,0 +1,48 @@
+{
+  "id": "logomania",
+  "type": "fashion",
+  "name": "Logomania",
+  "aliases": [
+    "Monogram fever"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "branding",
+    "status",
+    "excess",
+    "luxury"
+  ],
+  "one_liner": "A trend characterized by the excessive and overt display of brand logos on clothing and accessories.",
+  "angles": [
+    "branding as armor",
+    "the loudest flex",
+    "commercial identity"
+  ],
+  "bar_seeds": [
+    "all-over print",
+    "the logo splash",
+    "walking billboard",
+    "monogram mania"
+  ],
+  "item_type": "Trend / Apparel",
+  "material": [
+    "Varies (usually printed or woven)"
+  ],
+  "cultural_significance": "Represents the ultimate intersection of brand identity, status, and consumerism.",
+  "fit": [
+    "Varies"
+  ],
+  "associated_brands": [
+    "Gucci",
+    "Louis Vuitton",
+    "Fendi"
+  ],
+  "related_ids": [
+    "gucci",
+    "louis-vuitton",
+    "status-signals"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

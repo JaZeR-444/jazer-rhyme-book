@@ -1,0 +1,17 @@
+{
+  "id": "bootstrapping",
+  "type": "business-economics",
+  "name": "Bootstrapping",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Building a company from the ground up with nothing but personal savings and, with luck, the cash coming in from the first sales.",
+  "tags": ["hustle", "grit", "startup", "independence"],
+  "angles": ["self-reliance", "grind", "ownership"],
+  "bar_seeds": ["no investors", "built from scratch", "100 percent equity"],
+  "related_ids": ["startup"],
+  "industry": "Entrepreneurship",
+  "core_principle": "Growth through revenue, not investment.",
+  "jargon": ["Cash flow positive", "Sweat equity", "Lean"],
+  "key_metrics": ["Burn Rate", "Profit"],
+  "archetypes": ["Founder", "Hustler"]
+}

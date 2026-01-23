@@ -1,0 +1,17 @@
+{
+  "id": "kick",
+  "type": "media-platforms",
+  "name": "Kick",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A live streaming service known for its higher revenue share for creators and its association with gambling content.",
+  "tags": ["streaming", "hustle", "controversial", "gaming"],
+  "angles": ["creator-freedom", "staking-everything", "green-alternative"],
+  "bar_seeds": ["95-5 split", "green logo glow", "staking on the stream"],
+  "related_ids": ["twitch"],
+  "platform_type": "Live Streaming",
+  "user_demographic": "Gamers, Gamblers, Former Twitch Users",
+  "content_format": ["Live Video", "Chat", "VODs"],
+  "algorithm_bias": "Favors high-stakes gambling and high-viewer IRL streams.",
+  "slang": ["Stake", "Sub split", "Host"]
+}

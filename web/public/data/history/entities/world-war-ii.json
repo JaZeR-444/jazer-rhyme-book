@@ -1,0 +1,20 @@
+{
+  "id": "world-war-ii",
+  "type": "history",
+  "name": "World War II",
+  "aliases": ["WWII", "The Big One"],
+  "era": "1939-1945",
+  "tags": ["war", "global", "military", "tragedy"],
+  "one_liner": "The largest and deadliest conflict in human history, involving the vast majority of the world's countries.",
+  "angles": ["total war", "moral gray areas", "the dawn of the nuclear age"],
+  "bar_seeds": ["d-day storming", "atomic shadows", "front line survival", "trench memories"],
+  "key_dates": ["September 1, 1939 (Invasion of Poland)", "August 6, 1945 (Hiroshima)"],
+  "location": "Global",
+  "impact": "Establishment of the United Nations, start of the Cold War, decolonization.",
+  "major_figures": ["Winston Churchill", "Franklin D. Roosevelt", "Adolf Hitler"],
+  "cultural_shift": "Global realization of the capacity for human destruction and the need for international cooperation.",
+  "related_ids": ["cold-war"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

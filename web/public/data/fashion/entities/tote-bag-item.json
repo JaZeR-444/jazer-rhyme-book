@@ -1,0 +1,19 @@
+{
+  "id": "tote-bag-item",
+  "type": "fashion",
+  "name": "Tote Bag",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A large and often unfastened bag with parallel handles that emerge from the sides of its pouch.",
+  "tags": ["aesthetic", "utility", "minimalist", "creative"],
+  "angles": ["canvas-curation", "sustainable-luxury", "the-creative's-carry-all"],
+  "bar_seeds": ["heavy canvas", "graphic print", "shouldering the weight"],
+  "related_ids": ["luxury-handbags"],
+  "item_type": "Accessories / Bags",
+  "material": ["Canvas", "Cotton", "Leather"],
+  "cultural_significance": "From simple grocery bag to a canvas for intellectual and artistic status signaling.",
+  "fit": ["Over-shoulder"],
+  "associated_brands": ["L.L.Bean", "Baggu", "Jacquemus"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

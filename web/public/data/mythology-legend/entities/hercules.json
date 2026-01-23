@@ -1,0 +1,20 @@
+{
+  "id": "hercules",
+  "type": "mythology-legend",
+  "name": "Hercules",
+  "aliases": ["Heracles", "Strongman"],
+  "era": "Ancient Greece / Rome",
+  "tags": ["hero", "strength", "labors", "greek", "legend"],
+  "one_liner": "The most famous of all Greek heroes, known for his incredible strength and his twelve labors.",
+  "angles": ["strength through suffering", "overcoming the impossible", "the heavy burden of a hero"],
+  "bar_seeds": ["herculean task", "nemean lion skin", "breaking chains", "demi-god muscle"],
+  "origin_culture": "Greek / Roman",
+  "deity_type": "Demi-god / Hero",
+  "powers": ["Superhuman strength", "Endurance"],
+  "symbols": ["Lion skin", "Club"],
+  "modern_parallels": ["Action movie stars", "Weightlifters", "People overcoming huge odds"],
+  "related_ids": ["zeus"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

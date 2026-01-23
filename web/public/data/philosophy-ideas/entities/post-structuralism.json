@@ -1,0 +1,17 @@
+{
+  "id": "post-structuralism",
+  "type": "philosophy-ideas",
+  "name": "Post-structuralism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A critique of structuralism that emphasizes the instability of meaning and the role of power in language.",
+  "tags": ["abstract", "intellectual", "rebellion", "logic"],
+  "angles": ["no-fixed-meaning", "deconstruction", "power-in-language"],
+  "bar_seeds": ["shattering the grid", "meaning is a ghost", "the center does not hold"],
+  "related_ids": ["structuralism", "postmodernism"],
+  "school_of_thought": "20th Century Continental Philosophy",
+  "core_question": "If systems are unstable, where does meaning come from?",
+  "key_philosophers": ["Jacques Derrida", "Michel Foucault", "Gilles Deleuze"],
+  "paradoxes": ["The Paradox of Deconstruction"],
+  "modern_application": "Literary criticism, social justice discourse, semiotic analysis."
+}

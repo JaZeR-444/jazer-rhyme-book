@@ -1,0 +1,18 @@
+{
+  "id": "moth-meme",
+  "type": "internet-culture",
+  "name": "Moth Meme",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A meme featuring a close-up of a moth, obsessed with finding and touching a lamp.",
+  "tags": ["surreal", "obsession", "humor", "animal"],
+  "angles": ["singular-focus", "lamp-love", "visceral-zoom"],
+  "bar_seeds": ["bröther may I have some lööps", "lämp", "drawn to the light"],
+  "related_ids": ["obsession"],
+  "format": "Image Macro",
+  "origin_platform": "Reddit",
+  "meaning": "Representing a simple, overwhelming, and potentially self-destructive desire.",
+  "remix_rules": ["Unicode characters (ö, ä)", "Blurry close-up of a moth", "Captions about lamps"],
+  "lifespan_risk": "Moderate (Vintage viral)",
+  "example_lines": ["Drawn to the money like a moth to the lamp", "Looking for the shine, I need the light bröther"]
+}

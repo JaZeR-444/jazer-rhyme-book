@@ -1,0 +1,19 @@
+{
+  "id": "conor-mcgregor",
+  "type": "sports",
+  "name": "Conor McGregor",
+  "aliases": ["The Notorious", "Mystic Mac"],
+  "era": "2010s-Present",
+  "tags": ["mma", "vibrant", "hustle", "rebellion"],
+  "one_liner": "The biggest star in MMA history, known for his precision striking and unparalleled showmanship.",
+  "angles": ["precision beats power", "double champ", "proper twelve lifestyle"],
+  "bar_seeds": ["left hand of death", "gucci mink", "mystic mac"],
+  "team_size": "1 (MMA)",
+  "key_skills": ["Striking", "Marketing", "Psychological warfare"],
+  "equipment": ["MMA Gloves", "Proper Twelve"],
+  "metaphors": ["The Notorious"],
+  "legends": ["First UFC double champ", "Fastest title fight KO"],
+  "related_ids": ["floyd-mayweather"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

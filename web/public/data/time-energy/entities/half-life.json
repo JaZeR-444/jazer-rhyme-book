@@ -1,0 +1,17 @@
+{
+  "id": "half-life",
+  "type": "time-energy",
+  "name": "Half-Life",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The time required for a quantity to reduce to half of its initial value.",
+  "tags": ["technical", "decay", "scientific", "time"],
+  "angles": ["fading away", "exponential decline", "lingering traces"],
+  "bar_seeds": ["measuring the rot", "gone in stages", "the slow ghost"],
+  "related_ids": ["decay", "entropy"],
+  "concept_type": "Nuclear Physics / Mathematics",
+  "perception": "A sense of gradual but predictable vanishing.",
+  "physics_basis": "Exponential radioactive decay.",
+  "cultural_view": "Often associated with nuclear waste or the 'lingering' of fame or trauma.",
+  "idioms": ["Shadow of its former self", "Fading fast", "Long tail of the crash"]
+}

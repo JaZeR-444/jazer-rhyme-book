@@ -1,0 +1,20 @@
+{
+  "id": "twitch",
+  "type": "media-platforms",
+  "name": "Twitch",
+  "aliases": ["The Purple Platform"],
+  "era": "2010s-Present",
+  "tags": ["streaming", "gaming", "live", "community"],
+  "one_liner": "The leading live streaming platform for gamers and creative content.",
+  "angles": ["live interaction", "the gamer's arena", "parasocial relationships"],
+  "bar_seeds": ["live in 5", "sub goal", "kappa", "donos"],
+  "platform_type": "Live Streaming",
+  "user_demographic": "Heavily gamers, Gen Z and Millennials",
+  "content_format": ["Live video", "Chat"],
+  "algorithm_bias": "Viewer count, engagement, and consistency",
+  "slang": ["Streamer", "Sub", "Emote", "Raid", "Kappa"],
+  "related_ids": ["gaming"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

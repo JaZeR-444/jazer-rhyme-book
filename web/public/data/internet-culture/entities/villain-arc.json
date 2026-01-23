@@ -1,0 +1,18 @@
+{
+  "id": "villain-arc",
+  "type": "internet-culture",
+  "name": "Villain Arc",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A personal transformation phase characterized by a shift towards self-interest, ruthlessness, or dark aesthetics.",
+  "tags": ["villain-arc", "dark", "contemporary", "grit"],
+  "angles": ["transformation", "revenge", "liberation"],
+  "bar_seeds": ["tired of being nice", "entering my villain arc", "darker side of the moon"],
+  "related_ids": ["main-character-energy"],
+  "format": "Conceptual Meme",
+  "origin_platform": "TikTok / Twitter",
+  "meaning": "Deciding to stop being a 'people pleaser' and embracing a more selfish or assertive persona.",
+  "remix_rules": ["Dark lighting", "Aggressive music", "Dramatic captions"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Told 'em no for the first time, welcome to the villain arc", "I'm the bad guy now, watch the plot twist"]
+}

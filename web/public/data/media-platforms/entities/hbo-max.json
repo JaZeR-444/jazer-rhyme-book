@@ -1,0 +1,17 @@
+{
+  "id": "hbo-max",
+  "type": "media-platforms",
+  "name": "Max (HBO Max)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The home of prestige television and blockbuster cinema, combining HBO with Discovery and Warner Bros.",
+  "tags": ["prestige", "cinematic", "mainstream", "classic"],
+  "angles": ["it's-not-tv-it's-hbo", "high-budget-drama", "cultural-dominance"],
+  "bar_seeds": ["hbo static sound", "prestige drama", "sunday night ritual"],
+  "related_ids": ["netflix"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "Drama Fans, Cinephiles, Families",
+  "content_format": ["Series", "Movies", "Documentaries"],
+  "algorithm_bias": "Favors prestige originals and high-rated classics.",
+  "slang": ["HBO Original", "Static", "Watch Party"]
+}

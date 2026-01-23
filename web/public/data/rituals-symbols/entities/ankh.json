@@ -1,0 +1,17 @@
+{
+  "id": "ankh",
+  "type": "rituals-symbols",
+  "name": "Ankh",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ancient Egyptian hieroglyphic symbol that was most commonly used in writing and in Egyptian art to represent the word for 'life'.",
+  "tags": ["classic", "legacy", "spiritual", "symbolic-object"],
+  "angles": ["eternal life", "divine breath", "royal power"],
+  "bar_seeds": ["loop of the ankh", "key of life", "pharaoh's gift"],
+  "related_ids": ["ancient-egypt", "ra"],
+  "purpose": "To represent eternal life and divine protection.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Gold", "Stone", "Amulet"],
+  "participants": "Pharaohs, Priests, Deities",
+  "outcome": "Connection to the eternal and afterlife."
+}

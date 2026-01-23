@@ -1,0 +1,20 @@
+{
+  "id": "kanye-west",
+  "type": "people",
+  "name": "Kanye West",
+  "aliases": ["Ye", "Yeezy", "Louis Vuitton Don"],
+  "era": "2000s-Present",
+  "tags": ["producer", "rapper", "fashion", "controversial", "chicago"],
+  "one_liner": "A visionary producer and rapper who constantly reinvented his sound and shifted the culture.",
+  "angles": ["genius vs madness", "breaking the mold", "ego as armor"],
+  "bar_seeds": ["dropout bear", "pink polo", "yeezy season", "808s heartbreak"],
+  "known_for": ["The College Dropout", "MBDTF", "Yeezy Brand"],
+  "vibe": "Polarizing, grandiose, soulful",
+  "signature_items": ["Shutter shades", "Yeezys", "Masks"],
+  "quotables_short": ["George Bush doesn't care about black people", "I am a God"],
+  "controversy_flags": ["VMA incident", "political rants", "social media outbursts"],
+  "related_ids": ["jay-z", "kid-cudi"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

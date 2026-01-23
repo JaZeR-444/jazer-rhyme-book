@@ -1,0 +1,16 @@
+{
+  "id": "rationalism",
+  "type": "philosophy-ideas",
+  "name": "Rationalism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The belief that opinions and actions should be based on reason and knowledge rather than on religious belief or emotional response.",
+  "tags": ["logic", "classic", "intellectual", "technical"],
+  "angles": ["pure reason", "innate ideas", "deduction"],
+  "bar_seeds": ["logic over feeling", "the math of the mind", "thinking from zero"],
+  "school_of_thought": "Enlightenment Philosophy",
+  "core_question": "Can we know the truth through reason alone?",
+  "key_philosophers": ["René Descartes", "Gottfried Wilhelm Leibniz"],
+  "paradoxes": ["The Meno Paradox"],
+  "modern_application": "Coding, mathematics, structured debate."
+}

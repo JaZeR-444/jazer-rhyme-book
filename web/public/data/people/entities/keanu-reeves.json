@@ -1,0 +1,17 @@
+{
+  "id": "keanu-reeves",
+  "type": "people",
+  "name": "Keanu Reeves",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The internet's boyfriend, known for his kindness, stoicism, and iconic action roles.",
+  "tags": ["iconic", "stoicism", "cinematic", "mellow"],
+  "angles": ["humility", "action", "immortality"],
+  "bar_seeds": ["john wick suit", "red pill blue pill", "breathtaking"],
+  "related_ids": [],
+  "known_for": ["The Matrix", "John Wick", "Being a nice guy"],
+  "vibe": "Humble, mysterious, lethal",
+  "signature_items": ["Black suit", "Motorcycles", "Long hair"],
+  "quotables_short": ["You're breathtaking!", "Yeah."],
+  "controversy_flags": []
+}

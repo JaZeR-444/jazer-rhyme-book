@@ -1,0 +1,19 @@
+{
+  "id": "golf-sport",
+  "type": "sports",
+  "name": "Golf",
+  "aliases": ["The Gentleman's Game"],
+  "era": "Medieval-Present",
+  "tags": ["golf", "luxury", "stoicism", "technical"],
+  "one_liner": "A precision club-and-ball sport played on vast, manicured courses, emphasizing mental fortitude and accuracy.",
+  "angles": ["mental-game", "quiet-dominance", "pursuit-of-perfection"],
+  "bar_seeds": ["hole in one", "green grass luxury", "fairway drive"],
+  "team_size": "Individual",
+  "key_skills": ["Precision", "Mental focus", "Touch"],
+  "equipment": ["Clubs", "Ball", "Tee", "Bag"],
+  "metaphors": ["Stay in your own lane", "Par for the course", "Birdie's eye view"],
+  "legends": ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer"],
+  "related_ids": ["tiger-woods"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

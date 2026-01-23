@@ -1,0 +1,17 @@
+{
+  "id": "chrome-hearts",
+  "type": "brand",
+  "name": "Chrome Hearts",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A luxury brand from LA focusing on silver jewelry, leather, and gothic motifs.",
+  "tags": ["luxury", "goth", "rock-n-roll", "exclusive"],
+  "angles": ["silver", "crosses", "rockstar"],
+  "bar_seeds": ["chrome hearts cross", "dagger zip", "leather patch"],
+  "related_ids": [],
+  "category": "Luxury",
+  "price_tier": "High",
+  "signature_products": ["Silver Rings", "Leather Jeans", "Trucker Hats"],
+  "status_signals": ["Old English font", "Silver cross motifs"],
+  "bar_angles": ["Rockstar lifestyle", "Heavy metal luxury", "Exclusive access"]
+}

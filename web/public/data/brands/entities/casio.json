@@ -1,0 +1,17 @@
+{
+  "id": "casio",
+  "type": "brand",
+  "name": "Casio",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese electronics company known for its durable, affordable, and technologically innovative watches and calculators.",
+  "tags": ["technical", "classic", "vintage", "utility"],
+  "angles": ["digital-durability", "god-tier-value", "retro-tech"],
+  "bar_seeds": ["g-shock tough", "f-91w", "calculator on the wrist"],
+  "related_ids": ["rolex"],
+  "category": "Electronics / Watches",
+  "price_tier": "Low-Mid",
+  "signature_products": ["G-Shock", "F-91W", "Scientific Calculators"],
+  "status_signals": ["G-Shock durability", "Retro digital display"],
+  "bar_angles": ["Timepiece for the grind", "Indestructible", "Digital classic"]
+}

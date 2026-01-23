@@ -1,0 +1,18 @@
+{
+  "id": "genghis-khan-person",
+  "type": "people",
+  "name": "Genghis Khan",
+  "aliases": ["Temüjin"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The founder and first Great Khan of the Mongol Empire, known for his military brilliance and unification of nomadic tribes.",
+  "tags": ["empire", "war", "legacy", "grit"],
+  "angles": ["meritocracy", "terror-as-tactic", "unification"],
+  "bar_seeds": ["steppe wind", "conquering the world", "horde leader"],
+  "related_ids": ["the-mongol-empire"],
+  "known_for": ["Mongol Empire", "Unification of Tribes", "Religious Tolerance"],
+  "vibe": "Ruthless, pragmatic, legendary",
+  "signature_items": ["Compound bow", "Horseback", "Furs"],
+  "quotables_short": ["I am the punishment of God."],
+  "controversy_flags": ["Massive death toll", "Brutality of conquest"]
+}

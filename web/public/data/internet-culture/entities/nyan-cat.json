@@ -1,0 +1,18 @@
+{
+  "id": "nyan-cat",
+  "type": "internet-culture",
+  "name": "Nyan Cat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An 8-bit animation of a cat with a Pop-Tart body flying through space, leaving a rainbow trail.",
+  "tags": ["classic", "vibrant", "lo-fi", "pop"],
+  "angles": ["repetitive", "rainbow", "early-web"],
+  "bar_seeds": ["Pop-Tart cat", "rainbow trail", "nyan nyan nyan"],
+  "related_ids": ["keyboard-cat"],
+  "format": "Video / GIF",
+  "origin_platform": "YouTube / Tumblr",
+  "meaning": "A symbol of the whimsical and repetitive nature of early 2010s internet humor.",
+  "remix_rules": ["Infinite loops", "8-bit music", "Rainbow visuals"],
+  "lifespan_risk": "Legendary (Internet Heritage)",
+  "example_lines": ["Flying through the stars, leaving rainbows in my wake", "Sweet like a Pop-Tart, Nyan Cat on the track"]
+}

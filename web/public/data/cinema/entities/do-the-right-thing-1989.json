@@ -1,0 +1,20 @@
+{
+  "id": "do-the-right-thing-1989",
+  "type": "cinema",
+  "name": "Do the Right Thing",
+  "aliases": ["Mookie", "Radio Raheem"],
+  "era": "1989",
+  "tags": ["brooklyn", "racial-tension", "classic", "summer", "urban"],
+  "one_liner": "On the hottest day of the year in Bedford-Stuyvesant, racial tensions reach a boiling point.",
+  "angles": ["heat as a character", "neighborhood dynamics", "the inevitability of conflict"],
+  "bar_seeds": ["radio raheem's boombox", "love and hate rings", "sal's famous pizzeria"],
+  "plot_hooks": ["a small argument escalating", "the power of music and symbols", "moral choices in a crisis"],
+  "iconic_scenes": ["The opening 'Fight the Power' dance", "Radio Raheem's rings monologue", "The fire hydrant scene"],
+  "visual_motifs": ["Saturated red and yellow colors", "Boomboxes", "Air Jordan 4s"],
+  "themes": ["Race", "Justice", "Community"],
+  "quotables_short": ["Always do the right thing", "Fight the power"],
+  "related_ids": ["public-enemy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

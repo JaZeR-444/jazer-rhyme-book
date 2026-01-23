@@ -1,0 +1,18 @@
+{
+  "id": "shoegaze",
+  "type": "music",
+  "name": "Shoegaze",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of indie and alternative rock known for its ethereal mixture of obscured vocals, guitar distortion, and overwhelming volume.",
+  "tags": ["atmospheric", "abstract", "technical", "mellow"],
+  "angles": ["wall-of-sound", "internalized-emotion", "sonic-immersion"],
+  "bar_seeds": ["drowning in feedback", "whispered lines", "looking at the pedals"],
+  "related_ids": [],
+  "genre": ["Dream Pop", "Indie Rock"],
+  "era_detail": "Late 1980s - Present",
+  "signature_songs": ["Only Shallow", "When the Sun Hits", "Vapour Trail"],
+  "sonic_descriptors": ["Feedback", "Reverb", "Whammy bar glide", "Lush textures"],
+  "influence_tree": ["The Velvet Underground", "Cocteau Twins"],
+  "aesthetic": "Dreamy and Detached"
+}

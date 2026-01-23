@@ -1,0 +1,17 @@
+{
+  "id": "martin-luther-king-jr",
+  "type": "people",
+  "name": "Martin Luther King Jr.",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The most visible spokesperson and leader in the American civil rights movement, known for his nonviolent activism.",
+  "tags": ["legacy", "peace", "revolutionary", "iconic"],
+  "angles": ["justice", "oratory", "dream"],
+  "bar_seeds": ["i have a dream", "mountaintop", "content of character"],
+  "related_ids": [],
+  "known_for": ["Civil Rights Movement", "I Have a Dream speech", "Nobel Peace Prize"],
+  "vibe": "Dignified, powerful, visionary",
+  "signature_items": ["Suit", "Microphone", "Podium"],
+  "quotables_short": ["I have a dream.", "Injustice anywhere is a threat to justice everywhere."],
+  "controversy_flags": ["FBI surveillance"]
+}

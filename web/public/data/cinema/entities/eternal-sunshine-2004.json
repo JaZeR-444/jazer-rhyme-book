@@ -1,0 +1,18 @@
+{
+  "id": "eternal-sunshine-2004",
+  "type": "cinema",
+  "name": "Eternal Sunshine of the Spotless Mind",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+  "tags": ["romance", "sci-fi", "psychological", "indie-sleaze"],
+  "angles": ["memory", "heartbreak", "regret"],
+  "bar_seeds": ["erasing you", "meet me in montauk", "spotless mind"],
+  "related_ids": [],
+  "era": "2004",
+  "plot_hooks": ["The procedure", "Running through memories", "Waking up"],
+  "iconic_scenes": ["Lying on the frozen lake", "Library disappearing", "Meet me in Montauk"],
+  "visual_motifs": ["Hair dye colors", "Crumbling houses", "Spotlight effects"],
+  "themes": ["Pain of love", "Inevitability", "Memory"],
+  "quotables_short": ["Meet me in Montauk.", "I'm just a fucked-up girl..."]
+}

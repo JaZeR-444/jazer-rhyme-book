@@ -1,0 +1,17 @@
+{
+  "id": "diner",
+  "type": "architecture-spaces",
+  "name": "Diner",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A prefabricated restaurant building characteristic of American culture, offering casual food.",
+  "tags": ["classic", "vintage", "americana", "noir"],
+  "angles": ["nostalgia", "neon", "coffee"],
+  "bar_seeds": ["checkerboard floor", "neon sign buzzing", "coffee at 2am"],
+  "related_ids": [],
+  "style": "Googie / Retro",
+  "materials": ["Chrome", "Vinyl", "Tile"],
+  "spatial_qualities": ["Cozy", "Bright", "Linear"],
+  "function": "Dining",
+  "famous_examples": ["Edward Hopper's Nighthawks"]
+}

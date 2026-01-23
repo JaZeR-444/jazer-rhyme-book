@@ -1,0 +1,56 @@
+{
+  "id": "cyberpunk-fashion",
+  "type": "fashion",
+  "name": "Cyberpunk Fashion",
+  "aliases": [
+    "Neon noir"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "cyberpunk",
+    "neon",
+    "futuristic",
+    "industrial"
+  ],
+  "one_liner": "Dystopian-inspired fashion mixing neon, tech, and street utility.",
+  "angles": [
+    "neon shadows",
+    "tech rebellion",
+    "city dystopia"
+  ],
+  "bar_seeds": [
+    "neon in the rain",
+    "chrome on the jacket",
+    "city glow"
+  ],
+  "item_type": "Streetwear/Avant",
+  "material": [
+    "Leather",
+    "Vinyl",
+    "Nylon"
+  ],
+  "cultural_significance": "Visualizes sci-fi futures and rebellion through style.",
+  "fit": [
+    "Slim",
+    "Layered"
+  ],
+  "associated_brands": [
+    "Rick Owens",
+    "Off-White",
+    "Nike"
+  ],
+  "related_ids": [
+    "cyberpunk",
+    "streetwear"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Cyberpunk",
+      "url": "https://en.wikipedia.org/wiki/Cyberpunk",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

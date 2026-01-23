@@ -1,0 +1,20 @@
+{
+  "id": "cristiano-ronaldo",
+  "type": "sports",
+  "name": "Cristiano Ronaldo",
+  "aliases": ["CR7"],
+  "era": "2000s-Present",
+  "tags": ["soccer", "fitness", "prolific", "work-ethic"],
+  "one_liner": "A soccer powerhouse known for his extraordinary athleticism, work ethic, and goal-scoring records.",
+  "angles": ["the ultimate professional", "built for greatness", "chasing records"],
+  "bar_seeds": ["cr7", "siuuu", "perfect physique", "goal machine"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Atheticism", "Heading", "Finishing", "Professionalism"],
+  "equipment": ["Soccer ball", "Cleats"],
+  "metaphors": ["The machine", "The ultimate athlete"],
+  "legends": ["5 Ballon d'Or awards", "All-time top goalscorer"],
+  "related_ids": ["lionel-messi"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

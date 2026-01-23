@@ -1,0 +1,18 @@
+{
+  "id": "fl-studio",
+  "type": "writing-tool",
+  "name": "FL Studio",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A digital audio workstation known for its pattern-based sequencer, beloved by trap and hip-hop producers.",
+  "tags": ["tool", "technical", "music", "trap"],
+  "angles": ["sequencing", "speed", "beat-making"],
+  "bar_seeds": ["fruity loops", "step sequencer", "clicking in the hats"],
+  "related_ids": ["ableton-live"],
+  "category": "Software / DAW",
+  "what_it_does": "Makes beat creation incredibly fast and visual.",
+  "best_for": ["trap beats", "EDM", "beginners and pros"],
+  "workflow_hooks": ["Paint patterns in the playlist", "Piano roll sliding"],
+  "pitfalls": ["Mixing workflow can be messy", "Stigma (historically)"],
+  "bar_angles": ["Cook up", "Pattern 1", "Ghost channels"]
+}

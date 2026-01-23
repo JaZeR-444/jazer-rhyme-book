@@ -1,0 +1,17 @@
+{
+  "id": "simulation-point",
+  "type": "science-future",
+  "name": "Simulation Point",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theoretical point in technological advancement where it becomes possible to create a simulation indistinguishable from reality.",
+  "tags": ["futuristic", "philosophical-ideas", "technical", "surreal"],
+  "angles": ["the-great-revelation", "digital-godhood", "boundary-of-reality"],
+  "bar_seeds": ["unplugging the server", "code becomes flesh", "touching the sky"],
+  "related_ids": ["simulation-hypothesis", "singularity"],
+  "field": "Futurism / Computing",
+  "hypothesis": "Computing power will eventually allow for perfect ancestor simulations.",
+  "implications": ["End of objective reality", "Infinite nested universes", "Ethical rights for simulated beings"],
+  "technologies": ["Exascale Computing", "Quantum Neural Networks"],
+  "ethical_concerns": ["Slavery of digital minds", "Resource allocation for non-physical life"]
+}

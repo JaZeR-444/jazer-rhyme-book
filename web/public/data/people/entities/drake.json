@@ -1,0 +1,20 @@
+{
+  "id": "drake",
+  "type": "people",
+  "name": "Drake",
+  "aliases": ["Drizzy", "Champagne Papi", "6 God"],
+  "era": "2010s-Present",
+  "tags": ["melodic", "mainstream", "toronto", "hitmaker", "versatile"],
+  "one_liner": "The global pop-rap superstar who blurred the lines between singing and rapping.",
+  "angles": ["emotional vulnerability", "top of the charts", "mob ties facade"],
+  "bar_seeds": ["started from the bottom", "views from the 6", "marvin's room", "ovo owl"],
+  "known_for": ["Take Care", "Nothing Was the Same", "OVO Sound"],
+  "vibe": "Moody, braggadocios, smooth",
+  "signature_items": ["Stone Island", "Heart haircut", "OVO Owl"],
+  "quotables_short": ["YOLO", "God's Plan"],
+  "controversy_flags": ["Ghostwriting allegations", "Pusha T beef"],
+  "related_ids": ["lil-wayne", "kanye-west", "future"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

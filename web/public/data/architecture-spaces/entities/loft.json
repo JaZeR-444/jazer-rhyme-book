@@ -1,0 +1,17 @@
+{
+  "id": "loft",
+  "type": "architecture-spaces",
+  "name": "Loft",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A large, open residential space, usually converted from an industrial building.",
+  "tags": ["urban", "industrial", "aesthetic", "creative"],
+  "angles": ["space", "light", "bohemian"],
+  "bar_seeds": ["exposed brick", "high windows", "artist studio"],
+  "related_ids": [],
+  "style": "Industrial Chic",
+  "materials": ["Brick", "Wood", "Steel"],
+  "spatial_qualities": ["Open", "Airy", "Rough"],
+  "function": "Residential / Studio",
+  "famous_examples": ["SoHo Lofts", "The Factory"]
+}

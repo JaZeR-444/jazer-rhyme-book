@@ -1,0 +1,18 @@
+{
+  "id": "massive-attack",
+  "type": "music",
+  "name": "Massive Attack",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pioneers of the trip-hop genre, creating dark, atmospheric, and cinematic soundscapes.",
+  "tags": ["noir", "atmospheric", "90s", "cool"],
+  "angles": ["mood", "tension", "politics"],
+  "bar_seeds": ["teardrop", "unfinished sympathy", "bristol sound"],
+  "related_ids": [],
+  "genre": ["Trip Hop", "Electronic"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Teardrop", "Unfinished Sympathy", "Angel"],
+  "sonic_descriptors": ["Slow beats", "Deep bass", "Whispered vocals"],
+  "influence_tree": ["Dub", "Soul", "Punk"],
+  "aesthetic": "Urban Noir"
+}

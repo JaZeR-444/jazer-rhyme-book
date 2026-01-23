@@ -1,0 +1,18 @@
+{
+  "id": "mac-miller",
+  "type": "music",
+  "name": "Mac Miller",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A rapper who matured from frat-rap roots into a deeply introspective jazz-rap artist.",
+  "tags": ["mellow", "introspective", "legacy", "soulful"],
+  "angles": ["growth", "vulnerability", "musicality"],
+  "bar_seeds": ["blue slide park", "swimming", "circles"],
+  "related_ids": [],
+  "genre": ["Hip Hop", "Jazz Rap", "Neo-Soul"],
+  "era_detail": "2010s",
+  "signature_songs": ["Self Care", "2009", "Dang!"],
+  "sonic_descriptors": ["Warm keys", "Funk bass", "Sing-song flow"],
+  "influence_tree": ["A Tribe Called Quest", "The Beatles"],
+  "aesthetic": "Laid-back Melancholy"
+}

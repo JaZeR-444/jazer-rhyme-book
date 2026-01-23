@@ -1,0 +1,17 @@
+{
+  "id": "prometheus",
+  "type": "mythology-legend",
+  "name": "Prometheus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Titan who stole fire from the gods and gave it to humanity, punished by having his liver eaten daily.",
+  "tags": ["rebellion", "innovative", "grit", "mythology"],
+  "angles": ["sacrifice", "enlightenment", "punishment"],
+  "bar_seeds": ["stole the fire", "chained to the rock", "bringer of light"],
+  "related_ids": ["zeus"],
+  "origin_culture": "Greek",
+  "deity_type": "Titan",
+  "powers": ["Foresight", "Creation of man"],
+  "symbols": ["Fire", "Eagle", "Chains"],
+  "modern_parallels": ["Whistleblowers", "Scientists", "Hackers"]
+}

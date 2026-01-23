@@ -1,0 +1,20 @@
+{
+  "id": "momentum",
+  "type": "time-energy",
+  "name": "Momentum",
+  "aliases": ["Drive", "Flow", "Impetus"],
+  "era": "Active",
+  "tags": ["energy", "movement", "growth", "power"],
+  "one_liner": "The quantity of motion of a moving body, measured as a product of its mass and velocity.",
+  "angles": ["the unstoppable force", "snowball effect", "riding the wave of success"],
+  "bar_seeds": ["no brakes", "picking up speed", "rolling down the hill", "unstoppable flow"],
+  "concept_type": "Kinetic State",
+  "perception": "Excitement, power, and inevitability.",
+  "physics_basis": "Mass x Velocity (p=mv).",
+  "cultural_view": "Valued in business, sports, and creative output.",
+  "idioms": ["Gaining steam", "On a roll", "The wind in the sails"],
+  "related_ids": ["sports", "business-economics"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

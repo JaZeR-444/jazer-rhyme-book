@@ -1,0 +1,20 @@
+{
+  "id": "resonance",
+  "type": "time-energy",
+  "name": "Resonance",
+  "aliases": ["Echo", "Vibration", "Connection"],
+  "era": "Universal",
+  "tags": ["energy", "audio", "connection", "impact"],
+  "one_liner": "The quality in a sound of being deep, full, and reverberating.",
+  "angles": ["striking a chord", "deep impact", "echoes of the soul"],
+  "bar_seeds": ["room shaking bass", "resonating with the crowd", "echoing through time", "deep vibration"],
+  "concept_type": "Oscillatory State",
+  "perception": "Deep connection, physical vibration, and lasting impact.",
+  "physics_basis": "When a system vibrates at its natural frequency due to an external force.",
+  "cultural_view": "Metaphor for ideas that 'land' or people who connect deeply.",
+  "idioms": ["Striking a chord", "Resonating with me"],
+  "related_ids": ["music", "emotions-states"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

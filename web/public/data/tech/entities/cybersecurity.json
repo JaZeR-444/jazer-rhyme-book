@@ -1,0 +1,21 @@
+{
+  "id": "cybersecurity",
+  "type": "tech",
+  "name": "Cybersecurity",
+  "aliases": ["InfoSec", "Cyber defense"],
+  "era": "1990s-Present",
+  "tags": ["security", "hacking", "defense", "privacy"],
+  "one_liner": "The practice of protecting systems, networks, and programs from digital attacks.",
+  "angles": ["digital warfare", "the cat and mouse game", "protecting the perimeter"],
+  "bar_seeds": ["firewalls", "zero-day", "encrypted keys", "dark web"],
+  "category": "Security / IT",
+  "what_it_is": "Technologies and processes designed to protect digital assets from unauthorized access.",
+  "why_it_matters": "Essential for the functioning of modern economy and privacy.",
+  "risks": ["Social engineering", "Ransomware", "State-sponsored hacking"],
+  "metaphors": ["Digital bodyguards", "A lock that never stops changing"],
+  "keywords": ["Encryption", "Firewall", "VPN", "Malware"],
+  "related_ids": ["blockchain"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

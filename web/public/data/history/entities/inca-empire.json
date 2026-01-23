@@ -1,0 +1,17 @@
+{
+  "id": "inca-empire",
+  "type": "history",
+  "name": "Inca Empire",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The largest empire in pre-Columbian America, known for its incredible stonework, road systems, and high-altitude living.",
+  "tags": ["ancient", "history", "luxury", "technical"],
+  "angles": ["mountain-kings", "golden-temples", "quipu-codes"],
+  "bar_seeds": ["machu picchu peak", "gold of the sun", "roads through the andes"],
+  "related_ids": ["aztec-empire"],
+  "key_dates": ["1438", "1533"],
+  "location": "Andes Mountains (Peru / Chile / Ecuador)",
+  "impact": "Unparalleled engineering in high-altitude environments and complex administrative systems without a written language.",
+  "major_figures": ["Pachacuti", "Atahualpa"],
+  "cultural_shift": "Total centralization of authority and resources under the Sapa Inca (Child of the Sun)."
+}

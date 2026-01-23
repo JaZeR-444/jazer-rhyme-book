@@ -1,0 +1,21 @@
+{
+  "id": "bad-luck-brian",
+  "type": "internet-culture",
+  "name": "Bad Luck Brian",
+  "aliases": ["Brian"],
+  "era": "2012-Present",
+  "tags": ["meme", "classic", "irony", "misfortune"],
+  "one_liner": "An image macro of a teenage boy with braces and a vest, used to describe tragic and ironic bad luck.",
+  "angles": ["the universe is against you", "ironic misfortune", "classic internet humor"],
+  "bar_seeds": ["vest and braces", "wins the lottery, dies next day", "pure bad luck"],
+  "format": "Image macro",
+  "origin_platform": "Reddit",
+  "meaning": "Unbelievable and ironic bad luck.",
+  "remix_rules": ["Top text: positive setup", "Bottom text: tragic/ironic outcome"],
+  "lifespan_risk": "High (Vintage meme status)",
+  "example_lines": ["Feeling like Bad Luck Brian today", "Total Brian move"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

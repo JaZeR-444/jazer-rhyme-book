@@ -1,0 +1,17 @@
+{
+  "id": "yin-and-yang",
+  "type": "rituals-symbols",
+  "name": "Yin and Yang",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Chinese philosophical concept that describes how obviously opposite or contrary forces may actually be complementary, interconnected, and interdependent.",
+  "tags": ["spiritual", "balance", "asian", "classic"],
+  "angles": ["duality", "cosmic-balance", "light-in-the-dark"],
+  "bar_seeds": ["black and white circle", "balance in the flow", "opposite attract"],
+  "related_ids": ["taoism", "balance"],
+  "purpose": "To represent the interconnectedness of all dualities.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Taijitu (Circle symbol)"],
+  "participants": "Philosophers, Practitioners",
+  "outcome": "Recognition of balance and wholeness."
+}

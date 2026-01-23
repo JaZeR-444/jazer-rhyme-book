@@ -1,0 +1,20 @@
+{
+  "id": "midas",
+  "type": "mythology-legend",
+  "name": "King Midas",
+  "aliases": ["Midas"],
+  "era": "Ancient Greece",
+  "tags": ["cautionary", "greek", "gold", "wealth"],
+  "one_liner": "A king in Greek mythology granted the power to turn everything he touched into gold.",
+  "angles": ["the curse of wealth", "be careful what you wish for", "materialism vs humanity"],
+  "bar_seeds": ["midas touch", "turning gold to stone", "frozen in gold"],
+  "origin_culture": "Greek",
+  "deity_type": "King / Mortal",
+  "powers": ["Golden Touch"],
+  "symbols": ["Gold", "Donkey Ears (in some myths)"],
+  "modern_parallels": ["People who make everything profitable but lose themselves", "Greedy business figures"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

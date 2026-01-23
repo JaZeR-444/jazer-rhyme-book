@@ -1,0 +1,17 @@
+{
+  "id": "kowloon-walled-city",
+  "type": "architecture-spaces",
+  "name": "Kowloon Walled City",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ungoverned, hyper-dense urban settlement in Hong Kong that became the blueprint for cyberpunk aesthetics.",
+  "tags": ["urban", "grit", "cyberpunk", "underground"],
+  "angles": ["lawless-density", "vertical-labyrinth", "urban-decay"],
+  "bar_seeds": ["no sunlight in the alley", "wires tangled like veins", "city within a building"],
+  "related_ids": ["hong-kong", "favela"],
+  "style": "Hyper-dense Vernacular",
+  "materials": ["Concrete", "Corrugated Metal", "Tangled Wires"],
+  "spatial_qualities": ["Claustrophobic", "Dark", "Infinite-density"],
+  "function": "Residential / Industrial / Lawless",
+  "famous_examples": ["Kowloon Walled City (Demolished 1993)"]
+}

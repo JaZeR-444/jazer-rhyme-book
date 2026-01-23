@@ -1,0 +1,18 @@
+{
+  "id": "requiem-for-a-dream-2000",
+  "type": "cinema",
+  "name": "Requiem for a Dream",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The drug-induced utopias of four Coney Island people are shattered when their addictions become stronger than their dreams.",
+  "tags": ["tragedy", "dark", "psychological", "grit"],
+  "angles": ["addiction-spiral", "fragmented-editing", "the-loss-of-self"],
+  "bar_seeds": ["dilated pupils", "winter is coming", "chasing the dragon"],
+  "related_ids": ["trainspotting-1996"],
+  "era": "2000",
+  "plot_hooks": ["The TV show obsession", "The weight loss pills", "The heroin run"],
+  "iconic_scenes": ["Hip hop montage (shots)", "The final breakdown", "The refrigerator moving"],
+  "visual_motifs": ["Extreme close-ups", "Accelerated time", "Dilated pupils"],
+  "themes": ["Addiction", "Isolation", "The Death of Dreams"],
+  "quotables_short": ["In the end, it's all the same.", "Purple in the morning..."]
+}

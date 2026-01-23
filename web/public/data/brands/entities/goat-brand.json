@@ -1,0 +1,17 @@
+{
+  "id": "goat-brand",
+  "type": "brand",
+  "name": "GOAT",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A global platform for the greatest products from the past, present, and future, specializing in high-end sneaker and apparel resale.",
+  "tags": ["luxury", "sneakerhead", "hustle", "aesthetic"],
+  "angles": ["premium-resale", "curated-collection", "verification"],
+  "bar_seeds": ["goat app", "ship to goat", "instant sell"],
+  "related_ids": ["stockx"],
+  "category": "E-commerce / Resale",
+  "price_tier": "Variable (High)",
+  "signature_products": ["Authentication Service", "Used Sneaker Marketplace"],
+  "status_signals": ["Rare sneaker collection", "Verified clean"],
+  "bar_angles": ["Greatest of all time", "Resale premium", "Securing the grail"]
+}

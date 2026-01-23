@@ -1,0 +1,17 @@
+{
+  "id": "richard-mille",
+  "type": "brand",
+  "name": "Richard Mille",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Ultra-high-end watch brand known for using racing materials and a distinct tonneau shape.",
+  "tags": ["luxury", "technical", "futuristic", "status"],
+  "angles": ["weightless", "engineering", "billionaire"],
+  "bar_seeds": ["richard mille plain", "skeleton dial", "house on the wrist"],
+  "related_ids": ["audemars-piguet"],
+  "category": "Watches",
+  "price_tier": "Ultra-High",
+  "signature_products": ["RM 11-03", "RM 27-04 (Nadal)"],
+  "status_signals": ["Tonneau case shape", "Transparent dial"],
+  "bar_angles": ["The billionaire's handshake", "Engineering marvel", "Price tag flex"]
+}

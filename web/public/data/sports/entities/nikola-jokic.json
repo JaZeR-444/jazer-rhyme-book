@@ -1,0 +1,59 @@
+{
+  "id": "nikola-jokic",
+  "type": "sports",
+  "name": "Nikola Jokic",
+  "aliases": [
+    "Joker"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "athlete",
+    "clutch",
+    "innovative",
+    "contemporary",
+    "mainstream"
+  ],
+  "one_liner": "NBA center and elite passer known for vision, touch, and calm control.",
+  "angles": [
+    "point center",
+    "quiet dominance",
+    "precision passing"
+  ],
+  "bar_seeds": [
+    "no-look dime",
+    "soft touch in the paint",
+    "slow-mo big"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Playmaking",
+    "Post scoring",
+    "Rebounding"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "chessboard center",
+    "calm conductor"
+  ],
+  "legends": [
+    "Multiple MVPs",
+    "Championship run"
+  ],
+  "related_ids": [
+    "luka-doncic",
+    "joel-embiid"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nikola_Jokic",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

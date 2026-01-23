@@ -1,0 +1,17 @@
+{
+  "id": "glock-17",
+  "type": "weapons-objects",
+  "name": "Glock 17",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The polymer-framed standard for reliability and simplicity in modern firearms.",
+  "tags": ["grit", "technical", "contemporary", "tool"],
+  "angles": ["reliability", "plastic", "standard-issue"],
+  "bar_seeds": ["polymer frame", "seventeen in the clip", "no safety catch"],
+  "related_ids": [],
+  "weapon_type": "Handgun",
+  "range": "Close-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Efficiency, modern street power, and clinical reliability.",
+  "famous_users": ["Law enforcement worldwide", "Countless drill artists"]
+}

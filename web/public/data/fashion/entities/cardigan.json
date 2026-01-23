@@ -1,0 +1,19 @@
+{
+  "id": "cardigan",
+  "type": "fashion",
+  "name": "Cardigan",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A knitted garment that has an open front and is fastened with buttons or a zipper.",
+  "tags": ["academic", "grunge", "classic", "mellow"],
+  "angles": ["intellectual-layering", "distressed-grunge", "cozy-sophistication"],
+  "bar_seeds": ["buttoned up knits", "cobain's mohair", "library warmth"],
+  "related_ids": ["kurt-cobain", "dark-academia"],
+  "item_type": "Outerwear / Knitwear",
+  "material": ["Wool", "Cashmere", "Mohair"],
+  "cultural_significance": "Ranges from 'Grandpa' style to the definitive look of Kurt Cobain.",
+  "fit": ["Oversized", "Slim"],
+  "associated_brands": ["Uniqlo", "Comme des Garçons", "Saint Laurent"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

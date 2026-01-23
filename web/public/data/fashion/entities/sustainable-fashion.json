@@ -1,0 +1,66 @@
+{
+  "id": "sustainable-fashion",
+  "type": "fashion",
+  "name": "Sustainable Fashion",
+  "aliases": [
+    "Eco-Fashion",
+    "Ethical Fashion",
+    "Slow Fashion"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "eco-friendly",
+    "ethical",
+    "conscious",
+    "slow",
+    "responsible"
+  ],
+  "one_liner": "Fashion focused on environmental and social responsibility throughout the production cycle.",
+  "angles": [
+    "environmental consciousness",
+    "ethical production",
+    "slow vs fast fashion"
+  ],
+  "bar_seeds": [
+    "Conscious consumption",
+    "Ethical threads",
+    "Slow fashion movement",
+    "Eco-friendly"
+  ],
+  "item_type": "Ethical Apparel",
+  "material": [
+    "Organic Cotton",
+    "Recycled Polyester",
+    "Tencel",
+    "Hemp"
+  ],
+  "cultural_significance": "Addresses the environmental and social impact of fashion consumption.",
+  "fit": [
+    "Varies"
+  ],
+  "associated_brands": [
+    "Patagonia",
+    "Eileen Fisher",
+    "Reformation",
+    "Stella McCartney"
+  ],
+  "related_ids": [
+    "fast-fashion"
+  ],
+  "created_at": "2025-12-23T12:45:00Z",
+  "updated_at": "2025-12-23T12:45:00Z",
+  "sources": [
+    {
+      "title": "Environmental studies",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Fashion ethics",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

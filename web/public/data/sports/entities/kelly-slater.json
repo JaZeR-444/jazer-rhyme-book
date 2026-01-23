@@ -1,0 +1,19 @@
+{
+  "id": "kelly-slater",
+  "type": "sports",
+  "name": "Kelly Slater",
+  "aliases": ["The King of Surfing"],
+  "era": "1990s-Present",
+  "tags": ["surfing", "longevity", "nature", "stoicism"],
+  "one_liner": "Arguably the greatest surfer of all time, with 11 World Surf League titles and unprecedented longevity.",
+  "angles": ["mastering-the-wave", "eternal-youth-on-water", "nature-connection"],
+  "bar_seeds": ["catching the big wave", "slater's peak", "walking on water"],
+  "team_size": "1 (Surfing)",
+  "key_skills": ["Balance", "Wave reading", "Longevity"],
+  "equipment": ["Surfboard", "Wetsuit", "Leash"],
+  "metaphors": ["The Wave Master"],
+  "legends": ["11x WSL World Champion", "Oldest and youngest title winner"],
+  "related_ids": [],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

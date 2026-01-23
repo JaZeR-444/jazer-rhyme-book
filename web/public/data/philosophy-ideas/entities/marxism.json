@@ -1,0 +1,16 @@
+{
+  "id": "marxism",
+  "type": "philosophy-ideas",
+  "name": "Marxism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A method of socioeconomic analysis that uses a materialist interpretation of historical development to understand class relations.",
+  "tags": ["political", "history", "rebellion", "social"],
+  "angles": ["class struggle", "means of production", "revolution"],
+  "bar_seeds": ["seize the means", "power to the workers", "shattering the chains"],
+  "school_of_thought": "Critical Theory / Socialism",
+  "core_question": "How does the struggle between social classes shape history?",
+  "key_philosophers": ["Karl Marx", "Friedrich Engels"],
+  "paradoxes": ["The Transformation Problem"],
+  "modern_application": "Labor unions, social activism, anti-capitalist critique."
+}

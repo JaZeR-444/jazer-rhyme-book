@@ -1,0 +1,17 @@
+{
+  "id": "horizontal-integration",
+  "type": "business-economics",
+  "name": "Horizontal Integration",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The process of a company increasing production of goods or services at the same part of the supply chain.",
+  "tags": ["strategy", "expansion", "business", "competitive"],
+  "angles": ["buying-the-rivals", "market-share-grab", "diversifying-reach"],
+  "bar_seeds": ["gobbling up the field", "same lane more lanes", "expanding the footprint"],
+  "related_ids": ["mergers-and-acquisitions", "monopoly"],
+  "industry": "Strategy / Growth",
+  "core_principle": "Expansion at the same level of production.",
+  "jargon": ["Market consolidation", "Synergy", "Acquisition"],
+  "key_metrics": ["Market Share", "Revenue Growth"],
+  "archetypes": ["Consolidator", "M&A Specialist"]
+}

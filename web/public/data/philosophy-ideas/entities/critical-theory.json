@@ -1,0 +1,17 @@
+{
+  "id": "critical-theory",
+  "type": "philosophy-ideas",
+  "name": "Critical Theory",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A social philosophy that focuses on reflecting on and critiquing society and culture to reveal and challenge power structures.",
+  "tags": ["political", "intellectual", "revolutionary", "social"],
+  "angles": ["unmasking-power", "liberation-from-oppression", "ideology-critique"],
+  "bar_seeds": ["peering behind the curtain", "challenging the norm", "emancipated mind"],
+  "related_ids": ["marxism", "post-structuralism"],
+  "school_of_thought": "Frankfurt School / Neo-Marxism",
+  "core_question": "How can we liberate people from the invisible structures of society?",
+  "key_philosophers": ["Max Horkheimer", "Theodor Adorno", "Herbert Marcuse"],
+  "paradoxes": [],
+  "modern_application": "Social activism, media studies, cultural critique."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hm",
+  "type": "brand",
+  "name": "H&M",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Swedish multinational clothing retail company known for its fast-fashion clothing for men, women, teenagers, and children.",
+  "tags": ["fast-fashion", "mainstream", "casual", "affordable"],
+  "angles": ["basics-empire", "designer-collabs", "global-closet"],
+  "bar_seeds": ["ten dollar tee", "designer collab campout", "conscious collection"],
+  "related_ids": ["fashion"],
+  "category": "Fashion",
+  "price_tier": "Low-Mid",
+  "signature_products": ["Basic Tees", "Denim", "Designer Collaborations"],
+  "status_signals": ["Limited designer collabs (Balmain, Mugler)", "Sustainable tag"],
+  "bar_angles": ["Everyday uniform", "The mass-market look", "Fast fashion cycle"]
+}

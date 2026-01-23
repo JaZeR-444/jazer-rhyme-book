@@ -1,0 +1,56 @@
+{
+  "id": "festival-fashion",
+  "type": "fashion",
+  "name": "Festival Fashion",
+  "aliases": [
+    "Festival style"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "vibrant",
+    "trend",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "Bold, expressive outfits designed for music festivals and outdoor events.",
+  "angles": [
+    "bold expression",
+    "party-ready",
+    "crowd standout"
+  ],
+  "bar_seeds": [
+    "glitter in the sun",
+    "bass in the fit",
+    "lights in the night"
+  ],
+  "item_type": "Event Wear",
+  "material": [
+    "Mesh",
+    "Denim",
+    "Sequins"
+  ],
+  "cultural_significance": "A playful mix of music culture, self-expression, and trend cycles.",
+  "fit": [
+    "Fitted",
+    "Layered"
+  ],
+  "associated_brands": [
+    "Free People",
+    "Urban Outfitters",
+    "Adidas"
+  ],
+  "related_ids": [
+    "bohemian-fashion",
+    "vintage-clothing"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Festival culture",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

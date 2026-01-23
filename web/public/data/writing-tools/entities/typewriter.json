@@ -1,0 +1,18 @@
+{
+  "id": "typewriter",
+  "type": "writing-tool",
+  "name": "Typewriter",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mechanical machine that forces deliberate, rhythmic writing with no distractions.",
+  "tags": ["tool", "vintage", "mechanical", "classic", "relic"],
+  "angles": ["permanence", "rhythm", "focus"],
+  "bar_seeds": ["clack clack ding", "ink ribbon", "no backspace"],
+  "related_ids": [],
+  "category": "Physical",
+  "what_it_does": "Imprints characters onto paper via mechanical keys.",
+  "best_for": ["focused drafting", "aesthetic inspiration", "letter writing"],
+  "workflow_hooks": ["Commit to every keystroke", "Enjoy the tactile feedback"],
+  "pitfalls": ["Loud", "Hard to edit", "Requires maintenance"],
+  "bar_angles": ["Heavy metal writing", "Mechanical flow", "Industrial poetry"]
+}

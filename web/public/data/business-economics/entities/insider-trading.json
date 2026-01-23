@@ -1,0 +1,17 @@
+{
+  "id": "insider-trading",
+  "type": "business-economics",
+  "name": "Insider Trading",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The trading of a public company's stock or other securities based on material, nonpublic information.",
+  "tags": ["crime", "hustle", "unfair", "corporate"],
+  "angles": ["advantage", "secrecy", "prison"],
+  "bar_seeds": ["tip from the inside", "trading before the news", "feds watching"],
+  "related_ids": ["stock-market", "sec"],
+  "industry": "Finance / Law",
+  "core_principle": "Information asymmetry (illegal).",
+  "jargon": ["Material nonpublic info", "Tipper", "Tippee"],
+  "key_metrics": ["Abnormal Return", "Volume Spike"],
+  "archetypes": ["Corporate Executive", "Hedge Fund Trader"]
+}

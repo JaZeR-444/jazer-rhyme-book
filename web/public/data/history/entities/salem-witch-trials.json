@@ -1,0 +1,17 @@
+{
+  "id": "salem-witch-trials",
+  "type": "history",
+  "name": "Salem Witch Trials",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts.",
+  "tags": ["dark", "hysteria", "religious", "history"],
+  "angles": ["moral-panic", "spectral-evidence", "neighbour-vs-neighbour"],
+  "bar_seeds": ["witch hunt", "more weight", "gallows hill"],
+  "related_ids": ["dark", "ritual"],
+  "key_dates": ["1692", "1693"],
+  "location": "Salem, Massachusetts",
+  "impact": "Remains a powerful metaphor for mass hysteria and the dangers of religious extremism and judicial failure.",
+  "major_figures": ["Abigail Williams", "Giles Corey"],
+  "cultural_shift": "The eventual rejection of 'spectral evidence' and a move toward modern legal standards."
+}

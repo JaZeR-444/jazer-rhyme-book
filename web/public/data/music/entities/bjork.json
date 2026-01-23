@@ -1,0 +1,18 @@
+{
+  "id": "bjork",
+  "type": "music",
+  "name": "Björk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An Icelandic avant-garde artist who seamlessly blends organic nature sounds with cutting-edge technology.",
+  "tags": ["innovative", "organic", "technical", "art"],
+  "angles": ["nature", "technology", "emotion"],
+  "bar_seeds": ["swan dress", "army of me", "icelandic landscapes"],
+  "related_ids": ["aphex-twin"],
+  "genre": ["Art Pop", "Electronic", "Avant-garde"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Army of Me", "Hyperballad", "Jóga"],
+  "sonic_descriptors": ["Strings", "Glitch beats", "Unique vocals"],
+  "influence_tree": ["Kate Bush", "Stockhausen"],
+  "aesthetic": "High-Tech Naturalist"
+}

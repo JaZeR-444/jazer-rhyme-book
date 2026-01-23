@@ -1,0 +1,19 @@
+{
+  "id": "victor-wembanyama",
+  "type": "sports",
+  "name": "Victor Wembanyama",
+  "aliases": ["Wemby", "The Alien"],
+  "era": "2020s-Present",
+  "tags": ["basketball", "futuristic", "technical", "alien"],
+  "one_liner": "A generational French talent with an impossible combination of size, length, and guard-like skill.",
+  "angles": ["alien anatomy", "redefining the game", "defensive wall"],
+  "bar_seeds": ["7 foot 4 with a handle", "the alien", "blocks from the perimeter"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Shot blocking", "Ball handling", "Shooting range"],
+  "equipment": ["Basketball", "Nike GT Hustle"],
+  "metaphors": ["The Alien"],
+  "legends": ["Rookie of the Year", "French Phenom"],
+  "related_ids": [],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

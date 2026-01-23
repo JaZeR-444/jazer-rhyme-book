@@ -1,0 +1,56 @@
+{
+  "id": "data-economy",
+  "type": "business-economics",
+  "name": "Data Economy",
+  "aliases": [
+    "Data-driven economy"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "technical",
+    "innovative",
+    "contemporary"
+  ],
+  "one_liner": "Economic activity centered on collecting, analyzing, and monetizing data.",
+  "angles": [
+    "data as asset",
+    "analytics advantage",
+    "platform intelligence"
+  ],
+  "bar_seeds": [
+    "data on the ledger",
+    "signals in the cloud",
+    "insights for sale"
+  ],
+  "industry": "Technology/Analytics",
+  "core_principle": "Data assets create competitive advantage and new revenue streams.",
+  "jargon": [
+    "data lake",
+    "analytics",
+    "AI pipeline"
+  ],
+  "key_metrics": [
+    "data volume",
+    "model accuracy",
+    "insight adoption"
+  ],
+  "archetypes": [
+    "data team",
+    "platform",
+    "enterprise"
+  ],
+  "related_ids": [
+    "big-data",
+    "cloud-computing"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Data_economy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

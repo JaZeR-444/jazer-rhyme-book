@@ -1,0 +1,18 @@
+{
+  "id": "off-the-rip",
+  "type": "lingo",
+  "name": "Off the Rip",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "From the very beginning; immediately.",
+  "tags": ["slang", "efficiency", "immediate", "contemporary"],
+  "angles": ["start-line", "instinct", "speed"],
+  "bar_seeds": ["knowing it off the rip", "first take only", "immediate response"],
+  "related_ids": ["say-less"],
+  "meaning": "Immediately / Right from the start.",
+  "usage": "Describing a first impression or immediate action.",
+  "origin": "AAVE / General Slang",
+  "region": "Global",
+  "example_lines": ["I knew he was fake off the rip", "Started the verse off the rip"],
+  "do_not_use_if": ["Something took time to develop"]
+}

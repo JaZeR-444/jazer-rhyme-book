@@ -1,0 +1,17 @@
+{
+  "id": "the-louvre",
+  "type": "places",
+  "name": "The Louvre",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The world's largest art museum and a historic monument in Paris, housing centuries of human achievement.",
+  "tags": ["art", "luxury", "classic", "history"],
+  "angles": ["human achievement", "glass pyramid", "eternal legacy"],
+  "bar_seeds": ["mona lisa smile", "halls of gold", "glass in the courtyard"],
+  "related_ids": ["paris", "the-renaissance"],
+  "place_type": "landmark",
+  "vibe": "Sacred, vast, and silent.",
+  "sensory_cues": ["Polished floors", "Quiet whispers", "Cold marble", "Glass reflections"],
+  "cultural_refs": ["Mona Lisa", "Da Vinci Code", "Beyoncé (Apeshit)"],
+  "bar_angles": ["Masterpiece mind", "Living in a gallery", "Legacy in the stone"]
+}

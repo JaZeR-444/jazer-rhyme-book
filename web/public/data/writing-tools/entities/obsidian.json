@@ -1,0 +1,21 @@
+{
+  "id": "obsidian",
+  "type": "writing-tool",
+  "name": "Obsidian",
+  "aliases": ["Obsidian.md"],
+  "era": "2020-Present",
+  "tags": ["pkm", "knowledge-base", "markdown", "local-first"],
+  "one_liner": "A powerful local-first knowledge base that works on top of a local folder of plain text Markdown files.",
+  "angles": ["linking thoughts", "the network of ideas", "sovereign data"],
+  "bar_seeds": ["markdown graph", "connected notes", "local storage"],
+  "category": "Personal Knowledge Management",
+  "what_it_does": "A text editor and knowledge management app that emphasizes linking and local file control.",
+  "best_for": ["Building a personal knowledge hub", "Deep research", "Linking disparate ideas"],
+  "workflow_hooks": ["Creating 'maps of content'", "Using back-links for character relations"],
+  "pitfalls": ["Steep learning curve", "Sync requires extra setup"],
+  "bar_angles": ["linking lyrics like obsidian", "my mind is a markdown file"],
+  "related_ids": ["notion"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

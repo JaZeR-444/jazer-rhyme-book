@@ -1,0 +1,17 @@
+{
+  "id": "lotus-flower-symbol",
+  "type": "rituals-symbols",
+  "name": "The Lotus Flower",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A flower that grows in muddy water and rises above the surface to bloom with remarkable beauty and purity.",
+  "tags": ["spiritual", "organic", "purity", "asian"],
+  "angles": ["rising-from-the-mud", "enlightenment", "untouched-by-dirt"],
+  "bar_seeds": ["lotus in the pond", "pure from the sludge", "blooming in the dark"],
+  "related_ids": ["zen", "purification"],
+  "purpose": "To symbolize spiritual awakening and purity.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["The Lotus Flower", "Sacred art"],
+  "participants": "Buddhists, Hindus, Yogis",
+  "outcome": "Spiritual aspiration and resilience."
+}

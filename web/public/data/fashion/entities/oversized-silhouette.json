@@ -1,0 +1,56 @@
+{
+  "id": "oversized-silhouette",
+  "type": "fashion",
+  "name": "Oversized Silhouette",
+  "aliases": [
+    "Oversized fit"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "silhouette",
+    "streetwear",
+    "contemporary",
+    "trend"
+  ],
+  "one_liner": "Loose, exaggerated proportions that emphasize comfort and shape.",
+  "angles": [
+    "big fit energy",
+    "room to move",
+    "soft armor"
+  ],
+  "bar_seeds": [
+    "baggy by design",
+    "drape in motion",
+    "big fit, big mood"
+  ],
+  "item_type": "Silhouette",
+  "material": [
+    "Cotton",
+    "Fleece",
+    "Denim"
+  ],
+  "cultural_significance": "Cycles between rebellion and comfort as a visual statement.",
+  "fit": [
+    "Oversized",
+    "Relaxed"
+  ],
+  "associated_brands": [
+    "Balenciaga",
+    "Fear of God",
+    "Supreme"
+  ],
+  "related_ids": [
+    "streetwear",
+    "athleisure"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Oversize",
+      "url": "https://en.wikipedia.org/wiki/Oversize",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "brutalist-housing",
+  "type": "architecture-spaces",
+  "name": "Brutalist Housing",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Post-war residential complexes characterized by raw concrete and massive, blocky forms.",
+  "tags": ["brutalist", "urban", "grit", "industrial"],
+  "angles": ["concrete-utopia", "urban-fortress", "raw-honesty"],
+  "bar_seeds": ["concrete blocks", "grey sky background", "high-rise living"],
+  "related_ids": ["brutalist-revival", "london-brixton"],
+  "style": "Brutalism",
+  "materials": ["Exposed Concrete", "Steel", "Glass"],
+  "spatial_qualities": ["Massive", "Repetitive", "Rough"],
+  "function": "Residential",
+  "famous_examples": ["Barbican Estate", "Unité d'Habitation", "Trellick Tower"]
+}

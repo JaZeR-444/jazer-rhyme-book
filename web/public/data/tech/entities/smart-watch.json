@@ -1,0 +1,20 @@
+{
+  "id": "smart-watch",
+  "type": "tech",
+  "name": "Smart Watch",
+  "aliases": ["Wearable", "Apple Watch"],
+  "era": "2010s-Present",
+  "tags": ["technical", "gadget", "wearable", "lifestyle"],
+  "one_liner": "A wearable computer in the form of a wristwatch, merging health tracking with mobile connectivity.",
+  "angles": ["wrist-bound data", "health surveillance", "the extension of the phone"],
+  "bar_seeds": ["ringing on my wrist", "counting every step", "digital halo"],
+  "related_ids": ["smartphone"],
+  "category": "Consumer Electronics",
+  "what_it_is": "A portable device intended to be worn on a wrist, featuring a touchscreen and various sensors.",
+  "why_it_matters": "Changes how humans interact with notifications and track their own biology.",
+  "risks": ["Data privacy", "Planned obsolescence", "Distraction"],
+  "metaphors": ["A shackle of data", "Digital pulse", "Miniature companion"],
+  "keywords": ["OLED", "Heart rate monitor", "GPS", "ECG", "LTE"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

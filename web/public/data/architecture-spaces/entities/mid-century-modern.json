@@ -1,0 +1,17 @@
+{
+  "id": "mid-century-modern",
+  "type": "architecture-spaces",
+  "name": "Mid-Century Modern",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An American design movement characterized by clean lines, organic curves, and integration with nature.",
+  "tags": ["vintage", "aesthetic", "organic", "minimalist"],
+  "angles": ["retro", "nature", "simplicity"],
+  "bar_seeds": ["palm springs vibe", "eames chair", "glass walls"],
+  "related_ids": ["desert-modernism"],
+  "style": "Modernist",
+  "materials": ["Wood", "Glass", "Stone"],
+  "spatial_qualities": ["Open", "Horizontal", "Light"],
+  "function": "Residential / Design",
+  "famous_examples": ["Eames House", "Fallingwater"]
+}

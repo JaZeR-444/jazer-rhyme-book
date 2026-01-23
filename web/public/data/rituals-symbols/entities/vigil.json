@@ -1,0 +1,20 @@
+{
+  "id": "vigil",
+  "type": "rituals-symbols",
+  "name": "Vigil",
+  "aliases": ["Watch", "Wake"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "patience", "mourning", "waiting"],
+  "one_liner": "A period of keeping awake during the time usually devoted to sleep, especially to keep watch or pray.",
+  "angles": ["the long watch", "waiting in the dark", "respect for the fallen"],
+  "bar_seeds": ["candlelight watch", "eyes wide through the night", "silent vigil", "waiting for the dawn"],
+  "purpose": "To show respect, wait for an event, or protect something.",
+  "steps": ["Preparation of space", "Quiet watching", "Reflection/Prayer"],
+  "objects_used": ["Candles", "Photos", "Sacred texts"],
+  "participants": "Mourners, guardians, the faithful",
+  "outcome": "Closure, protection, spiritual readiness",
+  "related_ids": ["emotions-states"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

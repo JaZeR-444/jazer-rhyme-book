@@ -1,0 +1,20 @@
+{
+  "id": "skyscraper",
+  "type": "architecture-spaces",
+  "name": "Skyscraper",
+  "aliases": ["Tower", "High-rise", "Steel Giant"],
+  "era": "20th Century-Present",
+  "tags": ["urban", "modern", "power", "skyline"],
+  "one_liner": "A tall, continuously habitable building having multiple floors, often serving as a symbol of economic power.",
+  "angles": ["reaching for the clouds", "urban monuments", "vertical density"],
+  "bar_seeds": ["touching the sky", "steel and glass", "view from the penthouse", "concrete canyon"],
+  "style": "Modern / Post-modern",
+  "materials": ["Steel", "Reinforced concrete", "Glass"],
+  "spatial_qualities": ["Verticality", "Vast views", "Symmetry"],
+  "function": "Commercial / Residential",
+  "famous_examples": ["Empire State Building", "Burj Khalifa", "Willis Tower"],
+  "related_ids": ["places"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

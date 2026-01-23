@@ -1,0 +1,18 @@
+{
+  "id": "jay-z",
+  "type": "music",
+  "name": "Jay-Z",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The archetype of the rapper-turned-mogul, known for his flow, business acumen, and longevity.",
+  "tags": ["hustle", "luxury", "legacy", "braggadocio"],
+  "angles": ["business", "flow", "brooklyn"],
+  "bar_seeds": ["marcy projects", "roc-a-fella", "billionaire status"],
+  "related_ids": ["kanye-west", "the-notorious-big"],
+  "genre": ["Hip Hop"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Empire State of Mind", "99 Problems", "Dead Presidents II"],
+  "sonic_descriptors": ["Boom bap", "Soulful production", "Clean flow"],
+  "influence_tree": ["Big Daddy Kane", "Jaz-O"],
+  "aesthetic": "Corporate Gangster"
+}

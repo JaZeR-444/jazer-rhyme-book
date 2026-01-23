@@ -1,0 +1,17 @@
+{
+  "id": "bruce-lee",
+  "type": "people",
+  "name": "Bruce Lee",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Martial arts legend and philosopher who bridged East and West, creating Jeet Kune Do.",
+  "tags": ["iconic", "philosophical-ideas", "war", "legacy"],
+  "angles": ["speed", "philosophy", "discipline"],
+  "bar_seeds": ["be water my friend", "one inch punch", "yellow jumpsuit"],
+  "related_ids": [],
+  "known_for": ["Enter the Dragon", "Jeet Kune Do", "Philosophy"],
+  "vibe": "Focused, fluid, intense",
+  "signature_items": ["Nunchucks", "Yellow jumpsuit", "Scratches on chest"],
+  "quotables_short": ["Be water, my friend.", "Don't think, feel."],
+  "controversy_flags": ["Mysterious death"]
+}

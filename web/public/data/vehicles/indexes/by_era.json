@@ -1,0 +1,30 @@
+{
+  "2000s-2010s": [
+    "bugatti-veyron"
+  ],
+  "1940s-1990s": [
+    "cadillac-fleetwood"
+  ],
+  "1980s-1990s": [
+    "ferrari-f40"
+  ],
+  "2010s-Present": [
+    "lamborghini-aventador"
+  ],
+  "1940s-Present": [
+    "lowrider"
+  ],
+  "1970s-Present": [
+    "mercedes-benz-g-wagon",
+    "range-rover"
+  ],
+  "1960s-Present": [
+    "porsche-911"
+  ],
+  "1920s-Present": [
+    "rolls-royce-phantom"
+  ],
+  "2012-Present": [
+    "tesla-model-s"
+  ]
+}

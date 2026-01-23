@@ -1,0 +1,18 @@
+{
+  "id": "taxi-driver-1976",
+  "type": "cinema",
+  "name": "Taxi Driver",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A mentally unstable veteran works as a night-time taxi driver in New York City.",
+  "tags": ["noir", "grit", "psychological", "nyc"],
+  "angles": ["loneliness", "vigilante", "madness"],
+  "bar_seeds": ["you talkin to me", "mohawk", "rain on the windshield"],
+  "related_ids": ["joker-2019"],
+  "era": "1976",
+  "plot_hooks": ["Saving a child", "Assassination attempt", "Night driving"],
+  "iconic_scenes": ["Mirror monologue", "The final shootout", "Finger gun to head"],
+  "visual_motifs": ["Steam rising", "Yellow cab", "Neon reflection"],
+  "themes": ["Urban decay", "Isolation", "PTSD"],
+  "quotables_short": ["You talkin' to me?", "Someday a real rain will come..."]
+}

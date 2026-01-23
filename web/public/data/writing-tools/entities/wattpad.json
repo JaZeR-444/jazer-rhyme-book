@@ -1,0 +1,18 @@
+{
+  "id": "wattpad",
+  "type": "writing-tool",
+  "name": "Wattpad",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A social storytelling platform where users connect with writers and read original stories.",
+  "tags": ["tool", "community", "social-media", "youth"],
+  "angles": ["feedback", "fanfiction", "serialization"],
+  "bar_seeds": ["chapter by chapter", "reader comments", "viral story"],
+  "related_ids": [],
+  "category": "Platform",
+  "what_it_does": "Allows writers to publish stories serially and get instant feedback.",
+  "best_for": ["fanfiction", "YA novels", "building an audience"],
+  "workflow_hooks": ["Post a chapter weekly", "Engage with commenters"],
+  "pitfalls": ["Quality varies wildly", "Algorithm chasing"],
+  "bar_angles": ["Live feedback", "Serial killer", "Internet fame"]
+}

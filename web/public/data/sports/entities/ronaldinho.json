@@ -1,0 +1,19 @@
+{
+  "id": "ronaldinho",
+  "type": "sports",
+  "name": "Ronaldinho",
+  "aliases": ["R10", "Ronaldinho Gaúcho"],
+  "era": "1990s-2010s",
+  "tags": ["soccer", "vibrant", "skill", "joy"],
+  "one_liner": "The smiling magician of Brazilian football who brought pure joy and impossible flair to the pitch.",
+  "angles": ["joga-bonito", "impossible-skill", "smiling-assassin"],
+  "bar_seeds": ["elastico", "no look pass", "joga bonito"],
+  "related_ids": ["soccer", "rio-de-janeiro"],
+  "team_size": "11 (Soccer)",
+  "key_skills": ["Flair", "Free kicks", "Trickery"],
+  "equipment": ["Nike Tiempo Cleats"],
+  "metaphors": ["The Magician"],
+  "legends": ["2002 World Cup Winner", "Ballon d'Or"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

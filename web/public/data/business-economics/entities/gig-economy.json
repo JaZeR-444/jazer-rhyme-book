@@ -1,0 +1,57 @@
+{
+  "id": "gig-economy",
+  "type": "business-economics",
+  "name": "Gig Economy",
+  "aliases": [
+    "On-demand labor"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "hustle"
+  ],
+  "one_liner": "Labor market built around short-term, on-demand work coordinated by platforms.",
+  "angles": [
+    "flexible labor",
+    "platform-led work",
+    "on-demand income"
+  ],
+  "bar_seeds": [
+    "clock in on the app",
+    "surge on the meter",
+    "hustle by the hour"
+  ],
+  "industry": "Labor/Platforms",
+  "core_principle": "Work is matched to demand through digital platforms.",
+  "jargon": [
+    "1099",
+    "surge pricing",
+    "contractor"
+  ],
+  "key_metrics": [
+    "active workers",
+    "order volume",
+    "take rate"
+  ],
+  "archetypes": [
+    "driver",
+    "courier",
+    "platform operator"
+  ],
+  "related_ids": [
+    "uber",
+    "doordash",
+    "startup"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gig_economy",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

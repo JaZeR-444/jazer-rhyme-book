@@ -1,0 +1,17 @@
+{
+  "id": "outrun",
+  "type": "aesthetics-visuals",
+  "name": "Outrun",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic devoted to the 1980s retro-futuristic visual style, characterized by sunsets, neon grids, and fast cars.",
+  "tags": ["retro", "neon", "driving", "synthwave"],
+  "angles": ["speed", "sunset", "grid"],
+  "bar_seeds": ["driving into the sun", "neon grid", "testarossa"],
+  "related_ids": ["synthwave", "drive-2011"],
+  "visual_elements": ["Wireframe grids", "Palm tree silhouettes", "Gradient suns", "Ferraris"],
+  "mood": "Nostalgic, energetic, nocturnal",
+  "associated_eras": ["1980s", "2010s (Revival)"],
+  "color_palette": ["Sunset Orange", "Neon Pink", "Deep Purple", "Cyan"],
+  "fashion_staples": ["Bomber jackets", "Aviators", "Neon accents"]
+}

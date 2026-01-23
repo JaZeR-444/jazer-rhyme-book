@@ -1,0 +1,17 @@
+{
+  "id": "flow-state",
+  "type": "time-energy",
+  "name": "Flow State",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The mental state of being fully immersed and focused on an activity, where time seems to disappear.",
+  "tags": ["momentum", "zen", "technical", "technical"],
+  "angles": ["focus", "immersion", "timelessness"],
+  "bar_seeds": ["in the zone", "no clock on the wall", "effortless action"],
+  "related_ids": ["momentum", "resonance"],
+  "concept_type": "Psychological/Energy",
+  "perception": "Hyper-focused, losing self-consciousness and the sense of time passing.",
+  "physics_basis": "Neural synchronization and dopamine release.",
+  "cultural_view": "Highly valued in creative and athletic pursuits; 'the zone'.",
+  "idioms": ["In the pocket", "On a roll", "Losing oneself"]
+}

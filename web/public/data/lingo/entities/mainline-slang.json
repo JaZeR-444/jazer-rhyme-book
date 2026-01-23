@@ -1,0 +1,18 @@
+{
+  "id": "mainline-slang",
+  "type": "lingo",
+  "name": "Mainline",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "To inject something directly; also refers to the primary, most direct source or trend.",
+  "tags": ["slang", "grit", "direct", "influence"],
+  "angles": ["direct-access", "intensity", "core-source"],
+  "bar_seeds": ["mainlining the truth", "direct to the vein", "straight to the source"],
+  "related_ids": [],
+  "meaning": "Direct injection / The primary source.",
+  "usage": "Describing something intense or fundamental.",
+  "origin": "Drug culture / General usage",
+  "region": "Global",
+  "example_lines": ["Mainlining the culture", "Straight from the mainline"],
+  "do_not_use_if": ["You are describing a side-project or indirect influence"]
+}

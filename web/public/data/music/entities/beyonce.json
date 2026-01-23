@@ -1,0 +1,18 @@
+{
+  "id": "beyonce",
+  "type": "music",
+  "name": "Beyoncé",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A global icon known for her vocal prowess, work ethic, and boundary-pushing visual albums.",
+  "tags": ["queen", "vibrant", "legacy", "innovative"],
+  "angles": ["perfectionism", "vocal-range", "performance"],
+  "bar_seeds": ["queen bey", "lemonade", "beehive"],
+  "related_ids": ["jay-z"],
+  "genre": ["R&B", "Pop", "Soul"],
+  "era_detail": "1990s - Present",
+  "signature_songs": ["Formation", "Crazy in Love", "Halo"],
+  "sonic_descriptors": ["Vocal runs", "Marching bands", "Pop polish"],
+  "influence_tree": ["Tina Turner", "Michael Jackson", "Donna Summer"],
+  "aesthetic": "Regal and Revolutionary"
+}

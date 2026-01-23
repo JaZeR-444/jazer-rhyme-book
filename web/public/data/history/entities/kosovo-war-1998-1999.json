@@ -1,0 +1,48 @@
+{
+  "id": "kosovo-war-1998-1999",
+  "type": "history",
+  "name": "Kosovo War",
+  "aliases": [],
+  "era": "1998-1999",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A conflict in Kosovo that led to NATO intervention and regional change.",
+  "angles": [
+    "intervention",
+    "humanitarian crisis",
+    "air campaign"
+  ],
+  "bar_seeds": [
+    "jets in the sky",
+    "borders under fire",
+    "ceasefire after strikes"
+  ],
+  "key_dates": [
+    "1999 (NATO intervention)",
+    "1999 (Kumanovo Agreement)"
+  ],
+  "location": "Kosovo / Balkans",
+  "impact": "Shifted regional politics and set precedents for intervention.",
+  "major_figures": [
+    "Slobodan Milosevic",
+    "Bill Clinton"
+  ],
+  "cultural_shift": "Debates about humanitarian intervention intensified.",
+  "related_ids": [
+    "bosnian-war-1992-1995"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kosovo_War",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

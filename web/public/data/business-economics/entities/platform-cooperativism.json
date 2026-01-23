@@ -1,0 +1,17 @@
+{
+  "id": "platform-cooperativism",
+  "type": "business-economics",
+  "name": "Platform Cooperativism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A movement that advocates for the co-operative ownership of platforms that provide goods or services.",
+  "tags": ["social", "innovative", "rebellion", "business"],
+  "angles": ["worker-ownership", "fair-shares", "anti-monopoly"],
+  "bar_seeds": ["owning the code", "shared profit", "no masters only partners"],
+  "related_ids": ["gig-economy", "marxism"],
+  "industry": "Internet Economy",
+  "core_principle": "User or worker ownership of the platform.",
+  "jargon": ["Co-op", "Democratic governance", "Profit sharing"],
+  "key_metrics": ["Member Engagement", "Fair Wage Ratio"],
+  "archetypes": ["Co-operative Member", "Social Innovator"]
+}

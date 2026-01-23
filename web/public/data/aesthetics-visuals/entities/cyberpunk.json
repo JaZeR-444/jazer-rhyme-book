@@ -1,0 +1,20 @@
+{
+  "id": "cyberpunk",
+  "type": "aesthetics-visuals",
+  "name": "Cyberpunk",
+  "aliases": ["high tech low life", "neon noir"],
+  "era": "1980s-Future",
+  "tags": ["futuristic", "dystopian", "neon", "tech", "urban"],
+  "one_liner": "High tech, low life; a dystopian future dominated by corporate power and cybernetics.",
+  "angles": ["corporate overlords vs street samurai", "humanity merging with machine", "neon-soaked despair"],
+  "bar_seeds": ["chrome veins", "neon rain", "digital ghosts", "corporate rats"],
+  "visual_elements": ["neon signs", "rain-slicked streets", "holograms", "cybernetics"],
+  "mood": "Gritty, cynical, yet vibrant",
+  "associated_eras": ["1980s", "2077", "Near Future"],
+  "color_palette": ["neon pink", "electric blue", "black", "chrome"],
+  "fashion_staples": ["trench coats", "techwear", "leather", "mirrorshades"],
+  "related_ids": ["blade-runner-2049", "the-matrix"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

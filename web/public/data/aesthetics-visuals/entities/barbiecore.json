@@ -1,0 +1,17 @@
+{
+  "id": "barbiecore",
+  "type": "aesthetics-visuals",
+  "name": "Barbiecore",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A vibrant, hyper-feminine aesthetic inspired by the Barbie doll, characterized by an explosion of pink.",
+  "tags": ["vibrant", "maximalist", "contemporary", "pop"],
+  "angles": ["pink", "plastic", "exuberance"],
+  "bar_seeds": ["hot pink life", "dreamhouse living", "everything is plastic"],
+  "related_ids": [],
+  "visual_elements": ["Hot pink", "Glitter", "Convertibles", "Heels"],
+  "mood": "Fun, energetic, confident",
+  "associated_eras": ["2000s", "2020s"],
+  "color_palette": ["Fuchsia", "Magenta", "Baby Pink", "Electric Blue"],
+  "fashion_staples": ["Pink mini dresses", "Platform heels", "Small handbags", "Blinged accessories"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dior",
+  "type": "brand",
+  "name": "Dior",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A French luxury fashion house that revolutionized women's fashion with the 'New Look'.",
+  "tags": ["luxury", "classic", "elegant", "mainstream"],
+  "angles": ["elegance", "romance", "paris"],
+  "bar_seeds": ["christian dior dior", "saddle bag", "sauvage"],
+  "related_ids": ["louis-vuitton"],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["Saddle Bag", "Book Tote", "Dior Jordan 1s", "Sauvage"],
+  "status_signals": ["Dior oblique pattern", "The 'CD' logo"],
+  "bar_angles": ["Parisian chic", "Pop smoke dior", "High fashion streets"]
+}

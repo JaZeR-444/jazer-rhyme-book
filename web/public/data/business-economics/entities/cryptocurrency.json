@@ -1,0 +1,20 @@
+{
+  "id": "cryptocurrency",
+  "type": "business-economics",
+  "name": "Cryptocurrency",
+  "aliases": ["Crypto", "Digital Gold"],
+  "era": "2009-Present",
+  "tags": ["finance", "tech", "decentralization", "investment"],
+  "one_liner": "A digital or virtual currency that is secured by cryptography, making it nearly impossible to counterfeit.",
+  "angles": ["decentralized power", "the future of money", "digital gold rush"],
+  "bar_seeds": ["bitcoin mining", "hodl", "decentralized finance", "blockchain ledger"],
+  "industry": "FinTech",
+  "core_principle": "Decentralized trust and cryptographic security.",
+  "jargon": ["Blockchain", "Wallet", "Gas fees", "Smart contract", "Altcoin"],
+  "key_metrics": ["Market cap", "Hash rate", "Total value locked (TVL)"],
+  "archetypes": ["Crypto whale", "Miner", "Defi enthusiast"],
+  "related_ids": ["blockchain", "tech"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

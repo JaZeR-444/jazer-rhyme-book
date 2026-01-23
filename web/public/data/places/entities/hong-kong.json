@@ -1,0 +1,17 @@
+{
+  "id": "hong-kong",
+  "type": "places",
+  "name": "Hong Kong",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dense, vertical jungle of neon and steel, where East meets West in a constant blur of motion.",
+  "tags": ["cyberpunk", "urban", "asian", "technical"],
+  "angles": ["vertical density", "harbor mist", "neon noir"],
+  "bar_seeds": ["kowloon shadows", "victoria peak", "neon reflections"],
+  "related_ids": ["cyberpunk", "skyscraper"],
+  "place_type": "city",
+  "vibe": "Cinematic, cramped, and hyper-kinetic.",
+  "sensory_cues": ["Neon glare", "Harbor wind", "Crowded streets", "Wok sizzle"],
+  "cultural_refs": ["Ghost in the Shell", "Wong Kar-wai", "John Wick"],
+  "bar_angles": ["Life in the shadows", "Neon soul", "Vertical hustle"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bentley-continental-gt",
+  "type": "vehicles",
+  "name": "Bentley Continental GT",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The definitive grand tourer, blending massive power with gentlemanly luxury.",
+  "tags": ["luxury", "speed", "classic", "status"],
+  "angles": ["comfort", "weight", "touring"],
+  "bar_seeds": ["flying B", "diamond stitching", "W12 engine"],
+  "related_ids": ["rolls-royce-phantom"],
+  "vehicle_type": "Grand Tourer",
+  "engine_type": "W12 / V8",
+  "top_speed": "208 mph",
+  "cultural_status": "A staple of high-net-worth garages and rap lyrics.",
+  "design_features": ["Matrix grille", "Quilted leather", "Muscular haunches"]
+}

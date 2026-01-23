@@ -1,0 +1,17 @@
+{
+  "id": "transhumanism",
+  "type": "philosophy-ideas",
+  "name": "Transhumanism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophical and social movement that advocates for the enhancement of the human condition through advanced technologies.",
+  "tags": ["futuristic", "technical", "innovative", "science-future"],
+  "angles": ["evolution", "immortality", "augmentation"],
+  "bar_seeds": ["beyond the flesh", "neural link", "upgrading the soul"],
+  "related_ids": ["cyberpunk"],
+  "school_of_thought": "Futurism",
+  "core_question": "Should we use technology to transcend our biological limits?",
+  "key_philosophers": ["Nick Bostrom", "Max More"],
+  "paradoxes": ["The Ship of Theseus (Applied to humans)"],
+  "modern_application": "Biohacking, AI integration, life extension research."
+}

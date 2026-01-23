@@ -1,0 +1,17 @@
+{
+  "id": "snub-nose-revolver",
+  "type": "weapons-objects",
+  "name": "Snub-Nose Revolver",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A short-barreled revolver optimized for concealment and close-quarters reliability.",
+  "tags": ["grit", "noir", "vintage", "classic"],
+  "angles": ["concealment", "kickback", "six-shooter"],
+  "bar_seeds": ["snubby in the pocket", "no shells left behind", "detective special"],
+  "related_ids": [],
+  "weapon_type": "Handgun",
+  "range": "Close-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Secrecy, last-ditch defense, and hard-boiled noir aesthetics.",
+  "famous_users": ["Old school mobsters", "Undercover cops"]
+}

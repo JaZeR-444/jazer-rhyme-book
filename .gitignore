@@ -31,10 +31,11 @@ exports/
 .google_cache/
 .mw_cache/
 
-# Web build artifacts (generated during build)
-web/public/data/
-web/public/dictionary/
-web/public/*-manifest.json
+# Web build artifacts (now tracked for GitHub Pages deployment)
+# NOTE: These files must be in git for GitHub Pages to work correctly
+# web/public/data/
+# web/public/dictionary/
+# web/public/*-manifest.json
 
 # Validation outputs
 validation_output*.txt

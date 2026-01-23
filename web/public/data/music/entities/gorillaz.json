@@ -1,0 +1,18 @@
+{
+  "id": "gorillaz",
+  "type": "music",
+  "name": "Gorillaz",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A virtual band created by Damon Albarn and Jamie Hewlett that explores genre-bending collaborations.",
+  "tags": ["innovative", "alternative", "digital", "eclectic"],
+  "angles": ["virtual", "collaboration", "dystopia"],
+  "bar_seeds": ["feel good inc", "clint eastwood", "plastic beach"],
+  "related_ids": [],
+  "genre": ["Alternative", "Hip Hop", "Electronic", "Dub"],
+  "era_detail": "2000s - Present",
+  "signature_songs": ["Feel Good Inc.", "Clint Eastwood", "On Melancholy Hill"],
+  "sonic_descriptors": ["Dub basslines", "Lo-fi vocals", "Diverse features"],
+  "influence_tree": ["The Clash", "De La Soul", "Blur"],
+  "aesthetic": "Post-Apocalyptic Cartoon"
+}

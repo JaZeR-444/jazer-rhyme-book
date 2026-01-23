@@ -1,0 +1,49 @@
+{
+  "id": "european-union-expansion-2004",
+  "type": "history",
+  "name": "European Union Expansion",
+  "aliases": [
+    "EU enlargement 2004"
+  ],
+  "era": "2004",
+  "tags": [
+    "political",
+    "peace",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "A major EU enlargement that added ten countries after the Cold War era.",
+  "angles": [
+    "union grows",
+    "post-Cold War integration",
+    "new member states"
+  ],
+  "bar_seeds": [
+    "borders open",
+    "flags in the union",
+    "continent reshaped"
+  ],
+  "key_dates": [
+    "2004-05-01 (accession)"
+  ],
+  "location": "Europe",
+  "impact": "Expanded EU influence and reshaped trade and migration dynamics.",
+  "major_figures": [
+    "Romano Prodi"
+  ],
+  "cultural_shift": "Integration accelerated across former Eastern Bloc states.",
+  "related_ids": [
+    "cold-war",
+    "brexit-2016-2020"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

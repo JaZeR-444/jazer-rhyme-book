@@ -1,0 +1,18 @@
+{
+  "id": "pushin-p",
+  "type": "lingo",
+  "name": "Pushin P",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Keeping it real, staying positive, or acting like a player.",
+  "tags": ["slang", "hustle", "cool", "lifestyle"],
+  "angles": ["authenticity", "success", "composure"],
+  "bar_seeds": ["pushin p", "keeping it playa", "blue P emoji"],
+  "related_ids": ["motion"],
+  "meaning": "P stands for Player/Paper/Positive. It's a lifestyle of success and coolness.",
+  "usage": "To confirm something is good or someone is acting right.",
+  "origin": "Gunna / Atlanta",
+  "region": "Global",
+  "example_lines": ["We pushin P over here", "That wasn't P of you"],
+  "do_not_use_if": ["You don't listen to Gunna", "It's 2030 (might be dated)"]
+}

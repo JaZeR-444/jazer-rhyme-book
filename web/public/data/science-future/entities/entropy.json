@@ -1,0 +1,20 @@
+{
+  "id": "entropy",
+  "type": "science-future",
+  "name": "Entropy",
+  "aliases": ["The Second Law", "Disorder"],
+  "era": "Universal",
+  "tags": ["physics", "philosophy", "decay", "time"],
+  "one_liner": "A thermodynamic property that is a measure of the system's thermal energy per unit temperature that is unavailable for doing useful work.",
+  "angles": ["the inevitable decay", "the arrow of time", "order into chaos"],
+  "bar_seeds": ["shattering glass", "cooling suns", "unwinding clock", "unavoidable disorder"],
+  "field": "Thermodynamics / Physics",
+  "hypothesis": "Total entropy of an isolated system can never decrease over time.",
+  "implications": ["Heat death of the universe", "Inevitability of decay", "The direction of time"],
+  "technologies": ["None (Fundamental Law)"],
+  "ethical_concerns": ["Existential nihilism", "Resource exhaustion"],
+  "related_ids": ["time-energy", "nihilism"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

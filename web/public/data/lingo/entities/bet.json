@@ -1,0 +1,21 @@
+{
+  "id": "bet",
+  "type": "lingo",
+  "name": "Bet",
+  "aliases": ["Say less"],
+  "era": "1990s-Present",
+  "tags": ["agreement", "confirmation", "slang"],
+  "one_liner": "An expression used to signal agreement, confirmation, or acceptance of a challenge.",
+  "angles": ["confident agreement", "cool acceptance"],
+  "bar_seeds": ["you say it's on, bet", "bet that"],
+  "meaning": "Yes, I agree, or it's a deal.",
+  "usage": "Casual conversation and lyrics to confirm plans or statements.",
+  "origin": "African American Vernacular English (AAVE)",
+  "region": "Global",
+  "example_lines": ["'You coming to the studio?' 'Bet.'"],
+  "do_not_use_if": ["Referring to a literal gambling wager (context dependent)"],
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

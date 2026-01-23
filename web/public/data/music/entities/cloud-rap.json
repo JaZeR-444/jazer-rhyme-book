@@ -1,0 +1,18 @@
+{
+  "id": "cloud-rap",
+  "type": "music",
+  "name": "Cloud Rap",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of hip-hop characterized by dreamlike, atmospheric production and ethereal, often unintelligible vocals.",
+  "tags": ["cloud-rap", "mellow", "atmospheric", "surreal"],
+  "angles": ["dream-flow", "digital-haze", "internet-sadness"],
+  "bar_seeds": ["floating on a cloud", "reverb drenched", "based freestyle"],
+  "related_ids": ["cloud-rap-aesthetic", "vaporwave"],
+  "genre": ["Hip Hop", "Ambient"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["Weight", "Diamonds", "Kyoto"],
+  "sonic_descriptors": ["Reverb", "Echo", "Ethereal samples", "Laid back delivery"],
+  "influence_tree": ["Ambient", "Clams Casino", "Lil B"],
+  "aesthetic": "Digital Dream"
+}

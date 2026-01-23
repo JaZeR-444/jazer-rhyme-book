@@ -1,0 +1,17 @@
+{
+  "id": "cogito-ergo-sum",
+  "type": "philosophy-ideas",
+  "name": "Cogito Ergo Sum",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The fundamental philosophical proposition 'I think, therefore I am', establishing the certainty of existence through thought.",
+  "tags": ["logic", "classic", "intellectual", "existence"],
+  "angles": ["first-certainty", "foundational-doubt", "the-observer"],
+  "bar_seeds": ["I think so I am", "the core of the doubt", "mind first"],
+  "related_ids": ["rationalism", "dualism"],
+  "school_of_thought": "Cartesian Rationalism",
+  "core_question": "What is the one thing we can know for certain?",
+  "key_philosophers": ["René Descartes"],
+  "paradoxes": [],
+  "modern_application": "Consciousness studies, AI sentience, epistemological foundations."
+}

@@ -1,0 +1,374 @@
+{
+  "warrior": [
+    "achilles",
+    "thor"
+  ],
+  "tragic": [
+    "achilles",
+    "icarus",
+    "medusa"
+  ],
+  "greek": [
+    "achilles",
+    "hercules",
+    "icarus",
+    "medusa",
+    "midas",
+    "pandora",
+    "zeus"
+  ],
+  "hero": [
+    "achilles",
+    "hercules",
+    "perseus"
+  ],
+  "strength": [
+    "achilles",
+    "hercules"
+  ],
+  "deity": [
+    "anubis",
+    "odin",
+    "thor",
+    "zeus"
+  ],
+  "death": [
+    "anubis"
+  ],
+  "egyptian": [
+    "anubis"
+  ],
+  "mystery": [
+    "anubis",
+    "holy-grail",
+    "medjed",
+    "sphinx-mythology"
+  ],
+  "judge": [
+    "anubis"
+  ],
+  "logic": [
+    "athena"
+  ],
+  "classic": [
+    "athena",
+    "atlas",
+    "baba-yaga",
+    "banshee",
+    "chimera-mythology",
+    "excalibur",
+    "hades",
+    "holy-grail",
+    "hydra-mythology",
+    "king-arthur",
+    "merlin",
+    "mjolnir",
+    "odysseus",
+    "pegasus-mythology",
+    "perseus",
+    "poseidon",
+    "quetzalcoatl",
+    "ra",
+    "robin-hood",
+    "sphinx-mythology",
+    "valkyrie",
+    "vampire-folklore"
+  ],
+  "legacy": [
+    "athena",
+    "atlas",
+    "hades",
+    "king-arthur",
+    "ra",
+    "robin-hood"
+  ],
+  "mythology": [
+    "athena",
+    "atlas",
+    "cerberus",
+    "grim-reaper",
+    "hades",
+    "kali",
+    "kappa",
+    "kitsune",
+    "leviathan",
+    "loki",
+    "minotaur",
+    "oni",
+    "perseus",
+    "poseidon",
+    "prometheus",
+    "quetzalcoatl",
+    "ra",
+    "shiva",
+    "sirens",
+    "sisyphus",
+    "sun-wukong",
+    "valkyrie"
+  ],
+  "grit": [
+    "atlas",
+    "prometheus",
+    "robin-hood",
+    "sisyphus"
+  ],
+  "esoteric": [
+    "baba-yaga",
+    "golem-folklore",
+    "kappa",
+    "kitsune",
+    "loki",
+    "medjed",
+    "merlin"
+  ],
+  "dark": [
+    "baba-yaga",
+    "banshee",
+    "cerberus",
+    "chimera-mythology",
+    "grim-reaper",
+    "hades",
+    "hydra-mythology",
+    "kali",
+    "leviathan",
+    "minotaur",
+    "oni",
+    "sisyphus",
+    "vampire-folklore",
+    "werewolf-folklore"
+  ],
+  "female-power": [
+    "baba-yaga",
+    "kali",
+    "valkyrie"
+  ],
+  "omen": [
+    "banshee"
+  ],
+  "fear": [
+    "banshee",
+    "grim-reaper",
+    "leviathan",
+    "minotaur"
+  ],
+  "war": [
+    "cerberus",
+    "kali",
+    "king-arthur",
+    "mjolnir",
+    "odin",
+    "oni",
+    "perseus",
+    "sun-wukong",
+    "valkyrie"
+  ],
+  "security": [
+    "cerberus"
+  ],
+  "monster": [
+    "chimera-mythology",
+    "hydra-mythology",
+    "medusa"
+  ],
+  "hybrid": [
+    "chimera-mythology"
+  ],
+  "creature": [
+    "dragon",
+    "phoenix"
+  ],
+  "power": [
+    "dragon",
+    "excalibur",
+    "mjolnir",
+    "thor",
+    "zeus"
+  ],
+  "greed": [
+    "dragon"
+  ],
+  "wisdom": [
+    "dragon",
+    "odin"
+  ],
+  "elemental": [
+    "dragon"
+  ],
+  "artifact": [
+    "excalibur",
+    "holy-grail",
+    "mjolnir"
+  ],
+  "blade": [
+    "excalibur"
+  ],
+  "technical": [
+    "golem-folklore"
+  ],
+  "protection": [
+    "golem-folklore"
+  ],
+  "clay": [
+    "golem-folklore"
+  ],
+  "universal": [
+    "grim-reaper"
+  ],
+  "labors": [
+    "hercules"
+  ],
+  "legend": [
+    "hercules"
+  ],
+  "spiritual": [
+    "holy-grail",
+    "shiva"
+  ],
+  "regeneration": [
+    "hydra-mythology"
+  ],
+  "ambition": [
+    "icarus"
+  ],
+  "cautionary": [
+    "icarus",
+    "midas",
+    "pandora"
+  ],
+  "nature": [
+    "kappa",
+    "kitsune",
+    "leviathan",
+    "poseidon",
+    "quetzalcoatl",
+    "tanuki",
+    "werewolf-folklore"
+  ],
+  "asian": [
+    "kappa",
+    "tanuki"
+  ],
+  "leadership": [
+    "king-arthur"
+  ],
+  "trickster": [
+    "kitsune",
+    "sun-wukong",
+    "tanuki"
+  ],
+  "innovative": [
+    "loki",
+    "prometheus"
+  ],
+  "rebellion": [
+    "loki",
+    "prometheus",
+    "robin-hood"
+  ],
+  "internet-culture": [
+    "medjed"
+  ],
+  "ancient": [
+    "medjed",
+    "quetzalcoatl",
+    "sphinx-mythology"
+  ],
+  "cursed": [
+    "medusa"
+  ],
+  "femme-fatale": [
+    "medusa"
+  ],
+  "magic": [
+    "merlin"
+  ],
+  "intellectual": [
+    "merlin",
+    "odysseus",
+    "sphinx-mythology"
+  ],
+  "gold": [
+    "midas"
+  ],
+  "wealth": [
+    "midas"
+  ],
+  "architecture-spaces": [
+    "minotaur"
+  ],
+  "norse": [
+    "odin",
+    "thor"
+  ],
+  "ruler": [
+    "odin",
+    "zeus"
+  ],
+  "journey": [
+    "odysseus"
+  ],
+  "resilience": [
+    "odysseus"
+  ],
+  "aesthetic": [
+    "oni"
+  ],
+  "curiosity": [
+    "pandora"
+  ],
+  "humanity": [
+    "pandora"
+  ],
+  "vibrant": [
+    "pegasus-mythology",
+    "poseidon",
+    "ra",
+    "shiva",
+    "sun-wukong",
+    "tanuki"
+  ],
+  "sky": [
+    "pegasus-mythology"
+  ],
+  "purity": [
+    "pegasus-mythology"
+  ],
+  "fire": [
+    "phoenix"
+  ],
+  "rebirth": [
+    "phoenix"
+  ],
+  "immortality": [
+    "phoenix"
+  ],
+  "cycle": [
+    "shiva"
+  ],
+  "music": [
+    "sirens"
+  ],
+  "noir": [
+    "sirens",
+    "vampire-folklore"
+  ],
+  "temptation": [
+    "sirens"
+  ],
+  "philosophical-ideas": [
+    "sisyphus"
+  ],
+  "lightning": [
+    "thor",
+    "zeus"
+  ],
+  "luxury": [
+    "vampire-folklore"
+  ],
+  "raw": [
+    "werewolf-folklore"
+  ],
+  "transformation": [
+    "werewolf-folklore"
+  ]
+}

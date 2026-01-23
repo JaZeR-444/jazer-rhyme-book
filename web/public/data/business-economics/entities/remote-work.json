@@ -1,0 +1,56 @@
+{
+  "id": "remote-work",
+  "type": "business-economics",
+  "name": "Remote Work",
+  "aliases": [
+    "Distributed work"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "broadcast"
+  ],
+  "one_liner": "Work performed outside a central office using digital collaboration tools.",
+  "angles": [
+    "work from anywhere",
+    "async culture",
+    "distributed teams"
+  ],
+  "bar_seeds": [
+    "office in the cloud",
+    "mute then talk",
+    "work from anywhere"
+  ],
+  "industry": "Work/Technology",
+  "core_principle": "Digital tools decouple work from a physical location.",
+  "jargon": [
+    "async",
+    "hybrid",
+    "timezone"
+  ],
+  "key_metrics": [
+    "productivity",
+    "retention",
+    "meeting load"
+  ],
+  "archetypes": [
+    "remote worker",
+    "team lead",
+    "ops"
+  ],
+  "related_ids": [
+    "zoom",
+    "slack"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Remote_work",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

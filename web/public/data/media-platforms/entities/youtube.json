@@ -1,0 +1,20 @@
+{
+  "id": "youtube",
+  "type": "media-platforms",
+  "name": "YouTube",
+  "aliases": ["YT"],
+  "era": "2000s-Present",
+  "tags": ["video", "education", "entertainment", "google"],
+  "one_liner": "The world's largest video sharing platform and the second largest search engine.",
+  "angles": ["the global library of video", "democratization of content", "the new television"],
+  "bar_seeds": ["youtube university", "subscriber count", "smash that like button", "monetization"],
+  "platform_type": "Video Sharing / Search",
+  "user_demographic": "Universal",
+  "content_format": ["Long-form video", "Shorts", "Live streams"],
+  "algorithm_bias": "Watch time, click-through rate, and search relevance",
+  "slang": ["YouTuber", "Vlog", "Clickbait", "Subscriber"],
+  "related_ids": ["google-docs", "gemini"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

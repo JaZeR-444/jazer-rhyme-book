@@ -1,0 +1,47 @@
+{
+  "id": "bosnian-war-1992-1995",
+  "type": "history",
+  "name": "Bosnian War",
+  "aliases": [],
+  "era": "1992-1995",
+  "tags": [
+    "war",
+    "legacy",
+    "mainstream",
+    "political"
+  ],
+  "one_liner": "A conflict following the breakup of Yugoslavia that led to major humanitarian crises.",
+  "angles": [
+    "ethnic conflict",
+    "siege and survival",
+    "post-Cold War war"
+  ],
+  "bar_seeds": [
+    "city under siege",
+    "borders redrawn",
+    "peace after the storm"
+  ],
+  "key_dates": [
+    "1992 (war begins)",
+    "1995 (Dayton Agreement)"
+  ],
+  "location": "Bosnia and Herzegovina",
+  "impact": "Resulted in large-scale displacement and reshaped Balkan politics.",
+  "major_figures": [
+    "Slobodan Milosevic"
+  ],
+  "cultural_shift": "Highlighted post-Cold War ethnic conflicts in Europe.",
+  "related_ids": [
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bosnian_War",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

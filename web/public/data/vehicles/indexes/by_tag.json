@@ -1,0 +1,210 @@
+{
+  "classic": [
+    "aston-martin-db5",
+    "bentley-continental-gt",
+    "cadillac-fleetwood",
+    "checker-taxi",
+    "chevrolet-impala-64",
+    "ferrari-f40",
+    "ford-bronco-gen1",
+    "ford-mustang-gt",
+    "harley-davidson-fat-boy",
+    "learjet-23",
+    "porsche-911",
+    "vespa"
+  ],
+  "luxury": [
+    "aston-martin-db5",
+    "bentley-continental-gt",
+    "cadillac-escalade",
+    "ducati-panigale-v4",
+    "gulfstream-g650",
+    "learjet-23",
+    "maybach-62",
+    "mclaren-f1",
+    "tesla-model-s"
+  ],
+  "vintage": [
+    "aston-martin-db5",
+    "checker-taxi",
+    "chevrolet-impala-64",
+    "delorean-dmc-12",
+    "ford-bronco-gen1",
+    "harley-davidson-fat-boy",
+    "lamborghini-countach",
+    "learjet-23",
+    "vespa"
+  ],
+  "iconic": [
+    "aston-martin-db5",
+    "chevrolet-impala-64",
+    "delorean-dmc-12",
+    "ford-mustang-gt",
+    "harley-davidson-fat-boy",
+    "lamborghini-countach"
+  ],
+  "speed": [
+    "bentley-continental-gt",
+    "bugatti-veyron",
+    "dodge-challenger-hellcat",
+    "ducati-panigale-v4",
+    "ferrari-f40",
+    "ford-mustang-gt",
+    "gulfstream-g650",
+    "lamborghini-aventador",
+    "lamborghini-countach",
+    "learjet-23",
+    "mclaren-f1",
+    "nissan-skyline-gtr-r34",
+    "toyota-supra-mk4"
+  ],
+  "status": [
+    "bentley-continental-gt",
+    "bugatti-veyron",
+    "cadillac-escalade",
+    "cadillac-fleetwood",
+    "gulfstream-g650",
+    "lamborghini-aventador",
+    "maybach-62",
+    "mercedes-benz-g-wagon",
+    "range-rover",
+    "rolls-royce-phantom"
+  ],
+  "luxury-car": [
+    "bugatti-veyron",
+    "cadillac-fleetwood",
+    "ferrari-f40",
+    "lamborghini-aventador",
+    "mercedes-benz-g-wagon",
+    "porsche-911",
+    "range-rover",
+    "rolls-royce-phantom"
+  ],
+  "engineering": [
+    "bugatti-veyron"
+  ],
+  "streetwear": [
+    "cadillac-escalade",
+    "chevrolet-impala-64"
+  ],
+  "00s": [
+    "cadillac-escalade",
+    "maybach-62"
+  ],
+  "american": [
+    "cadillac-fleetwood"
+  ],
+  "urban": [
+    "checker-taxi"
+  ],
+  "utility": [
+    "checker-taxi"
+  ],
+  "sci-fi": [
+    "delorean-dmc-12"
+  ],
+  "80s": [
+    "delorean-dmc-12",
+    "lamborghini-countach"
+  ],
+  "aggressive": [
+    "dodge-challenger-hellcat"
+  ],
+  "contemporary": [
+    "dodge-challenger-hellcat"
+  ],
+  "raw": [
+    "dodge-challenger-hellcat"
+  ],
+  "technical": [
+    "ducati-panigale-v4",
+    "mclaren-f1",
+    "nissan-skyline-gtr-r34",
+    "tesla-cybertruck",
+    "toyota-supra-mk4"
+  ],
+  "sport": [
+    "ducati-panigale-v4"
+  ],
+  "italian": [
+    "ferrari-f40",
+    "lamborghini-aventador"
+  ],
+  "grit": [
+    "ford-bronco-gen1",
+    "harley-davidson-fat-boy"
+  ],
+  "utilitarian": [
+    "ford-bronco-gen1"
+  ],
+  "legacy": [
+    "ford-mustang-gt"
+  ],
+  "global": [
+    "gulfstream-g650"
+  ],
+  "culture": [
+    "lowrider",
+    "vespa"
+  ],
+  "west-coast": [
+    "lowrider"
+  ],
+  "chicano": [
+    "lowrider"
+  ],
+  "custom": [
+    "lowrider"
+  ],
+  "exclusive": [
+    "maybach-62"
+  ],
+  "90s": [
+    "mclaren-f1",
+    "nissan-skyline-gtr-r34",
+    "toyota-supra-mk4"
+  ],
+  "off-road": [
+    "mercedes-benz-g-wagon",
+    "range-rover"
+  ],
+  "german": [
+    "mercedes-benz-g-wagon",
+    "porsche-911"
+  ],
+  "futuristic": [
+    "nissan-skyline-gtr-r34",
+    "tesla-cybertruck"
+  ],
+  "performance": [
+    "porsche-911"
+  ],
+  "british": [
+    "range-rover",
+    "rolls-royce-phantom"
+  ],
+  "comfort": [
+    "rolls-royce-phantom"
+  ],
+  "industrial": [
+    "tesla-cybertruck"
+  ],
+  "controversial": [
+    "tesla-cybertruck"
+  ],
+  "tech": [
+    "tesla-model-s"
+  ],
+  "electric": [
+    "tesla-model-s"
+  ],
+  "future": [
+    "tesla-model-s"
+  ],
+  "cult-classic": [
+    "toyota-supra-mk4"
+  ],
+  "minimalist": [
+    "vespa"
+  ]
+}

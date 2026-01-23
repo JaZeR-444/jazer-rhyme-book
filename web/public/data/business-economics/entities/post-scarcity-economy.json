@@ -1,0 +1,17 @@
+{
+  "id": "post-scarcity-economy",
+  "type": "science-future",
+  "name": "Post-Scarcity Economy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A theoretical economy in which most goods can be produced in great abundance with minimal human labor, so that they become extremely cheap or even free.",
+  "tags": ["futuristic", "business-economics", "social", "innovative"],
+  "angles": ["end of work", "universal abundance", "meaning beyond money"],
+  "bar_seeds": ["no price tags", "machines do the rest", "abundance for all"],
+  "related_ids": ["artificial-general-intelligence", "nanotechnology"],
+  "field": "Sociology / Economics",
+  "hypothesis": "Advanced automation and nanotech will eliminate the basic struggle for resources.",
+  "implications": ["End of capitalism", "Focus on creative and social pursuits", "Massive societal shift"],
+  "technologies": ["AI", "Nanofactories", "Clean Energy"],
+  "ethical_concerns": ["Loss of purpose", "Resource distribution during transition", "Technological elitism"]
+}

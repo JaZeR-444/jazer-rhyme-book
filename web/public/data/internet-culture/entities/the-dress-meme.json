@@ -1,0 +1,18 @@
+{
+  "id": "the-dress-meme",
+  "type": "internet-culture",
+  "name": "The Dress",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A viral photograph of a dress that sparked a global debate over whether it was blue and black or white and gold.",
+  "tags": ["viral", "subjective", "perception", "classic"],
+  "angles": ["subjectivity", "illusion", "internet-war"],
+  "bar_seeds": ["white and gold to me", "blue and black reality", "eye of the beholder"],
+  "related_ids": ["laurel-or-yanny"],
+  "format": "Viral Image",
+  "origin_platform": "Tumblr / BuzzFeed",
+  "meaning": "The realization that two people can look at the same thing and see completely different realities.",
+  "remix_rules": ["Comparison of colors", "Scientific explanation of lighting", "Used for relationship 'dealbreakers'"],
+  "lifespan_risk": "Legendary (Viral peak)",
+  "example_lines": ["Arguments getting heated like the color of the dress", "You seeing gold, I'm seeing shadows and blue"]
+}

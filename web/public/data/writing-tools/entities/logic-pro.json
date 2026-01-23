@@ -1,0 +1,18 @@
+{
+  "id": "logic-pro",
+  "type": "writing-tool",
+  "name": "Logic Pro",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Apple's flagship DAW, offering a comprehensive suite of creative tools for professional songwriting.",
+  "tags": ["tool", "technical", "music", "professional"],
+  "angles": ["creativity", "apple-ecosystem", "composition"],
+  "bar_seeds": ["logic session", "alchemy synth", "drummer track"],
+  "related_ids": ["garageband"],
+  "category": "Software / DAW",
+  "what_it_does": "Provides a massive library of sounds and sophisticated editing tools.",
+  "best_for": ["songwriting", "film scoring", "producing"],
+  "workflow_hooks": ["Use Drummer for quick beats", "Live Loops for ideas"],
+  "pitfalls": ["Mac only", "Can be complex for beginners"],
+  "bar_angles": ["Logical flow", "Apple core", "Creative suite"]
+}

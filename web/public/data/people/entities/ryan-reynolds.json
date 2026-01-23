@@ -1,0 +1,20 @@
+{
+  "id": "ryan-reynolds",
+  "type": "people",
+  "name": "Ryan Reynolds",
+  "aliases": ["Deadpool", "Ryan"],
+  "era": "1990s-Present",
+  "tags": ["actor", "comedian", "sarky", "entrepreneur", "witty"],
+  "one_liner": "A Canadian actor known for sarky humor and entrepreneurial ventures.",
+  "angles": ["sarky humor", "entrepreneurial", "witty actor"],
+  "bar_seeds": ["deadpool", "green lantern", "blind", "aviation gin"],
+  "known_for": ["Deadpool", "Wade Wilson", "Aviation Gin", "Mint Mobile"],
+  "vibe": "Witty, entrepreneurial, and self-deprecating",
+  "signature_items": ["Sarky tweets", "Deadpool", "Aviation Gin", "Self-deprecating humor"],
+  "quotables_short": ["I want to be the one that gets away", "The only thing worse than being talked about is being talked about inaccurately"],
+  "controversy_flags": ["Sarky humor", "Self-deprecating"],
+  "related_ids": ["blake-lively"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

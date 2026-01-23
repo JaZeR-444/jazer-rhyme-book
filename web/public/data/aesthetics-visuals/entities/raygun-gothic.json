@@ -1,0 +1,17 @@
+{
+  "id": "raygun-gothic",
+  "type": "aesthetics-visuals",
+  "name": "Raygun Gothic",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A catch-all term for a visual style that incorporates various aspects of stream-line moderne, art deco, and futuristic architecture.",
+  "tags": ["sci-fi", "classic", "retro", "art-deco"],
+  "angles": ["pulp-future", "rocket-ships", "stylized-war"],
+  "bar_seeds": ["flash gordon", "silver fins", "pointing to the stars"],
+  "related_ids": ["art-deco"],
+  "visual_elements": ["Conical shapes", "Curved metal", "Exaggerated perspective", "Rockets"],
+  "mood": "Heroic, adventurous, dramatic",
+  "associated_eras": ["1930s", "1950s"],
+  "color_palette": ["Gold", "Silver", "Primary Blue", "Deep Red"],
+  "fashion_staples": ["Aviator caps", "Capes", "Metallic boots"]
+}

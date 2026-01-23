@@ -1,0 +1,17 @@
+{
+  "id": "wind-energy",
+  "type": "time-energy",
+  "name": "Wind Energy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The use of wind to provide mechanical power through wind turbines to turn electric generators.",
+  "tags": ["nature", "renewable", "momentum", "energy"],
+  "angles": ["invisible power", "rotation", "the breath of the world"],
+  "bar_seeds": ["windmills turning", "catching the breeze", "unseen force"],
+  "related_ids": ["momentum", "kinetic-energy"],
+  "concept_type": "Energy / Natural",
+  "perception": "Whirring, graceful, and natural.",
+  "physics_basis": "Conversion of wind's kinetic energy to mechanical power.",
+  "cultural_view": "Symbol of man working with nature's forces.",
+  "idioms": ["Winds of change", "Chasing windmills", "Going with the flow"]
+}

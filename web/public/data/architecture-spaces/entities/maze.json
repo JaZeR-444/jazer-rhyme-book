@@ -1,0 +1,20 @@
+{
+  "id": "maze",
+  "type": "architecture-spaces",
+  "name": "Maze",
+  "aliases": ["Labyrinth", "The Twist"],
+  "era": "Ancient-Present",
+  "tags": ["complex", "mystery", "mental", "trap"],
+  "one_liner": "A complex network of paths or passages in which it is difficult to find one's way.",
+  "angles": ["lost in the architecture", "the mental puzzle", "the path with no end"],
+  "bar_seeds": ["blind corners", "dead ends", "labyrinth walls", "searching for the center"],
+  "style": "Classical / Modern / Botanical",
+  "materials": ["Hedges", "Stone", "Concrete", "Mirror"],
+  "spatial_qualities": ["Disorienting", "Complex", "Constrained"],
+  "function": "Puzzle / Ritual / Entertainment",
+  "famous_examples": ["Labyrinth of Crete", "Hampton Court Maze"],
+  "related_ids": ["mythology-legend"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

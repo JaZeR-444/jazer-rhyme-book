@@ -1,0 +1,17 @@
+{
+  "id": "hourglass",
+  "type": "weapons-objects",
+  "name": "Hourglass",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ancient device measuring the relentless passage of time through falling sand.",
+  "tags": ["time-energy", "philosophical-ideas", "symbolic-object", "classic"],
+  "angles": ["inevitability", "finiteness", "gravity"],
+  "bar_seeds": ["sand slipping through", "turn the glass", "counting every grain"],
+  "related_ids": ["analog-clock"],
+  "weapon_type": "Measurement",
+  "range": "N/A",
+  "damage_type": "Temporal",
+  "symbolism": "Mortality, the urgency of the moment, and the cyclical nature of life.",
+  "famous_users": ["Father Time", "Philosophers"]
+}

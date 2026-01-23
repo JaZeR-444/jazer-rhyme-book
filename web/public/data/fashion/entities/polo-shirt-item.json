@@ -1,0 +1,19 @@
+{
+  "id": "polo-shirt-item",
+  "type": "fashion",
+  "name": "Polo Shirt",
+  "aliases": ["Tennis Shirt", "Golf Shirt"],
+  "era": "1920s-Present",
+  "tags": ["classic", "preppy", "sportswear", "luxury"],
+  "one_liner": "A form of shirt with a collar, a placket neckline with typically two or three buttons, and an optional pocket.",
+  "angles": ["tennis-court-to-street", "popped-collars", "status-sportswear"],
+  "bar_seeds": ["piqué cotton", "popped collar flex", "country club uniform"],
+  "related_ids": ["ralph-lauren", "lacoste"],
+  "item_type": "Tops",
+  "material": ["Piqué Cotton", "Synthetic Blends"],
+  "cultural_significance": "Revolutionized sportswear via René Lacoste; later defined the 80s/90s preppy look.",
+  "fit": ["Slim", "Standard"],
+  "associated_brands": ["Lacoste", "Ralph Lauren", "Fred Perry"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

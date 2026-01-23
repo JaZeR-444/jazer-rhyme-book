@@ -1,0 +1,21 @@
+{
+  "id": "internet-of-things",
+  "type": "tech",
+  "name": "Internet of Things",
+  "aliases": ["IoT", "Smart devices"],
+  "era": "2010s-Present",
+  "tags": ["connectivity", "automation", "smart-home", "sensors"],
+  "one_liner": "The network of physical objects embedded with sensors and software for the purpose of connecting and exchanging data.",
+  "angles": ["the sentient environment", "everything is connected", "the death of privacy"],
+  "bar_seeds": ["smart fridge calling", "connected cities", "sensor arrays"],
+  "category": "Networking / Hardware",
+  "what_it_is": "A system of interrelated computing devices, mechanical and digital machines provided with unique identifiers.",
+  "why_it_matters": "Increases efficiency and creates 'smart' environments.",
+  "risks": ["Botnets", "Security vulnerabilities", "Data tracking"],
+  "metaphors": ["The central nervous system of the world", "Everything has a pulse"],
+  "keywords": ["Sensor", "Connectivity", "Smart Home", "Edge Computing"],
+  "related_ids": ["cybersecurity"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

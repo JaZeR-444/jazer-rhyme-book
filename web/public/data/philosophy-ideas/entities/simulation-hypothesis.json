@@ -1,0 +1,20 @@
+{
+  "id": "simulation-hypothesis",
+  "type": "philosophy-ideas",
+  "name": "Simulation Hypothesis",
+  "aliases": ["Simulation Theory", "The Matrix Idea"],
+  "era": "21st Century",
+  "tags": ["metaphysics", "tech", "existence", "physics"],
+  "one_liner": "A proposal that all of existence could be a simulated reality, such as a computer simulation.",
+  "angles": ["glitches in the matrix", "the ultimate code", "mathematical reality"],
+  "bar_seeds": ["digital creator", "base reality", "glitch in the system", "programmed world"],
+  "school_of_thought": "Metaphysical Hypothesis",
+  "core_question": "Are we living in a computer simulation?",
+  "key_philosophers": ["Nick Bostrom"],
+  "paradoxes": ["The Nested Simulation (if we can build a simulation, we are almost certainly in one)"],
+  "modern_application": "Heavily discussed in tech circles (Elon Musk), physics, and popular culture.",
+  "related_ids": ["tech", "the-matrix-1999"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

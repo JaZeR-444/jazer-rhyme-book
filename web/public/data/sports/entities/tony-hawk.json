@@ -1,0 +1,19 @@
+{
+  "id": "tony-hawk",
+  "type": "sports",
+  "name": "Tony Hawk",
+  "aliases": ["The Birdman"],
+  "era": "1980s-Present",
+  "tags": ["skateboarding", "legacy", "vibrant", "youth"],
+  "one_liner": "The man who brought skateboarding into the mainstream, famously landing the first documented 900.",
+  "angles": ["the-900", "vertical-skating", "birdman-soaring"],
+  "bar_seeds": ["birdman", "halfpipe flight", "skate and destroy"],
+  "related_ids": ["skateboarding"],
+  "team_size": "1 (Skateboarding)",
+  "key_skills": ["Vert skating", "Innovation", "Longevity"],
+  "equipment": ["Skateboard", "Pads", "Helmet"],
+  "metaphors": ["The Birdman"],
+  "legends": ["First 900", "Prolific video game series", "X-Games pioneer"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

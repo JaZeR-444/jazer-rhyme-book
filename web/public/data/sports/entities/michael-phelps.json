@@ -1,0 +1,19 @@
+{
+  "id": "michael-phelps",
+  "type": "sports",
+  "name": "Michael Phelps",
+  "aliases": ["The Flying Fish"],
+  "era": "2000s-2010s",
+  "tags": ["swimming", "legacy", "dominance", "technical"],
+  "one_liner": "The most successful and most decorated Olympian of all time, with a total of 28 medals.",
+  "angles": ["human-torpedo", "gold-standard", "biological-advantage"],
+  "bar_seeds": ["wingspan wide", "gold on the neck", "swimming in gold"],
+  "related_ids": ["usain-bolt"],
+  "team_size": "1 (Relay within 4)",
+  "key_skills": ["Endurance", "Technique", "Mental focus"],
+  "equipment": ["Swim cap", "Goggles", "LZR suit"],
+  "metaphors": ["The Shark"],
+  "legends": ["23 Olympic Gold Medals", "Most decorated Olympian"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

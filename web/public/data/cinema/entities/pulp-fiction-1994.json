@@ -1,0 +1,20 @@
+{
+  "id": "pulp-fiction-1994",
+  "type": "cinema",
+  "name": "Pulp Fiction",
+  "aliases": ["Quentin Tarantino"],
+  "era": "1994",
+  "tags": ["crime", "non-linear", "cult-classic", "dialogue", "los-angeles"],
+  "one_liner": "A stylized, non-linear crime masterpiece featuring intertwining stories of hitmen, boxers, and mobsters.",
+  "angles": ["philosophy in the mundane", "stylized violence", "interconnected fates"],
+  "bar_seeds": ["royale with cheese", "bad motherfucker wallet", "ezekiel 25:17"],
+  "plot_hooks": ["hitmen on a mysterious mission", "a boxer who refuses to dive", "a clean-up job gone wrong"],
+  "iconic_scenes": ["The dance at Jack Rabbit Slim's", "The gold watch monologue", "The diner standoff"],
+  "visual_motifs": ["The glowing briefcase", "Big Kahuna Burger", "Shot of adrenaline"],
+  "themes": ["Chance", "Redemption", "Pop culture"],
+  "quotables_short": ["Check out the big brain on Brett", "That's when you know you've found somebody special"],
+  "related_ids": ["quentin-tarantino"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

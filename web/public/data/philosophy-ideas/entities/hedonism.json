@@ -1,0 +1,20 @@
+{
+  "id": "hedonism",
+  "type": "philosophy-ideas",
+  "name": "Hedonism",
+  "aliases": ["Pleasure Principle"],
+  "era": "Ancient-Present",
+  "tags": ["pleasure", "ethics", "indulgence", "happiness"],
+  "one_liner": "The school of thought that argues that pleasure is the primary or most important intrinsic good.",
+  "angles": ["the pursuit of joy", "eat, drink, and be merry", "minimizing pain"],
+  "bar_seeds": ["pleasure seeker", "hedonic treadmill", "gold and grapes", "living for the now"],
+  "school_of_thought": "Ethical Hedonism",
+  "core_question": "Is pleasure the ultimate goal of life?",
+  "key_philosophers": ["Epicurus (Epicureanism)", "Jeremy Bentham"],
+  "paradoxes": ["The Hedonistic Paradox (the harder we chase pleasure, the more elusive it becomes)"],
+  "modern_application": "Influences consumer culture, modern ethics of happiness, and 'treat yourself' culture.",
+  "related_ids": ["emotions-states"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

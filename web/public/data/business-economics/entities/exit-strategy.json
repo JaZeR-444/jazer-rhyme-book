@@ -1,0 +1,17 @@
+{
+  "id": "exit-strategy",
+  "type": "business-economics",
+  "name": "Exit Strategy",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A contingency plan that is executed by an investor, trader, venture capitalist, or business owner to liquidate a position.",
+  "tags": ["strategy", "wealth", "endgame", "logic"],
+  "angles": ["cashing-out", "freedom", "planning"],
+  "bar_seeds": ["looking for the exit", "selling the company", "IPO dreams"],
+  "related_ids": ["initial-public-offering", "mergers-and-acquisitions"],
+  "industry": "Venture Capital / Investing",
+  "core_principle": "Realizing value.",
+  "jargon": ["Liquidity event", "Acquisition", "Buyout"],
+  "key_metrics": ["Multiple on Invested Capital", "IRR"],
+  "archetypes": ["Serial Entrepreneur", "VC"]
+}

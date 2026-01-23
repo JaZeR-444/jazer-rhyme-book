@@ -1,0 +1,20 @@
+{
+  "id": "large-language-model",
+  "type": "tech",
+  "name": "Large Language Model (LLM)",
+  "aliases": ["LLM", "Generative AI"],
+  "era": "2020s-Present",
+  "tags": ["technical", "ai", "innovative", "software"],
+  "one_liner": "An AI model trained on vast amounts of text data to understand and generate human-like language.",
+  "angles": ["statistical intelligence", "the library speaks", "mimicry vs meaning"],
+  "bar_seeds": ["next token prediction", "hallucinating truth", "infinite ghostwriter"],
+  "related_ids": ["artificial-intelligence", "machine-learning"],
+  "category": "Software / AI",
+  "what_it_is": "A type of AI designed to process and generate natural language based on massive datasets.",
+  "why_it_matters": "Enables conversational AI, automated coding, and content creation at scale.",
+  "risks": ["Hallucinations", "Bias", "Job displacement", "Information pollution"],
+  "metaphors": ["A spicy autocomplete", "The mirror of humanity", "Digital oracle"],
+  "keywords": ["Transformers", "GPT", "Parameters", "Token", "Context Window"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

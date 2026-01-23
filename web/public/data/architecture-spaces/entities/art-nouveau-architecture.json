@@ -1,0 +1,17 @@
+{
+  "id": "art-nouveau-architecture",
+  "type": "architecture-spaces",
+  "name": "Art Nouveau",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An international style characterized by organic, flowing lines and natural forms.",
+  "tags": ["organic", "elegant", "classic", "vibrant"],
+  "angles": ["nature-imitating-art", "whiplash-curves", "decorative-functionalism"],
+  "bar_seeds": ["curved glass", "iron vines", "flowering stone"],
+  "related_ids": ["art-nouveau-revival", "solarpunk"],
+  "style": "Art Nouveau",
+  "materials": ["Wrought Iron", "Glass", "Ceramic", "Stone"],
+  "spatial_qualities": ["Fluid", "Ornate", "Asymmetric"],
+  "function": "Residential / Commercial",
+  "famous_examples": ["Casa Batlló", "Hotel Tassel", "Paris Metro Entrances"]
+}

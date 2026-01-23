@@ -1,0 +1,20 @@
+{
+  "id": "supreme",
+  "type": "brand",
+  "name": "Supreme",
+  "aliases": ["Preme"],
+  "era": "1994-Present",
+  "tags": ["streetwear", "new-york", "skate-culture", "hype"],
+  "one_liner": "The New York skate shop that defined modern streetwear through scarcity and the box logo.",
+  "angles": ["skate shop to global icon", "resale value", "the box logo flex"],
+  "bar_seeds": ["box logo", "the red and white", "hypebeast dreams", "limited drop"],
+  "category": "Streetwear",
+  "price_tier": "Premium / Resale heavy",
+  "signature_products": ["Box Logo Hoodie", "T-shirts", "Collaborations", "Skate decks"],
+  "status_signals": ["Red box logo", "Extreme scarcity"],
+  "bar_angles": ["wearing the box logo", "waiting for the drop"],
+  "related_ids": ["off-white"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

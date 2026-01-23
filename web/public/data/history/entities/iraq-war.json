@@ -1,0 +1,49 @@
+{
+  "id": "iraq-war",
+  "type": "history",
+  "name": "Iraq War",
+  "aliases": [],
+  "era": "2003-2011",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "mainstream"
+  ],
+  "one_liner": "Conflict initiated by a U.S.-led invasion that destabilized Iraq.",
+  "angles": [
+    "invasion and aftermath",
+    "power vacuum",
+    "regional ripple"
+  ],
+  "bar_seeds": [
+    "shock and awe",
+    "desert stormed",
+    "aftermath in the streets"
+  ],
+  "key_dates": [
+    "2003 (invasion)",
+    "2011 (U.S. withdrawal)"
+  ],
+  "location": "Iraq",
+  "impact": "Destabilized the region and reshaped global perceptions of intervention.",
+  "major_figures": [
+    "Saddam Hussein",
+    "George W. Bush"
+  ],
+  "cultural_shift": "Public skepticism toward wars of intervention increased.",
+  "related_ids": [
+    "global-war-on-terror",
+    "september-11-attacks-2001"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iraq_War",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

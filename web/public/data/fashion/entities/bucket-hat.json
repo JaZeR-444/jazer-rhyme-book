@@ -1,0 +1,18 @@
+{
+  "id": "bucket-hat",
+  "type": "fashion",
+  "name": "Bucket Hat",
+  "aliases": ["Session Hat", "Fisherman's Hat"],
+  "era": "1960s-Present",
+  "tags": ["streetwear", "90s", "vibrant", "casual"],
+  "one_liner": "A soft cotton hat with a wide, downward-sloping brim, a staple of 90s hip-hop and rave culture.",
+  "angles": ["streetwear crown", "casual shade", "retro festival"],
+  "bar_seeds": ["low brim", "kangol logo", "festival ready"],
+  "item_type": "Accessories",
+  "material": ["Cotton", "Nylon", "Denim"],
+  "cultural_significance": "Associated with LL Cool J, Britpop, and modern festival aesthetics.",
+  "fit": ["Relaxed"],
+  "associated_brands": ["Kangol", "Stüssy", "Prada"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

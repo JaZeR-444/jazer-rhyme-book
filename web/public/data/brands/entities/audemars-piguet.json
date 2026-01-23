@@ -1,0 +1,17 @@
+{
+  "id": "audemars-piguet",
+  "type": "brand",
+  "name": "Audemars Piguet",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Swiss watchmaker famous for the Royal Oak, the first luxury steel sports watch.",
+  "tags": ["luxury", "classic", "technical", "status"],
+  "angles": ["precision", "steel", "time"],
+  "bar_seeds": ["AP on the wrist", "royal oak", "ticking time bomb"],
+  "related_ids": ["patek-philippe"],
+  "category": "Watches",
+  "price_tier": "Ultra-High",
+  "signature_products": ["Royal Oak", "Royal Oak Offshore"],
+  "status_signals": ["Octagonal bezel", "Tapisserie dial"],
+  "bar_angles": ["Time is money", "Heavy wrist", "Swiss precision"]
+}

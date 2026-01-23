@@ -1,0 +1,17 @@
+{
+  "id": "houston",
+  "type": "places",
+  "name": "Houston",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sprawling Texas metropolis famous for its space center and its massive influence on southern hip-hop.",
+  "tags": ["trap", "hustle", "classic", "southern"],
+  "angles": ["chopped and screwed", "space city", "candy paint culture"],
+  "bar_seeds": ["h-town", "slabs on 84s", "screwed up click"],
+  "related_ids": ["travis-scott", "double-cup"],
+  "place_type": "city",
+  "vibe": "Laid back, humid, and heavy.",
+  "sensory_cues": ["Concrete heat", "Slowed down beats", "Engine roar", "Purple haze"],
+  "cultural_refs": ["DJ Screw", "NASA", "Beyoncé"],
+  "bar_angles": ["Sipping slow", "Turning the slab", "Astro-vision"]
+}

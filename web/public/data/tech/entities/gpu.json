@@ -1,0 +1,20 @@
+{
+  "id": "gpu",
+  "type": "tech",
+  "name": "GPU",
+  "aliases": ["Graphics Card", "Video Card"],
+  "era": "1990s-Present",
+  "tags": ["technical", "gaming", "ai", "hardware"],
+  "one_liner": "A specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images.",
+  "angles": ["parallel processing", "rendering power", "the engine of AI"],
+  "bar_seeds": ["rendering the vision", "cuda cores", "ray tracing light"],
+  "related_ids": ["artificial-intelligence", "machine-learning"],
+  "category": "Hardware",
+  "what_it_is": "Graphics Processing Unit; used for rendering graphics and, increasingly, for AI/machine learning tasks.",
+  "why_it_matters": "Enables high-end gaming, professional video editing, and the current AI revolution.",
+  "risks": ["High power consumption", "Scalper markets", "E-waste"],
+  "metaphors": ["The artist's hand", "The heavy lifter of logic", "Visual heart"],
+  "keywords": ["NVIDIA", "AMD", "VRAM", "CUDA", "Tensor Cores"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

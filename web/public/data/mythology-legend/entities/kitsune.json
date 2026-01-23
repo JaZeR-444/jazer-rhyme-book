@@ -1,0 +1,17 @@
+{
+  "id": "kitsune",
+  "type": "mythology-legend",
+  "name": "Kitsune",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Intelligent foxes in Japanese folklore possessing paranormal abilities and shapeshifting powers.",
+  "tags": ["esoteric", "nature", "mythology", "trickster"],
+  "angles": ["deception", "spirit", "tails"],
+  "bar_seeds": ["nine tails", "fox spirit", "shapeshifter"],
+  "related_ids": [],
+  "origin_culture": "Japanese",
+  "deity_type": "Yokai / Spirit",
+  "powers": ["Shapeshifting", "Illusion", "Possession"],
+  "symbols": ["Fox", "Fox Fire (Kitsune-bi)", "Nine Tails"],
+  "modern_parallels": ["Femme Fatale", "Spies", "Anime Tropes"]
+}

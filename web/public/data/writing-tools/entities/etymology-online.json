@@ -1,0 +1,18 @@
+{
+  "id": "etymology-online",
+  "type": "writing-tool",
+  "name": "Etymology Online",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deep dive into the history and origins of words.",
+  "tags": ["tool", "technical", "history", "academic"],
+  "angles": ["roots", "history", "evolution"],
+  "bar_seeds": ["latin roots", "old english", "language tree"],
+  "related_ids": [],
+  "category": "Reference",
+  "what_it_does": "Traces the development of words from their origins to present day.",
+  "best_for": ["finding deeper meanings", "conceptual links", "nerdy bars"],
+  "workflow_hooks": ["Trace a word back to Sanskrit", "Find cognates"],
+  "pitfalls": ["Rabbit hole risk", "Academic density"],
+  "bar_angles": ["Ancient tongue", "Root of the matter", "Linguistic archeology"]
+}

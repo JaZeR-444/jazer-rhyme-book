@@ -1,0 +1,508 @@
+{
+  "futuristic": [
+    "afrofuturism",
+    "atompunk",
+    "bio-digital",
+    "biopunk",
+    "cyber-y2k",
+    "cyber-zen",
+    "cyberdelia",
+    "cyberpunk",
+    "frutiger-aero",
+    "metabolism-aesthetic",
+    "solarpunk",
+    "steampunk",
+    "synthwave",
+    "y2k"
+  ],
+  "african-culture": [
+    "afrofuturism"
+  ],
+  "innovative": [
+    "afrofuturism",
+    "cubism",
+    "solarpunk"
+  ],
+  "scifi": [
+    "afrofuturism"
+  ],
+  "ornate": [
+    "art-nouveau-revival",
+    "maximalist"
+  ],
+  "flowing": [
+    "art-nouveau-revival"
+  ],
+  "natural": [
+    "art-nouveau-revival"
+  ],
+  "elegant": [
+    "art-nouveau-revival",
+    "renaissance-core"
+  ],
+  "curved": [
+    "art-nouveau-revival"
+  ],
+  "retro": [
+    "atompunk",
+    "cassette-futurism",
+    "dieselpunk",
+    "outrun",
+    "pixel-art",
+    "raygun-gothic"
+  ],
+  "atomic": [
+    "atompunk"
+  ],
+  "vibrant": [
+    "atompunk",
+    "barbiecore",
+    "cyberdelia",
+    "frutiger-aero",
+    "memphis-design",
+    "pop-art",
+    "psychedelia",
+    "seapunk",
+    "solarpunk"
+  ],
+  "maximalist": [
+    "barbiecore",
+    "memphis-design"
+  ],
+  "contemporary": [
+    "barbiecore",
+    "corporate-memphis",
+    "gorpcore",
+    "neo-noir",
+    "quiet-luxury"
+  ],
+  "pop": [
+    "barbiecore",
+    "pop-art"
+  ],
+  "organic": [
+    "bio-digital",
+    "biopunk",
+    "desert-modernism",
+    "impressionism",
+    "metabolism-aesthetic",
+    "psychedelia",
+    "solarpunk"
+  ],
+  "synthetic": [
+    "bio-digital",
+    "glitchcore"
+  ],
+  "quantum": [
+    "bio-digital"
+  ],
+  "sci-fi": [
+    "biopunk",
+    "raygun-gothic"
+  ],
+  "body-horror": [
+    "biopunk"
+  ],
+  "industrial": [
+    "brutalism",
+    "cassette-futurism",
+    "dieselpunk",
+    "industrial-zen",
+    "steampunk"
+  ],
+  "raw": [
+    "brutalism"
+  ],
+  "architecture": [
+    "brutalism"
+  ],
+  "concrete": [
+    "brutalism"
+  ],
+  "technical": [
+    "cassette-futurism",
+    "corporate-memphis",
+    "cyber-y2k",
+    "glitch-art",
+    "glitchcore",
+    "gorpcore",
+    "health-goth"
+  ],
+  "analog": [
+    "cassette-futurism"
+  ],
+  "lo-fi": [
+    "cloud-rap-aesthetic",
+    "hauntology",
+    "indie-sleaze",
+    "pixel-art",
+    "vaporwave",
+    "weirdcore"
+  ],
+  "dream": [
+    "cloud-rap-aesthetic",
+    "surrealism"
+  ],
+  "internet-culture": [
+    "cloud-rap-aesthetic",
+    "dreamcore",
+    "glitchcore",
+    "seapunk",
+    "vaporwave",
+    "weirdcore",
+    "witch-house-aesthetic"
+  ],
+  "mellow": [
+    "cloud-rap-aesthetic",
+    "lo-fi"
+  ],
+  "minimalist": [
+    "corporate-memphis",
+    "de-stijl",
+    "desert-modernism",
+    "health-goth",
+    "old-money",
+    "quiet-luxury"
+  ],
+  "business": [
+    "corporate-memphis"
+  ],
+  "cozy": [
+    "cottagecore-2",
+    "cottagegurli"
+  ],
+  "vintage": [
+    "cottagecore-2",
+    "cottagecore",
+    "dark-academia",
+    "steampunk"
+  ],
+  "domestic": [
+    "cottagecore-2"
+  ],
+  "wholesome": [
+    "cottagecore-2",
+    "cottagecore",
+    "cottagegurli"
+  ],
+  "nostalgic": [
+    "cottagecore-2",
+    "dreamcore",
+    "frutiger-aero",
+    "hauntology",
+    "lo-fi",
+    "synthwave",
+    "vaporwave"
+  ],
+  "nature": [
+    "cottagecore",
+    "impressionism",
+    "ukiyo-e"
+  ],
+  "pastoral": [
+    "cottagecore"
+  ],
+  "cute": [
+    "cottagegurli"
+  ],
+  "feminine": [
+    "cottagegurli"
+  ],
+  "playful": [
+    "cottagegurli"
+  ],
+  "abstract": [
+    "cubism",
+    "de-stijl",
+    "glitch-art",
+    "hauntology",
+    "surrealism",
+    "weirdcore"
+  ],
+  "geometric": [
+    "cubism",
+    "de-stijl",
+    "memphis-design"
+  ],
+  "classic": [
+    "cubism",
+    "dark-academia-refined",
+    "de-stijl",
+    "desert-modernism",
+    "impressionism",
+    "old-money",
+    "raygun-gothic",
+    "surrealism",
+    "ukiyo-e"
+  ],
+  "00s": [
+    "cyber-y2k",
+    "frutiger-aero",
+    "indie-sleaze"
+  ],
+  "streetwear": [
+    "cyber-y2k",
+    "gorpcore"
+  ],
+  "digital": [
+    "cyber-zen",
+    "cyberdelia",
+    "glitch-art",
+    "pixel-art"
+  ],
+  "calming": [
+    "cyber-zen",
+    "industrial-zen"
+  ],
+  "serene": [
+    "cyber-zen"
+  ],
+  "tech": [
+    "cyber-zen",
+    "cyberpunk",
+    "y2k"
+  ],
+  "psychedelic": [
+    "cyberdelia"
+  ],
+  "trippy": [
+    "cyberdelia"
+  ],
+  "dystopian": [
+    "cyberpunk"
+  ],
+  "neon": [
+    "cyberpunk",
+    "outrun",
+    "synthwave"
+  ],
+  "urban": [
+    "cyberpunk",
+    "streetwear"
+  ],
+  "dark": [
+    "dark-academia-refined",
+    "goth",
+    "neo-noir",
+    "witch-house-aesthetic"
+  ],
+  "legacy": [
+    "dark-academia-refined",
+    "old-money"
+  ],
+  "academic": [
+    "dark-academia-refined",
+    "dark-academia"
+  ],
+  "intellectual": [
+    "dark-academia"
+  ],
+  "gothic": [
+    "dark-academia",
+    "health-goth"
+  ],
+  "mystical": [
+    "dark-boho"
+  ],
+  "earthy": [
+    "dark-boho"
+  ],
+  "gypsy": [
+    "dark-boho"
+  ],
+  "spiritual": [
+    "dark-boho"
+  ],
+  "alternative": [
+    "dark-boho",
+    "goth"
+  ],
+  "melancholic": [
+    "dark-romanticism"
+  ],
+  "beautiful": [
+    "dark-romanticism"
+  ],
+  "haunting": [
+    "dark-romanticism"
+  ],
+  "emotional": [
+    "dark-romanticism"
+  ],
+  "literary": [
+    "dark-romanticism"
+  ],
+  "luxury": [
+    "desert-modernism",
+    "old-money",
+    "quiet-luxury"
+  ],
+  "war": [
+    "dieselpunk"
+  ],
+  "grit": [
+    "dieselpunk",
+    "grunge"
+  ],
+  "surreal": [
+    "dreamcore",
+    "psychedelia",
+    "seapunk",
+    "surrealism",
+    "vaporwave",
+    "weirdcore"
+  ],
+  "pastel": [
+    "dreamcore",
+    "vaporwave"
+  ],
+  "glitch": [
+    "glitch-art",
+    "witch-house-aesthetic"
+  ],
+  "hyperpop": [
+    "glitchcore"
+  ],
+  "utilitarian": [
+    "gorpcore"
+  ],
+  "melancholy": [
+    "goth"
+  ],
+  "mystery": [
+    "goth"
+  ],
+  "90s": [
+    "grunge",
+    "seapunk"
+  ],
+  "underground": [
+    "grunge"
+  ],
+  "rebellion": [
+    "grunge",
+    "indie-sleaze"
+  ],
+  "esoteric": [
+    "hauntology"
+  ],
+  "sportswear": [
+    "health-goth",
+    "streetwear"
+  ],
+  "soft": [
+    "impressionism"
+  ],
+  "culture": [
+    "indie-sleaze",
+    "streetwear"
+  ],
+  "minimal": [
+    "industrial-zen"
+  ],
+  "structured": [
+    "industrial-zen"
+  ],
+  "modern": [
+    "industrial-zen",
+    "minimalist"
+  ],
+  "beats": [
+    "lo-fi"
+  ],
+  "chill": [
+    "lo-fi"
+  ],
+  "bold": [
+    "maximalist"
+  ],
+  "colorful": [
+    "maximalist"
+  ],
+  "expressive": [
+    "maximalist"
+  ],
+  "opulent": [
+    "maximalist"
+  ],
+  "80s": [
+    "memphis-design",
+    "synthwave"
+  ],
+  "massive": [
+    "metabolism-aesthetic"
+  ],
+  "asian": [
+    "metabolism-aesthetic",
+    "ukiyo-e"
+  ],
+  "clean": [
+    "minimalist"
+  ],
+  "simple": [
+    "minimalist"
+  ],
+  "organized": [
+    "minimalist"
+  ],
+  "noir": [
+    "neo-noir"
+  ],
+  "cinematic": [
+    "neo-noir"
+  ],
+  "driving": [
+    "outrun"
+  ],
+  "synthwave": [
+    "outrun"
+  ],
+  "gaming": [
+    "pixel-art"
+  ],
+  "commercial": [
+    "pop-art"
+  ],
+  "iconic": [
+    "pop-art"
+  ],
+  "60s": [
+    "psychedelia"
+  ],
+  "high-fashion": [
+    "quiet-luxury"
+  ],
+  "art-deco": [
+    "raygun-gothic"
+  ],
+  "classical": [
+    "renaissance-core"
+  ],
+  "artistic": [
+    "renaissance-core"
+  ],
+  "refined": [
+    "renaissance-core"
+  ],
+  "cultural": [
+    "renaissance-core"
+  ],
+  "artifact": [
+    "steampunk"
+  ],
+  "fashion": [
+    "streetwear"
+  ],
+  "history": [
+    "ukiyo-e"
+  ],
+  "occult": [
+    "witch-house-aesthetic"
+  ],
+  "pop-culture": [
+    "y2k"
+  ],
+  "optimistic": [
+    "y2k"
+  ]
+}

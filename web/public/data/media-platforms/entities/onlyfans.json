@@ -1,0 +1,17 @@
+{
+  "id": "onlyfans",
+  "type": "media-platforms",
+  "name": "OnlyFans",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subscription content service primarily used by sex workers and creators for direct monetization.",
+  "tags": ["controversial", "hustle", "adult", "creator-economy"],
+  "angles": ["monetization", "empowerment", "stigma"],
+  "bar_seeds": ["link in bio", "top 0.1 percent", "monthly sub"],
+  "related_ids": [],
+  "platform_type": "Subscription",
+  "user_demographic": "Adults, Creators",
+  "content_format": ["Video", "Photos", "Direct Messages"],
+  "algorithm_bias": "Favors high-paying subscribers and active posters.",
+  "slang": ["OF", "Sub", "PPV"]
+}

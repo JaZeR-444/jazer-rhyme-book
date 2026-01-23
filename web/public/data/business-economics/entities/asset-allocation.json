@@ -1,0 +1,17 @@
+{
+  "id": "asset-allocation",
+  "type": "business-economics",
+  "name": "Asset Allocation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The implementation of an investment strategy that attempts to balance risk versus reward.",
+  "tags": ["strategy", "wealth", "logic", "technical"],
+  "angles": ["balance", "risk", "diversification"],
+  "bar_seeds": ["eggs in different baskets", "portfolio split", "hedging the bet"],
+  "related_ids": ["stock-market"],
+  "industry": "Investing",
+  "core_principle": "Diversification minimizes risk.",
+  "jargon": ["Portfolio", "Rebalancing", "Risk tolerance"],
+  "key_metrics": ["Sharpe Ratio", "Volatility"],
+  "archetypes": ["Portfolio Manager", "Prudent Investor"]
+}

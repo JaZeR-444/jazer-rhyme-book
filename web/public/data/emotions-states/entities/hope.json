@@ -1,0 +1,20 @@
+{
+  "id": "hope",
+  "type": "emotions-states",
+  "name": "Hope",
+  "aliases": ["Optimism", "The Light"],
+  "era": "Universal",
+  "tags": ["positive", "medium-energy", "stable", "future"],
+  "one_liner": "An optimistic state of mind that is based on an expectation of positive outcomes with respect to events and circumstances in one's life or the world at large.",
+  "angles": ["the light in the dark", "waiting for the sun", "belief against the odds"],
+  "bar_seeds": ["dawn approaching", "planting seeds", "keep your head up", "vision of the peak"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Lightness", "Deep breathing", "Relaxed posture", "Steady pulse"],
+  "triggers": ["Success", "Inspiration", "Connection", "Faith"],
+  "action_urge": "To persevere, to plan, to encourage",
+  "opposites": ["Despair", "Nihilism"],
+  "related_ids": ["tupac-shakur", "j-cole"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

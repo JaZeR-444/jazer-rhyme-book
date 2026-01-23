@@ -1,0 +1,16 @@
+{
+  "id": "ship-of-theseus",
+  "type": "philosophy-ideas",
+  "name": "Ship of Theseus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A thought experiment that raises the question of whether an object that has had all of its components replaced remains fundamentally the same object.",
+  "tags": ["logic", "technical", "identity", "classic"],
+  "angles": ["identity", "continuity", "reconstruction"],
+  "bar_seeds": ["swapping the planks", "same ship new wood", "replacing every cell"],
+  "school_of_thought": "Identity Theory",
+  "core_question": "Does identity persist through change?",
+  "key_philosophers": ["Plutarch", "Thomas Hobbes"],
+  "paradoxes": ["The Ship of Theseus"],
+  "modern_application": "Biohacking, organ transplants, software updates, brand rebranding."
+}

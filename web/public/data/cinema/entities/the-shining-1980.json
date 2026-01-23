@@ -1,0 +1,18 @@
+{
+  "id": "the-shining-1980",
+  "type": "cinema",
+  "name": "The Shining",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence.",
+  "tags": ["horror", "classic", "psychological", "isolation"],
+  "angles": ["madness", "isolation", "supernatural"],
+  "bar_seeds": ["redrum", "here's johnny", "elevator of blood"],
+  "related_ids": [],
+  "era": "1980",
+  "plot_hooks": ["Writer's block", "Haunted hotel", "Telepathy"],
+  "iconic_scenes": ["Here's Johnny!", "The twins in the hallway", "Typewriter pages"],
+  "visual_motifs": ["Hexagon carpet", "Blood elevator", "Snow maze"],
+  "themes": ["Alcoholism", "Domestic violence", "Ghosts"],
+  "quotables_short": ["All work and no play...", "Redrum"]
+}

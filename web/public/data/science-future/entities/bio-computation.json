@@ -1,0 +1,17 @@
+{
+  "id": "bio-computation",
+  "type": "science-future",
+  "name": "Bio-Computation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The use of biological components, such as DNA or neurons, to perform computational tasks.",
+  "tags": ["futuristic", "technical", "organic", "innovative"],
+  "angles": ["living computer", "dna storage", "neural wetware"],
+  "bar_seeds": ["coding with life", "my brain is the cpu", "living data"],
+  "related_ids": ["genetic-engineering", "neuralink"],
+  "field": "Synthetic Biology / Computing",
+  "hypothesis": "Biological systems can be engineered to process information more efficiently than silicon.",
+  "implications": ["Massive data storage in DNA", "Self-growing computers", "Advanced brain-machine integration"],
+  "technologies": ["DNA Computing", "Wetware", "Synthetic Neural Networks"],
+  "ethical_concerns": ["Sentience in computers", "Biological hacking", "Defining life"]
+}

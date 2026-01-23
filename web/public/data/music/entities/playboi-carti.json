@@ -1,0 +1,18 @@
+{
+  "id": "playboi-carti",
+  "type": "music",
+  "name": "Playboi Carti",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The enigmatic figurehead of 'mumble rap' and the rage subgenre, known for his baby voice and punk aesthetic.",
+  "tags": ["vibrant", "energetic", "contemporary", "cult-classic"],
+  "angles": ["minimalism", "energy", "aesthetic"],
+  "bar_seeds": ["whole lotta red", "vamp anthem", "magnolia"],
+  "related_ids": ["kanye-west", "tyler-the-creator"],
+  "genre": ["Trap", "Cloud Rap", "Rage"],
+  "era_detail": "2010s - Present",
+  "signature_songs": ["Magnolia", "Sky", "Shoota"],
+  "sonic_descriptors": ["Distorted 808s", "Repetitive ad-libs", "Baby voice"],
+  "influence_tree": ["Chief Keef", "Lil Wayne", "Sex Pistols"],
+  "aesthetic": "Vampire Punk"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "red-rose-symbol",
+  "type": "rituals-symbols",
+  "name": "Red Rose",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The universal symbol of romantic love and passion, often associated with secrecy (sub rosa).",
+  "tags": ["romance", "vibrant", "classic", "secret"],
+  "angles": ["passion", "romance", "secrecy"],
+  "bar_seeds": ["petals on the bed", "thorns and flowers", "under the rose"],
+  "related_ids": ["love", "infatuation"],
+  "purpose": "To express love, desire, or to mark a secret agreement.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Red Rose", "Thorns"],
+  "participants": "Lovers, Conspirators",
+  "outcome": "Connection or formalized secrecy."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bo-jackson",
+  "type": "sports",
+  "name": "Bo Jackson",
+  "aliases": ["Bo Knows"],
+  "era": "1980s-1990s",
+  "tags": ["football", "baseball", "power", "legacy"],
+  "one_liner": "A freak athlete who excelled at the highest level in both the NFL and MLB, the subject of the 'Bo Knows' campaign.",
+  "angles": ["sheer athleticism", "breaking bats", "bo knows"],
+  "bar_seeds": ["bo knows", "all-star in both", "ran over brian bosworth"],
+  "team_size": "11 (Football) / 9 (Baseball)",
+  "key_skills": ["Strength", "Speed", "Power"],
+  "equipment": ["Nike Air Trainer", "Bat", "Football"],
+  "metaphors": ["The Ultimate Athlete"],
+  "legends": ["Heisman Trophy", "All-Star in two major sports"],
+  "related_ids": ["deion-sanders"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

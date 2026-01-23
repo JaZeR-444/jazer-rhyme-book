@@ -1,0 +1,17 @@
+{
+  "id": "gold-standard",
+  "type": "business-economics",
+  "name": "Gold Standard",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A monetary system where a country's currency or paper money has a value directly linked to gold.",
+  "tags": ["history", "wealth", "classic", "gold"],
+  "angles": ["stability", "limitation", "history"],
+  "bar_seeds": ["backed by gold", "fort knox", "real value"],
+  "related_ids": ["fiat-currency", "gold-bar"],
+  "industry": "Macroeconomics",
+  "core_principle": "Tangible backing of currency.",
+  "jargon": ["Convertibility", "Specie", "Bretton Woods"],
+  "key_metrics": ["Gold Reserves", "Exchange Rate"],
+  "archetypes": ["Gold Bug", "Historian"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "programmable-matter",
+  "type": "science-future",
+  "name": "Programmable Matter",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Matter which has the ability to alter its physical properties (shape, density, moduli, conductivity, optical properties, etc.) in a programmable fashion.",
+  "tags": ["technical", "futuristic", "nanotechnology", "innovative"],
+  "angles": ["liquid metal", "shape-shifting reality", "on-demand manufacturing"],
+  "bar_seeds": ["solid to liquid", "objects from thin air", "smart dust"],
+  "related_ids": ["nanotechnology"],
+  "field": "Nanotechnology / Materials Science",
+  "hypothesis": "Information can be encoded directly into matter to control its macroscopic form.",
+  "implications": ["End of traditional manufacturing", "Self-repairing structures", "Instant prototyping"],
+  "technologies": ["Claytronics", "Nanobots"],
+  "ethical_concerns": ["Gray goo risk", "Military application", "Resource scarcity disruption"]
+}

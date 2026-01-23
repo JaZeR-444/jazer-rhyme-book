@@ -1,0 +1,17 @@
+{
+  "id": "metabolism-aesthetic",
+  "type": "aesthetics-visuals",
+  "name": "Metabolism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese architectural and visual movement that fused ideas about architectural megastructures with organic biological growth.",
+  "tags": ["organic", "futuristic", "massive", "asian"],
+  "angles": ["modular", "biological-growth", "megastructures"],
+  "bar_seeds": ["capsule tower", "modular world", "growing machines"],
+  "related_ids": ["brutalism", "bio-digital"],
+  "visual_elements": ["Capsules", "Interconnected pods", "Concrete", "Geometric repetition"],
+  "mood": "Future-forward, structural, grand",
+  "associated_eras": ["1960s", "1970s"],
+  "color_palette": ["Concrete Grey", "Utility White", "Rust", "Sky Blue"],
+  "fashion_staples": ["Modular bags", "Structured coats", "Techwear"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cleopatra",
+  "type": "people",
+  "name": "Cleopatra VII",
+  "aliases": ["Queen of the Nile"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The last active ruler of the Ptolemaic Kingdom of Egypt, known for her political savvy and relationships with Roman leaders.",
+  "tags": ["legacy", "luxury", "power", "ancient"],
+  "angles": ["political-seduction", "last-pharaoh", "intelligence"],
+  "bar_seeds": ["queen of the nile", "cobra's kiss", "roman alliance"],
+  "related_ids": ["ancient-egypt", "ancient-rome"],
+  "known_for": ["Rule of Egypt", "Alliance with Caesar", "Alliance with Marc Antony"],
+  "vibe": "Intellectual, seductive, regal",
+  "signature_items": ["Headdress", "Kohl eyeliner", "Cobra"],
+  "quotables_short": ["I will not be triumphed over."],
+  "controversy_flags": ["Propaganda by rivals", "Suicide"]
+}

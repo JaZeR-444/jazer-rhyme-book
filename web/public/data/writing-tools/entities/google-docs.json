@@ -1,0 +1,21 @@
+{
+  "id": "google-docs",
+  "type": "writing-tool",
+  "name": "Google Docs",
+  "aliases": ["GDocs"],
+  "era": "2000s-Present",
+  "tags": ["cloud", "collaboration", "writing", "ubiquitous"],
+  "one_liner": "The industry standard for real-time collaborative document editing and storage.",
+  "angles": ["instant collaboration", "writing from anywhere", "the version history of a life"],
+  "bar_seeds": ["shared doc", "writing in the cloud", "anonymous animals"],
+  "category": "Word Processor",
+  "what_it_does": "A web-based word processor for creating, editing, and sharing documents.",
+  "best_for": ["Real-time collaborative writing", "Simple, distraction-free drafting", "Cloud access"],
+  "workflow_hooks": ["Leaving comments for collaborators", "Checking version history for deleted lines"],
+  "pitfalls": ["Requires internet", "Limited offline features", "Privacy concerns"],
+  "bar_angles": ["typing in the gdoc", "shared verse with the team"],
+  "related_ids": ["gemini"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

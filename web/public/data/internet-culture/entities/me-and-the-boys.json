@@ -1,0 +1,18 @@
+{
+  "id": "me-and-the-boys",
+  "type": "internet-culture",
+  "name": "Me and the Boys",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A series of memes showing a group of friends (often 60s Spider-Man villains) embarking on questionable adventures.",
+  "tags": ["community", "classic", "cinematic", "youth"],
+  "angles": ["friendship", "trouble", "nostalgia"],
+  "bar_seeds": ["me and the boys", "villainous smiles", "squad goals"],
+  "related_ids": ["spider-man-pointing"],
+  "format": "Image / Group Photo",
+  "origin_platform": "Reddit",
+  "meaning": "Celebrating the chaotic and often ill-advised bond between a group of male friends.",
+  "remix_rules": ["Distorted faces", "Low-budget aesthetic", "Group activities"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Me and the boys in the lobby, ready for the heist", "Smiling like the villains, we out for the night"]
+}

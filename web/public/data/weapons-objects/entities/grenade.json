@@ -1,0 +1,17 @@
+{
+  "id": "grenade",
+  "type": "weapons-objects",
+  "name": "Grenade",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A small bomb typically thrown by hand.",
+  "tags": ["war", "explosive", "chaos", "grit"],
+  "angles": ["timing", "shrapnel", "impact"],
+  "bar_seeds": ["pull the pin", "frag out", "cooking the timer"],
+  "related_ids": ["molotov-cocktail"],
+  "weapon_type": "Explosive",
+  "range": "Thrown",
+  "damage_type": "Explosive",
+  "symbolism": "Sudden chaos, last resort, and indiscriminate damage.",
+  "famous_users": ["Soldiers", "Action heroes"]
+}

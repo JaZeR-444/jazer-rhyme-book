@@ -1,0 +1,17 @@
+{
+  "id": "landmine",
+  "type": "weapons-objects",
+  "name": "Landmine",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An explosive device concealed under or on the ground and designed to destroy or disable enemy targets.",
+  "tags": ["war", "fear", "trap", "explosive"],
+  "angles": ["hidden danger", "one wrong step", "legacy of war"],
+  "bar_seeds": ["click under the boot", "frozen in fear", "hidden death"],
+  "related_ids": ["trap"],
+  "weapon_type": "Trap",
+  "range": "Contact",
+  "damage_type": "Explosive",
+  "symbolism": "Hidden consequences, the lingering scars of conflict, and entrapment.",
+  "famous_users": ["Guerilla fighters"]
+}

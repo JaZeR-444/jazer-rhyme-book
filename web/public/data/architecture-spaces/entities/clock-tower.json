@@ -1,0 +1,17 @@
+{
+  "id": "clock-tower",
+  "type": "architecture-spaces",
+  "name": "Clock Tower",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A tower, either as a standalone building or part of a larger one, that contains one or more turret clocks.",
+  "tags": ["time-energy", "classic", "landmark", "history"],
+  "angles": ["public-time", "vertical-dominance", "the-ticking-heart"],
+  "bar_seeds": ["gears turning overhead", "bell strike", "watching the seconds"],
+  "related_ids": ["analog-clock", "skyscraper"],
+  "style": "Victorian / Gothic / Classical",
+  "materials": ["Stone", "Bronze", "Wood"],
+  "spatial_qualities": ["Vertical", "Echoing", "Mechanical"],
+  "function": "Timekeeping / Civic Monument",
+  "famous_examples": ["Elizabeth Tower (Big Ben)", "Zytglogge"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "fargo-1996",
+  "type": "cinema",
+  "name": "Fargo",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson.",
+  "tags": ["crime", "noir", "grit", "humor"],
+  "angles": ["midwestern-nice", "banality-of-evil", "failing-plans"],
+  "bar_seeds": ["wood chipper", "snowy fields", "oh yah betcha"],
+  "related_ids": ["no-country-for-old-men-2007"],
+  "era": "1996",
+  "plot_hooks": ["The fake kidnapping", "The roadside murders", "The woodchipper"],
+  "iconic_scenes": ["Woodchipper finale", "Marge's monologue", "Morning breakfast"],
+  "visual_motifs": ["Infinite white snow", "Brown parka", "Woodchipper"],
+  "themes": ["Greed", "Morality in everyday life", "Absurdity of crime"],
+  "quotables_short": ["Oh, for Pete's sake!", "He's a little guy, kind of funny-lookin'."]
+}

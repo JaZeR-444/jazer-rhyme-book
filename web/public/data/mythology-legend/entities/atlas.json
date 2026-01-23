@@ -1,0 +1,17 @@
+{
+  "id": "atlas",
+  "type": "mythology-legend",
+  "name": "Atlas",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Titan condemned to hold up the celestial heavens (or the world) for eternity.",
+  "tags": ["grit", "classic", "legacy", "mythology"],
+  "angles": ["endurance", "weight", "responsibility"],
+  "bar_seeds": ["weight of the world", "shoulders like atlas", "holding it down"],
+  "related_ids": [],
+  "origin_culture": "Greek",
+  "deity_type": "Titan",
+  "powers": ["Superhuman strength", "Endurance"],
+  "symbols": ["Globe", "Pillars"],
+  "modern_parallels": ["Breadwinners", "CEOs", "Pillars of Community"]
+}

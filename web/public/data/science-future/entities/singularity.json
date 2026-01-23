@@ -1,0 +1,20 @@
+{
+  "id": "singularity",
+  "type": "science-future",
+  "name": "The Singularity",
+  "aliases": ["Technological Singularity"],
+  "era": "Future",
+  "tags": ["ai", "future", "tech", "transhumanism"],
+  "one_liner": "A hypothetical point in time at which technological growth becomes uncontrollable and irreversible, resulting in unfathomable changes to human civilization.",
+  "angles": ["the event horizon of tech", "the transcendence of humanity", "beyond human comprehension"],
+  "bar_seeds": ["singularity point", "mind upload", "merging with the machine", "post-human era"],
+  "field": "Future Studies / AI",
+  "hypothesis": "That AI will eventually trigger runaway self-improvement, surpassing human intelligence.",
+  "implications": ["End of human history as we know it", "Physical immortality (digital)", "Total transformation of life"],
+  "technologies": ["Superintelligent AI", "Brain-computer interfaces"],
+  "ethical_concerns": ["Loss of human identity", "Existential risk", "The divide between those who ascend and those who don't"],
+  "related_ids": ["artificial-general-intelligence", "neuralink"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

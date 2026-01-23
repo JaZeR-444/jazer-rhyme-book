@@ -1,0 +1,20 @@
+{
+  "id": "odin",
+  "type": "mythology-legend",
+  "name": "Odin",
+  "aliases": ["All-Father", "The Wanderer"],
+  "era": "Viking Age / Norse Mythology",
+  "tags": ["deity", "wisdom", "war", "norse", "ruler"],
+  "one_liner": "The king of the Aesir gods, god of wisdom, poetry, war, and death.",
+  "angles": ["the sacrifice for knowledge", "the eye that sees all", "ruthless wisdom"],
+  "bar_seeds": ["one eye open", "hugin and munin", "valhalla's gates", "all-father watch"],
+  "origin_culture": "Norse",
+  "deity_type": "King of the Gods",
+  "powers": ["Magic (Seidr)", "Shape-shifting", "Infinite wisdom"],
+  "symbols": ["Valknut", "Gungnir (Spear)", "Ravens (Hugin and Munin)", "Eight-legged horse (Sleipnir)"],
+  "modern_parallels": ["Wise mentors", "Strategic leaders"],
+  "related_ids": ["thor"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "post-human-society",
+  "type": "science-future",
+  "name": "Post-Human Society",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A future social order in which the dominant beings are no longer purely biological humans.",
+  "tags": ["futuristic", "social", "existence", "legacy"],
+  "angles": ["the-next-act", "multi-substrate-life", "beyond-mortality"],
+  "bar_seeds": ["flesh is legacy", "new rules for new beings", "the garden of the post-human"],
+  "related_ids": ["posthumanism", "mind-uploading", "superintelligence"],
+  "field": "Sociology / Futurism",
+  "hypothesis": "Technological evolution will create a new successor species or variety of species.",
+  "implications": ["End of human history as we know it", "New moral and legal systems", "Incomprehensible social structures"],
+  "technologies": ["AI", "Genetic Mastery", "Substrate Independence"],
+  "ethical_concerns": ["The fate of 'baseline' humans", "Loss of human empathy", "Infinite inequality"]
+}

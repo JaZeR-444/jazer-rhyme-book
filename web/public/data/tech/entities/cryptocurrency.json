@@ -1,0 +1,63 @@
+{
+  "id": "cryptocurrency",
+  "type": "tech",
+  "name": "Cryptocurrency",
+  "aliases": [
+    "Crypto",
+    "Digital Currency",
+    "Coin"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "decentralized",
+    "digital",
+    "volatile",
+    "financial",
+    "innovative"
+  ],
+  "one_liner": "Digital or virtual currency that uses cryptography for security.",
+  "angles": [
+    "decentralization",
+    "financial revolution",
+    "investment"
+  ],
+  "bar_seeds": [
+    "HODL",
+    "To the moon",
+    "DYOR",
+    "Digital gold"
+  ],
+  "related_ids": [
+    "bitcoin",
+    "ethereum",
+    "blockchain"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": [
+    {
+      "title": "Satoshi Nakamoto",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Digital Finance",
+  "what_it_is": "A digital asset designed to work as a medium of exchange.",
+  "why_it_matters": "Challenges traditional financial systems and enables new economies.",
+  "risks": [
+    "Volatility",
+    "Regulatory changes",
+    "Security breaches"
+  ],
+  "metaphors": [
+    "Digital gold",
+    "New financial system"
+  ],
+  "keywords": [
+    "Blockchain",
+    "Wallet",
+    "Mining",
+    "HODL"
+  ]
+}

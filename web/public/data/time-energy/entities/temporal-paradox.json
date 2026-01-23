@@ -1,0 +1,17 @@
+{
+  "id": "temporal-paradox",
+  "type": "time-energy",
+  "name": "Temporal Paradox",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A logical contradiction resulting from time travel, where an event prevents its own cause.",
+  "tags": ["quantum", "sci-fi", "logic", "abstract"],
+  "angles": ["contradiction", "knot", "erasure"],
+  "bar_seeds": ["grandparent paradox", "erasing the future", "looping back"],
+  "related_ids": ["the-past", "the-future", "infinity"],
+  "concept_type": "Logical/Temporal",
+  "perception": "Mind-bending, impossible, and frantic.",
+  "physics_basis": "Novikov self-consistency principle (theoretical).",
+  "cultural_view": "A staple of science fiction used to explore cause and effect.",
+  "idioms": ["A glitch in time", "Writing yourself out", "Back to the start"]
+}

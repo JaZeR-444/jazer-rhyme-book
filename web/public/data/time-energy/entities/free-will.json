@@ -1,0 +1,17 @@
+{
+  "id": "free-will",
+  "type": "time-energy",
+  "name": "Free Will",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ability to choose between different possible courses of action unimpeded.",
+  "tags": ["philosophical-ideas", "rebellion", "logic", "existence"],
+  "angles": ["choice", "agency", "chaos"],
+  "bar_seeds": ["breaking the chain", "unwritten path", "my own hand"],
+  "related_ids": ["determinism"],
+  "concept_type": "Philosophical / Cognitive",
+  "perception": "A sense of autonomy and responsibility.",
+  "physics_basis": "Quantum indeterminacy (theoretical link).",
+  "cultural_view": "The bedrock of legal and moral responsibility.",
+  "idioms": ["Of your own accord", "The power of choice", "Master of my ship"]
+}

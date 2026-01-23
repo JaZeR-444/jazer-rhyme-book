@@ -1,0 +1,19 @@
+{
+  "id": "sugar-ray-leonard",
+  "type": "sports",
+  "name": "Sugar Ray Leonard",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A dazzling technician and one of the 'Four Kings' who dominated the welterweight division in the 1980s.",
+  "tags": ["boxing", "vibrant", "speed", "classic"],
+  "angles": ["flashy-precision", "golden-age-boxer", "tactical-genius"],
+  "bar_seeds": ["sugar ray speed", "bolo punch", "the four kings"],
+  "related_ids": ["boxing-sport", "muhammad-ali"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Speed", "Combinations", "Psychological warfare"],
+  "equipment": ["Boxing gloves"],
+  "metaphors": ["Sugar Ray"],
+  "legends": ["World titles in five weight divisions", "Olympic Gold"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

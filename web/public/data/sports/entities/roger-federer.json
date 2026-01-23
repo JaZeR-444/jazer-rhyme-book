@@ -1,0 +1,27 @@
+{
+  "id": "roger-federer",
+  "type": "sports",
+  "name": "Roger Federer",
+  "aliases": ["RF", "Swiss Maestro"],
+  "era": "1998-2022",
+  "tags": ["legacy", "championship", "athlete", "classic", "mainstream", "clutch"],
+  "one_liner": "Swiss tennis icon known for elegant precision, longevity, and record-setting wins.",
+  "angles": ["effortless precision", "longevity", "rivalry era"],
+  "bar_seeds": ["center court elegance", "ace on the line", "Swiss precision"],
+  "team_size": "1 (Tennis singles)",
+  "key_skills": ["Serve", "Footwork", "Shot placement"],
+  "equipment": ["Tennis racket", "Tennis ball"],
+  "metaphors": ["clean lines", "clockwork precision"],
+  "legends": ["20 Grand Slam titles", "Rivalry era with Nadal and Djokovic"],
+  "related_ids": ["stadium", "momentum"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roger_Federer",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

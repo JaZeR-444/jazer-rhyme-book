@@ -1,0 +1,17 @@
+{
+  "id": "sigil",
+  "type": "rituals-symbols",
+  "name": "Sigil",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A type of symbol used in ritual magic, representing a specific intent or entity.",
+  "tags": ["esoteric", "symbolic-object", "logic", "power"],
+  "angles": ["visual intent", "secret code", "binding"],
+  "bar_seeds": ["inked sigil", "branding the spirit", "secret geometry"],
+  "related_ids": ["omen", "totem"],
+  "purpose": "To represent and manifest a specific magical desire or entity.",
+  "steps": ["Designing the symbol", "Charging with intent", "Destroying or activating"],
+  "objects_used": ["Paper", "Ink", "Metal", "Skin"],
+  "participants": "Practitioner",
+  "outcome": "Manifestation of intent or summoning."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "taboo",
+  "type": "rituals-symbols",
+  "name": "Taboo",
+  "aliases": ["Forbidden", "Forbidden Fruit", "Banned"],
+  "era": "Ancient-Present",
+  "tags": ["ritual", "forbidden", "social", "power"],
+  "one_liner": "A social or religious custom prohibiting or forbidding discussion of a particular practice or forbidding association with a particular person, place, or thing.",
+  "angles": ["crossing the forbidden line", "the power of silence", "the thrill of the banned"],
+  "bar_seeds": ["unspoken name", "forbidden fruit", "shattered lines", "outcast shadow"],
+  "purpose": "To maintain social order or protect individuals from perceived danger/sin.",
+  "steps": ["Identification of prohibited act", "Social enforcement", "Shunning of violators"],
+  "objects_used": ["Varies (symbols of prohibition)"],
+  "participants": "The society, the violator",
+  "outcome": "Social cohesion or individual isolation",
+  "related_ids": ["philosophy-ideas", "shame"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

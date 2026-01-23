@@ -1,0 +1,19 @@
+{
+  "id": "valentino-rossi",
+  "type": "sports",
+  "name": "Valentino Rossi",
+  "aliases": ["The Doctor"],
+  "era": "1990s-2020s",
+  "tags": ["motogp", "vibrant", "speed", "legacy"],
+  "one_liner": "The Italian icon of motorcycle racing, a nine-time World Champion and global ambassador for the sport.",
+  "angles": ["the-doctor", "yellow-46", "speed-on-two-wheels"],
+  "bar_seeds": ["number 46", "leaning into the corner", "the doctor"],
+  "related_ids": ["ducati-panigale-v4"],
+  "team_size": "1 (Driving for a team)",
+  "key_skills": ["Cornering", "Bravery", "Overtaking"],
+  "equipment": ["Helmet (AGV)", "Leather suit (Dainese)", "Yamaha M1"],
+  "metaphors": ["The Doctor"],
+  "legends": ["9 World Championships", "Motogp Legend"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

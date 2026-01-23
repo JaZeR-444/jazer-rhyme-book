@@ -1,0 +1,383 @@
+{
+  "tool": [
+    "ableton-live",
+    "akai-mpc",
+    "alpha-smart",
+    "bear-app",
+    "blackwing-602",
+    "cut-up-method",
+    "dictaphone",
+    "dictionary-com",
+    "etymology-online",
+    "field-notes",
+    "final-draft",
+    "fl-studio",
+    "fountain-pen",
+    "freewriting",
+    "genius",
+    "google-keep",
+    "grammarly",
+    "hemingway-editor",
+    "ia-writer",
+    "logic-pro",
+    "mind-map",
+    "moleskine",
+    "notepad-plus-plus",
+    "oblique-strategies",
+    "onenote",
+    "pro-tools",
+    "remarkable-tablet",
+    "rhyme-book",
+    "rhymedesk",
+    "roland-tr-808",
+    "scrivener",
+    "sp-1200",
+    "sublime-text",
+    "typewriter",
+    "ulysses",
+    "urban-dictionary",
+    "voice-memos",
+    "wattpad",
+    "whiteboard",
+    "wordhippo"
+  ],
+  "technical": [
+    "ableton-live",
+    "dictionary-com",
+    "etymology-online",
+    "final-draft",
+    "fl-studio",
+    "genius",
+    "grammarly",
+    "hemingway-editor",
+    "ia-writer",
+    "logic-pro",
+    "mind-map",
+    "notepad-plus-plus",
+    "onenote",
+    "pro-tools",
+    "remarkable-tablet",
+    "rhymedesk",
+    "rhymezone",
+    "scrivener",
+    "sublime-text",
+    "thesaurus-com",
+    "ulysses",
+    "urban-dictionary",
+    "voice-memos",
+    "wordhippo"
+  ],
+  "music": [
+    "ableton-live",
+    "akai-mpc",
+    "fl-studio",
+    "logic-pro",
+    "pro-tools",
+    "roland-tr-808",
+    "sp-1200"
+  ],
+  "innovative": [
+    "ableton-live",
+    "chatgpt",
+    "claude",
+    "cut-up-method",
+    "oblique-strategies",
+    "scrivener"
+  ],
+  "hardware": [
+    "akai-mpc",
+    "alpha-smart"
+  ],
+  "classic": [
+    "akai-mpc",
+    "blackwing-602",
+    "cut-up-method",
+    "evernote",
+    "fountain-pen",
+    "freewriting",
+    "moleskine",
+    "notepad-plus-plus",
+    "oblique-strategies",
+    "physical-notebook",
+    "quill-and-ink",
+    "rhyme-book",
+    "typewriter"
+  ],
+  "vintage": [
+    "alpha-smart",
+    "blackwing-602",
+    "dictaphone",
+    "fountain-pen",
+    "rhyme-book",
+    "roland-tr-808",
+    "sp-1200",
+    "typewriter"
+  ],
+  "minimalist": [
+    "alpha-smart",
+    "bear-app",
+    "field-notes",
+    "freewriting",
+    "hemingway-editor",
+    "ia-writer",
+    "moleskine",
+    "remarkable-tablet",
+    "sublime-text",
+    "voice-memos",
+    "whiteboard"
+  ],
+  "focus": [
+    "alpha-smart",
+    "ia-writer",
+    "remarkable-tablet",
+    "ulysses"
+  ],
+  "aesthetic": [
+    "bear-app"
+  ],
+  "software": [
+    "bear-app"
+  ],
+  "luxury": [
+    "blackwing-602",
+    "fountain-pen"
+  ],
+  "ai": [
+    "chatgpt",
+    "claude",
+    "gemini"
+  ],
+  "digital": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "masterpiece-generator"
+  ],
+  "assistant": [
+    "chatgpt"
+  ],
+  "nuanced": [
+    "claude"
+  ],
+  "abstract": [
+    "cut-up-method"
+  ],
+  "surreal": [
+    "cut-up-method"
+  ],
+  "noir": [
+    "dictaphone"
+  ],
+  "utility": [
+    "dictaphone",
+    "field-notes",
+    "google-keep",
+    "notepad-plus-plus",
+    "rhymedesk",
+    "wordhippo"
+  ],
+  "logic": [
+    "dictionary-com",
+    "grammarly",
+    "hemingway-editor",
+    "mind-map"
+  ],
+  "reference": [
+    "dictionary-com"
+  ],
+  "history": [
+    "etymology-online"
+  ],
+  "academic": [
+    "etymology-online"
+  ],
+  "notes": [
+    "evernote"
+  ],
+  "organization": [
+    "evernote",
+    "onenote"
+  ],
+  "cross-platform": [
+    "evernote"
+  ],
+  "americana": [
+    "field-notes"
+  ],
+  "cinema": [
+    "final-draft"
+  ],
+  "professional": [
+    "final-draft",
+    "logic-pro",
+    "pro-tools",
+    "ulysses"
+  ],
+  "trap": [
+    "fl-studio"
+  ],
+  "craftsmanship": [
+    "fountain-pen"
+  ],
+  "organic": [
+    "freewriting"
+  ],
+  "google": [
+    "gemini"
+  ],
+  "integrated": [
+    "gemini"
+  ],
+  "culture": [
+    "genius",
+    "moleskine"
+  ],
+  "community": [
+    "genius",
+    "wattpad"
+  ],
+  "cloud": [
+    "google-docs",
+    "google-keep"
+  ],
+  "collaboration": [
+    "google-docs"
+  ],
+  "writing": [
+    "google-docs",
+    "quill-and-ink"
+  ],
+  "ubiquitous": [
+    "google-docs"
+  ],
+  "colorful": [
+    "google-keep"
+  ],
+  "smart": [
+    "grammarly"
+  ],
+  "generator": [
+    "masterpiece-generator"
+  ],
+  "fun": [
+    "masterpiece-generator"
+  ],
+  "quick-fix": [
+    "masterpiece-generator"
+  ],
+  "visual": [
+    "mind-map"
+  ],
+  "brand": [
+    "moleskine"
+  ],
+  "productivity": [
+    "notion"
+  ],
+  "database": [
+    "notion"
+  ],
+  "all-in-one": [
+    "notion"
+  ],
+  "modern": [
+    "notion"
+  ],
+  "esoteric": [
+    "oblique-strategies"
+  ],
+  "art": [
+    "oblique-strategies"
+  ],
+  "pkm": [
+    "obsidian"
+  ],
+  "knowledge-base": [
+    "obsidian"
+  ],
+  "markdown": [
+    "obsidian"
+  ],
+  "local-first": [
+    "obsidian"
+  ],
+  "business": [
+    "onenote",
+    "whiteboard"
+  ],
+  "analog": [
+    "physical-notebook"
+  ],
+  "tactile": [
+    "physical-notebook"
+  ],
+  "sovereign": [
+    "physical-notebook"
+  ],
+  "object": [
+    "quill-and-ink"
+  ],
+  "intellectual": [
+    "quill-and-ink"
+  ],
+  "rap": [
+    "rap-pad"
+  ],
+  "online-community": [
+    "rap-pad"
+  ],
+  "rhymes": [
+    "rap-pad"
+  ],
+  "niche": [
+    "rap-pad"
+  ],
+  "artifact": [
+    "rhyme-book"
+  ],
+  "legacy": [
+    "rhyme-book"
+  ],
+  "lyrical": [
+    "rhymedesk",
+    "rhymezone",
+    "thesaurus-com"
+  ],
+  "contemporary": [
+    "rhymezone",
+    "thesaurus-com"
+  ],
+  "legendary": [
+    "roland-tr-808"
+  ],
+  "lo-fi": [
+    "sp-1200"
+  ],
+  "speed": [
+    "sublime-text"
+  ],
+  "mechanical": [
+    "typewriter"
+  ],
+  "relic": [
+    "typewriter"
+  ],
+  "underground": [
+    "urban-dictionary"
+  ],
+  "streetwear": [
+    "urban-dictionary"
+  ],
+  "social-media": [
+    "wattpad"
+  ],
+  "youth": [
+    "wattpad"
+  ],
+  "planning": [
+    "whiteboard"
+  ],
+  "creative": [
+    "wordhippo"
+  ]
+}

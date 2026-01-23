@@ -1,0 +1,17 @@
+{
+  "id": "postmodern-architecture",
+  "type": "architecture-spaces",
+  "name": "Postmodernism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An architectural style that emerged in the 1960s as a reaction against the austerity and lack of variety of modern architecture.",
+  "tags": ["eclectic", "vibrant", "humor", "classic"],
+  "angles": ["ironic-columns", "color-and-pattern", "historical-remix"],
+  "bar_seeds": ["neon arches", "pastiche of history", "playful scale"],
+  "related_ids": ["memphis-design"],
+  "style": "Postmodernism",
+  "materials": ["Concrete", "Glass", "Stucco", "Neon"],
+  "spatial_qualities": ["Eclectic", "Theatrical", "Vibrant"],
+  "function": "Commercial / Civic",
+  "famous_examples": ["Portland Building", "Piazza d'Italia", "AT&T Building"]
+}

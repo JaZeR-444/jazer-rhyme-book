@@ -1,0 +1,48 @@
+{
+  "id": "minimal-sneaker",
+  "type": "fashion",
+  "name": "Minimalist Sneakers",
+  "aliases": [
+    "Luxury Sneakers",
+    "Clean Kicks"
+  ],
+  "era": "2000s-Present",
+  "tags": [
+    "footwear",
+    "minimalist",
+    "luxury",
+    "clean"
+  ],
+  "one_liner": "High-end, understated sneakers characterized by simple designs, premium materials, and no visible branding.",
+  "angles": [
+    "quiet luxury",
+    "the blank canvas on the feet",
+    "elevated basics"
+  ],
+  "bar_seeds": [
+    "clean white leather",
+    "no logo needed",
+    "understated flex",
+    "premium soles"
+  ],
+  "item_type": "Footwear",
+  "material": [
+    "Calfskin leather",
+    "Italian rubber"
+  ],
+  "cultural_significance": "A reaction against 'hype' culture, focusing on quality and timeless design over branding.",
+  "fit": [
+    "Slim / Sleek"
+  ],
+  "associated_brands": [
+    "Common Projects",
+    "Koio",
+    "Greats"
+  ],
+  "related_ids": [
+    "minimalist"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

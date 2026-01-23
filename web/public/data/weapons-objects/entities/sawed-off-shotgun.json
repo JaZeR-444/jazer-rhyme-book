@@ -1,0 +1,17 @@
+{
+  "id": "sawed-off-shotgun",
+  "type": "weapons-objects",
+  "name": "Sawed-Off Shotgun",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A shotgun with a shortened barrel for a wider spread and easier concealment.",
+  "tags": ["grit", "raw", "underground", "rebellion"],
+  "angles": ["spread", "illegal-mod", "devastation"],
+  "bar_seeds": ["hacksaw to the barrel", "double barrel blast", "wide lane clear"],
+  "related_ids": [],
+  "weapon_type": "Shotgun",
+  "range": "Close-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Uncompromising power, DIY lethality, and outlaw status.",
+  "famous_users": ["Mad Max", "Road agents"]
+}

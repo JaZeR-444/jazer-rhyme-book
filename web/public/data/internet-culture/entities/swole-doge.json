@@ -1,0 +1,18 @@
+{
+  "id": "swole-doge",
+  "type": "internet-culture",
+  "name": "Swole Doge",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A muscular version of the Doge meme, used to represent strength and traditional values in contrast to 'Cheems'.",
+  "tags": ["ironic", "strength", "comparison", "doge"],
+  "angles": ["superiority", "legacy", "masculinity"],
+  "bar_seeds": ["built different", "past vs present", "muscular shiba"],
+  "related_ids": ["doge", "cheems"],
+  "format": "Image Macro / Comparison",
+  "origin_platform": "Reddit / Instagram",
+  "meaning": "Representing a romanticized, 'strong' past or a competent individual.",
+  "remix_rules": ["Paired with Cheems", "Comparison of two eras", "Hyper-muscular edit"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["My ancestors were swole doges, I'm just a cheems in the rain", "Built like the shiba with the muscles, standing on business"]
+}

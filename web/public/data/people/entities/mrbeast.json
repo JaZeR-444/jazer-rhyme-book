@@ -1,0 +1,53 @@
+{
+  "id": "mrbeast",
+  "type": "people",
+  "name": "MrBeast",
+  "aliases": [
+    "Jimmy Donaldson"
+  ],
+  "era": "2010s-2020s",
+  "tags": [
+    "mainstream",
+    "innovative",
+    "viral",
+    "contemporary"
+  ],
+  "one_liner": "Creator known for massive-scale videos, philanthropy, and viral challenges.",
+  "angles": [
+    "viral scale",
+    "philanthropy spectacle",
+    "internet dominance"
+  ],
+  "bar_seeds": [
+    "million on the table",
+    "viral challenge",
+    "giveaway king"
+  ],
+  "related_ids": [
+    "youtube",
+    "tiktok"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MrBeast",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "known_for": [
+    "Online video",
+    "Philanthropy"
+  ],
+  "vibe": "High-energy, generous, and competitive",
+  "signature_items": [
+    "Large giveaways",
+    "Challenge videos"
+  ],
+  "quotables_short": [
+    "Last to leave"
+  ],
+  "controversy_flags": []
+}

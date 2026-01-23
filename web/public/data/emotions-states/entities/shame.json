@@ -1,0 +1,20 @@
+{
+  "id": "shame",
+  "type": "emotions-states",
+  "name": "Shame",
+  "aliases": ["Disgrace", "Guilt (related)"],
+  "era": "Universal",
+  "tags": ["negative", "low-energy", "heavy", "internal"],
+  "one_liner": "A painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior.",
+  "angles": ["the heavy mask", "internal rot", "hiding from the light"],
+  "bar_seeds": ["head down", "burning face", "wishing to disappear", "heavy secrets"],
+  "intensity": "High to Extreme",
+  "physical_symptoms": ["Flushing (blushing)", "Averting eyes", "Slumped shoulders", "Nausea"],
+  "triggers": ["Social failure", "Moral transgression", "Exposure of secrets"],
+  "action_urge": "To hide, to disappear, to compensate",
+  "opposites": ["Pride", "Self-acceptance"],
+  "related_ids": ["emotions-states"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

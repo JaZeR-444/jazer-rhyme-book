@@ -1,0 +1,17 @@
+{
+  "id": "the-iron-curtain",
+  "type": "history",
+  "name": "The Iron Curtain",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The political, military, and ideological barrier erected by the Soviet Union after World War II to seal off itself and its dependent eastern and central European allies.",
+  "tags": ["cold-war", "political", "dark", "history"],
+  "angles": ["division-of-the-world", "secrecy-and-surveillance", "the-great-wall-of-europe"],
+  "bar_seeds": ["behind the curtain", "check point charlie", "divided sky"],
+  "related_ids": ["cold-war", "fall-of-berlin-wall-1989"],
+  "key_dates": ["1945", "1991"],
+  "location": "Europe",
+  "impact": "Defined the geopolitical landscape of the 20th century and the lived experience of millions.",
+  "major_figures": ["Winston Churchill (coined the term)", "Joseph Stalin"],
+  "cultural_shift": "The normalization of a binary, divided world and pervasive espionage culture."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "biotechnology",
+  "type": "tech",
+  "name": "Biotechnology",
+  "aliases": [
+    "BioTech",
+    "Biotech",
+    "Life Sciences"
+  ],
+  "era": "1970s-Present",
+  "tags": [
+    "life-sciences",
+    "genetic",
+    "medical",
+    "innovative",
+    "controversial"
+  ],
+  "one_liner": "The use of living systems and organisms to develop or make products.",
+  "angles": [
+    "genetic engineering",
+    "medical applications",
+    "ethical considerations"
+  ],
+  "bar_seeds": [
+    "Life science innovation",
+    "Genetic possibilities"
+  ],
+  "related_ids": [
+    "genetics",
+    "medicine",
+    "dna"
+  ],
+  "created_at": "2025-12-23T12:15:00Z",
+  "updated_at": "2025-12-23T12:15:00Z",
+  "sources": [
+    {
+      "title": "Genentech",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Research institutions",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "category": "Life Sciences",
+  "what_it_is": "Technology that uses biological systems to create products or processes.",
+  "why_it_matters": "Advances medicine, agriculture, and environmental science.",
+  "risks": [
+    "Ethical concerns",
+    "Environmental impact",
+    "Safety issues"
+  ],
+  "metaphors": [
+    "Engineering life",
+    "Biological tools"
+  ],
+  "keywords": [
+    "Genetics",
+    "Engineering",
+    "Organisms",
+    "Therapeutics"
+  ]
+}

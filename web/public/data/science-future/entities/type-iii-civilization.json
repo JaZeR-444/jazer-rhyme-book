@@ -1,0 +1,17 @@
+{
+  "id": "type-iii-civilization",
+  "type": "science-future",
+  "name": "Type III Civilization",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A civilization that can control the energy of its entire host galaxy.",
+  "tags": ["futuristic", "cosmic", "massive", "infinity"],
+  "angles": ["galactic-godhood", "infinite-scale", "civilization-as-nature"],
+  "bar_seeds": ["black hole engine", "billion stars in the pocket", "re-engineering the galaxy"],
+  "related_ids": ["kardashev-scale", "black-hole", "infinity"],
+  "field": "Futurism",
+  "hypothesis": "The ultimate stage of technological development before crossing into trans-universal power.",
+  "implications": ["Control of time and space", "Simulating universes", "Invisibility to lower civilizations"],
+  "technologies": ["Supermassive Black Hole Harvesters", "Wormhole Networks"],
+  "ethical_concerns": ["The Great Filter", "Purpose in infinite power"]
+}

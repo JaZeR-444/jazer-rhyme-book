@@ -1,0 +1,17 @@
+{
+  "id": "posthumanism",
+  "type": "philosophy-ideas",
+  "name": "Posthumanism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophical concept of a future state in which humans have evolved beyond their current physical and mental limitations.",
+  "tags": ["futuristic", "innovative", "existence", "science-future"],
+  "angles": ["beyond-man", "cyborg-evolution", "non-human-centric"],
+  "bar_seeds": ["the end of the human", "merging with the machine", "post-biological"],
+  "related_ids": ["transhumanism", "cyborgization"],
+  "school_of_thought": "Futurism",
+  "core_question": "What comes after the human era?",
+  "key_philosophers": ["Donna Haraway", "Rosie Braidotti"],
+  "paradoxes": ["The Humanist Dilemma"],
+  "modern_application": "AI ethics, robotics, biohacking, climate change discourse."
+}

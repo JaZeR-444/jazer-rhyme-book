@@ -1,0 +1,18 @@
+{
+  "id": "heat-1995",
+  "type": "cinema",
+  "name": "Heat",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.",
+  "tags": ["crime", "action", "noir", "classic"],
+  "angles": ["professionalism", "duality", "heist"],
+  "bar_seeds": ["bank heist", "pacino and de niro", "diner scene"],
+  "related_ids": ["the-dark-knight-2008"],
+  "era": "1995",
+  "plot_hooks": ["The big score", "Cat and mouse", "Personal costs"],
+  "iconic_scenes": ["Street shootout", "Coffee shop meeting", "Airport finale"],
+  "visual_motifs": ["Blue LA night", "Suits and guns", "Empty apartments"],
+  "themes": ["Obsession", "Professional code", "Loneliness"],
+  "quotables_short": ["The action is the juice.", "Don't let yourself get attached..."]
+}

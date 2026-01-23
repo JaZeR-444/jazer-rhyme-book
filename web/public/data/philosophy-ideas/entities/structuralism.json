@@ -1,0 +1,17 @@
+{
+  "id": "structuralism",
+  "type": "philosophy-ideas",
+  "name": "Structuralism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A methodology that implies elements of human culture must be understood by way of their relationship to a broader, overarching system or structure.",
+  "tags": ["logic", "technical", "intellectual", "systems"],
+  "angles": ["the-underlying-grid", "hidden-systems", "universal-patterns"],
+  "bar_seeds": ["part of the machine", "grid of the mind", "universal structures"],
+  "related_ids": ["logic", "structuralism"],
+  "school_of_thought": "Modern Social Science",
+  "core_question": "What are the universal structures that govern human culture and thought?",
+  "key_philosophers": ["Claude Lévi-Strauss", "Ferdinand de Saussure"],
+  "paradoxes": [],
+  "modern_application": "Linguistics, anthropology, systems engineering, narrative theory."
+}

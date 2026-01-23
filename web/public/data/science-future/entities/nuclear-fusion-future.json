@@ -1,0 +1,17 @@
+{
+  "id": "nuclear-fusion-future",
+  "type": "science-future",
+  "name": "Nuclear Fusion",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The process of powering the stars, harnessed on Earth to provide safe, clean, and virtually limitless energy.",
+  "tags": ["technical", "clean-energy", "innovative", "power"],
+  "angles": ["bottled-sunlight", "end-of-scarcity", "limitless-horizon"],
+  "bar_seeds": ["tokamak fire", "plasma control", "sun in a steel cage"],
+  "related_ids": ["nuclear-energy", "cold-fusion"],
+  "field": "Nuclear Physics",
+  "hypothesis": "Fusing hydrogen isotopes to release energy without long-lived radioactive waste.",
+  "implications": ["End of climate crisis", "Interstellar travel fuel", "Economic post-scarcity"],
+  "technologies": ["ITER", "Tokamaks", "Inertial Confinement"],
+  "ethical_concerns": ["Proliferation", "Control of infinite power sources"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rio-de-janeiro",
+  "type": "places",
+  "name": "Rio de Janeiro",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A city of stark contrasts, where lush mountains meet sprawling beaches and vibrant favelas.",
+  "tags": ["vibrant", "latin", "grit", "nature"],
+  "angles": ["carnival spirit", "coastal beauty", "urban survival"],
+  "bar_seeds": ["christ the redeemer", "copacabana", "funk carioca"],
+  "related_ids": ["favela", "city-of-god-2002"],
+  "place_type": "city",
+  "vibe": "Passionate, chaotic, and beautiful.",
+  "sensory_cues": ["Samba drums", "Sea salt", "Lush greens", "Concrete heat"],
+  "cultural_refs": ["Carnival", "City of God", "Funk Carioca"],
+  "bar_angles": ["Between the beach and the bricks", "Sun and survival", "Dancing through the chaos"]
+}

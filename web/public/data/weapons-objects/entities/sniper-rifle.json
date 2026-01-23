@@ -1,0 +1,17 @@
+{
+  "id": "sniper-rifle",
+  "type": "weapons-objects",
+  "name": "Sniper Rifle",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A high-precision-rifle designed for sniper missions, capable of extreme range.",
+  "tags": ["war", "precision", "technical", "stealth"],
+  "angles": ["distance", "patience", "one shot one kill"],
+  "bar_seeds": ["scope glint", "mile away", "holding the breath"],
+  "related_ids": [],
+  "weapon_type": "Firearm",
+  "range": "Long-range",
+  "damage_type": "Ballistic",
+  "symbolism": "Cold detachment, extreme skill, and unseen danger.",
+  "famous_users": ["Chris Kyle", "Simo Häyhä"]
+}

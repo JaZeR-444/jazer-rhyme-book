@@ -1,0 +1,18 @@
+{
+  "id": "sp-1200",
+  "type": "writing-tool",
+  "name": "E-mu SP-1200",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary sampler known for its gritty 12-bit sound and limited sampling time, shaping the sound of 90s NYC rap.",
+  "tags": ["tool", "vintage", "music", "lo-fi"],
+  "angles": ["grit", "limitation", "warmth"],
+  "bar_seeds": ["12-bit grit", "sp-1200 crunch", "ten seconds of sampling"],
+  "related_ids": ["akai-mpc"],
+  "category": "Hardware",
+  "what_it_does": "Samples audio at a low bit rate, imparting a distinct sonic texture.",
+  "best_for": ["gritty hip hop", "house music", "drums"],
+  "workflow_hooks": ["Pitch down samples to save memory", "Filter the bass"],
+  "pitfalls": ["Extremely expensive now", "Very limited features"],
+  "bar_angles": ["Digital crunch", "Artifacts of soul", "Golden era dust"]
+}

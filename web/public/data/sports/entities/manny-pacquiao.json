@@ -1,0 +1,19 @@
+{
+  "id": "manny-pacquiao",
+  "type": "sports",
+  "name": "Manny Pacquiao",
+  "aliases": ["Pacman"],
+  "era": "1990s-2020s",
+  "tags": ["boxing", "vibrant", "resilience", "global"],
+  "one_liner": "The only eight-division world champion in the history of boxing and a national hero in the Philippines.",
+  "angles": ["relentless-volume", "eight-weight-king", "national-icon"],
+  "bar_seeds": ["pacman fever", "left hand hammer", "manila nights"],
+  "related_ids": ["boxing-sport", "floyd-mayweather"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Speed", "Volume punching", "Angles"],
+  "equipment": ["Boxing gloves (Cleto Reyes)"],
+  "metaphors": ["Pacman"],
+  "legends": ["8-division World Champion", "Fighter of the Decade"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

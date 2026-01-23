@@ -1,0 +1,22 @@
+{
+  "Future": [
+    "artificial-general-intelligence",
+    "singularity",
+    "space-colonization",
+    "terraforming"
+  ],
+  "Present-Future": [
+    "cyborgization",
+    "genetic-engineering",
+    "life-extension"
+  ],
+  "Distant Future": [
+    "dyson-sphere"
+  ],
+  "Universal": [
+    "entropy"
+  ],
+  "20th Century-Future": [
+    "nanotechnology"
+  ]
+}

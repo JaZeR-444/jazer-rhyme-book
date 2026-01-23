@@ -1,0 +1,17 @@
+{
+  "id": "era",
+  "type": "time-energy",
+  "name": "Era",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A long and distinct period of history with a particular feature or characteristic.",
+  "tags": ["legacy", "history", "classic", "contemporary"],
+  "angles": ["period", "dominance", "transition"],
+  "bar_seeds": ["end of a reign", "new chapter", "defining the age"],
+  "related_ids": ["the-past", "the-present", "the-future"],
+  "concept_type": "Temporal/Categorization",
+  "perception": "Significant, defining, and slow-moving.",
+  "physics_basis": "Chronological division.",
+  "cultural_view": "Used to group styles, people, and events into coherent blocks (e.g., 'Golden Era').",
+  "idioms": ["End of an era", "A new age", "Sign of the times"]
+}

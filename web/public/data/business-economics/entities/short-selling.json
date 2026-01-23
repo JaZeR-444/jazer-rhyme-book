@@ -1,0 +1,17 @@
+{
+  "id": "short-selling",
+  "type": "business-economics",
+  "name": "Short Selling",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The sale of an asset that the seller has borrowed, with the intent of buying it back later at a lower price.",
+  "tags": ["strategy", "risk", "stock-market", "aggressive"],
+  "angles": ["betting-on-failure", "profit-from-chaos", "market-pessimism"],
+  "bar_seeds": ["shorting the market", "hoping for the crash", "unlimited risk"],
+  "related_ids": ["bear-market", "stock-market"],
+  "industry": "Finance / Trading",
+  "core_principle": "Profiting from price decline.",
+  "jargon": ["Short squeeze", "Borrow rate", "Margin call"],
+  "key_metrics": ["Short Interest", "Days to Cover"],
+  "archetypes": ["Short Seller", "Contrarian"]
+}

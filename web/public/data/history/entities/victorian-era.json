@@ -1,0 +1,17 @@
+{
+  "id": "victorian-era",
+  "type": "history",
+  "name": "Victorian Era",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The period of Queen Victoria's reign, characterized by industrial expansion, rigid morality, and class distinction.",
+  "tags": ["classic", "industrial", "vintage", "history"],
+  "angles": ["morality", "industrial-might", "steampunk-roots"],
+  "bar_seeds": ["london fog", "top hat and cane", "industrial shadows"],
+  "related_ids": ["steampunk"],
+  "key_dates": ["1837", "1901"],
+  "location": "British Empire / Global",
+  "impact": "Height of the Industrial Revolution and the global reach of the British Empire.",
+  "major_figures": ["Queen Victoria", "Charles Dickens", "Charles Darwin"],
+  "cultural_shift": "The tension between strict social codes and radical scientific/industrial progress."
+}

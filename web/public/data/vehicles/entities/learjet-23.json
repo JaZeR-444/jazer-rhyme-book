@@ -1,0 +1,17 @@
+{
+  "id": "learjet-23",
+  "type": "vehicles",
+  "name": "Learjet 23",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pioneer of the private business jet industry.",
+  "tags": ["vintage", "luxury", "speed", "classic"],
+  "angles": ["pioneer", "speed", "executive"],
+  "bar_seeds": ["learjet lifestyle", "flying executive", "fighter jet DNA"],
+  "related_ids": [],
+  "vehicle_type": "Private Jet",
+  "engine_type": "Turbojet",
+  "top_speed": "561 mph",
+  "cultural_status": "The original symbol of corporate success.",
+  "design_features": ["Tip tanks", "T-tail", "Small cabin"]
+}

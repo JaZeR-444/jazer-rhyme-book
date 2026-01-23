@@ -1,0 +1,20 @@
+{
+  "id": "nanotechnology",
+  "type": "science-future",
+  "name": "Nanotechnology",
+  "aliases": ["Nano", "Molecular Engineering"],
+  "era": "20th Century-Future",
+  "tags": ["tech", "future", "miniature", "science"],
+  "one_liner": "The manipulation of matter on an atomic, molecular, and supramolecular scale.",
+  "angles": ["tiny machines building the world", "unseen power", "grey goo disaster"],
+  "bar_seeds": ["molecular bots", "rearranging the atoms", "nano-machines in the blood", "invisible strength"],
+  "field": "Physics / Chemistry / Engineering",
+  "hypothesis": "That we can build machines and materials from the atom up.",
+  "implications": ["Revolutionary medicine", "Super-materials", "Total manufacturing control"],
+  "technologies": ["Nanorobotics", "Carbon nanotubes"],
+  "ethical_concerns": ["Weaponization", "Self-replication risks (Grey Goo)", "Health impacts of particles"],
+  "related_ids": ["tech"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

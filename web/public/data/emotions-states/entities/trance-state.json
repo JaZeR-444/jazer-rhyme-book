@@ -1,0 +1,18 @@
+{
+  "id": "trance-state",
+  "type": "emotions-states",
+  "name": "Trance",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A half-conscious state characterized by an absence of response to external stimuli, typically induced by hypnosis or ritual.",
+  "tags": ["esoteric", "mellow", "spiritual", "rhythmic"],
+  "angles": ["ritual-rhythm", "out-of-body", "the-inner-depths"],
+  "bar_seeds": ["swaying to the drum", "eyes rolled back", "lost in the frequency"],
+  "related_ids": ["resonance", "vibration", "zen"],
+  "intensity": "Moderate-High",
+  "physical_symptoms": ["Fixed gaze", "Slowed pulse", "Repetitive motion"],
+  "triggers": ["Repetitive beats", "Meditation", "Flickering lights", "Extreme focus"],
+  "action_urge": "To surrender the ego and remain in the flow.",
+  "opposites": ["Alertness", "Scrutiny", "Distraction"],
+  "related_ids": ["flow-state", "ecstasy"]
+}

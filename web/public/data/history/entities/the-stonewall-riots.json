@@ -1,0 +1,17 @@
+{
+  "id": "the-stonewall-riots",
+  "type": "history",
+  "name": "The Stonewall Riots",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A series of spontaneous demonstrations by members of the LGBTQ+ community in response to a police raid at the Stonewall Inn.",
+  "tags": ["rebellion", "social", "history", "identity"],
+  "angles": ["the-first-brick", "reclaiming-identity", "underground-rising"],
+  "bar_seeds": ["stonewall inn", "pride from the rubble", "fighting the raid"],
+  "related_ids": ["rebellion", "civil-rights-movement"],
+  "key_dates": ["June 28, 1969"],
+  "location": "New York City (Greenwich Village)",
+  "impact": "The single most important event leading to the gay liberation movement and the modern fight for LGBTQ+ rights.",
+  "major_figures": ["Marsha P. Johnson", "Sylvia Rivera"],
+  "cultural_shift": "The transition from hidden subculture to public political movement."
+}

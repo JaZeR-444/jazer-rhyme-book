@@ -1,0 +1,17 @@
+{
+  "id": "space-elevator",
+  "type": "science-future",
+  "name": "Space Elevator",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A proposed type of planet-to-space transportation system using a cable reaching from the surface into orbit.",
+  "tags": ["futuristic", "technical", "massive", "transport"],
+  "angles": ["climbing-to-orbit", "cheap-access-to-stars", "megastructure-peak"],
+  "bar_seeds": ["riding the beanstalk", "cable to the stars", "vertical highway"],
+  "related_ids": ["skyscraper", "nanotechnology"],
+  "field": "Aerospace Engineering",
+  "hypothesis": "A cable made of carbon nanotubes can be strong enough to support an elevator to geostationary orbit.",
+  "implications": ["Collapse of launch costs", "Rapid colonization", "Orbit-based industry"],
+  "technologies": ["Carbon Nanotubes", "Graphene", "Laser Propulsion"],
+  "ethical_concerns": ["Vulnerability to terrorism", "Monopoly over space access"]
+}

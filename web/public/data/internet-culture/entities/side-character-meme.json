@@ -1,0 +1,18 @@
+{
+  "id": "side-character-meme",
+  "type": "internet-culture",
+  "name": "Side Character",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Living life as an observer or a background figure, the opposite of having 'Main Character Energy'.",
+  "tags": ["contemporary", "satirical", "cinematic", "pop"],
+  "angles": ["observation", "invisibility", "contentment"],
+  "bar_seeds": ["just in the background", "not my plot line", "watching the star shine"],
+  "related_ids": ["main-character-energy", "npc-meme"],
+  "format": "Conceptual Meme",
+  "origin_platform": "TikTok / Twitter",
+  "meaning": "Accepting a role that isn't the focus; often used to mock oneself or highlight a lack of agency.",
+  "remix_rules": ["Background focus", "Avoidance of drama", "Narrating others' lives"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["I'm just a side character in my own movie", "Background noise, watching the main lead crash out"]
+}

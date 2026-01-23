@@ -1,0 +1,17 @@
+{
+  "id": "tomahawk",
+  "type": "weapons-objects",
+  "name": "Tomahawk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A light axe used as a tool or weapon by Indigenous peoples of North America.",
+  "tags": ["war", "grit", "history", "raw"],
+  "angles": ["throwing", "chopping", "warrior"],
+  "bar_seeds": ["spinning axe", "bury the hatchet", "war paint"],
+  "related_ids": ["machete"],
+  "weapon_type": "Axe",
+  "range": "Thrown / Melee",
+  "damage_type": "Slashing",
+  "symbolism": "Warrior spirit, versatility, and historical conflict.",
+  "famous_users": ["Native American Warriors", "Modern Special Forces"]
+}

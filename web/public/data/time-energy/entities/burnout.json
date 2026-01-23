@@ -1,0 +1,17 @@
+{
+  "id": "burnout",
+  "type": "time-energy",
+  "name": "Burnout",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The state of physical or emotional exhaustion involving a sense of reduced accomplishment.",
+  "tags": ["exhaustion", "dark", "hustle", "anxiety"],
+  "angles": ["fatigue", "extinguishment", "limit"],
+  "bar_seeds": ["wick burned out", "empty tank", "running on zero"],
+  "related_ids": ["potential-energy", "entropy"],
+  "concept_type": "Psychological/Energy",
+  "perception": "Drained, cynical, and ineffective.",
+  "physics_basis": "Metaphorical extension of material failure.",
+  "cultural_view": "The dark side of 'hustle culture' and constant productivity.",
+  "idioms": ["Burned out", "Running on empty", "Flame extinguished"]
+}

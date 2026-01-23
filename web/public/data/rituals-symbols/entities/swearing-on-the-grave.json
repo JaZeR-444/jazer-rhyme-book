@@ -1,0 +1,17 @@
+{
+  "id": "swearing-on-the-grave",
+  "type": "rituals-symbols",
+  "name": "Swearing on the Grave",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A powerful vow made using the memory or physical location of a deceased loved one as a guarantee of truth.",
+  "tags": ["ritual", "dark", "legacy", "classic"],
+  "angles": ["ancestral-oath", "unbreakable-vow", "deathly-witness"],
+  "bar_seeds": ["on my mama's grave", "swearing on the ancestors", "truth beyond the soil"],
+  "related_ids": ["legacy", "the-past"],
+  "purpose": "To provide the ultimate guarantee of truth or commitment.",
+  "steps": ["Placement of hand on tombstone (optional)", "Verbal invocation", "Deep emotional intent"],
+  "objects_used": ["Grave", "Tombstone", "Sacred Ground"],
+  "participants": "Vow-taker, Witness",
+  "outcome": "Maximal social and personal commitment to an oath."
+}

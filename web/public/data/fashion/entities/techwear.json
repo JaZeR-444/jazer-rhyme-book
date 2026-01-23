@@ -1,0 +1,56 @@
+{
+  "id": "techwear",
+  "type": "fashion",
+  "name": "Techwear",
+  "aliases": [
+    "Technical streetwear"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "technical",
+    "futuristic",
+    "streetwear",
+    "contemporary"
+  ],
+  "one_liner": "Functional, weather-ready streetwear with a sleek, tactical edge.",
+  "angles": [
+    "urban armor",
+    "utility meets style",
+    "stealth silhouette"
+  ],
+  "bar_seeds": [
+    "zips and straps",
+    "stormproof fit",
+    "night runner look"
+  ],
+  "item_type": "Outerwear/Streetwear",
+  "material": [
+    "Nylon",
+    "Gore-Tex",
+    "Ripstop"
+  ],
+  "cultural_significance": "Blends outdoor function with futuristic city style.",
+  "fit": [
+    "Slim",
+    "Layered"
+  ],
+  "associated_brands": [
+    "Nike",
+    "Adidas",
+    "Acronym"
+  ],
+  "related_ids": [
+    "streetwear",
+    "athleisure"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Techwear",
+      "url": "https://en.wikipedia.org/wiki/Techwear",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

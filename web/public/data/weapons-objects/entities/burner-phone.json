@@ -1,0 +1,17 @@
+{
+  "id": "burner-phone",
+  "type": "weapons-objects",
+  "name": "Burner Phone",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A cheap, disposable mobile phone used to maintain anonymity.",
+  "tags": ["grit", "underground", "technical", "symbolic-object"],
+  "angles": ["disposability", "secrecy", "low-tech"],
+  "bar_seeds": ["flip it and clip it", "throw it in the river", "prepaid minutes"],
+  "related_ids": [],
+  "weapon_type": "Communication",
+  "range": "Global",
+  "damage_type": "Information",
+  "symbolism": "Ephemeral connections, criminal pragmatism, and untraceable presence.",
+  "famous_users": ["The Wire characters", "Street hustlers"]
+}

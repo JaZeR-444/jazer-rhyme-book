@@ -1,0 +1,17 @@
+{
+  "id": "wormhole",
+  "type": "science-future",
+  "name": "Wormhole",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A speculative structure linking disparate points in spacetime, based on a special solution of the Einstein field equations.",
+  "tags": ["speed", "futuristic", "sci-fi", "technical"],
+  "angles": ["shortcuts through space", "folding reality", "temporal bridges"],
+  "bar_seeds": ["folding the map", "jump through the throat", "instant arrival"],
+  "related_ids": ["black-hole", "the-speed-of-light"],
+  "field": "Theoretical Physics",
+  "hypothesis": "Spacetime can be warped to connect two distant points directly.",
+  "implications": ["Interstellar travel", "Time travel (theoretical)", "Cosmic connectivity"],
+  "technologies": ["Wormhole Generators (Speculative)"],
+  "ethical_concerns": ["Causality violations", "Unstable gateways"]
+}

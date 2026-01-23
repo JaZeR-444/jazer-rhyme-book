@@ -1,0 +1,17 @@
+{
+  "id": "anti-gravity",
+  "type": "science-future",
+  "name": "Anti-gravity",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A hypothetical technology that would allow an object to be free from the influence of gravity.",
+  "tags": ["futuristic", "speed", "sci-fi", "technical"],
+  "angles": ["weightlessness", "redefining-transport", "defying-nature"],
+  "bar_seeds": ["lifting off the ground", "no wings needed", "zero G flow"],
+  "related_ids": ["gravity-force", "space-travel"],
+  "field": "Theoretical Physics",
+  "hypothesis": "Mass can be shielded or gravity can be reversed using exotic matter or fields.",
+  "implications": ["Silent, efficient travel", "Megastructure construction", "Deep space mobility"],
+  "technologies": ["Electrogravitics", "Exotic Matter (Theoretical)"],
+  "ethical_concerns": ["Weaponization", "Unregulated atmospheric traffic"]
+}

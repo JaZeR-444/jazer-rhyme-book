@@ -1,0 +1,20 @@
+{
+  "id": "tiktok",
+  "type": "media-platforms",
+  "name": "TikTok",
+  "aliases": ["Douyin"],
+  "era": "2010s-Present",
+  "tags": ["social-media", "short-form-video", "viral", "gen-z"],
+  "one_liner": "A short-form video hosting service known for its powerful algorithm and viral trends.",
+  "angles": ["15 seconds of fame", "the infinite scroll", "algorithmic destiny"],
+  "bar_seeds": ["tiktok dance", "going viral", "for you page", "sound bite"],
+  "platform_type": "Video Hosting / Social",
+  "user_demographic": "Predominantly Gen Z",
+  "content_format": ["Short-form video", "Live streams"],
+  "algorithm_bias": "User interest and watch time (highly addictive)",
+  "slang": ["FYP", "POV", "Cap", "Simp"],
+  "related_ids": ["viral", "internet-culture"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

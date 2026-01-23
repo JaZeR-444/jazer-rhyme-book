@@ -1,0 +1,17 @@
+{
+  "id": "caduceus",
+  "type": "rituals-symbols",
+  "name": "Caduceus",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The staff carried by Hermes in Greek mythology, featuring two snakes winding around a winged staff.",
+  "tags": ["classic", "technical", "medical", "mythology"],
+  "angles": ["healing", "trade", "negotiation"],
+  "bar_seeds": ["winged staff", "twin snakes", "messenger of gold"],
+  "related_ids": ["hermes"],
+  "purpose": "To symbolize commerce, negotiation, and more recently, medicine.",
+  "steps": ["None (Symbolic usage)"],
+  "objects_used": ["Staff", "Snake imagery", "Wings"],
+  "participants": "Messenger, Doctor, Trader",
+  "outcome": "Authority and recognized status in trade or healing."
+}

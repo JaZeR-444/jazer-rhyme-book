@@ -1,0 +1,20 @@
+{
+  "id": "nostalgia",
+  "type": "emotions-states",
+  "name": "Nostalgia",
+  "aliases": ["Homesickness", "The Good Old Days"],
+  "era": "Universal",
+  "tags": ["positive", "negative", "low-energy", "reflective", "past"],
+  "one_liner": "A sentimental longing or wistful affection for the past, typically for a period or place with happy personal associations.",
+  "angles": ["rose-tinted glasses", "the pain of returning", "lost futures"],
+  "bar_seeds": ["polaroid dreams", "looking back in the mirror", "the smell of the past", "yesterday's heat"],
+  "intensity": "Moderate",
+  "physical_symptoms": ["Aching chest", "Lump in the throat", "Soft smile", "Mist in the eyes"],
+  "triggers": ["Old music", "Photos", "Visiting home", "Smells"],
+  "action_urge": "To remember, to revisit, to create",
+  "opposites": ["Anticipation", "Focus on future"],
+  "related_ids": ["lo-fi", "vaporwave"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

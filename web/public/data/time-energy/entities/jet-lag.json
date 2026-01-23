@@ -1,0 +1,17 @@
+{
+  "id": "jet-lag",
+  "type": "time-energy",
+  "name": "Jet Lag",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The disruption of body rhythms caused by rapid travel across time zones.",
+  "tags": ["fleeting", "global", "technical", "anxiety"],
+  "angles": ["disorientation", "travel", "biological-clock"],
+  "bar_seeds": ["waking up in London", "body in a different zone", "sunlight at 2 AM"],
+  "related_ids": ["the-present"],
+  "concept_type": "Biological/Temporal",
+  "perception": "Drowsy, confused, and physically out of sync with the environment.",
+  "physics_basis": "Circadian rhythm desynchronization.",
+  "cultural_view": "A status symbol of the global traveler, but a physical burden.",
+  "idioms": ["Running on fumes", "Out of sync", "Time traveler's fatigue"]
+}

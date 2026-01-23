@@ -1,0 +1,20 @@
+{
+  "id": "space-colonization",
+  "type": "science-future",
+  "name": "Space Colonization",
+  "aliases": ["Multi-planetary Species", "Mars Colony"],
+  "era": "Future",
+  "tags": ["space", "future", "survival", "expansion"],
+  "one_liner": "The hypothetical permanent human habitation and exploitation of natural resources outside of Earth.",
+  "angles": ["becoming a multi-planetary species", "escaping the cradle", "the new frontier"],
+  "bar_seeds": ["red dust on boots", "domed cities", "stars within reach", "earth-rise from mars"],
+  "field": "Aerospace / Sociology / Ecology",
+  "hypothesis": "Humanity must expand beyond Earth to ensure long-term survival.",
+  "implications": ["Preservation of species", "New resource economies", "Physical and cultural evolution"],
+  "technologies": ["Starship", "Terraforming", "Life support systems"],
+  "ethical_concerns": ["Environmental impact on other planets", "Social inequality in space", "Resource ownership"],
+  "related_ids": ["science-future"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

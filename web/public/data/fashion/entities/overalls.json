@@ -1,0 +1,19 @@
+{
+  "id": "overalls",
+  "type": "fashion",
+  "name": "Overalls",
+  "aliases": ["Dungarees", "Bib-and-Brace"],
+  "era": "18th Century-Present (Modern 1990s)",
+  "tags": ["workwear", "90s", "grit", "americana"],
+  "one_liner": "A type of garment which is usually used as protective clothing when working, consisting of trousers with a bib and shoulder straps.",
+  "angles": ["workwear-utility", "90s-hip-hop-style", "one-strap-down"],
+  "bar_seeds": ["denim bib", "one strap hanging", "painter's white"],
+  "related_ids": ["workwear", "carhartt-wip"],
+  "item_type": "Bottoms / Full-Body",
+  "material": ["Denim", "Duck Canvas", "Cotton"],
+  "cultural_significance": "Transitioned from farm/factory wear to a 90s hip-hop staple (TLC, Will Smith).",
+  "fit": ["Baggy", "Loose"],
+  "associated_brands": ["Carhartt", "OshKosh B'gosh", "Supreme"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

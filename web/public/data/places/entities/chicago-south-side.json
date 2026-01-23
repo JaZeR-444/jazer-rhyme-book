@@ -1,0 +1,52 @@
+{
+  "id": "chicago-south-side",
+  "type": "place",
+  "name": "South Side Chicago",
+  "aliases": [
+    "Chiraq",
+    "South Side"
+  ],
+  "era": "1990s-Present",
+  "tags": [
+    "chicago",
+    "drill",
+    "politics",
+    "survival"
+  ],
+  "one_liner": "The heart of Chicago's drill music scene and a region marked by intense creativity and conflict.",
+  "angles": [
+    "the frozen struggle",
+    "drill or be drilled",
+    "political corruption"
+  ],
+  "bar_seeds": [
+    "chiraq demons",
+    "south side winters",
+    "posted on the block"
+  ],
+  "vibe": "Cold, gritty, fast-paced, and soulful",
+  "sensory_cues": [
+    "lake wind",
+    "elevated trains",
+    "potholes",
+    "street murals"
+  ],
+  "cultural_refs": [
+    "Chief Keef",
+    "Kanye West",
+    "Common"
+  ],
+  "bar_angles": [
+    "south side soldier",
+    "cold wind blowing through the chi"
+  ],
+  "related_ids": [
+    "opp",
+    "sliding",
+    "kanye-west"
+  ],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": [],
+  "place_type": "district"
+}

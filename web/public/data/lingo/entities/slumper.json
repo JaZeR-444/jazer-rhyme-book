@@ -1,0 +1,18 @@
+{
+  "id": "slumper",
+  "type": "lingo",
+  "name": "Slumper",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A song with heavy bass that 'slumps' or hits hard.",
+  "tags": ["slang", "bay-area", "music", "positive"],
+  "angles": ["bass-impact", "audio-quality", "vibration"],
+  "bar_seeds": ["certified slumper", "slumping in the trunk", "trunk rattle"],
+  "related_ids": ["slaps"],
+  "meaning": "A track with massive bass impact.",
+  "usage": "Referring to a high-energy, bass-heavy song.",
+  "origin": "Bay Area Hip Hop",
+  "region": "West Coast",
+  "example_lines": ["Turn that up, it's a slumper", "System slumping through the town"],
+  "do_not_use_if": ["The song has no bass"]
+}

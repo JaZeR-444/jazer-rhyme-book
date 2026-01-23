@@ -1,0 +1,18 @@
+{
+  "id": "bomber-jacket",
+  "type": "fashion",
+  "name": "Bomber Jacket",
+  "aliases": ["MA-1", "Flight Jacket"],
+  "era": "1950s-Present",
+  "tags": ["streetwear", "classic", "industrial", "utility"],
+  "one_liner": "Originally designed for military pilots, the bomber became a versatile staple of street culture and skinhead subculture.",
+  "angles": ["military utility", "nylon sheen", "subcultural uniform"],
+  "bar_seeds": ["orange lining", "utility pocket", "ribbed cuffs"],
+  "item_type": "Outerwear",
+  "material": ["Nylon", "Satin", "Polyester"],
+  "cultural_significance": "Adopted by various subcultures including punks, skinheads, and hip-hop artists.",
+  "fit": ["Boxy", "Puffy"],
+  "associated_brands": ["Alpha Industries", "Rick Owens", "Raf Simons"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

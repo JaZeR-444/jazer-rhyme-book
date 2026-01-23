@@ -1,0 +1,20 @@
+{
+  "id": "mike-tyson",
+  "type": "sports",
+  "name": "Mike Tyson",
+  "aliases": ["Iron Mike", "The Baddest Man on the Planet"],
+  "era": "1980s-2000s",
+  "tags": ["boxing", "power", "aggressive", "heavyweight"],
+  "one_liner": "One of the most intimidating and powerful heavyweight boxers in history.",
+  "angles": ["explosive violence", "fear as a weapon", "redemption after chaos"],
+  "bar_seeds": ["iron mike", "uppercut from hell", "baddest man on the planet", "face tattoo"],
+  "team_size": "1 (Boxing)",
+  "key_skills": ["Punching power", "Speed", "Intimidation", "Peek-a-boo style"],
+  "equipment": ["Boxing gloves", "Black trunks"],
+  "metaphors": ["Iron Mike", "A wrecking ball"],
+  "legends": ["Youngest Heavyweight Champion"],
+  "related_ids": ["muhammad-ali"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

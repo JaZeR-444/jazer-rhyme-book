@@ -1,0 +1,20 @@
+{
+  "id": "sanctuary",
+  "type": "architecture-spaces",
+  "name": "Sanctuary",
+  "aliases": ["Refuge", "Haven", "Safe House"],
+  "era": "Universal",
+  "tags": ["safe", "sacred", "private", "peaceful"],
+  "one_liner": "A place of refuge or safety; a sacred place.",
+  "angles": ["escaping the storm", "the private world", "unshakeable peace"],
+  "bar_seeds": ["locked doors", "quiet walls", "hidden haven", "sacred space"],
+  "style": "Varies (Minimalist, Traditional, etc.)",
+  "materials": ["Wood", "Stone", "Soft textiles"],
+  "spatial_qualities": ["Enclosed", "Quiet", "Intimate"],
+  "function": "Refuge / Worship / Privacy",
+  "famous_examples": ["Sanctuary of Apollo", "Nature preserves", "The Home"],
+  "related_ids": ["zen"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

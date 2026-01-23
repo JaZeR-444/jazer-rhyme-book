@@ -1,0 +1,61 @@
+{
+  "id": "stephen-curry",
+  "type": "sports",
+  "name": "Stephen Curry",
+  "aliases": [
+    "Steph Curry",
+    "Chef Curry"
+  ],
+  "era": "2000s-2020s",
+  "tags": [
+    "championship",
+    "athlete",
+    "clutch",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "NBA guard who reshaped the game with long-range shooting and off-ball movement.",
+  "angles": [
+    "three-point revolution",
+    "off-ball gravity",
+    "calm assassin"
+  ],
+  "bar_seeds": [
+    "logo threes",
+    "splash like the bay",
+    "chef with the handle"
+  ],
+  "team_size": "5 (Basketball)",
+  "key_skills": [
+    "Deep shooting",
+    "Off-ball movement",
+    "Ball handling"
+  ],
+  "equipment": [
+    "Basketball",
+    "Sneakers"
+  ],
+  "metaphors": [
+    "long-range sniper",
+    "gravity pull"
+  ],
+  "legends": [
+    "Multiple NBA titles",
+    "Changed the three-point era"
+  ],
+  "related_ids": [
+    "lebron-james",
+    "michael-jordan",
+    "kobe-bryant"
+  ],
+  "created_at": "2026-01-06T14:00:00Z",
+  "updated_at": "2026-01-06T14:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Curry",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

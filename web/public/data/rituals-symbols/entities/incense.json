@@ -1,0 +1,17 @@
+{
+  "id": "incense",
+  "type": "rituals-symbols",
+  "name": "Incense",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Aromatic biotic material that releases fragrant smoke when burnt, used in religious and aesthetic practices.",
+  "tags": ["ritual", "purification", "spiritual", "mellow"],
+  "angles": ["atmosphere", "cleansing", "prayer"],
+  "bar_seeds": ["smoke rising high", "sandalwood scent", "fading into the air"],
+  "related_ids": ["purification"],
+  "purpose": "To purify a space, aid meditation, or symbolize prayers rising to the divine.",
+  "steps": ["Lighting the material", "Extinguishing the flame", "Wafting the smoke"],
+  "objects_used": ["Sage", "Frankincense", "Censer", "Matches"],
+  "participants": "Practitioner, Community",
+  "outcome": "Atmospheric transformation and spiritual focus."
+}

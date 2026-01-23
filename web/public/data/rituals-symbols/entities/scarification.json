@@ -1,0 +1,17 @@
+{
+  "id": "scarification",
+  "type": "rituals-symbols",
+  "name": "Scarification",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The practice of etching, burning, or branding designs, pictures, or words into the skin as a permanent ritual mark.",
+  "tags": ["ritual", "grit", "raw", "identity"],
+  "angles": ["pain-as-rite", "ancestral-marking", "the-body-as-testimony"],
+  "bar_seeds": ["marked by the blade", "raised scars", "paying the price in blood"],
+  "related_ids": ["tattoo", "initiation"],
+  "purpose": "To signify tribal belonging, social status, or personal strength.",
+  "steps": ["Cutting or branding the skin", "Irritating the wound to ensure scarring", "Healing"],
+  "objects_used": ["Blade", "Brand", "Ash"],
+  "participants": "Practitioner, Initiate",
+  "outcome": "Permanent, textured physical identity."
+}

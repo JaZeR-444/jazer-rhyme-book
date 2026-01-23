@@ -1,0 +1,17 @@
+{
+  "id": "pagoda",
+  "type": "architecture-spaces",
+  "name": "Pagoda",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A tiered tower with multiple eaves, common in East Asia and often used for religious functions.",
+  "tags": ["classic", "spiritual", "asian", "aesthetic"],
+  "angles": ["balance", "ascent", "tradition"],
+  "bar_seeds": ["curved roofs", "climbing the tower", "eastern wind"],
+  "related_ids": [],
+  "style": "Traditional East Asian",
+  "materials": ["Wood", "Tile", "Brick"],
+  "spatial_qualities": ["Vertical", "Tiered", "Symmetrical"],
+  "function": "Religious / Monument",
+  "famous_examples": ["Five-Story Pagoda", "Shwedagon Pagoda"]
+}

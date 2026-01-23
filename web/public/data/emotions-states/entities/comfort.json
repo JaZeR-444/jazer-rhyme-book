@@ -1,0 +1,18 @@
+{
+  "id": "comfort",
+  "type": "emotions-states",
+  "name": "Comfort",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A state of physical ease and freedom from pain or constraint.",
+  "tags": ["positive", "mellow", "safety", "home"],
+  "angles": ["safe-harbor", "soft-landing", "easiness"],
+  "bar_seeds": ["sinking into the chair", "no more weight", "warmth in the cold"],
+  "related_ids": ["hygge", "contentment"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Muscle relaxation", "Slow breathing", "Lowered heart rate"],
+  "triggers": ["Safe environments", "Familiarity", "Relief of pain"],
+  "action_urge": "To remain in the current state and relax.",
+  "opposites": ["Discomfort", "Agony", "Stress"],
+  "related_ids": ["contentment", "relief"]
+}

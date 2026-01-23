@@ -1,0 +1,17 @@
+{
+  "id": "hades",
+  "type": "mythology-legend",
+  "name": "Hades",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The Greek god of the dead and the king of the underworld, often misunderstood as evil.",
+  "tags": ["dark", "classic", "legacy", "mythology"],
+  "angles": ["death", "wealth", "judgment"],
+  "bar_seeds": ["underworld king", "river styx", "riches of the earth"],
+  "related_ids": ["zeus", "cerberus"],
+  "origin_culture": "Greek",
+  "deity_type": "God",
+  "powers": ["Invisibility (Helm of Darkness)", "Control over the dead", "Earthly riches"],
+  "symbols": ["Helm", "Bident", "Cerberus"],
+  "modern_parallels": ["The Devil (incorrectly)", "Goth Culture", "Mining Tycoons"]
+}

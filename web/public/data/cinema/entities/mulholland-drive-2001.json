@@ -1,0 +1,18 @@
+{
+  "id": "mulholland-drive-2001",
+  "type": "cinema",
+  "name": "Mulholland Drive",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles.",
+  "tags": ["surreal", "noir", "psychological", "art"],
+  "angles": ["hollywood-nightmare", "dream-logic", "identity-fragmentation"],
+  "bar_seeds": ["silencio", "blue key", "mulholland drive winding"],
+  "related_ids": ["dreamcore", "hollywood"],
+  "era": "2001",
+  "plot_hooks": ["The car crash", "The blue box", "The theater Silencio"],
+  "iconic_scenes": ["The Winkie's diner scene", "Llorando at Silencio", "The box opening"],
+  "visual_motifs": ["Blue box", "Winding roads", "Red curtains"],
+  "themes": ["Dreams vs Reality", "Hollywood corruption", "Identity"],
+  "quotables_short": ["No hay banda.", "Silencio."]
+}

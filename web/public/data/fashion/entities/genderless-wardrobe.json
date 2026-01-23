@@ -1,0 +1,56 @@
+{
+  "id": "genderless-wardrobe",
+  "type": "fashion",
+  "name": "Genderless Wardrobe",
+  "aliases": [
+    "Unisex style"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "contemporary",
+    "minimalist",
+    "rebellion",
+    "trend"
+  ],
+  "one_liner": "Clothing designed without strict gendered silhouettes or labels.",
+  "angles": [
+    "identity freedom",
+    "neutral silhouettes",
+    "style without labels"
+  ],
+  "bar_seeds": [
+    "no labels in the closet",
+    "fit is the language",
+    "neutral drip"
+  ],
+  "item_type": "Wardrobe Style",
+  "material": [
+    "Cotton",
+    "Denim",
+    "Wool"
+  ],
+  "cultural_significance": "Challenges traditional gender norms in fashion.",
+  "fit": [
+    "Straight",
+    "Relaxed"
+  ],
+  "associated_brands": [
+    "Telfar",
+    "Uniqlo",
+    "COS"
+  ],
+  "related_ids": [
+    "gender-fluid-fashion",
+    "minimal-sneaker"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Unisex",
+      "url": "https://en.wikipedia.org/wiki/Unisex",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

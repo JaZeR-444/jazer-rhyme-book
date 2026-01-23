@@ -1,0 +1,20 @@
+{
+  "id": "serena-williams",
+  "type": "people",
+  "name": "Serena Williams",
+  "aliases": ["Serena", "S. Williams", "Queen of Tennis"],
+  "era": "1990s-Present",
+  "tags": ["tennis", "dominance", "grace", "power", "mother"],
+  "one_liner": "The tennis champion who redefined power and grace on the court while breaking barriers.",
+  "angles": ["dominant athlete", "mother returning", "grace under pressure"],
+  "bar_seeds": ["23 Grand Slams", "Comeback queen", "Motherhood", "Fashion"],
+  "known_for": ["Grand Slam titles", "Powerful serve", "Comeback wins"],
+  "vibe": "Powerful, graceful, determined",
+  "signature_items": ["Tennis dress", "Powerful serve", "Tennis jewelry"],
+  "quotables_short": ["I really think a champion is defined not by their wins but by how they can recover when they fall", "I've had to learn to fight all my life"],
+  "controversy_flags": ["Umpire disputes", "Maternal health"],
+  "related_ids": ["venus-williams", "maria-sharapova"],
+  "created_at": "2025-12-23T11:00:00Z",
+  "updated_at": "2025-12-23T11:00:00Z",
+  "sources": []
+}

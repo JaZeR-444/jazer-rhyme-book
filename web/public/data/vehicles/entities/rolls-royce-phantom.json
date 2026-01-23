@@ -1,0 +1,20 @@
+{
+  "id": "rolls-royce-phantom",
+  "type": "vehicles",
+  "name": "Rolls-Royce Phantom",
+  "aliases": ["Rolls", "Phantom"],
+  "era": "1920s-Present",
+  "tags": ["luxury-car", "status", "british", "comfort"],
+  "one_liner": "The absolute pinnacle of automotive luxury and a symbol of ultimate success.",
+  "angles": ["floating on air", "the boardroom on wheels", "quiet power"],
+  "bar_seeds": ["spirit of ecstasy", "starlight headliner", "suicide doors", "umbrella in the door"],
+  "vehicle_type": "Luxury Sedan",
+  "engine_type": "6.75 L V12",
+  "top_speed": "155 mph (electronically limited)",
+  "cultural_status": "The gold standard for luxury and achievement.",
+  "design_features": ["Parthenon grille", "Spirit of Ecstasy mascot", "Coach doors (suicide doors)"],
+  "related_ids": ["luxury"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

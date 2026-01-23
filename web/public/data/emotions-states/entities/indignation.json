@@ -1,0 +1,17 @@
+{
+  "id": "indignation",
+  "type": "emotions-states",
+  "name": "Indignation",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Anger or annoyance provoked by what is perceived as unfair treatment.",
+  "tags": ["rage", "negative", "justice", "political"],
+  "angles": ["righteous anger", "moral outrage", "unbalanced scales"],
+  "bar_seeds": ["fire in the veins", "wrong must be righted", "standing on truth"],
+  "intensity": "High",
+  "physical_symptoms": ["Heat in the face", "Clenched fists", "Elevated volume"],
+  "triggers": ["Injustice", "Betrayal of trust", "Cruelty"],
+  "action_urge": "To speak out, protest, or demand correction.",
+  "opposites": ["Acceptance", "Complacency"],
+  "related_ids": ["rage", "resentment"]
+}

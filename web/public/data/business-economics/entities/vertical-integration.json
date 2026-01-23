@@ -1,0 +1,17 @@
+{
+  "id": "vertical-integration",
+  "type": "business-economics",
+  "name": "Vertical Integration",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An arrangement in which the supply chain of a company is owned by that company.",
+  "tags": ["strategy", "power", "industrial", "business"],
+  "angles": ["control-the-source", "supply-chain-dominance", "eliminating-middlemen"],
+  "bar_seeds": ["owning the mine and the store", "full control", "no weak links"],
+  "related_ids": ["supply-chain", "monopoly"],
+  "industry": "Manufacturing / Logistics",
+  "core_principle": "Owning multiple stages of the supply chain.",
+  "jargon": ["Upstream", "Downstream", "Backward integration"],
+  "key_metrics": ["Profit Margin", "Supply Continuity"],
+  "archetypes": ["Industrialist", "Operations Giant"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "power-dressing",
+  "type": "fashion",
+  "name": "Power Dressing",
+  "aliases": [
+    "Power suits"
+  ],
+  "era": "1980s-Present",
+  "tags": [
+    "uniform",
+    "classic",
+    "mainstream",
+    "legacy"
+  ],
+  "one_liner": "Structured tailoring that signals authority and confidence.",
+  "angles": [
+    "boardroom armor",
+    "sharp lines",
+    "status signal"
+  ],
+  "bar_seeds": [
+    "shoulders wide",
+    "tie and ambition",
+    "office to empire"
+  ],
+  "item_type": "Tailoring",
+  "material": [
+    "Wool",
+    "Silk",
+    "Twill"
+  ],
+  "cultural_significance": "Uses tailoring to project leadership and control.",
+  "fit": [
+    "Structured",
+    "Tailored"
+  ],
+  "associated_brands": [
+    "Hugo Boss",
+    "Armani",
+    "Ralph Lauren"
+  ],
+  "related_ids": [
+    "preppy-fashion",
+    "haute-couture"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Power dressing",
+      "url": "https://en.wikipedia.org/wiki/Power_dressing",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clubhouse",
+  "type": "media-platforms",
+  "name": "Clubhouse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A social audio app for drop-in audio chats, which had a massive spike in popularity during 2020-2021.",
+  "tags": ["audio", "exclusive", "hustle", "fleeting"],
+  "angles": ["voice", "networking", "FOMO"],
+  "bar_seeds": ["raise your hand", "invite only", "room is full"],
+  "related_ids": ["twitter-x"],
+  "platform_type": "Social Audio",
+  "user_demographic": "Tech, VC, Creators",
+  "content_format": ["Audio Rooms"],
+  "algorithm_bias": "Favored live, active rooms with high listener counts.",
+  "slang": ["Room", "Stage", "Moderator"]
+}

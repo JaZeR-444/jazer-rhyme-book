@@ -1,0 +1,20 @@
+{
+  "id": "bio-architecture",
+  "type": "architecture-spaces",
+  "name": "Bio Architecture",
+  "aliases": ["Biomimetic Architecture", "Living Architecture"],
+  "era": "2000s-Present",
+  "tags": ["organic", "sustainable", "nature-inspired", "living", "ecological"],
+  "one_liner": "Architecture that mimics natural forms and integrates living systems into building design.",
+  "angles": ["nature mimicry", "living systems", "ecological design"],
+  "bar_seeds": ["living walls", "organic forms", "nature mimicry", "sustainable design"],
+  "visual_elements": ["curved organic forms", "living walls", "green roofs", "natural materials"],
+  "mood": "Organic, sustainable, and alive",
+  "associated_eras": ["Modern Day"],
+  "color_palette": ["natural greens", "earth tones", "wood colors", "sky blues"],
+  "fashion_staples": ["organic silhouettes", "natural materials", "living textures", "eco-friendly"],
+  "related_ids": ["sustainable-architecture"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

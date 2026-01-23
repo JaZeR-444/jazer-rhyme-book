@@ -1,0 +1,17 @@
+{
+  "id": "pentagram",
+  "type": "rituals-symbols",
+  "name": "Pentagram",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A five-pointed star, often used as a religious or magical symbol.",
+  "tags": ["esoteric", "classic", "dark", "symbolic-object"],
+  "angles": ["balance", "elements", "infamy"],
+  "bar_seeds": ["five points of power", "star in the circle", "sacred geometry"],
+  "related_ids": ["ritual", "omen"],
+  "purpose": "To represent the five elements or provide protection/invocation in magic.",
+  "steps": ["Drawing the star", "Inscribing in a circle", "Invocation of the points"],
+  "objects_used": ["Chalk", "Salt", "Blade"],
+  "participants": "Occultist, Practitioner",
+  "outcome": "Elemental balance or spiritual summoning."
+}

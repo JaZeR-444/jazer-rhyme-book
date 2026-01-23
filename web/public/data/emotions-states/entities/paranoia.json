@@ -1,0 +1,20 @@
+{
+  "id": "paranoia",
+  "type": "emotions-states",
+  "name": "Paranoia",
+  "aliases": ["The Watch", "Suspicion", "On Edge"],
+  "era": "Universal",
+  "tags": ["negative", "high-energy", "tense", "internal", "street"],
+  "one_liner": "An instinct or thought process believed to be heavily influenced by anxiety or fear, often to the point of delusion and irrationality.",
+  "angles": ["eyes everywhere", "the shadow following me", "trust no one"],
+  "bar_seeds": ["looking over the shoulder", "curtains closed", "whispers in the walls", "enemies in the mirror"],
+  "intensity": "High to Extreme",
+  "physical_symptoms": ["Hyper-vigilance", "Racing heart", "Sweating", "Locked jaw"],
+  "triggers": ["Threats", "Betrayal", "Substances", "Isolation"],
+  "action_urge": "To hide, to monitor, to preemptively attack",
+  "opposites": ["Trust", "Zen"],
+  "related_ids": ["opp", "sliding"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

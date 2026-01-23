@@ -1,0 +1,50 @@
+{
+  "id": "brexit-2016-2020",
+  "type": "history",
+  "name": "Brexit",
+  "aliases": [
+    "UK withdrawal from the EU"
+  ],
+  "era": "2016-2020",
+  "tags": [
+    "political",
+    "mainstream",
+    "legacy",
+    "contemporary"
+  ],
+  "one_liner": "The United Kingdom voted to leave the European Union and completed its exit.",
+  "angles": [
+    "sovereignty debate",
+    "economic uncertainty",
+    "border questions"
+  ],
+  "bar_seeds": [
+    "vote shook the continent",
+    "island steps away",
+    "union undone"
+  ],
+  "key_dates": [
+    "2016 (referendum)",
+    "2020 (formal exit)"
+  ],
+  "location": "United Kingdom / Europe",
+  "impact": "Reshaped European politics, trade relationships, and domestic policy.",
+  "major_figures": [
+    "Theresa May",
+    "Boris Johnson"
+  ],
+  "cultural_shift": "National identity and globalization debates intensified.",
+  "related_ids": [
+    "european-union-expansion-2004"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brexit",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

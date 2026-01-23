@@ -1,0 +1,17 @@
+{
+  "id": "shuriken",
+  "type": "weapons-objects",
+  "name": "Shuriken",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A Japanese concealed weapon that is thrown, often star-shaped.",
+  "tags": ["stealth", "war", "asian", "speed"],
+  "angles": ["distraction", "ninja", "precision"],
+  "bar_seeds": ["throwing stars", "shadow strike", "silent hit"],
+  "related_ids": ["kunai"],
+  "weapon_type": "Thrown",
+  "range": "Ranged",
+  "damage_type": "Piercing",
+  "symbolism": "Ninja stealth, distraction tactics, and cinematic action.",
+  "famous_users": ["Ninjas", "Anime characters"]
+}

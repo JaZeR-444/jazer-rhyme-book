@@ -1,0 +1,18 @@
+{
+  "id": "seven-samurai-1954",
+  "type": "cinema",
+  "name": "Seven Samurai",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A poor village under threat by bandits recruits seven unemployed samurai to help them defend themselves.",
+  "tags": ["classic", "war", "legacy", "asian"],
+  "angles": ["team-assembly", "honorable-defense", "the-cost-of-victory"],
+  "bar_seeds": ["gathering the seven", "rainy final battle", "samurai code"],
+  "related_ids": ["the-samurai-era", "avengers-endgame-2019"],
+  "era": "1954",
+  "plot_hooks": ["Recruiting the warriors", "Training the peasants", "The long siege"],
+  "iconic_scenes": ["Final mud battle", "The recruitment tests", "The graves on the hill"],
+  "visual_motifs": ["The Seven banners", "Constant rain", "Katana steel"],
+  "themes": ["Sacrifice", "Class division", "Heroism"],
+  "quotables_short": ["In the end, we lost this battle too.", "The farmers have won."]
+}

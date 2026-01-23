@@ -1,0 +1,56 @@
+{
+  "id": "sport-luxe",
+  "type": "fashion",
+  "name": "Sport Luxe",
+  "aliases": [
+    "Athletic luxury"
+  ],
+  "era": "2010s-Present",
+  "tags": [
+    "luxury",
+    "streetwear",
+    "contemporary",
+    "trend"
+  ],
+  "one_liner": "High-end styling infused with athletic silhouettes and materials.",
+  "angles": [
+    "court to runway",
+    "sneaker and silk",
+    "sporting elegance"
+  ],
+  "bar_seeds": [
+    "tracksuit with shine",
+    "luxury on the court",
+    "athletic polish"
+  ],
+  "item_type": "Luxury Sport",
+  "material": [
+    "Technical fabrics",
+    "Silk",
+    "Leather"
+  ],
+  "cultural_significance": "Blends performance influence with luxury aesthetics.",
+  "fit": [
+    "Tailored",
+    "Relaxed"
+  ],
+  "associated_brands": [
+    "Gucci",
+    "Balenciaga",
+    "Nike"
+  ],
+  "related_ids": [
+    "athleisure",
+    "luxury-sneakers"
+  ],
+  "created_at": "2026-01-06T17:00:00Z",
+  "updated_at": "2026-01-06T17:00:00Z",
+  "sources": [
+    {
+      "title": "Athleisure",
+      "url": "https://en.wikipedia.org/wiki/Athleisure",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

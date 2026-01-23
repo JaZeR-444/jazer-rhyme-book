@@ -1,0 +1,18 @@
+{
+  "id": "dancehall-music",
+  "type": "music",
+  "name": "Dancehall",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A high-energy Jamaican popular music genre that originated in the late 1970s.",
+  "tags": ["vibrant", "caribbean", "rebellion", "energetic"],
+  "angles": ["slackness", "riddim-culture", "street-celebration"],
+  "bar_seeds": ["pon de floor", "kingston heat", "riddim wheel up"],
+  "related_ids": ["kingston", "reggaeton-music"],
+  "genre": ["Reggae", "Electronic"],
+  "era_detail": "Late 1970s - Present",
+  "signature_songs": ["Sleng Teng", "Murder She Wrote", "Get Busy"],
+  "sonic_descriptors": ["Fast patois chat", "Electronic riddims", "Heavy bass", "Sound effects"],
+  "influence_tree": ["Roots Reggae", "Ska", "R&B"],
+  "aesthetic": "Vibrant Island Streetwear"
+}

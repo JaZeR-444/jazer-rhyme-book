@@ -1,0 +1,17 @@
+{
+  "id": "the-gilded-age",
+  "type": "history",
+  "name": "The Gilded Age",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An era of rapid economic growth, especially in the US, but also of great social conflict and high poverty levels.",
+  "tags": ["luxury", "grit", "business-economics", "history"],
+  "angles": ["robber-barons", "gold-plated-poverty", "monopoly-rising"],
+  "bar_seeds": ["gold on the outside rust within", "rockefeller money", "smoke and mansions"],
+  "related_ids": ["monopoly", "american-dream"],
+  "key_dates": ["1870s", "1900"],
+  "location": "United States",
+  "impact": "Created the first modern industrial billionaires and led to the birth of the labor movement.",
+  "major_figures": ["John D. Rockefeller", "Andrew Carnegie", "Mark Twain (coined the name)"],
+  "cultural_shift": "Extreme ostentatious displays of wealth masking deep societal issues."
+}

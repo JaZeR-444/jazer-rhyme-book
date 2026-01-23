@@ -1,0 +1,17 @@
+{
+  "id": "stoic-calm",
+  "type": "philosophy-ideas",
+  "name": "Stoic Calm",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The state of remaining steady and unbothered by external events, focusing only on what is within one's control.",
+  "tags": ["stoicism", "zen", "mellow", "internal"],
+  "angles": ["eye-of-the-storm", "emotional-detachment", "unshakable-resolve"],
+  "bar_seeds": ["nothing outside can hurt me", "steady hand", "ice in the veins"],
+  "related_ids": ["stoicism", "ataraxia"],
+  "school_of_thought": "Stoicism",
+  "core_question": "Can one be truly indifferent to the world's chaos?",
+  "key_philosophers": ["Marcus Aurelius", "Epictetus", "Seneca"],
+  "paradoxes": [],
+  "modern_application": "High-performance sports, crisis management, mental health resilience."
+}

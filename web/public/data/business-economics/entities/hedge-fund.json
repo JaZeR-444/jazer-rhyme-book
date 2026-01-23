@@ -1,0 +1,20 @@
+{
+  "id": "hedge-fund",
+  "type": "business-economics",
+  "name": "Hedge Fund",
+  "aliases": ["Absolute Return Fund"],
+  "era": "20th Century-Present",
+  "tags": ["finance", "investment", "wealth", "aggressive"],
+  "one_liner": "A limited partnership of investors that uses high-risk methods, such as investing with borrowed money, in hopes of realizing large capital gains.",
+  "angles": ["the elite circle", "hedging against reality", "aggressive wealth building"],
+  "bar_seeds": ["alpha generation", "performance fees", "dark pools", "leveraged bets"],
+  "industry": "Finance",
+  "core_principle": "Absolute returns and sophisticated risk management.",
+  "jargon": ["Alpha", "Beta", "Leverage", "High-water mark", "Long/Short"],
+  "key_metrics": ["Sharpe ratio", "Net asset value (NAV)"],
+  "archetypes": ["Fund manager", "Sophisticated investor"],
+  "related_ids": ["stock-market"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

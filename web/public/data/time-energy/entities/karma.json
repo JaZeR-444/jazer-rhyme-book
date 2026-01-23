@@ -1,0 +1,17 @@
+{
+  "id": "karma",
+  "type": "time-energy",
+  "name": "Karma",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The principle of cause and effect where intent and actions of an individual influence the future of that individual.",
+  "tags": ["spiritual", "cause-effect", "philosophical-ideas", "legacy"],
+  "angles": ["consequences", "balance", "moral weight"],
+  "bar_seeds": ["spinning the wheel", "what goes around comes around", "moral debt"],
+  "related_ids": ["eternal-return", "fate"],
+  "concept_type": "Spiritual / Moral",
+  "perception": "A sense of cosmic justice and inevitability.",
+  "physics_basis": "N/A - Metaphorical Causality.",
+  "cultural_view": "Universal belief in 'you reap what you sow'.",
+  "idioms": ["Coming back to haunt you", "Instant karma", "Paying the price"]
+}

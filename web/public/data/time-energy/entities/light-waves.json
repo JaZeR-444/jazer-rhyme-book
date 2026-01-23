@@ -1,0 +1,17 @@
+{
+  "id": "light-waves",
+  "type": "time-energy",
+  "name": "Light Waves",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Electromagnetic radiation that can be perceived by the human eye.",
+  "tags": ["technical", "vibrant", "scientific", "universal"],
+  "angles": ["illumination", "spectrum", "particle-wave duality"],
+  "bar_seeds": ["prism break", "visible truth", "traveling at light speed"],
+  "related_ids": ["the-speed-of-light", "electricity"],
+  "concept_type": "Physics / Energy",
+  "perception": "Instantaneous, revealing, and varied (colors).",
+  "physics_basis": "Electromagnetic waves / Photons.",
+  "cultural_view": "Represents knowledge, truth, and hope.",
+  "idioms": ["See the light", "Blink of an eye", "Spectrum of truth"]
+}

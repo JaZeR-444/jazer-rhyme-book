@@ -1,0 +1,17 @@
+{
+  "id": "hygge",
+  "type": "emotions-states",
+  "name": "Hygge",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A quality of coziness and comfortable conviviality that engenders a feeling of contentment or well-being.",
+  "tags": ["contentment", "mellow", "danish", "aesthetic"],
+  "angles": ["coziness", "warmth", "community"],
+  "bar_seeds": ["candles burning", "warm blankets", "shared tea"],
+  "intensity": "Low-Moderate",
+  "physical_symptoms": ["Relaxed muscles", "Warmth in the core", "Smiling"],
+  "triggers": ["Fireplaces", "Rain on the roof", "Good company"],
+  "action_urge": "To stay present and savor the comfort.",
+  "opposites": ["Hostility", "Exposure"],
+  "related_ids": ["contentment", "zen"]
+}

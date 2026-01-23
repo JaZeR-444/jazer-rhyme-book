@@ -1,0 +1,17 @@
+{
+  "id": "penthouse",
+  "type": "architecture-spaces",
+  "name": "Penthouse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A luxury apartment on the top floor of a tall building, symbolizing peak success.",
+  "tags": ["luxury", "status", "modern", "urban"],
+  "angles": ["view", "height", "isolation"],
+  "bar_seeds": ["top floor view", "elevator opens to the living room", "city lights below"],
+  "related_ids": ["skyscraper"],
+  "style": "Modern Luxury",
+  "materials": ["Glass", "Marble", "Steel"],
+  "spatial_qualities": ["Open plan", "High ceilings", "Panoramic views"],
+  "function": "Residential / Status Symbol",
+  "famous_examples": ["One57", "432 Park Avenue"]
+}

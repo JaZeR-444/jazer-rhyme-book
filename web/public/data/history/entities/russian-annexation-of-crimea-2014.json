@@ -1,0 +1,49 @@
+{
+  "id": "russian-annexation-of-crimea-2014",
+  "type": "history",
+  "name": "Russian Annexation of Crimea",
+  "aliases": [
+    "Crimea annexation"
+  ],
+  "era": "2014",
+  "tags": [
+    "war",
+    "political",
+    "legacy",
+    "contemporary"
+  ],
+  "one_liner": "Russia annexed Crimea following unrest in Ukraine.",
+  "angles": [
+    "territory seized",
+    "geopolitical rupture",
+    "sanctions era"
+  ],
+  "bar_seeds": [
+    "flags changed overnight",
+    "borders redrawn",
+    "tension in the black sea"
+  ],
+  "key_dates": [
+    "2014-03 (annexation)"
+  ],
+  "location": "Crimea / Ukraine",
+  "impact": "Escalated tensions between Russia and the West and spurred sanctions.",
+  "major_figures": [
+    "Vladimir Putin"
+  ],
+  "cultural_shift": "Revived security concerns reminiscent of Cold War dynamics.",
+  "related_ids": [
+    "cold-war",
+    "russian-invasion-of-ukraine-2022"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

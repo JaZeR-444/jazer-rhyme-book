@@ -1,0 +1,17 @@
+{
+  "id": "exorcism",
+  "type": "rituals-symbols",
+  "name": "Exorcism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The religious or spiritual practice of evicting demons or other spiritual entities from a person or an area.",
+  "tags": ["ritual", "dark", "purification", "esoteric"],
+  "angles": ["spiritual combat", "expulsion", "authority"],
+  "bar_seeds": ["get out the demons", "power of the truth compels", "holy water burning"],
+  "related_ids": ["purification", "sacrifice"],
+  "purpose": "To free an individual or location from malevolent spiritual influence.",
+  "steps": ["Invocation of higher power", "Commanding the entity to leave", "Anointing with oil or water"],
+  "objects_used": ["Holy water", "Crucifix", "Religious texts", "Salt"],
+  "participants": "Exorcist, Possessed individual, Assistants",
+  "outcome": "Expulsion of the entity and restoration of spiritual health."
+}

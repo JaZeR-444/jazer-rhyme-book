@@ -1,0 +1,17 @@
+{
+  "id": "rick-rubin",
+  "type": "people",
+  "name": "Rick Rubin",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A legendary music producer and co-founder of Def Jam, known for his minimalist approach and spiritual view of creativity.",
+  "tags": ["innovative", "zen", "music", "legacy"],
+  "angles": ["reductive-production", "creative-act", "the-guru"],
+  "bar_seeds": ["barefoot in the studio", "stripping the sound", "def jam days"],
+  "related_ids": ["kanye-west", "beastie-boys"],
+  "known_for": ["Def Jam", "The Creative Act", "American Recordings"],
+  "vibe": "Spiritual, calm, stripped-back",
+  "signature_items": ["Long beard", "Bare feet", "Couch"],
+  "quotables_short": ["The audience comes last.", "Art is a spiritual practice."],
+  "controversy_flags": []
+}

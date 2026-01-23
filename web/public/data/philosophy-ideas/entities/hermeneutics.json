@@ -1,0 +1,17 @@
+{
+  "id": "hermeneutics",
+  "type": "philosophy-ideas",
+  "name": "Hermeneutics",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theory and methodology of interpretation, especially the interpretation of biblical texts, wisdom literature, and philosophical texts.",
+  "tags": ["intellectual", "logic", "technical", "academic"],
+  "angles": ["layers-of-meaning", "the-art-of-reading", "context-circles"],
+  "bar_seeds": ["reading between the lines", "the message in the bottle", "interpreting the code"],
+  "related_ids": ["logic", "epistemology"],
+  "school_of_thought": "Methodology",
+  "core_question": "How do we understand and interpret meaning?",
+  "key_philosophers": ["Hans-Georg Gadamer", "Paul Ricoeur", "Friedrich Schleiermacher"],
+  "paradoxes": ["The Hermeneutic Circle"],
+  "modern_application": "Law, literature, scriptural analysis, AI text interpretation."
+}

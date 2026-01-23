@@ -1,0 +1,17 @@
+{
+  "id": "eternal-return",
+  "type": "time-energy",
+  "name": "Eternal Return",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophical concept that the universe and all existence has been recurring, and will continue to recur.",
+  "tags": ["eternal", "cyclical", "philosophical-ideas", "esoteric"],
+  "angles": ["recurrence", "infinity", "fate"],
+  "bar_seeds": ["round and round again", "every life lived before", "the wheel turns"],
+  "related_ids": ["infinity", "the-past", "the-future"],
+  "concept_type": "Philosophical",
+  "perception": "Dizzying, heavy, and potentially liberating or terrifying.",
+  "physics_basis": "Nietzschean thought / Poincaré recurrence theorem.",
+  "cultural_view": "A challenge to live life such that one would be happy to repeat it infinitely.",
+  "idioms": ["History repeats", "Round and round", "The wheel of time"]
+}

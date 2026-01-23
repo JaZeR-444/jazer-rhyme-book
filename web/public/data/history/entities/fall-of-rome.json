@@ -1,0 +1,20 @@
+{
+  "id": "fall-of-rome",
+  "type": "history",
+  "name": "Fall of Rome",
+  "aliases": ["roman empire collapse", "end of antiquity"],
+  "era": "476 AD",
+  "tags": ["empire", "collapse", "legacy", "war", "decadence"],
+  "one_liner": "The gradual collapse of the Western Roman Empire, marking the transition to the Middle Ages.",
+  "angles": ["internal decay vs external pressure", "loss of central knowledge", "shifting power centers"],
+  "bar_seeds": ["marble crumbling", "barbarians at the gate", "faded glory", "et tu brute"],
+  "key_dates": ["476 AD (Odoacer deposes Romulus Augustulus)", "410 AD (Sack of Rome)"],
+  "location": "Europe / Mediterranean",
+  "impact": "Fragmentation of Europe, rise of feudalism, preservation of knowledge in the East.",
+  "major_figures": ["Romulus Augustulus", "Odoacer", "Attila the Hun"],
+  "cultural_shift": "Transition from classical antiquity to the medieval period.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

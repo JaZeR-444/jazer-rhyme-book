@@ -1,0 +1,17 @@
+{
+  "id": "hermes",
+  "type": "brand",
+  "name": "Hermès",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pinnacle of French luxury, famous for the elusive Birkin bag and equestrian heritage.",
+  "tags": ["luxury", "classic", "status", "legacy"],
+  "angles": ["exclusivity", "craftsmanship", "waiting-list"],
+  "bar_seeds": ["orange box", "birkin bag waiting list", "silk scarf"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "Ultra-High",
+  "signature_products": ["Birkin Bag", "Kelly Bag", "Silk Scarves", "Oran Sandals"],
+  "status_signals": ["The distinct orange box", "Owning a Birkin (implies connection)"],
+  "bar_angles": ["Money can't buy access", "Old money aesthetic", "Leather craftsmanship"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mclaren-f1",
+  "type": "vehicles",
+  "name": "McLaren F1",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The gold-standard 90s supercar with a central driving position and gold-lined engine bay.",
+  "tags": ["speed", "luxury", "90s", "technical"],
+  "angles": ["engineering", "speed", "rarity"],
+  "bar_seeds": ["center seat", "gold engine bay", "fastest naturally aspirated"],
+  "related_ids": [],
+  "vehicle_type": "Hypercar",
+  "engine_type": "BMW V12",
+  "top_speed": "240 mph",
+  "cultural_status": "The greatest analog supercar ever built.",
+  "design_features": ["Central driving seat", "Butterfly doors", "Gold foil heat shield"]
+}

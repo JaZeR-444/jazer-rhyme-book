@@ -1,0 +1,20 @@
+{
+  "id": "industrial-zen",
+  "type": "aesthetics-visuals",
+  "name": "Industrial Zen",
+  "aliases": ["Urban Minimalism", "Modern Monastery"],
+  "era": "1990s-Present",
+  "tags": ["minimal", "industrial", "calming", "structured", "modern"],
+  "one_liner": "A minimalist aesthetic that combines industrial design elements with zen tranquility.",
+  "angles": ["industrial calm", "structured minimalism", "urban zen"],
+  "bar_seeds": ["concrete gardens", "steel meditation", "industrial peace", "urban serenity"],
+  "visual_elements": ["raw concrete", "steel fixtures", "clean lines", "natural elements"],
+  "mood": "Calm, structured, and urban",
+  "associated_eras": ["1990s", "Modern Day"],
+  "color_palette": ["concrete gray", "steel blue", "natural wood", "white"],
+  "fashion_staples": ["structured clothing", "industrial accessories", "monochromatic outfits", "clean cuts"],
+  "related_ids": ["minimalist", "industrial"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

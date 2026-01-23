@@ -1,0 +1,20 @@
+{
+  "id": "dyson-sphere",
+  "type": "science-future",
+  "name": "Dyson Sphere",
+  "aliases": ["Megastructure"],
+  "era": "Distant Future",
+  "tags": ["space", "energy", "future", "megastructure"],
+  "one_liner": "A hypothetical megastructure that completely encompasses a star and captures a large percentage of its solar power output.",
+  "angles": ["harnessing a sun", "the ultimate power source", "engineering on a solar scale"],
+  "bar_seeds": ["sun wrapped in steel", "unlimited energy", "stellar engineering", "solar shell"],
+  "field": "Astrophysics / Engineering",
+  "hypothesis": "A sufficiently advanced civilization (Kardashev Type II) would build such a structure for energy needs.",
+  "implications": ["Infinite energy", "Detection of alien civilizations"],
+  "technologies": ["Advanced robotics", "Stellar lifting"],
+  "ethical_concerns": ["Massive resource consumption", "Stability and maintenance"],
+  "related_ids": ["time-energy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

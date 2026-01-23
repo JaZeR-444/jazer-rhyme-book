@@ -1,0 +1,16 @@
+{
+  "id": "the-black-death",
+  "type": "history",
+  "name": "The Black Death",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A devastating global epidemic of bubonic plague that struck Europe and Asia in the mid-1300s.",
+  "tags": ["dark", "tragedy", "history", "decay"],
+  "angles": ["memento mori", "societal collapse", "grim harvest"],
+  "bar_seeds": ["plague doctor mask", "scythe of the reaper", "bring out your dead"],
+  "key_dates": ["1347", "1351"],
+  "location": "Europe / Asia",
+  "impact": "Killed up to 50% of the European population, leading to labor shortages and the fall of serfdom.",
+  "major_figures": ["Pope Clement VI"],
+  "cultural_shift": "Deep focus on mortality and the transience of life in art and religion."
+}

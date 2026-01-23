@@ -1,0 +1,18 @@
+{
+  "id": "cuban-link-chain",
+  "type": "fashion",
+  "name": "Cuban Link Chain",
+  "aliases": ["Miami Link"],
+  "era": "1970s-Present",
+  "tags": ["bling", "heritage", "luxury", "grit"],
+  "one_liner": "A heavy, interlocking gold chain that is the definitive status symbol of hip-hop culture.",
+  "angles": ["heavy metal wealth", "interlocking strength", "street royalty"],
+  "bar_seeds": ["ten millimeter", "rose gold links", "bust down"],
+  "item_type": "Jewelry",
+  "material": ["Gold", "Silver", "Platinum"],
+  "cultural_significance": "A foundational piece of hip-hop jewelry, representing success and roots.",
+  "fit": ["Chunky", "Weighted"],
+  "associated_brands": ["Jacob & Co.", "Greg Yuna"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

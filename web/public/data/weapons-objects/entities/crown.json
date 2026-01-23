@@ -1,0 +1,17 @@
+{
+  "id": "crown",
+  "type": "weapons-objects",
+  "name": "Crown",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A symbolic headpiece representing sovereign authority and victory.",
+  "tags": ["luxury", "legacy", "empire", "symbolic-object"],
+  "angles": ["weight", "inheritance", "conquest"],
+  "bar_seeds": ["heavy is the head", "jewels in the rim", "gold on the brow"],
+  "related_ids": ["gold-bar"],
+  "weapon_type": "Symbol",
+  "range": "N/A",
+  "damage_type": "Social",
+  "symbolism": "Absolute power, divine right, and the peak of achievement.",
+  "famous_users": ["Monarchs", "GOAT contenders"]
+}

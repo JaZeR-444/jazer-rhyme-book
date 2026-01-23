@@ -1,0 +1,20 @@
+{
+  "id": "potential-energy",
+  "type": "time-energy",
+  "name": "Potential Energy",
+  "aliases": ["Stored Energy", "Latent Power"],
+  "era": "Universal",
+  "tags": ["energy", "anticipation", "power", "science"],
+  "one_liner": "The energy possessed by a body by virtue of its position relative to others, stresses within itself, electric charge, and other factors.",
+  "angles": ["the calm before the storm", "power waiting to be released", "unrealized greatness"],
+  "bar_seeds": ["energy in the holster", "loaded spring", "holding the thunder", "latent heat"],
+  "concept_type": "Stored State",
+  "perception": "Tension, anticipation, and latent power.",
+  "physics_basis": "Energy stored in an object due to its position or state (U = mgh).",
+  "cultural_view": "Metaphor for talent or opportunity that has yet to be used.",
+  "idioms": ["Loaded for bear", "Calm before the storm", "Untapped potential"],
+  "related_ids": ["momentum"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

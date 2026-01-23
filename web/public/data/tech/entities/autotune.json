@@ -1,0 +1,20 @@
+{
+  "id": "autotune",
+  "type": "tech",
+  "name": "Auto-Tune",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An audio processor which uses a proprietary device to measure and alter pitch in vocal and instrumental music recording and performance.",
+  "tags": ["technical", "music", "pop", "contemporary"],
+  "angles": ["digital-correction", "synthetic-emotion", "the-robotic-voice"],
+  "bar_seeds": ["t-pain effect", "perfect pitch robot", "dripping in melody"],
+  "related_ids": ["future", "trap-music"],
+  "category": "Audio Software",
+  "what_it_is": "Pitch correction software that can be used for subtle tuning or as a stylistic effect.",
+  "why_it_matters": "Changed the sound of modern pop and hip-hop, enabling new melodic subgenres.",
+  "risks": ["Homogenization of sound", "Loss of 'natural' talent (perceived)", "Overuse"],
+  "metaphors": ["Digital makeup", "Vocal armor", "The cyber-croon"],
+  "keywords": ["Antares", "Pitch correction", "Retune speed", "Scale", "Vibrato"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

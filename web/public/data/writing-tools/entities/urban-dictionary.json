@@ -1,0 +1,18 @@
+{
+  "id": "urban-dictionary",
+  "type": "writing-tool",
+  "name": "Urban Dictionary",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The crowdsourced bible of modern slang and street vernacular.",
+  "tags": ["tool", "technical", "underground", "streetwear"],
+  "angles": ["culture", "slang", "evolution"],
+  "bar_seeds": ["check the definition", "street lexicon", "word on the curb"],
+  "related_ids": [],
+  "category": "Reference",
+  "what_it_does": "Provides user-submitted definitions for slang words, phrases, and memes.",
+  "best_for": ["finding new slang", "decoding references", "staying current"],
+  "workflow_hooks": ["Look up regional slang", "Verify double entendres"],
+  "pitfalls": ["Highly inaccurate", "Contains offensive content"],
+  "bar_angles": ["Speaking the language", "Code switching", "Street scholar"]
+}

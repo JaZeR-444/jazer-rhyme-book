@@ -1,0 +1,17 @@
+{
+  "id": "stockx",
+  "type": "brand",
+  "name": "StockX",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An online marketplace and clothing reseller, primarily of sneakers, functioning like a stock market.",
+  "tags": ["hustle", "sneakerhead", "business-economics", "technical"],
+  "angles": ["the-sneaker-stock-market", "authentication", "resale-prices"],
+  "bar_seeds": ["green tag", "verified authentic", "lowest ask"],
+  "related_ids": ["goat", "nike"],
+  "category": "E-commerce / Resale",
+  "price_tier": "Variable",
+  "signature_products": ["Authentication Service", "Market Data"],
+  "status_signals": ["The green StockX tag", "Deadstock condition"],
+  "bar_angles": ["Market value", "Verified only", "The resale game"]
+}

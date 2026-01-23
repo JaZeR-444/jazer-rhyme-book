@@ -1,0 +1,20 @@
+{
+  "id": "monopoly",
+  "type": "business-economics",
+  "name": "Monopoly",
+  "aliases": ["Market Dominance"],
+  "era": "Modern Era",
+  "tags": ["business", "power", "control", "economics"],
+  "one_liner": "A market structure where a single seller or producer has exclusive control over a commodity or service.",
+  "angles": ["absolute control", "no competition allowed", "the death of the small player"],
+  "bar_seeds": ["owning the board", "monopoly money", "crushing the competition", "sole provider"],
+  "industry": "General Business",
+  "core_principle": "Exclusive control and price setting power.",
+  "jargon": ["Anti-trust", "Barrier to entry", "Price maker"],
+  "key_metrics": ["Market share (100%)"],
+  "archetypes": ["Monopolist", "Robber Baron"],
+  "related_ids": ["business-economics"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

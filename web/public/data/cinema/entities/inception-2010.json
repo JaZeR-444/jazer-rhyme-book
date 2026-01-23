@@ -1,0 +1,27 @@
+{
+  "id": "inception-2010",
+  "type": "cinema",
+  "name": "Inception",
+  "aliases": [],
+  "era": "2010",
+  "tags": ["cinematic", "surreal", "dark", "innovative", "classic"],
+  "one_liner": "A thief who steals secrets through dream-sharing technology is offered a chance to erase his past.",
+  "angles": ["dream within a dream", "time dilation", "reality vs illusion"],
+  "bar_seeds": ["spinning top in my palm", "layers of dreams", "time slow in the deep"],
+  "related_ids": ["the-matrix-1999", "simulation-hypothesis"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inception",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "plot_hooks": ["Corporate espionage in shared dreams", "A mission to plant an idea"],
+  "iconic_scenes": ["Hallway zero-gravity fight", "City folding on itself"],
+  "visual_motifs": ["Spinning top", "Endless stairway"],
+  "themes": ["Guilt", "Perception", "Memory"],
+  "quotables_short": ["Dreams feel real while we are in them"]
+}

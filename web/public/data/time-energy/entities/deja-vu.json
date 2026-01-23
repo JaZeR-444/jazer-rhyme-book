@@ -1,0 +1,17 @@
+{
+  "id": "deja-vu",
+  "type": "time-energy",
+  "name": "Déjà Vu",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The eerie feeling that one has already experienced the present situation.",
+  "tags": ["esoteric", "surreal", "fleeting", "nostalgic"],
+  "angles": ["repetition", "glitch", "memory"],
+  "bar_seeds": ["seen this before", "glitch in the matrix", "double take"],
+  "related_ids": ["the-past", "the-present"],
+  "concept_type": "Psychological/Temporal",
+  "perception": "Disorienting, haunting, and momentarily profound.",
+  "physics_basis": "Memory processing delay or overlap.",
+  "cultural_view": "Often interpreted as a sign of fate or a past life.",
+  "idioms": ["History repeating itself", "I've been here before", "A echo of the past"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "nas",
+  "type": "people",
+  "name": "Nas",
+  "aliases": ["Nasir Jones", "Escobar", "Nasty Nas"],
+  "era": "1990s-Present",
+  "tags": ["lyricist", "queensbridge", "storytelling", "legend", "poetic"],
+  "one_liner": "The street poet of Queensbridge who delivered the bible of hip-hop, Illmatic.",
+  "angles": ["street observer", "project window dreams", "longevity king"],
+  "bar_seeds": ["illmatic", "ny state of mind", "queensbridge projects", "broken bottles"],
+  "known_for": ["Illmatic", "It Was Written", "King's Disease"],
+  "vibe": "Gritty, intellectual, observant",
+  "signature_items": ["Hennessy", "Gold chain", "Cigar"],
+  "quotables_short": ["Sleep is the cousin of death", "The world is yours"],
+  "controversy_flags": ["Jay-Z beef"],
+  "related_ids": ["jay-z", "notorious-big", "amy-winehouse"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

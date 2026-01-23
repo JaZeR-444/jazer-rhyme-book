@@ -1,0 +1,20 @@
+{
+  "id": "dark-web",
+  "type": "tech",
+  "name": "Dark Web",
+  "aliases": ["The Onion", "Hidden Services"],
+  "era": "2000s-Present",
+  "tags": ["technical", "security", "underground", "privacy"],
+  "one_liner": "A part of the world wide web that is only accessible by means of special software, allowing users and website operators to remain anonymous or untraceable.",
+  "angles": ["digital underworld", "total anonymity", "the hidden layers"],
+  "bar_seeds": ["onion routing", "unlisted sites", "where the ghosts walk"],
+  "related_ids": ["vpn", "cybersecurity"],
+  "category": "Network",
+  "what_it_is": "Encrypted online content that is not indexed by conventional search engines.",
+  "why_it_matters": "A space for both vital whistleblowing/journalism and illegal marketplaces.",
+  "risks": ["Malware", "Illegal activities", "Scams"],
+  "metaphors": ["The shadow of the internet", "Deep water", "The unlit room"],
+  "keywords": ["Tor", "Onion", "Encryption", "Anonymity", "Marketplace"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

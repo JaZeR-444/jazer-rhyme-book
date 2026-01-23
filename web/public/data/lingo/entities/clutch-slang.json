@@ -1,0 +1,18 @@
+{
+  "id": "clutch-slang",
+  "type": "lingo",
+  "name": "Clutch",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Coming through in a high-pressure situation; extremely timely and helpful.",
+  "tags": ["slang", "positive", "sports", "reliability"],
+  "angles": ["pressure", "reliability", "timing"],
+  "bar_seeds": ["clutch performance", "saving the day", "fourth quarter energy"],
+  "related_ids": ["clutch"],
+  "meaning": "Successful under pressure / Exactly what was needed.",
+  "usage": "Complimenting someone for solving a problem at the last minute.",
+  "origin": "Sports Culture",
+  "region": "Global",
+  "example_lines": ["You coming through with the charger was clutch", "He's always clutch when the game is on the line"],
+  "do_not_use_if": ["The situation was easy or not time-sensitive"]
+}

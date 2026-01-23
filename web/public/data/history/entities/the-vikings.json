@@ -1,0 +1,16 @@
+{
+  "id": "the-vikings",
+  "type": "history",
+  "name": "The Vikings",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Seafaring Norse people from southern Scandinavia who raided and traded across Europe.",
+  "tags": ["grit", "war", "classic", "relic"],
+  "angles": ["exploration", "raiding", "mythic roots"],
+  "bar_seeds": ["longship on the horizon", "valhalla waiting", "northern wind"],
+  "key_dates": ["793 AD", "1066 AD"],
+  "location": "Scandinavia / North Atlantic",
+  "impact": "Shaped the demographics and politics of Britain, France, and Russia.",
+  "major_figures": ["Ragnar Lothbrok", "Leif Erikson", "Harald Hardrada"],
+  "cultural_shift": "Transition from raiding culture to established kingdoms and Christianity."
+}

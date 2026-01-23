@@ -1,0 +1,20 @@
+{
+  "id": "industrial-revolution",
+  "type": "history",
+  "name": "Industrial Revolution",
+  "aliases": ["age of steam", "mechanization"],
+  "era": "1760-1840",
+  "tags": ["innovation", "industry", "pollution", "urbanization", "capitalism"],
+  "one_liner": "The transition to new manufacturing processes, steam power, and the rise of the factory system.",
+  "angles": ["man vs machine", "urban sprawl and grime", "wealth inequality"],
+  "bar_seeds": ["gears turning", "smokestacks", "steam engines", "assembly lines"],
+  "key_dates": ["1769 (Watt Steam Engine)", "1825 (First passenger railway)"],
+  "location": "Global (started in UK)",
+  "impact": "Massive shift in daily life, rise of the middle class, environmental degradation.",
+  "major_figures": ["James Watt", "Eli Whitney", "Karl Marx"],
+  "cultural_shift": "From agrarian hand-craft to machine-driven mass production.",
+  "related_ids": [],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

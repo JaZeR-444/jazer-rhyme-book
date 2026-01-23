@@ -1,0 +1,40 @@
+{
+  "2000s-Present": [
+    "bio-architecture",
+    "steampunk-architecture"
+  ],
+  "2010s-Present": [
+    "brutalist-revival",
+    "crystal-architecture",
+    "floating-architecture",
+    "nomadic-architecture",
+    "vertical-forests"
+  ],
+  "Medieval-Present": [
+    "cathedral",
+    "monastery"
+  ],
+  "2020s-Present": [
+    "cyber-architecture"
+  ],
+  "Ancient-Present": [
+    "library",
+    "maze",
+    "prison",
+    "ruin",
+    "stadium"
+  ],
+  "1980s-Present": [
+    "minimalist-zen-spaces"
+  ],
+  "Universal": [
+    "sanctuary"
+  ],
+  "20th Century-Present": [
+    "skyscraper",
+    "underground-bunker"
+  ],
+  "1970s-Present": [
+    "underground-spaces"
+  ]
+}

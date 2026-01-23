@@ -1,0 +1,18 @@
+{
+  "id": "hemingway-editor",
+  "type": "writing-tool",
+  "name": "Hemingway Editor",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A merciless editor that highlights complex sentences and passive voice.",
+  "tags": ["tool", "technical", "minimalist", "logic"],
+  "angles": ["brevity", "clarity", "punch"],
+  "bar_seeds": ["cutting the fat", "yellow highlights", "passive voice killer"],
+  "related_ids": [],
+  "category": "Editor",
+  "what_it_does": "Analyzes text for readability, highlighting adverbs, passive voice, and hard-to-read sentences.",
+  "best_for": ["editing prose", "simplifying complex bars", "punchlines"],
+  "workflow_hooks": ["Paste lyrics to see if they flow", "Check punchline directness"],
+  "pitfalls": ["Can strip away style", "Rap often needs 'incorrect' grammar"],
+  "bar_angles": ["Direct hit", "No filler", "Lean and mean"]
+}

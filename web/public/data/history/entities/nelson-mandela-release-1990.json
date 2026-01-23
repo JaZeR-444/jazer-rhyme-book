@@ -1,0 +1,49 @@
+{
+  "id": "nelson-mandela-release-1990",
+  "type": "history",
+  "name": "Release of Nelson Mandela",
+  "aliases": [
+    "Mandela freed"
+  ],
+  "era": "1990",
+  "tags": [
+    "political",
+    "legacy",
+    "peace",
+    "mainstream"
+  ],
+  "one_liner": "Nelson Mandela was released after 27 years in prison, signaling the end of apartheid.",
+  "angles": [
+    "freedom walk",
+    "end of apartheid",
+    "reconciliation"
+  ],
+  "bar_seeds": [
+    "walked out to the sun",
+    "freedom after decades",
+    "nation on the turn"
+  ],
+  "key_dates": [
+    "1990-02-11"
+  ],
+  "location": "South Africa",
+  "impact": "Catalyzed negotiations that ended apartheid and led to democratic elections.",
+  "major_figures": [
+    "Nelson Mandela",
+    "F.W. de Klerk"
+  ],
+  "cultural_shift": "Became a global symbol of justice and reconciliation.",
+  "related_ids": [
+    "civil-rights-movement"
+  ],
+  "created_at": "2026-01-06T18:30:00Z",
+  "updated_at": "2026-01-06T18:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "fleet-foxes",
+  "type": "music",
+  "name": "Fleet Foxes",
+  "aliases": ["Robin Pecknold", "Fleet Foxes"],
+  "era": "2006-Present",
+  "tags": ["folk", "harmonious", "nature", "beach", "lyrical"],
+  "one_liner": "An indie folk band known for harmonious vocals and nature-themed lyrics.",
+  "angles": ["harmonious folk", "nature themes", "lyrical storytelling"],
+  "bar_seeds": ["fleet foxes", "helplessness blues", "crack-up", "shorebirds"],
+  "genre": ["Indie Folk", "Folk Rock", "Harmony"],
+  "era_detail": "Formed in 2006, multiple hiatuses and returns.",
+  "signature_songs": ["White Winter Hymnal", "Helplessness Blues", "Mykonos"],
+  "sonic_descriptors": ["harmonious", "folk", "nature-influenced"],
+  "influence_tree": ["Folk traditions", "Beach Boys"],
+  "aesthetic": "Harmonious, nature-themed, folk",
+  "related_ids": ["bon-iver", "phoebe-bridgers"],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

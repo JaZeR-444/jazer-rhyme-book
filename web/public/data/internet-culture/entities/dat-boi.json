@@ -1,0 +1,18 @@
+{
+  "id": "dat-boi",
+  "type": "internet-culture",
+  "name": "Dat Boi",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A low-res 3D animation of a green frog riding a unicycle, greeted with 'o shit waddup!'.",
+  "tags": ["surreal", "lo-fi", "abstract", "cult-classic"],
+  "angles": ["absurdity", "entry", "nonsense"],
+  "bar_seeds": ["here come dat boi", "o shit waddup", "unicycle frog"],
+  "related_ids": ["pepe-the-frog"],
+  "format": "GIF / Image",
+  "origin_platform": "Tumblr / Facebook",
+  "meaning": "Pure non-sequitur humor; a herald of the era of surreal and 'random' memes.",
+  "remix_rules": ["Low-poly 3D", "Unexpected arrival", "Greyscale or neon filters"],
+  "lifespan_risk": "Moderate",
+  "example_lines": ["Here come dat boi on a single wheel", "O shit waddup, I just entered the room"]
+}

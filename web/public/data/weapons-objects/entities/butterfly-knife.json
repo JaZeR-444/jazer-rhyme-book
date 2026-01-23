@@ -1,0 +1,20 @@
+{
+  "id": "butterfly-knife",
+  "type": "weapons-objects",
+  "name": "Butterfly Knife",
+  "aliases": ["Balisong", "Flipper"],
+  "era": "Ancient-Present",
+  "tags": ["weapon", "blade", "skill", "flipping", "street"],
+  "one_liner": "A folding pocketknife with two handles counter-rotating around the tang, known for the skill required to open it.",
+  "angles": ["the art of the blade", "flick of the wrist", "dangerous display"],
+  "bar_seeds": ["butterfly flick", "balisong blade", "flipping the heat", "razor sharp flips"],
+  "weapon_type": "Folding Knife",
+  "range": "Melee",
+  "damage_type": "Slashing / Piercing",
+  "symbolism": "Agility, skill, street flair, and hidden danger.",
+  "famous_users": ["Street performers", "Martial artists"],
+  "related_ids": ["lingo"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

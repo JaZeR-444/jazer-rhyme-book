@@ -1,0 +1,18 @@
+{
+  "id": "varsity-jacket",
+  "type": "fashion",
+  "name": "Varsity Jacket",
+  "aliases": ["Letterman Jacket"],
+  "era": "1950s-Present",
+  "tags": ["americana", "classic", "vibrant", "preppy"],
+  "one_liner": "A badge of athletic achievement that transitioned from college campuses to high-fashion runways.",
+  "angles": ["collegiate pride", "color blocking", "heritage sportswear"],
+  "bar_seeds": ["wool body leather sleeves", "letterman patch", "team colors"],
+  "item_type": "Outerwear",
+  "material": ["Wool", "Leather", "Chenille"],
+  "cultural_significance": "Represents high school/college nostalgia and American sports culture.",
+  "fit": ["Oversized", "Boxy"],
+  "associated_brands": ["Golden Bear", "Nike", "Louis Vuitton"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

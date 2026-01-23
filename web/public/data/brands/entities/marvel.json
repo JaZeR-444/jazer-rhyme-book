@@ -1,0 +1,17 @@
+{
+  "id": "marvel",
+  "type": "brand",
+  "name": "Marvel",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A media and entertainment powerhouse built on a foundation of iconic comic book superheroes.",
+  "tags": ["pop", "cinematic", "franchise", "legacy"],
+  "angles": ["heroic-cycle", "shared-universe", "comic-heritage"],
+  "bar_seeds": ["avengers assemble", "stan lee cameo", "multiverse expansion"],
+  "related_ids": ["dc-comics", "disney-plus"],
+  "category": "Media / Entertainment",
+  "price_tier": "Mid",
+  "signature_products": ["Spider-Man", "The Avengers", "MCU"],
+  "status_signals": ["The Red Logo", "Opening flip animation"],
+  "bar_angles": ["Superhero status", "The cinematic universe", "Saving the world"]
+}

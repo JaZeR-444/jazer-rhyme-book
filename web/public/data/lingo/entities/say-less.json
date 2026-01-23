@@ -1,0 +1,18 @@
+{
+  "id": "say-less",
+  "type": "lingo",
+  "name": "Say Less",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A phrase used to indicate immediate understanding or agreement.",
+  "tags": ["slang", "contemporary", "efficiency", "agreement"],
+  "angles": ["understanding", "action", "brevity"],
+  "bar_seeds": ["say less I'm on my way", "no need for words", "understood completely"],
+  "related_ids": ["bet"],
+  "meaning": "I understand / Don't say another word, I'm on it.",
+  "usage": "Confirming a plan or acknowledging a point.",
+  "origin": "Internet / AAVE",
+  "region": "Global",
+  "example_lines": ["You need the beat? Say less.", "Say less, I'm already there."],
+  "do_not_use_if": ["You actually want them to stop talking because you're annoyed (use 'be quiet')"]
+}

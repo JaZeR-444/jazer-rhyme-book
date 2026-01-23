@@ -1,0 +1,16 @@
+{
+  "id": "platonism",
+  "type": "philosophy-ideas",
+  "name": "Platonism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The philosophy that physical objects are temporary and imperfect copies of eternal, perfect 'Forms'.",
+  "tags": ["classic", "abstract", "intellectual", "legacy"],
+  "angles": ["perfect forms", "the cave", "idealism"],
+  "bar_seeds": ["shadows on the wall", "the ideal version", "eternal truth"],
+  "school_of_thought": "Ancient Greek Idealism",
+  "core_question": "Is the world we see real, or just a shadow of a higher truth?",
+  "key_philosophers": ["Plato", "Plotinus"],
+  "paradoxes": ["The Third Man Argument"],
+  "modern_application": "Mathematics, conceptual art, simulation theory (roots)."
+}

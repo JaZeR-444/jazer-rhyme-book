@@ -1,0 +1,20 @@
+{
+  "id": "netflix",
+  "type": "media-platforms",
+  "name": "Netflix",
+  "aliases": ["The Red N"],
+  "era": "1990s-Present",
+  "tags": ["streaming", "video", "entertainment", "original-content"],
+  "one_liner": "The pioneer of subscription-based video streaming, transforming how the world consumes television and film.",
+  "angles": ["binge-watching culture", "the death of cable", "content as a commodity"],
+  "bar_seeds": ["netflix and chill", "binge watching", "original series", "algorithm recommendations"],
+  "platform_type": "Video Streaming",
+  "user_demographic": "Universal",
+  "content_format": ["Movies", "TV Shows", "Documentaries"],
+  "algorithm_bias": "Watch history, genre preferences, and completion rates",
+  "slang": ["Binge", "Netflix and Chill", "Algorithm"],
+  "related_ids": ["cinema"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

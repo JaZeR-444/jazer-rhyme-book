@@ -1,0 +1,18 @@
+{
+  "id": "spider-man-pointing",
+  "type": "internet-culture",
+  "name": "Spider-Man Pointing",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An image of two Spider-Men pointing at each other, used to highlight hypocrisy or identical situations.",
+  "tags": ["classic", "cinematic", "pop", "logic"],
+  "angles": ["hypocrisy", "identity", "mirroring"],
+  "bar_seeds": ["pointing the finger", "looking in a mirror", "same guy different suit"],
+  "related_ids": [],
+  "format": "Image Macro",
+  "origin_platform": "60s Spider-Man Cartoon / Twitter",
+  "meaning": "The realization that two seemingly different things or people are exactly the same.",
+  "remix_rules": ["Two or more characters pointing", "Labeling characters", "Used for political or social commentary"],
+  "lifespan_risk": "Legendary",
+  "example_lines": ["Both sides the same, Spider-Man pointing in the street", "I see my reflection and we both start the pointing"]
+}

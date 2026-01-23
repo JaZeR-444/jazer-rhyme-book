@@ -1,0 +1,51 @@
+{
+  "id": "global-financial-crisis-2008",
+  "type": "history",
+  "name": "Global Financial Crisis",
+  "aliases": [
+    "GFC"
+  ],
+  "era": "2007-2009",
+  "tags": [
+    "bear-market",
+    "crash",
+    "mainstream",
+    "legacy"
+  ],
+  "one_liner": "A worldwide financial meltdown triggered by housing and credit collapse.",
+  "angles": [
+    "credit freeze",
+    "market crash",
+    "bailout era"
+  ],
+  "bar_seeds": [
+    "markets in freefall",
+    "mortgage meltdown",
+    "too big to fail"
+  ],
+  "key_dates": [
+    "2008 (Lehman collapse)",
+    "2009 (recession trough)"
+  ],
+  "location": "Global",
+  "impact": "Deep recession, regulatory reforms, and long-term economic effects.",
+  "major_figures": [
+    "Ben Bernanke",
+    "Hank Paulson"
+  ],
+  "cultural_shift": "Trust in financial institutions eroded while regulation increased.",
+  "related_ids": [
+    "stock-market",
+    "real-estate"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

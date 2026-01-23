@@ -1,0 +1,20 @@
+{
+  "id": "gold-bar",
+  "type": "weapons-objects",
+  "name": "Gold Bar",
+  "aliases": ["Ingot", "Bullion"],
+  "era": "Ancient-Present",
+  "tags": ["object", "wealth", "luxury", "standard"],
+  "one_liner": "A brick of refined metallic gold, the universal standard for wealth and stability.",
+  "angles": ["liquid wealth made solid", "the ultimate insurance", "shining treasure"],
+  "bar_seeds": ["stacking gold bricks", "bullion in the vault", "heavy metal wealth", "golden standard"],
+  "weapon_type": "Status Object",
+  "range": "N/A",
+  "damage_type": "N/A",
+  "symbolism": "Wealth, permanence, power, and the ultimate value.",
+  "famous_users": ["Central banks", "Billionaires", "Treasure hunters"],
+  "related_ids": ["luxury", "business-economics"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

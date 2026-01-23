@@ -1,0 +1,18 @@
+{
+  "id": "stan",
+  "type": "lingo",
+  "name": "Stan",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An overzealous or obsessive fan of a particular celebrity.",
+  "tags": ["slang", "fandom", "music", "legacy"],
+  "angles": ["obsession", "loyalty", "stalker"],
+  "bar_seeds": ["wrote you but you ain't callin", "biggest fan", "stan army"],
+  "related_ids": [],
+  "meaning": "Stalker + Fan (portmanteau).",
+  "usage": "Self-identifying as a huge fan ('I stan Loona') or describing crazy behavior.",
+  "origin": "Eminem's song 'Stan' (2000)",
+  "region": "Global",
+  "example_lines": ["I stan a queen", "Don't be a stan, be a fan"],
+  "do_not_use_if": ["You are actually stalking someone (that's a crime)"]
+}

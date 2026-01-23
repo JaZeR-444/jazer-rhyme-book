@@ -1,0 +1,55 @@
+{
+  "id": "lupita-nyongo",
+  "type": "people",
+  "name": "Lupita Nyong'o",
+  "aliases": [
+    "Lupita",
+    "Nyong'o"
+  ],
+  "era": "2013-Present",
+  "tags": [
+    "actress",
+    "kenyan-mexican",
+    "oscar-winner",
+    "style-icon",
+    "diverse"
+  ],
+  "one_liner": "An actress known for Oscar-winning performance and distinctive style.",
+  "angles": [
+    "Oscar-winning",
+    "style icon",
+    "diverse representation"
+  ],
+  "bar_seeds": [
+    "12 years a slave",
+    "black panther",
+    "us",
+    "little monsters"
+  ],
+  "known_for": [
+    "12 Years a Slave",
+    "Black Panther",
+    "Us",
+    "Little Monsters"
+  ],
+  "vibe": "Talented, stylish, and diverse",
+  "signature_items": [
+    "Oscar",
+    "Distinctive style",
+    "Diverse roles"
+  ],
+  "quotables_short": [
+    "I am very much so an actress",
+    "I want to be a chameleon"
+  ],
+  "controversy_flags": [
+    "Industry representation"
+  ],
+  "related_ids": [
+    "chadwick-boseman",
+    "lupita-nyongo"
+  ],
+  "created_at": "2025-12-23T12:00:00Z",
+  "updated_at": "2025-12-23T12:00:00Z",
+  "sources": []
+}

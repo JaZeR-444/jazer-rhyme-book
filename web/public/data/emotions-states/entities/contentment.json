@@ -1,0 +1,71 @@
+{
+  "id": "contentment",
+  "type": "emotions-states",
+  "name": "Contentment",
+  "aliases": [
+    "Satisfaction"
+  ],
+  "era": "Timeless",
+  "tags": [
+    "mellow",
+    "classic",
+    "peace"
+  ],
+  "one_liner": "A calm sense of satisfaction with the present moment.",
+  "angles": [
+    "quiet ease",
+    "steady peace",
+    "enough as is"
+  ],
+  "bar_seeds": [
+    "soft light, no rush",
+    "breathing easy",
+    "good with the moment"
+  ],
+  "related_ids": [
+    "zen",
+    "gratitude"
+  ],
+  "created_at": "2026-01-06T16:30:00Z",
+  "updated_at": "2026-01-06T16:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Contentment",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ],
+  "triggers": [
+    "safety",
+    "connection",
+    "rest"
+  ],
+  "sensations": [
+    "ease",
+    "warmth",
+    "slow breath"
+  ],
+  "expressions": [
+    "soft smile",
+    "relaxed posture",
+    "quiet focus"
+  ],
+  "opposites": [
+    "envy",
+    "restlessness"
+  ],
+  "coping_tools": [
+    "gratitude",
+    "mindfulness",
+    "rest"
+  ],
+  "cultural_notes": [
+    "simplicity",
+    "slow living"
+  ],
+  "related_states": [
+    "peace",
+    "calm"
+  ]
+}

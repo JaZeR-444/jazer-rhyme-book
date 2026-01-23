@@ -1,0 +1,17 @@
+{
+  "id": "catharsis",
+  "type": "emotions-states",
+  "name": "Catharsis",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The process of releasing, and thereby providing relief from, strong or repressed emotions.",
+  "tags": ["relief", "vibrant", "emotional", "art"],
+  "angles": ["release", "cleansing", "epiphany"],
+  "bar_seeds": ["tears falling down", "screaming at the sky", "letting it all out"],
+  "intensity": "High",
+  "physical_symptoms": ["Crying", "Laughter", "Deep exhalation"],
+  "triggers": ["Tragic drama", "Intense music", "Confession"],
+  "action_urge": "To fully experience and express the pent-up emotion.",
+  "opposites": ["Repression", "Stasis"],
+  "related_ids": ["relief", "joy"]
+}

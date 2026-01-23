@@ -1,0 +1,21 @@
+{
+  "id": "run-dmc",
+  "type": "music",
+  "name": "Run-D.M.C.",
+  "aliases": ["The Kings from Queens"],
+  "era": "1980s",
+  "tags": ["queens", "pioneers", "fashion", "rock-rap", "legend"],
+  "one_liner": "The group that brought hip-hop into the mainstream and established the Adidas-clad look.",
+  "angles": ["kings of rock", "crossing over", "street fashion pioneers"],
+  "bar_seeds": ["my adidas", "it's tricky", "walk this way", "shell toe"],
+  "genre": ["Hardcore Hip Hop", "Rap Rock"],
+  "era_detail": "Active 1983–2002.",
+  "signature_songs": ["My Adidas", "Walk This Way", "It's Tricky"],
+  "sonic_descriptors": ["minimalist", "heavy drums", "shouted vocals"],
+  "influence_tree": ["Grandmaster Flash", "Kurtis Blow"],
+  "aesthetic": "Adidas tracksuits and Fedoras",
+  "related_ids": ["public-enemy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

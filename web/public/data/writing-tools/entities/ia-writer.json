@@ -1,0 +1,18 @@
+{
+  "id": "ia-writer",
+  "type": "writing-tool",
+  "name": "iA Writer",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A distraction-free writing app that strips away all interface elements.",
+  "tags": ["tool", "minimalist", "technical", "focus"],
+  "angles": ["focus", "simplicity", "zen"],
+  "bar_seeds": ["blue cursor", "markdown only", "focus mode"],
+  "related_ids": [],
+  "category": "Software",
+  "what_it_does": "Provides a clean, plain-text environment for writing.",
+  "best_for": ["deep work", "drafting", "markdown"],
+  "workflow_hooks": ["Turn on Focus Mode (sentence highlight)", "Write in pure Markdown"],
+  "pitfalls": ["Limited formatting", "No bells and whistles"],
+  "bar_angles": ["Tunnel vision", "Pure text", "Digital zen"]
+}

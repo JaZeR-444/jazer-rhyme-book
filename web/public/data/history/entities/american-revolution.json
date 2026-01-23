@@ -1,0 +1,17 @@
+{
+  "id": "american-revolution",
+  "type": "history",
+  "name": "American Revolution",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ideological and political revolution which occurred in colonial North America between 1765 and 1783.",
+  "tags": ["revolutionary", "rebellion", "history", "americana"],
+  "angles": ["liberty-or-death", "no-taxation-without-representation", "birth-of-a-nation"],
+  "bar_seeds": ["declaration of intent", "crossing the delaware", "thirteen stars"],
+  "related_ids": ["the-enlightenment"],
+  "key_dates": ["1765", "1783"],
+  "location": "Thirteen Colonies (United States)",
+  "impact": "Founded the United States of America and influenced subsequent global revolutions.",
+  "major_figures": ["George Washington", "Thomas Jefferson", "Benjamin Franklin"],
+  "cultural_shift": "Rejection of monarchy in favor of republicanism and individual rights."
+}

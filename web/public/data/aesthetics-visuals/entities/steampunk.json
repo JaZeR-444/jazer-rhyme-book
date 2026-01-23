@@ -1,0 +1,17 @@
+{
+  "id": "steampunk",
+  "type": "aesthetics-visuals",
+  "name": "Steampunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subgenre of science fiction that incorporates retrofuturistic technology and aesthetics inspired by 19th-century industrial steam-powered machinery.",
+  "tags": ["vintage", "industrial", "futuristic", "artifact"],
+  "angles": ["brass", "gears", "victorian", "mechanical"],
+  "bar_seeds": ["clocks and gears", "steam engine flow", "victorian future"],
+  "related_ids": [],
+  "visual_elements": ["Brass gears", "Steam pipes", "Clockwork", "Leather goggles"],
+  "mood": "Adventurous, industrious, nostalgic",
+  "associated_eras": ["19th Century", "Victorian Era"],
+  "color_palette": ["Copper", "Bronze", "Sepia", "Dark Leather"],
+  "fashion_staples": ["Corsets", "Top hats", "Vest coats", "Aviator goggles"]
+}

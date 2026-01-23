@@ -1,0 +1,19 @@
+{
+  "id": "shaquille-oneal",
+  "type": "sports",
+  "name": "Shaquille O'Neal",
+  "aliases": ["Shaq", "The Diesel", "Superman", "Big Aristotle"],
+  "era": "1990s-2010s",
+  "tags": ["basketball", "dominance", "power", "personality"],
+  "one_liner": "The most dominant physical force in NBA history, known for breaking backboards and winning championships.",
+  "angles": ["sheer power", "shattering the rim", "unstoppable force"],
+  "bar_seeds": ["black tornado", "kazaam", "four rings"],
+  "team_size": "5 (Basketball)",
+  "key_skills": ["Post moves", "Strength", "Shot blocking"],
+  "equipment": ["Basketball", "Reebok Shaq Attaq"],
+  "metaphors": ["The Diesel", "Superman"],
+  "legends": ["Lakers Three-peat", "MVP", "TV personality"],
+  "related_ids": ["kobe-bryant", "lebron-james"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

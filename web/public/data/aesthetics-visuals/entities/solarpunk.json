@@ -1,0 +1,17 @@
+{
+  "id": "solarpunk",
+  "type": "aesthetics-visuals",
+  "name": "Solarpunk",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An optimistic aesthetic and movement envisioning a future where technology and nature live in harmony.",
+  "tags": ["futuristic", "organic", "vibrant", "innovative"],
+  "angles": ["sustainability", "renewal", "brightness"],
+  "bar_seeds": ["solar panel shine", "vertical gardens", "green tech"],
+  "related_ids": ["afrofuturism"],
+  "visual_elements": ["Solar panels", "Vertical gardens", "Art Nouveau curves", "Clean energy"],
+  "mood": "Hopeful, bright, communal",
+  "associated_eras": ["2020s", "Future"],
+  "color_palette": ["Leaf Green", "Sky Blue", "Bright Yellow", "Terra Cotta"],
+  "fashion_staples": ["Sustainable fabrics", "Floral patterns", "Practical workwear", "Natural dyes"]
+}

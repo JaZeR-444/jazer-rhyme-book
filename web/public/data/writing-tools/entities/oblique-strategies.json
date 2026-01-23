@@ -1,0 +1,18 @@
+{
+  "id": "oblique-strategies",
+  "type": "writing-tool",
+  "name": "Oblique Strategies",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A deck of cards created by Brian Eno and Peter Schmidt to break creative blocks.",
+  "tags": ["tool", "innovative", "classic", "esoteric", "art"],
+  "angles": ["lateral thinking", "chance", "creativity"],
+  "bar_seeds": ["draw a card", "honor thy error", "look at it sideways"],
+  "related_ids": [],
+  "category": "Method",
+  "what_it_does": "Provides cryptic or specific constraints to force a change in perspective.",
+  "best_for": ["writer's block", "experimental flows", "production ideas"],
+  "workflow_hooks": ["Pull a card when stuck", "Apply the instruction literally"],
+  "pitfalls": ["Too abstract for some", "Can derail a vibe"],
+  "bar_angles": ["Calculated randomness", "The oracle speaks", "Shift the paradigm"]
+}

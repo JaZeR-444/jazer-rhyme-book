@@ -1,0 +1,17 @@
+{
+  "id": "converse",
+  "type": "brand",
+  "name": "Converse",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The creator of the Chuck Taylor All Star, the most iconic sneaker in history.",
+  "tags": ["classic", "vintage", "americana", "pop"],
+  "angles": ["chuck-taylor", "punk-roots", "timeless-canvas"],
+  "bar_seeds": ["chuck taylors", "all star patch", "canvas high top"],
+  "related_ids": ["nike"],
+  "category": "Footwear",
+  "price_tier": "Low",
+  "signature_products": ["Chuck Taylor All Star", "Jack Purcell"],
+  "status_signals": ["The All Star ankle patch", "Rubber toe cap"],
+  "bar_angles": ["Old school cool", "The canvas of culture", "Punk rock steps"]
+}

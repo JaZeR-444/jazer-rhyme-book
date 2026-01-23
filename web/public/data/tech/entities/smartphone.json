@@ -1,0 +1,21 @@
+{
+  "id": "smartphone",
+  "type": "tech",
+  "name": "Smartphone",
+  "aliases": ["Cell phone", "Mobile", "The slab"],
+  "era": "2000s-Present",
+  "tags": ["communication", "ubiquitous", "digital-life", "tech"],
+  "one_liner": "A pocket-sized computer that revolutionized communication, media consumption, and social interaction.",
+  "angles": ["digital tether", "the modern mirror", "constant connectivity"],
+  "bar_seeds": ["blue bubbles", "scrolling for days", "cracked screen", "battery on 1%"],
+  "category": "Consumer Electronics",
+  "what_it_is": "A portable device combining mobile telephony and computing functions into one unit.",
+  "why_it_matters": "Centralized human life into a single digital interface.",
+  "risks": ["Data privacy", "Digital addiction", "Surveillance"],
+  "metaphors": ["Modern-day Swiss Army knife", "A window to the world in your pocket"],
+  "keywords": ["Touchscreen", "App Store", "LTE/5G", "Mobile OS"],
+  "related_ids": ["social-media"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

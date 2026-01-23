@@ -1,0 +1,20 @@
+{
+  "id": "cadillac-fleetwood",
+  "type": "vehicles",
+  "name": "Cadillac Fleetwood",
+  "aliases": ["Fleetwood", "Caddy"],
+  "era": "1940s-1990s",
+  "tags": ["luxury-car", "classic", "american", "status"],
+  "one_liner": "A classic American luxury sedan representing old-school prestige and comfort.",
+  "angles": ["the boat on wheels", "vintage status", "mafia aesthetic"],
+  "bar_seeds": ["white wall tires", "leather bench seats", "classic cadillac grille", "driving the fleetwood"],
+  "vehicle_type": "Full-size Luxury Sedan",
+  "engine_type": "Classic American V8",
+  "top_speed": "Varies (usually around 110-120 mph)",
+  "cultural_status": "An icon of 20th-century American luxury and a favorite for custom lowriders.",
+  "design_features": ["Long wheelbase", "Chrome accents", "Plush interior"],
+  "related_ids": ["lowrider"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

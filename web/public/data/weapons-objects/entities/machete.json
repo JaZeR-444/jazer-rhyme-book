@@ -1,0 +1,17 @@
+{
+  "id": "machete",
+  "type": "weapons-objects",
+  "name": "Machete",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A broad, heavy knife used as an implement like an axe, or in combat like a short sword.",
+  "tags": ["grit", "jungle", "raw", "blade"],
+  "angles": ["clearing the path", "survival", "brutality"],
+  "bar_seeds": ["cutting the vines", "rusty blade", "jungle warfare"],
+  "related_ids": ["bowie-knife"],
+  "weapon_type": "Blade",
+  "range": "Melee",
+  "damage_type": "Slashing",
+  "symbolism": "Survival against nature, rebellion, and raw violence.",
+  "famous_users": ["Jason Voorhees", "Danny Trejo"]
+}

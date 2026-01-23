@@ -1,0 +1,17 @@
+{
+  "id": "heat-death",
+  "type": "time-energy",
+  "name": "Heat Death",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The ultimate fate of the universe in which it has evolved to a state of no thermodynamic free energy.",
+  "tags": ["dark", "entropy", "scientific", "finality"],
+  "angles": ["the cold end", "maximum disorder", "eternal static"],
+  "bar_seeds": ["stars going out", "the last flicker", "absolute silence"],
+  "related_ids": ["entropy", "decay"],
+  "concept_type": "Cosmology / Physics",
+  "perception": "Total finality, absolute cold, and ultimate peace or horror.",
+  "physics_basis": "Maximization of entropy in an expanding universe.",
+  "cultural_view": "The grand finale of existence; the ultimate 'it's over'.",
+  "idioms": ["The big freeze", "Fade to black", "No more fuel"]
+}

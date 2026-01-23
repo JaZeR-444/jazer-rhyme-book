@@ -1,0 +1,50 @@
+{
+  "id": "fall-of-the-soviet-union-1991",
+  "type": "history",
+  "name": "Fall of the Soviet Union",
+  "aliases": [
+    "Soviet collapse"
+  ],
+  "era": "1991",
+  "tags": [
+    "political",
+    "legacy",
+    "revolution",
+    "war"
+  ],
+  "one_liner": "The dissolution of the USSR ended the Cold War and reshaped global power.",
+  "angles": [
+    "empire breaks apart",
+    "end of a superpower",
+    "new world order"
+  ],
+  "bar_seeds": [
+    "red flag lowered",
+    "empire in pieces",
+    "new borders drawn"
+  ],
+  "key_dates": [
+    "1991 (USSR dissolved)",
+    "1991 (Commonwealth of Independent States formed)"
+  ],
+  "location": "Soviet Union / Eurasia",
+  "impact": "Shifted global power, triggered new states, and ended a bipolar world order.",
+  "major_figures": [
+    "Mikhail Gorbachev",
+    "Boris Yeltsin"
+  ],
+  "cultural_shift": "Cold War anxieties eased while new economic and political models emerged.",
+  "related_ids": [
+    "cold-war"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

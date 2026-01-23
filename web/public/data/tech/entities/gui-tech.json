@@ -1,0 +1,20 @@
+{
+  "id": "gui-tech",
+  "type": "tech",
+  "name": "GUI",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators.",
+  "tags": ["technical", "visual", "minimalist", "lifestyle"],
+  "angles": ["visual-logic", "point-and-click-power", "the-digital-skin"],
+  "bar_seeds": ["icons on the glass", "dragging the future", "window to the world"],
+  "related_ids": ["cli-tech"],
+  "category": "Software / Interface",
+  "what_it_is": "Graphical User Interface; the visual way humans interact with machines.",
+  "why_it_matters": "Made computing accessible to the general public, ending the era of purely text-based systems.",
+  "risks": ["Over-simplification", "Distraction", "Information overload"],
+  "metaphors": ["A digital dashboard", "The face of the machine", "Virtual playground"],
+  "keywords": ["WIMP", "Icons", "Windows", "Interaction Design", "UX"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

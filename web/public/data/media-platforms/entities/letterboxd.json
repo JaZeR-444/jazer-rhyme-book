@@ -1,0 +1,17 @@
+{
+  "id": "letterboxd",
+  "type": "media-platforms",
+  "name": "Letterboxd",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A social network for film lovers to log, rate, and review movies.",
+  "tags": ["cinema", "community", "critic", "aesthetic"],
+  "angles": ["opinion", "logging", "cinephile"],
+  "bar_seeds": ["five star review", "logging the rewatch", "diary entry"],
+  "related_ids": [],
+  "platform_type": "Social Networking",
+  "user_demographic": "Cinephiles, Film Students, Casual Viewers",
+  "content_format": ["Reviews", "Lists", "Ratings"],
+  "algorithm_bias": "Favors popular new releases and classic cinema.",
+  "slang": ["Log", "List", "Review bombing"]
+}

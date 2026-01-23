@@ -1,0 +1,17 @@
+{
+  "id": "seoul",
+  "type": "places",
+  "name": "Seoul",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A high-tech metropolis where ancient temples meet neon-lit skyscrapers and a global pop culture wave.",
+  "tags": ["futuristic", "vibrant", "asian", "technical"],
+  "angles": ["neon future", "k-wave", "precision culture"],
+  "bar_seeds": ["gangnam lights", "cyber soul", "digital heartbeat"],
+  "related_ids": ["cyberpunk"],
+  "place_type": "city",
+  "vibe": "Hyper-modern, fast-paced, and polished.",
+  "sensory_cues": ["Neon signs", "Spicy food", "High-speed transit", "Polished surfaces"],
+  "cultural_refs": ["K-Pop", "Parasite", "Samsung"],
+  "bar_angles": ["Seoul in the soul", "Hyper-speed living", "Future is now"]
+}

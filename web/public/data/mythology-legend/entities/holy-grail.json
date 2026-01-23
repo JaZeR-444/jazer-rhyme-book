@@ -1,0 +1,17 @@
+{
+  "id": "holy-grail",
+  "type": "mythology-legend",
+  "name": "Holy Grail",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A treasure that serves as an important motif in Arthurian literature, usually a vessel with miraculous powers.",
+  "tags": ["artifact", "classic", "spiritual", "mystery"],
+  "angles": ["the-ultimate-quest", "miraculous-healing", "eternal-life"],
+  "bar_seeds": ["chasing the cup", "sacred vessel", "the end of the road"],
+  "related_ids": ["king-arthur", "the-renaissance"],
+  "origin_culture": "Christian / Arthurian",
+  "deity_type": "Mythical Artifact",
+  "powers": ["Healing", "Eternal youth", "Abundance"],
+  "symbols": ["Chalice", "Blood", "Light"],
+  "modern_parallels": ["The 'Killer App'", "Ultimate achievement", "Indiana Jones"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "flannel-shirt",
+  "type": "fashion",
+  "name": "Flannel Shirt",
+  "aliases": ["Plaid Shirt"],
+  "era": "17th Century-Present (Modern 1990s)",
+  "tags": ["grunge", "raw", "workwear", "classic"],
+  "angles": ["lumberjack-roots", "grunge-uniform", "rugged-softness"],
+  "bar_seeds": ["plaid patterns", "soft wool", "tied around the waist"],
+  "related_ids": ["grunge-music", "nirvana"],
+  "item_type": "Tops",
+  "material": ["Flannel", "Wool", "Cotton"],
+  "cultural_significance": "Transitioned from American workwear to the definitive symbol of 90s alternative culture.",
+  "fit": ["Oversized", "Relaxed"],
+  "associated_brands": ["Pendleton", "Woolrich", "Saint Laurent"],
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z"
+}

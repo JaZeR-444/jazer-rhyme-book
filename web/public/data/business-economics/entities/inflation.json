@@ -1,0 +1,54 @@
+{
+  "id": "inflation",
+  "type": "business-economics",
+  "name": "Inflation",
+  "aliases": [],
+  "era": "1900s-Present",
+  "tags": [
+    "mainstream",
+    "contemporary",
+    "bear-market"
+  ],
+  "one_liner": "Sustained increase in prices that reduces purchasing power over time.",
+  "angles": [
+    "price pressure",
+    "purchasing power",
+    "rate hikes"
+  ],
+  "bar_seeds": [
+    "price tags rising",
+    "dollar feels lighter",
+    "rates on the climb"
+  ],
+  "industry": "Macroeconomics",
+  "core_principle": "Prices rise when demand outpaces supply or costs increase.",
+  "jargon": [
+    "CPI",
+    "rate hikes",
+    "sticky prices"
+  ],
+  "key_metrics": [
+    "inflation rate",
+    "CPI",
+    "wage growth"
+  ],
+  "archetypes": [
+    "central bank",
+    "consumer",
+    "business"
+  ],
+  "related_ids": [
+    "stock-market",
+    "real-estate"
+  ],
+  "created_at": "2026-01-06T15:30:00Z",
+  "updated_at": "2026-01-06T15:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inflation",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

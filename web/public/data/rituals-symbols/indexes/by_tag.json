@@ -1,0 +1,352 @@
+{
+  "ritual": [
+    "altar",
+    "baptism",
+    "blood-bond",
+    "candlelight-ritual",
+    "ceremony",
+    "coronation",
+    "exorcism",
+    "fasting",
+    "feast",
+    "genuflection",
+    "handshake",
+    "incantation",
+    "incense",
+    "initiation",
+    "labyrinth-ritual",
+    "libation",
+    "pilgrimage",
+    "purification",
+    "sacrifice",
+    "scarification",
+    "seance",
+    "swearing-on-the-grave",
+    "taboo",
+    "tattoo",
+    "the-long-walk",
+    "the-silent-hour",
+    "the-veiling",
+    "toast",
+    "vigil"
+  ],
+  "classic": [
+    "altar",
+    "amulet",
+    "ankh",
+    "ashes-symbol",
+    "baptism",
+    "black-rose-symbol",
+    "caduceus",
+    "eye-of-providence",
+    "genuflection",
+    "handshake",
+    "labyrinth-ritual",
+    "laurel-wreath-symbol",
+    "olive-branch-symbol",
+    "pentagram",
+    "pilgrimage",
+    "red-rose-symbol",
+    "swearing-on-the-grave",
+    "the-skull-symbol",
+    "the-veiling",
+    "toast",
+    "tree-of-life",
+    "white-flag-symbol",
+    "yin-and-yang"
+  ],
+  "sacrifice": [
+    "altar"
+  ],
+  "spiritual": [
+    "altar",
+    "ankh",
+    "ashes-symbol",
+    "baptism",
+    "candlelight-ritual",
+    "incense",
+    "labyrinth-ritual",
+    "lotus-flower-symbol",
+    "mandala",
+    "pilgrimage",
+    "purification",
+    "the-silent-hour",
+    "the-veiling",
+    "totem",
+    "tree-of-life",
+    "yin-and-yang"
+  ],
+  "protection": [
+    "amulet",
+    "totem"
+  ],
+  "artifact": [
+    "amulet"
+  ],
+  "esoteric": [
+    "amulet",
+    "exorcism",
+    "eye-of-providence",
+    "incantation",
+    "ouroboros",
+    "pentagram",
+    "seance",
+    "sigil",
+    "tarot"
+  ],
+  "legacy": [
+    "ankh",
+    "olive-branch-symbol",
+    "swearing-on-the-grave",
+    "the-skull-symbol",
+    "tree-of-life"
+  ],
+  "symbolic-object": [
+    "ankh",
+    "eye-of-providence",
+    "ouroboros",
+    "pentagram",
+    "sigil",
+    "white-flag-symbol"
+  ],
+  "dark": [
+    "ashes-symbol",
+    "black-rose-symbol",
+    "exorcism",
+    "pentagram",
+    "seance",
+    "swearing-on-the-grave",
+    "the-skull-symbol"
+  ],
+  "purification": [
+    "ashes-symbol",
+    "baptism",
+    "exorcism",
+    "fasting",
+    "incense"
+  ],
+  "rebellion": [
+    "black-rose-symbol"
+  ],
+  "noir": [
+    "black-rose-symbol",
+    "seance"
+  ],
+  "grit": [
+    "blood-bond",
+    "fasting",
+    "scarification",
+    "tattoo",
+    "the-long-walk"
+  ],
+  "raw": [
+    "blood-bond",
+    "scarification"
+  ],
+  "bond": [
+    "blood-bond",
+    "handshake"
+  ],
+  "technical": [
+    "caduceus"
+  ],
+  "medical": [
+    "caduceus"
+  ],
+  "mythology": [
+    "caduceus"
+  ],
+  "mellow": [
+    "candlelight-ritual",
+    "incense",
+    "the-silent-hour"
+  ],
+  "aesthetic": [
+    "candlelight-ritual"
+  ],
+  "formal": [
+    "ceremony"
+  ],
+  "spectacle": [
+    "ceremony"
+  ],
+  "celebration": [
+    "ceremony",
+    "toast"
+  ],
+  "power": [
+    "coronation",
+    "eye-of-providence",
+    "incantation",
+    "sigil",
+    "taboo"
+  ],
+  "status": [
+    "coronation",
+    "initiation",
+    "laurel-wreath-symbol"
+  ],
+  "royalty": [
+    "coronation"
+  ],
+  "discipline": [
+    "fasting"
+  ],
+  "vibrant": [
+    "feast",
+    "red-rose-symbol"
+  ],
+  "community": [
+    "feast",
+    "initiation"
+  ],
+  "luxury": [
+    "feast"
+  ],
+  "respect": [
+    "genuflection"
+  ],
+  "submission": [
+    "genuflection"
+  ],
+  "business": [
+    "handshake"
+  ],
+  "speech": [
+    "incantation"
+  ],
+  "transition": [
+    "initiation"
+  ],
+  "journey": [
+    "labyrinth-ritual",
+    "pilgrimage"
+  ],
+  "victory": [
+    "laurel-wreath-symbol",
+    "olive-branch-symbol"
+  ],
+  "history": [
+    "laurel-wreath-symbol",
+    "the-skull-symbol"
+  ],
+  "offering": [
+    "libation"
+  ],
+  "remembrance": [
+    "libation"
+  ],
+  "street": [
+    "libation"
+  ],
+  "organic": [
+    "lotus-flower-symbol"
+  ],
+  "purity": [
+    "lotus-flower-symbol"
+  ],
+  "asian": [
+    "lotus-flower-symbol",
+    "mandala",
+    "yin-and-yang"
+  ],
+  "geometric": [
+    "mandala"
+  ],
+  "art": [
+    "mandala",
+    "tarot",
+    "tattoo"
+  ],
+  "peace": [
+    "olive-branch-symbol",
+    "white-flag-symbol"
+  ],
+  "symbol": [
+    "omen",
+    "totem"
+  ],
+  "future": [
+    "omen",
+    "tarot"
+  ],
+  "mystery": [
+    "omen"
+  ],
+  "superstition": [
+    "omen"
+  ],
+  "cyclical": [
+    "ouroboros"
+  ],
+  "eternal": [
+    "ouroboros"
+  ],
+  "cleansing": [
+    "purification"
+  ],
+  "renewal": [
+    "purification"
+  ],
+  "romance": [
+    "red-rose-symbol"
+  ],
+  "secret": [
+    "red-rose-symbol",
+    "the-veiling"
+  ],
+  "commitment": [
+    "sacrifice"
+  ],
+  "loss": [
+    "sacrifice"
+  ],
+  "sacred": [
+    "sacrifice"
+  ],
+  "identity": [
+    "scarification",
+    "tattoo",
+    "totem"
+  ],
+  "logic": [
+    "sigil"
+  ],
+  "forbidden": [
+    "taboo"
+  ],
+  "social": [
+    "taboo",
+    "toast"
+  ],
+  "curation": [
+    "tarot"
+  ],
+  "endurance": [
+    "the-long-walk"
+  ],
+  "tragedy": [
+    "the-long-walk"
+  ],
+  "zen": [
+    "the-silent-hour"
+  ],
+  "nature": [
+    "tree-of-life"
+  ],
+  "patience": [
+    "vigil"
+  ],
+  "mourning": [
+    "vigil"
+  ],
+  "waiting": [
+    "vigil"
+  ],
+  "war": [
+    "white-flag-symbol"
+  ],
+  "balance": [
+    "yin-and-yang"
+  ]
+}

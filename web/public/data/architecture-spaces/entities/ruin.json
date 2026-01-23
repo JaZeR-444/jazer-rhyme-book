@@ -1,0 +1,20 @@
+{
+  "id": "ruin",
+  "type": "architecture-spaces",
+  "name": "Ruin",
+  "aliases": ["Remains", "Decay", "Relic"],
+  "era": "Ancient-Present",
+  "tags": ["historic", "decay", "mystery", "melancholy"],
+  "one_liner": "The remains of a building or structure that has suffered significant damage or decay over time.",
+  "angles": ["the beauty in collapse", "nature reclaiming the man-made", "echoes of the past"],
+  "bar_seeds": ["crumbled stone", "vines through the floor", "empty windows", "forgotten glory"],
+  "style": "Varies (Classical, Industrial, etc.)",
+  "materials": ["Eroded stone", "Rusting steel", "Overgrown vegetation"],
+  "spatial_qualities": ["Fragmented", "Open to elements", "Silent"],
+  "function": "Historical Site / Monument",
+  "famous_examples": ["The Parthenon", "Colosseum", "Angkor Wat"],
+  "related_ids": ["history", "melancholy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

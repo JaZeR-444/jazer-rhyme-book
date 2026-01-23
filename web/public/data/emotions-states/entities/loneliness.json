@@ -1,0 +1,20 @@
+{
+  "id": "loneliness",
+  "type": "emotions-states",
+  "name": "Loneliness",
+  "aliases": ["Solitude", "Isolation"],
+  "era": "Universal",
+  "tags": ["negative", "low-energy", "deep", "internal"],
+  "one_liner": "An unpleasant emotional response to perceived isolation.",
+  "angles": ["alone in a crowded room", "the echo of silence", "the singular life"],
+  "bar_seeds": ["empty bed", "no calls on the phone", "one chair at the table", "echoing halls"],
+  "intensity": "Moderate to High",
+  "physical_symptoms": ["Feeling cold", "Empty chest", "Physical ache", "Sleep disturbances"],
+  "triggers": ["Exclusion", "Loss of connection", "Physical isolation"],
+  "action_urge": "To seek connection, to withdraw further",
+  "opposites": ["Connection", "Belonging"],
+  "related_ids": ["melancholy"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

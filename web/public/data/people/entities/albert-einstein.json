@@ -1,0 +1,17 @@
+{
+  "id": "albert-einstein",
+  "type": "people",
+  "name": "Albert Einstein",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The theoretical physicist who reshaped our understanding of the universe with the theory of relativity.",
+  "tags": ["intellectual", "science", "legacy", "iconic"],
+  "angles": ["genius", "relativity", "pacifism"],
+  "bar_seeds": ["e equals mc squared", "wild hair", "relativity theory"],
+  "related_ids": [],
+  "known_for": ["Theory of Relativity", "E=mc^2", "Nobel Prize"],
+  "vibe": "Kindly genius, disheveled",
+  "signature_items": ["Wild hair", "Pipe", "No socks"],
+  "quotables_short": ["Imagination is more important than knowledge."],
+  "controversy_flags": []
+}

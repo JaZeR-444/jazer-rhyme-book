@@ -1,0 +1,17 @@
+{
+  "id": "ebay",
+  "type": "brand",
+  "name": "eBay",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The pioneer of online auctions and a global marketplace for everything from collectibles to cars.",
+  "tags": ["business-economics", "technical", "hustle", "classic"],
+  "angles": ["auction-war", "resale-roots", "the-global-garage-sale"],
+  "bar_seeds": ["highest bidder", "sniper bid", "sold on ebay"],
+  "related_ids": ["amazon"],
+  "category": "E-commerce",
+  "price_tier": "Variable",
+  "signature_products": ["Auction Platform", "Buy It Now"],
+  "status_signals": ["High feedback score", "Power seller status"],
+  "bar_angles": ["Bidding for the bag", "Found it on the web", "Second hand gold"]
+}

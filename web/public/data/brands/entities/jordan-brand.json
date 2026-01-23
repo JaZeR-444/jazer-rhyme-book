@@ -1,0 +1,17 @@
+{
+  "id": "jordan-brand",
+  "type": "brand",
+  "name": "Jordan Brand",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A subsidiary of Nike created for Michael Jordan, arguably the most culturally significant sneaker line in history.",
+  "tags": ["sport", "streetwear", "classic", "legacy"],
+  "angles": ["flight", "greatness", "collection"],
+  "bar_seeds": ["jumpman logo", "chicago colorway", "creased ones"],
+  "related_ids": ["nike"],
+  "category": "Sportswear",
+  "price_tier": "Mid",
+  "signature_products": ["Air Jordan 1", "Air Jordan 3", "Air Jordan 11"],
+  "status_signals": ["The Jumpman silhouette", "Wearing 'Grails'"],
+  "bar_angles": ["Flying high", "G.O.A.T. status", "Sneakerhead culture"]
+}

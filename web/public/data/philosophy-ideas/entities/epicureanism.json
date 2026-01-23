@@ -1,0 +1,17 @@
+{
+  "id": "epicureanism",
+  "type": "philosophy-ideas",
+  "name": "Epicureanism",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A system of philosophy that advocates for living a life of simple pleasures to achieve a state of tranquility and freedom from fear.",
+  "tags": ["hedonism", "mellow", "classic", "logic"],
+  "angles": ["absence-of-pain", "tranquility", "garden-philosophy"],
+  "bar_seeds": ["no fear of the gods", "simple bread and water", "peace in the garden"],
+  "related_ids": ["hedonism", "ataraxia"],
+  "school_of_thought": "Hellenistic Philosophy",
+  "core_question": "How can one live a life free from pain and fear?",
+  "key_philosophers": ["Epicurus"],
+  "paradoxes": ["The Epicurean Paradox (The Problem of Evil)"],
+  "modern_application": "Stress reduction, focus on friendships, pursuit of sustainable happiness."
+}

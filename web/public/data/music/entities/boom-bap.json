@@ -1,0 +1,18 @@
+{
+  "id": "boom-bap",
+  "type": "music",
+  "name": "Boom Bap",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The foundation of East Coast hip-hop, defined by hard-hitting drums and soul sampling.",
+  "tags": ["boom-bap", "classic", "lyrical", "grit"],
+  "angles": ["street-poetry", "drum-patterns", "soul-roots"],
+  "bar_seeds": ["kick and snare", "vinyl crackle", "concrete poetry"],
+  "related_ids": ["the-notorious-big", "nas", "wu-tang-clan"],
+  "genre": ["Hip Hop"],
+  "era_detail": "Late 1980s - 1990s (Golden Era)",
+  "signature_songs": ["N.Y. State of Mind", "Shook Ones Pt. II", "C.R.E.A.M."],
+  "sonic_descriptors": ["Heavy kicks", "Crisp snares", "Soulful chops", "12-bit grit"],
+  "influence_tree": ["Jazz", "Soul", "Funk"],
+  "aesthetic": "Timbs and Carhartt"
+}

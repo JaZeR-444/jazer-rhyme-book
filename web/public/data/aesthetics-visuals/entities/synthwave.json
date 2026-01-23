@@ -1,0 +1,20 @@
+{
+  "id": "synthwave",
+  "type": "aesthetics-visuals",
+  "name": "Synthwave",
+  "aliases": ["Retrowave", "Outrun"],
+  "era": "2010s-Present",
+  "tags": ["nostalgic", "futuristic", "80s", "neon"],
+  "one_liner": "A 1980s-inspired aesthetic celebrating retro-futurism, fast cars, and neon-drenched nightscapes.",
+  "angles": ["driving into the sunset", "80s dreamscape", "neon future nostalgia"],
+  "bar_seeds": ["grid horizon", "glowing neon", "testarossa dreams", "synth pads"],
+  "visual_elements": ["neon suns", "grid floors", "digital palm trees", "chrome fonts"],
+  "mood": "Energetic, nostalgic, and dreamy",
+  "associated_eras": ["1980s"],
+  "color_palette": ["neon pink", "purple", "cyan", "black"],
+  "fashion_staples": ["bomber jackets", "retro sunglasses", "high-top sneakers"],
+  "related_ids": ["vaporwave", "cyberpunk"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

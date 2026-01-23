@@ -1,0 +1,20 @@
+{
+  "id": "monastery",
+  "type": "architecture-spaces",
+  "name": "Monastery",
+  "aliases": ["Abbey", "Cloister", "Hermitage"],
+  "era": "Medieval-Present",
+  "tags": ["religious", "isolation", "silent", "discipline"],
+  "one_liner": "A building or buildings occupied by a community of monks living under religious vows.",
+  "angles": ["disciplined isolation", "the architecture of silence", "spiritual fort"],
+  "bar_seeds": ["cloisters", "chanting walls", "vows of silence", "morning bells"],
+  "style": "Romanesque / Gothic / Traditional",
+  "materials": ["Stone", "Wood", "Earth"],
+  "spatial_qualities": ["Secluded", "Minimalist", "Peaceful"],
+  "function": "Spiritual Life / Isolation / Study",
+  "famous_examples": ["Mont-Saint-Michel", "Shaolin Temple", "Meteora"],
+  "related_ids": ["rituals-symbols", "zen"],
+  "created_at": "2023-10-27T10:00:00Z",
+  "updated_at": "2023-10-27T10:00:00Z",
+  "sources": []
+}

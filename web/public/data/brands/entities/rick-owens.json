@@ -1,0 +1,17 @@
+{
+  "id": "rick-owens",
+  "type": "brand",
+  "name": "Rick Owens",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "Avant-garde fashion brand known for its gothic, architectural aesthetic and cult following.",
+  "tags": ["fashion", "dark", "avant-garde", "cult-classic"],
+  "angles": ["goth", "drape", "brutalism"],
+  "bar_seeds": ["rick owens boots", "drop crotch", "lord of darkness"],
+  "related_ids": [],
+  "category": "Fashion",
+  "price_tier": "High",
+  "signature_products": ["Geobasket Sneakers", "Ramones", "Leather Jackets"],
+  "status_signals": ["Elongated drawstrings", "Exaggerated proportions"],
+  "bar_angles": ["Dark luxury", "Fashion cult", "Architectural fit"]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "preppy-fashion",
+  "type": "fashion",
+  "name": "Preppy Fashion",
+  "aliases": [
+    "Ivy Style",
+    "Classic American",
+    "Yacht Rock"
+  ],
+  "era": "1950s-Present",
+  "tags": [
+    "classic",
+    "conservative",
+    "polo",
+    "eastern",
+    "traditional"
+  ],
+  "one_liner": "Classic American style associated with elite prep schools and Ivy League universities.",
+  "angles": [
+    "classic style",
+    "conservative elegance",
+    "traditional values"
+  ],
+  "bar_seeds": [
+    "Polo shirt",
+    "Ivy League look",
+    "Classic style",
+    "Conservative elegance"
+  ],
+  "item_type": "Classic Apparel",
+  "material": [
+    "Cotton",
+    "Wool",
+    "Cashmere",
+    "Linen"
+  ],
+  "cultural_significance": "Represents traditional American upper-class fashion and lifestyle.",
+  "fit": [
+    "Fitted",
+    "Classic",
+    "Tailored"
+  ],
+  "associated_brands": [
+    "Ralph Lauren",
+    "Brooks Brothers",
+    "J. Crew",
+    "Lacoste"
+  ],
+  "related_ids": [
+    "classic",
+    "traditional"
+  ],
+  "created_at": "2025-12-23T12:45:00Z",
+  "updated_at": "2025-12-23T12:45:00Z",
+  "sources": [
+    {
+      "title": "American fashion",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    },
+    {
+      "title": "Ivy League culture",
+      "url": "https://example.com/placeholder",
+      "type": "other",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

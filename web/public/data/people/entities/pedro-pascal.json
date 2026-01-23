@@ -1,0 +1,17 @@
+{
+  "id": "pedro-pascal",
+  "type": "people",
+  "name": "Pedro Pascal",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "The internet's favorite 'daddy', known for playing protective father figures in massive franchises.",
+  "tags": ["vibrant", "cinematic", "pop", "masculinity"],
+  "angles": ["charm", "protection", "father-figure"],
+  "bar_seeds": ["mandalorian helmet", "last of us coat", "internet daddy"],
+  "related_ids": [],
+  "known_for": ["The Mandalorian", "The Last of Us", "Game of Thrones"],
+  "vibe": "Warm, rugged, chaotic good",
+  "signature_items": ["Mustache", "Beskar armor", "Coffee order"],
+  "quotables_short": ["This is the way", "I can bring you in warm..."],
+  "controversy_flags": []
+}

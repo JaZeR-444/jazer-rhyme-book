@@ -1,0 +1,17 @@
+{
+  "id": "maybach-62",
+  "type": "vehicles",
+  "name": "Maybach 62",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An ultra-luxury chauffeur-driven limousine known for its fully reclining rear seats.",
+  "tags": ["luxury", "status", "00s", "exclusive"],
+  "angles": ["wealth", "comfort", "chauffeur"],
+  "bar_seeds": ["curtains closed", "reclining seats", "maybach music"],
+  "related_ids": ["rolls-royce-phantom"],
+  "vehicle_type": "Limousine",
+  "engine_type": "V12",
+  "top_speed": "155 mph",
+  "cultural_status": "The ultimate symbol of early 2000s rap opulence.",
+  "design_features": ["Panoramic roof", "Partition wall", "Champagne flutes"]
+}

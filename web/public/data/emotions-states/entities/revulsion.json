@@ -1,0 +1,18 @@
+{
+  "id": "revulsion",
+  "type": "emotions-states",
+  "name": "Revulsion",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A sense of disgust and loathing so strong it produces a physical reaction.",
+  "tags": ["negative", "raw", "visceral", "fear"],
+  "angles": ["skin-crawling", "moral-horror", "primal-rejection"],
+  "bar_seeds": ["blood run cold", "sick to the stomach", "unbearable stench"],
+  "related_ids": ["disgust"],
+  "intensity": "High",
+  "physical_symptoms": ["Nausea", "Shivering", "Urge to vomit", "Flight response"],
+  "triggers": ["Rot", "Deformity", "Extreme hypocrisy", "Gore"],
+  "action_urge": "To flee, cleanse, or distance oneself immediately.",
+  "opposites": ["Attraction", "Fascination"],
+  "related_ids": ["disgust", "dark"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "quantum-leap",
+  "type": "time-energy",
+  "name": "Quantum Leap",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An abrupt, non-linear transition from one state to another without passing through intermediate stages.",
+  "tags": ["quantum", "innovative", "technical", "momentum"],
+  "angles": ["transformation", "suddenness", "discontinuity"],
+  "bar_seeds": ["jump the gap", "teleport the flow", "level up instantly"],
+  "related_ids": ["potential-energy", "momentum"],
+  "concept_type": "Physics/Metaphorical",
+  "perception": "Sudden, dramatic, and scale-shifting.",
+  "physics_basis": "Electron energy level transitions.",
+  "cultural_view": "A metaphor for huge progress or change in a short time.",
+  "idioms": ["A massive step forward", "Bypassing the middle man", "Instant evolution"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ltv",
+  "type": "business-economics",
+  "name": "Lifetime Value (LTV)",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An estimate of the total revenue a business can reasonably expect from a single customer account throughout the business relationship.",
+  "tags": ["technical", "marketing", "wealth", "metric"],
+  "angles": ["long-term-profit", "loyalty-value", "future-returns"],
+  "bar_seeds": ["customer for life", "long tail profit", "high value target"],
+  "related_ids": ["cac"],
+  "industry": "Marketing / SaaS",
+  "core_principle": "The future value of a current customer.",
+  "jargon": ["CLV", "Unit economics", "Gross margin"],
+  "key_metrics": ["Average Revenue Per User (ARPU)", "Average Lifespan"],
+  "archetypes": ["Growth Marketer", "Strategic Investor"]
+}

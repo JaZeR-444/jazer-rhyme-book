@@ -1,0 +1,50 @@
+{
+  "id": "me-too-movement",
+  "type": "history",
+  "name": "Me Too Movement",
+  "aliases": [
+    "#MeToo"
+  ],
+  "era": "2017-Present",
+  "tags": [
+    "political",
+    "rebellion",
+    "mainstream",
+    "contemporary"
+  ],
+  "one_liner": "A movement against sexual harassment and assault in workplaces and society.",
+  "angles": [
+    "accountability wave",
+    "voices heard",
+    "power imbalance"
+  ],
+  "bar_seeds": [
+    "silence broke",
+    "truth in the light",
+    "accountability era"
+  ],
+  "key_dates": [
+    "2017 (viral resurgence)",
+    "2018 (global impact)"
+  ],
+  "location": "Global",
+  "impact": "Shifted workplace norms, policy responses, and public discourse.",
+  "major_figures": [
+    "Tarana Burke"
+  ],
+  "cultural_shift": "Public conversations about consent and power expanded dramatically.",
+  "related_ids": [
+    "social-contract",
+    "black-lives-matter-movement"
+  ],
+  "created_at": "2026-01-06T17:30:00Z",
+  "updated_at": "2026-01-06T17:30:00Z",
+  "sources": [
+    {
+      "title": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MeToo_movement",
+      "type": "wiki",
+      "accessed_at": "2026-01-06"
+    }
+  ]
+}

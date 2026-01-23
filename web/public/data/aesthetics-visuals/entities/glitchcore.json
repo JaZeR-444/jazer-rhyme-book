@@ -1,0 +1,17 @@
+{
+  "id": "glitchcore",
+  "type": "aesthetics-visuals",
+  "name": "Glitchcore",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "An aesthetic centered on digital errors, pixelation, and distorted visuals, often paired with high-energy music.",
+  "tags": ["technical", "synthetic", "internet-culture", "hyperpop"],
+  "angles": ["error", "distortion", "chaos"],
+  "bar_seeds": ["screen flicker", "pixel bleed", "system crash"],
+  "related_ids": ["hyperpop"],
+  "visual_elements": ["Static", "Rainbow pixelation", "Distorted text", "Low-bit graphics"],
+  "mood": "Chaotic, frantic, energetic",
+  "associated_eras": ["2020s"],
+  "color_palette": ["Neon Green", "CMYK Blue", "Magenta", "White Noise"],
+  "fashion_staples": ["DIY punk gear", "Neon accents", "Graphic tees", "Mismatched accessories"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vault",
+  "type": "architecture-spaces",
+  "name": "Vault",
+  "created_at": "2026-01-06T12:00:00Z",
+  "updated_at": "2026-01-06T12:00:00Z",
+  "one_liner": "A secure room or compartment used to store money, valuables, or records.",
+  "tags": ["security", "wealth", "technical", "industrial"],
+  "angles": ["impenetrability", "hidden-wealth", "cold-steel"],
+  "bar_seeds": ["heist-ready", "behind the steel door", "locking the gold"],
+  "related_ids": ["gold-bar", "stack-of-cash"],
+  "style": "Industrial / High-Security",
+  "materials": ["Steel", "Reinforced Concrete", "Electronic Locks"],
+  "spatial_qualities": ["Windowless", "Sealed", "Cramped"],
+  "function": "Security / Storage",
+  "famous_examples": ["Fort Knox", "Svalbard Global Seed Vault"]
+}
