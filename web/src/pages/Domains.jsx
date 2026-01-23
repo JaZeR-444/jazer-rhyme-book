@@ -3,7 +3,7 @@ import { SearchBar, LoadingState, EmptyState } from '../components/ui';
 import { usePageTitle } from '../lib/usePageTitle';
 import { DomainGrid, DOMAIN_METADATA } from '../components/DomainGrid';
 import { useDomains } from '../lib/hooks';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Domains.css';
 
 export function Domains() {
@@ -11,6 +11,35 @@ export function Domains() {
   const { domains, loading, error } = useDomains();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [stats, setStats] = useState({});
+
+  // Load entity counts for each domain
+  useEffect(() => {
+    if (domains.length === 0) return;
+
+    async function loadEntityCounts() {
+      const counts = {};
+      
+      await Promise.all(
+        domains.map(async (domain) => {
+          try {
+            const response = await fetch(`${import.meta.env.BASE_URL}data/${domain}/entities-manifest.json`);
+            if (response.ok) {
+              const manifest = await response.json();
+              counts[domain] = manifest.files?.length || 0;
+            }
+          } catch (err) {
+            console.warn(`Failed to load entity count for ${domain}:`, err);
+            counts[domain] = 0;
+          }
+        })
+      );
+      
+      setStats(counts);
+    }
+
+    loadEntityCounts();
+  }, [domains]);
 
   // Get unique categories
   const categories = [...new Set(Object.values(DOMAIN_METADATA).map(m => m.category))].filter(Boolean).sort();
@@ -77,7 +106,7 @@ export function Domains() {
       </div>
 
       {filteredDomains.length > 0 ? (
-        <DomainGrid domains={filteredDomains} />
+        <DomainGrid domains={filteredDomains} stats={stats} />
       ) : (
         <EmptyState
           icon={<SearchIcon size={48} />}
