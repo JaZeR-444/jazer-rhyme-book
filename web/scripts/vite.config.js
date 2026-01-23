@@ -1,21 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
-import { createCompressionPlugin } from 'vite-plugin-compression'
+import viteCompression from 'vite-plugin-compression'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
-    mode === 'production' && createCompressionPlugin({
+    mode === 'production' && viteCompression({
       ext: '.gz',
       algorithm: 'gzip',
       threshold: 1024, // Only compress files larger than 1KB
       deleteOriginFile: false, // Keep original files too
     })
   ].filter(Boolean),
-  // Allow overriding base at deploy time via VITE_BASE (defaults to root)
-  base: process.env.VITE_BASE || '/',
+  // Allow overriding base at deploy time via VITE_BASE (defaults to GitHub Pages base)
+  base: process.env.VITE_BASE || '/jazer-rhyme-book/',
   resolve: {
     alias: {
       // Allow importing from internal public data folders
@@ -65,7 +65,7 @@ export default defineConfig(({ mode }) => ({
           // Vendor chunks
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
           'search-vendor': ['fuse.js', 'natural', 'metaphone'],
-          'ui-vendor': ['react-window', 'react-virtualized-auto-sizer'],
+          'ui-vendor': ['@tanstack/react-virtual'],
           'audio-vendor': ['wavesurfer.js'],
           'graph-vendor': ['react-force-graph-2d', 'd3-force'],
           'animation-vendor': ['gsap'],
@@ -96,13 +96,14 @@ export default defineConfig(({ mode }) => ({
       'fuse.js',
       'natural',
       'metaphone',
-      'react-window',
-      'react-virtualized-auto-sizer',
       'wavesurfer.js',
       'gsap'
     ],
-    // Exclude files using glob patterns with aliases during dep scan
-    exclude: ['@data/**', '@dictionary/**'],
+    // Entries to scan for dependencies
+    entries: [
+      'src/main.jsx',
+      'src/App.jsx',
+    ],
   },
   preview: {
     port: 4173,
