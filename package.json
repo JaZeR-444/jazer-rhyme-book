@@ -7,7 +7,6 @@
     "validate": "node src/scripts/build/validate.js",
     "build": "node src/scripts/build/build-indexes.js",
     "build-all": "node src/scripts/build/prepare-hub.js",
-    "prepare": "node -e \"const fs=require('fs');const {execSync}=require('child_process');const script='src/scripts/build/prepare-hub.js';if(fs.existsSync(script)){execSync(`node ${script}`,{stdio:'inherit'});}else{console.log('prepare skipped: '+script+' not found');}\"",
     "dev": "npm run dev --prefix web",
     "start": "npm run dev --prefix web",
     "status": "node src/cli/jazer-cli.js status",
