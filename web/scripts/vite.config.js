@@ -14,8 +14,8 @@ export default defineConfig(({ mode }) => ({
       deleteOriginFile: false, // Keep original files too
     })
   ].filter(Boolean),
-  // Allow overriding base at deploy time via VITE_BASE (defaults to GitHub Pages base)
-  base: process.env.VITE_BASE || '/jazer-rhyme-book/',
+  // Use base path only in production for GitHub Pages
+  base: mode === 'production' ? '/jazer-rhyme-book/' : '/',
   resolve: {
     alias: {
       // Allow importing from internal public data folders
